@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Datos crudos: se regeneran con `rma ingesta`. Los procesados SÍ se versionan
+# (son pequeños y permiten construir la web sin volver a descargar nada).
+data/raw/
+
+# Modelos binarios
+models/*.joblib
+
+# Observable Framework
+web/node_modules/
+web/dist/
+web/src/.observablehq/cache/
+
+.DS_Store

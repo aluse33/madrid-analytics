@@ -1,0 +1,1158 @@
+shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacion,parte_cuerpo,xg_understat,xg_propio,resultado
+52501,12289,2025/26,Real Madrid,Central Alto,Delantero Canterano,82,76.5600,25.5300,29.6800,Open Play,Other,0.0085,0.0101,parado
+52502,12289,2025/26,Real Madrid,Delantero Canterano,,79,84.9900,29.2500,20.5700,Direct Freekick,Left Foot,0.0516,0.0369,bloqueado
+52503,12289,2025/26,Real Madrid,Delantero Centro,Extremo Derecho,95,97.0500,46.8200,15.0800,From Corner,Right Foot,0.1320,0.0686,fuera
+52504,12289,2025/26,Real Madrid,Pivote Suplente,,12,97.2900,41.3700,10.6600,Set Piece,Left Foot,0.2147,0.1832,bloqueado
+52505,12289,2025/26,Real Madrid,Central Canterano,Mediapunta Joven,93,91.1700,39.9000,15.0400,Open Play,Other,0.0545,0.0448,fuera
+52506,12289,2025/26,Real Madrid,Delantero Canterano,Mediocentro Ancla,1,93.8000,23.3800,15.4400,Open Play,Right Foot,0.1293,0.1084,fuera
+52507,12289,2025/26,Real Madrid,Delantero Centro,,34,83.3800,22.0600,24.7000,Direct Freekick,Left Foot,0.0201,0.0188,parado
+52508,12289,2025/26,Real Madrid,Delantero Canterano,Pivote Suplente,72,95.4600,15.4100,20.9000,Open Play,Right Foot,0.0305,0.0405,bloqueado
+52509,12289,2025/26,Real Madrid,Extremo Derecho,Pivote Suplente,44,92.7300,42.7200,15.0600,Open Play,Other,0.0430,0.0452,gol
+52510,12289,2025/26,Real Madrid,Central Alto,,68,75.2400,33.8400,29.7600,Open Play,Right Foot,0.0226,0.0162,bloqueado
+52511,12289,2025/26,Real Madrid,Extremo Derecho,Delantero Centro,95,93.9200,39.0300,12.1600,Open Play,Right Foot,0.1245,0.1711,parado
+52512,12289,2025/26,Real Madrid,Delantero Canterano,,32,82.1600,55.5300,31.3900,Open Play,Right Foot,0.0092,0.0159,fuera
+52513,12289,2025/26,Real Madrid,Extremo Derecho,Pivote Suplente,22,84.9600,35.4300,20.1000,From Corner,Right Foot,0.0434,0.0595,parado
+52514,12289,2025/26,Atletico Madrid,ATL 09,ATL 15,49,83.2200,37.1600,22.0100,Open Play,Right Foot,0.0519,0.0533,gol
+52515,12289,2025/26,Atletico Madrid,ATL 09,ATL 05,69,73.0300,29.7600,32.2500,Open Play,Right Foot,0.0143,0.0146,fuera
+52516,12289,2025/26,Atletico Madrid,ATL 15,ATL 20,4,91.2100,48.5700,20.0600,From Corner,Other,0.0254,0.0259,parado
+52517,12289,2025/26,Atletico Madrid,ATL 16,ATL 06,4,94.5500,42.7100,13.6000,Open Play,Right Foot,0.1218,0.1296,parado
+52518,12289,2025/26,Atletico Madrid,ATL 15,,50,94.0000,34.0000,11.0000,Penalty,Left Foot,0.7796,0.7551,gol
+52519,12289,2025/26,Atletico Madrid,ATL 04,ATL 20,67,86.4700,47.1600,22.7300,Open Play,Right Foot,0.0471,0.0435,bloqueado
+52520,12289,2025/26,Atletico Madrid,ATL 16,ATL 09,76,82.3300,26.4500,23.9000,Open Play,Left Foot,0.0305,0.0257,fuera
+52521,12289,2025/26,Atletico Madrid,ATL 20,,59,88.9800,52.6700,24.6100,Open Play,Right Foot,0.0384,0.0289,poste
+52522,12289,2025/26,Atletico Madrid,ATL 15,ATL 06,30,85.6300,45.2500,22.4000,Open Play,Left Foot,0.0550,0.0429,parado
+52523,12289,2025/26,Atletico Madrid,ATL 17,,69,80.0100,33.1900,25.0000,Open Play,Left Foot,0.0296,0.0245,bloqueado
+52524,12289,2025/26,Atletico Madrid,ATL 20,ATL 10,11,85.9000,25.1200,21.0600,Open Play,Left Foot,0.0568,0.0488,fuera
+52703,12298,2025/26,Real Betis,REA 16,,88,99.1400,25.7500,10.1200,Open Play,Right Foot,0.1374,0.1667,bloqueado
+52704,12298,2025/26,Real Betis,REA 04,,38,80.1500,28.4200,25.4700,Direct Freekick,Right Foot,0.0240,0.0207,fuera
+52705,12298,2025/26,Real Betis,REA 09,REA 04,46,85.4300,30.6500,19.8600,Open Play,Right Foot,0.0556,0.0490,bloqueado
+52706,12298,2025/26,Real Betis,REA 04,,28,95.7300,54.9200,22.8900,Open Play,Right Foot,0.0263,0.0444,parado
+52707,12298,2025/26,Real Betis,REA 17,REA 09,8,96.5500,46.4000,15.0100,From Corner,Other,0.0347,0.0334,fuera
+52708,12298,2025/26,Real Betis,REA 15,REA 09,81,86.6000,46.3300,22.1500,Open Play,Other,0.0275,0.0236,fuera
+52709,12298,2025/26,Real Betis,REA 11,,63,94.0000,34.0000,11.0000,Penalty,Right Foot,0.7708,0.7551,gol
+52710,12298,2025/26,Real Madrid,Interior Llegador,Lateral Suplente,87,89.3000,52.3000,24.1100,Open Play,Right Foot,0.0367,0.0289,fuera
+52711,12298,2025/26,Real Madrid,Extremo Canterano,Interior Creativo,37,91.5100,26.6100,15.3800,Open Play,Right Foot,0.1261,0.1051,bloqueado
+52712,12298,2025/26,Real Madrid,Delantero Centro,Pivote Suplente,21,82.9800,46.1700,25.1600,Open Play,Left Foot,0.0356,0.0266,fuera
+52713,12298,2025/26,Real Madrid,Lateral Diestro,Extremo Derecho,13,99.1400,22.6000,12.8100,Open Play,Right Foot,0.1237,0.1113,parado
+52714,12298,2025/26,Real Madrid,Extremo Derecho,Lateral Suplente,17,95.9200,33.5100,9.1000,Set Piece,Left Foot,0.2602,0.2734,fuera
+52715,12298,2025/26,Real Madrid,Extremo Derecho,,85,94.0000,34.0000,11.0000,Penalty,Right Foot,0.8211,0.7551,fuera
+52716,12298,2025/26,Real Madrid,Extremo Derecho,Pivote Canterano,28,90.0600,33.2400,14.9600,From Corner,Other,0.0638,0.0405,bloqueado
+52717,12298,2025/26,Real Madrid,Interior Creativo,Extremo Derecho,16,74.8900,31.9900,30.1800,Open Play,Right Foot,0.0158,0.0215,fuera
+52718,12298,2025/26,Real Madrid,Extremo Derecho,Delantero Centro,37,87.9300,34.6100,17.0800,Open Play,Other,0.0317,0.0413,gol
+52719,12298,2025/26,Real Madrid,Extremo Canterano,Pivote Suplente,76,94.3800,48.0100,17.5800,From Corner,Right Foot,0.0642,0.0532,bloqueado
+52720,12298,2025/26,Real Madrid,Extremo Canterano,Lateral Suplente,59,65.0000,63.5900,49.7600,Open Play,Right Foot,0.0050,0.0085,fuera
+52721,12298,2025/26,Real Madrid,Pivote Suplente,Pivote Canterano,84,90.3400,38.7500,15.4100,Open Play,Right Foot,0.0845,0.0955,fuera
+52722,12298,2025/26,Real Madrid,Pivote Suplente,Central Rápido,71,91.5700,11.3000,26.3700,Open Play,Other,0.0127,0.0119,parado
+52723,12298,2025/26,Real Madrid,Pivote Suplente,Interior Creativo,62,87.1100,9.1800,30.6000,Open Play,Other,0.0050,0.0071,fuera
+52724,12298,2025/26,Real Madrid,Delantero Centro,Pivote Suplente,56,79.8100,42.7900,26.6800,Open Play,Other,0.0161,0.0187,parado
+52889,12307,2025/26,Real Madrid,Extremo Izquierdo,,86,95.9400,33.2100,9.1000,Set Piece,Right Foot,0.3228,0.2734,bloqueado
+52890,12307,2025/26,Real Madrid,Interior Llegador,Mediocentro Ancla,80,84.2600,40.4300,21.7100,Open Play,Right Foot,0.0432,0.0566,fuera
+52891,12307,2025/26,Real Madrid,Pivote Suplente,Interior Llegador,31,83.4200,49.5100,26.5700,Open Play,Right Foot,0.0385,0.0247,bloqueado
+52892,12307,2025/26,Real Madrid,Extremo Izquierdo,Central Rápido,64,96.7800,36.2600,8.5300,Open Play,Right Foot,0.3573,0.3012,parado
+52893,12307,2025/26,Real Madrid,Central Rápido,Mediocentro Ancla,76,90.6900,24.2900,17.2900,Open Play,Right Foot,0.0951,0.0826,parado
+52894,12307,2025/26,Real Madrid,Mediocentro Ancla,,49,93.8200,51.6900,20.9300,Open Play,Right Foot,0.0455,0.0441,bloqueado
+52895,12307,2025/26,Real Madrid,Extremo Izquierdo,,65,93.9400,23.1000,15.5300,Open Play,Other,0.0453,0.0382,poste
+52896,12307,2025/26,Real Madrid,Extremo Izquierdo,Mediapunta Joven,67,97.0800,28.6100,9.5800,From Corner,Other,0.1067,0.1051,gol
+52897,12307,2025/26,Real Madrid,Delantero Centro,Pivote Suplente,46,87.2900,46.6000,21.7400,Open Play,Right Foot,0.0543,0.0466,fuera
+52898,12307,2025/26,Real Madrid,Extremo Derecho,Mediocentro Ancla,33,69.3100,42.4200,36.6700,Set Piece,Right Foot,0.0091,0.0075,fuera
+52899,12307,2025/26,Real Madrid,Mediocentro Ancla,,32,82.7300,35.0500,22.3000,Open Play,Right Foot,0.0546,0.0501,fuera
+52900,12307,2025/26,Real Madrid,Delantero Centro,,67,96.2500,37.5800,9.4500,From Corner,Right Foot,0.2333,0.2466,gol
+52901,12307,2025/26,Real Madrid,Extremo Izquierdo,Lateral Zurdo,72,81.3300,41.2900,24.7600,Open Play,Left Foot,0.0272,0.0266,parado
+52902,12307,2025/26,Real Madrid,Extremo Izquierdo,Pivote Suplente,31,90.8700,33.9200,14.1300,Open Play,Right Foot,0.1996,0.1094,fuera
+52903,12307,2025/26,Real Madrid,Central Canterano,,61,85.8600,29.4400,19.6800,From Corner,Right Foot,0.0630,0.0603,poste
+52904,12307,2025/26,Real Madrid,Extremo Izquierdo,Pivote Suplente,13,96.5700,24.7100,12.5400,Open Play,Left Foot,0.1025,0.1335,fuera
+52905,12307,2025/26,Real Madrid,Extremo Izquierdo,,19,93.0800,25.8700,14.4200,From Corner,Left Foot,0.1558,0.1046,fuera
+52906,12307,2025/26,Real Madrid,Delantero Centro,,63,87.7100,22.4100,20.8200,Direct Freekick,Right Foot,0.0360,0.0393,parado
+52907,12307,2025/26,Real Madrid,Extremo Derecho,Pivote Suplente,88,98.4600,32.3300,6.7500,Set Piece,Right Foot,0.5194,0.4418,fuera
+52908,12307,2025/26,Getafe,GET 17,,22,74.6300,42.4000,31.5100,Open Play,Left Foot,0.0151,0.0153,poste
+52909,12307,2025/26,Getafe,GET 11,GET 20,16,78.4500,31.2200,26.7000,Open Play,Left Foot,0.0281,0.0239,fuera
+52910,12307,2025/26,Getafe,GET 03,GET 17,26,88.2100,30.8200,17.0900,Open Play,Right Foot,0.0950,0.0848,fuera
+52911,12307,2025/26,Getafe,GET 17,,15,90.0200,62.2700,31.9900,Open Play,Right Foot,0.0148,0.0132,fuera
+52912,12307,2025/26,Getafe,GET 04,GET 17,30,96.5100,22.8200,14.0400,Open Play,Right Foot,0.0716,0.1097,poste
+52913,12307,2025/26,Getafe,GET 20,GET 18,74,87.4800,29.4200,18.1100,Open Play,Right Foot,0.0701,0.0798,fuera
+52914,12307,2025/26,Getafe,GET 16,,19,89.8800,32.9900,15.1500,Open Play,Right Foot,0.1633,0.0920,bloqueado
+52915,12307,2025/26,Getafe,GET 18,,40,90.4200,32.9900,14.6200,Open Play,Right Foot,0.1629,0.0964,fuera
+52916,12307,2025/26,Getafe,GET 18,,47,85.2500,34.6100,19.7600,Direct Freekick,Left Foot,0.0627,0.0391,parado
+53082,12316,2025/26,Espanyol,ESP 16,ESP 14,19,82.5900,32.4800,22.4600,Set Piece,Right Foot,0.0506,0.0544,poste
+53083,12316,2025/26,Espanyol,ESP 13,,52,90.6300,33.4600,14.3800,Open Play,Left Foot,0.1051,0.1094,parado
+53084,12316,2025/26,Espanyol,ESP 14,,5,85.8000,53.9500,27.6900,Open Play,Right Foot,0.0188,0.0198,bloqueado
+53085,12316,2025/26,Espanyol,ESP 17,ESP 03,62,82.6500,64.0000,37.4100,Open Play,Right Foot,0.0068,0.0114,fuera
+53086,12316,2025/26,Espanyol,ESP 16,,42,98.4100,50.2000,17.4900,Open Play,Right Foot,0.0642,0.0667,gol
+53087,12316,2025/26,Espanyol,ESP 13,,64,91.0800,39.1500,14.8400,Open Play,Left Foot,0.1061,0.0955,bloqueado
+53088,12316,2025/26,Espanyol,ESP 17,,66,88.0300,33.0800,16.9900,Open Play,Right Foot,0.1041,0.0902,parado
+53089,12316,2025/26,Espanyol,ESP 19,,74,93.7500,48.0400,17.9800,Open Play,Left Foot,0.0534,0.0496,fuera
+53090,12316,2025/26,Espanyol,ESP 15,ESP 12,3,98.6100,47.5300,14.9600,Open Play,Right Foot,0.0858,0.0830,fuera
+53091,12316,2025/26,Espanyol,ESP 19,ESP 07,79,90.8500,25.9000,16.3100,Open Play,Right Foot,0.0846,0.0971,parado
+53092,12316,2025/26,Espanyol,ESP 19,,93,95.3200,20.5700,16.5600,Open Play,Left Foot,0.0896,0.0702,fuera
+53093,12316,2025/26,Espanyol,ESP 17,,3,86.9000,32.1700,18.1900,Open Play,Left Foot,0.0714,0.0804,bloqueado
+53094,12316,2025/26,Real Madrid,Lateral Suplente,Extremo Izquierdo,90,96.6700,45.5700,14.2600,Open Play,Other,0.0476,0.0374,bloqueado
+53095,12316,2025/26,Real Madrid,Interior Creativo,Extremo Izquierdo,58,88.0300,43.6400,19.5100,Open Play,Right Foot,0.0631,0.0663,fuera
+53096,12316,2025/26,Real Madrid,Delantero Centro,Extremo Derecho,16,76.0900,64.0000,41.6600,Open Play,Left Foot,0.0050,0.0100,bloqueado
+53097,12316,2025/26,Real Madrid,Extremo Derecho,Delantero Canterano,23,85.7200,56.2200,29.4200,Open Play,Right Foot,0.0139,0.0142,parado
+53098,12316,2025/26,Real Madrid,Interior Creativo,Lateral Diestro,22,95.1200,20.0100,17.1300,Set Piece,Right Foot,0.0715,0.0631,fuera
+53099,12316,2025/26,Real Madrid,Central Joven,Pivote Canterano,36,92.2500,39.8100,14.0100,Open Play,Right Foot,0.1494,0.1298,gol
+53100,12316,2025/26,Real Madrid,Delantero Centro,Interior Creativo,83,92.9200,56.5700,25.6000,Open Play,Left Foot,0.0279,0.0271,fuera
+53101,12316,2025/26,Real Madrid,Extremo Derecho,Lateral Suplente,47,79.5200,37.5800,25.7300,Open Play,Right Foot,0.0340,0.0248,fuera
+53102,12316,2025/26,Real Madrid,Extremo Izquierdo,Pivote Canterano,82,67.6400,34.8900,37.3700,Open Play,Left Foot,0.0053,0.0075,bloqueado
+53103,12316,2025/26,Real Madrid,Extremo Izquierdo,Extremo Derecho,95,65.0000,49.3300,42.8400,Open Play,Other,0.0050,0.0062,fuera
+53104,12316,2025/26,Real Madrid,Interior Canterano,Interior Llegador,33,84.2300,40.4700,21.7500,Open Play,Right Foot,0.0621,0.0511,bloqueado
+53105,12316,2025/26,Real Madrid,Extremo Izquierdo,,57,97.3800,28.2300,9.5600,From Corner,Right Foot,0.2674,0.2267,parado
+53106,12316,2025/26,Real Madrid,Extremo Izquierdo,Interior Canterano,64,73.7800,39.4400,31.6900,From Corner,Other,0.0060,0.0088,fuera
+53107,12316,2025/26,Real Madrid,Lateral Suplente,,66,88.9200,32.4400,16.1500,Open Play,Right Foot,0.1493,0.1132,bloqueado
+53108,12316,2025/26,Real Madrid,Delantero Canterano,Central Joven,6,80.4900,43.8300,26.4000,From Corner,Left Foot,0.0179,0.0236,parado
+53109,12316,2025/26,Real Madrid,Delantero Centro,Extremo Derecho,49,65.2800,31.5000,39.8000,Open Play,Left Foot,0.0067,0.0074,fuera
+53110,12316,2025/26,Real Madrid,Lateral Suplente,Interior Canterano,49,90.4500,27.7400,15.8400,Open Play,Right Foot,0.0916,0.0958,fuera
+53111,12316,2025/26,Real Madrid,Delantero Centro,,59,89.1400,33.9800,15.8600,Open Play,Right Foot,0.0883,0.1187,gol
+53112,12316,2025/26,Real Madrid,Interior Creativo,Extremo Izquierdo,71,82.9400,42.2600,23.5600,Open Play,Left Foot,0.0419,0.0329,parado
+53288,12325,2025/26,Real Madrid,Delantero Centro,Mediapunta Joven,36,94.2100,26.3600,13.2200,From Corner,Right Foot,0.1470,0.1412,bloqueado
+53289,12325,2025/26,Real Madrid,Delantero Centro,Pivote Suplente,29,97.5300,32.5100,7.6100,Open Play,Other,0.1700,0.1597,bloqueado
+53290,12325,2025/26,Real Madrid,Mediocentro Ancla,Pivote Suplente,16,87.9500,37.8800,17.4900,Open Play,Right Foot,0.0948,0.0853,bloqueado
+53291,12325,2025/26,Real Madrid,Mediocentro Ancla,,20,97.5700,41.1900,10.3500,Open Play,Right Foot,0.2571,0.1853,bloqueado
+53292,12325,2025/26,Real Madrid,Delantero Centro,Pivote Suplente,70,85.5300,23.4700,22.1300,Open Play,Left Foot,0.0446,0.0428,parado
+53293,12325,2025/26,Real Madrid,Mediocentro Ancla,Pivote Suplente,23,86.2900,31.6700,18.8600,Open Play,Right Foot,0.0882,0.0770,fuera
+53294,12325,2025/26,Real Madrid,Delantero Centro,Pivote Suplente,51,90.7300,37.1800,14.6200,Open Play,Left Foot,0.1000,0.0964,parado
+53295,12325,2025/26,Real Madrid,Lateral Suplente,Mediocentro Ancla,60,98.3200,32.7100,6.8000,Open Play,Other,0.2675,0.2517,parado
+53296,12325,2025/26,Real Madrid,Delantero Suplente,Delantero Centro,54,90.8400,26.7900,15.8900,Open Play,Right Foot,0.1038,0.0912,fuera
+53297,12325,2025/26,Real Madrid,Extremo Izquierdo,Lateral Diestro,36,78.6400,15.1100,32.4300,Open Play,Left Foot,0.0143,0.0083,parado
+53298,12325,2025/26,Real Madrid,Mediapunta Joven,,11,95.4200,51.6300,20.0600,Open Play,Right Foot,0.0501,0.0535,gol
+53299,12325,2025/26,Real Madrid,Mediocentro Ancla,Lateral Suplente,92,86.7500,24.0500,20.7800,Open Play,Right Foot,0.0567,0.0642,bloqueado
+53300,12325,2025/26,Real Madrid,Extremo Izquierdo,Mediapunta Joven,2,85.3100,26.3000,21.1400,Open Play,Left Foot,0.0359,0.0508,bloqueado
+53301,12325,2025/26,Real Madrid,Delantero Suplente,Mediocentro Ancla,19,100.8700,33.0500,4.2300,Open Play,Right Foot,0.7076,0.5133,gol
+53302,12325,2025/26,Real Madrid,Extremo Derecho,Mediapunta Joven,92,89.9300,49.8200,21.8500,Open Play,Left Foot,0.0427,0.0455,gol
+53303,12325,2025/26,Real Madrid,Mediapunta Joven,Mediocentro Ancla,60,92.0800,46.0600,17.6700,Open Play,Right Foot,0.0405,0.0699,fuera
+53304,12325,2025/26,Real Madrid,Extremo Derecho,,80,86.5400,46.1600,22.1000,Direct Freekick,Right Foot,0.0390,0.0361,fuera
+53305,12325,2025/26,Real Madrid,Mediapunta Joven,Extremo Derecho,40,97.8000,44.5700,12.7900,Open Play,Right Foot,0.0965,0.1277,fuera
+53306,12325,2025/26,Real Madrid,Delantero Centro,Mediocentro Ancla,77,92.7200,52.6600,22.3400,Open Play,Right Foot,0.0407,0.0431,parado
+53307,12325,2025/26,Athletic Club,ATH 11,ATH 05,38,98.9200,35.8800,6.3600,Open Play,Left Foot,0.4020,0.4589,fuera
+53308,12325,2025/26,Athletic Club,ATH 15,ATH 13,47,91.8400,49.2500,20.1400,Open Play,Right Foot,0.0463,0.0465,parado
+53309,12325,2025/26,Athletic Club,ATH 11,,73,92.7200,29.8400,12.9700,Open Play,Right Foot,0.2128,0.1541,gol
+53310,12325,2025/26,Athletic Club,ATH 16,,64,89.6300,44.2800,18.4900,Open Play,Left Foot,0.0745,0.0725,bloqueado
+53311,12325,2025/26,Athletic Club,ATH 10,ATH 15,15,79.2100,31.4200,25.9200,Set Piece,Left Foot,0.0228,0.0232,parado
+53312,12325,2025/26,Athletic Club,ATH 15,ATH 10,62,75.4400,21.9500,31.9200,Open Play,Right Foot,0.0123,0.0124,fuera
+53313,12325,2025/26,Athletic Club,ATH 12,,67,91.0000,40.3400,15.3700,Open Play,Right Foot,0.1228,0.0952,fuera
+53314,12325,2025/26,Athletic Club,ATH 17,ATH 10,9,85.9100,35.6500,19.1600,Open Play,Other,0.0345,0.0291,bloqueado
+53315,12325,2025/26,Athletic Club,ATH 15,,81,79.2200,30.1100,26.0700,Open Play,Other,0.0125,0.0260,gol
+53316,12325,2025/26,Athletic Club,ATH 17,ATH 13,23,89.9600,21.9700,19.2600,Open Play,Right Foot,0.0399,0.0584,parado
+53529,12334,2025/26,Elche,ELC 09,ELC 04,94,65.0000,64.0000,50.0000,Open Play,Right Foot,0.0050,0.0085,parado
+53530,12334,2025/26,Elche,ELC 18,ELC 21,67,85.5600,33.0400,19.4600,Open Play,Left Foot,0.0483,0.0502,fuera
+53531,12334,2025/26,Elche,ELC 18,ELC 16,61,95.3500,50.6000,19.2000,Open Play,Left Foot,0.0580,0.0534,fuera
+53532,12334,2025/26,Elche,ELC 16,,78,89.2900,32.9100,15.7500,Open Play,Left Foot,0.1111,0.0966,fuera
+53533,12334,2025/26,Elche,ELC 17,ELC 05,14,90.7400,31.9500,14.4100,Open Play,Right Foot,0.1103,0.1024,fuera
+53534,12334,2025/26,Elche,ELC 17,,41,87.8000,46.6600,21.3600,Open Play,Other,0.0174,0.0235,parado
+53535,12334,2025/26,Elche,ELC 21,,47,83.3500,28.8100,22.2600,Open Play,Right Foot,0.0411,0.0501,bloqueado
+53536,12334,2025/26,Elche,ELC 19,ELC 09,2,93.6900,56.8800,25.5200,Open Play,Right Foot,0.0229,0.0305,parado
+53537,12334,2025/26,Elche,ELC 18,ELC 20,50,87.4500,50.8500,24.3300,Open Play,Right Foot,0.0314,0.0311,parado
+53538,12334,2025/26,Elche,ELC 20,ELC 16,5,99.3100,30.3900,6.7400,Open Play,Right Foot,0.2993,0.3556,parado
+53539,12334,2025/26,Real Madrid,Delantero Centro,Interior Creativo,51,91.0500,36.2600,14.1400,Open Play,Right Foot,0.1073,0.1094,bloqueado
+53540,12334,2025/26,Real Madrid,Extremo Derecho,Extremo Izquierdo,63,88.2100,37.7900,17.2100,From Corner,Other,0.0451,0.0399,bloqueado
+53541,12334,2025/26,Real Madrid,Delantero Centro,Extremo Derecho,49,65.7400,10.8400,45.5800,From Corner,Right Foot,0.0050,0.0061,fuera
+53542,12334,2025/26,Real Madrid,Extremo Izquierdo,,95,94.0000,34.0000,11.0000,Penalty,Left Foot,0.7869,0.7551,gol
+53543,12334,2025/26,Real Madrid,Extremo Izquierdo,,15,84.7400,12.7800,29.3400,Open Play,Left Foot,0.0356,0.0180,poste
+53544,12334,2025/26,Real Madrid,Delantero Centro,Mediocentro Ancla,30,89.5600,40.0100,16.5600,Open Play,Left Foot,0.0934,0.1024,fuera
+53545,12334,2025/26,Real Madrid,Delantero Centro,Mediapunta Joven,2,100.2600,27.2700,8.2300,Open Play,Left Foot,0.3160,0.2283,fuera
+53546,12334,2025/26,Real Madrid,Delantero Centro,Interior Canterano,76,93.5200,37.1000,11.8900,From Corner,Right Foot,0.1645,0.1898,gol
+53547,12334,2025/26,Real Madrid,Pivote Suplente,,3,84.8100,30.1200,20.5600,Direct Freekick,Right Foot,0.0352,0.0480,fuera
+53548,12334,2025/26,Real Madrid,Delantero Centro,Central Alto,87,77.4200,35.3300,27.6200,Open Play,Right Foot,0.0214,0.0212,bloqueado
+53549,12334,2025/26,Real Madrid,Interior Canterano,,32,98.2900,32.4200,6.8900,Open Play,Right Foot,0.4299,0.4254,bloqueado
+53550,12334,2025/26,Real Madrid,Delantero Centro,,71,98.7600,35.6600,6.4500,Open Play,Left Foot,0.5021,0.4589,gol
+53551,12334,2025/26,Real Madrid,Extremo Izquierdo,Lateral Diestro,57,84.4700,39.5100,21.2500,Open Play,Left Foot,0.0833,0.0518,fuera
+53552,12334,2025/26,Real Madrid,Extremo Izquierdo,Mediapunta Joven,2,88.2200,30.7100,17.1000,Open Play,Left Foot,0.0816,0.0848,gol
+53553,12334,2025/26,Real Madrid,Pivote Suplente,Interior Canterano,66,91.3400,26.6100,15.5300,From Corner,Other,0.0336,0.0433,parado
+53554,12334,2025/26,Real Madrid,Extremo Derecho,Interior Creativo,24,87.6800,31.7400,17.4700,Open Play,Left Foot,0.0670,0.0842,parado
+53555,12334,2025/26,Real Madrid,Delantero Centro,,67,84.5100,41.7200,21.8900,Open Play,Left Foot,0.0507,0.0511,parado
+53556,12334,2025/26,Real Madrid,Extremo Derecho,Central Alto,81,99.5700,35.7100,5.6900,Open Play,Right Foot,0.5996,0.4528,gol
+53747,12343,2025/26,Real Madrid,Extremo Derecho,,63,80.2700,44.3600,26.8100,Open Play,Right Foot,0.0394,0.0229,parado
+53748,12343,2025/26,Real Madrid,Interior Canterano,Lateral Suplente,5,82.7000,35.7200,22.3700,Open Play,Right Foot,0.0458,0.0501,parado
+53749,12343,2025/26,Real Madrid,Extremo Derecho,,60,100.1600,19.9100,14.9000,Open Play,Other,0.0445,0.0606,parado
+53750,12343,2025/26,Real Madrid,Extremo Derecho,Delantero Canterano,47,86.0300,37.8500,19.3600,From Corner,Other,0.0402,0.0362,fuera
+53751,12343,2025/26,Real Madrid,Interior Canterano,Extremo Derecho,22,92.3500,38.1800,13.3300,Open Play,Right Foot,0.1762,0.1613,gol
+53752,12343,2025/26,Real Madrid,Delantero Centro,,70,89.4300,25.1000,17.9400,Open Play,Other,0.0361,0.0386,parado
+53753,12343,2025/26,Real Madrid,Mediapunta Joven,Interior Canterano,50,98.3700,27.6600,9.1700,Open Play,Other,0.1726,0.0898,fuera
+53754,12343,2025/26,Real Madrid,Lateral Suplente,Interior Llegador,57,92.2800,45.8100,17.3600,Open Play,Right Foot,0.0705,0.0678,fuera
+53755,12343,2025/26,Real Madrid,Interior Llegador,,41,69.3100,55.6000,41.7200,Set Piece,Right Foot,0.0051,0.0074,bloqueado
+53756,12343,2025/26,Real Madrid,Extremo Canterano,Lateral Suplente,15,95.6900,28.1600,10.9900,Open Play,Right Foot,0.1842,0.1805,bloqueado
+53757,12343,2025/26,Real Madrid,Lateral Zurdo,Interior Llegador,41,98.0200,31.5100,7.4100,Open Play,Other,0.2428,0.1597,poste
+53758,12343,2025/26,Real Madrid,Extremo Canterano,,40,93.7300,36.6500,11.5700,Set Piece,Right Foot,0.1889,0.1889,bloqueado
+53759,12343,2025/26,Real Madrid,Delantero Centro,Mediocentro Ancla,77,90.3800,22.1000,18.8500,Open Play,Right Foot,0.0627,0.0578,parado
+53760,12343,2025/26,Girona,GIR 12,GIR 15,8,84.1600,10.7200,31.2400,Open Play,Right Foot,0.0186,0.0118,bloqueado
+53761,12343,2025/26,Girona,GIR 22,GIR 12,87,81.0900,32.9900,23.9300,Open Play,Right Foot,0.0316,0.0233,fuera
+53762,12343,2025/26,Girona,GIR 17,,60,91.8200,26.7900,15.0200,From Corner,Other,0.0408,0.0479,parado
+53763,12343,2025/26,Girona,GIR 12,GIR 14,8,93.4300,47.4000,17.7100,Open Play,Right Foot,0.0684,0.0650,bloqueado
+53764,12343,2025/26,Girona,GIR 22,,18,81.1800,29.8500,24.1800,Open Play,Left Foot,0.0402,0.0255,poste
+53765,12343,2025/26,Girona,GIR 17,GIR 05,65,70.2100,12.8700,40.7000,Open Play,Right Foot,0.0050,0.0068,fuera
+53766,12343,2025/26,Girona,GIR 22,GIR 15,49,73.1300,30.7400,32.0300,Open Play,Left Foot,0.0152,0.0146,bloqueado
+53767,12343,2025/26,Girona,GIR 22,,7,93.4500,29.0800,12.5500,Set Piece,Other,0.0558,0.0719,gol
+53921,12352,2025/26,Osasuna,OSA 19,OSA 11,59,91.1400,40.3200,15.2300,From Corner,Other,0.0203,0.0447,fuera
+53922,12352,2025/26,Osasuna,OSA 15,OSA 06,7,92.3200,18.5300,20.0100,Open Play,Other,0.0186,0.0283,fuera
+53923,12352,2025/26,Osasuna,OSA 15,OSA 09,32,88.2000,48.2000,22.0000,Open Play,Left Foot,0.0556,0.0473,parado
+53924,12352,2025/26,Osasuna,OSA 15,OSA 20,14,94.9100,44.2800,14.4100,From Corner,Left Foot,0.0971,0.1009,bloqueado
+53925,12352,2025/26,Osasuna,OSA 22,OSA 11,56,82.1700,47.8900,26.7200,Open Play,Right Foot,0.0301,0.0261,parado
+53926,12352,2025/26,Osasuna,OSA 19,,70,80.0100,28.7200,25.5400,Open Play,Left Foot,0.0401,0.0249,fuera
+53927,12352,2025/26,Osasuna,OSA 15,OSA 20,85,90.3700,35.1700,14.6700,Open Play,Other,0.0498,0.0463,bloqueado
+53928,12352,2025/26,Osasuna,OSA 22,,51,97.4900,24.4100,12.1800,Open Play,Right Foot,0.1383,0.1314,parado
+53929,12352,2025/26,Osasuna,OSA 16,OSA 19,36,90.6800,18.0800,21.4100,Open Play,Right Foot,0.0634,0.0424,parado
+53930,12352,2025/26,Real Madrid,Extremo Izquierdo,Central Rápido,12,90.9900,40.3900,15.3900,Open Play,Left Foot,0.1158,0.0952,gol
+53931,12352,2025/26,Real Madrid,Extremo Derecho,Interior Llegador,93,87.7800,20.1600,22.1000,Open Play,Other,0.0222,0.0278,parado
+53932,12352,2025/26,Real Madrid,Extremo Izquierdo,Mediapunta Joven,1,94.9600,40.0500,11.7200,Open Play,Right Foot,0.1339,0.1813,gol
+53933,12352,2025/26,Real Madrid,Extremo Izquierdo,Mediocentro Ancla,34,97.7100,42.8300,11.4500,Open Play,Left Foot,0.1788,0.1509,bloqueado
+53934,12352,2025/26,Real Madrid,Extremo Izquierdo,Delantero Centro,65,97.4300,13.0400,22.2800,Open Play,Right Foot,0.0310,0.0469,parado
+53935,12352,2025/26,Real Madrid,Central Rápido,,45,94.0000,34.0000,11.0000,Penalty,Right Foot,0.7642,0.7551,gol
+53936,12352,2025/26,Real Madrid,Extremo Izquierdo,,69,83.0700,16.6500,27.9700,Direct Freekick,Right Foot,0.0167,0.0161,parado
+53937,12352,2025/26,Real Madrid,Extremo Izquierdo,Central Alto,3,83.6700,27.5300,22.2900,Open Play,Right Foot,0.0480,0.0472,fuera
+53938,12352,2025/26,Real Madrid,Central Rápido,,19,91.8500,40.9100,14.8500,From Corner,Other,0.0715,0.0446,fuera
+53939,12352,2025/26,Real Madrid,Extremo Derecho,,84,96.9400,40.7800,10.5400,Open Play,Other,0.1219,0.0824,parado
+53940,12352,2025/26,Real Madrid,Interior Creativo,Extremo Izquierdo,82,92.3900,31.7500,12.8100,Open Play,Right Foot,0.2234,0.1695,bloqueado
+53941,12352,2025/26,Real Madrid,Interior Creativo,Mediapunta Joven,33,86.7400,38.7500,18.8700,From Corner,Right Foot,0.0531,0.0826,fuera
+53942,12352,2025/26,Real Madrid,Central Canterano,Extremo Izquierdo,41,93.1500,14.7400,22.6200,Set Piece,Left Foot,0.0363,0.0459,fuera
+53943,12352,2025/26,Real Madrid,Extremo Izquierdo,,72,97.3600,15.9700,19.5900,Open Play,Right Foot,0.0358,0.0497,fuera
+53944,12352,2025/26,Real Madrid,Mediapunta Joven,,8,88.5400,37.4200,16.8200,Open Play,Right Foot,0.0927,0.0850,gol
+53945,12352,2025/26,Real Madrid,Extremo Izquierdo,Mediapunta Joven,75,94.7300,27.3800,12.2200,Set Piece,Right Foot,0.1421,0.1684,fuera
+54111,12361,2025/26,Mallorca,MAL 06,,88,96.7500,25.3600,11.9500,Open Play,Right Foot,0.1360,0.1446,fuera
+54112,12361,2025/26,Mallorca,MAL 19,MAL 15,41,95.4800,29.6800,10.4600,Set Piece,Right Foot,0.2803,0.2216,fuera
+54113,12361,2025/26,Mallorca,MAL 03,MAL 15,88,93.6300,32.5000,11.4700,Open Play,Right Foot,0.2075,0.2005,bloqueado
+54114,12361,2025/26,Mallorca,MAL 15,,81,77.5700,22.6800,29.6700,Open Play,Right Foot,0.0156,0.0171,parado
+54115,12361,2025/26,Mallorca,MAL 15,MAL 09,73,90.7400,27.6800,15.6000,Open Play,Other,0.0604,0.0444,parado
+54116,12361,2025/26,Mallorca,MAL 16,MAL 20,62,88.3000,38.8600,17.3900,Open Play,Left Foot,0.1208,0.0859,parado
+54117,12361,2025/26,Mallorca,MAL 18,,19,94.0000,34.0000,11.0000,Penalty,Right Foot,0.7935,0.7551,gol
+54118,12361,2025/26,Real Madrid,Extremo Derecho,,65,82.5000,34.3400,22.5000,Direct Freekick,Left Foot,0.0357,0.0407,fuera
+54119,12361,2025/26,Real Madrid,Delantero Canterano,Pivote Suplente,95,80.5500,43.0400,26.0700,Open Play,Right Foot,0.0279,0.0248,bloqueado
+54120,12361,2025/26,Real Madrid,Extremo Izquierdo,Mediocentro Ancla,83,98.8900,16.2000,18.8200,Open Play,Left Foot,0.0715,0.0492,bloqueado
+54121,12361,2025/26,Real Madrid,Lateral Zurdo,Extremo Izquierdo,72,85.3000,37.6700,20.0400,Open Play,Right Foot,0.0342,0.0758,fuera
+54122,12361,2025/26,Real Madrid,Pivote Suplente,Lateral Suplente,83,87.0300,8.9400,30.8300,Open Play,Right Foot,0.0119,0.0107,bloqueado
+54123,12361,2025/26,Real Madrid,Delantero Canterano,Pivote Suplente,17,87.3600,44.5000,20.5300,Open Play,Right Foot,0.0344,0.0586,parado
+54124,12361,2025/26,Real Madrid,Delantero Centro,Mediocentro Ancla,7,92.4100,18.2600,20.1600,Open Play,Right Foot,0.0712,0.0419,poste
+54125,12361,2025/26,Real Madrid,Extremo Izquierdo,Pivote Canterano,69,88.0100,42.6600,19.0700,Set Piece,Other,0.0240,0.0292,fuera
+54126,12361,2025/26,Real Madrid,Pivote Suplente,,9,96.7600,30.0500,9.1400,Open Play,Right Foot,0.3175,0.2537,parado
+54127,12361,2025/26,Real Madrid,Extremo Izquierdo,,25,77.4700,42.1200,28.7000,Open Play,Left Foot,0.0136,0.0212,fuera
+54128,12361,2025/26,Real Madrid,Pivote Canterano,Mediocentro Ancla,1,91.7300,37.7500,13.7900,Open Play,Right Foot,0.1629,0.1565,bloqueado
+54327,12372,2025/26,Real Madrid,Delantero Centro,Pivote Suplente,76,96.5400,46.5000,15.0900,Open Play,Right Foot,0.0995,0.0894,bloqueado
+54328,12372,2025/26,Real Madrid,Delantero Centro,,95,100.3600,35.4300,4.8600,Open Play,Right Foot,0.6068,0.5133,gol
+54329,12372,2025/26,Real Madrid,Extremo Izquierdo,Interior Llegador,65,95.5900,32.0000,9.6200,Open Play,Other,0.0794,0.1142,parado
+54330,12372,2025/26,Real Madrid,Interior Canterano,,35,82.8300,51.4000,28.1800,Set Piece,Left Foot,0.0128,0.0301,parado
+54331,12372,2025/26,Real Madrid,Extremo Izquierdo,,29,94.0000,34.0000,11.0000,Penalty,Right Foot,0.7774,0.7551,gol
+54332,12372,2025/26,Real Madrid,Mediapunta Joven,Mediocentro Ancla,1,75.8500,60.1600,39.1700,From Corner,Other,0.0050,0.0081,parado
+54333,12372,2025/26,Real Madrid,Extremo Derecho,,84,76.8900,20.6700,31.1100,Open Play,Right Foot,0.0154,0.0160,parado
+54334,12372,2025/26,Real Madrid,Extremo Izquierdo,,80,93.5800,31.8500,11.6200,Open Play,Right Foot,0.2032,0.1889,parado
+54335,12372,2025/26,Real Madrid,Delantero Centro,,89,89.3800,35.8800,15.7400,From Corner,Left Foot,0.0742,0.0966,bloqueado
+54336,12372,2025/26,Real Madrid,Mediocentro Ancla,Extremo Canterano,39,93.4200,29.9400,12.2700,Open Play,Right Foot,0.1523,0.1696,bloqueado
+54337,12372,2025/26,Real Madrid,Delantero Centro,,73,95.6400,31.6900,9.6400,Set Piece,Other,0.1346,0.1202,fuera
+54338,12372,2025/26,Real Madrid,Extremo Derecho,Mediocentro Ancla,79,92.7700,31.9700,12.4000,Open Play,Right Foot,0.1496,0.1602,fuera
+54339,12372,2025/26,Real Madrid,Delantero Centro,Central Alto,82,89.1700,29.4600,16.4700,Open Play,Right Foot,0.1069,0.1078,fuera
+54340,12372,2025/26,Real Madrid,Extremo Izquierdo,Extremo Derecho,17,95.6000,40.5300,11.4400,Open Play,Right Foot,0.2393,0.1832,bloqueado
+54341,12372,2025/26,Real Madrid,Delantero Centro,Extremo Izquierdo,31,90.3400,16.9700,22.4700,Open Play,Right Foot,0.0350,0.0429,parado
+54342,12372,2025/26,Real Madrid,Lateral Suplente,Extremo Izquierdo,18,85.0800,16.2900,26.6600,Open Play,Other,0.0139,0.0129,poste
+54343,12372,2025/26,Real Madrid,Extremo Izquierdo,Interior Llegador,82,80.3600,42.5400,26.0800,Open Play,Right Foot,0.0331,0.0248,fuera
+54344,12372,2025/26,Real Madrid,Lateral Suplente,Mediapunta Joven,30,93.0400,31.4200,12.2300,From Corner,Other,0.1043,0.0696,fuera
+54345,12372,2025/26,Real Madrid,Extremo Izquierdo,Central Alto,17,94.4300,36.6300,10.9000,Open Play,Left Foot,0.1939,0.2286,bloqueado
+54346,12372,2025/26,Real Madrid,Delantero Centro,Extremo Izquierdo,45,93.6800,47.2900,17.4500,Open Play,Right Foot,0.0722,0.0650,fuera
+54347,12372,2025/26,Real Madrid,Extremo Derecho,Extremo Izquierdo,77,90.7400,39.7300,15.3700,From Corner,Other,0.0664,0.0447,parado
+54348,12372,2025/26,Real Sociedad,REA 19,REA 16,1,85.7000,32.1200,19.3900,Open Play,Other,0.0228,0.0291,bloqueado
+54349,12372,2025/26,Real Sociedad,REA 19,REA 16,92,96.6600,32.0800,8.5500,Open Play,Right Foot,0.2845,0.3064,fuera
+54350,12372,2025/26,Real Sociedad,REA 19,REA 09,65,65.0000,45.9000,41.7400,Open Play,Right Foot,0.0066,0.0074,parado
+54351,12372,2025/26,Real Sociedad,REA 16,,62,92.2000,37.1200,13.1700,Open Play,Right Foot,0.1298,0.1595,parado
+54616,12383,2025/26,Real Oviedo,REA 22,REA 11,58,73.8200,44.8900,33.0300,Open Play,Right Foot,0.0136,0.0151,fuera
+54617,12383,2025/26,Real Oviedo,REA 15,REA 20,15,92.5400,31.3800,12.7400,Open Play,Right Foot,0.2842,0.1536,gol
+54618,12383,2025/26,Real Oviedo,REA 15,REA 20,77,92.1400,20.7900,18.4300,Open Play,Right Foot,0.0515,0.0639,fuera
+54619,12383,2025/26,Real Oviedo,REA 04,,38,77.5100,26.0100,28.6300,Direct Freekick,Left Foot,0.0106,0.0171,fuera
+54620,12383,2025/26,Real Oviedo,REA 22,REA 16,36,92.7400,29.3600,13.1100,Set Piece,Right Foot,0.1205,0.1515,parado
+54621,12383,2025/26,Real Oviedo,REA 04,REA 11,21,95.6600,38.5000,10.3700,Open Play,Left Foot,0.2470,0.2328,fuera
+54622,12383,2025/26,Real Oviedo,REA 22,REA 11,50,76.5400,33.4800,28.4600,Open Play,Left Foot,0.0246,0.0217,fuera
+54623,12383,2025/26,Real Oviedo,REA 06,,59,83.6800,29.8400,21.7200,Set Piece,Right Foot,0.0500,0.0489,parado
+54624,12383,2025/26,Real Oviedo,REA 17,REA 22,2,71.1300,39.4400,34.3100,Open Play,Right Foot,0.0124,0.0123,fuera
+54625,12383,2025/26,Real Oviedo,REA 16,REA 08,89,80.2700,40.7900,25.6400,Set Piece,Right Foot,0.0276,0.0246,fuera
+54626,12383,2025/26,Real Oviedo,REA 03,REA 20,91,90.1200,7.0100,30.8200,Open Play,Other,0.0061,0.0079,fuera
+54627,12383,2025/26,Real Oviedo,REA 15,REA 11,49,90.3400,28.0700,15.8100,Open Play,Left Foot,0.0972,0.0944,fuera
+54628,12383,2025/26,Real Oviedo,REA 16,REA 03,38,86.4500,39.9800,19.4900,Open Play,Left Foot,0.0855,0.0696,fuera
+54629,12383,2025/26,Real Oviedo,REA 12,REA 05,81,97.5000,20.7500,15.2300,Open Play,Right Foot,0.0643,0.0833,fuera
+54630,12383,2025/26,Real Madrid,Pivote Suplente,,91,86.7200,27.2500,19.4900,Set Piece,Other,0.0416,0.0417,parado
+54631,12383,2025/26,Real Madrid,Pivote Suplente,Extremo Izquierdo,28,95.5100,42.0700,12.4600,Open Play,Left Foot,0.1410,0.1727,parado
+54632,12383,2025/26,Real Madrid,Extremo Derecho,,38,99.4600,29.0400,7.4400,Set Piece,Right Foot,0.2283,0.3369,gol
+54633,12383,2025/26,Real Madrid,Extremo Derecho,Delantero Centro,54,98.3400,29.6700,7.9400,From Corner,Left Foot,0.3757,0.3402,gol
+54634,12383,2025/26,Real Madrid,Extremo Izquierdo,,29,94.2100,29.8100,11.5800,Open Play,Left Foot,0.1936,0.1778,fuera
+54635,12383,2025/26,Real Madrid,Pivote Suplente,Extremo Derecho,36,81.4700,6.8500,35.9200,Open Play,Left Foot,0.0107,0.0108,bloqueado
+54636,12383,2025/26,Real Madrid,Extremo Izquierdo,Interior Llegador,3,93.4000,27.5900,13.2600,Open Play,Right Foot,0.1453,0.1520,parado
+54637,12383,2025/26,Real Madrid,Interior Llegador,Extremo Izquierdo,37,97.9000,49.8000,17.3200,Set Piece,Right Foot,0.0614,0.0672,fuera
+54638,12383,2025/26,Real Madrid,Extremo Izquierdo,Pivote Suplente,4,98.8200,43.8700,11.6500,Open Play,Left Foot,0.1042,0.1475,poste
+54639,12383,2025/26,Real Madrid,Extremo Derecho,Interior Llegador,12,94.9600,38.7000,11.0800,Open Play,Left Foot,0.2027,0.1856,gol
+54640,12383,2025/26,Real Madrid,Extremo Izquierdo,Extremo Derecho,82,97.6700,15.2600,20.1200,Open Play,Right Foot,0.0340,0.0432,parado
+54641,12383,2025/26,Real Madrid,Extremo Izquierdo,Lateral Suplente,36,97.9600,39.1000,8.6900,Open Play,Right Foot,0.2243,0.2756,fuera
+54642,12383,2025/26,Real Madrid,Extremo Izquierdo,Lateral Suplente,58,84.9800,50.6200,26.0200,From Corner,Other,0.0070,0.0191,bloqueado
+54643,12383,2025/26,Real Madrid,Extremo Izquierdo,Pivote Suplente,94,94.8400,16.8500,19.9400,Open Play,Other,0.0181,0.0265,bloqueado
+54644,12383,2025/26,Real Madrid,Pivote Suplente,,49,94.8000,34.5600,10.2100,Open Play,Right Foot,0.1893,0.2426,parado
+54645,12383,2025/26,Real Madrid,Extremo Izquierdo,Delantero Centro,90,89.4400,42.2100,17.6000,Open Play,Other,0.0330,0.0370,parado
+54646,12383,2025/26,Real Madrid,Delantero Centro,Lateral Zurdo,66,95.6300,52.0100,20.3000,Open Play,Left Foot,0.0418,0.0464,fuera
+54896,12394,2025/26,Real Madrid,Extremo Izquierdo,,44,95.2000,49.1300,18.0200,Set Piece,Right Foot,0.0673,0.0672,fuera
+54897,12394,2025/26,Real Madrid,Delantero Suplente,Mediocentro Ancla,46,74.4900,35.0200,30.5300,Open Play,Other,0.0069,0.0095,fuera
+54898,12394,2025/26,Real Madrid,Central Joven,Central Alto,82,82.5100,9.4600,33.2900,Open Play,Left Foot,0.0101,0.0070,parado
+54899,12394,2025/26,Real Madrid,Extremo Izquierdo,Extremo Derecho,26,94.5600,45.9000,15.8300,From Corner,Right Foot,0.0717,0.0807,bloqueado
+54900,12394,2025/26,Real Madrid,Extremo Izquierdo,Interior Llegador,12,87.8400,43.4500,19.5900,Open Play,Other,0.0260,0.0286,parado
+54901,12394,2025/26,Real Madrid,Extremo Izquierdo,Interior Llegador,9,91.9400,31.9200,13.2300,Open Play,Left Foot,0.1749,0.1595,fuera
+54902,12394,2025/26,Real Madrid,Interior Creativo,Delantero Centro,68,92.3300,19.5400,19.2300,Open Play,Right Foot,0.0711,0.0499,bloqueado
+54903,12394,2025/26,Real Madrid,Lateral Diestro,Interior Llegador,14,96.6200,24.9900,12.3000,Open Play,Other,0.0534,0.0735,bloqueado
+54904,12394,2025/26,Real Madrid,Extremo Izquierdo,,33,74.2700,42.6800,31.9300,Set Piece,Right Foot,0.0160,0.0134,bloqueado
+54905,12394,2025/26,Real Madrid,Delantero Suplente,Interior Creativo,17,96.2000,19.2600,17.1700,Open Play,Left Foot,0.0697,0.0678,parado
+54906,12394,2025/26,Real Madrid,Delantero Centro,Mediocentro Ancla,12,94.2700,22.7300,15.5600,Open Play,Right Foot,0.0703,0.0990,gol
+54907,12394,2025/26,Real Madrid,Delantero Centro,,38,96.3200,21.9100,14.8900,Open Play,Right Foot,0.1176,0.0898,parado
+54908,12394,2025/26,Real Madrid,Delantero Centro,Extremo Izquierdo,55,83.6500,10.5700,31.7000,Open Play,Left Foot,0.0188,0.0070,bloqueado
+54909,12394,2025/26,Real Madrid,Delantero Suplente,,35,94.9500,35.2000,10.1200,Open Play,Other,0.1501,0.1183,poste
+54910,12394,2025/26,Real Madrid,Extremo Izquierdo,Interior Creativo,62,80.9000,34.2800,24.1000,Open Play,Right Foot,0.0387,0.0228,bloqueado
+54911,12394,2025/26,Barcelona,BAR 15,BAR 06,59,90.2800,46.6500,19.4100,Open Play,Right Foot,0.0499,0.0600,fuera
+54912,12394,2025/26,Barcelona,BAR 15,,57,99.3100,41.5600,9.4600,Open Play,Right Foot,0.1642,0.2047,parado
+54913,12394,2025/26,Barcelona,BAR 18,,45,74.3200,7.6200,40.4700,Open Play,Left Foot,0.0055,0.0058,fuera
+54914,12394,2025/26,Barcelona,BAR 15,BAR 12,63,87.9700,36.1100,17.1600,Open Play,Right Foot,0.1003,0.0859,fuera
+54915,12394,2025/26,Barcelona,BAR 16,BAR 06,33,86.6200,35.3800,18.4300,Open Play,Right Foot,0.0581,0.0798,bloqueado
+54916,12394,2025/26,Barcelona,BAR 18,,32,78.4000,60.6200,37.6300,From Corner,Right Foot,0.0123,0.0100,fuera
+54917,12394,2025/26,Barcelona,BAR 18,BAR 16,17,91.2700,43.7400,16.8400,Open Play,Right Foot,0.0564,0.0812,bloqueado
+54918,12394,2025/26,Barcelona,BAR 18,BAR 15,93,77.4500,41.2400,28.4900,From Corner,Right Foot,0.0239,0.0226,gol
+54919,12394,2025/26,Barcelona,BAR 18,,88,97.7600,30.2900,8.1400,Open Play,Right Foot,0.3140,0.3270,bloqueado
+54920,12394,2025/26,Barcelona,BAR 16,BAR 15,3,87.9200,40.2500,18.1900,Open Play,Left Foot,0.0583,0.0798,parado
+54921,12394,2025/26,Barcelona,BAR 15,BAR 16,27,88.1200,53.5600,25.8400,Open Play,Left Foot,0.0334,0.0284,bloqueado
+54922,12394,2025/26,Barcelona,BAR 15,,23,94.8400,34.8200,10.2000,From Corner,Right Foot,0.3501,0.2447,gol
+54923,12394,2025/26,Barcelona,BAR 15,BAR 20,14,89.7100,59.8600,30.0400,Open Play,Right Foot,0.0187,0.0165,fuera
+54924,12394,2025/26,Barcelona,BAR 15,BAR 12,53,89.8600,33.9800,15.1400,Open Play,Right Foot,0.0934,0.0901,parado
+55141,12405,2025/26,Valencia,VAL 16,,88,81.5900,61.6200,36.2100,From Corner,Left Foot,0.0083,0.0144,parado
+55142,12405,2025/26,Valencia,VAL 14,VAL 13,62,82.2700,29.0200,23.2700,Open Play,Left Foot,0.0483,0.0410,bloqueado
+55143,12405,2025/26,Valencia,VAL 13,,83,84.8900,44.2600,22.5700,Direct Freekick,Right Foot,0.0337,0.0330,parado
+55144,12405,2025/26,Valencia,VAL 17,,84,84.8900,56.0500,29.8400,Set Piece,Right Foot,0.0150,0.0138,bloqueado
+55145,12405,2025/26,Valencia,VAL 17,,70,65.0000,12.4900,45.4200,Open Play,Left Foot,0.0050,0.0061,bloqueado
+55146,12405,2025/26,Valencia,VAL 16,VAL 17,75,93.5600,27.7400,13.0500,Set Piece,Right Foot,0.1962,0.1584,parado
+55147,12405,2025/26,Valencia,VAL 05,VAL 06,31,91.5800,24.1000,16.6800,Open Play,Right Foot,0.0605,0.0885,parado
+55148,12405,2025/26,Real Madrid,Delantero Suplente,Extremo Izquierdo,48,85.9400,55.8900,29.0200,Open Play,Left Foot,0.0169,0.0157,fuera
+55149,12405,2025/26,Real Madrid,Delantero Suplente,Extremo Izquierdo,2,91.3500,52.4900,22.9800,Open Play,Right Foot,0.0290,0.0385,parado
+55150,12405,2025/26,Real Madrid,Delantero Suplente,Interior Llegador,54,98.5600,52.7800,19.8500,Open Play,Right Foot,0.0500,0.0481,parado
+55151,12405,2025/26,Real Madrid,Extremo Derecho,Interior Creativo,26,95.2400,23.2300,14.5400,Open Play,Right Foot,0.0918,0.1093,parado
+55152,12405,2025/26,Real Madrid,Interior Creativo,Extremo Izquierdo,19,99.8800,37.1900,6.0400,Open Play,Right Foot,0.4685,0.4427,gol
+55153,12405,2025/26,Real Madrid,Lateral Diestro,,55,82.6800,42.3400,23.8300,Open Play,Right Foot,0.0334,0.0270,poste
+55154,12405,2025/26,Real Madrid,Extremo Canterano,Extremo Izquierdo,10,82.9600,27.6300,22.9400,Open Play,Right Foot,0.0503,0.0397,fuera
+55155,12405,2025/26,Real Madrid,Extremo Izquierdo,Interior Canterano,12,89.5300,34.8400,15.4900,Open Play,Left Foot,0.1122,0.0966,parado
+55156,12405,2025/26,Real Madrid,Extremo Canterano,Extremo Derecho,4,93.9100,43.3300,14.4900,Open Play,Left Foot,0.0820,0.1057,bloqueado
+55395,12416,2025/26,Real Madrid,Delantero Centro,Interior Canterano,6,81.6400,50.0300,28.3400,Open Play,Right Foot,0.0194,0.0302,parado
+55396,12416,2025/26,Real Madrid,Extremo Derecho,Interior Llegador,62,99.7600,32.6900,5.4000,Open Play,Right Foot,0.5581,0.4685,gol
+55397,12416,2025/26,Real Madrid,Delantero Centro,Delantero Canterano,93,90.5400,43.1200,17.0900,Open Play,Left Foot,0.0801,0.0812,parado
+55398,12416,2025/26,Real Madrid,Delantero Canterano,,83,85.2100,34.0700,19.7900,Direct Freekick,Right Foot,0.0431,0.0391,parado
+55399,12416,2025/26,Real Madrid,Delantero Centro,Lateral Zurdo,1,94.2000,40.2200,12.4600,Open Play,Left Foot,0.1163,0.1711,parado
+55400,12416,2025/26,Real Madrid,Mediocentro Ancla,,35,91.4800,48.1900,19.6000,Set Piece,Right Foot,0.0661,0.0449,fuera
+55401,12416,2025/26,Real Madrid,Delantero Canterano,Delantero Centro,30,97.1400,32.5200,8.0000,Open Play,Other,0.1680,0.1597,parado
+55402,12416,2025/26,Real Madrid,Delantero Canterano,Pivote Suplente,26,85.4000,30.4100,19.9300,Open Play,Right Foot,0.0545,0.0490,fuera
+55403,12416,2025/26,Real Madrid,Interior Llegador,Pivote Suplente,11,93.2500,32.7100,11.8200,Open Play,Left Foot,0.1536,0.1722,fuera
+55404,12416,2025/26,Celta Vigo,CEL 11,CEL 06,69,99.9700,39.2400,7.2600,Open Play,Right Foot,0.3860,0.3334,fuera
+55405,12416,2025/26,Celta Vigo,CEL 11,,69,98.7100,42.8500,10.8600,From Corner,Left Foot,0.1515,0.1410,bloqueado
+55406,12416,2025/26,Celta Vigo,CEL 17,,94,94.2300,30.1200,11.4500,Open Play,Other,0.0871,0.0817,fuera
+55407,12416,2025/26,Celta Vigo,CEL 16,,78,93.9100,27.1000,13.0600,Open Play,Left Foot,0.1409,0.1487,bloqueado
+55408,12416,2025/26,Celta Vigo,CEL 18,CEL 06,21,96.5500,48.2300,16.5500,Open Play,Left Foot,0.0722,0.0787,parado
+55409,12416,2025/26,Celta Vigo,CEL 15,CEL 07,13,72.4200,35.1000,32.6000,Open Play,Left Foot,0.0158,0.0114,bloqueado
+55410,12416,2025/26,Celta Vigo,CEL 11,,94,77.4300,18.5800,31.5900,Open Play,Right Foot,0.0162,0.0087,parado
+55411,12416,2025/26,Celta Vigo,CEL 13,CEL 11,93,85.2100,26.2300,21.2600,From Corner,Other,0.0172,0.0276,fuera
+55412,12416,2025/26,Celta Vigo,CEL 18,CEL 14,16,94.2800,10.2900,26.0200,Open Play,Right Foot,0.0282,0.0263,parado
+55413,12416,2025/26,Celta Vigo,CEL 13,,59,94.0000,34.0000,11.0000,Penalty,Right Foot,0.8239,0.7551,gol
+55414,12416,2025/26,Celta Vigo,CEL 10,,78,95.3500,45.3600,14.9100,Open Play,Right Foot,0.1002,0.0958,fuera
+55659,12427,2025/26,Villarreal,VIL 05,VIL 16,36,83.8100,32.0300,21.2800,Open Play,Other,0.0382,0.0243,fuera
+55660,12427,2025/26,Villarreal,VIL 20,VIL 17,73,91.4300,30.5800,13.9900,Open Play,Right Foot,0.1752,0.1437,fuera
+55661,12427,2025/26,Villarreal,VIL 04,VIL 11,14,92.7300,29.9800,12.9200,Open Play,Right Foot,0.1790,0.1541,gol
+55662,12427,2025/26,Villarreal,VIL 16,,51,99.8100,25.6400,9.8400,Open Play,Right Foot,0.1961,0.1499,bloqueado
+55663,12427,2025/26,Villarreal,VIL 10,VIL 08,69,89.2800,39.5300,16.6600,From Corner,Other,0.0477,0.0399,parado
+55664,12427,2025/26,Villarreal,VIL 16,VIL 06,82,92.4000,18.6300,19.8800,From Corner,Right Foot,0.0600,0.0454,fuera
+55665,12427,2025/26,Villarreal,VIL 09,VIL 16,43,82.6000,27.3500,23.3600,Open Play,Right Foot,0.0461,0.0349,bloqueado
+55666,12427,2025/26,Villarreal,VIL 16,VIL 06,23,87.6800,14.8900,25.7900,Open Play,Right Foot,0.0320,0.0318,fuera
+55667,12427,2025/26,Villarreal,VIL 16,VIL 09,1,84.3300,23.6300,23.1300,Open Play,Right Foot,0.0365,0.0344,bloqueado
+55668,12427,2025/26,Villarreal,VIL 16,VIL 11,43,95.2100,29.7400,10.6700,Open Play,Left Foot,0.1958,0.2192,parado
+55669,12427,2025/26,Villarreal,VIL 16,VIL 09,92,95.1000,19.4500,17.6000,Open Play,Right Foot,0.0391,0.0617,parado
+55670,12427,2025/26,Villarreal,VIL 04,VIL 16,4,88.3400,45.5300,20.2700,Open Play,Right Foot,0.0503,0.0557,fuera
+55671,12427,2025/26,Villarreal,VIL 05,VIL 16,16,98.0500,21.2000,14.5600,From Corner,Right Foot,0.0591,0.0846,bloqueado
+55672,12427,2025/26,Villarreal,VIL 17,VIL 03,63,90.3600,35.1800,14.6800,Open Play,Left Foot,0.1374,0.0964,parado
+55673,12427,2025/26,Real Madrid,Delantero Centro,Mediocentro Ancla,66,89.0000,23.1500,19.3300,Open Play,Other,0.0410,0.0315,parado
+55674,12427,2025/26,Real Madrid,Extremo Derecho,Interior Llegador,34,80.9900,13.6000,31.5100,Open Play,Right Foot,0.0119,0.0088,parado
+55675,12427,2025/26,Real Madrid,Extremo Izquierdo,Extremo Derecho,42,87.7200,39.2200,18.0500,Open Play,Right Foot,0.0816,0.0798,fuera
+55676,12427,2025/26,Real Madrid,Mediocentro Ancla,Mediapunta Joven,39,93.4200,49.8800,19.6600,Open Play,Left Foot,0.0492,0.0467,parado
+55677,12427,2025/26,Real Madrid,Extremo Izquierdo,Interior Llegador,56,84.6400,32.8500,20.3900,Open Play,Right Foot,0.0691,0.0591,parado
+55678,12427,2025/26,Real Madrid,Delantero Centro,Interior Llegador,45,87.3800,34.9800,17.6500,Open Play,Left Foot,0.0870,0.0842,fuera
+55679,12427,2025/26,Real Madrid,Interior Creativo,Interior Llegador,62,84.4600,14.3800,28.4000,Open Play,Left Foot,0.0196,0.0186,fuera
+55680,12427,2025/26,Real Madrid,Extremo Izquierdo,Interior Creativo,64,92.9600,44.0600,15.6900,Open Play,Right Foot,0.1014,0.1013,parado
+55681,12427,2025/26,Real Madrid,Pivote Canterano,,71,86.5400,15.4700,26.1600,Open Play,Right Foot,0.0238,0.0266,fuera
+55682,12427,2025/26,Real Madrid,Interior Creativo,,68,94.4800,43.1700,13.9600,Open Play,Right Foot,0.1130,0.1234,parado
+55930,12438,2025/26,Real Madrid,Mediocentro Ancla,Delantero Centro,58,92.8100,48.9700,19.3100,Open Play,Other,0.0355,0.0261,fuera
+55931,12438,2025/26,Real Madrid,Delantero Canterano,,90,75.8600,12.9900,35.9200,Open Play,Left Foot,0.0135,0.0075,bloqueado
+55932,12438,2025/26,Real Madrid,Delantero Centro,Pivote Suplente,16,86.8000,59.7200,31.5100,Open Play,Left Foot,0.0180,0.0134,fuera
+55933,12438,2025/26,Real Madrid,Delantero Canterano,,41,97.3000,34.1300,7.7000,Open Play,Other,0.1638,0.1708,poste
+55934,12438,2025/26,Real Madrid,Extremo Derecho,Mediocentro Ancla,85,92.3600,49.8600,20.2900,Open Play,Right Foot,0.0384,0.0454,fuera
+55935,12438,2025/26,Real Madrid,Lateral Zurdo,Interior Creativo,93,87.4300,41.3100,19.0300,Open Play,Right Foot,0.0928,0.0735,fuera
+55936,12438,2025/26,Real Madrid,Extremo Derecho,,78,81.7400,34.5400,23.2600,Direct Freekick,Left Foot,0.0252,0.0500,parado
+55937,12438,2025/26,Real Madrid,Delantero Centro,Pivote Suplente,9,95.2500,31.5500,10.0600,Open Play,Right Foot,0.3546,0.2152,parado
+55938,12438,2025/26,Levante,LEV 09,LEV 21,47,89.8000,46.7000,19.8100,Open Play,Left Foot,0.0610,0.0523,parado
+55939,12438,2025/26,Levante,LEV 19,LEV 09,10,97.5900,43.8400,12.3200,Open Play,Left Foot,0.0847,0.1407,gol
+55940,12438,2025/26,Levante,LEV 15,LEV 16,58,74.8600,7.0700,40.4100,Open Play,Left Foot,0.0058,0.0058,poste
+55941,12438,2025/26,Levante,LEV 15,LEV 16,9,88.8200,20.6600,20.9700,Open Play,Right Foot,0.0368,0.0446,fuera
+55942,12438,2025/26,Levante,LEV 19,LEV 14,47,93.2900,29.3400,12.6000,Open Play,Left Foot,0.0927,0.1554,bloqueado
+55943,12438,2025/26,Levante,LEV 06,LEV 03,67,94.5300,35.9000,10.6400,Open Play,Right Foot,0.2300,0.2266,fuera
+56170,12449,2025/26,Rayo Vallecano,RAY 16,RAY 12,90,85.7800,5.0300,34.7700,Open Play,Right Foot,0.0084,0.0078,fuera
+56171,12449,2025/26,Rayo Vallecano,RAY 04,RAY 12,42,95.2000,22.9800,14.7400,Open Play,Right Foot,0.1294,0.0990,parado
+56172,12449,2025/26,Rayo Vallecano,RAY 11,,8,79.9700,38.1300,25.3700,Open Play,Left Foot,0.0347,0.0248,fuera
+56173,12449,2025/26,Rayo Vallecano,RAY 15,,34,92.2700,44.6100,16.5700,From Corner,Left Foot,0.0574,0.1005,parado
+56174,12449,2025/26,Rayo Vallecano,RAY 15,RAY 04,70,85.0100,51.8800,26.8200,Open Play,Right Foot,0.0284,0.0207,bloqueado
+56175,12449,2025/26,Rayo Vallecano,RAY 11,RAY 10,10,74.3200,27.0400,31.4600,Set Piece,Other,0.0066,0.0080,parado
+56176,12449,2025/26,Rayo Vallecano,RAY 16,,68,88.8100,27.8900,17.3100,Open Play,Left Foot,0.1019,0.0833,fuera
+56177,12449,2025/26,Rayo Vallecano,RAY 17,RAY 10,47,96.0600,33.1100,8.9800,Open Play,Right Foot,0.3111,0.2730,parado
+56178,12449,2025/26,Rayo Vallecano,RAY 10,RAY 03,9,93.0300,46.2700,17.1400,Open Play,Right Foot,0.0548,0.0648,fuera
+56179,12449,2025/26,Rayo Vallecano,RAY 15,,84,90.0600,36.7900,15.2000,Open Play,Right Foot,0.1142,0.0949,fuera
+56180,12449,2025/26,Rayo Vallecano,RAY 04,RAY 09,6,90.8400,37.2800,14.5400,Open Play,Right Foot,0.2008,0.0964,parado
+56181,12449,2025/26,Rayo Vallecano,RAY 09,,72,95.3500,43.4000,13.4700,Open Play,Left Foot,0.1107,0.1296,fuera
+56182,12449,2025/26,Rayo Vallecano,RAY 09,,79,99.5000,52.3000,19.1100,Open Play,Left Foot,0.0453,0.0534,fuera
+56183,12449,2025/26,Rayo Vallecano,RAY 17,,65,99.5800,39.6600,7.8300,Open Play,Right Foot,0.3088,0.2879,gol
+56184,12449,2025/26,Rayo Vallecano,RAY 11,,40,92.2300,25.6100,15.2800,Open Play,Right Foot,0.0932,0.1002,bloqueado
+56185,12449,2025/26,Real Madrid,Mediapunta Joven,Delantero Centro,31,89.7100,37.9900,15.8000,From Corner,Left Foot,0.1213,0.0934,fuera
+56186,12449,2025/26,Real Madrid,Delantero Centro,Interior Llegador,18,81.2600,24.8700,25.4300,Open Play,Right Foot,0.0286,0.0241,parado
+56187,12449,2025/26,Real Madrid,Extremo Derecho,Lateral Diestro,34,92.3700,37.5100,13.1100,Set Piece,Right Foot,0.1522,0.1580,bloqueado
+56188,12449,2025/26,Real Madrid,Delantero Canterano,Extremo Derecho,48,81.8500,42.4300,24.6400,Open Play,Right Foot,0.0289,0.0268,fuera
+56189,12449,2025/26,Real Madrid,Interior Creativo,Lateral Zurdo,20,96.9000,41.1700,10.8100,Open Play,Right Foot,0.1495,0.1832,fuera
+56190,12449,2025/26,Real Madrid,Extremo Izquierdo,,60,93.4400,41.7700,13.9300,Open Play,Left Foot,0.1062,0.1294,parado
+56191,12449,2025/26,Real Madrid,Mediapunta Joven,Delantero Centro,93,72.2200,26.5300,33.6200,Open Play,Left Foot,0.0108,0.0122,parado
+56192,12449,2025/26,Real Madrid,Delantero Centro,Interior Creativo,27,91.4600,44.9800,17.4300,Open Play,Right Foot,0.0768,0.0855,parado
+56193,12449,2025/26,Real Madrid,Delantero Centro,Interior Creativo,48,86.9500,22.7900,21.2500,From Corner,Other,0.0163,0.0293,parado
+56194,12449,2025/26,Real Madrid,Delantero Centro,Delantero Canterano,37,91.4400,50.0200,20.9900,Open Play,Left Foot,0.0466,0.0455,fuera
+56195,12449,2025/26,Real Madrid,Delantero Suplente,,14,90.0000,25.7400,17.1300,Open Play,Other,0.0424,0.0404,fuera
+56196,12449,2025/26,Real Madrid,Delantero Suplente,Extremo Derecho,16,88.0100,49.9000,23.2700,Open Play,Other,0.0277,0.0179,parado
+56441,12460,2025/26,Real Madrid,Mediapunta Joven,Lateral Zurdo,14,92.5600,25.5700,15.0300,Open Play,Right Foot,0.0805,0.1017,parado
+56442,12460,2025/26,Real Madrid,Interior Llegador,,4,99.5500,17.6700,17.2100,Set Piece,Right Foot,0.0687,0.0642,gol
+56443,12460,2025/26,Real Madrid,Delantero Centro,,65,99.3300,43.3500,10.9300,Open Play,Left Foot,0.1330,0.1325,fuera
+56444,12460,2025/26,Real Madrid,Central Rápido,Extremo Izquierdo,41,92.6900,41.7800,14.5600,Set Piece,Right Foot,0.1063,0.1061,gol
+56445,12460,2025/26,Real Madrid,Lateral Zurdo,Mediapunta Joven,25,84.4300,12.0400,30.0900,Open Play,Right Foot,0.0163,0.0117,bloqueado
+56446,12460,2025/26,Real Madrid,Extremo Izquierdo,Pivote Canterano,47,66.0700,24.4600,40.0900,Open Play,Left Foot,0.0072,0.0074,poste
+56447,12460,2025/26,Real Madrid,Extremo Izquierdo,,22,85.2900,46.4600,23.3200,From Corner,Left Foot,0.0289,0.0369,parado
+56448,12460,2025/26,Real Madrid,Delantero Centro,Mediapunta Joven,20,80.6400,45.8000,27.0700,Open Play,Left Foot,0.0263,0.0253,parado
+56449,12460,2025/26,Real Madrid,Central Canterano,Mediapunta Joven,82,91.5800,41.0700,15.1700,From Corner,Other,0.0601,0.0446,fuera
+56450,12460,2025/26,Real Madrid,Extremo Izquierdo,Delantero Centro,54,96.0000,49.7400,18.1300,Open Play,Right Foot,0.0753,0.0623,parado
+56451,12460,2025/26,Real Madrid,Extremo Izquierdo,Extremo Derecho,78,88.6100,35.3900,16.4500,Open Play,Right Foot,0.0935,0.1122,bloqueado
+56452,12460,2025/26,Real Madrid,Lateral Diestro,Central Alto,37,86.3900,20.9500,22.7300,Open Play,Right Foot,0.0364,0.0439,bloqueado
+56453,12460,2025/26,Real Madrid,Delantero Centro,,70,81.0200,31.2500,24.1400,Direct Freekick,Right Foot,0.0302,0.0175,fuera
+56454,12460,2025/26,Real Madrid,Extremo Izquierdo,,10,75.3600,57.4500,37.8000,From Corner,Right Foot,0.0055,0.0120,bloqueado
+56455,12460,2025/26,Real Madrid,Extremo Izquierdo,,10,87.8100,29.8900,17.6700,Open Play,Left Foot,0.0598,0.0842,gol
+56456,12460,2025/26,Sevilla,SEV 09,SEV 16,47,66.2100,26.0700,39.5900,From Corner,Other,0.0050,0.0063,bloqueado
+56457,12460,2025/26,Sevilla,SEV 15,SEV 11,77,90.6000,40.1900,15.6700,Open Play,Right Foot,0.1102,0.0952,gol
+56458,12460,2025/26,Sevilla,SEV 15,,12,91.2600,40.8600,15.3600,From Corner,Left Foot,0.0834,0.0952,gol
+56459,12460,2025/26,Sevilla,SEV 17,,12,91.3100,37.7900,14.2100,Open Play,Right Foot,0.1153,0.1050,bloqueado
+56460,12460,2025/26,Sevilla,SEV 16,SEV 03,73,82.0100,31.8600,23.0900,Set Piece,Other,0.0111,0.0213,fuera
+56667,12470,2025/26,Alaves,ALA 09,ALA 13,62,73.7000,18.0100,35.1500,Open Play,Right Foot,0.0111,0.0096,parado
+56668,12470,2025/26,Alaves,ALA 06,,8,82.9000,35.4900,22.1500,Open Play,Right Foot,0.0414,0.0512,fuera
+56669,12470,2025/26,Alaves,ALA 10,ALA 08,23,91.4200,24.6900,16.4600,Open Play,Left Foot,0.0991,0.1153,bloqueado
+56670,12470,2025/26,Alaves,ALA 09,ALA 08,21,84.2400,20.7500,24.6300,Open Play,Left Foot,0.0292,0.0277,bloqueado
+56671,12470,2025/26,Alaves,ALA 13,ALA 09,72,94.8400,33.5700,10.1700,Open Play,Other,0.1653,0.1144,parado
+56672,12470,2025/26,Alaves,ALA 16,ALA 15,57,90.5400,31.4700,14.6800,Open Play,Right Foot,0.1332,0.0964,fuera
+56673,12470,2025/26,Alaves,ALA 17,,53,83.5500,42.3700,23.0300,Direct Freekick,Right Foot,0.0189,0.0276,parado
+56674,12470,2025/26,Alaves,ALA 16,ALA 09,5,91.3700,40.8300,15.2500,Open Play,Right Foot,0.1154,0.1146,parado
+56675,12470,2025/26,Real Madrid,Interior Llegador,Lateral Suplente,4,96.1800,43.4000,12.8900,Open Play,Right Foot,0.1034,0.1298,parado
+56676,12470,2025/26,Real Madrid,Mediapunta Joven,Interior Creativo,76,89.4000,18.3500,22.1000,Open Play,Left Foot,0.0387,0.0424,fuera
+56677,12470,2025/26,Real Madrid,Delantero Centro,Interior Creativo,37,95.1400,33.5200,9.8700,Open Play,Right Foot,0.2358,0.2426,parado
+56678,12470,2025/26,Real Madrid,Delantero Centro,Extremo Izquierdo,8,71.1100,17.9000,37.5200,Open Play,Right Foot,0.0072,0.0071,bloqueado
+56679,12470,2025/26,Real Madrid,Lateral Suplente,Interior Llegador,67,74.1300,40.7500,31.6000,Open Play,Other,0.0061,0.0087,fuera
+56680,12470,2025/26,Real Madrid,Delantero Centro,Mediapunta Joven,45,73.2900,55.5600,38.3500,From Corner,Right Foot,0.0062,0.0098,fuera
+56681,12470,2025/26,Real Madrid,Delantero Centro,Mediapunta Joven,66,82.3200,32.0900,22.7600,Open Play,Right Foot,0.0266,0.0585,parado
+56682,12470,2025/26,Real Madrid,Extremo Izquierdo,,68,79.7300,24.8800,26.8700,From Corner,Right Foot,0.0388,0.0234,bloqueado
+56683,12470,2025/26,Real Madrid,Delantero Centro,Central Canterano,31,87.7600,14.1700,26.2800,Open Play,Left Foot,0.0231,0.0318,fuera
+56684,12470,2025/26,Real Madrid,Extremo Izquierdo,Mediapunta Joven,17,77.6100,29.9200,27.7000,Open Play,Right Foot,0.0204,0.0223,fuera
+56685,12470,2025/26,Real Madrid,Delantero Centro,Extremo Izquierdo,20,93.8400,52.9400,21.9800,Open Play,Other,0.0142,0.0232,fuera
+56686,12470,2025/26,Real Madrid,Extremo Izquierdo,Mediapunta Joven,33,71.4600,54.9400,39.5400,Open Play,Right Foot,0.0064,0.0080,bloqueado
+56687,12470,2025/26,Real Madrid,Lateral Suplente,,49,94.0000,34.0000,11.0000,Penalty,Right Foot,0.7342,0.7551,gol
+56688,12470,2025/26,Real Madrid,Mediapunta Joven,,88,92.3500,22.6000,17.0300,Open Play,Right Foot,0.0835,0.0731,fuera
+56689,12470,2025/26,Real Madrid,Interior Llegador,Mediocentro Ancla,15,98.9600,30.1400,7.1700,Open Play,Right Foot,0.4590,0.3556,fuera
+56874,12479,2025/26,Atletico Madrid,ATL 10,ATL 11,85,96.9400,41.3400,10.9000,Open Play,Right Foot,0.1832,0.1832,gol
+56875,12479,2025/26,Atletico Madrid,ATL 09,ATL 03,15,89.1200,28.4700,16.8100,Open Play,Other,0.0277,0.0412,bloqueado
+56876,12479,2025/26,Atletico Madrid,ATL 11,ATL 15,74,92.8800,35.3700,12.1900,Set Piece,Other,0.0924,0.0807,bloqueado
+56877,12479,2025/26,Atletico Madrid,ATL 22,ATL 03,56,66.6900,24.1700,39.5500,Open Play,Other,0.0050,0.0062,parado
+56878,12479,2025/26,Atletico Madrid,ATL 15,ATL 10,41,94.8700,26.4500,12.6300,Open Play,Other,0.0626,0.0674,parado
+56879,12479,2025/26,Atletico Madrid,ATL 15,ATL 10,43,92.8200,51.4500,21.2800,Open Play,Right Foot,0.0378,0.0441,bloqueado
+56880,12479,2025/26,Atletico Madrid,ATL 09,ATL 03,30,90.7600,40.9600,15.8500,Open Play,Right Foot,0.0996,0.0956,parado
+56881,12479,2025/26,Atletico Madrid,ATL 17,,84,80.8100,64.0000,38.5400,Open Play,Right Foot,0.0050,0.0119,fuera
+56882,12479,2025/26,Atletico Madrid,ATL 11,ATL 16,80,79.9000,22.0700,27.7900,Open Play,Right Foot,0.0166,0.0215,fuera
+56883,12479,2025/26,Atletico Madrid,ATL 21,ATL 11,78,83.8800,27.7000,22.0400,Open Play,Right Foot,0.0598,0.0485,parado
+56884,12479,2025/26,Real Madrid,Extremo Derecho,Mediapunta Joven,12,80.5900,37.3000,24.6400,Open Play,Right Foot,0.0398,0.0256,fuera
+56885,12479,2025/26,Real Madrid,Mediapunta Joven,Interior Creativo,87,90.4300,44.5100,17.9700,Open Play,Left Foot,0.0705,0.0784,fuera
+56886,12479,2025/26,Real Madrid,Delantero Centro,,81,93.8100,21.9900,16.4200,Open Play,Left Foot,0.0849,0.0915,fuera
+56887,12479,2025/26,Real Madrid,Extremo Canterano,Mediapunta Joven,66,91.1200,42.4600,16.2600,Open Play,Right Foot,0.0912,0.0978,fuera
+56888,12479,2025/26,Real Madrid,Extremo Canterano,Lateral Zurdo,81,93.2400,43.0600,14.8400,Open Play,Right Foot,0.0514,0.1042,parado
+56889,12479,2025/26,Real Madrid,Pivote Suplente,,90,94.0000,34.0000,11.0000,Penalty,Right Foot,0.7071,0.7551,gol
+56890,12479,2025/26,Real Madrid,Lateral Diestro,Mediapunta Joven,64,99.1900,29.6700,7.2400,Open Play,Right Foot,0.3196,0.3556,poste
+56891,12479,2025/26,Real Madrid,Interior Llegador,Interior Creativo,50,91.9000,39.5400,14.2300,Open Play,Left Foot,0.0967,0.1184,parado
+56892,12479,2025/26,Real Madrid,Interior Creativo,Interior Llegador,20,74.6200,27.5700,31.0500,Open Play,Right Foot,0.0219,0.0205,parado
+56893,12479,2025/26,Real Madrid,Delantero Suplente,,52,98.7600,40.2700,8.8400,Open Play,Right Foot,0.2124,0.2178,fuera
+56894,12479,2025/26,Real Madrid,Extremo Canterano,Lateral Zurdo,59,88.8200,29.6500,16.7600,Open Play,Left Foot,0.0636,0.0840,parado
+56895,12479,2025/26,Real Madrid,Extremo Canterano,Mediapunta Joven,5,88.2900,59.3000,30.3200,Open Play,Right Foot,0.0175,0.0167,fuera
+56896,12479,2025/26,Real Madrid,Extremo Derecho,Extremo Canterano,57,71.6500,15.1200,38.3200,Open Play,Right Foot,0.0092,0.0071,parado
+56897,12479,2025/26,Real Madrid,Extremo Canterano,Interior Llegador,55,95.0200,18.2400,18.6500,Open Play,Right Foot,0.0391,0.0490,bloqueado
+56898,12479,2025/26,Real Madrid,Interior Creativo,,88,86.5400,35.7500,18.5400,Open Play,Other,0.0383,0.0347,bloqueado
+57070,12488,2025/26,Real Madrid,Extremo Derecho,Lateral Zurdo,77,81.4700,13.1200,31.4600,Open Play,Left Foot,0.0131,0.0185,parado
+57071,12488,2025/26,Real Madrid,Delantero Suplente,Mediocentro Ancla,26,98.4500,28.1900,8.7600,Open Play,Right Foot,0.1988,0.2329,fuera
+57072,12488,2025/26,Real Madrid,Extremo Derecho,Interior Llegador,43,93.2100,15.6200,21.8400,Open Play,Right Foot,0.0371,0.0393,parado
+57073,12488,2025/26,Real Madrid,Lateral Diestro,,88,89.9700,27.4100,16.4100,Open Play,Right Foot,0.1093,0.1039,fuera
+57074,12488,2025/26,Real Madrid,Interior Creativo,Mediapunta Joven,72,89.0600,43.3100,18.4600,Open Play,Left Foot,0.0643,0.0686,bloqueado
+57075,12488,2025/26,Real Madrid,Mediapunta Joven,Central Rápido,28,89.0300,38.2000,16.5100,Open Play,Right Foot,0.0933,0.1091,bloqueado
+57076,12488,2025/26,Real Madrid,Extremo Izquierdo,,94,93.2900,36.5100,11.9700,Open Play,Right Foot,0.1282,0.1699,fuera
+57077,12488,2025/26,Real Madrid,Mediocentro Ancla,,69,97.4100,42.8600,11.6700,Open Play,Right Foot,0.1807,0.1509,fuera
+57078,12488,2025/26,Real Madrid,Extremo Izquierdo,Mediapunta Joven,38,77.8600,27.7200,27.8600,From Corner,Right Foot,0.0464,0.0238,fuera
+57079,12488,2025/26,Real Madrid,Lateral Diestro,Mediocentro Ancla,40,88.5800,25.7900,18.3600,Open Play,Right Foot,0.0861,0.0765,fuera
+57080,12488,2025/26,Real Madrid,Lateral Diestro,,33,68.2000,32.6700,36.8300,Open Play,Right Foot,0.0070,0.0075,fuera
+57081,12488,2025/26,Real Betis,REA 06,,28,86.7900,23.5800,20.9800,Open Play,Other,0.0230,0.0304,fuera
+57082,12488,2025/26,Real Betis,REA 11,REA 22,94,82.5000,29.5500,22.9400,Open Play,Right Foot,0.0524,0.0567,poste
+57083,12488,2025/26,Real Betis,REA 13,REA 17,67,80.1300,45.0400,27.2200,Open Play,Right Foot,0.0186,0.0220,parado
+57084,12488,2025/26,Real Betis,REA 04,,8,94.0000,34.0000,11.0000,Penalty,Right Foot,0.7931,0.7551,gol
+57085,12488,2025/26,Real Betis,REA 06,REA 03,83,95.1200,31.6300,10.1600,Open Play,Other,0.1631,0.1217,parado
+57086,12488,2025/26,Real Betis,REA 13,,21,92.8600,39.2700,13.2300,Open Play,Right Foot,0.1737,0.1547,bloqueado
+57087,12488,2025/26,Real Betis,REA 17,REA 11,37,87.9900,39.1400,17.7700,Open Play,Right Foot,0.0721,0.0805,fuera
+57088,12488,2025/26,Real Betis,REA 11,REA 19,8,93.6300,30.1400,12.0100,Open Play,Left Foot,0.1567,0.1760,fuera
+57089,12488,2025/26,Real Betis,REA 13,REA 17,53,80.6500,16.3100,30.1000,Open Play,Other,0.0086,0.0066,bloqueado
+57090,12488,2025/26,Real Betis,REA 17,,92,65.0000,17.8800,43.1300,Open Play,Right Foot,0.0050,0.0067,fuera
+57091,12488,2025/26,Real Betis,REA 13,,68,87.5200,31.1300,17.7200,Direct Freekick,Right Foot,0.0508,0.0759,bloqueado
+57265,12497,2025/26,Getafe,GET 17,GET 11,51,92.8400,33.8000,12.1600,Open Play,Other,0.0712,0.0794,fuera
+57266,12497,2025/26,Getafe,GET 17,GET 20,9,89.9200,29.8700,15.6300,Open Play,Right Foot,0.1170,0.0917,bloqueado
+57267,12497,2025/26,Getafe,GET 10,,93,96.6300,32.2300,8.5500,Open Play,Right Foot,0.2747,0.3064,gol
+57268,12497,2025/26,Getafe,GET 15,,32,89.7500,47.7800,20.5500,Set Piece,Right Foot,0.0556,0.0453,fuera
+57269,12497,2025/26,Getafe,GET 10,GET 11,16,89.2400,38.7100,16.4500,Open Play,Right Foot,0.1317,0.1091,fuera
+57270,12497,2025/26,Real Madrid,Delantero Canterano,Central Rápido,82,97.4800,33.9300,7.5200,From Corner,Other,0.2013,0.1699,parado
+57271,12497,2025/26,Real Madrid,Extremo Canterano,Interior Llegador,22,95.0200,16.7500,19.9300,Set Piece,Right Foot,0.0480,0.0423,parado
+57272,12497,2025/26,Real Madrid,Delantero Centro,,39,96.0600,37.4200,9.5700,From Corner,Right Foot,0.2320,0.2601,gol
+57273,12497,2025/26,Real Madrid,Delantero Suplente,,92,91.1000,30.6700,14.2900,Open Play,Right Foot,0.1255,0.1024,parado
+57274,12497,2025/26,Real Madrid,Extremo Canterano,,59,92.6800,32.3600,12.4300,Open Play,Other,0.0705,0.0761,parado
+57275,12497,2025/26,Real Madrid,Delantero Canterano,Lateral Diestro,59,85.4800,29.3800,20.0600,Open Play,Other,0.0256,0.0377,fuera
+57276,12497,2025/26,Real Madrid,Delantero Centro,Pivote Canterano,43,82.6800,43.3100,24.1900,Open Play,Left Foot,0.0251,0.0269,parado
+57277,12497,2025/26,Real Madrid,Interior Creativo,Delantero Canterano,68,92.9500,40.1000,13.5100,Set Piece,Right Foot,0.1252,0.1450,poste
+57278,12497,2025/26,Real Madrid,Extremo Canterano,Pivote Canterano,43,78.3400,40.1100,27.3500,Open Play,Other,0.0096,0.0155,bloqueado
+57279,12497,2025/26,Real Madrid,Lateral Suplente,Interior Creativo,13,86.7800,38.0300,18.6600,Open Play,Right Foot,0.0552,0.0729,bloqueado
+57280,12497,2025/26,Real Madrid,Lateral Diestro,Interior Llegador,67,98.4800,30.2900,7.5000,From Corner,Other,0.1940,0.1595,poste
+57281,12497,2025/26,Real Madrid,Extremo Canterano,,95,83.6400,27.6600,22.2800,Direct Freekick,Left Foot,0.0240,0.0355,parado
+57282,12497,2025/26,Real Madrid,Delantero Canterano,Lateral Suplente,43,76.8400,44.1500,29.9300,Open Play,Right Foot,0.0160,0.0164,fuera
+57283,12497,2025/26,Real Madrid,Interior Creativo,Delantero Canterano,11,82.7200,52.6400,29.0500,Open Play,Right Foot,0.0139,0.0157,fuera
+57284,12497,2025/26,Real Madrid,Central Alto,Delantero Centro,3,94.8600,44.9600,14.9300,Open Play,Other,0.0510,0.0338,parado
+57285,12497,2025/26,Real Madrid,Delantero Canterano,,58,96.1900,15.4400,20.5400,Open Play,Other,0.0125,0.0230,parado
+57286,12497,2025/26,Real Madrid,Delantero Canterano,,86,93.1800,32.9200,11.8700,From Corner,Other,0.0941,0.0807,bloqueado
+57460,12506,2025/26,Real Madrid,Delantero Centro,Lateral Suplente,54,90.7000,33.1700,14.3300,Open Play,Left Foot,0.1287,0.1094,fuera
+57461,12506,2025/26,Real Madrid,Lateral Suplente,Interior Creativo,72,84.8000,11.2800,30.4000,Open Play,Left Foot,0.0255,0.0118,fuera
+57462,12506,2025/26,Real Madrid,Extremo Izquierdo,Interior Creativo,16,83.9300,36.7600,21.2500,Open Play,Right Foot,0.0646,0.0533,fuera
+57463,12506,2025/26,Real Madrid,Extremo Canterano,,49,96.4000,36.8200,9.0500,Open Play,Other,0.1400,0.1199,parado
+57464,12506,2025/26,Real Madrid,Delantero Centro,,88,65.0000,21.7500,41.8400,Open Play,Right Foot,0.0056,0.0073,parado
+57465,12506,2025/26,Real Madrid,Delantero Suplente,Pivote Canterano,71,68.3700,52.2000,40.9100,Open Play,Other,0.0050,0.0062,bloqueado
+57466,12506,2025/26,Real Madrid,Delantero Suplente,,22,94.0000,34.0000,11.0000,Penalty,Right Foot,0.7535,0.7551,fuera
+57467,12506,2025/26,Real Madrid,Extremo Izquierdo,Pivote Canterano,69,97.7900,29.0500,8.7500,Open Play,Left Foot,0.2711,0.2537,parado
+57468,12506,2025/26,Real Madrid,Pivote Canterano,Extremo Canterano,2,88.4200,42.8500,18.8000,Open Play,Right Foot,0.0471,0.0653,fuera
+57469,12506,2025/26,Real Madrid,Extremo Izquierdo,,48,98.6700,27.5900,9.0100,Open Play,Right Foot,0.2679,0.2020,fuera
+57470,12506,2025/26,Real Madrid,Interior Llegador,,68,97.5600,40.2600,9.7300,Open Play,Left Foot,0.2329,0.1877,fuera
+57471,12506,2025/26,Real Madrid,Delantero Centro,Interior Llegador,17,65.3000,44.5600,41.0800,Open Play,Right Foot,0.0050,0.0074,fuera
+57472,12506,2025/26,Real Madrid,Extremo Izquierdo,,71,83.7600,23.4900,23.7000,Direct Freekick,Right Foot,0.0328,0.0226,fuera
+57473,12506,2025/26,Real Madrid,Extremo Izquierdo,,86,93.8700,29.0800,12.1700,From Corner,Other,0.0548,0.0741,fuera
+57474,12506,2025/26,Real Madrid,Extremo Canterano,Delantero Centro,87,74.0100,16.7300,35.4700,Open Play,Right Foot,0.0099,0.0096,fuera
+57475,12506,2025/26,Real Madrid,Extremo Canterano,Lateral Suplente,51,88.2400,46.7100,21.0300,Open Play,Right Foot,0.0578,0.0466,fuera
+57476,12506,2025/26,Real Madrid,Central Rápido,Lateral Diestro,47,65.0000,48.1500,42.4300,Open Play,Right Foot,0.0050,0.0074,fuera
+57477,12506,2025/26,Real Madrid,Extremo Izquierdo,Lateral Suplente,25,89.4600,24.8500,18.0300,From Corner,Left Foot,0.0798,0.0920,fuera
+57478,12506,2025/26,Real Madrid,Extremo Izquierdo,Interior Llegador,5,94.9400,10.2700,25.7700,Open Play,Right Foot,0.0306,0.0263,parado
+57479,12506,2025/26,Real Madrid,Extremo Canterano,,52,90.3300,4.0000,33.4000,Set Piece,Left Foot,0.0097,0.0092,parado
+57480,12506,2025/26,Real Madrid,Interior Creativo,Pivote Canterano,86,97.8900,31.8400,7.4300,Open Play,Right Foot,0.3737,0.3270,parado
+57481,12506,2025/26,Real Madrid,Interior Creativo,Lateral Diestro,89,77.1900,41.4700,28.8000,Open Play,Right Foot,0.0273,0.0182,bloqueado
+57482,12506,2025/26,Real Madrid,Extremo Canterano,,64,95.3500,28.9800,10.8800,From Corner,Right Foot,0.2490,0.1762,fuera
+57483,12506,2025/26,Real Madrid,Delantero Suplente,Lateral Diestro,20,78.4800,26.0300,27.6900,Set Piece,Other,0.0061,0.0130,fuera
+57484,12506,2025/26,Espanyol,ESP 16,ESP 07,4,95.5000,27.9400,11.2700,Open Play,Right Foot,0.1766,0.1805,fuera
+57485,12506,2025/26,Espanyol,ESP 16,,52,84.0000,38.2800,21.4300,Open Play,Right Foot,0.0405,0.0518,parado
+57486,12506,2025/26,Espanyol,ESP 03,ESP 11,45,80.9100,14.6500,30.9000,Open Play,Left Foot,0.0151,0.0110,fuera
+57487,12506,2025/26,Espanyol,ESP 16,ESP 14,34,94.4700,59.2700,27.3800,Open Play,Right Foot,0.0234,0.0257,fuera
+57488,12506,2025/26,Espanyol,ESP 03,,46,97.2700,26.0300,11.1000,Open Play,Left Foot,0.1685,0.1578,gol
+57489,12506,2025/26,Espanyol,ESP 16,ESP 11,94,97.4800,42.8700,11.6300,Open Play,Right Foot,0.1170,0.1509,fuera
+57490,12506,2025/26,Espanyol,ESP 17,,75,65.0000,30.4900,40.1600,From Corner,Other,0.0050,0.0063,parado
+57491,12506,2025/26,Espanyol,ESP 12,ESP 15,39,88.4000,44.4400,19.6100,Open Play,Left Foot,0.0464,0.0645,fuera
+57676,12515,2025/26,Athletic Club,ATH 11,ATH 14,83,86.4700,46.8700,22.5600,Open Play,Right Foot,0.0423,0.0435,fuera
+57677,12515,2025/26,Athletic Club,ATH 15,,4,96.6800,46.0400,14.6400,Open Play,Right Foot,0.0770,0.0859,parado
+57678,12515,2025/26,Athletic Club,ATH 15,ATH 22,68,95.9600,25.1900,12.6300,Open Play,Left Foot,0.0872,0.1348,fuera
+57679,12515,2025/26,Athletic Club,ATH 16,ATH 11,55,85.7800,36.7000,19.4000,Open Play,Right Foot,0.0534,0.0502,fuera
+57680,12515,2025/26,Athletic Club,ATH 16,ATH 14,28,89.3000,18.9700,21.7300,Open Play,Left Foot,0.0291,0.0424,parado
+57681,12515,2025/26,Athletic Club,ATH 15,ATH 14,76,81.4400,58.3600,33.8900,From Corner,Right Foot,0.0089,0.0190,parado
+57682,12515,2025/26,Athletic Club,ATH 15,ATH 11,31,93.3600,42.9800,14.7100,Open Play,Right Foot,0.0806,0.1051,parado
+57683,12515,2025/26,Athletic Club,ATH 15,,88,80.3200,17.3700,29.7600,Open Play,Right Foot,0.0165,0.0112,bloqueado
+57684,12515,2025/26,Athletic Club,ATH 15,ATH 14,50,91.6900,26.2400,15.4100,Open Play,Right Foot,0.1203,0.1002,bloqueado
+57685,12515,2025/26,Athletic Club,ATH 20,ATH 22,1,95.0900,42.8300,13.2800,Open Play,Other,0.0469,0.0650,parado
+57686,12515,2025/26,Athletic Club,ATH 16,ATH 14,63,97.2600,29.6800,8.8700,Set Piece,Right Foot,0.2567,0.2512,bloqueado
+57687,12515,2025/26,Athletic Club,ATH 05,ATH 11,12,91.8300,45.5400,17.5100,Open Play,Right Foot,0.1277,0.0699,fuera
+57688,12515,2025/26,Athletic Club,ATH 15,ATH 16,44,87.2800,50.6300,24.3100,From Corner,Other,0.0075,0.0171,parado
+57689,12515,2025/26,Athletic Club,ATH 16,,78,99.7700,31.9300,5.6200,Open Play,Left Foot,0.5637,0.5018,bloqueado
+57690,12515,2025/26,Athletic Club,ATH 22,,35,96.6200,41.2400,11.0700,Open Play,Other,0.0890,0.0813,gol
+57691,12515,2025/26,Athletic Club,ATH 14,ATH 16,4,94.0000,34.4100,11.0100,Open Play,Right Foot,0.3349,0.2286,parado
+57692,12515,2025/26,Athletic Club,ATH 15,ATH 10,59,97.1700,29.4200,9.0800,Open Play,Left Foot,0.2154,0.2537,parado
+57693,12515,2025/26,Athletic Club,ATH 15,ATH 11,42,86.9400,33.5500,18.0700,From Corner,Other,0.0504,0.0360,parado
+57694,12515,2025/26,Athletic Club,ATH 22,ATH 11,84,71.8100,43.2800,34.4600,Open Play,Right Foot,0.0086,0.0091,poste
+57695,12515,2025/26,Real Madrid,Extremo Derecho,,57,86.3000,64.0000,35.3500,Open Play,Right Foot,0.0121,0.0135,gol
+57696,12515,2025/26,Real Madrid,Mediapunta Joven,,77,82.2800,22.3600,25.5300,Set Piece,Left Foot,0.0279,0.0263,parado
+57697,12515,2025/26,Real Madrid,Extremo Izquierdo,Interior Canterano,60,65.0000,15.1100,44.2400,Set Piece,Right Foot,0.0050,0.0067,parado
+57698,12515,2025/26,Real Madrid,Delantero Centro,Mediapunta Joven,18,82.5100,31.9100,22.5900,Open Play,Left Foot,0.0518,0.0519,parado
+57699,12515,2025/26,Real Madrid,Delantero Centro,,85,94.0000,34.0000,11.0000,Penalty,Left Foot,0.8527,0.7551,gol
+57700,12515,2025/26,Real Madrid,Extremo Canterano,,84,73.1000,20.8800,34.4900,Open Play,Right Foot,0.0092,0.0108,parado
+57701,12515,2025/26,Real Madrid,Lateral Diestro,Delantero Centro,66,92.7300,46.5300,17.5400,Open Play,Right Foot,0.0614,0.0691,fuera
+57702,12515,2025/26,Real Madrid,Extremo Canterano,Delantero Centro,10,91.7300,25.6900,15.6600,Open Play,Left Foot,0.0899,0.0979,bloqueado
+57703,12515,2025/26,Real Madrid,Delantero Centro,Mediapunta Joven,85,94.1400,24.9200,14.1600,From Corner,Other,0.0567,0.0503,parado
+57704,12515,2025/26,Real Madrid,Extremo Derecho,Mediapunta Joven,38,98.1900,33.7300,6.8200,Open Play,Right Foot,0.3112,0.4082,fuera
+57705,12515,2025/26,Real Madrid,Lateral Suplente,Mediocentro Ancla,31,89.1300,41.9300,17.7400,Open Play,Left Foot,0.1141,0.0822,fuera
+57706,12515,2025/26,Real Madrid,Delantero Centro,Interior Canterano,44,94.2000,27.5900,12.5600,Open Play,Right Foot,0.2201,0.1574,fuera
+57707,12515,2025/26,Real Madrid,Interior Creativo,Mediapunta Joven,79,94.4600,13.0100,23.4900,Open Play,Other,0.0111,0.0166,parado
+57708,12515,2025/26,Real Madrid,Extremo Izquierdo,Interior Creativo,24,87.8400,52.9500,25.5600,Set Piece,Other,0.0120,0.0143,fuera
+57885,12524,2025/26,Real Madrid,Extremo Derecho,,36,86.9100,60.0700,31.7300,Open Play,Right Foot,0.0118,0.0134,parado
+57886,12524,2025/26,Real Madrid,Central Rápido,Mediocentro Ancla,4,99.2400,17.5900,17.3900,Open Play,Right Foot,0.1086,0.0652,fuera
+57887,12524,2025/26,Real Madrid,Extremo Izquierdo,,71,98.7500,19.6400,15.6600,Open Play,Right Foot,0.0881,0.0817,parado
+57888,12524,2025/26,Real Madrid,Extremo Izquierdo,,84,97.6300,35.3000,7.4800,Open Play,Right Foot,0.4524,0.3239,gol
+57889,12524,2025/26,Real Madrid,Central Joven,,44,94.0000,34.0000,11.0000,Penalty,Left Foot,0.7414,0.7551,gol
+57890,12524,2025/26,Real Madrid,Extremo Izquierdo,Interior Creativo,49,93.4300,49.4900,19.3300,Open Play,Left Foot,0.0405,0.0518,bloqueado
+57891,12524,2025/26,Real Madrid,Lateral Suplente,Interior Llegador,49,87.6600,24.5100,19.7600,Open Play,Right Foot,0.0414,0.0654,fuera
+57892,12524,2025/26,Real Madrid,Delantero Centro,Central Joven,33,97.9900,51.0100,18.4000,Open Play,Right Foot,0.0832,0.0596,bloqueado
+57893,12524,2025/26,Real Madrid,Central Rápido,Mediocentro Ancla,33,91.9600,33.6000,13.0500,Open Play,Right Foot,0.3069,0.1595,gol
+57894,12524,2025/26,Real Madrid,Extremo Izquierdo,,59,86.4900,24.8200,20.6600,Direct Freekick,Right Foot,0.0425,0.0419,bloqueado
+57895,12524,2025/26,Real Madrid,Extremo Izquierdo,Central Joven,91,87.1200,41.8400,19.5200,Open Play,Right Foot,0.0557,0.0627,bloqueado
+57896,12524,2025/26,Real Madrid,Extremo Izquierdo,Delantero Centro,1,80.4000,39.4100,25.1900,Open Play,Right Foot,0.0335,0.0248,parado
+57897,12524,2025/26,Elche,ELC 16,ELC 21,17,80.9800,39.7100,24.6900,Open Play,Left Foot,0.0213,0.0261,gol
+57898,12524,2025/26,Elche,ELC 17,,7,82.9400,52.3900,28.7200,From Corner,Right Foot,0.0193,0.0200,bloqueado
+57899,12524,2025/26,Elche,ELC 16,,63,95.0500,36.7700,10.3300,Open Play,Left Foot,0.1990,0.2494,parado
+57900,12524,2025/26,Elche,ELC 17,ELC 21,46,95.0600,47.5900,16.8400,Open Play,Right Foot,0.0679,0.0558,fuera
+57901,12524,2025/26,Elche,ELC 21,,22,80.0700,31.1500,25.0900,Direct Freekick,Right Foot,0.0250,0.0207,bloqueado
+57902,12524,2025/26,Elche,ELC 17,,24,89.1300,30.9600,16.1500,Open Play,Right Foot,0.0985,0.1080,bloqueado
+57903,12524,2025/26,Elche,ELC 11,ELC 16,18,90.7100,35.8400,14.4100,Open Play,Right Foot,0.0966,0.1024,fuera
+57904,12524,2025/26,Elche,ELC 09,ELC 14,93,94.3600,30.2000,11.3000,Open Play,Right Foot,0.1457,0.1802,fuera
+58104,12533,2025/26,Girona,GIR 22,GIR 09,77,90.7100,27.0600,15.8800,Open Play,Other,0.0548,0.0442,parado
+58105,12533,2025/26,Girona,GIR 22,GIR 10,65,86.3500,27.2000,19.8500,From Corner,Other,0.0187,0.0302,parado
+58106,12533,2025/26,Girona,GIR 18,,25,70.5200,16.6700,38.5900,Open Play,Right Foot,0.0082,0.0067,parado
+58107,12533,2025/26,Girona,GIR 22,GIR 09,18,87.6200,6.2800,32.7200,Open Play,Other,0.0050,0.0071,bloqueado
+58108,12533,2025/26,Girona,GIR 22,GIR 17,32,96.1800,39.2600,10.2700,Open Play,Right Foot,0.1273,0.1994,gol
+58109,12533,2025/26,Girona,GIR 19,GIR 08,45,85.3100,38.6200,20.2200,Open Play,Right Foot,0.0475,0.0691,fuera
+58110,12533,2025/26,Girona,GIR 17,GIR 19,52,94.8600,23.6600,14.4800,Open Play,Left Foot,0.1276,0.1054,parado
+58111,12533,2025/26,Girona,GIR 22,GIR 06,28,82.5100,21.2600,25.8500,Open Play,Left Foot,0.0294,0.0263,fuera
+58112,12533,2025/26,Girona,GIR 22,,49,94.5300,48.9100,18.2200,Open Play,Right Foot,0.0726,0.0605,parado
+58113,12533,2025/26,Girona,GIR 19,,41,96.7300,40.0500,10.2500,Open Play,Other,0.1324,0.0879,bloqueado
+58114,12533,2025/26,Girona,GIR 19,GIR 10,66,92.4500,34.9100,12.5800,Open Play,Right Foot,0.1251,0.1560,parado
+58115,12533,2025/26,Real Madrid,Extremo Derecho,Mediocentro Ancla,48,95.9900,26.5900,11.6600,Open Play,Right Foot,0.1468,0.1731,fuera
+58116,12533,2025/26,Real Madrid,Central Alto,Interior Llegador,6,95.3700,34.9900,9.6800,From Corner,Other,0.1376,0.1181,bloqueado
+58117,12533,2025/26,Real Madrid,Interior Llegador,,54,88.2000,19.3500,22.2900,Set Piece,Right Foot,0.0420,0.0436,fuera
+58118,12533,2025/26,Real Madrid,Interior Llegador,,70,96.3300,29.4700,9.7800,Open Play,Right Foot,0.2725,0.2196,parado
+58119,12533,2025/26,Real Madrid,Extremo Izquierdo,,29,84.8700,16.4900,26.6800,From Corner,Right Foot,0.0151,0.0277,parado
+58120,12533,2025/26,Real Madrid,Extremo Izquierdo,,79,83.8300,35.9500,21.2600,Direct Freekick,Left Foot,0.0397,0.0412,parado
+58121,12533,2025/26,Real Madrid,Lateral Diestro,Pivote Suplente,2,89.5100,31.4700,15.6900,Open Play,Right Foot,0.0955,0.0934,fuera
+58122,12533,2025/26,Real Madrid,Mediocentro Ancla,,18,95.4700,45.6800,15.0700,From Corner,Other,0.0487,0.0351,parado
+58123,12533,2025/26,Real Madrid,Extremo Izquierdo,,69,87.7800,19.6500,22.4100,Open Play,Right Foot,0.0429,0.0447,parado
+58320,12542,2025/26,Real Madrid,Mediocentro Ancla,,18,91.8000,41.0200,14.9500,From Corner,Other,0.0707,0.0446,bloqueado
+58321,12542,2025/26,Real Madrid,Interior Llegador,,60,84.3900,36.7200,20.7900,Set Piece,Left Foot,0.0709,0.0499,bloqueado
+58322,12542,2025/26,Real Madrid,Central Joven,,65,78.5300,64.0000,40.0100,Open Play,Other,0.0050,0.0086,fuera
+58323,12542,2025/26,Real Madrid,Lateral Suplente,Delantero Canterano,43,77.6100,28.2300,28.0000,Open Play,Right Foot,0.0203,0.0231,fuera
+58324,12542,2025/26,Real Madrid,Delantero Canterano,Lateral Suplente,11,86.8500,34.7500,18.1700,Open Play,Other,0.0332,0.0354,parado
+58325,12542,2025/26,Real Madrid,Delantero Canterano,,62,83.6100,36.3700,21.5200,Open Play,Right Foot,0.0686,0.0512,parado
+58326,12542,2025/26,Real Madrid,Extremo Derecho,Delantero Canterano,16,81.9900,17.9700,28.0400,Open Play,Other,0.0096,0.0113,fuera
+58327,12542,2025/26,Real Madrid,Delantero Centro,,73,76.8500,27.6000,28.8700,Open Play,Right Foot,0.0209,0.0181,fuera
+58328,12542,2025/26,Real Madrid,Delantero Centro,Central Rápido,15,79.3400,33.4200,25.6700,Open Play,Left Foot,0.0195,0.0245,fuera
+58329,12542,2025/26,Real Madrid,Delantero Canterano,Extremo Derecho,76,98.0200,35.4200,7.1300,Set Piece,Right Foot,0.3721,0.3744,bloqueado
+58330,12542,2025/26,Real Madrid,Delantero Centro,Central Joven,30,95.3000,35.3500,9.7900,Open Play,Right Foot,0.3278,0.2426,parado
+58331,12542,2025/26,Real Madrid,Extremo Derecho,,77,82.3000,16.5800,28.6200,Direct Freekick,Left Foot,0.0113,0.0130,fuera
+58332,12542,2025/26,Real Madrid,Delantero Centro,,70,98.8900,35.9900,6.4300,From Corner,Other,0.2551,0.2335,gol
+58333,12542,2025/26,Real Madrid,Extremo Derecho,Delantero Centro,9,79.0000,36.1200,26.0800,Open Play,Right Foot,0.0439,0.0245,fuera
+58334,12542,2025/26,Real Madrid,Delantero Centro,Delantero Canterano,26,92.1500,20.8000,18.4200,From Corner,Right Foot,0.0525,0.0661,fuera
+58335,12542,2025/26,Real Madrid,Extremo Canterano,Interior Canterano,22,74.9500,21.9500,32.3800,Open Play,Right Foot,0.0151,0.0124,fuera
+58336,12542,2025/26,Real Madrid,Extremo Izquierdo,Delantero Canterano,82,80.7700,41.3400,25.3200,Open Play,Other,0.0191,0.0187,parado
+58337,12542,2025/26,Real Madrid,Extremo Derecho,,13,79.4400,20.4900,28.9100,Open Play,Left Foot,0.0372,0.0178,parado
+58338,12542,2025/26,Real Madrid,Delantero Centro,Interior Llegador,82,96.1100,17.3100,18.9100,Open Play,Right Foot,0.0426,0.0534,fuera
+58339,12542,2025/26,Osasuna,OSA 10,OSA 17,85,95.4600,41.6100,12.2100,Open Play,Right Foot,0.1169,0.1631,parado
+58340,12542,2025/26,Osasuna,OSA 17,OSA 16,41,94.5200,26.0200,13.1700,Open Play,Right Foot,0.1159,0.1435,parado
+58341,12542,2025/26,Osasuna,OSA 19,OSA 04,79,97.7300,30.6100,8.0200,From Corner,Right Foot,0.3651,0.3413,parado
+58342,12542,2025/26,Osasuna,OSA 17,,26,65.0100,44.4700,41.3400,Open Play,Other,0.0050,0.0062,parado
+58343,12542,2025/26,Osasuna,OSA 17,OSA 16,22,96.3200,45.0100,14.0200,Open Play,Right Foot,0.0611,0.1084,bloqueado
+58344,12542,2025/26,Osasuna,OSA 19,OSA 04,39,86.7500,19.4100,23.3600,From Corner,Left Foot,0.0231,0.0458,bloqueado
+58345,12542,2025/26,Osasuna,OSA 14,,78,79.2900,33.4000,25.7200,From Corner,Other,0.0155,0.0158,parado
+58346,12542,2025/26,Osasuna,OSA 19,OSA 14,41,96.2100,18.2000,18.0800,Open Play,Left Foot,0.0438,0.0633,fuera
+58347,12542,2025/26,Osasuna,OSA 07,OSA 14,13,77.1000,37.3100,28.0900,Open Play,Other,0.0081,0.0161,parado
+58348,12542,2025/26,Osasuna,OSA 19,,74,94.0000,34.0000,11.0000,Penalty,Right Foot,0.7846,0.7551,gol
+58349,12542,2025/26,Osasuna,OSA 14,OSA 03,28,84.9200,19.6400,24.6800,Open Play,Other,0.0113,0.0326,fuera
+58523,12551,2025/26,Real Madrid,Extremo Izquierdo,,86,87.5500,38.8100,18.1000,Open Play,Other,0.0332,0.0346,parado
+58524,12551,2025/26,Real Madrid,Delantero Centro,,84,93.9800,24.4900,14.5600,Open Play,Right Foot,0.1059,0.0975,parado
+58525,12551,2025/26,Real Madrid,Delantero Centro,Central Canterano,58,92.4000,27.1500,14.3400,Open Play,Left Foot,0.1151,0.1287,gol
+58526,12551,2025/26,Real Madrid,Delantero Centro,Delantero Canterano,1,88.3800,21.2200,20.9700,Open Play,Left Foot,0.0574,0.0450,fuera
+58527,12551,2025/26,Real Madrid,Extremo Izquierdo,Central Joven,45,96.9500,37.0700,8.6200,Open Play,Left Foot,0.2969,0.3135,bloqueado
+58528,12551,2025/26,Real Madrid,Interior Llegador,Extremo Izquierdo,79,87.1400,28.4500,18.7000,Set Piece,Left Foot,0.0711,0.0734,parado
+58529,12551,2025/26,Real Madrid,Interior Canterano,Interior Creativo,56,87.0800,26.6400,19.3700,Open Play,Right Foot,0.0841,0.0793,parado
+58530,12551,2025/26,Real Madrid,Extremo Izquierdo,Interior Llegador,10,97.2800,30.2300,8.5900,Open Play,Right Foot,0.3039,0.3128,fuera
+58531,12551,2025/26,Real Madrid,Extremo Izquierdo,,41,77.2600,42.0600,28.8900,Direct Freekick,Right Foot,0.0131,0.0152,fuera
+58532,12551,2025/26,Real Madrid,Extremo Izquierdo,Lateral Diestro,7,97.3100,27.1400,10.3000,Open Play,Other,0.0945,0.0724,parado
+58533,12551,2025/26,Real Madrid,Interior Llegador,,61,86.7800,26.1500,19.8400,Open Play,Right Foot,0.0678,0.0657,fuera
+58534,12551,2025/26,Real Madrid,Lateral Zurdo,Interior Canterano,71,95.7900,33.3400,9.2300,Open Play,Left Foot,0.2637,0.2734,fuera
+58535,12551,2025/26,Real Madrid,Extremo Izquierdo,,30,95.9200,41.9800,12.0900,Open Play,Left Foot,0.1469,0.1770,parado
+58536,12551,2025/26,Real Madrid,Extremo Izquierdo,,64,86.8600,36.9700,18.3900,Direct Freekick,Right Foot,0.0634,0.0710,parado
+58537,12551,2025/26,Real Madrid,Interior Llegador,Extremo Derecho,9,91.5900,42.9400,16.1200,From Corner,Other,0.0423,0.0378,bloqueado
+58538,12551,2025/26,Mallorca,MAL 10,MAL 09,22,91.1100,36.2800,14.0800,Open Play,Right Foot,0.1077,0.1094,bloqueado
+58539,12551,2025/26,Mallorca,MAL 22,,90,95.2500,42.8100,13.1500,Set Piece,Left Foot,0.1200,0.1411,fuera
+58540,12551,2025/26,Mallorca,MAL 04,,51,79.8400,53.2200,31.6600,Open Play,Right Foot,0.0166,0.0096,fuera
+58541,12551,2025/26,Mallorca,MAL 22,MAL 16,54,95.5300,50.7100,19.2100,Open Play,Right Foot,0.0448,0.0534,bloqueado
+58542,12551,2025/26,Mallorca,MAL 16,MAL 10,59,99.6400,41.5900,9.2900,Set Piece,Right Foot,0.1630,0.2012,gol
+58543,12551,2025/26,Mallorca,MAL 16,MAL 22,94,95.5500,40.7000,11.5900,Open Play,Right Foot,0.1502,0.1832,gol
+58544,12551,2025/26,Mallorca,MAL 16,,11,89.8900,20.3000,20.3900,Open Play,Right Foot,0.0615,0.0444,parado
+58756,12562,2025/26,Real Sociedad,REA 17,REA 11,62,87.6400,46.1400,21.1800,Open Play,Other,0.0189,0.0225,fuera
+58757,12562,2025/26,Real Sociedad,REA 18,,11,68.8500,46.3600,38.2000,Open Play,Right Foot,0.0072,0.0074,parado
+58758,12562,2025/26,Real Sociedad,REA 16,,52,88.4500,51.5200,24.1000,Open Play,Other,0.0181,0.0144,fuera
+58759,12562,2025/26,Real Sociedad,REA 20,REA 09,6,86.4200,51.2800,25.3800,From Corner,Left Foot,0.0357,0.0283,fuera
+58760,12562,2025/26,Real Sociedad,REA 16,REA 05,88,90.7100,36.0800,14.4400,Open Play,Other,0.0448,0.0501,fuera
+58761,12562,2025/26,Real Sociedad,REA 20,REA 10,75,65.0000,41.0100,40.6100,Open Play,Right Foot,0.0058,0.0074,parado
+58762,12562,2025/26,Real Sociedad,REA 16,REA 17,12,92.7300,38.0700,12.9300,From Corner,Right Foot,0.1360,0.1611,bloqueado
+58763,12562,2025/26,Real Sociedad,REA 17,REA 20,85,88.9400,38.5800,16.7000,Open Play,Left Foot,0.0943,0.0850,bloqueado
+58764,12562,2025/26,Real Madrid,Lateral Diestro,Interior Creativo,13,94.6200,43.3000,13.9400,Open Play,Left Foot,0.1085,0.1234,bloqueado
+58765,12562,2025/26,Real Madrid,Extremo Izquierdo,Pivote Suplente,30,89.2400,29.4400,16.4100,From Corner,Right Foot,0.0782,0.1078,bloqueado
+58766,12562,2025/26,Real Madrid,Extremo Izquierdo,Interior Llegador,25,100.0500,15.5400,19.1100,Open Play,Other,0.0309,0.0305,parado
+58767,12562,2025/26,Real Madrid,Lateral Suplente,Lateral Diestro,94,91.1900,30.7200,14.1900,Open Play,Right Foot,0.1407,0.1024,bloqueado
+58768,12562,2025/26,Real Madrid,Interior Creativo,,39,90.0000,29.6400,15.6200,Open Play,Left Foot,0.1586,0.0917,parado
+58769,12562,2025/26,Real Madrid,Lateral Suplente,Interior Creativo,2,95.6300,28.1900,11.0200,Open Play,Right Foot,0.1816,0.1805,fuera
+58770,12562,2025/26,Real Madrid,Interior Llegador,Lateral Suplente,27,85.5500,37.7200,19.8000,Open Play,Other,0.0353,0.0261,parado
+58771,12562,2025/26,Real Madrid,Extremo Canterano,,76,94.0000,34.0000,11.0000,Penalty,Left Foot,0.7256,0.7551,parado
+58772,12562,2025/26,Real Madrid,Extremo Izquierdo,Interior Llegador,10,90.8100,49.5800,21.0700,Open Play,Right Foot,0.0837,0.0455,bloqueado
+58773,12562,2025/26,Real Madrid,Extremo Canterano,Extremo Izquierdo,51,95.2100,31.2700,10.1600,Set Piece,Left Foot,0.2280,0.2269,fuera
+58774,12562,2025/26,Real Madrid,Extremo Izquierdo,Interior Creativo,48,88.3300,37.9100,17.1300,From Corner,Left Foot,0.0967,0.0927,bloqueado
+58775,12562,2025/26,Real Madrid,Delantero Centro,Extremo Izquierdo,30,97.8100,37.2200,7.8800,Open Play,Right Foot,0.3049,0.3270,bloqueado
+58776,12562,2025/26,Real Madrid,Extremo Izquierdo,,52,90.8900,31.0600,14.4200,From Corner,Right Foot,0.1358,0.1024,fuera
+58777,12562,2025/26,Real Madrid,Extremo Izquierdo,Interior Llegador,2,79.0000,41.2900,27.0000,Open Play,Other,0.0081,0.0178,fuera
+58778,12562,2025/26,Real Madrid,Interior Canterano,,40,77.9700,16.8200,32.0300,Direct Freekick,Right Foot,0.0148,0.0075,fuera
+58779,12562,2025/26,Real Madrid,Pivote Suplente,Interior Creativo,47,89.2200,55.5200,26.6800,Open Play,Right Foot,0.0212,0.0252,parado
+59007,12573,2025/26,Real Madrid,Extremo Derecho,Mediocentro Ancla,46,87.0600,35.0700,17.9800,Open Play,Left Foot,0.0823,0.0811,fuera
+59008,12573,2025/26,Real Madrid,Extremo Izquierdo,Central Alto,67,89.7300,24.0400,18.2300,Open Play,Other,0.0301,0.0317,parado
+59009,12573,2025/26,Real Madrid,Interior Creativo,,10,94.0000,34.0000,11.0000,Penalty,Right Foot,0.7767,0.7551,parado
+59010,12573,2025/26,Real Madrid,Extremo Izquierdo,Delantero Centro,68,93.2500,25.1800,14.6900,Open Play,Right Foot,0.1603,0.1038,poste
+59011,12573,2025/26,Real Madrid,Extremo Izquierdo,,44,94.0000,34.0000,11.0000,Penalty,Right Foot,0.7178,0.7551,gol
+59012,12573,2025/26,Real Madrid,Extremo Izquierdo,Interior Llegador,37,89.5500,30.5500,15.8300,Open Play,Other,0.0440,0.0430,parado
+59013,12573,2025/26,Real Madrid,Extremo Izquierdo,Interior Llegador,90,92.1700,40.6800,14.4600,Open Play,Left Foot,0.0815,0.1184,bloqueado
+59014,12573,2025/26,Real Madrid,Delantero Centro,,6,90.7200,43.0300,16.9000,Open Play,Left Foot,0.0695,0.0812,parado
+59015,12573,2025/26,Real Madrid,Interior Creativo,Delantero Centro,16,96.6200,39.9800,10.2900,Open Play,Left Foot,0.2224,0.1853,poste
+59016,12573,2025/26,Real Oviedo,REA 17,REA 09,63,95.1600,29.6300,10.7700,Open Play,Right Foot,0.1497,0.1915,bloqueado
+59017,12573,2025/26,Real Oviedo,REA 14,REA 10,86,97.3000,30.5800,8.4200,Open Play,Right Foot,0.2760,0.3128,parado
+59018,12573,2025/26,Real Oviedo,REA 09,REA 15,16,93.8600,19.7900,18.0600,Open Play,Right Foot,0.0663,0.0604,fuera
+59019,12573,2025/26,Real Oviedo,REA 16,REA 15,38,93.8300,63.1100,31.1800,Open Play,Left Foot,0.0137,0.0186,bloqueado
+59020,12573,2025/26,Real Oviedo,REA 17,,27,79.6100,38.9300,25.8600,Direct Freekick,Left Foot,0.0229,0.0222,parado
+59021,12573,2025/26,Real Oviedo,REA 16,REA 09,12,93.9200,29.6800,11.8900,Open Play,Left Foot,0.2044,0.1760,fuera
+59022,12573,2025/26,Real Oviedo,REA 15,,45,88.9700,19.7100,21.4800,Open Play,Left Foot,0.0421,0.0437,bloqueado
+59023,12573,2025/26,Real Oviedo,REA 15,,67,90.6500,44.1500,17.5800,Open Play,Right Foot,0.0609,0.0755,gol
+59024,12573,2025/26,Real Oviedo,REA 16,,60,95.6300,31.6500,9.6600,Open Play,Other,0.1247,0.1202,poste
+59025,12573,2025/26,Real Oviedo,REA 14,,69,79.2600,39.3700,26.2900,Direct Freekick,Left Foot,0.0205,0.0222,parado
+59233,12584,2025/26,Barcelona,BAR 09,BAR 05,84,83.1300,23.9900,24.0500,Open Play,Left Foot,0.0288,0.0267,parado
+59234,12584,2025/26,Barcelona,BAR 15,,57,80.2900,4.3400,38.6000,Open Play,Right Foot,0.0050,0.0053,parado
+59235,12584,2025/26,Barcelona,BAR 09,BAR 03,83,82.4700,34.1600,22.5300,Set Piece,Right Foot,0.0411,0.0544,gol
+59236,12584,2025/26,Barcelona,BAR 06,BAR 16,71,89.7300,39.6000,16.2600,Open Play,Other,0.0758,0.0451,gol
+59237,12584,2025/26,Barcelona,BAR 19,,24,94.2900,43.7600,14.4900,Open Play,Right Foot,0.0667,0.1030,fuera
+59238,12584,2025/26,Barcelona,BAR 07,BAR 19,92,88.7200,16.2600,24.0800,Open Play,Right Foot,0.0637,0.0282,bloqueado
+59239,12584,2025/26,Barcelona,BAR 12,BAR 15,27,76.5200,25.4100,29.7400,Open Play,Right Foot,0.0262,0.0163,fuera
+59240,12584,2025/26,Barcelona,BAR 15,BAR 16,43,100.3000,27.6600,7.9000,Set Piece,Other,0.1072,0.1074,parado
+59241,12584,2025/26,Barcelona,BAR 19,BAR 15,87,65.0000,32.2500,40.0400,Open Play,Other,0.0050,0.0062,fuera
+59242,12584,2025/26,Barcelona,BAR 15,BAR 10,52,84.1200,28.0900,21.7000,Open Play,Right Foot,0.0754,0.0492,bloqueado
+59243,12584,2025/26,Barcelona,BAR 07,,80,65.0000,48.5300,42.5600,Open Play,Other,0.0050,0.0062,bloqueado
+59244,12584,2025/26,Real Madrid,Lateral Diestro,,48,83.9100,14.6700,28.6100,Open Play,Left Foot,0.0159,0.0183,parado
+59245,12584,2025/26,Real Madrid,Delantero Canterano,Central Joven,43,81.4800,37.9000,23.8400,Open Play,Left Foot,0.0428,0.0333,poste
+59246,12584,2025/26,Real Madrid,Interior Canterano,Mediocentro Ancla,22,94.9900,26.9100,12.2600,Set Piece,Right Foot,0.1819,0.1653,parado
+59247,12584,2025/26,Real Madrid,Delantero Canterano,Central Alto,17,93.4800,26.2900,13.8600,Open Play,Right Foot,0.1034,0.1400,gol
+59248,12584,2025/26,Real Madrid,Delantero Canterano,Central Rápido,65,74.7900,26.8700,31.0400,From Corner,Other,0.0058,0.0095,fuera
+59249,12584,2025/26,Real Madrid,Delantero Centro,,48,99.3400,48.5300,15.5900,Open Play,Right Foot,0.0977,0.0846,fuera
+59250,12584,2025/26,Real Madrid,Delantero Canterano,Mediocentro Ancla,27,91.3000,24.3600,16.7500,Open Play,Right Foot,0.0577,0.0808,parado
+59251,12584,2025/26,Real Madrid,Central Joven,,56,94.0000,34.0000,11.0000,Penalty,Right Foot,0.7510,0.7551,gol
+59252,12584,2025/26,Real Madrid,Delantero Centro,,52,65.0000,13.7400,44.8400,Open Play,Left Foot,0.0053,0.0068,parado
+59253,12584,2025/26,Real Madrid,Delantero Centro,Delantero Canterano,56,92.1500,31.1200,13.1700,Open Play,Left Foot,0.1927,0.1595,parado
+59254,12584,2025/26,Real Madrid,Mediocentro Ancla,,12,92.6000,28.7700,13.4600,Open Play,Right Foot,0.1857,0.1506,bloqueado
+59255,12584,2025/26,Real Madrid,Delantero Centro,,62,83.8500,18.5200,26.2100,Set Piece,Other,0.0091,0.0154,bloqueado
+59256,12584,2025/26,Real Madrid,Central Rápido,Central Joven,57,97.1100,41.5800,10.9400,Open Play,Right Foot,0.2274,0.1832,parado
+59509,12595,2025/26,Real Madrid,Pivote Canterano,,44,87.6200,23.5300,20.2900,Open Play,Right Foot,0.0699,0.0612,parado
+59510,12595,2025/26,Real Madrid,Extremo Derecho,Pivote Suplente,48,96.8700,29.7100,9.1900,Open Play,Right Foot,0.3432,0.2537,fuera
+59511,12595,2025/26,Real Madrid,Extremo Izquierdo,Delantero Centro,74,99.0300,33.5600,5.9900,Open Play,Right Foot,0.3110,0.4577,gol
+59512,12595,2025/26,Real Madrid,Extremo Izquierdo,Extremo Derecho,15,98.7200,38.7400,7.8700,Open Play,Right Foot,0.3720,0.3266,gol
+59513,12595,2025/26,Real Madrid,Interior Llegador,Extremo Izquierdo,22,87.7500,22.6500,20.6500,From Corner,Right Foot,0.0673,0.0657,bloqueado
+59514,12595,2025/26,Real Madrid,Delantero Centro,,72,94.0000,34.0000,11.0000,Penalty,Right Foot,0.7720,0.7551,gol
+59515,12595,2025/26,Real Madrid,Delantero Centro,,19,82.7400,10.9400,32.0500,Open Play,Right Foot,0.0139,0.0094,fuera
+59516,12595,2025/26,Real Madrid,Lateral Suplente,Delantero Centro,4,82.9000,12.0000,31.1900,Open Play,Other,0.0097,0.0101,bloqueado
+59517,12595,2025/26,Real Madrid,Central Joven,,73,87.0900,50.2200,24.1600,Open Play,Right Foot,0.0440,0.0311,fuera
+59518,12595,2025/26,Valencia,VAL 09,VAL 22,9,80.3500,32.0300,24.7300,Open Play,Right Foot,0.0330,0.0258,fuera
+59519,12595,2025/26,Valencia,VAL 16,VAL 17,94,93.8800,23.9200,15.0100,Open Play,Right Foot,0.0934,0.1001,fuera
+59520,12595,2025/26,Valencia,VAL 17,VAL 09,33,90.4400,27.2300,16.0600,Set Piece,Left Foot,0.0719,0.0968,bloqueado
+59521,12595,2025/26,Valencia,VAL 03,,19,94.0000,34.0000,11.0000,Penalty,Right Foot,0.7087,0.7551,gol
+59522,12595,2025/26,Valencia,VAL 17,VAL 04,61,84.8700,29.0600,20.7300,Open Play,Right Foot,0.0489,0.0499,fuera
+59767,12606,2025/26,Celta Vigo,CEL 14,,73,93.1900,33.8700,11.8100,Open Play,Left Foot,0.2012,0.1722,parado
+59768,12606,2025/26,Celta Vigo,CEL 22,CEL 04,28,97.9400,38.7300,8.5000,Open Play,Other,0.1675,0.1198,parado
+59769,12606,2025/26,Celta Vigo,CEL 17,,91,94.5400,20.6900,16.9300,Open Play,Left Foot,0.0867,0.0679,parado
+59770,12606,2025/26,Celta Vigo,CEL 14,,19,65.0000,17.2300,43.3800,Open Play,Other,0.0050,0.0056,fuera
+59771,12606,2025/26,Celta Vigo,CEL 15,CEL 09,77,76.8200,37.2800,28.3700,Open Play,Left Foot,0.0273,0.0245,gol
+59772,12606,2025/26,Celta Vigo,CEL 05,CEL 09,68,99.4300,28.9100,7.5400,Open Play,Right Foot,0.2450,0.3369,gol
+59773,12606,2025/26,Celta Vigo,CEL 15,CEL 14,6,97.4700,37.9300,8.4900,From Corner,Other,0.1965,0.1319,gol
+59774,12606,2025/26,Celta Vigo,CEL 08,CEL 14,34,89.4400,21.0200,20.2600,Open Play,Right Foot,0.0567,0.0455,fuera
+59775,12606,2025/26,Celta Vigo,CEL 17,CEL 12,76,96.2200,50.6000,18.7800,From Corner,Other,0.0230,0.0257,parado
+59776,12606,2025/26,Celta Vigo,CEL 08,CEL 06,5,93.0200,31.7100,12.2000,Open Play,Left Foot,0.2168,0.1679,parado
+59777,12606,2025/26,Real Madrid,Central Joven,Interior Creativo,67,91.9200,42.0400,15.3500,Open Play,Left Foot,0.1208,0.1073,parado
+59778,12606,2025/26,Real Madrid,Delantero Centro,,2,88.3300,37.2600,16.9900,Open Play,Left Foot,0.1083,0.0859,fuera
+59779,12606,2025/26,Real Madrid,Delantero Centro,Interior Creativo,87,85.0600,31.0400,20.1600,Set Piece,Right Foot,0.0552,0.0607,parado
+59780,12606,2025/26,Real Madrid,Extremo Derecho,,33,94.6300,29.4400,11.3300,From Corner,Left Foot,0.2076,0.1739,fuera
+59781,12606,2025/26,Real Madrid,Interior Creativo,Mediocentro Ancla,92,87.0400,23.6800,20.7100,Open Play,Left Foot,0.0761,0.0612,bloqueado
+59782,12606,2025/26,Real Madrid,Extremo Izquierdo,,31,94.0000,34.0000,11.0000,Penalty,Left Foot,0.8128,0.7551,gol
+59783,12606,2025/26,Real Madrid,Interior Creativo,Extremo Izquierdo,20,90.4200,11.8800,26.5000,Open Play,Right Foot,0.0293,0.0222,fuera
+59784,12606,2025/26,Real Madrid,Delantero Centro,Mediocentro Ancla,54,94.1200,25.7100,13.6800,From Corner,Right Foot,0.1321,0.1293,bloqueado
+59785,12606,2025/26,Real Madrid,Delantero Centro,,33,95.1800,32.9600,9.8700,Open Play,Right Foot,0.2332,0.2426,gol
+59786,12606,2025/26,Real Madrid,Central Rápido,Pivote Suplente,14,85.2800,20.1600,24.0900,Open Play,Right Foot,0.0334,0.0274,parado
+59787,12606,2025/26,Real Madrid,Interior Creativo,Central Rápido,86,85.5300,43.2200,21.5400,Open Play,Right Foot,0.0382,0.0511,gol
+59788,12606,2025/26,Real Madrid,Delantero Centro,Pivote Suplente,82,86.2000,57.3500,29.9800,Open Play,Right Foot,0.0162,0.0170,fuera
+59789,12606,2025/26,Real Madrid,Delantero Centro,Interior Creativo,36,95.6100,31.5500,9.7000,Open Play,Right Foot,0.2682,0.2152,gol
+59790,12606,2025/26,Real Madrid,Delantero Centro,,33,89.3100,44.6800,18.9800,Open Play,Other,0.0274,0.0262,parado
+60029,12617,2025/26,Real Madrid,Mediocentro Ancla,Central Alto,65,87.9800,28.5300,17.8800,From Corner,Other,0.0347,0.0399,fuera
+60030,12617,2025/26,Real Madrid,Delantero Canterano,Extremo Derecho,51,93.7200,32.6200,11.3600,Open Play,Left Foot,0.1895,0.2341,parado
+60031,12617,2025/26,Real Madrid,Extremo Izquierdo,Mediocentro Ancla,52,75.8800,38.1800,29.4100,Open Play,Right Foot,0.0304,0.0164,fuera
+60032,12617,2025/26,Real Madrid,Extremo Izquierdo,,94,87.6100,22.5400,20.8300,Open Play,Right Foot,0.0514,0.0512,gol
+60033,12617,2025/26,Real Madrid,Delantero Canterano,Interior Creativo,19,82.5200,30.5700,22.7400,Open Play,Left Foot,0.0406,0.0519,bloqueado
+60034,12617,2025/26,Real Madrid,Extremo Izquierdo,,8,92.9500,25.2900,14.8700,Open Play,Right Foot,0.1189,0.1029,parado
+60035,12617,2025/26,Real Madrid,Mediocentro Ancla,Central Joven,78,99.3700,33.1000,5.7000,Open Play,Right Foot,0.4923,0.4528,gol
+60036,12617,2025/26,Real Madrid,Extremo Izquierdo,,23,90.7200,32.0000,14.4200,From Corner,Other,0.0559,0.0501,parado
+60037,12617,2025/26,Real Madrid,Interior Creativo,Delantero Suplente,65,92.6600,26.4700,14.4600,Open Play,Right Foot,0.1157,0.1070,parado
+60038,12617,2025/26,Real Madrid,Delantero Canterano,,95,79.7100,48.6700,29.2400,Set Piece,Other,0.0100,0.0130,parado
+60039,12617,2025/26,Real Madrid,Mediocentro Ancla,Delantero Canterano,25,92.4400,51.1000,21.2200,Open Play,Left Foot,0.0495,0.0441,fuera
+60040,12617,2025/26,Real Madrid,Extremo Derecho,Interior Creativo,63,98.4900,55.4500,22.4200,Open Play,Right Foot,0.0414,0.0444,bloqueado
+60041,12617,2025/26,Real Madrid,Lateral Diestro,Extremo Izquierdo,93,84.5100,23.3300,23.1000,Open Play,Right Foot,0.0513,0.0332,bloqueado
+60042,12617,2025/26,Real Madrid,Extremo Derecho,,91,97.1600,43.0200,11.9500,Set Piece,Right Foot,0.1387,0.1528,bloqueado
+60043,12617,2025/26,Real Madrid,Extremo Derecho,Mediocentro Ancla,47,91.0100,28.3600,15.0800,Open Play,Left Foot,0.1322,0.0955,fuera
+60044,12617,2025/26,Real Madrid,Extremo Izquierdo,,71,87.8100,32.6700,17.2400,Open Play,Right Foot,0.1080,0.0848,parado
+60045,12617,2025/26,Real Madrid,Extremo Izquierdo,,89,82.7300,37.8400,22.6000,Direct Freekick,Right Foot,0.0260,0.0396,bloqueado
+60046,12617,2025/26,Villarreal,VIL 05,,68,85.2900,28.4800,20.4700,Open Play,Right Foot,0.0723,0.0488,fuera
+60047,12617,2025/26,Villarreal,VIL 15,VIL 12,28,87.4900,44.4000,20.3700,Open Play,Right Foot,0.0707,0.0586,parado
+60048,12617,2025/26,Villarreal,VIL 10,VIL 11,81,97.4900,51.5500,19.0900,Open Play,Right Foot,0.0461,0.0534,parado
+60049,12617,2025/26,Villarreal,VIL 15,VIL 12,85,92.3400,23.8100,16.2600,Open Play,Other,0.0593,0.0469,bloqueado
+60050,12617,2025/26,Villarreal,VIL 07,VIL 11,78,93.1200,32.9400,11.9200,Open Play,Right Foot,0.2319,0.1722,parado
+60051,12617,2025/26,Villarreal,VIL 15,VIL 10,52,94.4600,36.2000,10.7700,From Corner,Left Foot,0.2165,0.2352,parado
+60052,12617,2025/26,Villarreal,VIL 07,,11,94.0000,34.0000,11.0000,Penalty,Left Foot,0.7171,0.7551,gol
+60053,12617,2025/26,Villarreal,VIL 10,VIL 09,19,78.3800,51.1000,31.6300,Open Play,Other,0.0078,0.0071,fuera
+60054,12617,2025/26,Villarreal,VIL 11,,67,72.7400,32.3000,32.3000,Open Play,Right Foot,0.0190,0.0114,bloqueado
+60055,12617,2025/26,Villarreal,VIL 09,VIL 07,44,79.6100,18.3700,29.8200,Open Play,Right Foot,0.0249,0.0145,fuera
+60056,12617,2025/26,Villarreal,VIL 11,,46,80.2500,13.2100,32.3200,Open Play,Left Foot,0.0089,0.0086,poste
+60057,12617,2025/26,Villarreal,VIL 16,VIL 03,75,83.9000,18.2200,26.3500,Open Play,Right Foot,0.0237,0.0244,fuera
+60295,12628,2025/26,Levante,LEV 12,,22,92.1400,35.4900,12.9500,Open Play,Left Foot,0.1432,0.1595,gol
+60296,12628,2025/26,Levante,LEV 12,LEV 15,25,93.0600,28.2100,13.2700,Open Play,Right Foot,0.1923,0.1485,fuera
+60297,12628,2025/26,Levante,LEV 10,LEV 05,54,72.6700,58.7000,40.6800,Open Play,Right Foot,0.0053,0.0110,parado
+60298,12628,2025/26,Levante,LEV 17,LEV 14,61,77.5200,23.7000,29.3400,Open Play,Right Foot,0.0185,0.0181,bloqueado
+60299,12628,2025/26,Levante,LEV 22,,82,95.4200,42.8100,13.0100,Open Play,Right Foot,0.1217,0.1369,fuera
+60300,12628,2025/26,Levante,LEV 22,LEV 14,36,87.6200,20.1800,22.2100,Open Play,Right Foot,0.0608,0.0525,parado
+60301,12628,2025/26,Real Madrid,Delantero Centro,Interior Llegador,86,85.4000,32.4400,19.6700,Open Play,Right Foot,0.0444,0.0490,parado
+60302,12628,2025/26,Real Madrid,Extremo Derecho,Central Alto,42,93.6800,27.5200,13.0400,Set Piece,Right Foot,0.1615,0.1533,poste
+60303,12628,2025/26,Real Madrid,Extremo Derecho,Interior Llegador,89,99.7100,29.2100,7.1400,Open Play,Left Foot,0.3771,0.3515,parado
+60304,12628,2025/26,Real Madrid,Extremo Canterano,Extremo Derecho,56,82.1900,46.6800,26.0900,Open Play,Right Foot,0.0391,0.0280,fuera
+60305,12628,2025/26,Real Madrid,Central Rápido,Extremo Canterano,45,92.3200,47.0400,18.1900,Open Play,Right Foot,0.0862,0.0684,fuera
+60306,12628,2025/26,Real Madrid,Interior Canterano,Interior Llegador,95,93.8800,31.9700,11.3000,Open Play,Left Foot,0.1888,0.2286,fuera
+60307,12628,2025/26,Real Madrid,Extremo Canterano,Lateral Suplente,42,86.9900,37.9700,18.4400,Open Play,Other,0.0389,0.0346,parado
+60308,12628,2025/26,Real Madrid,Interior Creativo,,86,83.5400,33.9600,21.4600,From Corner,Other,0.0154,0.0237,parado
+60309,12628,2025/26,Real Madrid,Extremo Derecho,Lateral Suplente,29,96.5100,37.8400,9.3200,Set Piece,Right Foot,0.2226,0.2602,gol
+60310,12628,2025/26,Real Madrid,Extremo Derecho,Lateral Suplente,3,71.1900,41.6500,34.6600,From Corner,Other,0.0050,0.0083,fuera
+60311,12628,2025/26,Real Madrid,Extremo Derecho,Interior Llegador,32,79.5500,22.8900,27.7700,Open Play,Right Foot,0.0210,0.0229,parado
+60312,12628,2025/26,Real Madrid,Delantero Centro,,76,94.0000,34.0000,11.0000,Penalty,Right Foot,0.7543,0.7551,gol
+60313,12628,2025/26,Real Madrid,Lateral Diestro,Central Alto,92,85.2400,44.0300,22.1600,Open Play,Right Foot,0.0539,0.0422,parado
+60538,12639,2025/26,Real Madrid,Extremo Izquierdo,Interior Llegador,37,94.7300,27.8900,11.9500,Open Play,Other,0.0713,0.0792,parado
+60539,12639,2025/26,Real Madrid,Extremo Izquierdo,Interior Creativo,43,92.6700,40.5900,13.9800,Open Play,Left Foot,0.1695,0.1238,fuera
+60540,12639,2025/26,Real Madrid,Extremo Izquierdo,Interior Llegador,18,82.9600,31.0800,22.2300,Open Play,Left Foot,0.0583,0.0538,gol
+60541,12639,2025/26,Real Madrid,Mediocentro Ancla,,18,94.0000,34.0000,11.0000,Penalty,Right Foot,0.7319,0.7551,gol
+60542,12639,2025/26,Real Madrid,Extremo Izquierdo,,33,77.2200,40.6300,28.5600,Direct Freekick,Right Foot,0.0237,0.0229,fuera
+60543,12639,2025/26,Real Madrid,Delantero Canterano,Interior Creativo,40,97.4600,32.3100,7.7300,Set Piece,Right Foot,0.3916,0.3239,bloqueado
+60544,12639,2025/26,Real Madrid,Interior Creativo,,34,83.5600,11.2700,31.2400,Open Play,Right Foot,0.0117,0.0121,bloqueado
+60545,12639,2025/26,Real Madrid,Delantero Canterano,,64,94.3500,35.1800,10.7100,Set Piece,Other,0.0877,0.1084,bloqueado
+60546,12639,2025/26,Real Madrid,Extremo Canterano,Interior Creativo,49,83.4200,30.9700,21.7900,Open Play,Right Foot,0.0506,0.0538,gol
+60547,12639,2025/26,Real Madrid,Interior Creativo,Extremo Derecho,6,71.1300,46.2100,36.0100,Open Play,Right Foot,0.0086,0.0081,fuera
+60548,12639,2025/26,Real Madrid,Mediocentro Ancla,,54,94.0000,34.0000,11.0000,Penalty,Left Foot,0.8083,0.7551,gol
+60549,12639,2025/26,Real Madrid,Delantero Centro,Interior Creativo,85,74.3400,38.6000,31.0000,Open Play,Left Foot,0.0137,0.0207,bloqueado
+60550,12639,2025/26,Real Madrid,Interior Creativo,,36,87.7600,37.1300,17.5200,Direct Freekick,Left Foot,0.0428,0.0769,gol
+60551,12639,2025/26,Real Madrid,Mediocentro Ancla,Interior Creativo,54,81.1100,34.7100,23.9000,Open Play,Right Foot,0.0328,0.0233,fuera
+60552,12639,2025/26,Real Madrid,Delantero Centro,Mediocentro Ancla,9,90.7100,38.4700,14.9700,From Corner,Left Foot,0.1285,0.0955,gol
+60553,12639,2025/26,Real Madrid,Delantero Centro,Mediocentro Ancla,6,90.9800,32.3400,14.1200,Open Play,Right Foot,0.1620,0.1094,fuera
+60554,12639,2025/26,Real Madrid,Extremo Derecho,Delantero Centro,94,86.9500,34.8700,18.0700,Open Play,Right Foot,0.0885,0.0804,parado
+60555,12639,2025/26,Rayo Vallecano,RAY 15,RAY 12,35,92.7700,43.3800,15.4200,Open Play,Left Foot,0.1515,0.0979,bloqueado
+60556,12639,2025/26,Rayo Vallecano,RAY 17,RAY 09,52,95.5400,22.5400,14.8600,From Corner,Other,0.0534,0.0403,fuera
+60557,12639,2025/26,Rayo Vallecano,RAY 17,RAY 15,88,89.2900,29.7000,16.2900,Open Play,Right Foot,0.1045,0.1092,bloqueado
+60558,12639,2025/26,Rayo Vallecano,RAY 09,RAY 15,34,87.9400,31.6700,17.2200,From Corner,Left Foot,0.0918,0.0916,parado
+60559,12639,2025/26,Rayo Vallecano,RAY 09,RAY 21,77,94.0800,24.1200,14.7300,Open Play,Right Foot,0.0868,0.1001,bloqueado
+60560,12639,2025/26,Rayo Vallecano,RAY 06,,49,79.5800,44.1800,27.3800,Open Play,Left Foot,0.0218,0.0220,parado
+60561,12639,2025/26,Rayo Vallecano,RAY 16,RAY 12,91,86.5100,17.5500,24.7500,From Corner,Left Foot,0.0290,0.0285,fuera
+60562,12639,2025/26,Rayo Vallecano,RAY 10,RAY 22,3,94.2100,48.0100,17.6900,Open Play,Right Foot,0.0580,0.0514,gol
+60563,12639,2025/26,Rayo Vallecano,RAY 07,RAY 09,35,97.1900,47.1900,15.3300,Open Play,Right Foot,0.0843,0.0847,fuera
+60798,12650,2025/26,Sevilla,SEV 04,SEV 11,79,92.3500,50.0600,20.4500,Open Play,Right Foot,0.0491,0.0454,parado
+60799,12650,2025/26,Sevilla,SEV 05,SEV 09,38,82.2200,37.3100,23.0200,Open Play,Right Foot,0.0421,0.0552,fuera
+60800,12650,2025/26,Sevilla,SEV 17,SEV 05,5,81.0200,26.6000,25.1000,Open Play,Right Foot,0.0440,0.0238,bloqueado
+60801,12650,2025/26,Sevilla,SEV 09,,5,97.3800,36.0700,7.9000,Open Play,Other,0.1925,0.1452,parado
+60802,12650,2025/26,Sevilla,SEV 15,,94,81.8400,54.7100,31.0700,Set Piece,Left Foot,0.0132,0.0155,parado
+60803,12650,2025/26,Sevilla,SEV 05,SEV 04,88,88.6900,35.1100,16.3400,Open Play,Right Foot,0.1121,0.1096,fuera
+60804,12650,2025/26,Sevilla,SEV 17,SEV 05,77,91.4900,32.2600,13.6300,Open Play,Right Foot,0.1882,0.1624,parado
+60805,12650,2025/26,Sevilla,SEV 16,,93,91.2700,29.8000,14.3600,Open Play,Left Foot,0.0983,0.1024,parado
+60806,12650,2025/26,Sevilla,SEV 09,,16,96.8600,33.1100,8.1900,Open Play,Right Foot,0.3091,0.3112,fuera
+60807,12650,2025/26,Sevilla,SEV 10,SEV 16,19,100.3700,37.7700,5.9700,Open Play,Other,0.1949,0.2858,parado
+60808,12650,2025/26,Sevilla,SEV 10,SEV 11,84,83.8100,27.4900,22.1700,From Corner,Left Foot,0.0763,0.0629,fuera
+60809,12650,2025/26,Real Madrid,Extremo Derecho,,90,86.5000,31.8300,18.6300,From Corner,Right Foot,0.0610,0.0826,bloqueado
+60810,12650,2025/26,Real Madrid,Interior Canterano,Delantero Canterano,61,99.1200,28.4600,8.0800,Open Play,Other,0.1062,0.1148,parado
+60811,12650,2025/26,Real Madrid,Extremo Izquierdo,Extremo Derecho,78,92.2500,21.3000,18.0000,Open Play,Other,0.0387,0.0349,fuera
+60812,12650,2025/26,Real Madrid,Extremo Izquierdo,,69,88.3500,32.3300,16.7400,Open Play,Left Foot,0.0681,0.0902,parado
+60813,12650,2025/26,Real Madrid,Extremo Izquierdo,Interior Llegador,34,91.5700,49.3500,20.4000,Open Play,Right Foot,0.0486,0.0465,parado
+60814,12650,2025/26,Real Madrid,Delantero Canterano,Extremo Izquierdo,88,97.9200,30.3000,7.9900,Open Play,Right Foot,0.2753,0.3270,parado
+60815,12650,2025/26,Real Madrid,Interior Canterano,Interior Creativo,5,92.4100,31.3100,12.8700,Open Play,Left Foot,0.1389,0.1495,parado
+60816,12650,2025/26,Real Madrid,Delantero Canterano,Extremo Izquierdo,49,92.3900,49.8800,20.2800,Open Play,Right Foot,0.0313,0.0454,fuera
+60817,12650,2025/26,Real Madrid,Interior Llegador,Extremo Izquierdo,95,85.2300,17.3800,25.8300,Open Play,Left Foot,0.0297,0.0271,parado
+60818,12650,2025/26,Real Madrid,Extremo Izquierdo,Interior Llegador,70,83.1300,55.0900,30.3900,Open Play,Other,0.0053,0.0074,parado
+60819,12650,2025/26,Real Madrid,Delantero Canterano,Interior Llegador,80,96.1000,23.4500,13.8100,Open Play,Left Foot,0.1285,0.1337,fuera
+60820,12650,2025/26,Real Madrid,Extremo Izquierdo,Interior Creativo,33,94.9800,48.2000,17.3800,From Corner,Other,0.0379,0.0312,bloqueado
+60821,12650,2025/26,Real Madrid,Extremo Izquierdo,Interior Creativo,5,97.4800,26.5400,10.5900,Open Play,Other,0.0859,0.0828,gol
+60822,12650,2025/26,Real Madrid,Interior Canterano,Interior Creativo,39,88.7100,46.7800,20.7000,Open Play,Left Foot,0.0423,0.0471,fuera
+61021,12660,2025/26,Real Madrid,Pivote Canterano,Interior Creativo,74,82.6800,30.1900,22.6500,Open Play,Left Foot,0.0450,0.0519,parado
+61022,12660,2025/26,Real Madrid,Extremo Izquierdo,Lateral Suplente,9,92.8700,33.6500,12.1300,Open Play,Right Foot,0.1823,0.1602,parado
+61023,12660,2025/26,Real Madrid,Delantero Centro,Pivote Suplente,11,84.5000,29.7700,20.9300,From Corner,Other,0.0344,0.0340,fuera
+61024,12660,2025/26,Real Madrid,Pivote Canterano,,68,100.3600,38.6500,6.5700,From Corner,Right Foot,0.4657,0.3855,bloqueado
+61025,12660,2025/26,Real Madrid,Lateral Diestro,Pivote Canterano,7,91.7300,22.2200,17.7500,Open Play,Right Foot,0.0738,0.0749,bloqueado
+61026,12660,2025/26,Real Madrid,Extremo Izquierdo,Interior Creativo,21,90.5700,18.3000,21.3200,From Corner,Other,0.0253,0.0280,fuera
+61027,12660,2025/26,Real Madrid,Lateral Suplente,,22,91.3900,27.3000,15.1700,Open Play,Right Foot,0.1049,0.1259,fuera
+61028,12660,2025/26,Real Madrid,Interior Creativo,Interior Canterano,38,71.7000,45.1500,35.1100,Open Play,Right Foot,0.0100,0.0091,parado
+61029,12660,2025/26,Real Madrid,Delantero Centro,,16,94.1500,60.8300,28.9400,Open Play,Left Foot,0.0147,0.0207,fuera
+61030,12660,2025/26,Real Madrid,Interior Creativo,,23,82.4800,23.9300,24.6700,Direct Freekick,Right Foot,0.0221,0.0188,fuera
+61031,12660,2025/26,Real Madrid,Extremo Izquierdo,Pivote Suplente,24,99.5900,22.9400,12.3100,Open Play,Other,0.0529,0.0711,fuera
+61032,12660,2025/26,Real Madrid,Extremo Derecho,Extremo Izquierdo,60,93.7400,37.2200,11.7100,Open Play,Left Foot,0.1891,0.1799,parado
+61033,12660,2025/26,Real Madrid,Delantero Centro,Central Alto,54,87.7700,26.2800,18.8800,Open Play,Other,0.0303,0.0412,bloqueado
+61034,12660,2025/26,Real Madrid,Pivote Canterano,Delantero Suplente,41,92.2100,21.2200,18.0800,Open Play,Right Foot,0.0755,0.0697,fuera
+61035,12660,2025/26,Real Madrid,Delantero Centro,,13,95.6100,38.6600,10.4800,Open Play,Left Foot,0.1851,0.2328,bloqueado
+61036,12660,2025/26,Real Madrid,Extremo Izquierdo,Pivote Canterano,51,71.2300,31.4000,33.8700,Set Piece,Right Foot,0.0121,0.0110,parado
+61037,12660,2025/26,Real Madrid,Delantero Centro,Interior Canterano,57,84.4500,37.4500,20.8400,Open Play,Right Foot,0.0536,0.0487,fuera
+61038,12660,2025/26,Real Madrid,Extremo Derecho,Extremo Izquierdo,62,79.5800,22.8300,27.7700,Open Play,Other,0.0111,0.0201,bloqueado
+61039,12660,2025/26,Real Madrid,Delantero Centro,Lateral Suplente,28,69.8200,4.0000,46.2300,Open Play,Left Foot,0.0050,0.0053,bloqueado
+61040,12660,2025/26,Real Madrid,Extremo Izquierdo,Interior Creativo,63,82.2700,22.3000,25.5700,Open Play,Other,0.0152,0.0176,parado
+61041,12660,2025/26,Real Madrid,Extremo Izquierdo,Interior Canterano,27,98.2800,41.6300,10.1700,Open Play,Right Foot,0.1915,0.2022,parado
+61042,12660,2025/26,Real Madrid,Pivote Canterano,,67,93.7500,35.4300,11.3400,Set Piece,Right Foot,0.1987,0.2341,gol
+61043,12660,2025/26,Alaves,ALA 13,ALA 18,48,74.8500,23.3000,31.9900,Open Play,Left Foot,0.0179,0.0160,bloqueado
+61044,12660,2025/26,Alaves,ALA 13,ALA 10,37,90.9500,42.6500,16.5000,Open Play,Right Foot,0.1096,0.1009,parado
+61045,12660,2025/26,Alaves,ALA 09,ALA 05,71,94.4400,27.4700,12.4200,Set Piece,Other,0.0594,0.0738,parado
+61046,12660,2025/26,Alaves,ALA 18,ALA 13,51,94.3300,40.9100,12.7100,Open Play,Right Foot,0.1093,0.1562,bloqueado
+61047,12660,2025/26,Alaves,ALA 18,ALA 10,81,74.9300,21.2400,32.6700,Open Play,Other,0.0069,0.0085,bloqueado
+61048,12660,2025/26,Alaves,ALA 18,,54,87.6000,24.3000,19.9200,Open Play,Right Foot,0.0603,0.0669,fuera
+61108,12664,2026/27,Real Madrid,Lateral Suplente,,40,87.3400,50.0200,23.8400,Open Play,Left Foot,0.0213,0.0319,bloqueado
+61109,12664,2026/27,Real Madrid,Interior Llegador,Delantero Centro,87,80.7400,37.9400,24.5700,Open Play,Right Foot,0.0261,0.0265,bloqueado
+61110,12664,2026/27,Real Madrid,Extremo Derecho,Interior Creativo,15,89.6600,34.0200,15.3400,Set Piece,Right Foot,0.0972,0.0949,gol
+61111,12664,2026/27,Real Madrid,Delantero Canterano,Delantero Centro,61,88.9500,39.2300,16.8800,Open Play,Left Foot,0.0999,0.0850,parado
+61112,12664,2026/27,Real Madrid,Delantero Centro,Interior Creativo,24,96.8900,34.0300,8.1100,Set Piece,Right Foot,0.2804,0.3239,gol
+61113,12664,2026/27,Real Madrid,Interior Creativo,Pivote Suplente,40,100.1800,34.8700,4.9000,Open Play,Right Foot,0.5485,0.5133,gol
+61114,12664,2026/27,Real Madrid,Delantero Canterano,Interior Llegador,49,88.5900,38.9300,17.1400,Open Play,Left Foot,0.0802,0.0850,fuera
+61115,12664,2026/27,Real Madrid,Extremo Derecho,,51,75.5700,18.4100,33.3100,Open Play,Right Foot,0.0101,0.0087,bloqueado
+61116,12664,2026/27,Real Madrid,Delantero Canterano,Central Rápido,71,95.7200,32.3800,9.4200,Open Play,Right Foot,0.2136,0.2919,fuera
+61117,12664,2026/27,Real Madrid,Delantero Canterano,Extremo Derecho,12,98.0700,41.3000,10.0700,Open Play,Right Foot,0.1647,0.1869,fuera
+61118,12664,2026/27,Real Madrid,Extremo Derecho,,90,87.4900,41.8900,19.2100,Direct Freekick,Right Foot,0.0588,0.0719,fuera
+61119,12664,2026/27,Real Madrid,Delantero Canterano,Pivote Suplente,75,75.3700,23.1800,31.5400,Open Play,Left Foot,0.0121,0.0133,parado
+61120,12664,2026/27,Real Madrid,Interior Creativo,Central Rápido,31,91.4600,19.7700,19.6500,From Corner,Other,0.0252,0.0267,parado
+61121,12664,2026/27,Real Madrid,Lateral Diestro,Interior Creativo,42,91.7600,32.8600,13.2900,Open Play,Right Foot,0.1520,0.1595,fuera
+61122,12664,2026/27,Real Madrid,Pivote Suplente,,56,88.0200,45.1200,20.2900,Open Play,Left Foot,0.0430,0.0533,parado
+61123,12664,2026/27,Real Oviedo,REA 10,REA 22,11,92.4700,17.6300,20.6100,From Corner,Right Foot,0.0482,0.0433,fuera
+61124,12664,2026/27,Real Oviedo,REA 06,,26,74.2900,41.4300,31.6000,Open Play,Right Foot,0.0104,0.0153,bloqueado
+61125,12664,2026/27,Real Oviedo,REA 06,,44,88.6100,50.4800,23.2500,Open Play,Right Foot,0.0448,0.0361,gol
+61126,12664,2026/27,Real Oviedo,REA 22,REA 15,23,85.7100,27.0000,20.5200,Open Play,Left Foot,0.0415,0.0515,bloqueado
+61127,12664,2026/27,Real Oviedo,REA 11,REA 13,19,82.1100,12.6200,31.3200,Open Play,Left Foot,0.0124,0.0146,parado
+61128,12664,2026/27,Real Oviedo,REA 10,,64,75.6600,34.7100,29.3500,Set Piece,Left Foot,0.0124,0.0153,bloqueado
+61129,12664,2026/27,Real Oviedo,REA 11,,30,84.8100,15.3600,27.4800,Open Play,Right Foot,0.0226,0.0186,fuera
+61130,12664,2026/27,Real Oviedo,REA 07,REA 22,86,83.5500,37.3300,21.7100,Open Play,Right Foot,0.0553,0.0533,fuera
+61131,12664,2026/27,Real Oviedo,REA 22,,76,99.2700,36.8200,6.3900,Open Play,Left Foot,0.4470,0.4452,bloqueado
+61132,12664,2026/27,Real Oviedo,REA 08,,49,78.6100,24.3000,28.1100,Open Play,Other,0.0093,0.0161,fuera
+61133,12664,2026/27,Real Oviedo,REA 10,REA 08,79,91.5300,53.1100,23.3800,Open Play,Right Foot,0.0534,0.0361,fuera
+61134,12664,2026/27,Real Oviedo,REA 17,REA 15,44,88.6600,50.1400,22.9700,Open Play,Right Foot,0.0435,0.0385,bloqueado
+61135,12664,2026/27,Real Oviedo,REA 11,,14,87.5200,23.5800,20.3500,Open Play,Right Foot,0.0591,0.0612,parado
+61136,12664,2026/27,Real Oviedo,REA 10,REA 15,11,96.2500,15.7900,20.2000,Open Play,Right Foot,0.0506,0.0432,bloqueado
+61387,12675,2026/27,Girona,GIR 03,GIR 06,73,80.9200,38.8900,24.5700,Open Play,Other,0.0132,0.0187,fuera
+61388,12675,2026/27,Girona,GIR 16,GIR 20,32,79.7300,30.4800,25.5200,Open Play,Left Foot,0.0300,0.0258,fuera
+61389,12675,2026/27,Girona,GIR 12,GIR 08,83,93.2900,29.6800,12.4800,Open Play,Left Foot,0.1754,0.1578,bloqueado
+61390,12675,2026/27,Girona,GIR 15,GIR 16,19,92.4700,31.4500,12.7800,Open Play,Right Foot,0.1829,0.1463,bloqueado
+61391,12675,2026/27,Girona,GIR 16,GIR 19,46,93.6900,33.5000,11.3200,Open Play,Right Foot,0.1932,0.2341,gol
+61392,12675,2026/27,Girona,GIR 15,GIR 12,9,91.1400,45.1400,17.7800,From Corner,Other,0.0370,0.0288,fuera
+61393,12675,2026/27,Girona,GIR 18,GIR 17,57,86.7400,40.4600,19.3700,Open Play,Other,0.0366,0.0364,parado
+61394,12675,2026/27,Real Madrid,Extremo Derecho,Interior Llegador,84,94.0100,28.6900,12.2100,Open Play,Left Foot,0.1539,0.1660,parado
+61395,12675,2026/27,Real Madrid,Extremo Canterano,Extremo Izquierdo,16,97.3600,37.3600,8.3500,Open Play,Right Foot,0.4164,0.3239,gol
+61396,12675,2026/27,Real Madrid,Mediocentro Ancla,,14,93.5800,30.9500,11.8200,From Corner,Right Foot,0.1475,0.1733,fuera
+61397,12675,2026/27,Real Madrid,Extremo Izquierdo,Interior Llegador,83,95.6400,55.2400,23.2100,Open Play,Right Foot,0.0304,0.0397,fuera
+61398,12675,2026/27,Real Madrid,Interior Llegador,Delantero Centro,37,88.7800,35.7500,16.3200,Open Play,Other,0.0263,0.0456,fuera
+61399,12675,2026/27,Real Madrid,Delantero Centro,Interior Canterano,95,92.3300,33.2700,12.6900,Open Play,Right Foot,0.1382,0.1632,gol
+61400,12675,2026/27,Real Madrid,Lateral Diestro,Central Rápido,81,92.7300,34.1900,12.2800,From Corner,Right Foot,0.1635,0.1538,parado
+61401,12675,2026/27,Real Madrid,Central Joven,Lateral Diestro,60,88.9000,15.1000,24.8200,Open Play,Right Foot,0.0350,0.0274,bloqueado
+61402,12675,2026/27,Real Madrid,Extremo Izquierdo,Central Alto,38,87.0900,43.2000,20.1400,Open Play,Right Foot,0.0593,0.0594,fuera
+61403,12675,2026/27,Real Madrid,Central Alto,Lateral Diestro,54,97.1700,43.1300,12.0300,Open Play,Right Foot,0.1732,0.1483,gol
+61404,12675,2026/27,Real Madrid,Extremo Canterano,Interior Llegador,35,98.1100,41.9400,10.5100,Set Piece,Right Foot,0.1602,0.1978,fuera
+61639,12686,2026/27,Real Madrid,Extremo Izquierdo,Interior Canterano,83,90.8500,38.8800,14.9700,Open Play,Right Foot,0.1200,0.0955,fuera
+61640,12686,2026/27,Real Madrid,Delantero Centro,,32,91.6600,43.0100,16.0900,Open Play,Right Foot,0.1204,0.0986,poste
+61641,12686,2026/27,Real Madrid,Extremo Izquierdo,Interior Llegador,83,86.3000,26.5500,20.1300,Open Play,Right Foot,0.0601,0.0545,parado
+61642,12686,2026/27,Real Madrid,Lateral Zurdo,Interior Creativo,28,65.0000,19.9400,42.4000,Open Play,Other,0.0050,0.0056,fuera
+61643,12686,2026/27,Real Madrid,Delantero Centro,,17,72.6000,29.9900,32.6500,Open Play,Left Foot,0.0171,0.0120,bloqueado
+61644,12686,2026/27,Real Madrid,Extremo Izquierdo,Pivote Suplente,37,90.5200,39.4400,15.4700,From Corner,Right Foot,0.1238,0.0952,fuera
+61645,12686,2026/27,Real Madrid,Extremo Izquierdo,Interior Llegador,27,87.6400,19.4200,22.6700,Open Play,Right Foot,0.0331,0.0507,bloqueado
+61646,12686,2026/27,Real Madrid,Lateral Diestro,Interior Llegador,19,85.4800,34.0200,19.5200,Open Play,Left Foot,0.0638,0.0502,poste
+61647,12686,2026/27,Real Madrid,Extremo Izquierdo,,17,94.2200,18.5000,18.8900,Open Play,Right Foot,0.0489,0.0497,parado
+61648,12686,2026/27,Real Madrid,Mediocentro Ancla,,71,88.8500,43.5600,18.7700,Open Play,Right Foot,0.0843,0.0684,fuera
+61649,12686,2026/27,Real Madrid,Central Canterano,Interior Llegador,20,88.9000,37.3500,16.4400,Open Play,Right Foot,0.1266,0.1091,poste
+61650,12686,2026/27,Real Madrid,Extremo Derecho,Mediocentro Ancla,51,83.6700,37.9800,21.6900,Open Play,Right Foot,0.0497,0.0518,bloqueado
+61651,12686,2026/27,Real Madrid,Extremo Izquierdo,,32,98.3000,42.8400,11.0900,Open Play,Right Foot,0.1573,0.1495,gol
+61652,12686,2026/27,Real Madrid,Interior Creativo,Interior Llegador,74,80.9000,36.0300,24.1800,Open Play,Other,0.0105,0.0125,parado
+61653,12686,2026/27,Real Madrid,Extremo Derecho,Interior Llegador,91,80.3000,35.7200,24.7600,Open Play,Right Foot,0.0280,0.0245,bloqueado
+61654,12686,2026/27,Alaves,ALA 16,,91,91.6400,24.7400,16.2500,Open Play,Right Foot,0.1130,0.1027,parado
+61655,12686,2026/27,Alaves,ALA 07,ALA 10,17,98.6800,54.3000,21.2600,Open Play,Left Foot,0.0327,0.0454,parado
+61656,12686,2026/27,Alaves,ALA 18,ALA 09,28,86.3900,25.0600,20.6400,Open Play,Left Foot,0.0548,0.0543,bloqueado
+61657,12686,2026/27,Alaves,ALA 09,ALA 17,15,98.3200,27.1500,9.5700,Set Piece,Left Foot,0.3126,0.1948,fuera
+61658,12686,2026/27,Alaves,ALA 18,,95,89.0700,25.7400,17.9400,Open Play,Other,0.0324,0.0380,parado
+61659,12686,2026/27,Alaves,ALA 18,ALA 10,76,69.7700,15.6800,39.7100,Open Play,Right Foot,0.0062,0.0067,poste
+61660,12686,2026/27,Alaves,ALA 16,ALA 05,27,90.1200,36.3300,15.0600,Open Play,Left Foot,0.0978,0.0920,fuera
+61661,12686,2026/27,Alaves,ALA 10,ALA 09,82,99.4100,34.6400,5.6200,Open Play,Right Foot,0.5114,0.4528,parado
+61662,12686,2026/27,Alaves,ALA 10,ALA 09,55,83.7300,28.4400,21.9900,Open Play,Left Foot,0.0332,0.0501,parado
+61663,12686,2026/27,Alaves,ALA 06,,34,92.6200,51.9000,21.7700,Open Play,Left Foot,0.0371,0.0441,gol
+61664,12686,2026/27,Alaves,ALA 09,ALA 21,77,98.5800,36.8300,7.0100,Open Play,Right Foot,0.4439,0.3579,fuera
+61665,12686,2026/27,Alaves,ALA 10,ALA 22,66,95.8200,30.1100,9.9700,Open Play,Right Foot,0.2775,0.2178,fuera
+61666,12686,2026/27,Alaves,ALA 17,,22,99.8000,29.5400,6.8500,Open Play,Left Foot,0.4432,0.3515,bloqueado
+61667,12686,2026/27,Alaves,ALA 18,ALA 10,74,85.0400,34.4800,19.9700,Open Play,Left Foot,0.0877,0.0490,parado
+61668,12686,2026/27,Alaves,ALA 17,,12,92.3900,20.7900,18.2600,Open Play,Right Foot,0.0733,0.0653,fuera
+61894,12697,2026/27,Rayo Vallecano,RAY 16,RAY 04,93,82.6900,15.0300,29.2800,Open Play,Left Foot,0.0213,0.0152,bloqueado
+61895,12697,2026/27,Rayo Vallecano,RAY 07,RAY 09,30,96.3500,29.6800,9.6700,Open Play,Right Foot,0.2104,0.2150,fuera
+61896,12697,2026/27,Rayo Vallecano,RAY 22,RAY 09,76,93.8100,13.6200,23.2500,Open Play,Other,0.0155,0.0166,bloqueado
+61897,12697,2026/27,Rayo Vallecano,RAY 15,,5,85.3900,30.1200,19.9900,Direct Freekick,Right Foot,0.0564,0.0428,bloqueado
+61898,12697,2026/27,Rayo Vallecano,RAY 03,,92,96.4700,40.1000,10.4800,From Corner,Right Foot,0.2094,0.1943,parado
+61899,12697,2026/27,Rayo Vallecano,RAY 11,RAY 09,72,84.8900,41.4800,21.4500,Open Play,Left Foot,0.0461,0.0511,parado
+61900,12697,2026/27,Rayo Vallecano,RAY 11,,85,77.2000,33.1600,27.8200,Set Piece,Left Foot,0.0164,0.0204,fuera
+61901,12697,2026/27,Rayo Vallecano,RAY 22,RAY 03,59,97.3200,24.6200,12.1200,Set Piece,Right Foot,0.1282,0.1439,parado
+61902,12697,2026/27,Rayo Vallecano,RAY 16,,95,87.1000,22.3800,21.3400,Open Play,Left Foot,0.0575,0.0512,parado
+61903,12697,2026/27,Rayo Vallecano,RAY 18,RAY 09,83,83.3200,37.5600,21.9700,Open Play,Right Foot,0.0545,0.0518,fuera
+61904,12697,2026/27,Rayo Vallecano,RAY 15,RAY 10,88,89.9500,25.3400,17.3600,Open Play,Right Foot,0.1000,0.0808,bloqueado
+61905,12697,2026/27,Rayo Vallecano,RAY 15,RAY 17,6,78.8400,24.5600,27.8100,Open Play,Left Foot,0.0266,0.0218,bloqueado
+61906,12697,2026/27,Rayo Vallecano,RAY 16,,55,94.0000,34.0000,11.0000,Penalty,Right Foot,0.7959,0.7551,gol
+61907,12697,2026/27,Rayo Vallecano,RAY 09,,84,81.8200,39.1400,23.7500,Open Play,Right Foot,0.0437,0.0317,fuera
+61908,12697,2026/27,Real Madrid,Delantero Centro,,16,76.1600,19.8400,32.1300,Direct Freekick,Left Foot,0.0120,0.0075,fuera
+61909,12697,2026/27,Real Madrid,Delantero Centro,,69,90.3200,29.6800,15.3000,Open Play,Right Foot,0.0985,0.0955,parado
+61910,12697,2026/27,Real Madrid,Extremo Izquierdo,Central Alto,79,76.5200,58.7200,37.7100,Open Play,Other,0.0050,0.0103,bloqueado
+61911,12697,2026/27,Real Madrid,Delantero Suplente,Extremo Izquierdo,36,83.5000,41.0200,22.6200,Open Play,Right Foot,0.0517,0.0500,parado
+61912,12697,2026/27,Real Madrid,Pivote Canterano,Interior Creativo,89,87.5900,55.3300,27.5300,Open Play,Right Foot,0.0242,0.0268,gol
+61913,12697,2026/27,Real Madrid,Lateral Zurdo,Mediapunta Joven,7,93.6900,23.2100,15.6300,Open Play,Left Foot,0.0774,0.0938,parado
+61914,12697,2026/27,Real Madrid,Interior Creativo,Extremo Izquierdo,35,94.8700,40.2200,11.8900,Open Play,Left Foot,0.2150,0.1813,parado
+61915,12697,2026/27,Real Madrid,Delantero Centro,Central Rápido,14,98.3700,40.2100,9.0800,Open Play,Right Foot,0.2028,0.2143,fuera
+61916,12697,2026/27,Real Madrid,Delantero Suplente,Delantero Centro,66,96.6000,23.5200,13.4300,From Corner,Other,0.0587,0.0617,parado
+61917,12697,2026/27,Real Madrid,Delantero Suplente,Delantero Centro,12,91.6900,48.1000,19.3900,Open Play,Left Foot,0.0717,0.0446,parado
+61918,12697,2026/27,Real Madrid,Delantero Suplente,Extremo Izquierdo,39,94.8600,26.8300,12.4200,Open Play,Right Foot,0.1885,0.1502,bloqueado
+61919,12697,2026/27,Real Madrid,Mediapunta Joven,Interior Creativo,53,93.7400,37.0800,11.6700,Open Play,Right Foot,0.1313,0.1889,gol
+61920,12697,2026/27,Real Madrid,Extremo Izquierdo,Interior Creativo,61,97.6500,48.9800,16.6900,Open Play,Other,0.0317,0.0280,parado
+61921,12697,2026/27,Real Madrid,Mediapunta Joven,Pivote Canterano,49,77.7300,33.3800,27.2800,Open Play,Right Foot,0.0289,0.0212,fuera
+61922,12697,2026/27,Real Madrid,Interior Creativo,,88,76.0800,50.2200,33.1500,Open Play,Left Foot,0.0157,0.0102,bloqueado
+61923,12697,2026/27,Real Madrid,Extremo Izquierdo,Mediapunta Joven,24,92.4300,44.6000,16.4400,Open Play,Right Foot,0.1107,0.1066,fuera
+61924,12697,2026/27,Real Madrid,Extremo Izquierdo,Extremo Canterano,77,82.3000,52.0800,29.0200,Open Play,Left Foot,0.0192,0.0177,fuera
+61925,12697,2026/27,Real Madrid,Extremo Canterano,Delantero Suplente,3,91.0100,35.4700,14.0600,Open Play,Right Foot,0.1559,0.1094,fuera
+62149,12708,2026/27,Real Madrid,Mediocentro Ancla,Extremo Canterano,73,89.3600,34.8700,15.6700,Open Play,Right Foot,0.1022,0.1000,parado
+62150,12708,2026/27,Real Madrid,Extremo Canterano,Lateral Diestro,21,90.8200,14.3000,24.2700,Set Piece,Left Foot,0.0318,0.0326,bloqueado
+62151,12708,2026/27,Real Madrid,Delantero Canterano,Lateral Suplente,63,88.0000,57.8400,29.2800,From Corner,Right Foot,0.0176,0.0183,bloqueado
+62152,12708,2026/27,Real Madrid,Extremo Canterano,Mediocentro Ancla,55,88.6800,13.4500,26.2400,Open Play,Left Foot,0.0212,0.0331,fuera
+62153,12708,2026/27,Real Madrid,Delantero Centro,Interior Creativo,89,92.2200,56.1300,25.5500,Open Play,Left Foot,0.0232,0.0274,fuera
+62154,12708,2026/27,Real Madrid,Extremo Derecho,Extremo Canterano,50,72.7600,18.8000,35.6400,Open Play,Left Foot,0.0095,0.0079,poste
+62155,12708,2026/27,Real Madrid,Interior Canterano,Interior Creativo,69,94.3600,7.2800,28.7600,Open Play,Other,0.0078,0.0087,poste
+62156,12708,2026/27,Real Madrid,Delantero Canterano,Mediocentro Ancla,49,85.2300,16.9900,26.0800,From Corner,Other,0.0151,0.0153,bloqueado
+62157,12708,2026/27,Real Madrid,Delantero Canterano,Interior Creativo,75,87.1700,39.5400,18.6700,Open Play,Right Foot,0.0910,0.0729,fuera
+62158,12708,2026/27,Real Madrid,Extremo Canterano,Interior Canterano,86,82.2900,34.0700,22.7100,Open Play,Left Foot,0.0370,0.0557,gol
+62159,12708,2026/27,Real Madrid,Extremo Canterano,Lateral Diestro,94,95.0700,47.4400,16.7200,From Corner,Other,0.0262,0.0289,gol
+62160,12708,2026/27,Real Madrid,Extremo Canterano,Lateral Suplente,30,94.9100,44.4200,14.5100,Open Play,Right Foot,0.1340,0.1066,fuera
+62161,12708,2026/27,Real Madrid,Delantero Centro,Central Alto,51,86.8200,36.5100,18.3500,Open Play,Right Foot,0.1038,0.0798,fuera
+62162,12708,2026/27,Real Madrid,Central Alto,Mediocentro Ancla,95,99.7400,46.5300,13.5900,Set Piece,Right Foot,0.0995,0.0954,fuera
+62163,12708,2026/27,Real Madrid,Delantero Centro,Lateral Zurdo,45,93.2400,39.7400,13.0900,From Corner,Other,0.0787,0.0603,parado
+62164,12708,2026/27,Real Madrid,Interior Canterano,Central Alto,53,92.3200,37.0600,13.0500,Open Play,Right Foot,0.1236,0.1595,bloqueado
+62165,12708,2026/27,Real Madrid,Mediocentro Ancla,Central Alto,11,86.1900,34.1400,18.8100,Open Play,Left Foot,0.0774,0.0704,parado
+62166,12708,2026/27,Real Madrid,Extremo Canterano,Central Rápido,15,91.9000,37.7700,13.6400,Open Play,Right Foot,0.1009,0.1576,fuera
+62167,12708,2026/27,Real Madrid,Mediocentro Ancla,,58,92.2500,59.4300,28.4400,Open Play,Right Foot,0.0154,0.0231,fuera
+62168,12708,2026/27,Real Madrid,Extremo Derecho,,16,65.0000,54.9600,45.1700,Open Play,Right Foot,0.0050,0.0074,fuera
+62169,12708,2026/27,Real Madrid,Central Rápido,Extremo Canterano,69,88.4200,47.9100,21.6400,From Corner,Left Foot,0.0471,0.0477,parado
+62170,12708,2026/27,Getafe,GET 16,,3,77.9700,39.8300,27.6500,From Corner,Other,0.0117,0.0155,parado
+62171,12708,2026/27,Getafe,GET 11,,48,95.2500,34.8200,9.7900,Set Piece,Left Foot,0.3730,0.2401,gol
+62172,12708,2026/27,Getafe,GET 15,,53,93.8200,39.7500,12.5700,Open Play,Other,0.0668,0.0742,fuera
+62173,12708,2026/27,Getafe,GET 15,GET 13,20,65.0000,4.0000,50.0000,Open Play,Other,0.0050,0.0057,bloqueado
+62174,12708,2026/27,Getafe,GET 15,GET 11,36,88.9500,47.9100,21.2400,Open Play,Left Foot,0.0445,0.0462,fuera
+62175,12708,2026/27,Getafe,GET 16,GET 09,26,93.3100,24.3300,15.1700,Set Piece,Other,0.0395,0.0480,parado
+62176,12708,2026/27,Getafe,GET 16,GET 03,92,92.7800,35.7200,12.3400,Open Play,Right Foot,0.1826,0.1602,fuera
+62396,12719,2026/27,Real Betis,REA 17,,9,96.4700,28.0300,10.4100,Open Play,Other,0.0919,0.0774,parado
+62397,12719,2026/27,Real Betis,REA 17,,85,84.7600,51.8500,26.9900,Open Play,Right Foot,0.0373,0.0207,bloqueado
+62398,12719,2026/27,Real Betis,REA 11,REA 10,43,98.9200,32.5300,6.2500,Open Play,Right Foot,0.5007,0.4760,gol
+62399,12719,2026/27,Real Betis,REA 11,REA 05,79,89.3300,23.4100,18.9100,Open Play,Right Foot,0.0765,0.0639,fuera
+62400,12719,2026/27,Real Betis,REA 17,,92,87.5700,43.8100,20.0000,Open Play,Right Foot,0.0988,0.0674,parado
+62401,12719,2026/27,Real Betis,REA 04,,77,85.4800,39.6400,20.3200,Open Play,Right Foot,0.0459,0.0575,bloqueado
+62402,12719,2026/27,Real Betis,REA 04,REA 03,46,91.8000,38.5600,13.9600,Open Play,Right Foot,0.1132,0.1395,parado
+62403,12719,2026/27,Real Betis,REA 17,REA 11,32,91.1800,35.7100,13.9200,Open Play,Other,0.0737,0.0594,fuera
+62404,12719,2026/27,Real Betis,REA 09,REA 10,46,91.8000,32.2100,13.3200,Open Play,Right Foot,0.1152,0.1595,fuera
+62405,12719,2026/27,Real Betis,REA 16,REA 17,36,97.4700,37.9500,8.5000,Open Play,Right Foot,0.2460,0.3135,fuera
+62406,12719,2026/27,Real Betis,REA 11,,16,74.5900,16.8200,34.9200,Open Play,Right Foot,0.0096,0.0096,bloqueado
+62407,12719,2026/27,Real Betis,REA 09,REA 11,47,85.2600,32.7500,19.7800,Open Play,Right Foot,0.0874,0.0490,bloqueado
+62408,12719,2026/27,Real Madrid,Delantero Canterano,Delantero Suplente,30,72.7300,64.0000,44.0600,Open Play,Right Foot,0.0050,0.0092,bloqueado
+62409,12719,2026/27,Real Madrid,Extremo Izquierdo,Lateral Suplente,59,72.7100,4.0000,44.0700,Open Play,Right Foot,0.0050,0.0054,parado
+62410,12719,2026/27,Real Madrid,Interior Llegador,Lateral Zurdo,10,95.8200,31.2700,9.5700,Open Play,Right Foot,0.2725,0.2310,poste
+62411,12719,2026/27,Real Madrid,Extremo Derecho,Interior Canterano,52,92.8900,41.6600,14.3200,From Corner,Other,0.0473,0.0482,parado
+62412,12719,2026/27,Real Madrid,Extremo Derecho,Lateral Suplente,28,97.6200,30.3900,8.2200,Open Play,Right Foot,0.2781,0.3239,gol
+62413,12719,2026/27,Real Madrid,Lateral Zurdo,,92,94.6000,14.5700,22.0300,Open Play,Right Foot,0.0367,0.0420,parado
+62414,12719,2026/27,Real Madrid,Interior Creativo,Lateral Diestro,53,84.9200,22.7500,23.0200,Open Play,Right Foot,0.0186,0.0332,parado
+62415,12719,2026/27,Real Madrid,Interior Creativo,,16,98.6800,28.2500,8.5500,Open Play,Right Foot,0.2425,0.2588,parado
+62416,12719,2026/27,Real Madrid,Extremo Izquierdo,,19,98.9100,33.7600,6.0900,Open Play,Other,0.3135,0.2791,fuera
+62417,12719,2026/27,Real Madrid,Extremo Izquierdo,Delantero Canterano,31,78.5000,18.0400,30.9400,Open Play,Other,0.0090,0.0066,fuera
+62657,12730,2026/27,Real Madrid,Pivote Suplente,,67,90.4400,40.3700,15.9000,Open Play,Left Foot,0.0949,0.0969,fuera
+62658,12730,2026/27,Real Madrid,Delantero Canterano,Extremo Izquierdo,66,93.3200,34.5900,11.6900,Open Play,Right Foot,0.2878,0.1784,fuera
+62659,12730,2026/27,Real Madrid,Delantero Centro,Interior Canterano,1,82.6700,36.3600,22.4600,Open Play,Left Foot,0.0563,0.0549,bloqueado
+62660,12730,2026/27,Real Madrid,Delantero Centro,Pivote Suplente,37,96.4300,36.9900,9.0700,Open Play,Left Foot,0.3262,0.2603,fuera
+62661,12730,2026/27,Real Madrid,Delantero Centro,,5,94.7600,49.6900,18.7300,Open Play,Other,0.0227,0.0255,fuera
+62662,12730,2026/27,Real Madrid,Extremo Izquierdo,Delantero Centro,70,79.0400,60.9800,37.4400,Open Play,Right Foot,0.0078,0.0100,fuera
+62663,12730,2026/27,Real Madrid,Extremo Izquierdo,,44,96.2100,30.8600,9.3300,From Corner,Other,0.1100,0.1093,bloqueado
+62664,12730,2026/27,Real Madrid,Extremo Derecho,Interior Creativo,52,77.2100,15.5700,33.3500,Open Play,Right Foot,0.0076,0.0083,parado
+62665,12730,2026/27,Real Madrid,Delantero Centro,Interior Creativo,52,87.3700,32.8000,17.6700,Set Piece,Other,0.0349,0.0382,fuera
+62666,12730,2026/27,Atletico Madrid,ATL 18,ATL 11,87,97.0600,29.8800,8.9400,Open Play,Right Foot,0.3004,0.2512,gol
+62667,12730,2026/27,Atletico Madrid,ATL 15,ATL 19,38,93.8700,44.1000,15.0300,Open Play,Other,0.0570,0.0440,bloqueado
+62668,12730,2026/27,Atletico Madrid,ATL 18,,50,93.3400,36.9900,12.0300,Open Play,Other,0.1114,0.0825,fuera
+62669,12730,2026/27,Atletico Madrid,ATL 22,ATL 09,43,90.5000,25.6200,16.7500,Open Play,Left Foot,0.0663,0.0772,bloqueado
+62670,12730,2026/27,Atletico Madrid,ATL 18,ATL 09,47,92.5800,29.2500,13.3000,Open Play,Left Foot,0.1147,0.1524,parado
+62671,12730,2026/27,Atletico Madrid,ATL 11,ATL 09,41,89.6600,33.0700,15.3700,Open Play,Other,0.0669,0.0445,fuera
+62672,12730,2026/27,Atletico Madrid,ATL 22,,12,95.7500,38.0200,10.0900,From Corner,Other,0.1043,0.1182,gol
+62673,12730,2026/27,Atletico Madrid,ATL 03,ATL 10,1,96.8700,40.3400,10.3100,Open Play,Right Foot,0.1679,0.1853,fuera
+62674,12730,2026/27,Atletico Madrid,ATL 19,ATL 15,14,92.7200,36.3100,12.5000,Open Play,Other,0.0835,0.0731,parado
+62675,12730,2026/27,Atletico Madrid,ATL 18,ATL 06,29,65.0000,27.6500,40.5100,Open Play,Left Foot,0.0050,0.0074,bloqueado
+62676,12730,2026/27,Atletico Madrid,ATL 22,ATL 08,19,88.4800,35.1600,16.5600,Open Play,Other,0.0402,0.0461,parado
+62677,12730,2026/27,Atletico Madrid,ATL 03,,50,70.8900,29.4000,34.4200,Open Play,Left Foot,0.0089,0.0123,fuera
+62678,12730,2026/27,Atletico Madrid,ATL 18,,87,98.5000,41.9600,10.2700,Open Play,Other,0.1157,0.0820,parado
+62679,12730,2026/27,Atletico Madrid,ATL 05,ATL 18,87,95.8400,31.1700,9.5800,Set Piece,Other,0.2064,0.1123,parado
+62680,12730,2026/27,Atletico Madrid,ATL 11,,94,96.1400,39.6400,10.5100,Open Play,Right Foot,0.2418,0.1853,parado
+62681,12730,2026/27,Atletico Madrid,ATL 07,,68,97.9900,29.5300,8.3200,Open Play,Right Foot,0.2849,0.3090,gol
+62682,12730,2026/27,Atletico Madrid,ATL 22,ATL 10,14,97.4600,41.9300,10.9400,Open Play,Left Foot,0.2036,0.1801,gol
+62892,12740,2026/27,Elche,ELC 17,ELC 13,42,76.1500,18.6500,32.6800,From Corner,Left Foot,0.0224,0.0089,poste
+62893,12740,2026/27,Elche,ELC 17,ELC 06,42,91.7600,24.2900,16.4200,From Corner,Left Foot,0.0844,0.1123,gol
+62894,12740,2026/27,Elche,ELC 17,,32,65.0000,34.3600,40.0100,Open Play,Right Foot,0.0050,0.0074,parado
+62895,12740,2026/27,Elche,ELC 15,ELC 13,72,100.2500,34.8600,4.8200,Set Piece,Right Foot,0.5457,0.5133,fuera
+62896,12740,2026/27,Elche,ELC 17,ELC 04,8,74.9100,20.0900,33.1500,Open Play,Left Foot,0.0111,0.0098,fuera
+62897,12740,2026/27,Elche,ELC 17,ELC 10,21,96.7600,34.7100,8.2700,Open Play,Right Foot,0.2838,0.3112,bloqueado
+62898,12740,2026/27,Elche,ELC 10,,50,84.9200,44.5000,22.6600,Open Play,Right Foot,0.0341,0.0409,parado
+62899,12740,2026/27,Elche,ELC 16,,46,98.6800,30.4900,7.2300,Open Play,Right Foot,0.4423,0.3616,gol
+62900,12740,2026/27,Real Madrid,Interior Llegador,,12,99.3400,45.6200,12.9300,Open Play,Right Foot,0.0971,0.0745,fuera
+62901,12740,2026/27,Real Madrid,Mediocentro Ancla,Extremo Izquierdo,1,93.6700,32.2600,11.4600,Open Play,Right Foot,0.1787,0.2005,fuera
+62902,12740,2026/27,Real Madrid,Delantero Centro,Extremo Izquierdo,53,97.4100,28.1000,9.6200,Open Play,Right Foot,0.2362,0.1956,fuera
+62903,12740,2026/27,Real Madrid,Interior Creativo,Interior Llegador,55,90.9400,40.3000,15.4100,Open Play,Right Foot,0.0786,0.0952,gol
+62904,12740,2026/27,Real Madrid,Mediocentro Ancla,,84,89.8000,50.9700,22.7800,Open Play,Right Foot,0.0402,0.0448,fuera
+62905,12740,2026/27,Real Madrid,Extremo Izquierdo,,92,81.9300,40.4900,23.9700,Open Play,Right Foot,0.0636,0.0271,fuera
+62906,12740,2026/27,Real Madrid,Central Alto,Extremo Izquierdo,12,95.0500,42.7700,13.2600,Open Play,Right Foot,0.1033,0.1369,fuera
+62907,12740,2026/27,Real Madrid,Extremo Izquierdo,Interior Llegador,71,95.0900,22.1700,15.4300,From Corner,Right Foot,0.0810,0.0975,parado
+62908,12740,2026/27,Real Madrid,Extremo Izquierdo,Central Alto,85,69.5400,35.5000,35.4900,Set Piece,Left Foot,0.0153,0.0104,fuera
+62909,12740,2026/27,Real Madrid,Interior Creativo,,85,94.0000,34.0000,11.0000,Penalty,Right Foot,0.7235,0.7551,gol
+62910,12740,2026/27,Real Madrid,Extremo Izquierdo,Interior Llegador,3,95.9400,17.8600,18.5100,Open Play,Left Foot,0.0604,0.0569,bloqueado
+62911,12740,2026/27,Real Madrid,Delantero Centro,Mediapunta Joven,74,94.9000,21.6700,15.9400,Open Play,Left Foot,0.0798,0.0909,fuera
+62912,12740,2026/27,Real Madrid,Extremo Izquierdo,,31,85.0200,43.0000,21.9100,From Corner,Other,0.0213,0.0238,parado
+62913,12740,2026/27,Real Madrid,Interior Creativo,,3,94.0000,34.0000,11.0000,Penalty,Right Foot,0.7140,0.7551,gol
+63114,12749,2026/27,Real Madrid,Central Rápido,Interior Creativo,33,97.6500,18.4300,17.2200,Set Piece,Right Foot,0.0651,0.0682,fuera
+63115,12749,2026/27,Real Madrid,Delantero Suplente,Extremo Izquierdo,4,93.2100,40.3700,13.4000,Open Play,Other,0.0766,0.0612,bloqueado
+63116,12749,2026/27,Real Madrid,Lateral Suplente,Extremo Izquierdo,69,69.8600,48.3700,37.9700,Open Play,Right Foot,0.0082,0.0074,bloqueado
+63117,12749,2026/27,Real Madrid,Delantero Centro,Interior Canterano,5,74.6200,23.2500,32.2200,From Corner,Other,0.0060,0.0087,bloqueado
+63118,12749,2026/27,Real Madrid,Delantero Centro,,54,74.3400,55.3000,37.3400,Open Play,Right Foot,0.0089,0.0098,fuera
+63119,12749,2026/27,Real Madrid,Delantero Suplente,Lateral Zurdo,78,80.4800,29.6700,24.9000,Open Play,Right Foot,0.0392,0.0249,bloqueado
+63120,12749,2026/27,Real Madrid,Extremo Izquierdo,Delantero Suplente,34,75.5300,33.4400,29.4800,Set Piece,Left Foot,0.0260,0.0153,fuera
+63121,12749,2026/27,Real Madrid,Extremo Izquierdo,Delantero Centro,36,92.5000,43.3200,15.5900,Open Play,Right Foot,0.0843,0.0966,fuera
+63122,12749,2026/27,Real Madrid,Delantero Suplente,Extremo Izquierdo,16,86.0200,39.6900,19.8200,Open Play,Right Foot,0.0894,0.0683,parado
+63123,12749,2026/27,Real Madrid,Central Alto,Mediocentro Ancla,11,86.8700,50.3400,24.4100,Open Play,Right Foot,0.0323,0.0338,poste
+63124,12749,2026/27,Real Madrid,Interior Canterano,Central Rápido,95,93.8600,8.0900,28.2100,Open Play,Right Foot,0.0197,0.0184,parado
+63125,12749,2026/27,Real Madrid,Delantero Suplente,Interior Canterano,41,95.2900,37.9600,10.4900,Open Play,Left Foot,0.2626,0.2411,parado
+63126,12749,2026/27,Real Madrid,Delantero Centro,,76,80.4000,37.5800,24.8600,From Corner,Right Foot,0.0409,0.0255,fuera
+63127,12749,2026/27,Levante,LEV 15,,94,93.9200,31.0200,11.4700,From Corner,Other,0.0719,0.0804,gol
+63128,12749,2026/27,Levante,LEV 15,,41,91.5700,35.3300,13.4900,Open Play,Right Foot,0.1562,0.1576,fuera
+63129,12749,2026/27,Levante,LEV 16,,53,90.3700,33.2100,14.6500,Open Play,Right Foot,0.1765,0.0964,gol
+63130,12749,2026/27,Levante,LEV 16,LEV 09,53,81.9800,29.0400,23.5500,From Corner,Right Foot,0.0340,0.0471,parado
+63131,12749,2026/27,Levante,LEV 06,LEV 09,83,88.4300,37.4700,16.9300,Open Play,Right Foot,0.0462,0.0859,fuera
+63304,12758,2026/27,Osasuna,OSA 18,OSA 11,47,97.0200,35.6700,8.1500,Open Play,Other,0.1712,0.1490,poste
+63305,12758,2026/27,Osasuna,OSA 16,OSA 05,79,75.9700,18.6500,32.8400,Open Play,Left Foot,0.0096,0.0087,bloqueado
+63306,12758,2026/27,Osasuna,OSA 20,OSA 10,15,90.4800,43.1200,17.1500,Open Play,Right Foot,0.0692,0.0812,fuera
+63307,12758,2026/27,Osasuna,OSA 21,OSA 17,93,83.4200,27.0100,22.6800,Open Play,Right Foot,0.0452,0.0443,bloqueado
+63308,12758,2026/27,Osasuna,OSA 18,OSA 22,12,91.0900,24.5700,16.8100,Open Play,Left Foot,0.0897,0.0808,bloqueado
+63309,12758,2026/27,Osasuna,OSA 16,OSA 18,63,83.1100,39.1500,22.4900,Open Play,Right Foot,0.0364,0.0500,fuera
+63310,12758,2026/27,Real Madrid,Delantero Centro,Lateral Suplente,62,94.7500,25.5700,13.2700,Open Play,Right Foot,0.1972,0.1337,fuera
+63311,12758,2026/27,Real Madrid,Extremo Derecho,Delantero Centro,27,88.5400,37.4500,16.8200,Open Play,Right Foot,0.0792,0.0850,parado
+63312,12758,2026/27,Real Madrid,Extremo Derecho,Interior Creativo,47,94.1500,42.0500,13.5100,From Corner,Left Foot,0.1234,0.1437,gol
+63313,12758,2026/27,Real Madrid,Mediocentro Ancla,,79,95.9600,24.0000,13.4800,Set Piece,Right Foot,0.0980,0.1329,gol
+63314,12758,2026/27,Real Madrid,Delantero Centro,,40,94.0000,34.0000,11.0000,Penalty,Left Foot,0.8508,0.7551,gol
+63315,12758,2026/27,Real Madrid,Delantero Canterano,Pivote Suplente,79,95.2600,26.9200,12.0400,Open Play,Other,0.0714,0.0796,parado
+63316,12758,2026/27,Real Madrid,Delantero Canterano,Mediocentro Ancla,89,86.8700,32.3400,18.2100,Open Play,Right Foot,0.0769,0.0804,parado
+63317,12758,2026/27,Real Madrid,Extremo Izquierdo,,58,94.0000,34.0000,11.0000,Penalty,Right Foot,0.7855,0.7551,gol
+63318,12758,2026/27,Real Madrid,Delantero Centro,Pivote Suplente,21,93.8300,41.0200,13.2000,From Corner,Other,0.0910,0.0607,bloqueado
+63319,12758,2026/27,Real Madrid,Delantero Centro,,26,83.3700,32.0600,21.7200,Direct Freekick,Left Foot,0.0434,0.0384,poste
+63320,12758,2026/27,Real Madrid,Delantero Centro,Central Joven,2,78.5500,26.3400,27.5400,Open Play,Left Foot,0.0248,0.0212,fuera
+63321,12758,2026/27,Real Madrid,Delantero Centro,Extremo Derecho,73,65.0000,35.0900,40.0200,Open Play,Right Foot,0.0064,0.0074,fuera
+63322,12758,2026/27,Real Madrid,Extremo Canterano,,83,90.3700,26.8500,16.2800,Open Play,Right Foot,0.0772,0.0963,bloqueado

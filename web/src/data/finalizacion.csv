@@ -1,0 +1,14 @@
+jugador,tiros,goles,xg,p_al_menos,p_como_mucho,percentil
+Delantero Centro,24,2,2.2498,0.6869,0.6044,0.4587
+Extremo Izquierdo,24,1,1.5967,0.8212,0.5130,0.3459
+Extremo Canterano,10,3,1.1608,0.0855,0.9860,0.9502
+Interior Creativo,8,2,1.1546,0.3165,0.9372,0.8104
+Delantero Canterano,12,0,1.1353,1.0000,0.2870,0.1435
+Extremo Derecho,13,3,0.9478,0.0551,0.9919,0.9684
+Delantero Suplente,8,0,0.8384,1.0000,0.4006,0.2003
+Mediocentro Ancla,8,1,0.7437,0.5473,0.8359,0.6443
+Interior Llegador,4,0,0.4220,1.0000,0.6229,0.3114
+Central Alto,4,1,0.4083,0.3539,0.9488,0.7974
+Lateral Diestro,3,0,0.3793,1.0000,0.6641,0.3320
+Interior Canterano,3,0,0.1511,1.0000,0.8524,0.4262
+Lateral Zurdo,3,0,0.1191,1.0000,0.8843,0.4421

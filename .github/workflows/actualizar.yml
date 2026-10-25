@@ -1,0 +1,101 @@
+# Descarga los datos, recalcula los modelos, versiona las salidas y publica la web.
+# Corre cada mañana (los partidos de LaLiga se juegan de viernes a lunes, y algún
+# miércoles) y se puede lanzar a mano desde la pestaña Actions.
+name: Actualizar y publicar
+
+on:
+  schedule:
+    - cron: "23 6 * * *"        # 06:23 UTC todos los días
+  workflow_dispatch:
+    inputs:
+      reentrenar_xg:
+        description: "Reentrenar el modelo xG"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write   # para commitear las salidas
+  pages: write      # para publicar en GitHub Pages
+  id-token: write
+
+concurrency:
+  group: actualizar
+  cancel-in-progress: false
+
+jobs:
+  datos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      # Datos crudos, caché de soccerdata y modelo xG: así solo se descarga lo nuevo
+      - uses: actions/cache@v4
+        with:
+          path: |
+            data/raw
+            ~/soccerdata
+            models
+          key: datos-${{ github.run_id }}
+          restore-keys: datos-
+
+      - name: Instalar
+        run: pip install -e .
+
+      - name: Pipeline
+        run: |
+          # el día 1 de cada mes (o si se pide a mano) se reentrena el modelo xG
+          EXTRA=""
+          if [ "$(date -u +%d)" = "01" ] || [ "${{ inputs.reentrenar_xg }}" = "true" ]; then
+            EXTRA="--reentrenar-xg"
+          fi
+          rma ingesta
+          rma procesar
+          rma salidas $EXTRA
+
+      - name: Guardar salidas en el repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/processed web/src/data
+          if git diff --cached --quiet; then
+            echo "Sin cambios"
+          else
+            git commit -m "Datos actualizados $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+  web:
+    needs: datos
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}   # incluye el commit de datos recién hecho
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Construir la web
+        working-directory: web
+        run: |
+          npm ci
+          npm run build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+      - id: deploy
+        uses: actions/deploy-pages@v4

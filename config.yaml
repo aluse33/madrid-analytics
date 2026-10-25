@@ -1,0 +1,44 @@
+# Configuración del proyecto. Todo lo que cambia de un año a otro vive aquí.
+
+equipo: Real Madrid
+
+# Liga en formato soccerdata. Understat solo cubre las 5 grandes ligas (+ RFPL),
+# así que Champions y Copa no tienen xG desde esta fuente.
+liga: ESP-La Liga
+
+# Temporada en curso y temporadas históricas para entrenar los modelos.
+# Formato "AAAA-AAAA" para evitar ambigüedades en soccerdata.
+temporada_actual: "2026-2027"
+temporadas_historicas:
+  - "2019-2020"
+  - "2020-2021"
+  - "2021-2022"
+  - "2022-2023"
+  - "2023-2024"
+  - "2024-2025"
+  - "2025-2026"
+
+modelos:
+  dixon_coles:
+    # Semivida de la ponderación temporal en días: un partido de hace
+    # `semivida_dias` pesa la mitad que uno de hoy (Dixon y Coles, 1997).
+    semivida_dias: 180
+    # Penalización L2 sobre ataque y defensa: shrinkage hacia la media de la liga,
+    # útil con equipos recién ascendidos y pocas jornadas.
+    l2: 1.0
+    # "goals", "xg" o "mix". Con "mix" el objetivo es peso_xg*xG + (1-peso_xg)*goles.
+    objetivo: mix
+    peso_xg: 0.6
+    # Ventana de partidos con la que se ajusta (años hacia atrás desde hoy).
+    anios_entrenamiento: 3
+  shrinkage:
+    # Minutos mínimos para que un jugador aparezca en la web (no en la estimación del prior).
+    minutos_minimos_web: 270
+  modelo_xg:
+    # Reentrenar el modelo xG propio solo cuando se pida (es lo más lento).
+    reentrenar: false
+    folds: 5
+
+rutas:
+  raw: data/raw
+  processed: data/processed
