@@ -5,7 +5,8 @@
     rma muestra            genera datos sintéticos (sin conexión)
     rma procesar           data/raw -> data/processed
     rma salidas            modelos -> web/src/data
-    rma todo [--muestra]   las tres cosas seguidas
+    rma traducir           genera las páginas en inglés (web/src/en) desde las españolas
+    rma todo [--muestra]   todo seguido
 """
 
 from __future__ import annotations
@@ -21,7 +22,7 @@ from rma.process import build
 
 def main(argv: list[str] | None = None) -> None:
     ap = argparse.ArgumentParser(prog="rma", description="Real Madrid Analytics")
-    ap.add_argument("orden", choices=["ingesta", "muestra", "procesar", "salidas", "todo"])
+    ap.add_argument("orden", choices=["ingesta", "muestra", "procesar", "salidas", "traducir", "todo"])
     ap.add_argument("--actual", action="store_true", help="ingesta: solo la temporada en curso")
     ap.add_argument("--muestra", action="store_true", help="todo: con datos sintéticos")
     ap.add_argument("--reentrenar-xg", action="store_true", help="fuerza a reentrenar el modelo xG")
@@ -42,6 +43,9 @@ def main(argv: list[str] | None = None) -> None:
         build.construir(cfg)
     elif a.orden == "salidas":
         salidas.generar(cfg, reentrenar_xg=reentrenar)
+        _traducir()
+    elif a.orden == "traducir":
+        _traducir()
     elif a.orden == "todo":
         if a.muestra:
             sample.generar(cfg, hoy=a.hoy)
@@ -49,6 +53,16 @@ def main(argv: list[str] | None = None) -> None:
             understat.descargar(cfg, solo_actual=False)
         build.construir(cfg)
         salidas.generar(cfg, reentrenar_xg=reentrenar)
+        _traducir()
+
+
+def _traducir() -> None:
+    from rma.traduccion import traducir
+
+    faltan = traducir()
+    if faltan:
+        raise SystemExit(
+            "Faltan traducciones (actualiza src/rma/traduccion.py):\n  " + "\n  ".join(faltan))
 
 
 if __name__ == "__main__":

@@ -20,7 +20,7 @@ from datetime import date, timedelta
 import numpy as np
 import pandas as pd
 
-from rma.config import Config, codigo_temporada
+from rma.config import RAIZ, Config, codigo_temporada
 from rma.ingest.understat import ruta
 
 EQUIPOS = [
@@ -118,6 +118,7 @@ def generar(cfg: Config, hoy: date | None = None, semilla: int = 7) -> None:
     rng = np.random.default_rng(semilla)
     hoy = hoy or date.today()
     (cfg.raw / "MUESTRA").write_text("Datos sintéticos: no publicar.\n", encoding="utf-8")
+    (RAIZ / "models" / "xg.joblib").unlink(missing_ok=True)  # nunca mezclar un modelo de otros datos
     plantillas = _plantillas(rng)
     fuerza = {e: np.array(FUERZA.get(e, (rng.normal(-0.1, 0.12), rng.normal(0.1, 0.12))))
               for e in EQUIPOS}

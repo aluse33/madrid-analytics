@@ -1,0 +1,381 @@
+game_id,fecha,local,visitante,goles_local,goles_visitante,xg_local,xg_visitante,jugado
+30770,2026-08-15T17:30Z,Alaves,Getafe,3,0,2.2858,0.2597,true
+30771,2026-08-15T19:30Z,Sevilla,Rayo Vallecano,2,1,2.0184,1.9122,true
+30772,2026-08-16T15:00Z,Racing Santander,Villarreal,2,2,1.9648,0.7688,true
+30773,2026-08-16T17:00Z,Espanyol,Levante,3,0,2.0099,0.1963,true
+30774,2026-08-17T19:00Z,Deportivo La Coruna,Elche,1,1,0.3399,1.5869,true
+30775,2026-08-19T19:00Z,Atletico Madrid,Malaga,2,0,1.3439,0.2296,true
+30776,2026-08-20T19:00Z,Rayo Vallecano,Alaves,1,1,0.5664,2.2207,true
+30777,2026-08-21T19:00Z,Real Betis,Real Sociedad,1,0,1.6957,1.1400,true
+30778,2026-08-22T15:00Z,Athletic Club,Sevilla,1,3,1.4650,0.9668,true
+30779,2026-08-22T17:30Z,Valencia,Celta Vigo,0,0,0.4206,0.5373,true
+30780,2026-08-22T19:30Z,Espanyol,Real Madrid,1,2,1.0191,2.5612,true
+30781,2026-08-23T15:00Z,Atletico Madrid,Villarreal,2,2,0.7394,3.5418,true
+30782,2026-08-23T17:30Z,Getafe,Racing Santander,1,0,0.9826,1.1679,true
+30783,2026-08-23T19:30Z,Elche,Barcelona,0,5,1.1765,4.2518,true
+30784,2026-08-24T17:30Z,Osasuna,Levante,0,0,0.8925,1.2703,true
+30785,2026-08-24T19:30Z,Malaga,Deportivo La Coruna,1,1,1.3565,1.1297,true
+30786,2026-08-25T19:00Z,Valencia,Real Betis,0,1,1.2899,0.9645,true
+30787,2026-08-26T19:00Z,Real Madrid,Real Sociedad,4,1,3.3052,0.4630,true
+30788,2026-08-27T18:30Z,Celta Vigo,Osasuna,1,2,0.1067,1.8965,true
+30789,2026-08-27T19:00Z,Barcelona,Athletic Club,2,0,3.9166,0.2220,true
+30790,2026-08-28T17:00Z,Racing Santander,Elche,3,2,2.5623,1.0755,true
+30791,2026-08-28T19:30Z,Alaves,Villarreal,1,0,0.9155,1.4511,true
+30792,2026-08-29T15:00Z,Levante,Real Betis,5,2,3.0376,1.9229,true
+30793,2026-08-29T17:00Z,Real Sociedad,Espanyol,2,1,2.9166,0.9299,true
+30794,2026-08-29T19:30Z,Sevilla,Atletico Madrid,1,3,1.0805,1.4768,true
+30795,2026-08-30T15:00Z,Real Madrid,Malaga,4,0,3.4078,0.7602,true
+30796,2026-08-30T17:30Z,Deportivo La Coruna,Valencia,3,1,1.4075,1.0166,true
+30797,2026-08-30T19:30Z,Celta Vigo,Athletic Club,0,2,1.2006,3.1330,true
+30798,2026-08-31T17:30Z,Osasuna,Getafe,1,0,1.7050,1.0904,true
+30799,2026-08-31T19:30Z,Barcelona,Rayo Vallecano,5,2,2.9576,1.0661,true
+30800,2026-09-03T19:00Z,Real Sociedad,Celta Vigo,0,0,1.0205,0.6332,true
+30801,2026-09-04T19:00Z,Real Betis,Real Madrid,1,0,0.8852,3.3828,true
+30802,2026-09-05T14:15Z,Athletic Club,Atletico Madrid,3,0,1.8721,0.7522,true
+30803,2026-09-05T16:30Z,Rayo Vallecano,Racing Santander,3,2,1.1896,0.6329,true
+30804,2026-09-05T19:00Z,Villarreal,Deportivo La Coruna,2,3,3.6424,2.4425,true
+30805,2026-09-06T14:15Z,Valencia,Barcelona,0,5,0.5188,4.7692,true
+30807,2026-09-06T16:30Z,Alaves,Osasuna,5,2,1.6019,1.6441,true
+30806,2026-09-06T16:30Z,Malaga,Levante,0,0,1.7266,1.1917,true
+30808,2026-09-06T19:00Z,Espanyol,Sevilla,1,1,1.8175,0.3726,true
+30809,2026-09-07T17:00Z,Getafe,Celta Vigo,1,1,1.4584,1.4212,true
+30810,2026-09-07T19:30Z,Elche,Real Sociedad,2,3,2.8704,0.8762,true
+30818,2026-09-11T19:00Z,Sevilla,Valencia,1,0,1.3551,0.0799,true
+30815,2026-09-12T12:00Z,Racing Santander,Alaves,2,1,1.3839,2.2715,true
+30820,2026-09-12T14:15Z,Osasuna,Espanyol,0,2,1.1037,1.4095,true
+30812,2026-09-12T16:30Z,Athletic Club,Elche,1,1,3.1304,0.8161,true
+30816,2026-09-12T19:00Z,Real Madrid,Rayo Vallecano,4,1,3.1216,1.1926,true
+30811,2026-09-13T12:00Z,Celta Vigo,Malaga,1,1,1.4814,0.5481,true
+30814,2026-09-13T14:15Z,Levante,Barcelona,2,4,2.6744,2.4686,true
+30813,2026-09-13T16:30Z,Getafe,Deportivo La Coruna,1,1,0.9948,0.9449,true
+30817,2026-09-13T19:00Z,Real Sociedad,Atletico Madrid,0,3,0.6075,1.8341,true
+30819,2026-09-14T19:00Z,Villarreal,Real Betis,1,2,1.6729,4.0731,true
+30829,2026-09-15T17:00Z,Rayo Vallecano,Espanyol,2,1,1.8328,1.1573,true
+30821,2026-09-15T18:00Z,Alaves,Valencia,0,1,1.3096,0.8395,true
+30825,2026-09-15T19:30Z,Elche,Real Madrid,2,3,1.0522,3.4612,true
+30822,2026-09-16T17:00Z,Atletico Madrid,Osasuna,4,0,5.1427,0.7179,true
+30824,2026-09-16T17:00Z,Deportivo La Coruna,Sevilla,0,1,0.1922,0.8532,true
+30826,2026-09-16T19:30Z,Barcelona,Racing Santander,7,2,7.4753,1.3840,true
+30823,2026-09-17T17:00Z,Real Betis,Getafe,1,0,2.6091,0.3270,true
+30828,2026-09-17T19:30Z,Malaga,Villarreal,1,3,0.3614,4.2474,true
+30834,2026-09-18T19:00Z,Espanyol,Elche,1,3,1.0774,1.2511,true
+30836,2026-09-19T12:00Z,Osasuna,Rayo Vallecano,1,1,0.9264,1.3565,true
+30830,2026-09-19T14:15Z,Athletic Club,Alaves,0,0,1.4615,0.0462,true
+30832,2026-09-19T16:30Z,Celta Vigo,Racing Santander,5,0,2.2295,0.7199,true
+30837,2026-09-19T19:00Z,Sevilla,Barcelona,1,3,0.7584,3.5626,true
+30835,2026-09-20T12:00Z,Getafe,Malaga,1,0,1.1880,0.6605,true
+30831,2026-09-20T14:15Z,Atletico Madrid,Real Madrid,2,1,2.4062,0.4208,true
+30833,2026-09-20T16:30Z,Deportivo La Coruna,Real Betis,1,1,1.9387,1.0025,true
+30839,2026-09-20T16:30Z,Villarreal,Levante,3,1,4.2857,0.9418,true
+30838,2026-09-20T19:00Z,Valencia,Real Sociedad,2,3,1.5276,2.3341,true
+30845,2026-10-09T19:00Z,Malaga,Espanyol,1,1,0.6852,1.3797,true
+30847,2026-10-10T12:00Z,Rayo Vallecano,Athletic Club,,,,,false
+30840,2026-10-10T14:15Z,Alaves,Atletico Madrid,1,2,1.0061,2.0023,true
+30843,2026-10-10T16:30Z,Barcelona,Getafe,3,0,2.9134,0.1404,true
+30848,2026-10-10T19:00Z,Real Madrid,Villarreal,1,0,1.4259,0.5265,true
+30842,2026-10-11T12:00Z,Elche,Celta Vigo,0,0,0.7261,0.4251,true
+30849,2026-10-11T14:15Z,Real Sociedad,Deportivo La Coruna,3,2,1.3296,2.3369,true
+30841,2026-10-11T16:30Z,Real Betis,Osasuna,5,2,2.6557,1.1456,true
+30846,2026-10-11T19:00Z,Racing Santander,Valencia,2,2,1.3980,1.7500,true
+30844,2026-10-12T19:00Z,Levante,Sevilla,3,3,2.0063,3.1960,true
+30852,2026-10-16T19:00Z,Deportivo La Coruna,Levante,1,1,1.4562,0.5634,true
+30853,2026-10-17T12:00Z,Espanyol,Atletico Madrid,0,1,0.4855,1.7782,true
+30859,2026-10-17T14:15Z,Villarreal,Elche,0,0,2.2959,0.2201,true
+30850,2026-10-17T16:30Z,Real Betis,Barcelona,2,5,1.3535,3.1891,true
+30858,2026-10-17T19:00Z,Valencia,Athletic Club,0,0,2.2439,0.5158,true
+30856,2026-10-18T12:00Z,Osasuna,Racing Santander,2,0,3.0822,0.2204,true
+30851,2026-10-18T14:15Z,Celta Vigo,Alaves,2,1,0.7576,1.1806,true
+30855,2026-10-18T16:30Z,Malaga,Real Sociedad,2,5,1.9232,2.5719,true
+30857,2026-10-18T19:00Z,Real Madrid,Sevilla,4,1,2.1250,1.3217,true
+30854,2026-10-19T19:00Z,Getafe,Rayo Vallecano,1,1,0.8971,2.2931,true
+30827,2026-10-21T18:00Z,Levante,Athletic Club,3,1,1.8431,1.7140,true
+30860,2026-10-23T19:00Z,Alaves,Malaga,1,1,1.8043,0.8057,true
+30866,2026-10-24T12:00Z,Rayo Vallecano,Elche,0,3,1.2331,2.4016,true
+30865,2026-10-24T14:15Z,Racing Santander,Espanyol,2,1,2.8262,0.5806,true
+30869,2026-10-24T16:30Z,Valencia,Villarreal,1,2,1.1723,1.5060,true
+30862,2026-10-24T19:00Z,Atletico Madrid,Deportivo La Coruna,1,0,2.2185,2.2352,true
+30861,2026-10-25T13:00Z,Athletic Club,Getafe,4,0,0.7000,0.3494,true
+30863,2026-10-25T15:15Z,Celta Vigo,Real Betis,,,,,false
+30867,2026-10-25T17:30Z,Real Sociedad,Levante,,,,,false
+30864,2026-10-25T20:00Z,Barcelona,Real Madrid,,,,,false
+30868,2026-10-26T20:00Z,Sevilla,Osasuna,,,,,false
+30879,2026-10-30T20:00Z,Villarreal,Espanyol,,,,,false
+30876,2026-10-31T13:00Z,Levante,Atletico Madrid,,,,,false
+30878,2026-10-31T15:15Z,Rayo Vallecano,Celta Vigo,,,,,false
+30871,2026-10-31T17:30Z,Real Betis,Malaga,,,,,false
+30874,2026-10-31T20:00Z,Barcelona,Alaves,,,,,false
+30870,2026-11-01T16:00Z,Athletic Club,Real Sociedad,,,,,false
+30872,2026-11-01T16:00Z,Deportivo La Coruna,Osasuna,,,,,false
+30873,2026-11-01T16:00Z,Elche,Valencia,,,,,false
+30875,2026-11-01T16:00Z,Getafe,Sevilla,,,,,false
+30877,2026-11-01T16:00Z,Racing Santander,Real Madrid,,,,,false
+30885,2026-11-08T16:00Z,Real Sociedad,Rayo Vallecano,,,,,false
+30888,2026-11-08T16:00Z,Villarreal,Getafe,,,,,false
+30887,2026-11-08T16:00Z,Valencia,Real Madrid,,,,,false
+30886,2026-11-08T16:00Z,Sevilla,Alaves,,,,,false
+30884,2026-11-08T16:00Z,Osasuna,Athletic Club,,,,,false
+30883,2026-11-08T16:00Z,Malaga,Racing Santander,,,,,false
+30882,2026-11-08T16:00Z,Espanyol,Deportivo La Coruna,,,,,false
+30881,2026-11-08T16:00Z,Elche,Real Betis,,,,,false
+30889,2026-11-08T16:00Z,Celta Vigo,Levante,,,,,false
+30880,2026-11-08T16:00Z,Atletico Madrid,Barcelona,,,,,false
+30896,2026-11-22T16:00Z,Sevilla,Real Betis,,,,,false
+30897,2026-11-22T16:00Z,Real Madrid,Celta Vigo,,,,,false
+30899,2026-11-22T16:00Z,Rayo Vallecano,Valencia,,,,,false
+30898,2026-11-22T16:00Z,Racing Santander,Real Sociedad,,,,,false
+30895,2026-11-22T16:00Z,Osasuna,Malaga,,,,,false
+30894,2026-11-22T16:00Z,Levante,Elche,,,,,false
+30893,2026-11-22T16:00Z,Getafe,Atletico Madrid,,,,,false
+30892,2026-11-22T16:00Z,Barcelona,Villarreal,,,,,false
+30891,2026-11-22T16:00Z,Athletic Club,Espanyol,,,,,false
+30890,2026-11-22T16:00Z,Alaves,Deportivo La Coruna,,,,,false
+30905,2026-11-29T16:00Z,Real Sociedad,Sevilla,,,,,false
+30906,2026-11-29T16:00Z,Real Madrid,Alaves,,,,,false
+30900,2026-11-29T16:00Z,Real Betis,Rayo Vallecano,,,,,false
+30907,2026-11-29T16:00Z,Malaga,Athletic Club,,,,,false
+30909,2026-11-29T16:00Z,Valencia,Osasuna,,,,,false
+30901,2026-11-29T16:00Z,Espanyol,Getafe,,,,,false
+30902,2026-11-29T16:00Z,Elche,Atletico Madrid,,,,,false
+30903,2026-11-29T16:00Z,Deportivo La Coruna,Barcelona,,,,,false
+30904,2026-11-29T16:00Z,Celta Vigo,Villarreal,,,,,false
+30908,2026-11-29T16:00Z,Levante,Racing Santander,,,,,false
+30919,2026-12-06T16:00Z,Villarreal,Real Sociedad,,,,,false
+30918,2026-12-06T16:00Z,Sevilla,Malaga,,,,,false
+30917,2026-12-06T16:00Z,Rayo Vallecano,Levante,,,,,false
+30916,2026-12-06T16:00Z,Racing Santander,Deportivo La Coruna,,,,,false
+30915,2026-12-06T16:00Z,Osasuna,Elche,,,,,false
+30914,2026-12-06T16:00Z,Getafe,Valencia,,,,,false
+30913,2026-12-06T16:00Z,Barcelona,Celta Vigo,,,,,false
+30912,2026-12-06T16:00Z,Atletico Madrid,Real Betis,,,,,false
+30911,2026-12-06T16:00Z,Athletic Club,Real Madrid,,,,,false
+30910,2026-12-06T16:00Z,Alaves,Espanyol,,,,,false
+30928,2026-12-13T16:00Z,Real Sociedad,Getafe,,,,,false
+30927,2026-12-13T16:00Z,Real Madrid,Osasuna,,,,,false
+30921,2026-12-13T16:00Z,Real Betis,Racing Santander,,,,,false
+30926,2026-12-13T16:00Z,Malaga,Barcelona,,,,,false
+30929,2026-12-13T16:00Z,Villarreal,Rayo Vallecano,,,,,false
+30924,2026-12-13T16:00Z,Espanyol,Celta Vigo,,,,,false
+30923,2026-12-13T16:00Z,Elche,Sevilla,,,,,false
+30922,2026-12-13T16:00Z,Deportivo La Coruna,Athletic Club,,,,,false
+30920,2026-12-13T16:00Z,Atletico Madrid,Valencia,,,,,false
+30925,2026-12-13T16:00Z,Levante,Alaves,,,,,false
+30938,2026-12-20T16:00Z,Sevilla,Racing Santander,,,,,false
+30937,2026-12-20T16:00Z,Rayo Vallecano,Malaga,,,,,false
+30936,2026-12-20T16:00Z,Osasuna,Villarreal,,,,,false
+30935,2026-12-20T16:00Z,Getafe,Levante,,,,,false
+30939,2026-12-20T16:00Z,Valencia,Espanyol,,,,,false
+30932,2026-12-20T16:00Z,Celta Vigo,Atletico Madrid,,,,,false
+30934,2026-12-20T16:00Z,Barcelona,Real Sociedad,,,,,false
+30931,2026-12-20T16:00Z,Athletic Club,Real Betis,,,,,false
+30930,2026-12-20T16:00Z,Alaves,Elche,,,,,false
+30933,2026-12-20T16:00Z,Deportivo La Coruna,Real Madrid,,,,,false
+30949,2027-01-03T16:00Z,Villarreal,Sevilla,,,,,false
+30948,2027-01-03T16:00Z,Real Sociedad,Osasuna,,,,,false
+30947,2027-01-03T16:00Z,Real Madrid,Getafe,,,,,false
+30940,2027-01-03T16:00Z,Real Betis,Alaves,,,,,false
+30946,2027-01-03T16:00Z,Rayo Vallecano,Atletico Madrid,,,,,false
+30945,2027-01-03T16:00Z,Racing Santander,Athletic Club,,,,,false
+30943,2027-01-03T16:00Z,Levante,Valencia,,,,,false
+30942,2027-01-03T16:00Z,Espanyol,Barcelona,,,,,false
+30941,2027-01-03T16:00Z,Celta Vigo,Deportivo La Coruna,,,,,false
+30944,2027-01-03T16:00Z,Malaga,Elche,,,,,false
+30956,2027-01-10T16:00Z,Osasuna,Barcelona,,,,,false
+30958,2027-01-10T16:00Z,Sevilla,Celta Vigo,,,,,false
+30957,2027-01-10T16:00Z,Real Madrid,Levante,,,,,false
+30955,2027-01-10T16:00Z,Espanyol,Real Betis,,,,,false
+30959,2027-01-10T16:00Z,Valencia,Malaga,,,,,false
+30953,2027-01-10T16:00Z,Deportivo La Coruna,Rayo Vallecano,,,,,false
+30952,2027-01-10T16:00Z,Atletico Madrid,Racing Santander,,,,,false
+30951,2027-01-10T16:00Z,Athletic Club,Villarreal,,,,,false
+30950,2027-01-10T16:00Z,Alaves,Real Sociedad,,,,,false
+30954,2027-01-10T16:00Z,Elche,Getafe,,,,,false
+30969,2027-01-17T16:00Z,Villarreal,Alaves,,,,,false
+30961,2027-01-17T16:00Z,Real Betis,Deportivo La Coruna,,,,,false
+30968,2027-01-17T16:00Z,Rayo Vallecano,Sevilla,,,,,false
+30967,2027-01-17T16:00Z,Racing Santander,Osasuna,,,,,false
+30966,2027-01-17T16:00Z,Malaga,Real Madrid,,,,,false
+30965,2027-01-17T16:00Z,Levante,Espanyol,,,,,false
+30964,2027-01-17T16:00Z,Getafe,Athletic Club,,,,,false
+30962,2027-01-17T16:00Z,Celta Vigo,Valencia,,,,,false
+30963,2027-01-17T16:00Z,Barcelona,Elche,,,,,false
+30960,2027-01-17T16:00Z,Atletico Madrid,Real Sociedad,,,,,false
+30979,2027-01-24T16:00Z,Real Sociedad,Malaga,,,,,false
+30974,2027-01-24T16:00Z,Real Madrid,Real Betis,,,,,false
+30975,2027-01-24T16:00Z,Racing Santander,Celta Vigo,,,,,false
+30976,2027-01-24T16:00Z,Getafe,Osasuna,,,,,false
+30978,2027-01-24T16:00Z,Valencia,Sevilla,,,,,false
+30973,2027-01-24T16:00Z,Elche,Rayo Vallecano,,,,,false
+30972,2027-01-24T16:00Z,Deportivo La Coruna,Atletico Madrid,,,,,false
+30971,2027-01-24T16:00Z,Athletic Club,Levante,,,,,false
+30970,2027-01-24T16:00Z,Alaves,Barcelona,,,,,false
+30977,2027-01-24T16:00Z,Espanyol,Villarreal,,,,,false
+30987,2027-01-31T16:00Z,Sevilla,Athletic Club,,,,,false
+30980,2027-01-31T16:00Z,Real Betis,Elche,,,,,false
+30988,2027-01-31T16:00Z,Rayo Vallecano,Real Madrid,,,,,false
+30989,2027-01-31T16:00Z,Osasuna,Deportivo La Coruna,,,,,false
+30986,2027-01-31T16:00Z,Villarreal,Racing Santander,,,,,false
+30983,2027-01-31T16:00Z,Levante,Real Sociedad,,,,,false
+30985,2027-01-31T16:00Z,Celta Vigo,Getafe,,,,,false
+30984,2027-01-31T16:00Z,Barcelona,Valencia,,,,,false
+30981,2027-01-31T16:00Z,Atletico Madrid,Espanyol,,,,,false
+30982,2027-01-31T16:00Z,Malaga,Alaves,,,,,false
+30999,2027-02-07T16:00Z,Valencia,Racing Santander,,,,,false
+30998,2027-02-07T16:00Z,Real Sociedad,Real Madrid,,,,,false
+30992,2027-02-07T16:00Z,Real Betis,Sevilla,,,,,false
+30997,2027-02-07T16:00Z,Getafe,Villarreal,,,,,false
+30995,2027-02-07T16:00Z,Espanyol,Rayo Vallecano,,,,,false
+30994,2027-02-07T16:00Z,Elche,Levante,,,,,false
+30996,2027-02-07T16:00Z,Barcelona,Atletico Madrid,,,,,false
+30991,2027-02-07T16:00Z,Athletic Club,Osasuna,,,,,false
+30990,2027-02-07T16:00Z,Alaves,Celta Vigo,,,,,false
+30993,2027-02-07T16:00Z,Deportivo La Coruna,Malaga,,,,,false
+31006,2027-02-14T16:00Z,Real Sociedad,Real Betis,,,,,false
+31009,2027-02-14T16:00Z,Villarreal,Barcelona,,,,,false
+31008,2027-02-14T16:00Z,Valencia,Alaves,,,,,false
+31007,2027-02-14T16:00Z,Sevilla,Espanyol,,,,,false
+31005,2027-02-14T16:00Z,Real Madrid,Athletic Club,,,,,false
+31004,2027-02-14T16:00Z,Racing Santander,Getafe,,,,,false
+31003,2027-02-14T16:00Z,Osasuna,Atletico Madrid,,,,,false
+31002,2027-02-14T16:00Z,Levante,Malaga,,,,,false
+31001,2027-02-14T16:00Z,Elche,Deportivo La Coruna,,,,,false
+31000,2027-02-14T16:00Z,Celta Vigo,Rayo Vallecano,,,,,false
+31019,2027-02-21T16:00Z,Villarreal,Valencia,,,,,false
+31018,2027-02-21T16:00Z,Sevilla,Real Madrid,,,,,false
+31017,2027-02-21T16:00Z,Rayo Vallecano,Getafe,,,,,false
+31016,2027-02-21T16:00Z,Malaga,Real Betis,,,,,false
+31014,2027-02-21T16:00Z,Espanyol,Osasuna,,,,,false
+31015,2027-02-21T16:00Z,Barcelona,Levante,,,,,false
+31012,2027-02-21T16:00Z,Atletico Madrid,Elche,,,,,false
+31011,2027-02-21T16:00Z,Athletic Club,Celta Vigo,,,,,false
+31010,2027-02-21T16:00Z,Alaves,Racing Santander,,,,,false
+31013,2027-02-21T16:00Z,Deportivo La Coruna,Real Sociedad,,,,,false
+31027,2027-02-28T16:00Z,Racing Santander,Rayo Vallecano,,,,,false
+31029,2027-02-28T16:00Z,Real Sociedad,Elche,,,,,false
+31028,2027-02-28T16:00Z,Real Madrid,Valencia,,,,,false
+31021,2027-02-28T16:00Z,Real Betis,Villarreal,,,,,false
+31026,2027-02-28T16:00Z,Osasuna,Sevilla,,,,,false
+31020,2027-02-28T16:00Z,Athletic Club,Barcelona,,,,,false
+31024,2027-02-28T16:00Z,Levante,Deportivo La Coruna,,,,,false
+31023,2027-02-28T16:00Z,Getafe,Alaves,,,,,false
+31022,2027-02-28T16:00Z,Celta Vigo,Espanyol,,,,,false
+31025,2027-02-28T16:00Z,Malaga,Atletico Madrid,,,,,false
+31036,2027-03-07T16:00Z,Rayo Vallecano,Osasuna,,,,,false
+31039,2027-03-07T16:00Z,Villarreal,Real Madrid,,,,,false
+31038,2027-03-07T16:00Z,Valencia,Levante,,,,,false
+31037,2027-03-07T16:00Z,Sevilla,Real Sociedad,,,,,false
+31034,2027-03-07T16:00Z,Espanyol,Racing Santander,,,,,false
+31030,2027-03-07T16:00Z,Alaves,Athletic Club,,,,,false
+31032,2027-03-07T16:00Z,Deportivo La Coruna,Getafe,,,,,false
+31035,2027-03-07T16:00Z,Barcelona,Real Betis,,,,,false
+31031,2027-03-07T16:00Z,Atletico Madrid,Celta Vigo,,,,,false
+31033,2027-03-07T16:00Z,Elche,Malaga,,,,,false
+31049,2027-03-14T16:00Z,Real Madrid,Espanyol,,,,,false
+31042,2027-03-14T16:00Z,Real Betis,Levante,,,,,false
+31048,2027-03-14T16:00Z,Racing Santander,Atletico Madrid,,,,,false
+31047,2027-03-14T16:00Z,Osasuna,Celta Vigo,,,,,false
+31046,2027-03-14T16:00Z,Malaga,Rayo Vallecano,,,,,false
+31043,2027-03-14T16:00Z,Elche,Villarreal,,,,,false
+31044,2027-03-14T16:00Z,Barcelona,Deportivo La Coruna,,,,,false
+31041,2027-03-14T16:00Z,Athletic Club,Valencia,,,,,false
+31040,2027-03-14T16:00Z,Alaves,Sevilla,,,,,false
+31045,2027-03-14T16:00Z,Getafe,Real Sociedad,,,,,false
+31056,2027-03-21T16:00Z,Real Sociedad,Alaves,,,,,false
+31058,2027-03-21T16:00Z,Valencia,Deportivo La Coruna,,,,,false
+31057,2027-03-21T16:00Z,Sevilla,Elche,,,,,false
+31059,2027-03-21T16:00Z,Villarreal,Malaga,,,,,false
+31055,2027-03-21T16:00Z,Rayo Vallecano,Barcelona,,,,,false
+31052,2027-03-21T16:00Z,Espanyol,Athletic Club,,,,,false
+31053,2027-03-21T16:00Z,Levante,Osasuna,,,,,false
+31051,2027-03-21T16:00Z,Celta Vigo,Real Madrid,,,,,false
+31050,2027-03-21T16:00Z,Atletico Madrid,Getafe,,,,,false
+31054,2027-03-21T16:00Z,Racing Santander,Real Betis,,,,,false
+31069,2027-04-04T15:00Z,Real Sociedad,Valencia,,,,,false
+31068,2027-04-04T15:00Z,Real Madrid,Atletico Madrid,,,,,false
+31061,2027-04-04T15:00Z,Real Betis,Celta Vigo,,,,,false
+31067,2027-04-04T15:00Z,Malaga,Osasuna,,,,,false
+31066,2027-04-04T15:00Z,Levante,Rayo Vallecano,,,,,false
+31063,2027-04-04T15:00Z,Elche,Alaves,,,,,false
+31062,2027-04-04T15:00Z,Deportivo La Coruna,Villarreal,,,,,false
+31064,2027-04-04T15:00Z,Barcelona,Sevilla,,,,,false
+31060,2027-04-04T15:00Z,Athletic Club,Racing Santander,,,,,false
+31065,2027-04-04T15:00Z,Getafe,Espanyol,,,,,false
+31076,2027-04-11T15:00Z,Rayo Vallecano,Real Sociedad,,,,,false
+31079,2027-04-11T15:00Z,Villarreal,Athletic Club,,,,,false
+31078,2027-04-11T15:00Z,Valencia,Getafe,,,,,false
+31077,2027-04-11T15:00Z,Sevilla,Deportivo La Coruna,,,,,false
+31075,2027-04-11T15:00Z,Racing Santander,Barcelona,,,,,false
+31070,2027-04-11T15:00Z,Alaves,Real Betis,,,,,false
+31073,2027-04-11T15:00Z,Espanyol,Malaga,,,,,false
+31072,2027-04-11T15:00Z,Celta Vigo,Elche,,,,,false
+31071,2027-04-11T15:00Z,Atletico Madrid,Levante,,,,,false
+31074,2027-04-11T15:00Z,Osasuna,Real Madrid,,,,,false
+31087,2027-04-18T15:00Z,Levante,Villarreal,,,,,false
+31089,2027-04-18T15:00Z,Real Sociedad,Racing Santander,,,,,false
+31082,2027-04-18T15:00Z,Real Betis,Athletic Club,,,,,false
+31088,2027-04-18T15:00Z,Malaga,Valencia,,,,,false
+31086,2027-04-18T15:00Z,Getafe,Real Madrid,,,,,false
+31080,2027-04-18T15:00Z,Alaves,Rayo Vallecano,,,,,false
+31083,2027-04-18T15:00Z,Deportivo La Coruna,Celta Vigo,,,,,false
+31085,2027-04-18T15:00Z,Barcelona,Espanyol,,,,,false
+31081,2027-04-18T15:00Z,Atletico Madrid,Sevilla,,,,,false
+31084,2027-04-18T15:00Z,Elche,Osasuna,,,,,false
+31099,2027-04-21T15:00Z,Villarreal,Atletico Madrid,,,,,false
+31098,2027-04-21T15:00Z,Valencia,Rayo Vallecano,,,,,false
+31097,2027-04-21T15:00Z,Sevilla,Levante,,,,,false
+31096,2027-04-21T15:00Z,Real Madrid,Elche,,,,,false
+31095,2027-04-21T15:00Z,Racing Santander,Malaga,,,,,false
+31093,2027-04-21T15:00Z,Getafe,Real Betis,,,,,false
+31092,2027-04-21T15:00Z,Espanyol,Real Sociedad,,,,,false
+31091,2027-04-21T15:00Z,Celta Vigo,Barcelona,,,,,false
+31090,2027-04-21T15:00Z,Athletic Club,Deportivo La Coruna,,,,,false
+31094,2027-04-21T15:00Z,Osasuna,Alaves,,,,,false
+31107,2027-05-02T15:00Z,Malaga,Getafe,,,,,false
+31101,2027-05-02T15:00Z,Real Betis,Valencia,,,,,false
+31108,2027-05-02T15:00Z,Rayo Vallecano,Villarreal,,,,,false
+31109,2027-05-02T15:00Z,Real Sociedad,Athletic Club,,,,,false
+31106,2027-05-02T15:00Z,Levante,Real Madrid,,,,,false
+31102,2027-05-02T15:00Z,Celta Vigo,Sevilla,,,,,false
+31103,2027-05-02T15:00Z,Deportivo La Coruna,Racing Santander,,,,,false
+31105,2027-05-02T15:00Z,Barcelona,Osasuna,,,,,false
+31100,2027-05-02T15:00Z,Atletico Madrid,Alaves,,,,,false
+31104,2027-05-02T15:00Z,Elche,Espanyol,,,,,false
+31119,2027-05-09T15:00Z,Villarreal,Celta Vigo,,,,,false
+31118,2027-05-09T15:00Z,Valencia,Atletico Madrid,,,,,false
+31117,2027-05-09T15:00Z,Real Madrid,Barcelona,,,,,false
+31112,2027-05-09T15:00Z,Real Betis,Espanyol,,,,,false
+31116,2027-05-09T15:00Z,Rayo Vallecano,Deportivo La Coruna,,,,,false
+31115,2027-05-09T15:00Z,Racing Santander,Sevilla,,,,,false
+31114,2027-05-09T15:00Z,Osasuna,Real Sociedad,,,,,false
+31113,2027-05-09T15:00Z,Getafe,Elche,,,,,false
+31111,2027-05-09T15:00Z,Athletic Club,Malaga,,,,,false
+31110,2027-05-09T15:00Z,Alaves,Levante,,,,,false
+31128,2027-05-16T15:00Z,Real Sociedad,Barcelona,,,,,false
+31129,2027-05-16T15:00Z,Sevilla,Villarreal,,,,,false
+31126,2027-05-16T15:00Z,Osasuna,Real Betis,,,,,false
+31125,2027-05-16T15:00Z,Malaga,Celta Vigo,,,,,false
+31127,2027-05-16T15:00Z,Real Madrid,Racing Santander,,,,,false
+31123,2027-05-16T15:00Z,Espanyol,Valencia,,,,,false
+31122,2027-05-16T15:00Z,Elche,Athletic Club,,,,,false
+31121,2027-05-16T15:00Z,Deportivo La Coruna,Alaves,,,,,false
+31120,2027-05-16T15:00Z,Atletico Madrid,Rayo Vallecano,,,,,false
+31124,2027-05-16T15:00Z,Levante,Getafe,,,,,false
+31139,2027-05-23T15:00Z,Villarreal,Osasuna,,,,,false
+31138,2027-05-23T15:00Z,Valencia,Elche,,,,,false
+31136,2027-05-23T15:00Z,Rayo Vallecano,Real Betis,,,,,false
+31135,2027-05-23T15:00Z,Racing Santander,Levante,,,,,false
+31137,2027-05-23T15:00Z,Sevilla,Getafe,,,,,false
+31132,2027-05-23T15:00Z,Celta Vigo,Real Sociedad,,,,,false
+31134,2027-05-23T15:00Z,Barcelona,Malaga,,,,,false
+31131,2027-05-23T15:00Z,Atletico Madrid,Athletic Club,,,,,false
+31130,2027-05-23T15:00Z,Alaves,Real Madrid,,,,,false
+31133,2027-05-23T15:00Z,Deportivo La Coruna,Espanyol,,,,,false
+31148,2027-05-30T15:00Z,Real Madrid,Deportivo La Coruna,,,,,false
+31140,2027-05-30T15:00Z,Athletic Club,Rayo Vallecano,,,,,false
+31142,2027-05-30T15:00Z,Elche,Racing Santander,,,,,false
+31143,2027-05-30T15:00Z,Espanyol,Alaves,,,,,false
+31144,2027-05-30T15:00Z,Getafe,Barcelona,,,,,false
+31145,2027-05-30T15:00Z,Levante,Celta Vigo,,,,,false
+31146,2027-05-30T15:00Z,Malaga,Sevilla,,,,,false
+31147,2027-05-30T15:00Z,Osasuna,Valencia,,,,,false
+31141,2027-05-30T15:00Z,Real Betis,Atletico Madrid,,,,,false
+31149,2027-05-30T15:00Z,Real Sociedad,Villarreal,,,,,false

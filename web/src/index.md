@@ -4,11 +4,13 @@ toc: false
 ---
 
 ```js
-import {num, pct, ent, fecha, fechaHora, tickNum} from "./components/formato.js";
-import {barra1x2} from "./components/ui.js";
+import {num, pct, ent, fecha, fechaHora, hora as horaDe, diaLargo, letra, condicionTxt, tickNum, ordinal} from "./components/formato.js";
+import {barraPartido, pildoras} from "./components/ui.js";
+import {escudo, escudoUrl, nombre, corto, conEscudo} from "./equipos/equipos.js";
 
 const estado = FileAttachment("data/estado.json").json();
 const partidos = FileAttachment("data/rm_partidos.csv").csv({typed: true});
+const liga = FileAttachment("data/liga_temporada.csv").csv({typed: true});
 const temporadas = FileAttachment("data/temporadas.json").json();
 const prediccion = FileAttachment("data/prediccion.json").json();
 const simulacion = FileAttachment("data/simulacion.json").json();
@@ -23,60 +25,92 @@ const D = jugados.filter((d) => d.resultado === "D").length;
 const sum = (k) => d3.sum(jugados, (d) => d[k]);
 const proximo = prediccion.partidos[0];
 const rmSim = simulacion?.tabla.find((d) => d.equipo === "Real Madrid");
-```
 
-<div class="cabecera">
-  <span class="escudo-dot"></span>
-  <h1>Temporada ${temp}</h1>
-  <span class="sub">LaLiga · actualizado ${fechaHora(estado.actualizado)}</span>
-</div>
+// clasificación actual y forma de cualquier equipo, desde los partidos de la Liga
+const ligaJugada = liga.filter((d) => d.jugado);
+function resultadosDe(equipo) {
+  return ligaJugada
+    .filter((d) => d.local === equipo || d.visitante === equipo)
+    .sort((a, b) => a.fecha - b.fecha)
+    .map((d) => {
+      const casa = d.local === equipo;
+      const gf = casa ? d.goles_local : d.goles_visitante, gc = casa ? d.goles_visitante : d.goles_local;
+      return {resultado: gf > gc ? "V" : gf === gc ? "E" : "D", puntos: gf > gc ? 3 : gf === gc ? 1 : 0, dg: gf - gc, gf,
+        titulo: `${nombre(casa ? equipo : d.local)} ${d.goles_local}–${d.goles_visitante} ${nombre(casa ? d.visitante : equipo)}`};
+    });
+}
+const clasificacion = d3.sort(
+  [...new Set(ligaJugada.flatMap((d) => [d.local, d.visitante]))].map((e) => {
+    const r = resultadosDe(e);
+    return {equipo: e, puntos: d3.sum(r, (x) => x.puntos), dg: d3.sum(r, (x) => x.dg), gf: d3.sum(r, (x) => x.gf)};
+  }),
+  (a, b) => b.puntos - a.puntos || b.dg - a.dg || b.gf - a.gf
+).map((d, i) => ({...d, puesto: i + 1}));
+const puestoDe = (e) => clasificacion.find((d) => d.equipo === e);
+
+// cuándo: "Hoy, a las 21:00", "Mañana, a las 18:30" o la fecha
+function cuando(f) {
+  const d = new Date(f), hoy = new Date();
+  const dias = Math.round((new Date(d.toDateString()) - new Date(hoy.toDateString())) / 864e5);
+  const hora = horaDe(d);
+  if (dias === 0) return `Hoy, a las ${hora}`;
+  if (dias === 1) return `Mañana, a las ${hora}`;
+  return `${diaLargo(d)}, ${hora}`;
+}
+```
 
 ${estado.muestra ? html`<div class="aviso"><b>Datos de muestra.</b> Todo lo que ves está generado sintéticamente para desarrollar la web. Ejecuta <code>rma todo</code> para descargar los datos reales de Understat.</div>` : ""}
 
+# Temporada ${temp}
+
+<div class="nota" style="margin:0.2rem 0 1.2rem">LaLiga · actualizado ${fechaHora(estado.actualizado)}</div>
+
+```js
+function fichaProximo(p) {
+  const rival = p.rival;
+  const mia = resultadosDe("Real Madrid").slice(-5);
+  const suya = resultadosDe(rival).slice(-5);
+  const caraACara = partidos.filter((d) => d.jugado && d.rival === rival).slice(-5)
+    .map((d) => ({...d, titulo: `${d.temporada}: ${d.condicion === "Local" ? `Real Madrid ${d.gf}–${d.gc} ${nombre(rival)}` : `${nombre(rival)} ${d.gc}–${d.gf} Real Madrid`}`}));
+  const pr = puestoDe(rival), pm = puestoDe("Real Madrid");
+  const lado = (e) => html`<div class="lado"><div class="escudo-grande">${escudo(e, 48)}</div><div class="nombre">${nombre(e)}</div></div>`;
+  return html`<div class="card destacada grid-colspan-2 grid-rowspan-2">
+    <div class="etiqueta">Próximo partido · LaLiga</div>
+    <div class="cuando">${cuando(p.fecha)}</div>
+    <div class="duelo">${lado(p.local)}<div class="centro">VS</div>${lado(p.visitante)}</div>
+    ${barraPartido(p, nombre)}
+    <div class="nota">Probabilidades del modelo Dixon-Coles · goles esperados: Madrid ${num(p.goles_esperados_rm)}, ${nombre(rival)} ${num(p.goles_esperados_rival)}. <a href="./prediccion">Más detalles</a></div>
+    <div style="margin-top:1rem">
+      <div class="fila-forma"><span class="etiqueta">Racha del Madrid</span>${pildoras(mia)}</div>
+      <div class="fila-forma"><span class="etiqueta">Forma de ${corto(rival)}</span>${pildoras(suya)}</div>
+      ${caraACara.length ? html`<div class="fila-forma"><span class="etiqueta">Últimos cara a cara</span>${pildoras(caraACara)}<span class="nota" style="margin:0">en Liga, desde ${caraACara[0].temporada}</span></div>` : ""}
+    </div>
+    ${pr && pm ? html`<div class="nota">${nombre(rival)} va ${ordinal(pr.puesto)} con ${pr.puntos} puntos; el Madrid, ${ordinal(pm.puesto)} con ${pm.puntos}.</div>` : ""}
+  </div>`;
+}
+```
+
 <div class="grid grid-cols-4">
-  <div class="card">
+  ${proximo ? fichaProximo(proximo) : html`<div class="card grid-colspan-2 grid-rowspan-2"><p>No quedan partidos de Liga esta temporada.</p></div>`}
+  <div class="card kpi">
     <div class="etiqueta">Puntos</div>
     <div class="cifra">${sum("puntos")}<small>en ${jugados.length} partidos</small></div>
-    <div>${jugados.slice(-5).map((d) => html`<span class="res res-${d.resultado}" title="${d.rival}: ${d.gf}–${d.gc}">${d.resultado}</span>`)}</div>
-    <div class="nota">${V} V · ${E} E · ${D} D · últimos cinco, de más antiguo a más reciente</div>
+    <div class="nota">${V} ${letra("V")} · ${E} ${letra("E")} · ${D} ${letra("D")}</div>
   </div>
-  <div class="card">
+  <div class="card kpi">
     <div class="etiqueta">Goles a favor – en contra</div>
     <div class="cifra">${sum("gf")}–${sum("gc")}</div>
     <div class="nota">Diferencia ${sum("gf") - sum("gc") > 0 ? "+" : ""}${sum("gf") - sum("gc")}</div>
   </div>
-  <div class="card">
-    <div class="etiqueta">xG por partido, a favor – en contra</div>
-    <div class="cifra">${num(sum("xgf") / jugados.length)}–${num(sum("xgc") / jugados.length)}</div>
-    <div class="nota">Goles marcados ${sum("gf") >= sum("xgf") ? "por encima" : "por debajo"} del xG (${num(sum("gf") - sum("xgf"), 1)})</div>
+  <div class="card kpi">
+    <div class="etiqueta">xG por partido</div>
+    <div class="cifra">${num(sum("xgf") / jugados.length)}<small>a favor</small></div>
+    <div class="nota">${num(sum("xgc") / jugados.length)} en contra · goles ${sum("gf") >= sum("xgf") ? "por encima" : "por debajo"} del xG (${sum("gf") - sum("xgf") > 0 ? "+" : ""}${num(sum("gf") - sum("xgf"), 1)})</div>
   </div>
-  <div class="card">
+  <div class="card kpi">
     <div class="etiqueta">Probabilidad de ganar la Liga</div>
     <div class="cifra">${rmSim ? pct(rmSim.p_campeon) : "–"}</div>
-    <div class="nota">${rmSim ? html`Puntos finales: ${ent(rmSim.puntos_media)} (90 %: ${ent(rmSim.puntos_p05)}–${ent(rmSim.puntos_p95)}). ${ent(simulacion.n)} simulaciones.` : "Temporada terminada"}</div>
-  </div>
-</div>
-
-
-<div class="grid grid-cols-2">
-  <div class="card">
-    <h2>Próximo partido</h2>
-    ${proximo ? html`
-    <h3>${proximo.local} – ${proximo.visitante} · ${fechaHora(proximo.fecha)}</h3>
-    ${barra1x2({victoria: proximo.p_victoria, empate: proximo.p_empate, derrota: proximo.p_derrota}, proximo.rival)}
-    <div class="nota">Goles esperados: Madrid ${num(proximo.goles_esperados_rm)}, ${proximo.rival} ${num(proximo.goles_esperados_rival)}. Modelo Dixon-Coles con objetivo mixto xG/goles; detalles en <a href="./prediccion">Predicción</a>.</div>` : html`<p>No quedan partidos de Liga.</p>`}
-  </div>
-  <div class="card">
-    <h2>Esta temporada frente a las anteriores</h2>
-    ${(() => {
-      const c = temporadas.comparativa;
-      if (!c) return html`<p class="nota">Hacen falta al menos tres partidos.</p>`;
-      const d = c.dif_xg;
-      return html`<p>Diferencia de xG por partido respecto a la media de ${c.referencia}:
-        <b>${d.diferencia > 0 ? "+" : ""}${num(d.diferencia)}</b>, intervalo bootstrap del 90 %: [${num(d.inf)}, ${num(d.sup)}].</p>
-        <p class="nota">${d.inf > 0 ? "El equipo genera claramente más de lo que concede que en años anteriores." : d.sup < 0 ? "El equipo está claramente por debajo de sus temporadas anteriores." : "Con los partidos jugados no se puede distinguir de las temporadas anteriores: el intervalo cruza el cero."}
-        Probabilidad bootstrap de que la diferencia sea positiva: ${pct(d.p_mayor_que_cero)}.</p>`;
-    })()}
+    <div class="nota">${rmSim ? html`Puntos finales: ${ent(rmSim.puntos_media)} (90 %: ${ent(rmSim.puntos_p05)}–${ent(rmSim.puntos_p95)})` : "Temporada terminada"}</div>
   </div>
 </div>
 
@@ -89,42 +123,43 @@ function graficoXg(width) {
     {jornada: d.jornada, serie: "Rival", xg: d.xgc, rival: d.rival, res: `${d.gf}–${d.gc}`, resultado: d.resultado}
   ]);
   return Plot.plot({
-    width, height: 300, marginBottom: 46,
-    x: {label: "Jornada", ticks: jugados.map((d) => d.jornada), tickFormat: tickNum},
+    width, height: 330, marginBottom: 70,
+    x: {label: null, ticks: jugados.map((d) => d.jornada), tickFormat: () => ""},
     y: {label: "xG", grid: true, tickFormat: tickNum, nice: true},
     color: {domain: ["Real Madrid", "Rival"], range: ["var(--rm)", "var(--rival)"]},
     marks: [
       Plot.ruleY([0], {stroke: "var(--theme-foreground-faint)"}),
       Plot.line(filas, {x: "jornada", y: "xg", stroke: "serie", strokeWidth: 2}),
-      Plot.dot(filas, {x: "jornada", y: "xg", fill: "serie", r: 4.5, stroke: "var(--theme-background)", strokeWidth: 2}),
-      // resultado bajo el eje: letra + color de estado
-      Plot.text(jugados, {x: "jornada", y: 0, dy: 32, text: "resultado", fontWeight: 700,
+      Plot.dot(filas, {x: "jornada", y: "xg", fill: "serie", r: 4.5, stroke: "var(--theme-background-alt)", strokeWidth: 2}),
+      // bajo el eje: escudo del rival y resultado (letra + color de estado)
+      Plot.image(jugados, {x: "jornada", y: 0, dy: 22, src: (d) => escudoUrl(d.rival), width: 20, height: 24, title: (d) => nombre(d.rival)}),
+      Plot.text(jugados, {x: "jornada", y: 0, dy: 50, text: (d) => letra(d.resultado), fontWeight: 700, fontSize: 12,
         fill: (d) => ({V: "var(--victoria)", E: "var(--empate)", D: "var(--derrota)"})[d.resultado]}),
-      Plot.tip(filas, Plot.pointerX({x: "jornada", y: "xg", title: (d) => `J${d.jornada} · ${d.rival} (${d.res})\n${d.serie}: ${num(d.xg)} xG`}))
+      Plot.tip(filas, Plot.pointerX({x: "jornada", y: "xg", title: (d) => `J${d.jornada} · ${nombre(d.rival)} (${d.res})\n${d.serie}: ${num(d.xg)} xG`}))
     ]
   });
 }
 ```
 
 <div class="card">
-  <div class="leyenda"><span class="rm">xG del Real Madrid</span><span class="rival">xG del rival</span><span class="sin">Bajo el eje: resultado (V/E/D)</span></div>
+  <div class="leyenda"><span class="rm">xG del Real Madrid</span><span class="rival">xG del rival</span><span class="sin">Bajo el eje: rival y resultado (${letra("V")}/${letra("E")}/${letra("D")})</span></div>
   ${resize((width) => graficoXg(width))}
 </div>
 
-## Temporada a temporada
+## Esta temporada frente a las anteriores
 
 ```js
 function graficoTemporadas(width) {
   const t = temporadas.temporadas;
   return Plot.plot({
-    width, height: 280, marginLeft: 60,
+    width, height: 40 + 30 * t.length, marginLeft: 60,
     x: {label: "Diferencia de xG por partido (a favor − en contra)", grid: true, tickFormat: tickNum},
     y: {label: null, domain: t.map((d) => d.temporada)},
     marks: [
       Plot.ruleX([0], {stroke: "var(--theme-foreground-faint)"}),
       Plot.ruleY(t, {y: "temporada", x1: "dif_xg_inf", x2: "dif_xg_sup", strokeWidth: 2,
-        stroke: (d) => (d.temporada === temp ? "var(--rm)" : "var(--theme-foreground-muted)")}),
-      Plot.dot(t, {y: "temporada", x: "dif_xg_pp", r: 6, stroke: "var(--theme-background)", strokeWidth: 2,
+        stroke: (d) => (d.temporada === temp ? "var(--rm)" : "var(--theme-foreground-faint)")}),
+      Plot.dot(t, {y: "temporada", x: "dif_xg_pp", r: 6, stroke: "var(--theme-background-alt)", strokeWidth: 2,
         fill: (d) => (d.temporada === temp ? "var(--rm)" : "var(--theme-foreground-muted)")}),
       Plot.tip(t, Plot.pointerY({y: "temporada", x: "dif_xg_pp",
         title: (d) => `${d.temporada} · ${d.pj} partidos\nDiferencia de xG: ${num(d.dif_xg_pp)} [${num(d.dif_xg_inf)}, ${num(d.dif_xg_sup)}]\nPuntos por partido: ${num(d.puntos_pp)}`}))
@@ -133,9 +168,23 @@ function graficoTemporadas(width) {
 }
 ```
 
-<div class="card">
-  ${resize((width) => graficoTemporadas(width))}
-  <div class="nota">Punto: media por partido. Línea: intervalo bootstrap del 90 %. Con pocos partidos el intervalo es ancho a propósito: el ruido es real.</div>
+<div class="grid grid-cols-3">
+  <div class="card grid-colspan-2">
+    ${resize((width) => graficoTemporadas(width))}
+    <div class="nota">Punto: media por partido. Línea: intervalo bootstrap del 90 %. Con pocos partidos el intervalo es ancho a propósito: el ruido es real.</div>
+  </div>
+  <div class="card">
+    ${(() => {
+      const c = temporadas.comparativa;
+      if (!c) return html`<p class="nota">Hacen falta al menos tres partidos.</p>`;
+      const d = c.dif_xg;
+      return html`<div class="etiqueta">Frente a ${c.referencia}</div>
+        <div class="cifra">${d.diferencia > 0 ? "+" : ""}${num(d.diferencia)}<small>xG/partido</small></div>
+        <p>Intervalo del 90 %: [${num(d.inf)}, ${num(d.sup)}].</p>
+        <p class="nota">${d.inf > 0 ? "El equipo domina claramente más que en temporadas anteriores." : d.sup < 0 ? "El equipo está claramente por debajo de sus temporadas anteriores." : "Con los partidos jugados no se puede distinguir de las temporadas anteriores: el intervalo cruza el cero."}
+        Probabilidad de que la diferencia sea positiva: ${pct(d.p_mayor_que_cero)}.</p>`;
+    })()}
+  </div>
 </div>
 
 ## Últimos partidos
@@ -144,9 +193,9 @@ function graficoTemporadas(width) {
 Inputs.table(jugados.slice().reverse(), {
   columns: ["jornada", "fecha", "condicion", "rival", "resultado", "gf", "gc", "xgf", "xgc"],
   header: {jornada: "J", fecha: "Fecha", condicion: "", rival: "Rival", resultado: "", gf: "GF", gc: "GC", xgf: "xG", xgc: "xG rival"},
-  format: {fecha: (d) => fecha(d), xgf: (d) => num(d), xgc: (d) => num(d),
-    resultado: (d) => html`<span class="res res-${d}">${d}</span>`},
-  width: {rival: 170, fecha: 80}, layout: "auto",
+  format: {fecha: (d) => fecha(d), condicion: condicionTxt, xgf: (d) => num(d), xgc: (d) => num(d), rival: (d) => conEscudo(d),
+    resultado: (d) => html`<span class="res res-${d}">${letra(d)}</span>`},
+  width: {rival: 200, fecha: 80}, layout: "auto",
   rows: 12, select: false
 })
 ```

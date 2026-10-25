@@ -16,7 +16,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from rma.config import Config, codigo_temporada
+from rma.config import RAIZ, Config, codigo_temporada
 
 log = logging.getLogger(__name__)
 
@@ -75,6 +75,8 @@ def descargar(cfg: Config, solo_actual: bool = False, forzar: bool = False) -> N
         for p in (cfg.raw / "understat").glob("*.parquet"):
             p.unlink()
         marcador.unlink()
+        # y el modelo xG entrenado con ellos: se reentrena con los datos reales
+        (RAIZ / "models" / "xg.joblib").unlink(missing_ok=True)
     temporadas = [cfg.temporada_actual] if solo_actual else cfg.todas_las_temporadas
     fallos: list[str] = []
     (cfg.raw / "fallos.txt").unlink(missing_ok=True)

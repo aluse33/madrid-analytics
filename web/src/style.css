@@ -1,88 +1,300 @@
+/* Tema propio, inspirado en la estética de real-madrid-analytics.vercel.app:
+   barra lateral morada muy oscura, acentos dorados y cifras en Barlow Condensed.
+   Claro/oscuro: el del sistema por defecto; el botón de la cabecera fija uno
+   (data-theme en <html>) y se recuerda en este navegador. */
 @import url("observablehq:default.css");
-@import url("observablehq:theme-air.css") (prefers-color-scheme: light);
-@import url("observablehq:theme-near-midnight.css") (prefers-color-scheme: dark);
+@import url("./equipos/marca.css");  /* generado: escudo del Madrid incrustado */
 
-/* ---------- Tokens. Paleta validada (CVD, todas las parejas) en claro y oscuro ---------- */
+/* ================= Tokens: modo claro ================= */
 :root {
-  --rm: #6250d6;          /* Real Madrid: violeta */
-  --rival: #eb6834;       /* rival: naranja */
-  --modelo: #1baf7a;      /* nuestro modelo: aguamarina */
-  --oro: #b8860b;         /* acento de marca, solo decorativo */
-  --victoria: #0ca30c;    /* estado: siempre con la letra V */
-  --derrota: #d03b3b;     /* estado: siempre con la letra D */
+  color-scheme: light;
+  /* superficie */
+  --fondo: #f4f3f8;
+  --panel: #ffffff;
+  --borde: #e2e0ea;
+  --texto: #17141f;
+  --texto-suave: #5d5a6b;
+  /* marca */
+  --morado-noche: #170f2b;
+  --morado: #2a1a4a;
+  --oro: #f2c230;
+  --oro-texto: #8a6a00;      /* dorado legible sobre fondo claro */
+  --lateral-texto: #f2f1f7;
+  --lateral-suave: #a9a3c2;
+  /* series (paleta validada para daltonismo, todas las parejas, en ambos modos) */
+  --rm: #6250d6;
+  --rival: #eb6834;
+  --modelo: #1baf7a;
+  /* estado: siempre acompañado de letra (V/E/D) */
+  --victoria: #0ca30c;
   --empate: #8a8f98;
-  --campo-linea: #c9ccd2;
-  --campo-fondo: #f3f5f2;
-  --tarjeta: #ffffff;
-  --borde: #e3e5e9;
-  --texto-suave: #5c6270;
-  --font-num: "Barlow Condensed", var(--sans-serif);
-  --sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --serif: var(--sans-serif);  /* el tema de Framework usa serifa en el cuerpo */
+  --derrota: #d03b3b;
+  /* campo */
+  --campo-fondo: #eef2ec;
+  --campo-linea: #c3cbc0;
+
+  /* variables que usa Observable Framework */
+  --theme-foreground: var(--texto);
+  --theme-background-a: var(--fondo);
+  --theme-background-b: var(--panel);
+  --theme-background: var(--fondo);
+  --theme-background-alt: var(--panel);
+  --theme-foreground-alt: color-mix(in srgb, var(--texto) 90%, var(--fondo));
+  --theme-foreground-muted: var(--texto-suave);
+  --theme-foreground-faint: color-mix(in srgb, var(--texto) 50%, var(--fondo));
+  --theme-foreground-fainter: color-mix(in srgb, var(--texto) 30%, var(--fondo));
+  --theme-foreground-faintest: var(--borde);
   --theme-foreground-focus: var(--rm);
+
+  --sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --serif: var(--sans-serif);
+  --font-num: "Barlow Condensed", var(--sans-serif);
 }
+
+/* ================= Tokens: modo oscuro ================= */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --fondo: #0f0b1a;
+    --panel: #1a1430;
+    --borde: #2d2545;
+    --texto: #ecebf3;
+    --texto-suave: #a9a3c2;
+    --oro-texto: var(--oro);
     --rm: #9085e9;
     --rival: #d95926;
     --modelo: #199e70;
-    --oro: #e2b53a;
-    --campo-linea: #3b4048;
-    --campo-fondo: #15181c;
-    --tarjeta: #1d2026;
-    --borde: #2e323a;
-    --texto-suave: #a3a9b5;
-    --theme-foreground-focus: var(--rm);
+    --campo-fondo: #141221;
+    --campo-linea: #3a3452;
   }
 }
-
-/* ---------- Cabecera de página ---------- */
-.cabecera {
-  display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;
-  margin: 1rem 0 1.5rem;
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --fondo: #0f0b1a;
+  --panel: #1a1430;
+  --borde: #2d2545;
+  --texto: #ecebf3;
+  --texto-suave: #a9a3c2;
+  --oro-texto: var(--oro);
+  --rm: #9085e9;
+  --rival: #d95926;
+  --modelo: #199e70;
+  --campo-fondo: #141221;
+  --campo-linea: #3a3452;
 }
-.cabecera h1 { margin: 0; font-family: var(--font-num); font-weight: 700; font-size: 2.4rem; letter-spacing: 0.01em; }
-.cabecera .sub { color: var(--texto-suave); font-size: 0.9rem; }
-.escudo-dot { width: 14px; height: 14px; border-radius: 50%; background: var(--oro); display: inline-block; }
 
-.aviso {
-  border: 1px solid var(--rival); border-left-width: 4px; border-radius: 8px;
-  padding: 0.6rem 0.9rem; margin: 0 0 1.25rem; font-size: 0.9rem;
+body { background: var(--fondo); }
+
+/* ================= Barra lateral ================= */
+#observablehq-sidebar {
+  background: var(--morado-noche);
+  color: var(--lateral-suave);
+  --theme-foreground-faintest: rgba(255, 255, 255, 0.12);
 }
+#observablehq-sidebar > ol:first-child { color: var(--lateral-texto); }
+#observablehq-sidebar > ol:first-child::before { background: var(--morado-noche); }
+#observablehq-sidebar > ol:first-child > li > a {
+  font-family: var(--font-num);
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  line-height: 1.05;
+  gap: 0.6rem;
+}
+#observablehq-sidebar > ol:first-child > li > a::before {
+  content: "";
+  flex: 0 0 auto;
+  width: 30px;
+  height: 38px;
+  background: var(--escudo-rm) center / contain no-repeat;
+}
+#observablehq-sidebar .observablehq-link a { border-radius: 8px; }
+#observablehq-sidebar .observablehq-link-active a,
+#observablehq-sidebar .observablehq-link a:hover {
+  background: rgba(255, 255, 255, 0.07);
+  color: var(--lateral-texto);
+}
+#observablehq-sidebar .observablehq-link-active::before { background: var(--oro); }
+#observablehq-sidebar #observablehq-search input {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--lateral-texto);
+}
+/* Botón para volver a sacar la barra lateral: Framework pone una franja casi invisible
+   en el borde; aquí es un botón morado con texto, arriba a la izquierda. */
+#observablehq-sidebar-toggle {
+  top: 0.85rem;
+  left: 0.85rem;
+  height: 2.3rem;
+  width: auto;
+  padding: 0 0.85rem 0 0.7rem;
+  gap: 0.45rem;
+  border-radius: 999px;
+  background: var(--morado-noche);
+  box-shadow: 0 4px 14px rgba(23, 15, 43, 0.3);
+  cursor: pointer;
+  z-index: 4;
+}
+#observablehq-sidebar-toggle::before { background: #fff; }
+#observablehq-sidebar-toggle::after {
+  content: "Menú";
+  color: #fff;
+  font: 600 0.85rem var(--sans-serif);
+}
+:root[lang="en"] #observablehq-sidebar-toggle::after { content: "Menu"; }
+#observablehq-sidebar-toggle:hover { background: #2b1b52; }
+/* con la barra abierta, el botón queda tapado por ella (z-index de la barra) */
+#observablehq-sidebar { z-index: 5; }
+/* botón de cerrar dentro de la barra: más visible */
+#observablehq-sidebar-close { color: var(--lateral-texto); cursor: pointer; }
+#observablehq-sidebar-close::before { background: var(--lateral-texto); }
 
-/* ---------- Tarjetas y cifras ---------- */
-.card { background: var(--tarjeta); border-color: var(--borde); }
-.cifra { font-family: var(--font-num); font-weight: 700; font-size: 2.6rem; line-height: 1; margin: 0.25rem 0; }
-.cifra small { font-size: 1rem; font-weight: 600; color: var(--texto-suave); margin-left: 0.25rem; }
-.etiqueta { text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.72rem; color: var(--texto-suave); font-weight: 600; }
+/* ================= Cabecera (fuentes y botón de tema) ================= */
+#observablehq-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.82rem;
+  color: var(--texto-suave);
+}
+.boton-tema {
+  font: 600 0.82rem var(--sans-serif);
+  color: var(--texto);
+  background: var(--panel);
+  border: 1px solid var(--borde);
+  border-radius: 999px;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+}
+.boton-tema:hover { border-color: var(--rm); }
+
+/* ================= Tipografía ================= */
+h1, h2, h3, h4, p, li, .aviso, .sub { font-family: var(--sans-serif); }
+h1 {
+  font-family: var(--font-num);
+  font-weight: 700;
+  font-size: 2.6rem;
+  letter-spacing: 0.005em;
+  line-height: 1.05;
+  max-width: none;
+}
+h2 {
+  font-family: var(--font-num);
+  font-weight: 700;
+  font-size: 1.65rem;
+  letter-spacing: 0.01em;
+  margin-top: 2rem;
+}
+h3 { font-weight: 600; }
+.etiqueta {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--texto-suave);
+}
 .nota { color: var(--texto-suave); font-size: 0.85rem; margin-top: 0.4rem; }
+table { font-variant-numeric: tabular-nums; }
 
-/* píldoras V/E/D: color de estado + letra, nunca solo color */
-.res { display: inline-grid; place-items: center; width: 1.6rem; height: 1.6rem; border-radius: 6px;
-       color: white; font-weight: 700; font-family: var(--font-num); font-size: 1rem; margin-right: 3px; }
+/* ================= Tarjetas ================= */
+.card {
+  background: var(--panel);
+  border: 1px solid var(--borde);
+  border-radius: 14px;
+  box-shadow: 0 1px 2px rgba(23, 15, 43, 0.04);
+}
+.card h2, .card h3 { font-family: var(--font-num); font-size: 1.35rem; font-weight: 700; margin-top: 0; }
+/* cifras clave con filo dorado arriba */
+.kpi { border-top: 3px solid var(--oro); }
+.cifra {
+  font-family: var(--font-num);
+  font-weight: 700;
+  font-size: 2.9rem;
+  line-height: 1;
+  margin: 0.3rem 0;
+}
+.cifra small { font-size: 1.05rem; font-weight: 600; color: var(--texto-suave); margin-left: 0.3rem; }
+
+/* tarjeta protagonista: degradado morado, como el bloque de "Próximo partido" */
+.destacada {
+  background: linear-gradient(135deg, var(--morado-noche) 0%, #2b1b52 60%, #3b2470 100%);
+  border: none;
+  color: #f2f1f7;
+  --texto-suave: #b9b2d6;
+}
+.destacada .etiqueta { color: var(--oro); }
+.destacada a { color: var(--oro); }
+
+/* ================= Equipos y escudos ================= */
+.escudo { vertical-align: middle; object-fit: contain; }
+.con-escudo { display: inline-flex; align-items: center; gap: 0.45rem; white-space: nowrap; }
+.duelo {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0 0.5rem;
+  text-align: center;
+}
+.duelo .lado { display: flex; flex-direction: column; align-items: center; gap: 0.45rem; }
+.duelo .lado .escudo-grande {
+  width: 64px; height: 64px;
+  display: grid; place-items: center;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+.duelo .nombre { font-family: var(--font-num); font-weight: 700; font-size: 1.45rem; line-height: 1.1; }
+.duelo .centro { font-family: var(--font-num); font-weight: 700; font-size: 1.3rem; color: var(--oro); }
+.duelo .marcador { font-size: 3.2rem; color: inherit; }
+.marcador { font-family: var(--font-num); font-weight: 700; font-size: 3rem; line-height: 1; }
+.cuando { font-family: var(--font-num); font-weight: 700; font-size: 2rem; line-height: 1.05; }
+
+/* ================= Resultados V/E/D ================= */
+.res {
+  display: inline-grid; place-items: center;
+  width: 1.65rem; height: 1.65rem;
+  border-radius: 6px;
+  color: white;
+  font: 700 1rem var(--font-num);
+  margin-right: 3px;
+}
 .res-V { background: var(--victoria); }
 .res-E { background: var(--empate); }
 .res-D { background: var(--derrota); }
+.fila-forma { display: flex; align-items: center; gap: 0.6rem; margin: 0.35rem 0; flex-wrap: wrap; }
+.fila-forma .etiqueta { min-width: 9.5rem; }
 
-/* barra 1X2 apilada */
-.barra-1x2 { display: flex; height: 2.2rem; border-radius: 6px; overflow: hidden; gap: 2px; margin: 0.5rem 0; }
-.barra-1x2 > div { display: grid; place-items: center; color: white; font-family: var(--font-num); font-weight: 700; font-size: 1.05rem; min-width: 4px; overflow: hidden; }
-.leyenda-1x2 { display: flex; justify-content: space-between; font-size: 0.8rem; color: var(--texto-suave); }
+/* ================= Barra 1X2 ================= */
+.barra-1x2 { display: flex; height: 2.3rem; border-radius: 8px; overflow: hidden; gap: 2px; margin: 0.6rem 0 0.3rem; }
+.barra-1x2 > div {
+  display: grid; place-items: center;
+  color: white;
+  font: 700 1.1rem var(--font-num);
+  min-width: 4px; overflow: hidden;
+}
+.leyenda-1x2 { display: flex; justify-content: space-between; font-size: 0.8rem; color: var(--texto-suave); gap: 0.5rem; }
 
-.marcador { font-family: var(--font-num); font-weight: 700; font-size: 3rem; text-align: center; line-height: 1; }
-.equipos { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 1rem; }
-.equipos .eq { font-family: var(--font-num); font-size: 1.5rem; font-weight: 600; }
-.equipos .eq:last-child { text-align: right; }
-
-/* leyenda de series: identidad nunca solo por color (muestra + texto) */
+/* ================= Leyendas de gráficos (identidad nunca solo por color) ================= */
 .leyenda { display: flex; gap: 1rem; flex-wrap: wrap; font-size: 0.85rem; margin-bottom: 0.25rem; }
-.leyenda span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; background: currentColor; vertical-align: -1px; }
-.leyenda span { color: var(--theme-foreground); }
+.leyenda span::before {
+  content: ""; display: inline-block;
+  width: 10px; height: 10px; border-radius: 3px;
+  margin-right: 6px; background: currentColor; vertical-align: -1px;
+}
+.leyenda span { color: var(--texto); }
 .leyenda .rm::before { background: var(--rm); }
 .leyenda .rival::before { background: var(--rival); }
 .leyenda .modelo::before { background: var(--modelo); }
-
-table { font-variant-numeric: tabular-nums; }
 .leyenda .sin::before { display: none; }
-h1, h2, h3, h4, p, li, .aviso, .sub { font-family: var(--sans-serif); }
-h2 { font-weight: 700; }
+
+/* ================= Avisos ================= */
+.aviso {
+  border: 1px solid var(--rival);
+  border-left-width: 4px;
+  border-radius: 10px;
+  padding: 0.6rem 0.9rem;
+  margin: 0 0 1.25rem;
+  font-size: 0.9rem;
+  background: var(--panel);
+}

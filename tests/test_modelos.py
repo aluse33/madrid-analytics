@@ -141,3 +141,40 @@ def test_bootstrap_cubre_la_media():
     assert inf < 1 < sup and inf < est < sup
     d = inferencia.bootstrap_diferencia(x + 5, x, B=1000)
     assert d["p_mayor_que_cero"] == 1.0
+
+
+# ---------------------------------------------------------------- incertidumbre y simulación
+
+def test_errores_sandwich_tienen_buena_cobertura(liga_simulada):
+    """Con goles (Poisson) como objetivo, θ̂ ± 1,96·se debe cubrir el valor real ~95 % de las veces."""
+    df, ataque, defensa, _ = liga_simulada
+    m = dc.ajustar(df, tipo="goals", l2=0.01, semivida_dias=1e6, anios=None)
+    n = len(m.equipos)
+    se = np.sqrt(np.diag(m.cov))
+    # la identificación es relativa a la media: se comparan desviaciones respecto a ella
+    z_a = (m.ataque - m.ataque.mean() - (ataque - ataque.mean())) / se[2:2 + n]
+    z_d = (m.defensa - m.defensa.mean() - (defensa - defensa.mean())) / se[2 + n:]
+    cobertura = np.mean(np.abs(np.r_[z_a, z_d]) < 1.96)
+    assert 0.8 <= cobertura <= 1.0
+    assert np.all(np.linalg.eigvalsh(m.cov) > -1e-10)  # semidefinida positiva
+
+
+def test_incertidumbre_ensancha_la_simulacion(liga_simulada):
+    from rma.models import simulacion as sm
+
+    df, *_ = liga_simulada
+    df = df.copy()
+    corte = df.fecha.iloc[len(df) // 3 * 2]
+    df["jugado"] = df.fecha < corte
+    df.loc[~df.jugado, ["goles_local", "goles_visitante"]] = np.nan
+    temporada = df[df.fecha >= df.fecha.iloc[len(df) // 3]]
+    m = dc.ajustar(df, fecha_ref=corte, anios=None)
+    deriva = {"tau2_ataque": 5e-5, "tau2_defensa": 3e-5}
+    fija = sm.simular(m, temporada, n=2000, incertidumbre=False)
+    incierta = sm.simular(m, temporada, n=2000, deriva=deriva, var_desfase_dias=150)
+    for s in (fija, incierta):
+        assert s["tabla"].p_campeon.sum() == pytest.approx(1)
+    ancho = lambda s: (s["tabla"].puntos_p95 - s["tabla"].puntos_p05).mean()  # noqa: E731
+    assert ancho(incierta) > ancho(fija)
+    # y el favorito pierde algo de seguridad
+    assert incierta["tabla"].p_campeon.max() <= fija["tabla"].p_campeon.max() + 0.02

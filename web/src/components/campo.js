@@ -1,4 +1,9 @@
 import * as Plot from "npm:@observablehq/plot";
+import {EN, LOC} from "./formato.js";
+
+const T = EN
+  ? {min: "Minute", propio: "our xG", res: "Outcome", gol: "goal", parado: "saved", fuera: "off target", poste: "post", bloqueado: "blocked"}
+  : {min: "Minuto", propio: "xG propio", res: "Resultado", gol: "gol", parado: "parado", fuera: "fuera", poste: "poste", bloqueado: "bloqueado"};
 
 // Campo de 105 x 68 m dibujado con Plot. El Madrid ataca hacia la derecha (x = 105)
 // y el rival hacia la izquierda: sus tiros se reflejan (x -> 105 - x, y -> 68 - y).
@@ -54,8 +59,8 @@ export function mapaTiros(tiros, {width = 720, campo = "Real Madrid"} = {}) {
       }),
       Plot.tip(datos, Plot.pointer({
         x: "px", y: "py",
-        title: (d) => `${d.jugador} (${d.equipo})\nMinuto ${d.minuto}\nxG Understat ${(+d.xg_understat).toLocaleString("es-ES", {maximumFractionDigits: 2})}` +
-          ` · xG propio ${(+d.xg_propio).toLocaleString("es-ES", {maximumFractionDigits: 2})}\n${d.situacion} · ${d.parte_cuerpo}\nResultado: ${d.resultado}`
+        title: (d) => `${d.jugador} (${d.equipo})\n${T.min} ${d.minuto}\nxG Understat ${(+d.xg_understat).toLocaleString(LOC, {maximumFractionDigits: 2})}` +
+          ` · ${T.propio} ${(+d.xg_propio).toLocaleString(LOC, {maximumFractionDigits: 2})}\n${d.situacion} · ${d.parte_cuerpo}\n${T.res}: ${T[d.resultado] ?? d.resultado}`
       }))
     ]
   });

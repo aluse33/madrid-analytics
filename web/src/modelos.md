@@ -3,7 +3,7 @@ title: Laboratorio de modelos
 ---
 
 ```js
-import {num, pct, tickNum, tickPct} from "./components/formato.js";
+import {num, pct, tickNum, tickPct, LOC} from "./components/formato.js";
 const xg = FileAttachment("data/xg_modelo.json").json();
 const backtest = FileAttachment("data/backtest.json").json();
 ```
@@ -14,7 +14,7 @@ Aquí se evalúan los modelos con honestidad: siempre **fuera de muestra** y sie
 
 ## Modelo xG propio
 
-Entrenado con ${xg.n_tiros.toLocaleString("es-ES")} tiros de LaLiga (sin penaltis, que reciben su tasa empírica: ${pct(xg.tasa_penalti, 1)}). Validación cruzada en ${5} bloques **agrupados por partido**, para que los tiros de un mismo partido no estén a la vez en entrenamiento y en test.
+Entrenado con ${xg.n_tiros.toLocaleString(LOC)} tiros de LaLiga (sin penaltis, que reciben su tasa empírica: ${pct(xg.tasa_penalti, 1)}). Validación cruzada en ${5} bloques **agrupados por partido**, para que los tiros de un mismo partido no estén a la vez en entrenamiento y en test.
 
 ```js
 const nombres = {logistico: "Regresión logística", boosting: "Gradient boosting", understat: "xG de Understat", tasa_base: "Tasa media (referencia)"};
@@ -47,7 +47,7 @@ function fiabilidad(width) {
       Plot.line(serieFiab, {x: "predicho", y: "observado", stroke: "modelo", strokeWidth: 2}),
       Plot.dot(serieFiab, {x: "predicho", y: "observado", fill: "modelo", r: 4.5, stroke: "var(--theme-background)", strokeWidth: 2}),
       Plot.tip(serieFiab, Plot.pointer({x: "predicho", y: "observado",
-        title: (d) => `${d.modelo}\nPredicho ${num(d.predicho, 3)} · observado ${num(d.observado, 3)}\n${d.n.toLocaleString("es-ES")} tiros`}))
+        title: (d) => `${d.modelo}\nPredicho ${num(d.predicho, 3)} · observado ${num(d.observado, 3)}\n${d.n.toLocaleString(LOC)} tiros`}))
     ]
   });
 }
@@ -83,7 +83,7 @@ const coefs = Object.entries(xg.coeficientes_logistico).map(([k, v]) => ({
 
 ## Dixon-Coles: ¿predice mejor que no saber nada?
 
-Predicciones hechas **semana a semana** con lo que se sabía hasta ese momento (origen móvil), para ${backtest.n.toLocaleString("es-ES")} partidos de LaLiga. La referencia asigna a todos los partidos las frecuencias históricas de victoria local, empate y victoria visitante.
+Predicciones hechas **semana a semana** con lo que se sabía hasta ese momento (origen móvil), para ${backtest.n.toLocaleString(LOC)} partidos de LaLiga. La referencia asigna a todos los partidos las frecuencias históricas de victoria local, empate y victoria visitante.
 
 ```js
 const bt = backtest.por_temporada.flatMap((d) => [

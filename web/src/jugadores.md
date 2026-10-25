@@ -3,7 +3,7 @@ title: Jugadores
 ---
 
 ```js
-import {num, pct, tickNum} from "./components/formato.js";
+import {num, pct, tickNum, LOC, puestoTxt} from "./components/formato.js";
 const estado = FileAttachment("data/estado.json").json();
 const eb = FileAttachment("data/jugadores_eb.csv").csv({typed: true});
 const finalizacion = FileAttachment("data/finalizacion.csv").csv({typed: true});
@@ -36,7 +36,7 @@ function bosque(width) {
       Plot.dot(filas, {y: "jugador", x: "bruto_p90", r: 5, stroke: "var(--theme-foreground-muted)", strokeWidth: 2, fill: "var(--theme-background)"}),
       Plot.dot(filas, {y: "jugador", x: "eb_p90", r: 6, fill: "var(--rm)", stroke: "var(--theme-background)", strokeWidth: 2}),
       Plot.tip(filas, Plot.pointerY({y: "jugador", x: "eb_p90",
-        title: (d) => `${d.jugador} · ${d.puesto} · ${d.minutos.toLocaleString("es-ES")} min\nBruto: ${num(d.bruto_p90)} por 90'\nEstimación EB: ${num(d.eb_p90)} [${num(d.eb_inf)}, ${num(d.eb_sup)}]\nMedia del puesto en la liga: ${num(d.prior_media_p90)}\nPeso de la media del puesto: ${pct(d.peso_prior)}`}))
+        title: (d) => `${d.jugador} · ${puestoTxt(d.puesto)} · ${d.minutos.toLocaleString(LOC)} min\nBruto: ${num(d.bruto_p90)} por 90'\nEstimación EB: ${num(d.eb_p90)} [${num(d.eb_inf)}, ${num(d.eb_sup)}]\nMedia del puesto en la liga: ${num(d.prior_media_p90)}\nPeso de la media del puesto: ${pct(d.peso_prior)}`}))
     ]
   });
 }
@@ -45,7 +45,7 @@ function bosque(width) {
 <div class="card">
   <div class="leyenda"><span class="sin">○ Bruto</span><span class="rm">Estimación empírico-bayesiana (punto) y su intervalo del 90 % (línea)</span></div>
   ${resize((width) => bosque(width))}
-  <div class="nota">Medias de LaLiga por puesto (el valor hacia el que se encoge): ${priores.map(([p, v]) => `${p} ${num(v)}`).join(" · ")}.</div>
+  <div class="nota">Medias de LaLiga por puesto (el valor hacia el que se encoge): ${priores.map(([p, v]) => `${puestoTxt(p)} ${num(v)}`).join(" · ")}.</div>
 </div>
 
 ## Finalización: ¿enchufados o con suerte?
@@ -57,7 +57,7 @@ function finalizar(width) {
   const d = finalizacion.map((x) => ({...x, dif: x.goles - x.xg})).sort((a, b) => b.dif - a.dif);
   return Plot.plot({
     width, height: 30 * d.length + 50, marginLeft: 150, marginRight: 20,
-    x: {label: "Goles sin penalti − npxG", inset: 90, grid: true, tickFormat: (v) => (v > 0 ? "+" : "") + v.toLocaleString("es-ES")},
+    x: {label: "Goles sin penalti − npxG", inset: 90, grid: true, tickFormat: (v) => (v > 0 ? "+" : "") + v.toLocaleString(LOC)},
     y: {label: null, domain: d.map((x) => x.jugador)},
     marks: [
       Plot.ruleX([0], {stroke: "var(--theme-foreground-muted)"}),

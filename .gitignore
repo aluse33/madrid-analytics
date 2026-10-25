@@ -6,9 +6,11 @@ __pycache__/
 .ruff_cache/
 *.egg-info/
 
-# Datos crudos: se regeneran con `rma ingesta`. Los procesados SÍ se versionan
-# (son pequeños y permiten construir la web sin volver a descargar nada).
+# Datos de Understat: NO se suben al repositorio (sus condiciones no permiten
+# redistribuirlos). Se regeneran con `rma ingesta` + `rma procesar`, en local o en
+# GitHub Actions. Lo que sí se publica es el resultado de los modelos (web/src/data).
 data/raw/
+data/processed/
 
 # Modelos binarios
 models/*.joblib

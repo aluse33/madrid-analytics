@@ -43,6 +43,15 @@ class DixonColes:
     rho: float
     fecha_ref: pd.Timestamp
     info: dict = field(default_factory=dict)
+    # covarianza de (mu, campo, ataque..., defensa...) por el estimador sándwich
+    cov: np.ndarray | None = None
+
+    def muestrear(self, k: int, rng: np.random.Generator) -> np.ndarray:
+        """k vectores de parámetros de su distribución aproximada N(θ̂, Σ) (Laplace/sándwich)."""
+        theta = np.r_[self.mu, self.campo, self.ataque, self.defensa]
+        if self.cov is None:
+            return np.tile(theta, (k, 1))
+        return rng.multivariate_normal(theta, self.cov, size=k, method="eigh")
 
     def _idx(self, equipo: str) -> int:
         try:
@@ -171,12 +180,44 @@ def ajustar(
 
     rho = minimize_scalar(nll_rho, bounds=(-0.3, min(0.3, cota)), method="bounded").x
 
+    cov = _covarianza_sandwich(hi, ai, n, w, yl, yv, lam, nu, l2)
+
     return DixonColes(
         equipos=equipos, mu=float(mu), campo=float(h), ataque=a, defensa=d, rho=float(rho),
         fecha_ref=fecha_ref,
         info={"partidos": len(df), "convergio": bool(res.success), "tipo": tipo,
               "semivida_dias": semivida_dias, "l2": l2},
+        cov=cov,
     )
+
+
+def _covarianza_sandwich(hi, ai, n, w, yl, yv, lam, nu, l2) -> np.ndarray:
+    """Σ = H⁻¹ B H⁻¹ para el estimador de cuasi-verosimilitud ponderada y penalizada.
+
+    H = Σ w λ x xᵀ + l2·I (pendiente de la ecuación de estimación),
+    B = Σ (w (y − λ))² x xᵀ (varianza empírica de los scores, agrupando los dos
+    marcadores de cada partido). No supone que y sea Poisson, así que vale para xG
+    (infradisperso) y para la mezcla con goles.
+    """
+    p = 2 + 2 * n
+    m = len(hi)
+    filas = np.arange(m)
+    xl = np.zeros((m, p))
+    xl[:, 0] = 1
+    xl[:, 1] = 1
+    xl[filas, 2 + hi] = 1
+    xl[filas, 2 + n + ai] = 1
+    xv = np.zeros((m, p))
+    xv[:, 0] = 1
+    xv[filas, 2 + ai] = 1
+    xv[filas, 2 + n + hi] = 1
+    H = (xl * (w * lam)[:, None]).T @ xl + (xv * (w * nu)[:, None]).T @ xv
+    H[2:, 2:] += l2 * np.eye(2 * n)
+    s = xl * (w * (yl - lam))[:, None] + xv * (w * (yv - nu))[:, None]  # score de cada partido
+    B = s.T @ s
+    Hi = np.linalg.inv(H)
+    cov = Hi @ B @ Hi
+    return (cov + cov.T) / 2
 
 
 # ---------------------------------------------------------------- evaluación

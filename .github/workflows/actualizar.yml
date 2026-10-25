@@ -1,6 +1,8 @@
-# Descarga los datos, recalcula los modelos, versiona las salidas y publica la web.
-# Corre cada mañana (los partidos de LaLiga se juegan de viernes a lunes, y algún
-# miércoles) y se puede lanzar a mano desde la pestaña Actions.
+# Actualiza los datos, recalcula los modelos y publica la web en GitHub Pages.
+#
+# - Cada mañana (y a mano desde la pestaña Actions): descarga, modelos y publicación.
+# - Al subir cambios a main (p. ej. desde GitHub Desktop): solo se reconstruye y publica
+#   la web, con los datos que ya hay en el repositorio. Es rápido.
 name: Actualizar y publicar
 
 on:
@@ -12,9 +14,11 @@ on:
         description: "Reentrenar el modelo xG"
         type: boolean
         default: false
+  push:
+    branches: [main]
 
 permissions:
-  contents: write   # para commitear las salidas
+  contents: write   # para guardar las salidas en el repo
   pages: write      # para publicar en GitHub Pages
   id-token: write
 
@@ -24,6 +28,7 @@ concurrency:
 
 jobs:
   datos:
+    if: github.event_name != 'push'
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
@@ -34,7 +39,7 @@ jobs:
           python-version: "3.12"
           cache: pip
 
-      # Datos crudos, caché de soccerdata y modelo xG: así solo se descarga lo nuevo
+      # datos crudos, caché de soccerdata y modelo xG: así solo se descarga lo nuevo
       - uses: actions/cache@v4
         with:
           path: |
@@ -62,7 +67,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/processed web/src/data
+          git add web/src/data web/src/equipos web/src/en assets/escudos
           if git diff --cached --quiet; then
             echo "Sin cambios"
           else
@@ -72,6 +77,8 @@ jobs:
 
   web:
     needs: datos
+    # se publica tanto si ha corrido la actualización como si no (push)
+    if: always() && (needs.datos.result == 'success' || needs.datos.result == 'skipped')
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -92,6 +99,8 @@ jobs:
         run: |
           npm ci
           npm run build
+
+      - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3
         with:

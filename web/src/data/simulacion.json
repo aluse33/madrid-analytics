@@ -1,344 +1,10948 @@
 {
  "tabla": [
   {
+   "equipo": "Barcelona",
+   "puntos_actuales": 27.0,
+   "puntos_media": 93.6559,
+   "puntos_p05": 82.0,
+   "puntos_p95": 104.0,
+   "p_campeon": 0.8858,
+   "p_top4": 0.9996,
+   "p_descenso": 0.0
+  },
+  {
    "equipo": "Real Madrid",
-   "puntos_actuales": 20.0,
-   "puntos_media": 68.2441,
-   "puntos_p05": 57.0,
-   "puntos_p95": 79.0,
-   "p_campeon": 0.4591,
-   "p_top4": 0.8543,
+   "puntos_actuales": 21.0,
+   "puntos_media": 79.3744,
+   "puntos_p05": 67.0,
+   "puntos_p95": 92.0,
+   "p_campeon": 0.0814,
+   "p_top4": 0.9683,
+   "p_descenso": 0.0
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos_actuales": 25.0,
+   "puntos_media": 74.5993,
+   "puntos_p05": 61.0,
+   "puntos_p95": 88.0,
+   "p_campeon": 0.0303,
+   "p_top4": 0.8872,
    "p_descenso": 0.0
   },
   {
    "equipo": "Real Betis",
-   "puntos_actuales": 21.0,
-   "puntos_media": 61.2814,
-   "puntos_p05": 50.0,
-   "puntos_p95": 73.0,
-   "p_campeon": 0.1096,
-   "p_top4": 0.5113,
-   "p_descenso": 0.0012
-  },
-  {
-   "equipo": "Athletic Club",
-   "puntos_actuales": 18.0,
-   "puntos_media": 61.1749,
-   "puntos_p05": 50.0,
-   "puntos_p95": 73.0,
-   "p_campeon": 0.1098,
-   "p_top4": 0.5045,
-   "p_descenso": 0.002
-  },
-  {
-   "equipo": "Elche",
-   "puntos_actuales": 16.0,
-   "puntos_media": 59.8153,
-   "puntos_p05": 49.0,
-   "puntos_p95": 71.0,
-   "p_campeon": 0.0807,
-   "p_top4": 0.4372,
-   "p_descenso": 0.0032
-  },
-  {
-   "equipo": "Barcelona",
-   "puntos_actuales": 15.0,
-   "puntos_media": 59.2847,
-   "puntos_p05": 48.0,
-   "puntos_p95": 71.0,
-   "p_campeon": 0.0705,
-   "p_top4": 0.3896,
-   "p_descenso": 0.0049
-  },
-  {
-   "equipo": "Levante",
-   "puntos_actuales": 22.0,
-   "puntos_media": 58.7372,
-   "puntos_p05": 48.0,
-   "puntos_p95": 70.0,
-   "p_campeon": 0.0586,
-   "p_top4": 0.36,
-   "p_descenso": 0.0034
-  },
-  {
-   "equipo": "Alaves",
-   "puntos_actuales": 16.0,
-   "puntos_media": 58.4318,
-   "puntos_p05": 47.0,
-   "puntos_p95": 70.0,
-   "p_campeon": 0.0625,
-   "p_top4": 0.3551,
-   "p_descenso": 0.0051
-  },
-  {
-   "equipo": "Atletico Madrid",
-   "puntos_actuales": 13.0,
-   "puntos_media": 55.0361,
-   "puntos_p05": 44.0,
-   "puntos_p95": 66.0,
-   "p_campeon": 0.0204,
-   "p_top4": 0.1806,
-   "p_descenso": 0.0171
-  },
-  {
-   "equipo": "Valencia",
-   "puntos_actuales": 18.0,
-   "puntos_media": 53.1725,
-   "puntos_p05": 42.0,
-   "puntos_p95": 64.0,
-   "p_campeon": 0.0093,
-   "p_top4": 0.1145,
-   "p_descenso": 0.0269
-  },
-  {
-   "equipo": "Espanyol",
-   "puntos_actuales": 15.0,
-   "puntos_media": 51.4931,
-   "puntos_p05": 40.0,
-   "puntos_p95": 63.0,
-   "p_campeon": 0.0053,
-   "p_top4": 0.0783,
-   "p_descenso": 0.0523
-  },
-  {
-   "equipo": "Rayo Vallecano",
-   "puntos_actuales": 11.0,
-   "puntos_media": 51.1105,
-   "puntos_p05": 40.0,
-   "puntos_p95": 62.0,
-   "p_campeon": 0.0067,
-   "p_top4": 0.0727,
-   "p_descenso": 0.0594
-  },
-  {
-   "equipo": "Real Oviedo",
-   "puntos_actuales": 9.0,
-   "puntos_media": 49.9226,
-   "puntos_p05": 39.0,
-   "puntos_p95": 61.0,
-   "p_campeon": 0.0038,
-   "p_top4": 0.06,
-   "p_descenso": 0.0746
-  },
-  {
-   "equipo": "Mallorca",
-   "puntos_actuales": 13.0,
-   "puntos_media": 47.5611,
-   "puntos_p05": 37.0,
-   "puntos_p95": 58.0,
-   "p_campeon": 0.001,
-   "p_top4": 0.0231,
-   "p_descenso": 0.1315
+   "puntos_actuales": 19.0,
+   "puntos_media": 65.0856,
+   "puntos_p05": 52.0,
+   "puntos_p95": 78.0,
+   "p_campeon": 0.0022,
+   "p_top4": 0.4935,
+   "p_descenso": 0.0002
   },
   {
    "equipo": "Villarreal",
-   "puntos_actuales": 7.0,
-   "puntos_media": 46.3226,
-   "puntos_p05": 35.0,
-   "puntos_p95": 58.0,
-   "p_campeon": 0.0008,
-   "p_top4": 0.0184,
-   "p_descenso": 0.1899
+   "puntos_actuales": 12.0,
+   "puntos_media": 60.1201,
+   "puntos_p05": 47.0,
+   "puntos_p95": 73.0,
+   "p_campeon": 0.0003,
+   "p_top4": 0.2774,
+   "p_descenso": 0.0024
   },
   {
-   "equipo": "Osasuna",
-   "puntos_actuales": 15.0,
-   "puntos_media": 46.11,
-   "puntos_p05": 36.0,
-   "puntos_p95": 57.0,
-   "p_campeon": 0.0004,
-   "p_top4": 0.0122,
-   "p_descenso": 0.2076
-  },
-  {
-   "equipo": "Celta Vigo",
-   "puntos_actuales": 8.0,
-   "puntos_media": 45.9727,
-   "puntos_p05": 35.0,
-   "puntos_p95": 57.0,
-   "p_campeon": 0.0009,
-   "p_top4": 0.0174,
-   "p_descenso": 0.2027
+   "equipo": "Athletic Club",
+   "puntos_actuales": 12.0,
+   "puntos_media": 55.47,
+   "puntos_p05": 42.0,
+   "puntos_p95": 69.0,
+   "p_campeon": 0.0,
+   "p_top4": 0.1179,
+   "p_descenso": 0.0086
   },
   {
    "equipo": "Real Sociedad",
-   "puntos_actuales": 8.0,
-   "puntos_media": 42.7148,
-   "puntos_p05": 32.0,
-   "puntos_p95": 54.0,
-   "p_campeon": 0.0004,
-   "p_top4": 0.0054,
-   "p_descenso": 0.3553
+   "puntos_actuales": 16.0,
+   "puntos_media": 55.1276,
+   "puntos_p05": 42.0,
+   "puntos_p95": 68.0,
+   "p_campeon": 0.0,
+   "p_top4": 0.0936,
+   "p_descenso": 0.0109
   },
   {
    "equipo": "Sevilla",
-   "puntos_actuales": 12.0,
-   "puntos_media": 41.8213,
-   "puntos_p05": 31.0,
-   "puntos_p95": 53.0,
+   "puntos_actuales": 14.0,
+   "puntos_media": 51.4682,
+   "puntos_p05": 39.0,
+   "puntos_p95": 64.0,
    "p_campeon": 0.0,
-   "p_top4": 0.0023,
-   "p_descenso": 0.4383
+   "p_top4": 0.0401,
+   "p_descenso": 0.0274
   },
   {
-   "equipo": "Girona",
+   "equipo": "Alaves",
+   "puntos_actuales": 12.0,
+   "puntos_media": 48.8382,
+   "puntos_p05": 37.0,
+   "puntos_p95": 61.0,
+   "p_campeon": 0.0,
+   "p_top4": 0.0192,
+   "p_descenso": 0.0429
+  },
+  {
+   "equipo": "Celta Vigo",
+   "puntos_actuales": 11.0,
+   "puntos_media": 47.8892,
+   "puntos_p05": 35.0,
+   "puntos_p95": 61.0,
+   "p_campeon": 0.0,
+   "p_top4": 0.0202,
+   "p_descenso": 0.0645
+  },
+  {
+   "equipo": "Levante",
+   "puntos_actuales": 10.0,
+   "puntos_media": 47.6946,
+   "puntos_p05": 34.0,
+   "puntos_p95": 61.0,
+   "p_campeon": 0.0,
+   "p_top4": 0.0194,
+   "p_descenso": 0.0803
+  },
+  {
+   "equipo": "Deportivo La Coruna",
+   "puntos_actuales": 11.0,
+   "puntos_media": 47.5313,
+   "puntos_p05": 34.0,
+   "puntos_p95": 62.0,
+   "p_campeon": 0.0,
+   "p_top4": 0.0222,
+   "p_descenso": 0.08
+  },
+  {
+   "equipo": "Rayo Vallecano",
+   "puntos_actuales": 9.0,
+   "puntos_media": 46.985,
+   "puntos_p05": 34.0,
+   "puntos_p95": 61.0,
+   "p_campeon": 0.0,
+   "p_top4": 0.0153,
+   "p_descenso": 0.0863
+  },
+  {
+   "equipo": "Osasuna",
+   "puntos_actuales": 11.0,
+   "puntos_media": 46.3044,
+   "puntos_p05": 33.0,
+   "puntos_p95": 60.0,
+   "p_campeon": 0.0,
+   "p_top4": 0.0109,
+   "p_descenso": 0.1072
+  },
+  {
+   "equipo": "Elche",
+   "puntos_actuales": 10.0,
+   "puntos_media": 45.694,
+   "puntos_p05": 33.0,
+   "puntos_p95": 59.0,
+   "p_campeon": 0.0,
+   "p_top4": 0.0098,
+   "p_descenso": 0.1121
+  },
+  {
+   "equipo": "Valencia",
+   "puntos_actuales": 6.0,
+   "puntos_media": 40.8675,
+   "puntos_p05": 29.0,
+   "puntos_p95": 54.0,
+   "p_campeon": 0.0,
+   "p_top4": 0.0011,
+   "p_descenso": 0.2664
+  },
+  {
+   "equipo": "Espanyol",
    "puntos_actuales": 8.0,
-   "puntos_media": 41.7175,
-   "puntos_p05": 31.0,
+   "puntos_media": 39.3565,
+   "puntos_p05": 28.0,
+   "puntos_p95": 52.0,
+   "p_campeon": 0.0,
+   "p_top4": 0.0006,
+   "p_descenso": 0.3189
+  },
+  {
+   "equipo": "Racing Santander",
+   "puntos_actuales": 11.0,
+   "puntos_media": 38.3485,
+   "puntos_p05": 25.0,
    "puntos_p95": 53.0,
-   "p_campeon": 0.0002,
-   "p_top4": 0.003,
-   "p_descenso": 0.4239
+   "p_campeon": 0.0,
+   "p_top4": 0.0033,
+   "p_descenso": 0.4299
   },
   {
    "equipo": "Getafe",
-   "puntos_actuales": 7.0,
-   "puntos_media": 35.152,
-   "puntos_p05": 25.0,
-   "puntos_p95": 46.0,
+   "puntos_actuales": 9.0,
+   "puntos_media": 37.3163,
+   "puntos_p05": 26.0,
+   "puntos_p95": 49.0,
    "p_campeon": 0.0,
-   "p_top4": 0.0001,
-   "p_descenso": 0.8007
+   "p_top4": 0.0004,
+   "p_descenso": 0.4482
+  },
+  {
+   "equipo": "Malaga",
+   "puntos_actuales": 5.0,
+   "puntos_media": 26.3342,
+   "puntos_p05": 16.0,
+   "puntos_p95": 38.0,
+   "p_campeon": 0.0,
+   "p_top4": 0.0,
+   "p_descenso": 0.9138
   }
  ],
- "pendientes": 280,
+ "pendientes": 285,
  "n": 10000,
  "rm_dist_puesto": [
-  0.4591,
-  0.1948,
-  0.1186,
-  0.0818,
-  0.0524,
-  0.0322,
-  0.0199,
-  0.015,
-  0.0092,
-  0.0058,
-  0.0044,
+  0.0814,
+  0.5561,
+  0.2634,
+  0.0674,
+  0.0217,
+  0.0057,
   0.0028,
-  0.0022,
-  0.0007,
-  0.0005,
-  0.0004,
-  0.0002,
+  0.0006,
+  0.0008,
+  0.0001,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
   0.0,
   0.0,
   0.0
  ],
- "rm_dist_puntos": [
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  1,
-  5,
-  2,
-  4,
-  5,
-  8,
-  13,
-  12,
-  30,
-  27,
-  52,
-  70,
-  89,
-  115,
-  140,
-  185,
-  217,
-  287,
-  339,
-  418,
-  405,
-  477,
-  501,
-  549,
-  575,
-  573,
-  621,
-  599,
-  526,
-  509,
-  434,
-  401,
-  352,
-  324,
-  288,
-  191,
-  188,
-  118,
-  103,
-  71,
-  60,
-  42,
-  29,
-  17,
-  14,
-  7,
-  4,
-  1,
-  0,
-  1,
-  1,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0
- ]
+ "deriva": {
+  "ventanas": 14,
+  "tau2_ataque": 5.33120745268315e-05,
+  "pares_ataque": 242,
+  "tau2_defensa": 3.073148414487041e-05,
+  "pares_defensa": 242,
+  "var_desfase_dias": 134.0037106075522,
+  "sd_desfase_ataque": 0.08452227994311194,
+  "sd_200_dias_ataque": 0.10325897009638581
+ },
+ "comparacion": [
+  {
+   "equipo": "Barcelona",
+   "p_ingenua": 0.94,
+   "p_campeon": 0.8858
+  },
+  {
+   "equipo": "Real Madrid",
+   "p_ingenua": 0.0474,
+   "p_campeon": 0.0814
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "p_ingenua": 0.0122,
+   "p_campeon": 0.0303
+  },
+  {
+   "equipo": "Real Betis",
+   "p_ingenua": 0.0004,
+   "p_campeon": 0.0022
+  },
+  {
+   "equipo": "Villarreal",
+   "p_ingenua": 0.0,
+   "p_campeon": 0.0003
+  },
+  {
+   "equipo": "Athletic Club",
+   "p_ingenua": 0.0,
+   "p_campeon": 0.0
+  }
+ ],
+ "puestos": [
+  {
+   "equipo": "Alaves",
+   "puesto": 1,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Alaves",
+   "puesto": 2,
+   "prob": 0.0006
+  },
+  {
+   "equipo": "Alaves",
+   "puesto": 3,
+   "prob": 0.0027
+  },
+  {
+   "equipo": "Alaves",
+   "puesto": 4,
+   "prob": 0.0159
+  },
+  {
+   "equipo": "Alaves",
+   "puesto": 5,
+   "prob": 0.0382
+  },
+  {
+   "equipo": "Alaves",
+   "puesto": 6,
+   "prob": 0.0599
+  },
+  {
+   "equipo": "Alaves",
+   "puesto": 7,
+   "prob": 0.0777
+  },
+  {
+   "equipo": "Alaves",
+   "puesto": 8,
+   "prob": 0.0859
+  },
+  {
+   "equipo": "Alaves",
+   "puesto": 9,
+   "prob": 0.0922
+  },
+  {
+   "equipo": "Alaves",
+   "puesto": 10,
+   "prob": 0.0904
+  },
+  {
+   "equipo": "Alaves",
+   "puesto": 11,
+   "prob": 0.0956
+  },
+  {
+   "equipo": "Alaves",
+   "puesto": 12,
+   "prob": 0.0869
+  },
+  {
+   "equipo": "Alaves",
+   "puesto": 13,
+   "prob": 0.0833
+  },
+  {
+   "equipo": "Alaves",
+   "puesto": 14,
+   "prob": 0.07
+  },
+  {
+   "equipo": "Alaves",
+   "puesto": 15,
+   "prob": 0.0627
+  },
+  {
+   "equipo": "Alaves",
+   "puesto": 16,
+   "prob": 0.0537
+  },
+  {
+   "equipo": "Alaves",
+   "puesto": 17,
+   "prob": 0.0414
+  },
+  {
+   "equipo": "Alaves",
+   "puesto": 18,
+   "prob": 0.026
+  },
+  {
+   "equipo": "Alaves",
+   "puesto": 19,
+   "prob": 0.0137
+  },
+  {
+   "equipo": "Alaves",
+   "puesto": 20,
+   "prob": 0.0032
+  },
+  {
+   "equipo": "Athletic Club",
+   "puesto": 1,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Athletic Club",
+   "puesto": 2,
+   "prob": 0.0038
+  },
+  {
+   "equipo": "Athletic Club",
+   "puesto": 3,
+   "prob": 0.0275
+  },
+  {
+   "equipo": "Athletic Club",
+   "puesto": 4,
+   "prob": 0.0866
+  },
+  {
+   "equipo": "Athletic Club",
+   "puesto": 5,
+   "prob": 0.1267
+  },
+  {
+   "equipo": "Athletic Club",
+   "puesto": 6,
+   "prob": 0.1385
+  },
+  {
+   "equipo": "Athletic Club",
+   "puesto": 7,
+   "prob": 0.1223
+  },
+  {
+   "equipo": "Athletic Club",
+   "puesto": 8,
+   "prob": 0.1095
+  },
+  {
+   "equipo": "Athletic Club",
+   "puesto": 9,
+   "prob": 0.0881
+  },
+  {
+   "equipo": "Athletic Club",
+   "puesto": 10,
+   "prob": 0.0713
+  },
+  {
+   "equipo": "Athletic Club",
+   "puesto": 11,
+   "prob": 0.0566
+  },
+  {
+   "equipo": "Athletic Club",
+   "puesto": 12,
+   "prob": 0.0504
+  },
+  {
+   "equipo": "Athletic Club",
+   "puesto": 13,
+   "prob": 0.0372
+  },
+  {
+   "equipo": "Athletic Club",
+   "puesto": 14,
+   "prob": 0.0283
+  },
+  {
+   "equipo": "Athletic Club",
+   "puesto": 15,
+   "prob": 0.0209
+  },
+  {
+   "equipo": "Athletic Club",
+   "puesto": 16,
+   "prob": 0.0145
+  },
+  {
+   "equipo": "Athletic Club",
+   "puesto": 17,
+   "prob": 0.0092
+  },
+  {
+   "equipo": "Athletic Club",
+   "puesto": 18,
+   "prob": 0.0059
+  },
+  {
+   "equipo": "Athletic Club",
+   "puesto": 19,
+   "prob": 0.0024
+  },
+  {
+   "equipo": "Athletic Club",
+   "puesto": 20,
+   "prob": 0.0003
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puesto": 1,
+   "prob": 0.0303
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puesto": 2,
+   "prob": 0.2759
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puesto": 3,
+   "prob": 0.4193
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puesto": 4,
+   "prob": 0.1617
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puesto": 5,
+   "prob": 0.061
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puesto": 6,
+   "prob": 0.0286
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puesto": 7,
+   "prob": 0.012
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puesto": 8,
+   "prob": 0.0062
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puesto": 9,
+   "prob": 0.0026
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puesto": 10,
+   "prob": 0.0012
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puesto": 11,
+   "prob": 0.0007
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puesto": 12,
+   "prob": 0.0004
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puesto": 13,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puesto": 14,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puesto": 15,
+   "prob": 0.0001
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puesto": 16,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puesto": 17,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puesto": 18,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puesto": 19,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puesto": 20,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Barcelona",
+   "puesto": 1,
+   "prob": 0.8858
+  },
+  {
+   "equipo": "Barcelona",
+   "puesto": 2,
+   "prob": 0.0952
+  },
+  {
+   "equipo": "Barcelona",
+   "puesto": 3,
+   "prob": 0.0165
+  },
+  {
+   "equipo": "Barcelona",
+   "puesto": 4,
+   "prob": 0.0021
+  },
+  {
+   "equipo": "Barcelona",
+   "puesto": 5,
+   "prob": 0.0004
+  },
+  {
+   "equipo": "Barcelona",
+   "puesto": 6,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Barcelona",
+   "puesto": 7,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Barcelona",
+   "puesto": 8,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Barcelona",
+   "puesto": 9,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Barcelona",
+   "puesto": 10,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Barcelona",
+   "puesto": 11,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Barcelona",
+   "puesto": 12,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Barcelona",
+   "puesto": 13,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Barcelona",
+   "puesto": 14,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Barcelona",
+   "puesto": 15,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Barcelona",
+   "puesto": 16,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Barcelona",
+   "puesto": 17,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Barcelona",
+   "puesto": 18,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Barcelona",
+   "puesto": 19,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Barcelona",
+   "puesto": 20,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Celta Vigo",
+   "puesto": 1,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Celta Vigo",
+   "puesto": 2,
+   "prob": 0.0004
+  },
+  {
+   "equipo": "Celta Vigo",
+   "puesto": 3,
+   "prob": 0.0037
+  },
+  {
+   "equipo": "Celta Vigo",
+   "puesto": 4,
+   "prob": 0.0161
+  },
+  {
+   "equipo": "Celta Vigo",
+   "puesto": 5,
+   "prob": 0.0336
+  },
+  {
+   "equipo": "Celta Vigo",
+   "puesto": 6,
+   "prob": 0.0525
+  },
+  {
+   "equipo": "Celta Vigo",
+   "puesto": 7,
+   "prob": 0.0672
+  },
+  {
+   "equipo": "Celta Vigo",
+   "puesto": 8,
+   "prob": 0.0725
+  },
+  {
+   "equipo": "Celta Vigo",
+   "puesto": 9,
+   "prob": 0.0809
+  },
+  {
+   "equipo": "Celta Vigo",
+   "puesto": 10,
+   "prob": 0.0848
+  },
+  {
+   "equipo": "Celta Vigo",
+   "puesto": 11,
+   "prob": 0.0893
+  },
+  {
+   "equipo": "Celta Vigo",
+   "puesto": 12,
+   "prob": 0.09
+  },
+  {
+   "equipo": "Celta Vigo",
+   "puesto": 13,
+   "prob": 0.0905
+  },
+  {
+   "equipo": "Celta Vigo",
+   "puesto": 14,
+   "prob": 0.0766
+  },
+  {
+   "equipo": "Celta Vigo",
+   "puesto": 15,
+   "prob": 0.0687
+  },
+  {
+   "equipo": "Celta Vigo",
+   "puesto": 16,
+   "prob": 0.0576
+  },
+  {
+   "equipo": "Celta Vigo",
+   "puesto": 17,
+   "prob": 0.0511
+  },
+  {
+   "equipo": "Celta Vigo",
+   "puesto": 18,
+   "prob": 0.0376
+  },
+  {
+   "equipo": "Celta Vigo",
+   "puesto": 19,
+   "prob": 0.0215
+  },
+  {
+   "equipo": "Celta Vigo",
+   "puesto": 20,
+   "prob": 0.0054
+  },
+  {
+   "equipo": "Deportivo La Coruna",
+   "puesto": 1,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Deportivo La Coruna",
+   "puesto": 2,
+   "prob": 0.0012
+  },
+  {
+   "equipo": "Deportivo La Coruna",
+   "puesto": 3,
+   "prob": 0.0034
+  },
+  {
+   "equipo": "Deportivo La Coruna",
+   "puesto": 4,
+   "prob": 0.0176
+  },
+  {
+   "equipo": "Deportivo La Coruna",
+   "puesto": 5,
+   "prob": 0.0346
+  },
+  {
+   "equipo": "Deportivo La Coruna",
+   "puesto": 6,
+   "prob": 0.049
+  },
+  {
+   "equipo": "Deportivo La Coruna",
+   "puesto": 7,
+   "prob": 0.064
+  },
+  {
+   "equipo": "Deportivo La Coruna",
+   "puesto": 8,
+   "prob": 0.0712
+  },
+  {
+   "equipo": "Deportivo La Coruna",
+   "puesto": 9,
+   "prob": 0.0809
+  },
+  {
+   "equipo": "Deportivo La Coruna",
+   "puesto": 10,
+   "prob": 0.0809
+  },
+  {
+   "equipo": "Deportivo La Coruna",
+   "puesto": 11,
+   "prob": 0.0823
+  },
+  {
+   "equipo": "Deportivo La Coruna",
+   "puesto": 12,
+   "prob": 0.0849
+  },
+  {
+   "equipo": "Deportivo La Coruna",
+   "puesto": 13,
+   "prob": 0.0806
+  },
+  {
+   "equipo": "Deportivo La Coruna",
+   "puesto": 14,
+   "prob": 0.0787
+  },
+  {
+   "equipo": "Deportivo La Coruna",
+   "puesto": 15,
+   "prob": 0.071
+  },
+  {
+   "equipo": "Deportivo La Coruna",
+   "puesto": 16,
+   "prob": 0.0675
+  },
+  {
+   "equipo": "Deportivo La Coruna",
+   "puesto": 17,
+   "prob": 0.0522
+  },
+  {
+   "equipo": "Deportivo La Coruna",
+   "puesto": 18,
+   "prob": 0.0426
+  },
+  {
+   "equipo": "Deportivo La Coruna",
+   "puesto": 19,
+   "prob": 0.0312
+  },
+  {
+   "equipo": "Deportivo La Coruna",
+   "puesto": 20,
+   "prob": 0.0062
+  },
+  {
+   "equipo": "Elche",
+   "puesto": 1,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Elche",
+   "puesto": 2,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Elche",
+   "puesto": 3,
+   "prob": 0.0019
+  },
+  {
+   "equipo": "Elche",
+   "puesto": 4,
+   "prob": 0.0079
+  },
+  {
+   "equipo": "Elche",
+   "puesto": 5,
+   "prob": 0.0163
+  },
+  {
+   "equipo": "Elche",
+   "puesto": 6,
+   "prob": 0.0343
+  },
+  {
+   "equipo": "Elche",
+   "puesto": 7,
+   "prob": 0.0487
+  },
+  {
+   "equipo": "Elche",
+   "puesto": 8,
+   "prob": 0.06
+  },
+  {
+   "equipo": "Elche",
+   "puesto": 9,
+   "prob": 0.0666
+  },
+  {
+   "equipo": "Elche",
+   "puesto": 10,
+   "prob": 0.0763
+  },
+  {
+   "equipo": "Elche",
+   "puesto": 11,
+   "prob": 0.0806
+  },
+  {
+   "equipo": "Elche",
+   "puesto": 12,
+   "prob": 0.0814
+  },
+  {
+   "equipo": "Elche",
+   "puesto": 13,
+   "prob": 0.0826
+  },
+  {
+   "equipo": "Elche",
+   "puesto": 14,
+   "prob": 0.0953
+  },
+  {
+   "equipo": "Elche",
+   "puesto": 15,
+   "prob": 0.0808
+  },
+  {
+   "equipo": "Elche",
+   "puesto": 16,
+   "prob": 0.0822
+  },
+  {
+   "equipo": "Elche",
+   "puesto": 17,
+   "prob": 0.073
+  },
+  {
+   "equipo": "Elche",
+   "puesto": 18,
+   "prob": 0.0597
+  },
+  {
+   "equipo": "Elche",
+   "puesto": 19,
+   "prob": 0.0397
+  },
+  {
+   "equipo": "Elche",
+   "puesto": 20,
+   "prob": 0.0127
+  },
+  {
+   "equipo": "Espanyol",
+   "puesto": 1,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Espanyol",
+   "puesto": 2,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Espanyol",
+   "puesto": 3,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Espanyol",
+   "puesto": 4,
+   "prob": 0.0006
+  },
+  {
+   "equipo": "Espanyol",
+   "puesto": 5,
+   "prob": 0.0018
+  },
+  {
+   "equipo": "Espanyol",
+   "puesto": 6,
+   "prob": 0.0052
+  },
+  {
+   "equipo": "Espanyol",
+   "puesto": 7,
+   "prob": 0.0097
+  },
+  {
+   "equipo": "Espanyol",
+   "puesto": 8,
+   "prob": 0.0161
+  },
+  {
+   "equipo": "Espanyol",
+   "puesto": 9,
+   "prob": 0.026
+  },
+  {
+   "equipo": "Espanyol",
+   "puesto": 10,
+   "prob": 0.0316
+  },
+  {
+   "equipo": "Espanyol",
+   "puesto": 11,
+   "prob": 0.042
+  },
+  {
+   "equipo": "Espanyol",
+   "puesto": 12,
+   "prob": 0.0524
+  },
+  {
+   "equipo": "Espanyol",
+   "puesto": 13,
+   "prob": 0.0634
+  },
+  {
+   "equipo": "Espanyol",
+   "puesto": 14,
+   "prob": 0.0793
+  },
+  {
+   "equipo": "Espanyol",
+   "puesto": 15,
+   "prob": 0.097
+  },
+  {
+   "equipo": "Espanyol",
+   "puesto": 16,
+   "prob": 0.1197
+  },
+  {
+   "equipo": "Espanyol",
+   "puesto": 17,
+   "prob": 0.1363
+  },
+  {
+   "equipo": "Espanyol",
+   "puesto": 18,
+   "prob": 0.1392
+  },
+  {
+   "equipo": "Espanyol",
+   "puesto": 19,
+   "prob": 0.1303
+  },
+  {
+   "equipo": "Espanyol",
+   "puesto": 20,
+   "prob": 0.0494
+  },
+  {
+   "equipo": "Getafe",
+   "puesto": 1,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Getafe",
+   "puesto": 2,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Getafe",
+   "puesto": 3,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Getafe",
+   "puesto": 4,
+   "prob": 0.0004
+  },
+  {
+   "equipo": "Getafe",
+   "puesto": 5,
+   "prob": 0.0006
+  },
+  {
+   "equipo": "Getafe",
+   "puesto": 6,
+   "prob": 0.0022
+  },
+  {
+   "equipo": "Getafe",
+   "puesto": 7,
+   "prob": 0.0037
+  },
+  {
+   "equipo": "Getafe",
+   "puesto": 8,
+   "prob": 0.0095
+  },
+  {
+   "equipo": "Getafe",
+   "puesto": 9,
+   "prob": 0.0122
+  },
+  {
+   "equipo": "Getafe",
+   "puesto": 10,
+   "prob": 0.0188
+  },
+  {
+   "equipo": "Getafe",
+   "puesto": 11,
+   "prob": 0.0248
+  },
+  {
+   "equipo": "Getafe",
+   "puesto": 12,
+   "prob": 0.0321
+  },
+  {
+   "equipo": "Getafe",
+   "puesto": 13,
+   "prob": 0.049
+  },
+  {
+   "equipo": "Getafe",
+   "puesto": 14,
+   "prob": 0.0596
+  },
+  {
+   "equipo": "Getafe",
+   "puesto": 15,
+   "prob": 0.0858
+  },
+  {
+   "equipo": "Getafe",
+   "puesto": 16,
+   "prob": 0.1036
+  },
+  {
+   "equipo": "Getafe",
+   "puesto": 17,
+   "prob": 0.1495
+  },
+  {
+   "equipo": "Getafe",
+   "puesto": 18,
+   "prob": 0.1742
+  },
+  {
+   "equipo": "Getafe",
+   "puesto": 19,
+   "prob": 0.2025
+  },
+  {
+   "equipo": "Getafe",
+   "puesto": 20,
+   "prob": 0.0715
+  },
+  {
+   "equipo": "Levante",
+   "puesto": 1,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Levante",
+   "puesto": 2,
+   "prob": 0.0006
+  },
+  {
+   "equipo": "Levante",
+   "puesto": 3,
+   "prob": 0.0035
+  },
+  {
+   "equipo": "Levante",
+   "puesto": 4,
+   "prob": 0.0153
+  },
+  {
+   "equipo": "Levante",
+   "puesto": 5,
+   "prob": 0.0338
+  },
+  {
+   "equipo": "Levante",
+   "puesto": 6,
+   "prob": 0.053
+  },
+  {
+   "equipo": "Levante",
+   "puesto": 7,
+   "prob": 0.0655
+  },
+  {
+   "equipo": "Levante",
+   "puesto": 8,
+   "prob": 0.0702
+  },
+  {
+   "equipo": "Levante",
+   "puesto": 9,
+   "prob": 0.0811
+  },
+  {
+   "equipo": "Levante",
+   "puesto": 10,
+   "prob": 0.0791
+  },
+  {
+   "equipo": "Levante",
+   "puesto": 11,
+   "prob": 0.0803
+  },
+  {
+   "equipo": "Levante",
+   "puesto": 12,
+   "prob": 0.0867
+  },
+  {
+   "equipo": "Levante",
+   "puesto": 13,
+   "prob": 0.082
+  },
+  {
+   "equipo": "Levante",
+   "puesto": 14,
+   "prob": 0.0771
+  },
+  {
+   "equipo": "Levante",
+   "puesto": 15,
+   "prob": 0.0711
+  },
+  {
+   "equipo": "Levante",
+   "puesto": 16,
+   "prob": 0.0627
+  },
+  {
+   "equipo": "Levante",
+   "puesto": 17,
+   "prob": 0.0577
+  },
+  {
+   "equipo": "Levante",
+   "puesto": 18,
+   "prob": 0.0469
+  },
+  {
+   "equipo": "Levante",
+   "puesto": 19,
+   "prob": 0.0265
+  },
+  {
+   "equipo": "Levante",
+   "puesto": 20,
+   "prob": 0.0069
+  },
+  {
+   "equipo": "Malaga",
+   "puesto": 1,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Malaga",
+   "puesto": 2,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Malaga",
+   "puesto": 3,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Malaga",
+   "puesto": 4,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Malaga",
+   "puesto": 5,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Malaga",
+   "puesto": 6,
+   "prob": 0.0001
+  },
+  {
+   "equipo": "Malaga",
+   "puesto": 7,
+   "prob": 0.0001
+  },
+  {
+   "equipo": "Malaga",
+   "puesto": 8,
+   "prob": 0.0001
+  },
+  {
+   "equipo": "Malaga",
+   "puesto": 9,
+   "prob": 0.0003
+  },
+  {
+   "equipo": "Malaga",
+   "puesto": 10,
+   "prob": 0.0008
+  },
+  {
+   "equipo": "Malaga",
+   "puesto": 11,
+   "prob": 0.0014
+  },
+  {
+   "equipo": "Malaga",
+   "puesto": 12,
+   "prob": 0.0024
+  },
+  {
+   "equipo": "Malaga",
+   "puesto": 13,
+   "prob": 0.0038
+  },
+  {
+   "equipo": "Malaga",
+   "puesto": 14,
+   "prob": 0.0076
+  },
+  {
+   "equipo": "Malaga",
+   "puesto": 15,
+   "prob": 0.0122
+  },
+  {
+   "equipo": "Malaga",
+   "puesto": 16,
+   "prob": 0.0204
+  },
+  {
+   "equipo": "Malaga",
+   "puesto": 17,
+   "prob": 0.037
+  },
+  {
+   "equipo": "Malaga",
+   "puesto": 18,
+   "prob": 0.0705
+  },
+  {
+   "equipo": "Malaga",
+   "puesto": 19,
+   "prob": 0.164
+  },
+  {
+   "equipo": "Malaga",
+   "puesto": 20,
+   "prob": 0.6793
+  },
+  {
+   "equipo": "Osasuna",
+   "puesto": 1,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Osasuna",
+   "puesto": 2,
+   "prob": 0.0003
+  },
+  {
+   "equipo": "Osasuna",
+   "puesto": 3,
+   "prob": 0.002
+  },
+  {
+   "equipo": "Osasuna",
+   "puesto": 4,
+   "prob": 0.0086
+  },
+  {
+   "equipo": "Osasuna",
+   "puesto": 5,
+   "prob": 0.0232
+  },
+  {
+   "equipo": "Osasuna",
+   "puesto": 6,
+   "prob": 0.036
+  },
+  {
+   "equipo": "Osasuna",
+   "puesto": 7,
+   "prob": 0.0435
+  },
+  {
+   "equipo": "Osasuna",
+   "puesto": 8,
+   "prob": 0.0614
+  },
+  {
+   "equipo": "Osasuna",
+   "puesto": 9,
+   "prob": 0.0648
+  },
+  {
+   "equipo": "Osasuna",
+   "puesto": 10,
+   "prob": 0.0778
+  },
+  {
+   "equipo": "Osasuna",
+   "puesto": 11,
+   "prob": 0.0854
+  },
+  {
+   "equipo": "Osasuna",
+   "puesto": 12,
+   "prob": 0.083
+  },
+  {
+   "equipo": "Osasuna",
+   "puesto": 13,
+   "prob": 0.0883
+  },
+  {
+   "equipo": "Osasuna",
+   "puesto": 14,
+   "prob": 0.0878
+  },
+  {
+   "equipo": "Osasuna",
+   "puesto": 15,
+   "prob": 0.0855
+  },
+  {
+   "equipo": "Osasuna",
+   "puesto": 16,
+   "prob": 0.0784
+  },
+  {
+   "equipo": "Osasuna",
+   "puesto": 17,
+   "prob": 0.0668
+  },
+  {
+   "equipo": "Osasuna",
+   "puesto": 18,
+   "prob": 0.0615
+  },
+  {
+   "equipo": "Osasuna",
+   "puesto": 19,
+   "prob": 0.0359
+  },
+  {
+   "equipo": "Osasuna",
+   "puesto": 20,
+   "prob": 0.0098
+  },
+  {
+   "equipo": "Racing Santander",
+   "puesto": 1,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Racing Santander",
+   "puesto": 2,
+   "prob": 0.0001
+  },
+  {
+   "equipo": "Racing Santander",
+   "puesto": 3,
+   "prob": 0.0003
+  },
+  {
+   "equipo": "Racing Santander",
+   "puesto": 4,
+   "prob": 0.0029
+  },
+  {
+   "equipo": "Racing Santander",
+   "puesto": 5,
+   "prob": 0.0058
+  },
+  {
+   "equipo": "Racing Santander",
+   "puesto": 6,
+   "prob": 0.0085
+  },
+  {
+   "equipo": "Racing Santander",
+   "puesto": 7,
+   "prob": 0.0125
+  },
+  {
+   "equipo": "Racing Santander",
+   "puesto": 8,
+   "prob": 0.0163
+  },
+  {
+   "equipo": "Racing Santander",
+   "puesto": 9,
+   "prob": 0.024
+  },
+  {
+   "equipo": "Racing Santander",
+   "puesto": 10,
+   "prob": 0.0308
+  },
+  {
+   "equipo": "Racing Santander",
+   "puesto": 11,
+   "prob": 0.036
+  },
+  {
+   "equipo": "Racing Santander",
+   "puesto": 12,
+   "prob": 0.0435
+  },
+  {
+   "equipo": "Racing Santander",
+   "puesto": 13,
+   "prob": 0.0481
+  },
+  {
+   "equipo": "Racing Santander",
+   "puesto": 14,
+   "prob": 0.0591
+  },
+  {
+   "equipo": "Racing Santander",
+   "puesto": 15,
+   "prob": 0.0781
+  },
+  {
+   "equipo": "Racing Santander",
+   "puesto": 16,
+   "prob": 0.0913
+  },
+  {
+   "equipo": "Racing Santander",
+   "puesto": 17,
+   "prob": 0.1128
+  },
+  {
+   "equipo": "Racing Santander",
+   "puesto": 18,
+   "prob": 0.1423
+  },
+  {
+   "equipo": "Racing Santander",
+   "puesto": 19,
+   "prob": 0.1796
+  },
+  {
+   "equipo": "Racing Santander",
+   "puesto": 20,
+   "prob": 0.108
+  },
+  {
+   "equipo": "Rayo Vallecano",
+   "puesto": 1,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Rayo Vallecano",
+   "puesto": 2,
+   "prob": 0.0004
+  },
+  {
+   "equipo": "Rayo Vallecano",
+   "puesto": 3,
+   "prob": 0.0035
+  },
+  {
+   "equipo": "Rayo Vallecano",
+   "puesto": 4,
+   "prob": 0.0114
+  },
+  {
+   "equipo": "Rayo Vallecano",
+   "puesto": 5,
+   "prob": 0.0283
+  },
+  {
+   "equipo": "Rayo Vallecano",
+   "puesto": 6,
+   "prob": 0.0432
+  },
+  {
+   "equipo": "Rayo Vallecano",
+   "puesto": 7,
+   "prob": 0.0561
+  },
+  {
+   "equipo": "Rayo Vallecano",
+   "puesto": 8,
+   "prob": 0.0649
+  },
+  {
+   "equipo": "Rayo Vallecano",
+   "puesto": 9,
+   "prob": 0.0723
+  },
+  {
+   "equipo": "Rayo Vallecano",
+   "puesto": 10,
+   "prob": 0.0757
+  },
+  {
+   "equipo": "Rayo Vallecano",
+   "puesto": 11,
+   "prob": 0.0822
+  },
+  {
+   "equipo": "Rayo Vallecano",
+   "puesto": 12,
+   "prob": 0.0827
+  },
+  {
+   "equipo": "Rayo Vallecano",
+   "puesto": 13,
+   "prob": 0.0891
+  },
+  {
+   "equipo": "Rayo Vallecano",
+   "puesto": 14,
+   "prob": 0.0856
+  },
+  {
+   "equipo": "Rayo Vallecano",
+   "puesto": 15,
+   "prob": 0.082
+  },
+  {
+   "equipo": "Rayo Vallecano",
+   "puesto": 16,
+   "prob": 0.0767
+  },
+  {
+   "equipo": "Rayo Vallecano",
+   "puesto": 17,
+   "prob": 0.0596
+  },
+  {
+   "equipo": "Rayo Vallecano",
+   "puesto": 18,
+   "prob": 0.0472
+  },
+  {
+   "equipo": "Rayo Vallecano",
+   "puesto": 19,
+   "prob": 0.0307
+  },
+  {
+   "equipo": "Rayo Vallecano",
+   "puesto": 20,
+   "prob": 0.0084
+  },
+  {
+   "equipo": "Real Betis",
+   "puesto": 1,
+   "prob": 0.0022
+  },
+  {
+   "equipo": "Real Betis",
+   "puesto": 2,
+   "prob": 0.0482
+  },
+  {
+   "equipo": "Real Betis",
+   "puesto": 3,
+   "prob": 0.1551
+  },
+  {
+   "equipo": "Real Betis",
+   "puesto": 4,
+   "prob": 0.288
+  },
+  {
+   "equipo": "Real Betis",
+   "puesto": 5,
+   "prob": 0.1978
+  },
+  {
+   "equipo": "Real Betis",
+   "puesto": 6,
+   "prob": 0.1093
+  },
+  {
+   "equipo": "Real Betis",
+   "puesto": 7,
+   "prob": 0.0703
+  },
+  {
+   "equipo": "Real Betis",
+   "puesto": 8,
+   "prob": 0.0451
+  },
+  {
+   "equipo": "Real Betis",
+   "puesto": 9,
+   "prob": 0.0287
+  },
+  {
+   "equipo": "Real Betis",
+   "puesto": 10,
+   "prob": 0.0221
+  },
+  {
+   "equipo": "Real Betis",
+   "puesto": 11,
+   "prob": 0.0126
+  },
+  {
+   "equipo": "Real Betis",
+   "puesto": 12,
+   "prob": 0.0081
+  },
+  {
+   "equipo": "Real Betis",
+   "puesto": 13,
+   "prob": 0.0051
+  },
+  {
+   "equipo": "Real Betis",
+   "puesto": 14,
+   "prob": 0.0041
+  },
+  {
+   "equipo": "Real Betis",
+   "puesto": 15,
+   "prob": 0.0017
+  },
+  {
+   "equipo": "Real Betis",
+   "puesto": 16,
+   "prob": 0.0006
+  },
+  {
+   "equipo": "Real Betis",
+   "puesto": 17,
+   "prob": 0.0008
+  },
+  {
+   "equipo": "Real Betis",
+   "puesto": 18,
+   "prob": 0.0002
+  },
+  {
+   "equipo": "Real Betis",
+   "puesto": 19,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Real Betis",
+   "puesto": 20,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Real Madrid",
+   "puesto": 1,
+   "prob": 0.0814
+  },
+  {
+   "equipo": "Real Madrid",
+   "puesto": 2,
+   "prob": 0.5561
+  },
+  {
+   "equipo": "Real Madrid",
+   "puesto": 3,
+   "prob": 0.2634
+  },
+  {
+   "equipo": "Real Madrid",
+   "puesto": 4,
+   "prob": 0.0674
+  },
+  {
+   "equipo": "Real Madrid",
+   "puesto": 5,
+   "prob": 0.0217
+  },
+  {
+   "equipo": "Real Madrid",
+   "puesto": 6,
+   "prob": 0.0057
+  },
+  {
+   "equipo": "Real Madrid",
+   "puesto": 7,
+   "prob": 0.0028
+  },
+  {
+   "equipo": "Real Madrid",
+   "puesto": 8,
+   "prob": 0.0006
+  },
+  {
+   "equipo": "Real Madrid",
+   "puesto": 9,
+   "prob": 0.0008
+  },
+  {
+   "equipo": "Real Madrid",
+   "puesto": 10,
+   "prob": 0.0001
+  },
+  {
+   "equipo": "Real Madrid",
+   "puesto": 11,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Real Madrid",
+   "puesto": 12,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Real Madrid",
+   "puesto": 13,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Real Madrid",
+   "puesto": 14,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Real Madrid",
+   "puesto": 15,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Real Madrid",
+   "puesto": 16,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Real Madrid",
+   "puesto": 17,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Real Madrid",
+   "puesto": 18,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Real Madrid",
+   "puesto": 19,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Real Madrid",
+   "puesto": 20,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Real Sociedad",
+   "puesto": 1,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Real Sociedad",
+   "puesto": 2,
+   "prob": 0.0028
+  },
+  {
+   "equipo": "Real Sociedad",
+   "puesto": 3,
+   "prob": 0.0193
+  },
+  {
+   "equipo": "Real Sociedad",
+   "puesto": 4,
+   "prob": 0.0715
+  },
+  {
+   "equipo": "Real Sociedad",
+   "puesto": 5,
+   "prob": 0.1167
+  },
+  {
+   "equipo": "Real Sociedad",
+   "puesto": 6,
+   "prob": 0.1296
+  },
+  {
+   "equipo": "Real Sociedad",
+   "puesto": 7,
+   "prob": 0.1253
+  },
+  {
+   "equipo": "Real Sociedad",
+   "puesto": 8,
+   "prob": 0.1068
+  },
+  {
+   "equipo": "Real Sociedad",
+   "puesto": 9,
+   "prob": 0.0933
+  },
+  {
+   "equipo": "Real Sociedad",
+   "puesto": 10,
+   "prob": 0.0798
+  },
+  {
+   "equipo": "Real Sociedad",
+   "puesto": 11,
+   "prob": 0.0641
+  },
+  {
+   "equipo": "Real Sociedad",
+   "puesto": 12,
+   "prob": 0.0525
+  },
+  {
+   "equipo": "Real Sociedad",
+   "puesto": 13,
+   "prob": 0.0391
+  },
+  {
+   "equipo": "Real Sociedad",
+   "puesto": 14,
+   "prob": 0.0344
+  },
+  {
+   "equipo": "Real Sociedad",
+   "puesto": 15,
+   "prob": 0.0253
+  },
+  {
+   "equipo": "Real Sociedad",
+   "puesto": 16,
+   "prob": 0.018
+  },
+  {
+   "equipo": "Real Sociedad",
+   "puesto": 17,
+   "prob": 0.0106
+  },
+  {
+   "equipo": "Real Sociedad",
+   "puesto": 18,
+   "prob": 0.0064
+  },
+  {
+   "equipo": "Real Sociedad",
+   "puesto": 19,
+   "prob": 0.004
+  },
+  {
+   "equipo": "Real Sociedad",
+   "puesto": 20,
+   "prob": 0.0005
+  },
+  {
+   "equipo": "Sevilla",
+   "puesto": 1,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Sevilla",
+   "puesto": 2,
+   "prob": 0.0009
+  },
+  {
+   "equipo": "Sevilla",
+   "puesto": 3,
+   "prob": 0.008
+  },
+  {
+   "equipo": "Sevilla",
+   "puesto": 4,
+   "prob": 0.0312
+  },
+  {
+   "equipo": "Sevilla",
+   "puesto": 5,
+   "prob": 0.063
+  },
+  {
+   "equipo": "Sevilla",
+   "puesto": 6,
+   "prob": 0.088
+  },
+  {
+   "equipo": "Sevilla",
+   "puesto": 7,
+   "prob": 0.0956
+  },
+  {
+   "equipo": "Sevilla",
+   "puesto": 8,
+   "prob": 0.1016
+  },
+  {
+   "equipo": "Sevilla",
+   "puesto": 9,
+   "prob": 0.0964
+  },
+  {
+   "equipo": "Sevilla",
+   "puesto": 10,
+   "prob": 0.0963
+  },
+  {
+   "equipo": "Sevilla",
+   "puesto": 11,
+   "prob": 0.0813
+  },
+  {
+   "equipo": "Sevilla",
+   "puesto": 12,
+   "prob": 0.0769
+  },
+  {
+   "equipo": "Sevilla",
+   "puesto": 13,
+   "prob": 0.0662
+  },
+  {
+   "equipo": "Sevilla",
+   "puesto": 14,
+   "prob": 0.059
+  },
+  {
+   "equipo": "Sevilla",
+   "puesto": 15,
+   "prob": 0.0474
+  },
+  {
+   "equipo": "Sevilla",
+   "puesto": 16,
+   "prob": 0.0346
+  },
+  {
+   "equipo": "Sevilla",
+   "puesto": 17,
+   "prob": 0.0262
+  },
+  {
+   "equipo": "Sevilla",
+   "puesto": 18,
+   "prob": 0.0171
+  },
+  {
+   "equipo": "Sevilla",
+   "puesto": 19,
+   "prob": 0.009
+  },
+  {
+   "equipo": "Sevilla",
+   "puesto": 20,
+   "prob": 0.0013
+  },
+  {
+   "equipo": "Valencia",
+   "puesto": 1,
+   "prob": 0.0
+  },
+  {
+   "equipo": "Valencia",
+   "puesto": 2,
+   "prob": 0.0001
+  },
+  {
+   "equipo": "Valencia",
+   "puesto": 3,
+   "prob": 0.0001
+  },
+  {
+   "equipo": "Valencia",
+   "puesto": 4,
+   "prob": 0.0009
+  },
+  {
+   "equipo": "Valencia",
+   "puesto": 5,
+   "prob": 0.0039
+  },
+  {
+   "equipo": "Valencia",
+   "puesto": 6,
+   "prob": 0.0089
+  },
+  {
+   "equipo": "Valencia",
+   "puesto": 7,
+   "prob": 0.0177
+  },
+  {
+   "equipo": "Valencia",
+   "puesto": 8,
+   "prob": 0.0253
+  },
+  {
+   "equipo": "Valencia",
+   "puesto": 9,
+   "prob": 0.0308
+  },
+  {
+   "equipo": "Valencia",
+   "puesto": 10,
+   "prob": 0.0401
+  },
+  {
+   "equipo": "Valencia",
+   "puesto": 11,
+   "prob": 0.0527
+  },
+  {
+   "equipo": "Valencia",
+   "puesto": 12,
+   "prob": 0.0635
+  },
+  {
+   "equipo": "Valencia",
+   "puesto": 13,
+   "prob": 0.0766
+  },
+  {
+   "equipo": "Valencia",
+   "puesto": 14,
+   "prob": 0.0856
+  },
+  {
+   "equipo": "Valencia",
+   "puesto": 15,
+   "prob": 0.1017
+  },
+  {
+   "equipo": "Valencia",
+   "puesto": 16,
+   "prob": 0.1126
+  },
+  {
+   "equipo": "Valencia",
+   "puesto": 17,
+   "prob": 0.1131
+  },
+  {
+   "equipo": "Valencia",
+   "puesto": 18,
+   "prob": 0.1211
+  },
+  {
+   "equipo": "Valencia",
+   "puesto": 19,
+   "prob": 0.1082
+  },
+  {
+   "equipo": "Valencia",
+   "puesto": 20,
+   "prob": 0.0371
+  },
+  {
+   "equipo": "Villarreal",
+   "puesto": 1,
+   "prob": 0.0003
+  },
+  {
+   "equipo": "Villarreal",
+   "puesto": 2,
+   "prob": 0.0134
+  },
+  {
+   "equipo": "Villarreal",
+   "puesto": 3,
+   "prob": 0.0698
+  },
+  {
+   "equipo": "Villarreal",
+   "puesto": 4,
+   "prob": 0.1939
+  },
+  {
+   "equipo": "Villarreal",
+   "puesto": 5,
+   "prob": 0.1926
+  },
+  {
+   "equipo": "Villarreal",
+   "puesto": 6,
+   "prob": 0.1475
+  },
+  {
+   "equipo": "Villarreal",
+   "puesto": 7,
+   "prob": 0.1053
+  },
+  {
+   "equipo": "Villarreal",
+   "puesto": 8,
+   "prob": 0.0768
+  },
+  {
+   "equipo": "Villarreal",
+   "puesto": 9,
+   "prob": 0.058
+  },
+  {
+   "equipo": "Villarreal",
+   "puesto": 10,
+   "prob": 0.0421
+  },
+  {
+   "equipo": "Villarreal",
+   "puesto": 11,
+   "prob": 0.0321
+  },
+  {
+   "equipo": "Villarreal",
+   "puesto": 12,
+   "prob": 0.0222
+  },
+  {
+   "equipo": "Villarreal",
+   "puesto": 13,
+   "prob": 0.0151
+  },
+  {
+   "equipo": "Villarreal",
+   "puesto": 14,
+   "prob": 0.0119
+  },
+  {
+   "equipo": "Villarreal",
+   "puesto": 15,
+   "prob": 0.008
+  },
+  {
+   "equipo": "Villarreal",
+   "puesto": 16,
+   "prob": 0.0059
+  },
+  {
+   "equipo": "Villarreal",
+   "puesto": 17,
+   "prob": 0.0027
+  },
+  {
+   "equipo": "Villarreal",
+   "puesto": 18,
+   "prob": 0.0016
+  },
+  {
+   "equipo": "Villarreal",
+   "puesto": 19,
+   "prob": 0.0008
+  },
+  {
+   "equipo": "Villarreal",
+   "puesto": 20,
+   "prob": 0.0
+  }
+ ],
+ "distribucion_puntos": [
+  {
+   "equipo": "Real Madrid",
+   "puntos": 52,
+   "prob": 0.0002
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 53,
+   "prob": 0.0001
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 54,
+   "prob": 0.0004
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 55,
+   "prob": 0.0002
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 56,
+   "prob": 0.0001
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 57,
+   "prob": 0.0006
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 58,
+   "prob": 0.0012
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 59,
+   "prob": 0.0017
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 60,
+   "prob": 0.0023
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 61,
+   "prob": 0.0037
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 62,
+   "prob": 0.0049
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 63,
+   "prob": 0.0053
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 64,
+   "prob": 0.0067
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 65,
+   "prob": 0.0099
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 66,
+   "prob": 0.0098
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 67,
+   "prob": 0.0127
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 68,
+   "prob": 0.0173
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 69,
+   "prob": 0.0209
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 70,
+   "prob": 0.0227
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 71,
+   "prob": 0.0266
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 72,
+   "prob": 0.0306
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 73,
+   "prob": 0.0391
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 74,
+   "prob": 0.0394
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 75,
+   "prob": 0.0413
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 76,
+   "prob": 0.0491
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 77,
+   "prob": 0.049
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 78,
+   "prob": 0.052
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 79,
+   "prob": 0.0539
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 80,
+   "prob": 0.0551
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 81,
+   "prob": 0.0492
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 82,
+   "prob": 0.0503
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 83,
+   "prob": 0.0459
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 84,
+   "prob": 0.0466
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 85,
+   "prob": 0.04
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 86,
+   "prob": 0.0352
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 87,
+   "prob": 0.0339
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 88,
+   "prob": 0.029
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 89,
+   "prob": 0.0221
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 90,
+   "prob": 0.0218
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 91,
+   "prob": 0.0184
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 92,
+   "prob": 0.0152
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 93,
+   "prob": 0.0103
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 94,
+   "prob": 0.0068
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 95,
+   "prob": 0.0053
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 96,
+   "prob": 0.0049
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 97,
+   "prob": 0.0027
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 98,
+   "prob": 0.0029
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 99,
+   "prob": 0.0012
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 100,
+   "prob": 0.0008
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 101,
+   "prob": 0.0004
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 103,
+   "prob": 0.0002
+  },
+  {
+   "equipo": "Real Madrid",
+   "puntos": 106,
+   "prob": 0.0001
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 63,
+   "prob": 0.0001
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 64,
+   "prob": 0.0001
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 65,
+   "prob": 0.0001
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 66,
+   "prob": 0.0001
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 67,
+   "prob": 0.0003
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 68,
+   "prob": 0.0007
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 69,
+   "prob": 0.0002
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 70,
+   "prob": 0.0003
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 71,
+   "prob": 0.0002
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 72,
+   "prob": 0.0006
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 73,
+   "prob": 0.0012
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 74,
+   "prob": 0.0022
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 75,
+   "prob": 0.0019
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 76,
+   "prob": 0.0031
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 77,
+   "prob": 0.0042
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 78,
+   "prob": 0.0051
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 79,
+   "prob": 0.0065
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 80,
+   "prob": 0.0093
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 81,
+   "prob": 0.0119
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 82,
+   "prob": 0.0136
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 83,
+   "prob": 0.0194
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 84,
+   "prob": 0.0224
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 85,
+   "prob": 0.0239
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 86,
+   "prob": 0.0304
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 87,
+   "prob": 0.03
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 88,
+   "prob": 0.0362
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 89,
+   "prob": 0.0447
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 90,
+   "prob": 0.0467
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 91,
+   "prob": 0.0469
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 92,
+   "prob": 0.0491
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 93,
+   "prob": 0.0566
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 94,
+   "prob": 0.0609
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 95,
+   "prob": 0.0568
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 96,
+   "prob": 0.0579
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 97,
+   "prob": 0.0499
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 98,
+   "prob": 0.0542
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 99,
+   "prob": 0.042
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 100,
+   "prob": 0.0423
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 101,
+   "prob": 0.0396
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 102,
+   "prob": 0.0318
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 103,
+   "prob": 0.0258
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 104,
+   "prob": 0.0229
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 105,
+   "prob": 0.0141
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 106,
+   "prob": 0.0107
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 107,
+   "prob": 0.009
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 108,
+   "prob": 0.0053
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 109,
+   "prob": 0.0035
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 110,
+   "prob": 0.0023
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 111,
+   "prob": 0.0015
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 112,
+   "prob": 0.0014
+  },
+  {
+   "equipo": "Barcelona",
+   "puntos": 114,
+   "prob": 0.0001
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 45,
+   "prob": 0.0001
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 48,
+   "prob": 0.0002
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 50,
+   "prob": 0.0003
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 51,
+   "prob": 0.001
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 52,
+   "prob": 0.0014
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 53,
+   "prob": 0.0021
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 54,
+   "prob": 0.0018
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 55,
+   "prob": 0.002
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 56,
+   "prob": 0.0042
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 57,
+   "prob": 0.0046
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 58,
+   "prob": 0.0046
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 59,
+   "prob": 0.0086
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 60,
+   "prob": 0.0089
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 61,
+   "prob": 0.0127
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 62,
+   "prob": 0.0159
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 63,
+   "prob": 0.0182
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 64,
+   "prob": 0.0214
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 65,
+   "prob": 0.0268
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 66,
+   "prob": 0.0276
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 67,
+   "prob": 0.0315
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 68,
+   "prob": 0.0325
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 69,
+   "prob": 0.0376
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 70,
+   "prob": 0.038
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 71,
+   "prob": 0.0409
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 72,
+   "prob": 0.0484
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 73,
+   "prob": 0.0466
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 74,
+   "prob": 0.05
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 75,
+   "prob": 0.0497
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 76,
+   "prob": 0.0502
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 77,
+   "prob": 0.0468
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 78,
+   "prob": 0.0436
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 79,
+   "prob": 0.042
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 80,
+   "prob": 0.0414
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 81,
+   "prob": 0.0402
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 82,
+   "prob": 0.0353
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 83,
+   "prob": 0.0297
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 84,
+   "prob": 0.0261
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 85,
+   "prob": 0.022
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 86,
+   "prob": 0.0181
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 87,
+   "prob": 0.0146
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 88,
+   "prob": 0.0137
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 89,
+   "prob": 0.0116
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 90,
+   "prob": 0.0084
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 91,
+   "prob": 0.0048
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 92,
+   "prob": 0.0042
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 93,
+   "prob": 0.0035
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 94,
+   "prob": 0.0027
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 95,
+   "prob": 0.0011
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 96,
+   "prob": 0.0008
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 97,
+   "prob": 0.0008
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 98,
+   "prob": 0.0004
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 99,
+   "prob": 0.0003
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "puntos": 101,
+   "prob": 0.0001
+  }
+ ],
+ "trayectorias": {
+  "fechas": [
+   "2026-10-10T00:00Z",
+   "2026-10-25T00:00Z",
+   "2026-10-26T00:00Z",
+   "2026-10-30T00:00Z",
+   "2026-10-31T00:00Z",
+   "2026-11-01T00:00Z",
+   "2026-11-08T00:00Z",
+   "2026-11-22T00:00Z",
+   "2026-11-29T00:00Z",
+   "2026-12-06T00:00Z",
+   "2026-12-13T00:00Z",
+   "2026-12-20T00:00Z",
+   "2027-01-03T00:00Z",
+   "2027-01-10T00:00Z",
+   "2027-01-17T00:00Z",
+   "2027-01-24T00:00Z",
+   "2027-01-31T00:00Z",
+   "2027-02-07T00:00Z",
+   "2027-02-14T00:00Z",
+   "2027-02-21T00:00Z",
+   "2027-02-28T00:00Z",
+   "2027-03-07T00:00Z",
+   "2027-03-14T00:00Z",
+   "2027-03-21T00:00Z",
+   "2027-04-04T00:00Z",
+   "2027-04-11T00:00Z",
+   "2027-04-18T00:00Z",
+   "2027-04-21T00:00Z",
+   "2027-05-02T00:00Z",
+   "2027-05-09T00:00Z",
+   "2027-05-16T00:00Z",
+   "2027-05-23T00:00Z",
+   "2027-05-30T00:00Z"
+  ],
+  "equipos": [
+   "Real Madrid",
+   "Barcelona",
+   "Atletico Madrid"
+  ],
+  "cuantiles": [
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2026-10-10T00:00Z",
+    "p05": 21.0,
+    "p25": 21.0,
+    "p50": 21.0,
+    "p75": 21.0,
+    "p95": 21.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2026-10-25T00:00Z",
+    "p05": 21.0,
+    "p25": 21.0,
+    "p50": 21.0,
+    "p75": 22.0,
+    "p95": 24.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2026-10-26T00:00Z",
+    "p05": 21.0,
+    "p25": 21.0,
+    "p50": 21.0,
+    "p75": 22.0,
+    "p95": 24.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2026-10-30T00:00Z",
+    "p05": 21.0,
+    "p25": 21.0,
+    "p50": 21.0,
+    "p75": 22.0,
+    "p95": 24.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2026-10-31T00:00Z",
+    "p05": 21.0,
+    "p25": 21.0,
+    "p50": 21.0,
+    "p75": 22.0,
+    "p95": 24.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2026-11-01T00:00Z",
+    "p05": 21.0,
+    "p25": 24.0,
+    "p50": 24.0,
+    "p75": 25.0,
+    "p95": 27.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2026-11-08T00:00Z",
+    "p05": 22.0,
+    "p25": 24.0,
+    "p50": 26.0,
+    "p75": 27.0,
+    "p95": 30.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2026-11-22T00:00Z",
+    "p05": 24.0,
+    "p25": 27.0,
+    "p50": 28.0,
+    "p75": 30.0,
+    "p95": 33.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2026-11-29T00:00Z",
+    "p05": 26.0,
+    "p25": 28.0,
+    "p50": 31.0,
+    "p75": 33.0,
+    "p95": 34.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2026-12-06T00:00Z",
+    "p05": 27.0,
+    "p25": 30.0,
+    "p50": 32.0,
+    "p75": 34.0,
+    "p95": 37.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2026-12-13T00:00Z",
+    "p05": 29.0,
+    "p25": 32.0,
+    "p50": 34.0,
+    "p75": 37.0,
+    "p95": 40.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2026-12-20T00:00Z",
+    "p05": 30.0,
+    "p25": 34.0,
+    "p50": 36.0,
+    "p75": 39.0,
+    "p95": 42.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2027-01-03T00:00Z",
+    "p05": 32.0,
+    "p25": 36.0,
+    "p50": 39.0,
+    "p75": 41.0,
+    "p95": 45.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2027-01-10T00:00Z",
+    "p05": 34.0,
+    "p25": 38.0,
+    "p50": 41.0,
+    "p75": 44.0,
+    "p95": 47.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2027-01-17T00:00Z",
+    "p05": 36.0,
+    "p25": 41.0,
+    "p50": 43.0,
+    "p75": 46.0,
+    "p95": 50.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2027-01-24T00:00Z",
+    "p05": 38.0,
+    "p25": 43.0,
+    "p50": 46.0,
+    "p75": 49.0,
+    "p95": 52.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2027-01-31T00:00Z",
+    "p05": 40.0,
+    "p25": 44.0,
+    "p50": 47.0,
+    "p75": 50.0,
+    "p95": 55.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2027-02-07T00:00Z",
+    "p05": 41.0,
+    "p25": 46.0,
+    "p50": 49.0,
+    "p75": 52.0,
+    "p95": 57.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2027-02-14T00:00Z",
+    "p05": 43.0,
+    "p25": 48.0,
+    "p50": 51.0,
+    "p75": 55.0,
+    "p95": 59.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2027-02-21T00:00Z",
+    "p05": 44.0,
+    "p25": 50.0,
+    "p50": 53.0,
+    "p75": 57.0,
+    "p95": 61.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2027-02-28T00:00Z",
+    "p05": 47.0,
+    "p25": 52.0,
+    "p50": 56.0,
+    "p75": 59.0,
+    "p95": 64.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2027-03-07T00:00Z",
+    "p05": 48.0,
+    "p25": 53.0,
+    "p50": 57.0,
+    "p75": 61.0,
+    "p95": 66.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2027-03-14T00:00Z",
+    "p05": 50.0,
+    "p25": 56.0,
+    "p50": 59.0,
+    "p75": 63.0,
+    "p95": 68.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2027-03-21T00:00Z",
+    "p05": 51.0,
+    "p25": 57.0,
+    "p50": 61.0,
+    "p75": 65.0,
+    "p95": 71.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2027-04-04T00:00Z",
+    "p05": 53.0,
+    "p25": 59.0,
+    "p50": 63.0,
+    "p75": 67.0,
+    "p95": 73.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2027-04-11T00:00Z",
+    "p05": 54.0,
+    "p25": 61.0,
+    "p50": 65.0,
+    "p75": 69.0,
+    "p95": 75.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2027-04-18T00:00Z",
+    "p05": 56.0,
+    "p25": 63.0,
+    "p50": 67.0,
+    "p75": 71.0,
+    "p95": 78.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2027-04-21T00:00Z",
+    "p05": 58.0,
+    "p25": 65.0,
+    "p50": 69.0,
+    "p75": 74.0,
+    "p95": 80.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2027-05-02T00:00Z",
+    "p05": 60.0,
+    "p25": 67.0,
+    "p50": 71.0,
+    "p75": 76.0,
+    "p95": 82.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2027-05-09T00:00Z",
+    "p05": 61.0,
+    "p25": 68.0,
+    "p50": 73.0,
+    "p75": 78.0,
+    "p95": 84.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2027-05-16T00:00Z",
+    "p05": 63.0,
+    "p25": 71.0,
+    "p50": 75.0,
+    "p75": 80.0,
+    "p95": 87.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2027-05-23T00:00Z",
+    "p05": 65.0,
+    "p25": 72.0,
+    "p50": 77.0,
+    "p75": 82.0,
+    "p95": 89.0
+   },
+   {
+    "equipo": "Real Madrid",
+    "fecha": "2027-05-30T00:00Z",
+    "p05": 67.0,
+    "p25": 74.0,
+    "p50": 79.0,
+    "p75": 85.0,
+    "p95": 92.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2026-10-10T00:00Z",
+    "p05": 27.0,
+    "p25": 27.0,
+    "p50": 27.0,
+    "p75": 27.0,
+    "p95": 27.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2026-10-25T00:00Z",
+    "p05": 27.0,
+    "p25": 28.0,
+    "p50": 30.0,
+    "p75": 30.0,
+    "p95": 30.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2026-10-26T00:00Z",
+    "p05": 27.0,
+    "p25": 28.0,
+    "p50": 30.0,
+    "p75": 30.0,
+    "p95": 30.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2026-10-30T00:00Z",
+    "p05": 27.0,
+    "p25": 28.0,
+    "p50": 30.0,
+    "p75": 30.0,
+    "p95": 30.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2026-10-31T00:00Z",
+    "p05": 28.0,
+    "p25": 30.0,
+    "p50": 31.0,
+    "p75": 33.0,
+    "p95": 33.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2026-11-01T00:00Z",
+    "p05": 28.0,
+    "p25": 30.0,
+    "p50": 31.0,
+    "p75": 33.0,
+    "p95": 33.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2026-11-08T00:00Z",
+    "p05": 30.0,
+    "p25": 31.0,
+    "p50": 33.0,
+    "p75": 34.0,
+    "p95": 36.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2026-11-22T00:00Z",
+    "p05": 31.0,
+    "p25": 34.0,
+    "p50": 36.0,
+    "p75": 37.0,
+    "p95": 39.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2026-11-29T00:00Z",
+    "p05": 33.0,
+    "p25": 36.0,
+    "p50": 37.0,
+    "p75": 40.0,
+    "p95": 42.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2026-12-06T00:00Z",
+    "p05": 35.0,
+    "p25": 38.0,
+    "p50": 40.0,
+    "p75": 42.0,
+    "p95": 45.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2026-12-13T00:00Z",
+    "p05": 37.0,
+    "p25": 41.0,
+    "p50": 43.0,
+    "p75": 45.0,
+    "p95": 48.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2026-12-20T00:00Z",
+    "p05": 40.0,
+    "p25": 43.0,
+    "p50": 46.0,
+    "p75": 48.0,
+    "p95": 51.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2027-01-03T00:00Z",
+    "p05": 41.0,
+    "p25": 45.0,
+    "p50": 48.0,
+    "p75": 50.0,
+    "p95": 52.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2027-01-10T00:00Z",
+    "p05": 43.0,
+    "p25": 47.0,
+    "p50": 50.0,
+    "p75": 52.0,
+    "p95": 55.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2027-01-17T00:00Z",
+    "p05": 46.0,
+    "p25": 50.0,
+    "p50": 53.0,
+    "p75": 55.0,
+    "p95": 58.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2027-01-24T00:00Z",
+    "p05": 47.0,
+    "p25": 52.0,
+    "p50": 55.0,
+    "p75": 58.0,
+    "p95": 61.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2027-01-31T00:00Z",
+    "p05": 50.0,
+    "p25": 54.0,
+    "p50": 57.0,
+    "p75": 60.0,
+    "p95": 64.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2027-02-07T00:00Z",
+    "p05": 52.0,
+    "p25": 56.0,
+    "p50": 59.0,
+    "p75": 62.0,
+    "p95": 66.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2027-02-14T00:00Z",
+    "p05": 53.0,
+    "p25": 58.0,
+    "p50": 61.0,
+    "p75": 64.0,
+    "p95": 68.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2027-02-21T00:00Z",
+    "p05": 55.0,
+    "p25": 60.0,
+    "p50": 64.0,
+    "p75": 67.0,
+    "p95": 71.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2027-02-28T00:00Z",
+    "p05": 57.0,
+    "p25": 62.0,
+    "p50": 66.0,
+    "p75": 69.0,
+    "p95": 73.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2027-03-07T00:00Z",
+    "p05": 59.0,
+    "p25": 65.0,
+    "p50": 68.0,
+    "p75": 72.0,
+    "p95": 76.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2027-03-14T00:00Z",
+    "p05": 61.0,
+    "p25": 67.0,
+    "p50": 71.0,
+    "p75": 74.0,
+    "p95": 79.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2027-03-21T00:00Z",
+    "p05": 63.0,
+    "p25": 69.0,
+    "p50": 73.0,
+    "p75": 77.0,
+    "p95": 81.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2027-04-04T00:00Z",
+    "p05": 65.0,
+    "p25": 72.0,
+    "p50": 76.0,
+    "p75": 79.0,
+    "p95": 84.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2027-04-11T00:00Z",
+    "p05": 67.0,
+    "p25": 74.0,
+    "p50": 78.0,
+    "p75": 82.0,
+    "p95": 87.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2027-04-18T00:00Z",
+    "p05": 70.0,
+    "p25": 76.75,
+    "p50": 81.0,
+    "p75": 85.0,
+    "p95": 89.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2027-04-21T00:00Z",
+    "p05": 72.0,
+    "p25": 78.0,
+    "p50": 83.0,
+    "p75": 87.0,
+    "p95": 92.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2027-05-02T00:00Z",
+    "p05": 74.0,
+    "p25": 81.0,
+    "p50": 85.0,
+    "p75": 89.0,
+    "p95": 95.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2027-05-09T00:00Z",
+    "p05": 75.0,
+    "p25": 82.0,
+    "p50": 87.0,
+    "p75": 91.0,
+    "p95": 96.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2027-05-16T00:00Z",
+    "p05": 77.0,
+    "p25": 84.0,
+    "p50": 89.0,
+    "p75": 93.0,
+    "p95": 99.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2027-05-23T00:00Z",
+    "p05": 80.0,
+    "p25": 87.0,
+    "p50": 92.0,
+    "p75": 96.0,
+    "p95": 102.0
+   },
+   {
+    "equipo": "Barcelona",
+    "fecha": "2027-05-30T00:00Z",
+    "p05": 82.0,
+    "p25": 89.0,
+    "p50": 94.0,
+    "p75": 99.0,
+    "p95": 104.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2026-10-10T00:00Z",
+    "p05": 25.0,
+    "p25": 25.0,
+    "p50": 25.0,
+    "p75": 25.0,
+    "p95": 25.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2026-10-25T00:00Z",
+    "p05": 25.0,
+    "p25": 25.0,
+    "p50": 25.0,
+    "p75": 25.0,
+    "p95": 25.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2026-10-26T00:00Z",
+    "p05": 25.0,
+    "p25": 25.0,
+    "p50": 25.0,
+    "p75": 25.0,
+    "p95": 25.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2026-10-30T00:00Z",
+    "p05": 25.0,
+    "p25": 25.0,
+    "p50": 25.0,
+    "p75": 25.0,
+    "p95": 25.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2026-10-31T00:00Z",
+    "p05": 25.0,
+    "p25": 25.0,
+    "p50": 26.0,
+    "p75": 28.0,
+    "p95": 28.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2026-11-01T00:00Z",
+    "p05": 25.0,
+    "p25": 25.0,
+    "p50": 26.0,
+    "p75": 28.0,
+    "p95": 28.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2026-11-08T00:00Z",
+    "p05": 25.0,
+    "p25": 26.0,
+    "p50": 28.0,
+    "p75": 29.0,
+    "p95": 31.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2026-11-22T00:00Z",
+    "p05": 26.0,
+    "p25": 28.0,
+    "p50": 29.0,
+    "p75": 31.0,
+    "p95": 34.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2026-11-29T00:00Z",
+    "p05": 27.0,
+    "p25": 29.0,
+    "p50": 31.0,
+    "p75": 33.0,
+    "p95": 35.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2026-12-06T00:00Z",
+    "p05": 28.0,
+    "p25": 31.0,
+    "p50": 33.0,
+    "p75": 35.0,
+    "p95": 38.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2026-12-13T00:00Z",
+    "p05": 30.0,
+    "p25": 33.0,
+    "p50": 35.0,
+    "p75": 38.0,
+    "p95": 41.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2026-12-20T00:00Z",
+    "p05": 31.0,
+    "p25": 34.0,
+    "p50": 37.0,
+    "p75": 39.0,
+    "p95": 43.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2027-01-03T00:00Z",
+    "p05": 32.0,
+    "p25": 36.0,
+    "p50": 38.0,
+    "p75": 41.0,
+    "p95": 44.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2027-01-10T00:00Z",
+    "p05": 34.0,
+    "p25": 38.0,
+    "p50": 41.0,
+    "p75": 44.0,
+    "p95": 47.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2027-01-17T00:00Z",
+    "p05": 36.0,
+    "p25": 40.0,
+    "p50": 43.0,
+    "p75": 46.0,
+    "p95": 50.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2027-01-24T00:00Z",
+    "p05": 37.0,
+    "p25": 41.0,
+    "p50": 44.0,
+    "p75": 47.0,
+    "p95": 52.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2027-01-31T00:00Z",
+    "p05": 39.0,
+    "p25": 43.0,
+    "p50": 47.0,
+    "p75": 50.0,
+    "p95": 54.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2027-02-07T00:00Z",
+    "p05": 39.0,
+    "p25": 44.0,
+    "p50": 47.0,
+    "p75": 51.0,
+    "p95": 55.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2027-02-14T00:00Z",
+    "p05": 40.0,
+    "p25": 45.0,
+    "p50": 49.0,
+    "p75": 52.0,
+    "p95": 57.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2027-02-21T00:00Z",
+    "p05": 42.0,
+    "p25": 47.0,
+    "p50": 51.0,
+    "p75": 55.0,
+    "p95": 60.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2027-02-28T00:00Z",
+    "p05": 44.0,
+    "p25": 49.0,
+    "p50": 53.0,
+    "p75": 57.0,
+    "p95": 62.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2027-03-07T00:00Z",
+    "p05": 45.0,
+    "p25": 51.0,
+    "p50": 55.0,
+    "p75": 59.0,
+    "p95": 64.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2027-03-14T00:00Z",
+    "p05": 47.0,
+    "p25": 53.0,
+    "p50": 57.0,
+    "p75": 61.0,
+    "p95": 67.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2027-03-21T00:00Z",
+    "p05": 49.0,
+    "p25": 55.0,
+    "p50": 60.0,
+    "p75": 64.0,
+    "p95": 69.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2027-04-04T00:00Z",
+    "p05": 50.0,
+    "p25": 56.0,
+    "p50": 60.0,
+    "p75": 65.0,
+    "p95": 70.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2027-04-11T00:00Z",
+    "p05": 52.0,
+    "p25": 58.0,
+    "p50": 62.0,
+    "p75": 67.0,
+    "p95": 73.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2027-04-18T00:00Z",
+    "p05": 53.0,
+    "p25": 60.0,
+    "p50": 65.0,
+    "p75": 69.0,
+    "p95": 75.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2027-04-21T00:00Z",
+    "p05": 54.0,
+    "p25": 61.0,
+    "p50": 66.0,
+    "p75": 70.0,
+    "p95": 77.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2027-05-02T00:00Z",
+    "p05": 56.0,
+    "p25": 63.0,
+    "p50": 68.0,
+    "p75": 73.0,
+    "p95": 79.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2027-05-09T00:00Z",
+    "p05": 57.0,
+    "p25": 64.0,
+    "p50": 69.0,
+    "p75": 74.0,
+    "p95": 81.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2027-05-16T00:00Z",
+    "p05": 59.0,
+    "p25": 66.0,
+    "p50": 71.0,
+    "p75": 77.0,
+    "p95": 84.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2027-05-23T00:00Z",
+    "p05": 60.0,
+    "p25": 68.0,
+    "p50": 73.0,
+    "p75": 79.0,
+    "p95": 86.0
+   },
+   {
+    "equipo": "Atletico Madrid",
+    "fecha": "2027-05-30T00:00Z",
+    "p05": 61.0,
+    "p25": 69.0,
+    "p50": 75.0,
+    "p75": 80.0,
+    "p95": 88.0
+   }
+  ],
+  "muestra": [
+   {
+    "sim": 0,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     22,
+     22,
+     23,
+     26,
+     29,
+     30,
+     30,
+     33,
+     36,
+     39,
+     42,
+     43,
+     46,
+     49,
+     49,
+     52,
+     53,
+     54,
+     57,
+     58,
+     58,
+     58,
+     61,
+     62,
+     62,
+     65,
+     66,
+     69
+    ]
+   },
+   {
+    "sim": 0,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     31,
+     31,
+     32,
+     35,
+     38,
+     41,
+     44,
+     47,
+     50,
+     51,
+     51,
+     54,
+     57,
+     58,
+     58,
+     61,
+     64,
+     67,
+     70,
+     73,
+     76,
+     79,
+     82,
+     85,
+     88,
+     91,
+     91,
+     94,
+     97
+    ]
+   },
+   {
+    "sim": 0,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     26,
+     26,
+     27,
+     30,
+     31,
+     32,
+     32,
+     35,
+     38,
+     41,
+     44,
+     45,
+     48,
+     51,
+     54,
+     55,
+     58,
+     61,
+     62,
+     63,
+     66,
+     66,
+     69,
+     70,
+     70,
+     73,
+     73
+    ]
+   },
+   {
+    "sim": 1,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     21,
+     22,
+     22,
+     23,
+     24,
+     27,
+     30,
+     33,
+     36,
+     36,
+     36,
+     39,
+     39,
+     42,
+     45,
+     48,
+     48,
+     51,
+     51,
+     54,
+     57,
+     60,
+     63,
+     66,
+     66,
+     69,
+     70,
+     73
+    ]
+   },
+   {
+    "sim": 1,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     33,
+     33,
+     34,
+     35,
+     38,
+     41,
+     44,
+     47,
+     50,
+     53,
+     56,
+     59,
+     62,
+     65,
+     65,
+     68,
+     68,
+     71,
+     74,
+     77,
+     80,
+     83,
+     86,
+     86,
+     89,
+     92,
+     95,
+     98,
+     101
+    ]
+   },
+   {
+    "sim": 1,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     28,
+     28,
+     29,
+     32,
+     35,
+     38,
+     39,
+     39,
+     40,
+     43,
+     46,
+     49,
+     49,
+     49,
+     52,
+     55,
+     58,
+     61,
+     64,
+     67,
+     67,
+     68,
+     71,
+     72,
+     75,
+     78,
+     79,
+     80,
+     80
+    ]
+   },
+   {
+    "sim": 2,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     24,
+     25,
+     28,
+     31,
+     32,
+     35,
+     38,
+     41,
+     41,
+     44,
+     44,
+     44,
+     44,
+     47,
+     50,
+     51,
+     51,
+     54,
+     55,
+     58,
+     59,
+     60,
+     63,
+     64,
+     67,
+     70,
+     73,
+     76
+    ]
+   },
+   {
+    "sim": 2,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     33,
+     33,
+     36,
+     39,
+     42,
+     45,
+     48,
+     51,
+     52,
+     55,
+     58,
+     61,
+     62,
+     65,
+     68,
+     71,
+     72,
+     73,
+     74,
+     74,
+     77,
+     78,
+     81,
+     82,
+     85,
+     85,
+     85,
+     88,
+     91
+    ]
+   },
+   {
+    "sim": 2,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     28,
+     28,
+     28,
+     28,
+     28,
+     29,
+     30,
+     33,
+     34,
+     35,
+     38,
+     39,
+     40,
+     40,
+     41,
+     44,
+     45,
+     46,
+     46,
+     49,
+     49,
+     52,
+     55,
+     55,
+     56,
+     59,
+     62,
+     65,
+     65
+    ]
+   },
+   {
+    "sim": 3,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     24,
+     25,
+     28,
+     31,
+     31,
+     34,
+     37,
+     40,
+     43,
+     46,
+     47,
+     50,
+     51,
+     54,
+     57,
+     57,
+     57,
+     60,
+     63,
+     66,
+     69,
+     72,
+     75,
+     76,
+     79,
+     82,
+     85,
+     88
+    ]
+   },
+   {
+    "sim": 3,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     33,
+     33,
+     36,
+     39,
+     40,
+     43,
+     46,
+     49,
+     52,
+     55,
+     58,
+     59,
+     62,
+     65,
+     68,
+     71,
+     72,
+     75,
+     78,
+     81,
+     84,
+     84,
+     87,
+     90,
+     93,
+     93,
+     96,
+     99,
+     102
+    ]
+   },
+   {
+    "sim": 3,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     28,
+     28,
+     29,
+     30,
+     30,
+     31,
+     31,
+     34,
+     34,
+     34,
+     34,
+     35,
+     38,
+     41,
+     44,
+     47,
+     48,
+     48,
+     51,
+     52,
+     52,
+     53,
+     56,
+     59,
+     59,
+     59
+    ]
+   },
+   {
+    "sim": 4,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     24,
+     27,
+     30,
+     33,
+     34,
+     35,
+     38,
+     41,
+     44,
+     45,
+     46,
+     49,
+     49,
+     52,
+     55,
+     58,
+     58,
+     61,
+     61,
+     62,
+     63,
+     66,
+     69,
+     70,
+     70,
+     73,
+     76,
+     76
+    ]
+   },
+   {
+    "sim": 4,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     31,
+     31,
+     34,
+     37,
+     40,
+     43,
+     46,
+     49,
+     52,
+     55,
+     58,
+     59,
+     62,
+     65,
+     65,
+     68,
+     71,
+     74,
+     77,
+     80,
+     83,
+     86,
+     89,
+     90,
+     93,
+     96,
+     99,
+     102,
+     103
+    ]
+   },
+   {
+    "sim": 4,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     26,
+     26,
+     29,
+     32,
+     35,
+     38,
+     41,
+     44,
+     47,
+     48,
+     48,
+     49,
+     52,
+     55,
+     55,
+     58,
+     58,
+     59,
+     60,
+     63,
+     63,
+     63,
+     66,
+     66,
+     69,
+     72
+    ]
+   },
+   {
+    "sim": 5,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     24,
+     25,
+     28,
+     31,
+     32,
+     35,
+     35,
+     38,
+     41,
+     44,
+     44,
+     45,
+     48,
+     49,
+     50,
+     53,
+     53,
+     56,
+     57,
+     60,
+     63,
+     64,
+     67,
+     68,
+     71,
+     74,
+     75,
+     75
+    ]
+   },
+   {
+    "sim": 5,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     33,
+     33,
+     33,
+     34,
+     34,
+     37,
+     40,
+     43,
+     44,
+     47,
+     50,
+     51,
+     54,
+     57,
+     58,
+     61,
+     64,
+     67,
+     70,
+     73,
+     76,
+     79,
+     82,
+     83,
+     86,
+     86,
+     87,
+     90,
+     93
+    ]
+   },
+   {
+    "sim": 5,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     28,
+     28,
+     31,
+     34,
+     34,
+     37,
+     38,
+     38,
+     41,
+     41,
+     44,
+     47,
+     50,
+     50,
+     50,
+     51,
+     54,
+     57,
+     60,
+     61,
+     61,
+     64,
+     65,
+     65,
+     65,
+     68,
+     68,
+     71,
+     74
+    ]
+   },
+   {
+    "sim": 6,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     22,
+     22,
+     22,
+     22,
+     22,
+     25,
+     28,
+     29,
+     29,
+     32,
+     33,
+     36,
+     37,
+     40,
+     41,
+     41,
+     42,
+     45,
+     46,
+     49,
+     49,
+     50,
+     50,
+     53,
+     56,
+     59,
+     62,
+     62,
+     65,
+     68,
+     71,
+     72
+    ]
+   },
+   {
+    "sim": 6,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     28,
+     28,
+     28,
+     31,
+     31,
+     31,
+     31,
+     34,
+     37,
+     40,
+     43,
+     43,
+     44,
+     47,
+     50,
+     53,
+     54,
+     55,
+     58,
+     59,
+     62,
+     62,
+     63,
+     66,
+     69,
+     72,
+     75,
+     78,
+     78,
+     81,
+     84,
+     87
+    ]
+   },
+   {
+    "sim": 6,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     28,
+     28,
+     31,
+     32,
+     35,
+     38,
+     41,
+     44,
+     44,
+     47,
+     47,
+     50,
+     53,
+     54,
+     54,
+     57,
+     60,
+     61,
+     62,
+     63,
+     63,
+     66,
+     69,
+     72,
+     75,
+     78,
+     79,
+     82,
+     83
+    ]
+   },
+   {
+    "sim": 7,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     24,
+     24,
+     24,
+     24,
+     25,
+     28,
+     31,
+     34,
+     35,
+     38,
+     38,
+     41,
+     44,
+     47,
+     50,
+     51,
+     51,
+     52,
+     55,
+     55,
+     55,
+     58,
+     61,
+     64,
+     67,
+     70,
+     73,
+     74,
+     74,
+     77,
+     80,
+     81
+    ]
+   },
+   {
+    "sim": 7,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     27,
+     27,
+     27,
+     30,
+     30,
+     30,
+     33,
+     34,
+     37,
+     40,
+     43,
+     46,
+     49,
+     52,
+     55,
+     58,
+     61,
+     61,
+     64,
+     67,
+     70,
+     73,
+     73,
+     76,
+     79,
+     82,
+     82,
+     83,
+     86,
+     89,
+     92,
+     92
+    ]
+   },
+   {
+    "sim": 7,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     26,
+     26,
+     29,
+     32,
+     33,
+     33,
+     36,
+     39,
+     39,
+     39,
+     40,
+     43,
+     46,
+     46,
+     49,
+     50,
+     53,
+     56,
+     56,
+     59,
+     59,
+     62,
+     62,
+     63,
+     64,
+     67,
+     67,
+     70,
+     71
+    ]
+   },
+   {
+    "sim": 8,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     24,
+     24,
+     24,
+     24,
+     27,
+     30,
+     30,
+     33,
+     36,
+     39,
+     42,
+     45,
+     48,
+     51,
+     54,
+     57,
+     60,
+     63,
+     66,
+     69,
+     72,
+     72,
+     75,
+     78,
+     79,
+     82,
+     85,
+     88,
+     89,
+     92,
+     93,
+     93
+    ]
+   },
+   {
+    "sim": 8,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     27,
+     27,
+     27,
+     30,
+     30,
+     33,
+     36,
+     39,
+     42,
+     45,
+     48,
+     51,
+     54,
+     57,
+     57,
+     58,
+     61,
+     64,
+     67,
+     70,
+     71,
+     72,
+     75,
+     78,
+     81,
+     84,
+     84,
+     87,
+     88,
+     91,
+     94,
+     97
+    ]
+   },
+   {
+    "sim": 8,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     26,
+     26,
+     26,
+     29,
+     32,
+     35,
+     36,
+     39,
+     40,
+     43,
+     46,
+     46,
+     49,
+     49,
+     52,
+     55,
+     58,
+     59,
+     62,
+     63,
+     63,
+     66,
+     69,
+     72,
+     75,
+     76,
+     79,
+     79,
+     82
+    ]
+   },
+   {
+    "sim": 9,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     22,
+     22,
+     22,
+     22,
+     25,
+     28,
+     31,
+     34,
+     35,
+     38,
+     38,
+     41,
+     44,
+     47,
+     50,
+     50,
+     53,
+     56,
+     56,
+     59,
+     59,
+     62,
+     65,
+     65,
+     66,
+     69,
+     70,
+     73,
+     73,
+     76,
+     79,
+     79
+    ]
+   },
+   {
+    "sim": 9,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     28,
+     28,
+     28,
+     31,
+     31,
+     31,
+     34,
+     37,
+     40,
+     43,
+     46,
+     49,
+     50,
+     50,
+     51,
+     54,
+     57,
+     60,
+     63,
+     66,
+     69,
+     72,
+     72,
+     75,
+     78,
+     81,
+     82,
+     85,
+     88,
+     91,
+     94,
+     97
+    ]
+   },
+   {
+    "sim": 9,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     26,
+     26,
+     29,
+     30,
+     30,
+     33,
+     34,
+     35,
+     35,
+     38,
+     41,
+     44,
+     47,
+     47,
+     47,
+     50,
+     53,
+     56,
+     59,
+     62,
+     65,
+     68,
+     71,
+     74,
+     77,
+     80,
+     83,
+     84,
+     84
+    ]
+   },
+   {
+    "sim": 10,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     22,
+     22,
+     22,
+     22,
+     25,
+     28,
+     31,
+     34,
+     35,
+     38,
+     38,
+     41,
+     41,
+     44,
+     47,
+     47,
+     47,
+     50,
+     53,
+     56,
+     59,
+     62,
+     65,
+     66,
+     66,
+     69,
+     70,
+     71,
+     72,
+     75,
+     78,
+     81
+    ]
+   },
+   {
+    "sim": 10,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     28,
+     28,
+     28,
+     31,
+     31,
+     34,
+     35,
+     38,
+     41,
+     44,
+     44,
+     47,
+     50,
+     51,
+     54,
+     57,
+     60,
+     60,
+     63,
+     64,
+     65,
+     68,
+     71,
+     74,
+     77,
+     80,
+     83,
+     83,
+     84,
+     87,
+     90,
+     93
+    ]
+   },
+   {
+    "sim": 10,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     28,
+     28,
+     28,
+     31,
+     31,
+     34,
+     37,
+     37,
+     40,
+     40,
+     43,
+     43,
+     43,
+     43,
+     43,
+     46,
+     47,
+     50,
+     50,
+     53,
+     54,
+     57,
+     58,
+     61,
+     64,
+     64,
+     67,
+     70,
+     73
+    ]
+   },
+   {
+    "sim": 11,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     24,
+     27,
+     30,
+     33,
+     33,
+     36,
+     36,
+     39,
+     42,
+     45,
+     48,
+     51,
+     54,
+     55,
+     55,
+     58,
+     61,
+     64,
+     65,
+     68,
+     71,
+     71,
+     72,
+     75,
+     75,
+     78,
+     81,
+     84
+    ]
+   },
+   {
+    "sim": 11,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     33,
+     33,
+     34,
+     37,
+     40,
+     43,
+     44,
+     47,
+     50,
+     53,
+     56,
+     59,
+     60,
+     63,
+     64,
+     67,
+     67,
+     70,
+     73,
+     76,
+     76,
+     77,
+     80,
+     83,
+     86,
+     89,
+     92,
+     95,
+     98
+    ]
+   },
+   {
+    "sim": 11,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     28,
+     28,
+     29,
+     30,
+     31,
+     32,
+     35,
+     38,
+     39,
+     42,
+     45,
+     48,
+     51,
+     51,
+     54,
+     57,
+     60,
+     61,
+     64,
+     65,
+     65,
+     68,
+     68,
+     71,
+     74,
+     77,
+     80,
+     81,
+     84
+    ]
+   },
+   {
+    "sim": 12,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     21,
+     22,
+     22,
+     25,
+     25,
+     28,
+     28,
+     31,
+     32,
+     32,
+     35,
+     38,
+     41,
+     44,
+     47,
+     48,
+     51,
+     54,
+     55,
+     58,
+     61,
+     64,
+     67,
+     70,
+     73,
+     76,
+     79,
+     82
+    ]
+   },
+   {
+    "sim": 12,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     33,
+     33,
+     33,
+     34,
+     34,
+     37,
+     40,
+     43,
+     46,
+     47,
+     50,
+     53,
+     54,
+     57,
+     60,
+     63,
+     66,
+     69,
+     72,
+     75,
+     78,
+     81,
+     84,
+     87,
+     90,
+     90,
+     93,
+     96,
+     97
+    ]
+   },
+   {
+    "sim": 12,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     26,
+     26,
+     29,
+     30,
+     33,
+     36,
+     39,
+     40,
+     43,
+     46,
+     47,
+     48,
+     48,
+     48,
+     51,
+     54,
+     54,
+     55,
+     55,
+     58,
+     58,
+     59,
+     60,
+     60,
+     60,
+     60,
+     63,
+     66,
+     66
+    ]
+   },
+   {
+    "sim": 13,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     24,
+     25,
+     28,
+     31,
+     31,
+     34,
+     37,
+     40,
+     40,
+     40,
+     43,
+     46,
+     49,
+     52,
+     52,
+     55,
+     56,
+     57,
+     60,
+     63,
+     66,
+     69,
+     72,
+     72,
+     72,
+     75,
+     78,
+     79
+    ]
+   },
+   {
+    "sim": 13,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     31,
+     31,
+     34,
+     37,
+     40,
+     41,
+     44,
+     47,
+     50,
+     53,
+     56,
+     59,
+     62,
+     63,
+     63,
+     66,
+     66,
+     69,
+     72,
+     75,
+     78,
+     79,
+     82,
+     85,
+     88,
+     91,
+     91,
+     92,
+     93
+    ]
+   },
+   {
+    "sim": 13,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     28,
+     31,
+     32,
+     35,
+     35,
+     36,
+     39,
+     42,
+     45,
+     48,
+     49,
+     49,
+     52,
+     53,
+     56,
+     59,
+     62,
+     62,
+     65,
+     66,
+     66,
+     67,
+     67,
+     67,
+     67,
+     67
+    ]
+   },
+   {
+    "sim": 14,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     22,
+     25,
+     28,
+     31,
+     34,
+     37,
+     37,
+     40,
+     43,
+     46,
+     47,
+     48,
+     48,
+     51,
+     54,
+     54,
+     54,
+     54,
+     57,
+     60,
+     61,
+     64,
+     67,
+     68,
+     71,
+     74,
+     75,
+     78
+    ]
+   },
+   {
+    "sim": 14,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     33,
+     33,
+     36,
+     39,
+     39,
+     40,
+     43,
+     46,
+     46,
+     49,
+     52,
+     55,
+     58,
+     61,
+     61,
+     64,
+     67,
+     70,
+     73,
+     76,
+     79,
+     82,
+     85,
+     88,
+     91,
+     91,
+     94,
+     97,
+     97
+    ]
+   },
+   {
+    "sim": 14,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     28,
+     28,
+     28,
+     31,
+     31,
+     34,
+     37,
+     37,
+     37,
+     37,
+     38,
+     38,
+     41,
+     41,
+     41,
+     44,
+     45,
+     45,
+     45,
+     45,
+     45,
+     45,
+     45,
+     45,
+     46,
+     46,
+     47,
+     50,
+     51
+    ]
+   },
+   {
+    "sim": 15,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     24,
+     24,
+     27,
+     30,
+     33,
+     36,
+     39,
+     42,
+     45,
+     48,
+     51,
+     54,
+     57,
+     58,
+     61,
+     64,
+     65,
+     68,
+     71,
+     72,
+     75,
+     78,
+     81,
+     84,
+     87,
+     90,
+     90,
+     93
+    ]
+   },
+   {
+    "sim": 15,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     33,
+     33,
+     36,
+     39,
+     42,
+     45,
+     45,
+     46,
+     46,
+     49,
+     52,
+     55,
+     58,
+     58,
+     59,
+     59,
+     59,
+     62,
+     65,
+     68,
+     71,
+     74,
+     77,
+     80,
+     83,
+     83,
+     86,
+     89,
+     89
+    ]
+   },
+   {
+    "sim": 15,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     26,
+     29,
+     32,
+     35,
+     35,
+     35,
+     38,
+     39,
+     40,
+     43,
+     46,
+     47,
+     50,
+     53,
+     53,
+     56,
+     56,
+     57,
+     60,
+     63,
+     66,
+     66,
+     69,
+     69,
+     69,
+     69
+    ]
+   },
+   {
+    "sim": 16,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     22,
+     25,
+     28,
+     31,
+     34,
+     37,
+     37,
+     40,
+     43,
+     46,
+     47,
+     50,
+     53,
+     56,
+     59,
+     62,
+     65,
+     68,
+     71,
+     74,
+     77,
+     80,
+     83,
+     86,
+     86,
+     87,
+     87,
+     88
+    ]
+   },
+   {
+    "sim": 16,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     33,
+     33,
+     34,
+     35,
+     38,
+     41,
+     44,
+     45,
+     48,
+     51,
+     51,
+     54,
+     57,
+     60,
+     61,
+     64,
+     67,
+     70,
+     73,
+     73,
+     74,
+     77,
+     80,
+     83,
+     86,
+     89,
+     92,
+     95,
+     98
+    ]
+   },
+   {
+    "sim": 16,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     26,
+     26,
+     29,
+     32,
+     35,
+     36,
+     36,
+     37,
+     40,
+     40,
+     43,
+     43,
+     44,
+     45,
+     45,
+     48,
+     51,
+     52,
+     52,
+     55,
+     55,
+     55,
+     55,
+     58,
+     61,
+     64,
+     67
+    ]
+   },
+   {
+    "sim": 17,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     24,
+     24,
+     24,
+     24,
+     27,
+     27,
+     30,
+     33,
+     34,
+     37,
+     38,
+     41,
+     44,
+     47,
+     50,
+     53,
+     54,
+     57,
+     57,
+     60,
+     60,
+     63,
+     66,
+     69,
+     72,
+     75,
+     76,
+     77,
+     80,
+     83,
+     86,
+     87
+    ]
+   },
+   {
+    "sim": 17,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     27,
+     27,
+     27,
+     30,
+     30,
+     33,
+     33,
+     36,
+     39,
+     42,
+     45,
+     48,
+     51,
+     54,
+     57,
+     60,
+     63,
+     66,
+     66,
+     69,
+     69,
+     72,
+     73,
+     76,
+     79,
+     82,
+     85,
+     88,
+     88,
+     91,
+     94,
+     94
+    ]
+   },
+   {
+    "sim": 17,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     28,
+     28,
+     28,
+     29,
+     32,
+     35,
+     38,
+     38,
+     41,
+     44,
+     44,
+     44,
+     47,
+     47,
+     47,
+     50,
+     53,
+     54,
+     57,
+     58,
+     58,
+     58,
+     61,
+     61,
+     62,
+     62,
+     63,
+     66,
+     66
+    ]
+   },
+   {
+    "sim": 18,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     22,
+     22,
+     22,
+     22,
+     25,
+     25,
+     28,
+     31,
+     32,
+     32,
+     35,
+     38,
+     41,
+     44,
+     47,
+     48,
+     49,
+     52,
+     55,
+     58,
+     61,
+     62,
+     65,
+     66,
+     67,
+     70,
+     73,
+     76,
+     77,
+     80,
+     80,
+     83
+    ]
+   },
+   {
+    "sim": 18,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     28,
+     28,
+     28,
+     31,
+     31,
+     34,
+     35,
+     38,
+     39,
+     42,
+     43,
+     43,
+     43,
+     46,
+     46,
+     49,
+     49,
+     49,
+     52,
+     55,
+     58,
+     61,
+     61,
+     64,
+     67,
+     70,
+     70,
+     70,
+     71,
+     71,
+     74,
+     77
+    ]
+   },
+   {
+    "sim": 18,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     26,
+     26,
+     26,
+     27,
+     27,
+     28,
+     29,
+     29,
+     29,
+     32,
+     33,
+     34,
+     37,
+     40,
+     43,
+     46,
+     46,
+     46,
+     46,
+     49,
+     50,
+     53,
+     56,
+     59,
+     62,
+     65,
+     65,
+     68,
+     68
+    ]
+   },
+   {
+    "sim": 19,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     24,
+     27,
+     30,
+     33,
+     34,
+     37,
+     40,
+     43,
+     46,
+     49,
+     49,
+     52,
+     55,
+     58,
+     59,
+     62,
+     62,
+     65,
+     66,
+     69,
+     69,
+     70,
+     73,
+     74,
+     74,
+     77,
+     77,
+     77
+    ]
+   },
+   {
+    "sim": 19,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     31,
+     31,
+     34,
+     37,
+     40,
+     43,
+     46,
+     49,
+     49,
+     49,
+     49,
+     49,
+     49,
+     49,
+     49,
+     52,
+     55,
+     58,
+     58,
+     61,
+     64,
+     67,
+     70,
+     71,
+     74,
+     77,
+     80,
+     83,
+     83
+    ]
+   },
+   {
+    "sim": 19,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     28,
+     28,
+     28,
+     28,
+     29,
+     30,
+     33,
+     34,
+     35,
+     38,
+     41,
+     41,
+     44,
+     47,
+     48,
+     51,
+     52,
+     55,
+     56,
+     57,
+     57,
+     60,
+     63,
+     66,
+     69,
+     70,
+     73,
+     76,
+     76
+    ]
+   },
+   {
+    "sim": 20,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     22,
+     25,
+     26,
+     29,
+     32,
+     35,
+     35,
+     38,
+     41,
+     44,
+     44,
+     47,
+     47,
+     50,
+     51,
+     54,
+     57,
+     58,
+     59,
+     62,
+     65,
+     68,
+     71,
+     71,
+     74,
+     77,
+     80,
+     81
+    ]
+   },
+   {
+    "sim": 20,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     33,
+     33,
+     34,
+     37,
+     38,
+     39,
+     42,
+     45,
+     48,
+     49,
+     52,
+     52,
+     55,
+     55,
+     56,
+     59,
+     62,
+     65,
+     68,
+     71,
+     72,
+     75,
+     76,
+     79,
+     82,
+     82,
+     85,
+     88,
+     88
+    ]
+   },
+   {
+    "sim": 20,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     28,
+     28,
+     29,
+     32,
+     35,
+     38,
+     39,
+     39,
+     42,
+     45,
+     48,
+     49,
+     52,
+     55,
+     55,
+     58,
+     61,
+     64,
+     67,
+     68,
+     68,
+     71,
+     71,
+     71,
+     74,
+     75,
+     78,
+     78,
+     78
+    ]
+   },
+   {
+    "sim": 21,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     22,
+     22,
+     22,
+     22,
+     25,
+     28,
+     29,
+     30,
+     33,
+     36,
+     39,
+     42,
+     45,
+     45,
+     45,
+     48,
+     48,
+     51,
+     54,
+     57,
+     60,
+     61,
+     64,
+     67,
+     68,
+     71,
+     74,
+     77,
+     80,
+     83,
+     84,
+     87
+    ]
+   },
+   {
+    "sim": 21,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     28,
+     28,
+     28,
+     29,
+     29,
+     29,
+     32,
+     35,
+     38,
+     41,
+     44,
+     47,
+     50,
+     53,
+     56,
+     59,
+     59,
+     62,
+     65,
+     65,
+     66,
+     69,
+     72,
+     75,
+     78,
+     81,
+     82,
+     85,
+     85,
+     88,
+     91,
+     94
+    ]
+   },
+   {
+    "sim": 21,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     28,
+     28,
+     28,
+     31,
+     34,
+     37,
+     38,
+     41,
+     41,
+     44,
+     45,
+     48,
+     51,
+     54,
+     55,
+     58,
+     59,
+     62,
+     62,
+     65,
+     68,
+     71,
+     74,
+     77,
+     80,
+     83,
+     83
+    ]
+   },
+   {
+    "sim": 22,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     22,
+     22,
+     22,
+     22,
+     25,
+     25,
+     25,
+     25,
+     26,
+     29,
+     32,
+     35,
+     35,
+     38,
+     39,
+     40,
+     43,
+     43,
+     46,
+     47,
+     48,
+     51,
+     54,
+     55,
+     58,
+     59,
+     62,
+     63,
+     66,
+     69,
+     69,
+     72
+    ]
+   },
+   {
+    "sim": 22,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     28,
+     28,
+     28,
+     31,
+     31,
+     32,
+     33,
+     36,
+     39,
+     42,
+     45,
+     48,
+     51,
+     54,
+     55,
+     56,
+     59,
+     62,
+     65,
+     68,
+     71,
+     74,
+     77,
+     78,
+     81,
+     84,
+     87,
+     87,
+     87,
+     87,
+     87,
+     90
+    ]
+   },
+   {
+    "sim": 22,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     26,
+     27,
+     28,
+     31,
+     34,
+     34,
+     37,
+     40,
+     43,
+     43,
+     46,
+     46,
+     49,
+     52,
+     55,
+     56,
+     59,
+     62,
+     63,
+     66,
+     67,
+     67,
+     70,
+     73,
+     73,
+     73,
+     74
+    ]
+   },
+   {
+    "sim": 23,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     22,
+     23,
+     26,
+     29,
+     32,
+     33,
+     33,
+     36,
+     37,
+     37,
+     40,
+     43,
+     44,
+     45,
+     48,
+     51,
+     51,
+     52,
+     55,
+     58,
+     61,
+     64,
+     65,
+     65,
+     65,
+     65,
+     66,
+     69
+    ]
+   },
+   {
+    "sim": 23,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     33,
+     33,
+     36,
+     39,
+     42,
+     43,
+     46,
+     49,
+     50,
+     53,
+     56,
+     59,
+     62,
+     65,
+     65,
+     68,
+     71,
+     74,
+     77,
+     80,
+     83,
+     86,
+     89,
+     92,
+     95,
+     98,
+     101,
+     104,
+     107
+    ]
+   },
+   {
+    "sim": 23,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     26,
+     26,
+     26,
+     29,
+     32,
+     35,
+     38,
+     38,
+     38,
+     39,
+     42,
+     45,
+     48,
+     48,
+     49,
+     52,
+     55,
+     58,
+     61,
+     64,
+     64,
+     67,
+     67,
+     67,
+     70,
+     73,
+     74,
+     77,
+     77
+    ]
+   },
+   {
+    "sim": 24,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     24,
+     27,
+     30,
+     33,
+     33,
+     34,
+     34,
+     37,
+     40,
+     43,
+     46,
+     49,
+     52,
+     55,
+     56,
+     56,
+     56,
+     59,
+     62,
+     65,
+     65,
+     68,
+     71,
+     72,
+     72,
+     75,
+     78,
+     81
+    ]
+   },
+   {
+    "sim": 24,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     33,
+     33,
+     36,
+     39,
+     42,
+     45,
+     48,
+     51,
+     54,
+     54,
+     57,
+     60,
+     63,
+     64,
+     67,
+     70,
+     71,
+     74,
+     75,
+     76,
+     76,
+     79,
+     82,
+     85,
+     88,
+     91,
+     94,
+     97,
+     98
+    ]
+   },
+   {
+    "sim": 24,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     26,
+     26,
+     26,
+     29,
+     32,
+     35,
+     36,
+     37,
+     37,
+     38,
+     39,
+     42,
+     43,
+     44,
+     45,
+     46,
+     49,
+     50,
+     53,
+     56,
+     56,
+     59,
+     62,
+     65,
+     68,
+     71,
+     74,
+     77,
+     77
+    ]
+   },
+   {
+    "sim": 25,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     24,
+     27,
+     30,
+     33,
+     34,
+     37,
+     37,
+     40,
+     40,
+     41,
+     42,
+     45,
+     45,
+     45,
+     48,
+     51,
+     51,
+     54,
+     57,
+     58,
+     59,
+     60,
+     60,
+     63,
+     63,
+     66,
+     66,
+     69
+    ]
+   },
+   {
+    "sim": 25,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     33,
+     33,
+     36,
+     39,
+     42,
+     45,
+     48,
+     51,
+     54,
+     57,
+     60,
+     63,
+     66,
+     69,
+     69,
+     72,
+     72,
+     75,
+     78,
+     81,
+     84,
+     87,
+     90,
+     91,
+     94,
+     97,
+     100,
+     103,
+     106
+    ]
+   },
+   {
+    "sim": 25,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     26,
+     26,
+     29,
+     32,
+     33,
+     36,
+     39,
+     42,
+     43,
+     46,
+     46,
+     46,
+     49,
+     52,
+     55,
+     58,
+     61,
+     62,
+     65,
+     68,
+     68,
+     71,
+     71,
+     74,
+     77,
+     77
+    ]
+   },
+   {
+    "sim": 26,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     24,
+     24,
+     24,
+     24,
+     25,
+     28,
+     31,
+     34,
+     34,
+     34,
+     37,
+     40,
+     43,
+     46,
+     47,
+     47,
+     50,
+     50,
+     53,
+     56,
+     59,
+     60,
+     63,
+     66,
+     66,
+     69,
+     70,
+     73,
+     73,
+     76,
+     79,
+     82
+    ]
+   },
+   {
+    "sim": 26,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     27,
+     27,
+     27,
+     30,
+     30,
+     30,
+     33,
+     36,
+     37,
+     40,
+     43,
+     46,
+     47,
+     50,
+     53,
+     56,
+     59,
+     60,
+     63,
+     66,
+     69,
+     72,
+     75,
+     78,
+     81,
+     84,
+     84,
+     87,
+     90,
+     93,
+     96,
+     96
+    ]
+   },
+   {
+    "sim": 26,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     28,
+     28,
+     31,
+     34,
+     37,
+     38,
+     41,
+     44,
+     47,
+     50,
+     53,
+     53,
+     56,
+     56,
+     56,
+     59,
+     62,
+     63,
+     63,
+     66,
+     66,
+     69,
+     69,
+     70,
+     70,
+     71,
+     74,
+     77,
+     80
+    ]
+   },
+   {
+    "sim": 27,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     24,
+     27,
+     30,
+     33,
+     33,
+     36,
+     37,
+     40,
+     41,
+     42,
+     45,
+     46,
+     46,
+     47,
+     50,
+     53,
+     56,
+     59,
+     60,
+     61,
+     64,
+     65,
+     68,
+     71,
+     74,
+     75,
+     75,
+     76
+    ]
+   },
+   {
+    "sim": 27,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     33,
+     33,
+     33,
+     36,
+     36,
+     39,
+     42,
+     45,
+     48,
+     49,
+     49,
+     50,
+     53,
+     56,
+     56,
+     59,
+     60,
+     63,
+     66,
+     67,
+     70,
+     73,
+     76,
+     79,
+     82,
+     82,
+     82,
+     85,
+     85
+    ]
+   },
+   {
+    "sim": 27,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     28,
+     31,
+     31,
+     32,
+     35,
+     35,
+     38,
+     41,
+     41,
+     44,
+     47,
+     47,
+     47,
+     50,
+     53,
+     56,
+     57,
+     60,
+     61,
+     64,
+     65,
+     65,
+     68,
+     68,
+     71,
+     71,
+     74
+    ]
+   },
+   {
+    "sim": 28,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     24,
+     27,
+     30,
+     33,
+     36,
+     39,
+     42,
+     45,
+     46,
+     49,
+     49,
+     52,
+     55,
+     58,
+     61,
+     64,
+     67,
+     70,
+     71,
+     74,
+     75,
+     76,
+     79,
+     82,
+     82,
+     82,
+     83,
+     86
+    ]
+   },
+   {
+    "sim": 28,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     33,
+     33,
+     36,
+     39,
+     42,
+     45,
+     48,
+     51,
+     54,
+     57,
+     60,
+     60,
+     63,
+     66,
+     69,
+     72,
+     75,
+     75,
+     78,
+     79,
+     82,
+     85,
+     88,
+     91,
+     94,
+     97,
+     100,
+     103,
+     106
+    ]
+   },
+   {
+    "sim": 28,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     30,
+     33,
+     33,
+     33,
+     36,
+     36,
+     39,
+     42,
+     42,
+     42,
+     42,
+     45,
+     45,
+     48,
+     51,
+     51,
+     52,
+     55,
+     58,
+     61,
+     61
+    ]
+   },
+   {
+    "sim": 29,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     24,
+     25,
+     28,
+     29,
+     32,
+     35,
+     38,
+     39,
+     42,
+     45,
+     48,
+     48,
+     48,
+     51,
+     52,
+     55,
+     55,
+     58,
+     59,
+     59,
+     59,
+     62,
+     65,
+     68,
+     69,
+     72,
+     75,
+     75
+    ]
+   },
+   {
+    "sim": 29,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     33,
+     33,
+     36,
+     39,
+     42,
+     45,
+     48,
+     51,
+     54,
+     57,
+     58,
+     58,
+     59,
+     62,
+     65,
+     68,
+     68,
+     71,
+     74,
+     74,
+     77,
+     80,
+     83,
+     86,
+     89,
+     90,
+     93,
+     96,
+     99
+    ]
+   },
+   {
+    "sim": 29,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     26,
+     26,
+     26,
+     26,
+     29,
+     32,
+     35,
+     35,
+     38,
+     41,
+     44,
+     47,
+     50,
+     50,
+     51,
+     54,
+     57,
+     58,
+     59,
+     62,
+     65,
+     66,
+     69,
+     72,
+     73,
+     74,
+     75,
+     78,
+     78
+    ]
+   },
+   {
+    "sim": 30,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     24,
+     27,
+     27,
+     30,
+     30,
+     30,
+     33,
+     36,
+     37,
+     40,
+     41,
+     44,
+     47,
+     50,
+     51,
+     54,
+     54,
+     57,
+     58,
+     61,
+     64,
+     65,
+     68,
+     68,
+     69,
+     72,
+     75,
+     78
+    ]
+   },
+   {
+    "sim": 30,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     33,
+     33,
+     34,
+     37,
+     40,
+     40,
+     43,
+     46,
+     49,
+     50,
+     50,
+     53,
+     54,
+     57,
+     60,
+     63,
+     63,
+     63,
+     66,
+     69,
+     70,
+     73,
+     76,
+     79,
+     82,
+     83,
+     84,
+     87,
+     90
+    ]
+   },
+   {
+    "sim": 30,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     28,
+     28,
+     29,
+     32,
+     35,
+     38,
+     41,
+     42,
+     45,
+     45,
+     48,
+     51,
+     54,
+     54,
+     57,
+     58,
+     61,
+     64,
+     64,
+     65,
+     65,
+     68,
+     71,
+     74,
+     77,
+     80,
+     83,
+     84,
+     84
+    ]
+   },
+   {
+    "sim": 31,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     22,
+     22,
+     22,
+     22,
+     22,
+     25,
+     26,
+     29,
+     30,
+     33,
+     33,
+     34,
+     37,
+     40,
+     43,
+     46,
+     47,
+     50,
+     53,
+     56,
+     59,
+     62,
+     63,
+     66,
+     66,
+     69,
+     72,
+     75,
+     75,
+     78,
+     78,
+     81
+    ]
+   },
+   {
+    "sim": 31,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     28,
+     28,
+     28,
+     29,
+     29,
+     32,
+     35,
+     38,
+     41,
+     44,
+     47,
+     50,
+     53,
+     56,
+     59,
+     62,
+     65,
+     66,
+     69,
+     72,
+     75,
+     76,
+     76,
+     79,
+     82,
+     85,
+     88,
+     91,
+     94,
+     94,
+     97,
+     100
+    ]
+   },
+   {
+    "sim": 31,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     28,
+     31,
+     32,
+     33,
+     33,
+     36,
+     37,
+     37,
+     40,
+     40,
+     40,
+     43,
+     46,
+     46,
+     46,
+     46,
+     46,
+     49,
+     52,
+     53,
+     56,
+     56,
+     59,
+     62,
+     62
+    ]
+   },
+   {
+    "sim": 32,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     24,
+     24,
+     24,
+     25,
+     26,
+     27,
+     28,
+     31,
+     31,
+     31,
+     34,
+     37,
+     40,
+     43,
+     46,
+     47,
+     48,
+     48,
+     48,
+     51,
+     51,
+     52,
+     55,
+     58,
+     58,
+     61,
+     64,
+     65
+    ]
+   },
+   {
+    "sim": 32,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     33,
+     33,
+     34,
+     35,
+     38,
+     41,
+     44,
+     47,
+     48,
+     51,
+     54,
+     57,
+     60,
+     63,
+     66,
+     66,
+     66,
+     69,
+     69,
+     72,
+     75,
+     78,
+     81,
+     81,
+     84,
+     87,
+     88,
+     91,
+     94
+    ]
+   },
+   {
+    "sim": 32,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     26,
+     29,
+     32,
+     33,
+     34,
+     37,
+     37,
+     37,
+     40,
+     40,
+     43,
+     43,
+     46,
+     47,
+     50,
+     51,
+     54,
+     55,
+     55,
+     58,
+     61,
+     62,
+     65,
+     66,
+     69,
+     72,
+     73
+    ]
+   },
+   {
+    "sim": 33,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     24,
+     24,
+     24,
+     24,
+     24,
+     25,
+     28,
+     28,
+     31,
+     34,
+     37,
+     40,
+     40,
+     43,
+     46,
+     49,
+     49,
+     52,
+     53,
+     56,
+     57,
+     60,
+     60,
+     60,
+     63,
+     64,
+     65,
+     66,
+     69,
+     72,
+     73,
+     76
+    ]
+   },
+   {
+    "sim": 33,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     27,
+     27,
+     27,
+     28,
+     28,
+     31,
+     34,
+     34,
+     37,
+     40,
+     41,
+     44,
+     44,
+     47,
+     48,
+     51,
+     54,
+     57,
+     58,
+     61,
+     64,
+     67,
+     70,
+     73,
+     74,
+     77,
+     80,
+     83,
+     83,
+     84,
+     87,
+     88
+    ]
+   },
+   {
+    "sim": 33,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     28,
+     28,
+     28,
+     31,
+     34,
+     37,
+     38,
+     38,
+     41,
+     44,
+     47,
+     48,
+     51,
+     51,
+     54,
+     57,
+     57,
+     58,
+     61,
+     64,
+     67,
+     70,
+     70,
+     73,
+     76,
+     79,
+     82,
+     85,
+     88
+    ]
+   },
+   {
+    "sim": 34,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     24,
+     24,
+     24,
+     24,
+     27,
+     28,
+     31,
+     34,
+     34,
+     37,
+     37,
+     40,
+     43,
+     46,
+     47,
+     48,
+     49,
+     52,
+     55,
+     58,
+     61,
+     64,
+     67,
+     70,
+     73,
+     76,
+     79,
+     80,
+     83,
+     86,
+     86,
+     89
+    ]
+   },
+   {
+    "sim": 34,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     27,
+     27,
+     27,
+     30,
+     30,
+     33,
+     36,
+     39,
+     39,
+     42,
+     45,
+     48,
+     49,
+     50,
+     50,
+     53,
+     56,
+     56,
+     56,
+     57,
+     60,
+     63,
+     64,
+     67,
+     70,
+     73,
+     73,
+     74,
+     74,
+     74,
+     77,
+     80
+    ]
+   },
+   {
+    "sim": 34,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     26,
+     26,
+     26,
+     26,
+     29,
+     32,
+     35,
+     35,
+     38,
+     41,
+     41,
+     44,
+     44,
+     44,
+     44,
+     47,
+     50,
+     51,
+     52,
+     55,
+     55,
+     58,
+     61,
+     62,
+     65,
+     66,
+     69,
+     72,
+     73
+    ]
+   },
+   {
+    "sim": 35,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     24,
+     27,
+     30,
+     33,
+     36,
+     39,
+     40,
+     41,
+     44,
+     47,
+     50,
+     53,
+     56,
+     59,
+     60,
+     63,
+     66,
+     69,
+     69,
+     72,
+     73,
+     76,
+     77,
+     80,
+     83,
+     86,
+     89,
+     90
+    ]
+   },
+   {
+    "sim": 35,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     31,
+     31,
+     32,
+     32,
+     32,
+     35,
+     36,
+     39,
+     42,
+     45,
+     48,
+     48,
+     51,
+     54,
+     57,
+     60,
+     60,
+     63,
+     66,
+     69,
+     72,
+     73,
+     74,
+     77,
+     80,
+     80,
+     83,
+     86,
+     89
+    ]
+   },
+   {
+    "sim": 35,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     28,
+     28,
+     29,
+     32,
+     32,
+     35,
+     38,
+     41,
+     42,
+     45,
+     48,
+     49,
+     50,
+     50,
+     51,
+     54,
+     57,
+     60,
+     63,
+     66,
+     66,
+     69,
+     72,
+     72,
+     73,
+     73,
+     76,
+     79,
+     80
+    ]
+   },
+   {
+    "sim": 36,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     21,
+     24,
+     27,
+     27,
+     30,
+     33,
+     36,
+     39,
+     42,
+     45,
+     46,
+     47,
+     48,
+     49,
+     52,
+     55,
+     55,
+     58,
+     61,
+     62,
+     65,
+     68,
+     71,
+     74,
+     74,
+     77,
+     77,
+     80
+    ]
+   },
+   {
+    "sim": 36,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     33,
+     33,
+     33,
+     36,
+     39,
+     42,
+     45,
+     48,
+     51,
+     54,
+     57,
+     60,
+     63,
+     66,
+     66,
+     67,
+     70,
+     73,
+     76,
+     79,
+     82,
+     85,
+     88,
+     88,
+     91,
+     94,
+     97,
+     100,
+     100
+    ]
+   },
+   {
+    "sim": 36,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     28,
+     28,
+     31,
+     31,
+     31,
+     34,
+     37,
+     40,
+     43,
+     46,
+     49,
+     49,
+     52,
+     52,
+     52,
+     53,
+     56,
+     59,
+     59,
+     60,
+     61,
+     62,
+     65,
+     65,
+     68,
+     69,
+     72,
+     75,
+     75
+    ]
+   },
+   {
+    "sim": 37,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     24,
+     24,
+     24,
+     24,
+     25,
+     28,
+     31,
+     34,
+     37,
+     40,
+     43,
+     44,
+     47,
+     50,
+     53,
+     56,
+     59,
+     59,
+     60,
+     63,
+     66,
+     66,
+     69,
+     72,
+     72,
+     73,
+     76,
+     77,
+     78,
+     78,
+     81,
+     84
+    ]
+   },
+   {
+    "sim": 37,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     27,
+     27,
+     27,
+     28,
+     28,
+     29,
+     32,
+     35,
+     38,
+     41,
+     44,
+     47,
+     50,
+     53,
+     54,
+     57,
+     60,
+     63,
+     66,
+     69,
+     69,
+     72,
+     73,
+     76,
+     79,
+     82,
+     85,
+     85,
+     86,
+     86,
+     89,
+     90
+    ]
+   },
+   {
+    "sim": 37,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     28,
+     28,
+     29,
+     32,
+     35,
+     38,
+     41,
+     42,
+     45,
+     48,
+     51,
+     54,
+     54,
+     54,
+     54,
+     57,
+     60,
+     63,
+     66,
+     69,
+     69,
+     72,
+     75,
+     75,
+     78,
+     81,
+     82,
+     83,
+     84
+    ]
+   },
+   {
+    "sim": 38,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     24,
+     24,
+     24,
+     24,
+     27,
+     27,
+     30,
+     31,
+     31,
+     34,
+     34,
+     37,
+     40,
+     43,
+     46,
+     49,
+     52,
+     52,
+     55,
+     58,
+     61,
+     64,
+     67,
+     68,
+     71,
+     72,
+     75,
+     78,
+     78,
+     79,
+     80,
+     83
+    ]
+   },
+   {
+    "sim": 38,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     27,
+     27,
+     27,
+     30,
+     30,
+     33,
+     36,
+     36,
+     36,
+     36,
+     36,
+     39,
+     42,
+     45,
+     46,
+     49,
+     52,
+     55,
+     58,
+     61,
+     62,
+     65,
+     65,
+     68,
+     71,
+     74,
+     75,
+     78,
+     81,
+     84,
+     87,
+     90
+    ]
+   },
+   {
+    "sim": 38,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     26,
+     29,
+     32,
+     35,
+     35,
+     35,
+     36,
+     37,
+     40,
+     40,
+     40,
+     43,
+     46,
+     47,
+     48,
+     49,
+     52,
+     53,
+     56,
+     59,
+     60,
+     63,
+     66,
+     69,
+     70,
+     71
+    ]
+   },
+   {
+    "sim": 39,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     24,
+     24,
+     27,
+     30,
+     31,
+     34,
+     37,
+     37,
+     40,
+     43,
+     46,
+     49,
+     50,
+     53,
+     53,
+     56,
+     59,
+     60,
+     60,
+     63,
+     63,
+     64,
+     67,
+     70,
+     73,
+     74,
+     75,
+     76
+    ]
+   },
+   {
+    "sim": 39,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     33,
+     33,
+     36,
+     39,
+     40,
+     43,
+     46,
+     49,
+     52,
+     52,
+     55,
+     58,
+     61,
+     64,
+     65,
+     68,
+     68,
+     71,
+     74,
+     74,
+     77,
+     78,
+     81,
+     82,
+     85,
+     85,
+     88,
+     91,
+     92
+    ]
+   },
+   {
+    "sim": 39,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     28,
+     28,
+     28,
+     28,
+     28,
+     28,
+     28,
+     28,
+     29,
+     32,
+     32,
+     33,
+     34,
+     34,
+     37,
+     40,
+     43,
+     46,
+     46,
+     49,
+     49,
+     52,
+     55,
+     55,
+     58,
+     58,
+     61,
+     62,
+     62
+    ]
+   },
+   {
+    "sim": 40,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     22,
+     23,
+     26,
+     26,
+     29,
+     29,
+     30,
+     31,
+     34,
+     37,
+     40,
+     43,
+     46,
+     47,
+     50,
+     51,
+     52,
+     55,
+     58,
+     61,
+     64,
+     67,
+     70,
+     70,
+     71,
+     74,
+     75,
+     75
+    ]
+   },
+   {
+    "sim": 40,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     33,
+     33,
+     34,
+     34,
+     34,
+     37,
+     40,
+     43,
+     46,
+     49,
+     52,
+     55,
+     56,
+     59,
+     62,
+     65,
+     65,
+     65,
+     68,
+     71,
+     74,
+     75,
+     78,
+     81,
+     84,
+     85,
+     86,
+     89,
+     92
+    ]
+   },
+   {
+    "sim": 40,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     26,
+     26,
+     27,
+     28,
+     31,
+     34,
+     35,
+     35,
+     35,
+     36,
+     39,
+     40,
+     41,
+     41,
+     42,
+     45,
+     46,
+     49,
+     52,
+     53,
+     53,
+     56,
+     56,
+     56,
+     57,
+     57,
+     58,
+     58,
+     58
+    ]
+   },
+   {
+    "sim": 41,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     24,
+     27,
+     30,
+     31,
+     34,
+     37,
+     40,
+     43,
+     46,
+     49,
+     52,
+     52,
+     55,
+     55,
+     58,
+     61,
+     61,
+     64,
+     64,
+     64,
+     65,
+     68,
+     71,
+     71,
+     74,
+     77,
+     80,
+     83
+    ]
+   },
+   {
+    "sim": 41,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     30,
+     30,
+     31,
+     34,
+     37,
+     40,
+     43,
+     46,
+     47,
+     50,
+     53,
+     56,
+     57,
+     60,
+     60,
+     63,
+     66,
+     69,
+     72,
+     75,
+     78,
+     81,
+     84,
+     87,
+     90,
+     90,
+     90,
+     93,
+     96
+    ]
+   },
+   {
+    "sim": 41,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     28,
+     28,
+     29,
+     32,
+     33,
+     36,
+     39,
+     40,
+     40,
+     43,
+     46,
+     49,
+     52,
+     52,
+     52,
+     55,
+     55,
+     55,
+     58,
+     59,
+     62,
+     65,
+     66,
+     67,
+     68,
+     68,
+     71,
+     74,
+     75
+    ]
+   },
+   {
+    "sim": 42,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     22,
+     23,
+     24,
+     27,
+     30,
+     33,
+     34,
+     37,
+     40,
+     43,
+     46,
+     46,
+     49,
+     52,
+     55,
+     58,
+     61,
+     64,
+     67,
+     68,
+     71,
+     71,
+     74,
+     77,
+     77,
+     80,
+     80,
+     83
+    ]
+   },
+   {
+    "sim": 42,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     30,
+     30,
+     30,
+     33,
+     36,
+     39,
+     42,
+     45,
+     48,
+     49,
+     52,
+     55,
+     58,
+     61,
+     61,
+     64,
+     65,
+     68,
+     71,
+     72,
+     75,
+     75,
+     75,
+     78,
+     81,
+     84,
+     87,
+     90,
+     93
+    ]
+   },
+   {
+    "sim": 42,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     28,
+     28,
+     31,
+     32,
+     35,
+     35,
+     36,
+     36,
+     37,
+     38,
+     41,
+     41,
+     44,
+     44,
+     47,
+     50,
+     53,
+     56,
+     57,
+     60,
+     61,
+     62,
+     65,
+     66,
+     66,
+     67,
+     70,
+     71,
+     71
+    ]
+   },
+   {
+    "sim": 43,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     22,
+     25,
+     28,
+     31,
+     32,
+     35,
+     38,
+     41,
+     44,
+     47,
+     48,
+     51,
+     54,
+     57,
+     60,
+     63,
+     63,
+     66,
+     66,
+     69,
+     72,
+     73,
+     76,
+     76,
+     77,
+     80,
+     83,
+     86
+    ]
+   },
+   {
+    "sim": 43,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     33,
+     33,
+     36,
+     39,
+     42,
+     45,
+     48,
+     51,
+     51,
+     51,
+     54,
+     57,
+     60,
+     63,
+     63,
+     66,
+     66,
+     69,
+     72,
+     75,
+     78,
+     81,
+     84,
+     87,
+     88,
+     89,
+     92,
+     95,
+     98
+    ]
+   },
+   {
+    "sim": 43,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     26,
+     26,
+     26,
+     29,
+     32,
+     32,
+     35,
+     38,
+     38,
+     39,
+     42,
+     43,
+     46,
+     46,
+     47,
+     47,
+     48,
+     51,
+     51,
+     54,
+     54,
+     57,
+     57,
+     60,
+     60,
+     60,
+     60,
+     63,
+     66
+    ]
+   },
+   {
+    "sim": 44,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     24,
+     24,
+     24,
+     24,
+     27,
+     30,
+     33,
+     34,
+     35,
+     38,
+     38,
+     41,
+     44,
+     47,
+     50,
+     53,
+     53,
+     56,
+     59,
+     62,
+     65,
+     66,
+     69,
+     72,
+     73,
+     74,
+     77,
+     80,
+     83,
+     86,
+     86,
+     87
+    ]
+   },
+   {
+    "sim": 44,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     27,
+     27,
+     27,
+     30,
+     30,
+     33,
+     34,
+     35,
+     36,
+     39,
+     42,
+     45,
+     48,
+     51,
+     54,
+     57,
+     60,
+     63,
+     66,
+     66,
+     69,
+     72,
+     72,
+     75,
+     78,
+     81,
+     84,
+     87,
+     87,
+     90,
+     93,
+     94
+    ]
+   },
+   {
+    "sim": 44,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     26,
+     26,
+     26,
+     27,
+     30,
+     33,
+     36,
+     36,
+     36,
+     36,
+     36,
+     36,
+     36,
+     39,
+     42,
+     43,
+     44,
+     44,
+     47,
+     47,
+     47,
+     50,
+     53,
+     56,
+     59,
+     60
+    ]
+   },
+   {
+    "sim": 45,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     24,
+     24,
+     27,
+     30,
+     31,
+     34,
+     34,
+     37,
+     40,
+     43,
+     46,
+     49,
+     50,
+     53,
+     56,
+     59,
+     60,
+     60,
+     63,
+     63,
+     64,
+     67,
+     70,
+     73,
+     76,
+     79,
+     82,
+     85
+    ]
+   },
+   {
+    "sim": 45,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     31,
+     31,
+     34,
+     35,
+     38,
+     41,
+     44,
+     45,
+     45,
+     48,
+     49,
+     52,
+     55,
+     56,
+     57,
+     60,
+     63,
+     64,
+     67,
+     70,
+     73,
+     76,
+     79,
+     80,
+     83,
+     83,
+     86,
+     89,
+     92
+    ]
+   },
+   {
+    "sim": 45,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     28,
+     28,
+     31,
+     32,
+     33,
+     34,
+     37,
+     40,
+     43,
+     46,
+     47,
+     47,
+     50,
+     53,
+     54,
+     57,
+     58,
+     61,
+     64,
+     67,
+     70,
+     73,
+     76,
+     79,
+     79,
+     80
+    ]
+   },
+   {
+    "sim": 46,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     22,
+     22,
+     22,
+     22,
+     22,
+     23,
+     26,
+     27,
+     28,
+     31,
+     31,
+     31,
+     32,
+     35,
+     38,
+     41,
+     41,
+     44,
+     47,
+     50,
+     51,
+     54,
+     57,
+     57,
+     57,
+     58,
+     58,
+     59,
+     62,
+     65,
+     68,
+     71
+    ]
+   },
+   {
+    "sim": 46,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     28,
+     28,
+     28,
+     31,
+     31,
+     34,
+     34,
+     34,
+     37,
+     40,
+     43,
+     46,
+     49,
+     49,
+     49,
+     52,
+     55,
+     56,
+     59,
+     62,
+     65,
+     68,
+     71,
+     74,
+     75,
+     78,
+     79,
+     82,
+     82,
+     83,
+     86,
+     89
+    ]
+   },
+   {
+    "sim": 46,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     28,
+     31,
+     34,
+     37,
+     38,
+     41,
+     44,
+     45,
+     48,
+     48,
+     48,
+     51,
+     54,
+     55,
+     58,
+     61,
+     61,
+     64,
+     65,
+     66,
+     66,
+     69,
+     72,
+     75,
+     76,
+     77
+    ]
+   },
+   {
+    "sim": 47,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     22,
+     23,
+     26,
+     26,
+     29,
+     32,
+     35,
+     38,
+     39,
+     42,
+     43,
+     43,
+     46,
+     49,
+     49,
+     52,
+     53,
+     54,
+     54,
+     57,
+     58,
+     58,
+     59,
+     62,
+     63,
+     66,
+     69,
+     72
+    ]
+   },
+   {
+    "sim": 47,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     30,
+     30,
+     33,
+     36,
+     39,
+     42,
+     45,
+     45,
+     45,
+     48,
+     51,
+     52,
+     55,
+     55,
+     56,
+     59,
+     60,
+     63,
+     64,
+     64,
+     65,
+     68,
+     71,
+     72,
+     73,
+     74,
+     77,
+     80,
+     83
+    ]
+   },
+   {
+    "sim": 47,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     28,
+     28,
+     31,
+     31,
+     31,
+     34,
+     37,
+     40,
+     43,
+     46,
+     49,
+     52,
+     55,
+     58,
+     61,
+     64,
+     65,
+     65,
+     68,
+     71,
+     74,
+     77,
+     80,
+     83,
+     86,
+     86
+    ]
+   },
+   {
+    "sim": 48,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     21,
+     21,
+     21,
+     21,
+     22,
+     22,
+     25,
+     28,
+     28,
+     29,
+     32,
+     33,
+     36,
+     39,
+     42,
+     42,
+     43,
+     46,
+     47,
+     50,
+     50,
+     51,
+     51,
+     54,
+     57,
+     57,
+     60,
+     60,
+     63,
+     66,
+     69,
+     72
+    ]
+   },
+   {
+    "sim": 48,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     30,
+     30,
+     30,
+     33,
+     33,
+     33,
+     36,
+     39,
+     42,
+     42,
+     45,
+     48,
+     48,
+     51,
+     54,
+     54,
+     57,
+     58,
+     61,
+     64,
+     67,
+     70,
+     73,
+     76,
+     79,
+     82,
+     83,
+     83,
+     83,
+     84,
+     87,
+     88
+    ]
+   },
+   {
+    "sim": 48,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     28,
+     31,
+     31,
+     34,
+     37,
+     37,
+     38,
+     38,
+     39,
+     40,
+     40,
+     40,
+     40,
+     43,
+     46,
+     47,
+     48,
+     49,
+     49,
+     49,
+     52,
+     52,
+     52,
+     55,
+     56,
+     56,
+     59
+    ]
+   },
+   {
+    "sim": 49,
+    "equipo": "Real Madrid",
+    "puntos": [
+     21,
+     22,
+     22,
+     22,
+     22,
+     25,
+     28,
+     31,
+     34,
+     34,
+     37,
+     38,
+     39,
+     42,
+     45,
+     48,
+     49,
+     50,
+     53,
+     56,
+     57,
+     60,
+     60,
+     61,
+     64,
+     67,
+     68,
+     69,
+     70,
+     73,
+     76,
+     77,
+     80
+    ]
+   },
+   {
+    "sim": 49,
+    "equipo": "Barcelona",
+    "puntos": [
+     27,
+     28,
+     28,
+     28,
+     31,
+     31,
+     34,
+     37,
+     38,
+     41,
+     44,
+     47,
+     50,
+     51,
+     54,
+     57,
+     60,
+     63,
+     66,
+     66,
+     66,
+     69,
+     69,
+     69,
+     72,
+     75,
+     76,
+     76,
+     79,
+     79,
+     82,
+     85,
+     88
+    ]
+   },
+   {
+    "sim": 49,
+    "equipo": "Atletico Madrid",
+    "puntos": [
+     25,
+     25,
+     25,
+     25,
+     28,
+     28,
+     28,
+     31,
+     32,
+     33,
+     34,
+     34,
+     34,
+     34,
+     37,
+     40,
+     41,
+     41,
+     44,
+     47,
+     50,
+     50,
+     50,
+     51,
+     51,
+     52,
+     55,
+     58,
+     61,
+     61,
+     62,
+     65,
+     66
+    ]
+   }
+  ]
+ },
+ "convergencia": [
+  {
+   "equipo": "Real Madrid",
+   "n": 20,
+   "p": 0.1,
+   "se": 0.0670820393249937
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 22,
+   "p": 0.09090909090909091,
+   "se": 0.061290896587567464
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 24,
+   "p": 0.08333333333333333,
+   "se": 0.0564169333655275
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 27,
+   "p": 0.07407407407407407,
+   "se": 0.05040102351405716
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 30,
+   "p": 0.06666666666666667,
+   "se": 0.04554200340426488
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 33,
+   "p": 0.06060606060606061,
+   "se": 0.04153602526317224
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 37,
+   "p": 0.10810810810810811,
+   "se": 0.05104866387043433
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 41,
+   "p": 0.0975609756097561,
+   "se": 0.046339897903986786
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 46,
+   "p": 0.08695652173913043,
+   "se": 0.04154491677851779
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 51,
+   "p": 0.0784313725490196,
+   "se": 0.037646418038888574
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 57,
+   "p": 0.07017543859649122,
+   "se": 0.03383417933803951
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 63,
+   "p": 0.06349206349206349,
+   "se": 0.03072169528783307
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 70,
+   "p": 0.07142857142857142,
+   "se": 0.030781843120404807
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 78,
+   "p": 0.07692307692307693,
+   "se": 0.03017171309818216
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 87,
+   "p": 0.08045977011494253,
+   "se": 0.029161854218673844
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 97,
+   "p": 0.10309278350515463,
+   "se": 0.030874648709435897
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 107,
+   "p": 0.09345794392523364,
+   "se": 0.028139099853835524
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 119,
+   "p": 0.08403361344537816,
+   "se": 0.025432719820168353
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 133,
+   "p": 0.08270676691729323,
+   "se": 0.023883545413719173
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 147,
+   "p": 0.08163265306122448,
+   "se": 0.022582993272346454
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 164,
+   "p": 0.07317073170731707,
+   "se": 0.020335115568277468
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 182,
+   "p": 0.07142857142857142,
+   "se": 0.019090088708030313
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 202,
+   "p": 0.07920792079207921,
+   "se": 0.019001566646702682
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 225,
+   "p": 0.08888888888888889,
+   "se": 0.018972219962763995
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 250,
+   "p": 0.092,
+   "se": 0.01827960612267124
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 278,
+   "p": 0.08992805755395683,
+   "se": 0.017157858071211313
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 309,
+   "p": 0.08737864077669903,
+   "se": 0.016064555640838342
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 343,
+   "p": 0.08163265306122448,
+   "se": 0.014784039441315159
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 381,
+   "p": 0.08136482939632546,
+   "se": 0.014006428401673762
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 424,
+   "p": 0.07547169811320754,
+   "se": 0.012828303842454432
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 471,
+   "p": 0.07643312101910828,
+   "se": 0.012242342294790513
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 523,
+   "p": 0.07265774378585087,
+   "se": 0.011350373015812694
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 581,
+   "p": 0.07228915662650602,
+   "se": 0.010743723657984225
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 646,
+   "p": 0.07585139318885449,
+   "se": 0.010416850434387092
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 718,
+   "p": 0.07381615598885793,
+   "se": 0.009758028699492563
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 798,
+   "p": 0.07894736842105263,
+   "se": 0.009545740133026469
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 886,
+   "p": 0.08013544018058691,
+   "se": 0.009121313777078472
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 985,
+   "p": 0.07715736040609138,
+   "se": 0.00850226020360486
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 1094,
+   "p": 0.08135283363802559,
+   "se": 0.008265174958255586
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 1216,
+   "p": 0.08141447368421052,
+   "se": 0.007842306674658043
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 1351,
+   "p": 0.08364174685418209,
+   "se": 0.0075321076874713296
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 1501,
+   "p": 0.08394403730846102,
+   "se": 0.007157569657614849
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 1668,
+   "p": 0.08633093525179857,
+   "se": 0.006876693376381906
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 1853,
+   "p": 0.08472746896923908,
+   "se": 0.006469185749278243
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 2059,
+   "p": 0.08547838756677999,
+   "se": 0.006161649269642041
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 2288,
+   "p": 0.08391608391608392,
+   "se": 0.005796451726013708
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 2542,
+   "p": 0.08418568056648308,
+   "se": 0.005507253344426918
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 2825,
+   "p": 0.0831858407079646,
+   "se": 0.005195844378087207
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 3139,
+   "p": 0.08187320802803441,
+   "se": 0.004893578690866822
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 3487,
+   "p": 0.08087180957843418,
+   "se": 0.004617008244077546
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 3875,
+   "p": 0.08206451612903226,
+   "se": 0.004409079527126548
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 4305,
+   "p": 0.08060394889663182,
+   "se": 0.004148994877620149
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 4783,
+   "p": 0.08321137361488605,
+   "se": 0.003993702991296518
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 5315,
+   "p": 0.08316086547507055,
+   "se": 0.0037875156592359124
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 5905,
+   "p": 0.0829805249788315,
+   "se": 0.0035897765610622733
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 6561,
+   "p": 0.0839811004420058,
+   "se": 0.003424190979016305
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 7290,
+   "p": 0.08340192043895747,
+   "se": 0.003238275043074997
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 8100,
+   "p": 0.08296296296296296,
+   "se": 0.0030647359006385592
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 9000,
+   "p": 0.08133333333333333,
+   "se": 0.0028813234270657685
+  },
+  {
+   "equipo": "Real Madrid",
+   "n": 10000,
+   "p": 0.0814,
+   "se": 0.0027344842292468976
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 20,
+   "p": 0.9,
+   "se": 0.06708203932499368
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 22,
+   "p": 0.9090909090909091,
+   "se": 0.06129089658756747
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 24,
+   "p": 0.9166666666666666,
+   "se": 0.056416933365527513
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 27,
+   "p": 0.9259259259259259,
+   "se": 0.05040102351405716
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 30,
+   "p": 0.9333333333333333,
+   "se": 0.045542003404264876
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 33,
+   "p": 0.9393939393939394,
+   "se": 0.04153602526317222
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 37,
+   "p": 0.8918918918918919,
+   "se": 0.05104866387043433
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 41,
+   "p": 0.9024390243902439,
+   "se": 0.04633989790398678
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 46,
+   "p": 0.9130434782608695,
+   "se": 0.0415449167785178
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 51,
+   "p": 0.9019607843137255,
+   "se": 0.04163980181949191
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 57,
+   "p": 0.8947368421052632,
+   "se": 0.04064886556427542
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 63,
+   "p": 0.9047619047619048,
+   "se": 0.036983007778458254
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 70,
+   "p": 0.9,
+   "se": 0.03585685828003181
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 78,
+   "p": 0.8974358974358975,
+   "se": 0.03435200651574788
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 87,
+   "p": 0.896551724137931,
+   "se": 0.032650488032689606
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 97,
+   "p": 0.8762886597938144,
+   "se": 0.03343047016062692
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 107,
+   "p": 0.8878504672897196,
+   "se": 0.030505402466703687
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 119,
+   "p": 0.8907563025210085,
+   "se": 0.028595926142261918
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 133,
+   "p": 0.8872180451127819,
+   "se": 0.027428949299818192
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 147,
+   "p": 0.891156462585034,
+   "se": 0.025687369746160038
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 164,
+   "p": 0.9024390243902439,
+   "se": 0.02316994895199339
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 182,
+   "p": 0.9010989010989011,
+   "se": 0.022128455095870716
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 202,
+   "p": 0.8960396039603961,
+   "se": 0.021474441646620802
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 225,
+   "p": 0.8888888888888888,
+   "se": 0.020951312035156967
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 250,
+   "p": 0.884,
+   "se": 0.020252802275240827
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 278,
+   "p": 0.8884892086330936,
+   "se": 0.018878267240747156
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 309,
+   "p": 0.8867313915857605,
+   "se": 0.01802899774663111
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 343,
+   "p": 0.8862973760932945,
+   "se": 0.01714067479505524
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 381,
+   "p": 0.884514435695538,
+   "se": 0.016373963772125286
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 424,
+   "p": 0.8867924528301887,
+   "se": 0.015387418165992275
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 471,
+   "p": 0.8874734607218684,
+   "se": 0.014561117788295847
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 523,
+   "p": 0.8948374760994264,
+   "se": 0.01341379725941545
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 581,
+   "p": 0.8967297762478486,
+   "se": 0.012624968065488967
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 646,
+   "p": 0.891640866873065,
+   "se": 0.01222957837779491
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 718,
+   "p": 0.8927576601671309,
+   "se": 0.011547493088527178
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 798,
+   "p": 0.8872180451127819,
+   "se": 0.011197821660870749
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 886,
+   "p": 0.8882618510158014,
+   "se": 0.010584110873673416
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 985,
+   "p": 0.8903553299492386,
+   "se": 0.009955368236845329
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 1094,
+   "p": 0.8839122486288848,
+   "se": 0.00968476561233761
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 1216,
+   "p": 0.8832236842105263,
+   "se": 0.009209709901180758
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 1351,
+   "p": 0.8800888230940045,
+   "se": 0.008838232277136348
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 1501,
+   "p": 0.8780812791472352,
+   "se": 0.008445244192598097
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 1668,
+   "p": 0.8764988009592326,
+   "se": 0.008055884427338242
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 1853,
+   "p": 0.8791149487317863,
+   "se": 0.007573060430137782
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 2059,
+   "p": 0.879553181155901,
+   "se": 0.007172995289638439
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 2288,
+   "p": 0.881993006993007,
+   "se": 0.006744634704259293
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 2542,
+   "p": 0.8819826907946499,
+   "se": 0.006399044232247685
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 2825,
+   "p": 0.8814159292035398,
+   "se": 0.006082672006880869
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 3139,
+   "p": 0.882765211850908,
+   "se": 0.005741894368476998
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 3487,
+   "p": 0.8855749928305133,
+   "se": 0.005390724939417213
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 3875,
+   "p": 0.8851612903225806,
+   "se": 0.0051217633162441685
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 4305,
+   "p": 0.8868757259001161,
+   "se": 0.004827504740863182
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 4783,
+   "p": 0.8854275559272423,
+   "se": 0.0046053900175179975
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 5315,
+   "p": 0.8854186265286924,
+   "se": 0.004368976457040084
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 5905,
+   "p": 0.8858594411515665,
+   "se": 0.004138018761126455
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 6561,
+   "p": 0.8834019204389575,
+   "se": 0.003962231527510454
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 7290,
+   "p": 0.8825788751714677,
+   "se": 0.0037703886391272194
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 8100,
+   "p": 0.8838271604938271,
+   "se": 0.0035603563226318273
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 9000,
+   "p": 0.8855555555555555,
+   "se": 0.0033557068071544916
+  },
+  {
+   "equipo": "Barcelona",
+   "n": 10000,
+   "p": 0.8858,
+   "se": 0.0031805402056883352
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 20,
+   "p": 0.0,
+   "se": 2.2360679774997896e-07
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 22,
+   "p": 0.0,
+   "se": 2.1320071635561043e-07
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 24,
+   "p": 0.0,
+   "se": 2.0412414523193152e-07
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 27,
+   "p": 0.0,
+   "se": 1.9245008972987525e-07
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 30,
+   "p": 0.0,
+   "se": 1.8257418583505539e-07
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 33,
+   "p": 0.0,
+   "se": 1.7407765595569782e-07
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 37,
+   "p": 0.0,
+   "se": 1.6439898730535728e-07
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 41,
+   "p": 0.0,
+   "se": 1.5617376188860605e-07
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 46,
+   "p": 0.0,
+   "se": 1.4744195615489713e-07
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 51,
+   "p": 0.0196078431372549,
+   "se": 0.019414657705424988
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 57,
+   "p": 0.03508771929824561,
+   "se": 0.024371600978552357
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 63,
+   "p": 0.031746031746031744,
+   "se": 0.022088645799247856
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 70,
+   "p": 0.02857142857142857,
+   "se": 0.019912344355347705
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 78,
+   "p": 0.02564102564102564,
+   "se": 0.017896985652618276
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 87,
+   "p": 0.022988505747126436,
+   "se": 0.016067399116695313
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 97,
+   "p": 0.020618556701030927,
+   "se": 0.01442843406231923
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 107,
+   "p": 0.018691588785046728,
+   "se": 0.01309284362341042
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 119,
+   "p": 0.025210084033613446,
+   "se": 0.014370410687695694
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 133,
+   "p": 0.03007518796992481,
+   "se": 0.01480973847415683
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 147,
+   "p": 0.027210884353741496,
+   "se": 0.013419057452029788
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 164,
+   "p": 0.024390243902439025,
+   "se": 0.012045482885970606
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 182,
+   "p": 0.027472527472527472,
+   "se": 0.012116147545983285
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 202,
+   "p": 0.024752475247524754,
+   "se": 0.010931784482123275
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 225,
+   "p": 0.022222222222222223,
+   "se": 0.009827036415867851
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 250,
+   "p": 0.024,
+   "se": 0.009679669415842671
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 278,
+   "p": 0.02158273381294964,
+   "se": 0.00871551156142716
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 309,
+   "p": 0.022653721682847898,
+   "se": 0.008464762401497117
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 343,
+   "p": 0.029154518950437316,
+   "se": 0.009084079716784297
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 381,
+   "p": 0.031496062992125984,
+   "se": 0.008947801531789179
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 424,
+   "p": 0.030660377358490566,
+   "se": 0.008372281115795134
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 471,
+   "p": 0.029723991507430998,
+   "se": 0.007825115511828226
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 523,
+   "p": 0.02676864244741874,
+   "se": 0.007057816711163351
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 581,
+   "p": 0.025817555938037865,
+   "se": 0.0065794508430870756
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 646,
+   "p": 0.02786377708978328,
+   "se": 0.0064754103849382055
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 718,
+   "p": 0.02924791086350975,
+   "se": 0.006288388575978186
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 798,
+   "p": 0.02882205513784461,
+   "se": 0.0059225731338379195
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 886,
+   "p": 0.02708803611738149,
+   "se": 0.005453918840485803
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 985,
+   "p": 0.028426395939086295,
+   "se": 0.005295178915696729
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 1094,
+   "p": 0.03016453382084095,
+   "se": 0.005171168376372373
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 1216,
+   "p": 0.03125,
+   "se": 0.004989581044207071
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 1351,
+   "p": 0.03256846780162842,
+   "se": 0.004829265790267109
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 1501,
+   "p": 0.03397734843437708,
+   "se": 0.0046762535489066
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 1668,
+   "p": 0.03357314148681055,
+   "se": 0.004410445529727551
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 1853,
+   "p": 0.03291958985429034,
+   "se": 0.004144964269511767
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 2059,
+   "p": 0.03205439533754249,
+   "se": 0.0038818709831489767
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 2288,
+   "p": 0.03146853146853147,
+   "se": 0.0036497834376161505
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 2542,
+   "p": 0.03147128245476003,
+   "se": 0.003462786362508266
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 2825,
+   "p": 0.03327433628318584,
+   "se": 0.0033744041665119493
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 3139,
+   "p": 0.03249442497610704,
+   "se": 0.003164721578613686
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 3487,
+   "p": 0.030972182391740752,
+   "se": 0.002933783438207072
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 3875,
+   "p": 0.02993548387096774,
+   "se": 0.002737521868588628
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 4305,
+   "p": 0.029965156794425088,
+   "se": 0.0025984559952561006
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 4783,
+   "p": 0.028852184821241897,
+   "se": 0.0024203703887612196
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 5315,
+   "p": 0.02878645343367827,
+   "se": 0.002293505638802528
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 5905,
+   "p": 0.02845046570702794,
+   "se": 0.002163551378011949
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 6561,
+   "p": 0.030025910684346898,
+   "se": 0.002106896210136353
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 7290,
+   "p": 0.03141289437585734,
+   "se": 0.002042958546270995
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 8100,
+   "p": 0.030617283950617285,
+   "se": 0.0019142050496515973
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 9000,
+   "p": 0.030555555555555555,
+   "se": 0.0018142005763251607
+  },
+  {
+   "equipo": "Atletico Madrid",
+   "n": 10000,
+   "p": 0.0303,
+   "se": 0.001714115223664967
+  }
+ ],
+ "clave": {
+  "local": "Barcelona",
+  "visitante": "Real Madrid",
+  "condicionado": [
+   {
+    "resultado": "V",
+    "p_resultado": 0.2088,
+    "p_campeon_rm": 0.17049808429118773,
+    "p_campeon_lider": 0.7863984674329502
+   },
+   {
+    "resultado": "E",
+    "p_resultado": 0.1867,
+    "p_campeon_rm": 0.09908944831280128,
+    "p_campeon_lider": 0.8639528655597215
+   },
+   {
+    "resultado": "D",
+    "p_resultado": 0.6045,
+    "p_campeon_rm": 0.04516129032258064,
+    "p_campeon_lider": 0.9268817204301075
+   }
+  ],
+  "lider": "Barcelona"
+ }
 }

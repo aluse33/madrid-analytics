@@ -1,14 +1,15 @@
 jugador,tiros,goles,xg,p_al_menos,p_como_mucho,percentil
-Delantero Centro,24,2,2.2498,0.6869,0.6044,0.4587
-Extremo Izquierdo,24,1,1.5967,0.8212,0.5130,0.3459
-Extremo Canterano,10,3,1.1608,0.0855,0.9860,0.9502
-Interior Creativo,8,2,1.1546,0.3165,0.9372,0.8104
-Delantero Canterano,12,0,1.1353,1.0000,0.2870,0.1435
-Extremo Derecho,13,3,0.9478,0.0551,0.9919,0.9684
-Delantero Suplente,8,0,0.8384,1.0000,0.4006,0.2003
-Mediocentro Ancla,8,1,0.7437,0.5473,0.8359,0.6443
-Interior Llegador,4,0,0.4220,1.0000,0.6229,0.3114
-Central Alto,4,1,0.4083,0.3539,0.9488,0.7974
-Lateral Diestro,3,0,0.3793,1.0000,0.6641,0.3320
-Interior Canterano,3,0,0.1511,1.0000,0.8524,0.4262
-Lateral Zurdo,3,0,0.1191,1.0000,0.8843,0.4421
+Kylian Mbappé,46,7,8.6850,0.8321,0.3080,0.2380
+Vinícius Júnior,23,1,3.5891,0.9979,0.0532,0.0277
+Arda Güler,13,2,2.0708,0.7929,0.7499,0.4785
+Jude Bellingham,18,3,1.6491,0.2165,0.9331,0.8583
+Carlos Espí,4,2,1.3819,0.4411,0.9267,0.7428
+Yan Diomande,9,2,0.9272,0.2328,0.9488,0.8580
+Denzel Dumfries,6,0,0.6267,1.0000,0.4884,0.2442
+Dean Huijsen,6,0,0.5117,1.0000,0.5711,0.2856
+Ibrahima Konaté,5,0,0.3137,1.0000,0.7184,0.3592
+Federico Valverde,7,0,0.2958,1.0000,0.7378,0.3689
+Endrick,4,0,0.2281,1.0000,0.7879,0.3940
+Trent Alexander-Arnold,3,0,0.1819,1.0000,0.8271,0.4136
+Antonio Rüdiger,3,1,0.1455,0.1387,0.9933,0.9273
+Aurélien Tchouaméni,5,0,0.1279,1.0000,0.8781,0.4391

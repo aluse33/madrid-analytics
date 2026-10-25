@@ -3,10 +3,11 @@ title: Partido
 ---
 
 ```js
-import {num, pct, fecha, fechaHora, tickNum} from "./components/formato.js";
+import {num, pct, fecha, fechaHora, tickNum, puestoTxt} from "./components/formato.js";
 import {mapaTiros} from "./components/campo.js";
 import {resultadoMerecido, probAlMenos} from "./components/probabilidad.js";
-import {barra1x2} from "./components/ui.js";
+import {barraPartido} from "./components/ui.js";
+import {escudo, nombre, corto} from "./equipos/equipos.js";
 
 const estado = FileAttachment("data/estado.json").json();
 const partidos = FileAttachment("data/rm_partidos.csv").csv({typed: true});
@@ -18,7 +19,7 @@ const jugadores = FileAttachment("data/jugadores_rm.csv").csv({typed: true});
 const jugados = partidos.filter((d) => d.temporada === estado.temporada && d.jugado).reverse();
 const elegido = view(Inputs.select(jugados, {
   label: "Partido",
-  format: (d) => `J${d.jornada} · ${fecha(d.fecha)} · ${d.condicion === "Local" ? `Real Madrid ${d.gf}–${d.gc} ${d.rival}` : `${d.rival} ${d.gc}–${d.gf} Real Madrid`}`
+  format: (d) => `J${d.jornada} · ${fecha(d.fecha)} · ${d.condicion === "Local" ? `Real Madrid ${d.gf}–${d.gc} ${nombre(d.rival)}` : `${nombre(d.rival)} ${d.gc}–${d.gf} Real Madrid`}`
 }));
 ```
 
@@ -37,14 +38,23 @@ const merecidoPropio = resultadoMerecido(tRM.map((d) => d.xg_propio), tRiv.map((
 const local = p.condicion === "Local" ? "Real Madrid" : p.rival;
 const visitante = p.condicion === "Local" ? p.rival : "Real Madrid";
 const marcador = p.condicion === "Local" ? `${p.gf} – ${p.gc}` : `${p.gc} – ${p.gf}`;
+const R = nombre(p.rival);
+const lado = (e) => html`<div class="lado"><div class="escudo-grande">${escudo(e, 48)}</div><div class="nombre">${nombre(e)}</div></div>`;
+// goleadores de cada equipo (los autogoles no son tiros y no aparecen)
+const goles = (eq) => t.filter((d) => d.resultado === "gol" && (eq === "Real Madrid" ? d.equipo === eq : d.equipo !== "Real Madrid"))
+  .sort((a, b) => a.minuto - b.minuto).map((d) => `${d.jugador} ${d.minuto}'`);
 ```
 
-<div class="card">
-  <div class="etiqueta">Jornada ${p.jornada} · ${fechaHora(p.fecha)} · LaLiga</div>
-  <div class="equipos">
-    <div class="eq">${local}</div>
+<div class="card destacada">
+  <div class="etiqueta">Jornada ${p.jornada} · LaLiga ${p.temporada}</div>
+  <div class="cuando">${fechaHora(p.fecha)}</div>
+  <div class="duelo">
+    ${lado(local)}
     <div class="marcador">${marcador}</div>
-    <div class="eq">${visitante}</div>
+    ${lado(visitante)}
+  </div>
+  <div class="duelo" style="margin-top:0;align-items:start;font-size:0.85rem">
+    <div>${goles(local).map((g) => html`<div>⚽ ${g}</div>`)}</div><div></div><div>${goles(visitante).map((g) => html`<div>⚽ ${g}</div>`)}</div>
   </div>
   <div class="nota" style="text-align:center">xG ${num(p.condicion === "Local" ? p.xgf : p.xgc)} – ${num(p.condicion === "Local" ? p.xgc : p.xgf)} · tiros ${p.condicion === "Local" ? tRM.length : tRiv.length} – ${p.condicion === "Local" ? tRiv.length : tRM.length}</div>
 </div>
@@ -52,7 +62,7 @@ const marcador = p.condicion === "Local" ? `${p.gf} – ${p.gc}` : `${p.gc} – 
 ## Mapa de tiros
 
 <div class="card">
-  <div class="leyenda"><span class="rm">Real Madrid, atacando hacia la derecha</span><span class="rival">${p.rival}, hacia la izquierda</span><span class="sin">Relleno = gol · tamaño = xG</span></div>
+  <div class="leyenda"><span class="rm">Real Madrid, atacando hacia la derecha</span><span class="rival">${R}, hacia la izquierda</span><span class="sin">Relleno = gol · tamaño = xG</span></div>
   ${resize((width) => mapaTiros(t, {width}))}
 </div>
 
@@ -88,9 +98,9 @@ function xgAcumulado(width) {
 ```
 
 <div class="card">
-  <div class="leyenda"><span class="rm">Real Madrid</span><span class="rival">${p.rival}</span><span class="sin">Punto = gol</span></div>
+  <div class="leyenda"><span class="rm">Real Madrid</span><span class="rival">${R}</span><span class="sin">Punto = gol</span></div>
   ${resize((width) => xgAcumulado(width))}
-  <div class="nota">Goles: ${t.filter((d) => d.resultado === "gol").sort((a, b) => a.minuto - b.minuto).map((d) => `${d.minuto}' ${d.jugador} (${d.equipo === "Real Madrid" ? "RMA" : p.rival})`).join(" · ") || "ninguno"}. Los autogoles no son tiros y no aparecen.</div>
+  <div class="nota">Goles: ${t.filter((d) => d.resultado === "gol").sort((a, b) => a.minuto - b.minuto).map((d) => `${d.minuto}' ${d.jugador} (${d.equipo === "Real Madrid" ? "RMA" : corto(p.rival)})`).join(" · ") || "ninguno"}. Los autogoles no son tiros y no aparecen.</div>
 </div>
 
 ## ¿Qué merecían las ocasiones?
@@ -99,13 +109,13 @@ function xgAcumulado(width) {
   <div class="card">
     <h3>Resultado según los tiros</h3>
     <p>Si se repitiera el partido con exactamente las mismas ocasiones y cada tiro entrara con probabilidad igual a su xG:</p>
-    ${barra1x2(merecido, p.rival)}
+    ${barraPartido({local, visitante, p_victoria: merecido.victoria, p_empate: merecido.empate, p_derrota: merecido.derrota}, nombre)}
     <p class="nota">Puntos esperados: <b>${num(merecido.puntosEsperados)}</b> (obtenidos: ${p.puntos}). Con el xG de nuestro modelo: ${num(merecidoPropio.puntosEsperados)}.</p>
   </div>
   <div class="card">
     <h3>¿Acierto o suerte?</h3>
     <p>${frase("el Madrid", tRM, p.gf)}</p>
-    <p>${frase(p.rival, tRiv, p.gc)}</p>
+    <p>${frase(R, tRiv, p.gc)}</p>
     <p class="nota">Valores bajos (por debajo del 10 %) indican una eficacia fuera de lo normal; no dicen si fue talento o suerte, solo que fue poco habitual.</p>
   </div>
 </div>
@@ -117,7 +127,7 @@ Inputs.table(jugadores.filter((d) => d.game_id === p.game_id).sort((a, b) => ORD
   columns: ["jugador", "puesto", "minutos", "goles", "asistencias", "tiros", "xg", "npxg", "xa", "pases_clave", "xg_chain"],
   header: {jugador: "Jugador", puesto: "Puesto", minutos: "Min", goles: "G", asistencias: "A", tiros: "Tiros",
     xg: "xG", npxg: "npxG", xa: "xA", pases_clave: "Pases clave", xg_chain: "xGChain"},
-  format: {xg: (d) => num(d), npxg: (d) => num(d), xa: (d) => num(d), xg_chain: (d) => num(d)},
+  format: {puesto: puestoTxt, xg: (d) => num(d), npxg: (d) => num(d), xa: (d) => num(d), xg_chain: (d) => num(d)},
   width: {jugador: 170}, layout: "auto",
   select: false, rows: 16
 })

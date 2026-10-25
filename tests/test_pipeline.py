@@ -50,6 +50,8 @@ def test_salidas_web(entorno, monkeypatch):
     web = raiz / "web"
     monkeypatch.setattr(salidas, "WEB", web)
     monkeypatch.setattr(salidas, "RUTA_MODELO_XG", raiz / "xg.joblib")
+    from rma import escudos
+    monkeypatch.setattr(escudos, "WEB", raiz / "equipos")  # no tocar los escudos de la web real
     salidas.generar(cfg)
     esperados = {"estado.json", "rm_partidos.csv", "temporadas.json", "ratings.csv",
                  "prediccion.json", "backtest.json", "simulacion.json", "xg_modelo.json",
@@ -79,3 +81,10 @@ def test_nombres_canonicos():
     assert canonico("Athletic Bilbao") == "Athletic Club"
     assert canonico("Real Madrid CF") == "Real Madrid"
     assert canonico("Club Desconocido") == "Club Desconocido"
+
+
+def test_traducciones_al_dia():
+    """Cada texto en español de las páginas tiene su par en inglés (si no, `rma traducir` falla)."""
+    from rma.traduccion import traducir
+
+    assert traducir() == []

@@ -13,7 +13,7 @@ import pandas as pd
 
 from rma.config import Config, etiqueta_temporada
 from rma.ingest import understat
-from rma.process.normalize import canonico
+from rma.process.normalize import canonico, jugador
 
 LARGO, ANCHO, PORTERIA = 105.0, 68.0, 7.32
 
@@ -83,9 +83,9 @@ def tiros(shots: pd.DataFrame) -> pd.DataFrame:
         "game_id": s["game_id"].astype(int),
         "temporada": s["season"].astype(str).map(etiqueta_temporada),
         "equipo": s["team"].map(canonico),
-        "jugador": s["player"].astype(str),
+        "jugador": s["player"].astype(str).map(jugador),
         "jugador_id": s["player_id"].astype(int),
-        "asistente": s["assist_player"].astype(object),
+        "asistente": s["assist_player"].astype(object).map(jugador),
         "minuto": s["minute"].astype(int),
         "x": x.round(2), "y": y.round(2),
         "distancia": dist.round(2), "angulo": ang.round(4),
@@ -107,6 +107,7 @@ def jugadores_partido(pm: pd.DataFrame) -> pd.DataFrame:
     out = pm[list(cols)].rename(columns=cols).copy()
     out["temporada"] = pm["season"].astype(str).map(etiqueta_temporada)
     out["equipo"] = out.equipo.map(canonico)
+    out["jugador"] = out.jugador.astype(str).map(jugador)
     for c in ["minutos", "goles", "tiros", "asistencias", "pases_clave", "game_id", "jugador_id"]:
         out[c] = pd.to_numeric(out[c]).fillna(0).astype(int)
     for c in ["xg", "xa", "xg_chain", "xg_buildup"]:

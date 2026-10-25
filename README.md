@@ -13,7 +13,8 @@ Web de análisis del Real Madrid en LaLiga con modelos estadísticos y de *machi
 | Resumen | Puntos, xG partido a partido, temporada actual frente a las anteriores, probabilidad de ganar la Liga | Bootstrap; Monte Carlo |
 | Partido | Mapa de tiros, xG acumulado, resultado "merecido" y "¿acierto o suerte?" | Poisson-binomial exacta |
 | Jugadores | npxG/90 y xA/90 con intervalos creíbles; goles frente a npxG | Shrinkage empírico-bayesiano Gamma-Poisson con sobredispersión |
-| Predicción | 1X2 y marcadores de los próximos partidos, simulación de la Liga, fuerza de cada equipo | Dixon-Coles ponderado, penalizado y con objetivo en xG |
+| Predicción | 1X2 y marcadores de los próximos partidos, fuerza de cada equipo | Dixon-Coles ponderado, penalizado y con objetivo en xG; predictiva posterior |
+| Simulación Monte Carlo | Probabilidad de título, trayectorias de puntos, quién acaba dónde, lo que vale el próximo partido | 10.000 temporadas con incertidumbre de parámetros (sándwich) y deriva de las fuerzas (paseo aleatorio estimado) |
 | Laboratorio | xG propio frente al de Understat; backtest de Dixon-Coles frente a una referencia | Logística y gradient boosting con CV agrupada por partido |
 | Metodología | Las fórmulas y las limitaciones | — |
 
@@ -31,6 +32,8 @@ src/rma/
   models/inferencia.py      Poisson-binomial y bootstrap
   models/xg_modelo.py       modelo xG propio y su evaluación
   models/simulacion.py      Monte Carlo del resto de la temporada
+  escudos.py                escudos de los equipos (assets/escudos) y módulo web/src/equipos
+  traduccion.py             genera las páginas en inglés (web/src/en) con una tabla de traducciones
   salidas.py                ejecuta los modelos y escribe web/src/data/
   pipeline.py               línea de comandos `rma`
 data/processed/             tablas limpias en Parquet (versionadas)
@@ -58,15 +61,21 @@ npm install
 npm run dev        # abre http://127.0.0.1:3000 y recarga al editar
 ```
 
-Comandos sueltos: `rma ingesta`, `rma procesar`, `rma salidas [--reentrenar-xg]`, `rma muestra`. Tests: `pytest`.
+Comandos sueltos: `rma ingesta`, `rma procesar`, `rma salidas [--reentrenar-xg]`, `rma traducir`, `rma muestra`. Tests: `pytest`.
+
+## Español e inglés
+
+Las páginas se escriben **solo en español** (`web/src/*.md`). Las inglesas (`web/src/en/`) se generan con `rma traducir` (también lo hace `rma salidas`) a partir de la tabla de `src/rma/traduccion.py`. Si cambias un texto en español, añade o corrige su par en esa tabla: si no, `rma traducir` falla diciéndote qué texto falta. Números, fechas, V/E/D → W/D/L y puestos se adaptan solos (`web/src/components/formato.js`).
 
 ## Publicar en GitHub Pages
 
-1. Crea un repositorio en GitHub y sube el proyecto.
-2. En **Settings → Pages**, elige **Source: GitHub Actions**.
-3. En **Actions**, lanza "Actualizar y publicar" a mano la primera vez. Después corre solo cada día a las 06:23 UTC.
+1. Sube el proyecto a un repositorio **público** de GitHub (GitHub Pages es gratis con repositorios públicos).
+2. En el repositorio: **Settings → Pages → Source: GitHub Actions**.
+3. En **Actions → Actualizar y publicar → Run workflow**, lánzalo la primera vez. Descarga los datos, calcula los modelos y publica la web en `https://<tu-usuario>.github.io/<repositorio>/`.
 
-El modelo xG se reentrena el día 1 de cada mes, o a mano desde Actions. ¿Prefieres Vercel? Importa el repo, pon `web` como directorio raíz, `npm run build` como comando y `dist` como salida. Los datos los seguirá generando GitHub Actions.
+A partir de ahí corre solo cada día a las 06:23 UTC. Cada vez que subas cambios a `main`, la web se vuelve a publicar en un par de minutos (sin descargar datos). El modelo xG se reentrena el día 1 de cada mes.
+
+Los datos de Understat (`data/raw`, `data/processed`) **no se suben**: sus condiciones no permiten redistribuirlos. Se publican solo los resultados de los modelos que enseña la web.
 
 ## Decisiones de modelización
 
@@ -80,6 +89,10 @@ El modelo xG se reentrena el día 1 de cada mes, o a mano desde Actions. ¿Prefi
 - **Más fuentes**, ya preparadas en `normalize.py`: ClubElo (`soccerdata.ClubElo`) como predictor y referencia; ESPN para Champions y Copa, que Understat no cubre; WhoScored para eventos de pase (exige Selenium y suele fallar desde servidores, mejor en local).
 - **Modelos**: Dixon-Coles dinámico (fuerzas que evolucionan en el tiempo, p. ej. filtro de Kalman), priors por rol más finos que el puesto y xG con contexto si se añaden datos de eventos.
 - **Web**: ficha por jugador, comparador de temporadas y escudos.
+
+## Escudos
+
+De [luukhopman/football-logos](https://github.com/luukhopman/football-logos), guardados en `assets/escudos/` con el nombre canónico de cada equipo. Si asciende un equipo nuevo, añádelo a `EQUIPOS` en `src/rma/process/normalize.py` y `rma salidas` intentará descargar su escudo. Son marcas de cada club.
 
 ## Aviso
 
