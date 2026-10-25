@@ -95,7 +95,7 @@ game_id,fecha,local,visitante,goles_local,goles_visitante,xg_local,xg_visitante,
 30869,2026-10-24T16:30Z,Valencia,Villarreal,1,2,1.1723,1.5060,true
 30862,2026-10-24T19:00Z,Atletico Madrid,Deportivo La Coruna,1,0,2.2185,2.2352,true
 30861,2026-10-25T13:00Z,Athletic Club,Getafe,4,0,0.7000,0.3494,true
-30863,2026-10-25T15:15Z,Celta Vigo,Real Betis,,,,,false
+30863,2026-10-25T15:15Z,Celta Vigo,Real Betis,0,0,0.8040,1.0730,true
 30867,2026-10-25T17:30Z,Real Sociedad,Levante,,,,,false
 30864,2026-10-25T20:00Z,Barcelona,Real Madrid,,,,,false
 30868,2026-10-26T20:00Z,Sevilla,Osasuna,,,,,false
