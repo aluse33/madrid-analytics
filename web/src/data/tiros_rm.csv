@@ -1344,3 +1344,31 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 699979,30857,2026/27,Sevilla,Ruben Vargas,Gabriel Suazo,15,91.8800,45.0200,17.1400,Open Play,Right Foot,0.0639,0.0892,fuera
 699995,30857,2026/27,Sevilla,Youssouf Fofana,Lucas Stassin,63,85.6800,31.2800,19.5100,Open Play,Right Foot,0.0660,0.1154,parado
 699999,30857,2026/27,Sevilla,Youssouf Fofana,nan,83,93.6600,35.7700,11.4800,Open Play,Right Foot,0.3238,0.1481,parado
+701657,30864,2026/27,Barcelona,Anthony Gordon,João Cancelo,6,91.5600,51.2700,21.8900,Open Play,Right Foot,0.0293,0.0208,parado
+701658,30864,2026/27,Barcelona,Anthony Gordon,João Cancelo,14,80.6400,50.1200,29.2100,Open Play,Right Foot,0.0208,0.0145,parado
+701666,30864,2026/27,Barcelona,Anthony Gordon,Raphinha,33,96.3900,46.8500,15.4700,Open Play,Left Foot,0.0462,0.0446,parado
+701661,30864,2026/27,Barcelona,Fermín López,Raphinha,22,85.1500,21.8300,23.2800,Open Play,Right Foot,0.0289,0.0438,bloqueado
+701680,30864,2026/27,Barcelona,Frenkie de Jong,Álex Balde,78,90.2000,30.4600,15.2200,Open Play,Right Foot,0.0969,0.1379,bloqueado
+701675,30864,2026/27,Barcelona,Gerard Martín,João Cancelo,65,97.0200,36.7900,8.4500,From Corner,,0.3347,0.1111,parado
+701668,30864,2026/27,Barcelona,Lamine Yamal,Fermín López,43,96.2800,25.7000,12.0300,Open Play,Left Foot,0.3818,0.1385,fuera
+701677,30864,2026/27,Barcelona,Lamine Yamal,Pedri,73,89.1500,26.0400,17.7400,Open Play,Left Foot,0.0642,0.1008,fuera
+701679,30864,2026/27,Barcelona,Lamine Yamal,Rodri,77,82.8500,35.8400,22.2300,Open Play,Left Foot,0.0485,0.0473,fuera
+701681,30864,2026/27,Barcelona,Lamine Yamal,Anthony Gordon,80,85.5700,36.0400,19.5300,Open Play,Left Foot,0.0619,0.1075,bloqueado
+701682,30864,2026/27,Barcelona,Lamine Yamal,Anthony Gordon,82,95.7600,45.6300,14.8500,Open Play,Left Foot,0.1151,0.0790,bloqueado
+701660,30864,2026/27,Barcelona,Raphinha,Pedri,21,88.5200,34.8200,16.5100,Open Play,Left Foot,0.0768,0.1164,fuera
+701662,30864,2026/27,Barcelona,Raphinha,Anthony Gordon,23,85.2600,34.8800,19.7600,Open Play,Left Foot,0.0574,0.1074,fuera
+701664,30864,2026/27,Barcelona,Raphinha,João Cancelo,32,78.4300,21.6900,29.2800,Set Piece,Left Foot,0.0193,0.0306,fuera
+701671,30864,2026/27,Barcelona,Raphinha,Fermín López,54,90.0900,25.9800,16.9300,Open Play,Left Foot,0.0933,0.1104,bloqueado
+701672,30864,2026/27,Barcelona,Raphinha,Pedri,60,95.7600,24.2100,13.4600,From Corner,Left Foot,0.0551,0.0334,gol
+701674,30864,2026/27,Barcelona,Raphinha,Anthony Gordon,64,92.4000,45.9000,17.3300,Open Play,Left Foot,0.0630,0.0567,bloqueado
+701669,30864,2026/27,Barcelona,Rodri,Pedri,44,85.3700,38.4900,20.1400,Open Play,Left Foot,0.0477,0.0895,parado
+701656,30864,2026/27,Real Madrid,Arda Güler,nan,4,93.7700,23.6600,15.2700,Open Play,Right Foot,0.0713,0.1098,fuera
+701659,30864,2026/27,Real Madrid,Arda Güler,Aurélien Tchouaméni,17,85.3700,17.9500,25.3600,Open Play,Left Foot,0.0240,0.0256,parado
+701663,30864,2026/27,Real Madrid,Arda Güler,Kylian Mbappé,25,83.2700,18.3600,26.7800,Open Play,Left Foot,0.0216,0.0193,bloqueado
+701673,30864,2026/27,Real Madrid,Arda Güler,Denzel Dumfries,62,87.8800,12.7800,27.2600,Open Play,Left Foot,0.0195,0.0634,parado
+701676,30864,2026/27,Real Madrid,Arda Güler,Kylian Mbappé,70,86.8300,20.2000,22.8100,Open Play,Left Foot,0.0291,0.0371,parado
+701678,30864,2026/27,Real Madrid,Jude Bellingham,nan,77,94.0800,39.3700,12.1700,Open Play,Right Foot,0.0800,0.1285,bloqueado
+701665,30864,2026/27,Real Madrid,Kylian Mbappé,Arda Güler,32,92.0800,32.3000,13.0300,Open Play,Right Foot,0.2742,0.1445,fuera
+701667,30864,2026/27,Real Madrid,Kylian Mbappé,nan,40,97.3300,36.8600,8.1800,Open Play,Right Foot,0.5233,0.2510,gol
+701683,30864,2026/27,Real Madrid,Kylian Mbappé,Eduardo Camavinga,86,96.1800,33.1800,8.8600,Open Play,Right Foot,0.6185,0.2397,gol
+701670,30864,2026/27,Real Madrid,Yan Diomande,Arda Güler,46,92.8200,46.1700,17.2200,Open Play,Left Foot,0.2878,0.0567,fuera
