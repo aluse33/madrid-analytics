@@ -8,7 +8,7 @@ title: Metodología
 
 Los datos de LaLiga salen de **Understat** a través de la librería de Python [soccerdata](https://github.com/probberechts/soccerdata): resultado y xG de cada partido, todos los tiros (posición, xG, situación, parte del cuerpo) y estadísticas por jugador y partido. Las coordenadas se pasan a metros en un campo de 105 × 68 m. Como Understat solo cubre las ligas, la Champions y el resto de competiciones, las alineaciones, la cronología de cada partido y las fotos de los jugadores salen de **ESPN**, y el histórico del club, de **Wikipedia**.
 
-**Actualización.** La web se actualiza sola cada mañana: el proceso empieza a las 7:23 (hora de Madrid) en invierno y a las 8:23 en verano, y tarda entre diez minutos y media hora. GitHub, que es quien lo ejecuta, a veces lo retrasa un poco.
+**Actualización.** La web se actualiza sola cada mañana: el proceso empieza a las 5:37 (hora de Madrid) en invierno y a las 6:37 en verano, y tarda entre diez minutos y media hora. GitHub, que es quien lo ejecuta, a veces lo retrasa un poco.
 
 ## Qué es el xG
 

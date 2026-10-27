@@ -7,7 +7,7 @@ name: Actualizar y publicar
 
 on:
   schedule:
-    - cron: "23 6 * * *"        # 06:23 UTC todos los días
+    - cron: "37 4 * * *"        # 04:37 UTC: 5:37 en Madrid en invierno, 6:37 en verano
   workflow_dispatch:
     inputs:
       reentrenar_xg:

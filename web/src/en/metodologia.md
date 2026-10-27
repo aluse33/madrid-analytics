@@ -11,7 +11,7 @@ toc:
 
 LaLiga data come from **Understat** through the Python library [soccerdata](https://github.com/probberechts/soccerdata): result and xG of every match, every shot (location, xG, situation, body part) and per-player match stats. Coordinates are converted to metres on a 105 × 68 m pitch. Since Understat only covers leagues, the Champions League and other competitions, line-ups, match timelines and player photos come from **ESPN**, and the club's history from **Wikipedia**.
 
-**Updates.** The site updates itself every morning: the process starts at 7:23 (Madrid time) in winter and 8:23 in summer, and takes between ten minutes and half an hour. GitHub, which runs it, sometimes starts it a little late.
+**Updates.** The site updates itself every morning: the process starts at 5:37 (Madrid time) in winter and 6:37 in summer, and takes between ten minutes and half an hour. GitHub, which runs it, sometimes starts it a little late.
 
 ## What xG is
 
