@@ -464,3 +464,4 @@ table.mini td:last-child { text-align: right; font-weight: 700; font-variant-num
 .retrato img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 15%; }
 .retrato.con-foto span { visibility: hidden; }
 @media (max-width: 600px) { .retrato { width: 76px; height: 76px; } .retrato span { font-size: 1.6rem; } }
+.aviso-obras { border-color: var(--oro); background: color-mix(in srgb, var(--oro) 10%, transparent); }

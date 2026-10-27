@@ -134,10 +134,10 @@ const ebN = ebDe("npxg"), ebA = ebDe("xa");
 const tarjetaEB = (x, rot) => html`<div class="card"><div class="etiqueta">${rot}</div>
   <div class="cifra">${num(x.eb_p90)}</div>
   <div class="nota">${t("Intervalo del 90 %", "90% interval")}: ${num(x.eb_inf)} – ${num(x.eb_sup)} · ${t("bruto", "raw")} ${num(x.bruto_p90)} · ${t("media del puesto", "position mean")} ${num(x.prior_media_p90)}</div></div>`;
-if (ebN && ebA) display(html`<div class="grid grid-cols-2">
+display(ebN && ebA ? html`<div class="grid grid-cols-2">
   ${tarjetaEB(ebN, t("npxG por 90′ · estimación empírico-bayesiana", "npxG per 90′ · empirical Bayes estimate"))}
   ${tarjetaEB(ebA, t("xA por 90′ · estimación empírico-bayesiana", "xA per 90′ · empirical Bayes estimate"))}
-</div>`);
+</div>` : html`<span></span>`);
 ```
 
 ## ${t("Mapa de tiros", "Shot map")}

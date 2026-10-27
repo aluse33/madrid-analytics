@@ -5,7 +5,7 @@ export default {
   lang: "es",
   pages: [
     {name: "Resumen", path: "/"},
-    {name: "Partido", path: "/partido"},
+    {name: "Partidos", path: "/partido"},
     {name: "Champions League", path: "/champions"},
     {name: "Histórico", path: "/historico"},
     {name: "Jugadores", path: "/jugadores"},
@@ -34,7 +34,7 @@ export default {
     if (tema && window.RM_EN) tema.textContent = "🌓 Theme";
     if (!window.RM_EN) return;
     // en inglés: barra lateral, pie y enlaces apuntando a las páginas /en/
-    const T = {"Resumen": "Summary", "Partido": "Match", "Jugadores": "Players", "Ficha de jugador": "Player profile", "Histórico": "History", "Predicción": "Prediction",
+    const T = {"Resumen": "Summary", "Partidos": "Matches", "Jugadores": "Players", "Ficha de jugador": "Player profile", "Histórico": "History", "Predicción": "Prediction",
       "Simulación Monte Carlo": "Monte Carlo simulation", "Laboratorio de modelos": "Model lab", "Metodología": "Methodology"};
     const aqui = location.href.split(/[?#]/)[0].replace(/\\/$/, "");
     for (const a of document.querySelectorAll("#observablehq-sidebar a[href]")) {
@@ -60,8 +60,9 @@ export default {
     location.href = window.RM_EN ? raiz + actual.slice((raiz + "en/").length) : raiz + "en/" + actual.slice(raiz.length);
   };
 </script>
-<link rel="icon" type="image/png" href="./equipos/real-madrid.png">
-<meta name="theme-color" content="#170f2b">
+<link rel="icon" type="image/png" href="./marca/favicon.png">
+<link rel="apple-touch-icon" href="./marca/apple-touch-icon.png">
+<meta name="theme-color" content="#000000">
 <meta name="description" content="Análisis de datos del Real Madrid en LaLiga: xG, modelos de predicción y estadística bayesiana. Se actualiza tras cada jornada.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

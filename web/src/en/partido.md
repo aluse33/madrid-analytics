@@ -1,5 +1,5 @@
 ---
-title: Match
+title: Matches
 toc: false
 ---
 <!-- GENERADO por `rma traducir` a partir de ../partido.md: no editar a mano -->
@@ -83,7 +83,7 @@ const lado = (e, url) => html`<div class="lado"><div class="escudo-grande">${esc
 </div>
 
 ```js
-if (det) display(html`<h2>${tr("Lo que pasó", "What happened")}</h2>
+display(html`<div>${det ? html`<h2>${tr("Lo que pasó", "What happened")}</h2>
 <div class="card"><h3>${tr("Alineaciones", "Line-ups")}</h3>
   ${banquillo(det, local)}
   ${resize((width) => alineaciones(det, {width}))}
@@ -93,9 +93,8 @@ if (det) display(html`<h2>${tr("Lo que pasó", "What happened")}</h2>
 <div class="grid grid-cols-2">
   <div class="card"><h3>${tr("Cronología", "Timeline")}</h3>${cronologia(det, local, visitante, nombre)}</div>
   <div class="card"><h3>${tr("Estadísticas", "Stats")}</h3>${estadisticas(det, local, visitante)}</div>
-</div>`);
-if (!p) display(html`<div class="aviso">${tr("Los mapas de tiros, el xG y los datos por jugador salen de Understat, que solo cubre LaLiga. Para este partido se ve lo que da ESPN: alineaciones, cronología y estadísticas.",
-  "Shot maps, xG and player data come from Understat, which only covers LaLiga. For this match you see what ESPN provides: line-ups, timeline and stats.")}</div>`);
+</div>` : ""}${p ? "" : html`<div class="aviso">${tr("Los mapas de tiros, el xG y los datos por jugador salen de Understat, que solo cubre LaLiga. Para este partido se ve lo que da ESPN: alineaciones, cronología y estadísticas.",
+  "Shot maps, xG and player data come from Understat, which only covers LaLiga. For this match you see what ESPN provides: line-ups, timeline and stats.")}</div>`}</div>`);
 ```
 
 ```js
@@ -178,7 +177,8 @@ function rankingImpacto(width) {
 ```
 
 ```js
-if (p) display(html`
+// siempre se muestra algo: Observable solo borra lo anterior cuando la celda vuelve a pintar
+display(!p ? html`<span></span>` : html`
 <h2>${tr("Mapa de tiros", "Shot map")}</h2>
 <div class="card">
   <div class="leyenda"><span class="rm">${tr("Real Madrid, atacando hacia la derecha", "Real Madrid, attacking to the right")}</span><span class="rival">${R}, ${tr("hacia la izquierda", "to the left")}</span><span class="sin">${tr("Relleno = gol · tamaño = xG", "Filled = goal · size = xG")}</span></div>

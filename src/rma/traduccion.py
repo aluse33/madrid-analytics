@@ -82,7 +82,7 @@ PAGINAS: dict[str, list[tuple[str, str]]] = {
          'header: {jornada: "MD", fecha: "Date", condicion: "", rival: "Opponent", resultado: "", gf: "GF", gc: "GA", xgf: "xG", xgc: "Opp. xG"},'),
     ],
     "partido.md": [
-        ("title: Partido", "title: Match"),
+        ("title: Partidos", "title: Matches"),
     ],
     "jugadores.md": [
         ("title: Jugadores", "title: Players"),
