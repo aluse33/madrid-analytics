@@ -6,6 +6,7 @@ toc: false
 ```js
 import {num, pct, ent, fecha, fechaHora, hora as horaDe, diaLargo, letra, condicionTxt, tickNum, ordinal, t} from "./components/formato.js";
 import {escudoDe, conEscudoDe} from "./components/eventos.js";
+import {tarjetaCurva} from "./components/curva.js";
 import {barraPartido, pildoras} from "./components/ui.js";
 import {escudo, escudoUrl, nombre, corto, conEscudo} from "./equipos/equipos.js";
 
@@ -16,6 +17,7 @@ const temporadas = FileAttachment("data/temporadas.json").json();
 const prediccion = FileAttachment("data/prediccion.json").json();
 const simulacion = FileAttachment("data/simulacion.json").json();
 const todas = FileAttachment("data/partidos_todas.csv").csv({typed: true});
+const curvasLiga = FileAttachment("data/liga_historica.csv").csv({typed: true});
 ```
 
 ```js
@@ -166,6 +168,12 @@ display(html`<div class="grid grid-cols-1">
   <div class="card" style="overflow-x:auto"><h3>${t("Próximos", "Upcoming")}</h3><table class="tabla-ucl tabla-cal">${proximos5.map(filaCal)}</table></div>
   <div class="card" style="overflow-x:auto"><h3>${t("Últimos resultados", "Latest results")}</h3><table class="tabla-ucl tabla-cal">${ultimos5.map(filaCal)}</table></div>
 </div>`);
+```
+
+## ${t("Esta temporada frente a las anteriores", "This season against all the previous ones")}
+
+```js
+display(tarjetaCurva(curvasLiga, temp, invalidation));
 ```
 
 ## xG a favor y en contra, partido a partido

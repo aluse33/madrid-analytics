@@ -478,3 +478,33 @@ table.mini td:last-child { text-align: right; font-weight: 700; font-variant-num
   position: fixed; inset: 0; z-index: 1000; margin: 0; border-radius: 0; max-width: none;
   overflow: auto; padding: 1.2rem 1.6rem; background: var(--panel);
 }
+
+/* pastillas (curva de puntos) */
+.grupo-pastillas { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; }
+.grupo-pastillas .etiqueta { margin-right: 0.2rem; }
+.segmentado { display: inline-flex; background: var(--theme-background-alt); border: 1px solid var(--borde); border-radius: 999px; padding: 3px; }
+.segmentado .pastilla { border: none; background: transparent; }
+.segmentado .pastilla.activa { background: var(--rm); color: #fff; }
+.pastilla {
+  font: 600 0.8rem var(--sans-serif); color: var(--texto); background: var(--panel);
+  border: 1px solid var(--borde); border-radius: 999px; padding: 0.3rem 0.8rem; cursor: pointer; white-space: nowrap;
+}
+.pastilla small { font-weight: 500; color: var(--texto-suave); margin-left: 0.2rem; }
+.pastilla:hover { border-color: var(--rm); }
+.pastilla-comp.activa { background: var(--rival); border-color: var(--rival); color: #fff; }
+.pastilla-comp.activa small { color: rgba(255, 255, 255, 0.85); }
+.selector-pastilla {
+  appearance: none; -webkit-appearance: none;
+  font: 600 0.8rem var(--sans-serif); color: var(--texto); background-color: var(--panel);
+  border: 1px solid var(--borde); border-radius: 999px; padding: 0.3rem 2rem 0.3rem 0.85rem; cursor: pointer; max-width: 15rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23888' stroke-width='1.6' fill='none'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right 0.75rem center;
+}
+.selector-pastilla:hover { border-color: var(--rm); }
+.selector-pastilla.activa { background-color: var(--rival); border-color: var(--rival); color: #fff; }
+.controles-curva { flex-direction: column; align-items: flex-start; gap: 0.55rem; margin: 0.4rem 0 0.7rem; }
+@media (max-width: 600px) {
+  .grupo-pastillas { flex-wrap: nowrap; overflow-x: auto; max-width: 100%; padding-bottom: 4px; scrollbar-width: none; }
+  .grupo-pastillas::-webkit-scrollbar { display: none; }
+  .grupo-pastillas > * { flex: none; }
+}
