@@ -1,7 +1,7 @@
 shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacion,parte_cuerpo,xg_understat,xg_propio,resultado
 638471,29167,2025/26,Osasuna,Ante Budimir,nan,39,88.4100,24.0700,19.3300,Open Play,Right Foot,0.0489,0.0677,fuera
 638482,29167,2025/26,Osasuna,Ante Budimir,nan,84,101.2200,34.4800,3.8100,Set Piece,,0.1522,0.3827,fuera
-638478,29167,2025/26,Real Madrid,Arda Güler,Álvaro Fernández,62,77.8000,45.1500,29.3900,Open Play,Left Foot,0.0190,0.0357,fuera
+638478,29167,2025/26,Real Madrid,Arda Güler,Álvaro Carreras,62,77.8000,45.1500,29.3900,Open Play,Left Foot,0.0190,0.0357,fuera
 638476,29167,2025/26,Real Madrid,Aurélien Tchouaméni,Kylian Mbappé,56,93.6600,32.2300,11.4800,Open Play,Right Foot,0.1333,0.1554,bloqueado
 638480,29167,2025/26,Real Madrid,Aurélien Tchouaméni,Arda Güler,72,96.2800,19.1800,17.2000,From Corner,Right Foot,0.0317,0.0319,bloqueado
 638481,29167,2025/26,Real Madrid,Aurélien Tchouaméni,Franco Mastantuono,73,97.2300,33.3200,7.8000,From Corner,,0.0606,0.1348,fuera
@@ -13,16 +13,16 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 638466,29167,2025/26,Real Madrid,Kylian Mbappé,Brahim Díaz,21,94.5000,32.9800,10.5500,Open Play,,0.0485,0.1683,bloqueado
 638467,29167,2025/26,Real Madrid,Kylian Mbappé,Vinícius Júnior,24,92.8200,42.5700,14.8900,Open Play,Left Foot,0.0855,0.1273,parado
 638469,29167,2025/26,Real Madrid,Kylian Mbappé,nan,33,91.7700,44.3400,16.7900,Open Play,Right Foot,0.0247,0.0918,fuera
-638474,29167,2025/26,Real Madrid,Kylian Mbappé,Álvaro Fernández,45,99.7500,21.9000,13.1900,Open Play,Right Foot,0.0298,0.0730,bloqueado
+638474,29167,2025/26,Real Madrid,Kylian Mbappé,Álvaro Carreras,45,99.7500,21.9000,13.1900,Open Play,Right Foot,0.0298,0.0730,bloqueado
 638475,29167,2025/26,Real Madrid,Kylian Mbappé,nan,50,92.9200,34.0000,12.0800,Penalty,Right Foot,0.7433,0.7749,gol
 638479,29167,2025/26,Real Madrid,Kylian Mbappé,Vinícius Júnior,71,94.0800,46.8500,16.8600,Open Play,Right Foot,0.0650,0.0355,bloqueado
 638470,29167,2025/26,Real Madrid,Vinícius Júnior,Trent Alexander-Arnold,37,93.0300,48.5500,18.8400,Open Play,Right Foot,0.0204,0.0229,fuera
-638464,29167,2025/26,Real Madrid,Álvaro Fernández,Brahim Díaz,6,78.5400,43.5900,28.1400,Open Play,Left Foot,0.0210,0.0216,fuera
-638472,29167,2025/26,Real Madrid,Álvaro Fernández,Dean Huijsen,42,83.2700,42.8400,23.4600,Open Play,Right Foot,0.0286,0.0393,bloqueado
+638464,29167,2025/26,Real Madrid,Álvaro Carreras,Brahim Díaz,6,78.5400,43.5900,28.1400,Open Play,Left Foot,0.0210,0.0216,fuera
+638472,29167,2025/26,Real Madrid,Álvaro Carreras,Dean Huijsen,42,83.2700,42.8400,23.4600,Open Play,Right Foot,0.0286,0.0393,bloqueado
 639753,29175,2025/26,Real Madrid,Antonio Rüdiger,Kylian Mbappé,36,92.4000,30.4000,13.1100,Open Play,,0.0559,0.1440,fuera
 639747,29175,2025/26,Real Madrid,Arda Güler,Federico Valverde,31,81.2700,37.3300,23.9600,Open Play,Left Foot,0.0311,0.0479,parado
 639752,29175,2025/26,Real Madrid,Arda Güler,nan,35,98.3800,36.7200,7.1500,Open Play,Left Foot,0.1416,0.3414,bloqueado
-639741,29175,2025/26,Real Madrid,Aurélien Tchouaméni,Álvaro Fernández,10,80.4300,43.2500,26.2500,Open Play,Right Foot,0.0214,0.0244,bloqueado
+639741,29175,2025/26,Real Madrid,Aurélien Tchouaméni,Álvaro Carreras,10,80.4300,43.2500,26.2500,Open Play,Right Foot,0.0214,0.0244,bloqueado
 639758,29175,2025/26,Real Madrid,Aurélien Tchouaméni,Federico Valverde,56,76.4400,30.1900,28.8100,Open Play,Right Foot,0.0240,0.0211,fuera
 639755,29175,2025/26,Real Madrid,Dean Huijsen,Kylian Mbappé,43,73.4000,37.3300,31.7800,Open Play,Right Foot,0.0173,0.0162,fuera
 639743,29175,2025/26,Real Madrid,Federico Valverde,Arda Güler,21,76.3300,41.7500,29.6900,Open Play,Right Foot,0.0173,0.0192,parado
@@ -40,7 +40,7 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 639766,29175,2025/26,Real Madrid,Kylian Mbappé,Vinícius Júnior,82,93.6600,39.6400,12.6700,Open Play,Right Foot,0.3860,0.1535,gol
 639767,29175,2025/26,Real Madrid,Kylian Mbappé,nan,84,85.1500,34.1400,19.8500,Open Play,Right Foot,0.0547,0.0935,parado
 639739,29175,2025/26,Real Madrid,Rodrygo,Arda Güler,2,92.8200,47.6700,18.3100,Open Play,Right Foot,0.0406,0.0313,parado
-639742,29175,2025/26,Real Madrid,Rodrygo,Álvaro Fernández,17,86.6200,47.4000,22.7400,Open Play,Right Foot,0.0306,0.0284,bloqueado
+639742,29175,2025/26,Real Madrid,Rodrygo,Álvaro Carreras,17,86.6200,47.4000,22.7400,Open Play,Right Foot,0.0306,0.0284,bloqueado
 639746,29175,2025/26,Real Madrid,Rodrygo,Kylian Mbappé,27,91.9800,48.2800,19.3200,Open Play,Right Foot,0.0480,0.0274,bloqueado
 639750,29175,2025/26,Real Madrid,Rodrygo,Arda Güler,35,100.4800,48.1400,14.8500,Open Play,Left Foot,0.0491,0.0414,parado
 639762,29175,2025/26,Real Madrid,Vinícius Júnior,Gonzalo García,76,89.9800,44.3400,18.2300,Open Play,Right Foot,0.0669,0.0870,bloqueado
@@ -69,7 +69,7 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 640651,29184,2025/26,Real Madrid,Franco Mastantuono,Vinícius Júnior,24,78.2200,43.3200,28.3500,Open Play,Left Foot,0.0196,0.0216,fuera
 640660,29184,2025/26,Real Madrid,Franco Mastantuono,Kylian Mbappé,47,75.8100,23.3200,31.0800,Open Play,Left Foot,0.0159,0.0194,fuera
 640662,29184,2025/26,Real Madrid,Franco Mastantuono,nan,54,96.0800,22.7100,14.3900,Open Play,Right Foot,0.1118,0.0842,parado
-640653,29184,2025/26,Real Madrid,Kylian Mbappé,Álvaro Fernández,31,77.1800,50.0500,32.1200,Open Play,Right Foot,0.0144,0.0182,fuera
+640653,29184,2025/26,Real Madrid,Kylian Mbappé,Álvaro Carreras,31,77.1800,50.0500,32.1200,Open Play,Right Foot,0.0144,0.0182,fuera
 640658,29184,2025/26,Real Madrid,Kylian Mbappé,nan,42,96.7000,38.4900,9.4300,Open Play,Left Foot,0.5016,0.1802,fuera
 640661,29184,2025/26,Real Madrid,Kylian Mbappé,Federico Valverde,50,85.7800,30.7400,19.4900,Open Play,Right Foot,0.0706,0.1112,bloqueado
 640671,29184,2025/26,Real Madrid,Kylian Mbappé,nan,85,81.9000,45.5600,25.8300,Direct Freekick,Right Foot,0.0722,0.0475,bloqueado
@@ -134,9 +134,9 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 643174,29206,2025/26,Real Madrid,Kylian Mbappé,Arda Güler,65,95.4500,21.6900,15.5800,Open Play,Right Foot,0.0706,0.0625,parado
 643175,29206,2025/26,Real Madrid,Kylian Mbappé,nan,65,100.5900,29.3800,6.3900,Open Play,Right Foot,0.1489,0.2048,parado
 643177,29206,2025/26,Real Madrid,Kylian Mbappé,nan,65,86.2000,37.3300,19.0900,Open Play,Right Foot,0.0599,0.1063,bloqueado
-643179,29206,2025/26,Real Madrid,Kylian Mbappé,Álvaro Fernández,69,89.7800,45.2900,18.9500,Open Play,Right Foot,0.0780,0.0551,bloqueado
+643179,29206,2025/26,Real Madrid,Kylian Mbappé,Álvaro Carreras,69,89.7800,45.2900,18.9500,Open Play,Right Foot,0.0780,0.0551,bloqueado
 643166,29206,2025/26,Real Madrid,Raúl,nan,26,75.9200,19.7900,32.3700,Open Play,Right Foot,0.0126,0.0207,bloqueado
-643162,29206,2025/26,Real Madrid,Vinícius Júnior,Álvaro Fernández,12,90.0900,48.8200,21.0300,Open Play,Right Foot,0.0303,0.0226,bloqueado
+643162,29206,2025/26,Real Madrid,Vinícius Júnior,Álvaro Carreras,12,90.0900,48.8200,21.0300,Open Play,Right Foot,0.0303,0.0226,bloqueado
 643167,29206,2025/26,Real Madrid,Vinícius Júnior,Éder Militão,34,92.8200,49.2300,19.5000,Open Play,Right Foot,0.0411,0.0170,fuera
 643176,29206,2025/26,Real Madrid,Vinícius Júnior,nan,65,100.1700,39.8500,7.5800,Open Play,Left Foot,0.5254,0.1400,poste
 643180,29206,2025/26,Real Madrid,Vinícius Júnior,nan,71,79.8000,47.4000,28.5400,Open Play,Right Foot,0.0166,0.0177,parado
@@ -171,7 +171,7 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 644157,29210,2025/26,Real Madrid,Vinícius Júnior,Kylian Mbappé,20,81.1700,43.2500,25.5700,Open Play,Right Foot,0.0244,0.0317,parado
 644161,29210,2025/26,Real Madrid,Vinícius Júnior,Dani Ceballos,22,90.0900,41.8200,16.8400,Open Play,Right Foot,0.0936,0.0979,parado
 644162,29210,2025/26,Real Madrid,Vinícius Júnior,Federico Valverde,27,94.4000,19.9900,17.5700,Open Play,Right Foot,0.0404,0.0394,gol
-644165,29210,2025/26,Real Madrid,Vinícius Júnior,Álvaro Fernández,40,95.9700,40.6600,11.2200,Open Play,Right Foot,0.4331,0.1571,parado
+644165,29210,2025/26,Real Madrid,Vinícius Júnior,Álvaro Carreras,40,95.9700,40.6600,11.2200,Open Play,Right Foot,0.4331,0.1571,parado
 644168,29210,2025/26,Real Madrid,Vinícius Júnior,Dani Ceballos,45,91.5600,44.2700,16.9100,Open Play,Right Foot,0.0855,0.0904,fuera
 644181,29210,2025/26,Real Madrid,Vinícius Júnior,Kylian Mbappé,80,83.0500,35.9700,22.0300,Open Play,Right Foot,0.0620,0.0531,fuera
 644182,29210,2025/26,Real Madrid,Vinícius Júnior,Rodrygo,91,97.6500,44.7400,13.0200,Open Play,Right Foot,0.3972,0.1417,parado
@@ -193,7 +193,7 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 644806,29219,2025/26,Real Madrid,Franco Mastantuono,nan,87,78.7500,21.8300,28.9300,Direct Freekick,Left Foot,0.0532,0.0270,fuera
 644804,29219,2025/26,Real Madrid,Jude Bellingham,Franco Mastantuono,67,93.5500,38.0800,12.1500,Set Piece,,0.0666,0.0635,bloqueado
 644794,29219,2025/26,Real Madrid,Kylian Mbappé,Arda Güler,24,95.8700,22.8500,14.4200,Open Play,Right Foot,0.3287,0.1285,gol
-644805,29219,2025/26,Real Madrid,Rodrygo,Álvaro Fernández,75,84.2100,43.0400,22.6700,Open Play,Right Foot,0.0496,0.0541,bloqueado
+644805,29219,2025/26,Real Madrid,Rodrygo,Álvaro Carreras,75,84.2100,43.0400,22.6700,Open Play,Right Foot,0.0496,0.0541,bloqueado
 646436,29231,2025/26,Real Madrid,Arda Güler,Kylian Mbappé,6,95.3400,47.4000,16.5200,Open Play,Left Foot,0.0454,0.0426,fuera
 646446,29231,2025/26,Real Madrid,Arda Güler,nan,36,83.9000,17.8200,26.6000,Direct Freekick,Left Foot,0.0632,0.0396,bloqueado
 646447,29231,2025/26,Real Madrid,Arda Güler,nan,36,89.7800,18.3600,21.8300,Set Piece,Right Foot,0.0209,0.0366,fuera
@@ -208,7 +208,7 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 646470,29231,2025/26,Real Madrid,Federico Valverde,nan,93,80.0100,20.6700,28.3200,Open Play,Right Foot,0.0162,0.0265,fuera
 646441,29231,2025/26,Real Madrid,Franco Mastantuono,Kylian Mbappé,21,91.8800,33.6600,13.1300,Open Play,Left Foot,0.4031,0.1404,bloqueado
 646442,29231,2025/26,Real Madrid,Franco Mastantuono,Federico Valverde,22,76.4400,28.9000,29.0100,From Corner,Left Foot,0.0272,0.0180,fuera
-646451,29231,2025/26,Real Madrid,Franco Mastantuono,Álvaro Fernández,44,88.5200,28.7600,17.3000,Open Play,Left Foot,0.0391,0.1129,fuera
+646451,29231,2025/26,Real Madrid,Franco Mastantuono,Álvaro Carreras,44,88.5200,28.7600,17.3000,Open Play,Left Foot,0.0391,0.1129,fuera
 646459,29231,2025/26,Real Madrid,Jude Bellingham,Vinícius Júnior,71,95.9700,40.1900,10.9500,Open Play,Right Foot,0.1399,0.1576,parado
 646460,29231,2025/26,Real Madrid,Jude Bellingham,Federico Valverde,71,99.8500,30.9400,5.9900,Open Play,Left Foot,0.5451,0.2482,parado
 646469,29231,2025/26,Real Madrid,Jude Bellingham,Vinícius Júnior,93,82.8500,38.7600,22.6600,Open Play,Right Foot,0.0445,0.0462,bloqueado
@@ -256,9 +256,9 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 648488,29242,2025/26,Real Madrid,Kylian Mbappé,Federico Valverde,81,90.9300,37.6700,14.5400,Open Play,Right Foot,0.3029,0.1427,parado
 648482,29242,2025/26,Real Madrid,Raúl,Rodrygo,59,97.0200,35.2200,8.0700,From Corner,,0.0570,0.1491,fuera
 648472,29242,2025/26,Real Madrid,Rodrygo,Jude Bellingham,41,92.9200,43.3200,15.2500,Open Play,Left Foot,0.0806,0.1232,parado
-648486,29242,2025/26,Real Madrid,Vinícius Júnior,Álvaro Fernández,74,75.5000,49.9800,33.5500,Open Play,Right Foot,0.0145,0.0163,fuera
+648486,29242,2025/26,Real Madrid,Vinícius Júnior,Álvaro Carreras,74,75.5000,49.9800,33.5500,Open Play,Right Foot,0.0145,0.0163,fuera
 648492,29242,2025/26,Real Madrid,Vinícius Júnior,Brahim Díaz,90,91.9800,33.7300,13.0200,Open Play,Right Foot,0.1265,0.1374,fuera
-648491,29242,2025/26,Real Madrid,Álvaro Fernández,Vinícius Júnior,89,97.0200,48.8200,16.8400,Open Play,Left Foot,0.0613,0.0265,fuera
+648491,29242,2025/26,Real Madrid,Álvaro Carreras,Vinícius Júnior,89,97.0200,48.8200,16.8400,Open Play,Left Foot,0.0613,0.0265,fuera
 649681,29254,2025/26,Barcelona,Eric Garcia,Pedri,62,81.3800,30.6000,23.8700,Open Play,Right Foot,0.0324,0.0460,bloqueado
 649668,29254,2025/26,Barcelona,Fermín López,Marcus Rashford,37,95.2300,35.3600,9.8600,Open Play,Right Foot,0.4799,0.1959,gol
 649670,29254,2025/26,Barcelona,Fermín López,Marcus Rashford,40,101.4300,38.4200,5.6800,From Corner,,0.0736,0.2440,bloqueado
@@ -283,7 +283,7 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 649678,29254,2025/26,Real Madrid,Éder Militão,Arda Güler,51,95.4500,37.5400,10.1900,From Corner,,0.0738,0.0503,fuera
 649661,29254,2025/26,Real Madrid,Federico Valverde,nan,25,78.0200,26.8600,27.9100,From Corner,Left Foot,0.0160,0.0195,fuera
 649660,29254,2025/26,Real Madrid,Jude Bellingham,nan,24,83.3700,24.3400,23.6900,Open Play,Left Foot,0.0447,0.0412,bloqueado
-649667,29254,2025/26,Real Madrid,Jude Bellingham,Álvaro Fernández,36,86.3100,32.8400,18.7300,Open Play,Left Foot,0.0766,0.0989,parado
+649667,29254,2025/26,Real Madrid,Jude Bellingham,Álvaro Carreras,36,86.3100,32.8400,18.7300,Open Play,Left Foot,0.0766,0.0989,parado
 649671,29254,2025/26,Real Madrid,Jude Bellingham,Éder Militão,42,102.2700,34.9500,2.8900,Set Piece,Right Foot,0.6616,0.7022,gol
 649672,29254,2025/26,Real Madrid,Jude Bellingham,Kylian Mbappé,45,97.6500,36.7900,7.8600,Open Play,Right Foot,0.1499,0.2809,parado
 649684,29254,2025/26,Real Madrid,Jude Bellingham,Vinícius Júnior,66,84.4200,36.9200,20.7900,Open Play,Right Foot,0.0598,0.0776,bloqueado
@@ -303,7 +303,7 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 651200,29263,2025/26,Real Madrid,Eduardo Camavinga,Jude Bellingham,75,79.3800,38.9000,26.0800,Open Play,Left Foot,0.0275,0.0334,fuera
 651180,29263,2025/26,Real Madrid,Federico Valverde,nan,5,78.3300,25.7700,27.9100,From Corner,Right Foot,0.0159,0.0200,fuera
 651186,29263,2025/26,Real Madrid,Federico Valverde,Jude Bellingham,28,82.0000,18.7700,27.5800,Open Play,Right Foot,0.0256,0.0162,parado
-651198,29263,2025/26,Real Madrid,Federico Valverde,Álvaro Fernández,73,82.4200,33.3900,22.5800,From Corner,Right Foot,0.0421,0.0236,bloqueado
+651198,29263,2025/26,Real Madrid,Federico Valverde,Álvaro Carreras,73,82.4200,33.3900,22.5800,From Corner,Right Foot,0.0421,0.0236,bloqueado
 651199,29263,2025/26,Real Madrid,Federico Valverde,Éder Militão,74,69.9300,36.7200,35.1800,Open Play,Right Foot,0.0174,0.0155,fuera
 651182,29263,2025/26,Real Madrid,Jude Bellingham,Vinícius Júnior,13,96.9200,46.5800,14.9500,Open Play,Left Foot,0.0609,0.0460,parado
 651191,29263,2025/26,Real Madrid,Jude Bellingham,Federico Valverde,43,85.2600,47.8700,24.1300,Open Play,Right Foot,0.0572,0.0382,gol
@@ -313,11 +313,11 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 651188,29263,2025/26,Real Madrid,Kylian Mbappé,Arda Güler,30,96.9200,29.5100,9.2500,Open Play,Left Foot,0.3615,0.1621,gol
 651193,29263,2025/26,Real Madrid,Kylian Mbappé,Vinícius Júnior,61,94.7100,38.0800,11.0700,Open Play,Left Foot,0.1533,0.1781,parado
 651196,29263,2025/26,Real Madrid,Kylian Mbappé,Dani Ceballos,70,84.1000,39.9800,21.7300,Open Play,Right Foot,0.0560,0.0361,fuera
-651201,29263,2025/26,Real Madrid,Rodrygo,Álvaro Fernández,81,93.6600,47.5300,17.6600,Open Play,Right Foot,0.0686,0.0329,bloqueado
+651201,29263,2025/26,Real Madrid,Rodrygo,Álvaro Carreras,81,93.6600,47.5300,17.6600,Open Play,Right Foot,0.0686,0.0329,bloqueado
 651181,29263,2025/26,Real Madrid,Vinícius Júnior,Kylian Mbappé,9,93.6600,46.1000,16.5900,Open Play,Left Foot,0.0565,0.0602,parado
 651185,29263,2025/26,Real Madrid,Vinícius Júnior,Kylian Mbappé,26,81.3800,46.1700,26.5800,Open Play,Right Foot,0.0277,0.0297,bloqueado
 651189,29263,2025/26,Real Madrid,Vinícius Júnior,nan,42,92.9200,34.0000,12.0800,Penalty,Right Foot,0.7433,0.7749,parado
-651202,29263,2025/26,Real Madrid,Álvaro Fernández,nan,81,92.3000,51.8800,21.9400,Open Play,Left Foot,0.0221,0.0204,gol
+651202,29263,2025/26,Real Madrid,Álvaro Carreras,nan,81,92.3000,51.8800,21.9400,Open Play,Left Foot,0.0221,0.0204,gol
 651194,29263,2025/26,Valencia,André Almeida,Jesús Vázquez,62,83.2700,21.8300,24.9100,Open Play,Left Foot,0.0216,0.0329,parado
 651187,29263,2025/26,Valencia,Diego López,José Gayá,29,100.4800,37.9400,6.0000,Open Play,,0.1202,0.2593,bloqueado
 651195,29263,2025/26,Valencia,Hugo Duro,nan,62,99.0200,34.0700,5.9900,Open Play,,0.1201,0.3721,fuera
@@ -353,9 +353,9 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 652922,29272,2025/26,Real Madrid,Trent Alexander-Arnold,nan,88,75.2800,29.7800,30.0100,From Corner,Right Foot,0.0141,0.0183,bloqueado
 652897,29272,2025/26,Real Madrid,Vinícius Júnior,nan,21,97.2300,34.1400,7.7700,Open Play,Right Foot,0.0923,0.2863,parado
 652900,29272,2025/26,Real Madrid,Vinícius Júnior,Jude Bellingham,34,79.1700,46.4400,28.6700,Open Play,Right Foot,0.0213,0.0198,fuera
-652907,29272,2025/26,Real Madrid,Vinícius Júnior,Álvaro Fernández,55,78.4300,48.2100,30.1300,Open Play,Right Foot,0.0194,0.0198,bloqueado
-652899,29272,2025/26,Real Madrid,Álvaro Fernández,Vinícius Júnior,30,93.3500,50.1800,19.9400,Open Play,Right Foot,0.0346,0.0200,fuera
-652920,29272,2025/26,Real Madrid,Álvaro Fernández,Arda Güler,86,94.8200,31.4200,10.5100,From Corner,,0.0241,0.0663,bloqueado
+652907,29272,2025/26,Real Madrid,Vinícius Júnior,Álvaro Carreras,55,78.4300,48.2100,30.1300,Open Play,Right Foot,0.0194,0.0198,bloqueado
+652899,29272,2025/26,Real Madrid,Álvaro Carreras,Vinícius Júnior,30,93.3500,50.1800,19.9400,Open Play,Right Foot,0.0346,0.0200,fuera
+652920,29272,2025/26,Real Madrid,Álvaro Carreras,Arda Güler,86,94.8200,31.4200,10.5100,From Corner,,0.0241,0.0663,bloqueado
 654553,29280,2025/26,Elche,Adrià Pedrosa,Alvaro Rodríguez,79,83.3700,35.0200,21.6500,Open Play,Left Foot,0.0434,0.0579,bloqueado
 654548,29280,2025/26,Elche,Aleix Febas,German Valera,52,99.6500,38.8300,7.2100,Open Play,Right Foot,0.5335,0.2228,gol
 654558,29280,2025/26,Elche,Alvaro Rodríguez,Martim Neto,83,85.6800,36.3100,19.4600,Open Play,Left Foot,0.0854,0.1055,gol
@@ -442,7 +442,7 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 656187,29338,2025/26,Real Madrid,Kylian Mbappé,Antonio Rüdiger,3,100.1700,40.0500,7.7400,Open Play,Right Foot,0.2461,0.1669,parado
 656189,29338,2025/26,Real Madrid,Kylian Mbappé,Trent Alexander-Arnold,6,86.0000,36.4500,19.1600,Open Play,Right Foot,0.1949,0.1063,gol
 656201,29338,2025/26,Real Madrid,Kylian Mbappé,Jude Bellingham,45,79.7000,46.7200,28.3200,Open Play,Right Foot,0.0336,0.0206,parado
-656203,29338,2025/26,Real Madrid,Kylian Mbappé,Álvaro Fernández,58,79.0700,47.0600,29.0400,Open Play,Right Foot,0.0180,0.0232,gol
+656203,29338,2025/26,Real Madrid,Kylian Mbappé,Álvaro Carreras,58,79.0700,47.0600,29.0400,Open Play,Right Foot,0.0180,0.0232,gol
 656205,29338,2025/26,Real Madrid,Rodrygo,Brahim Díaz,80,88.4100,44.7400,19.7700,Open Play,Right Foot,0.0662,0.0551,bloqueado
 656188,29338,2025/26,Real Madrid,Vinícius Júnior,nan,4,80.8500,36.3100,24.2600,Open Play,Right Foot,0.0325,0.0463,parado
 656192,29338,2025/26,Real Madrid,Vinícius Júnior,Kylian Mbappé,18,95.6500,47.9400,16.7800,Open Play,Left Foot,0.3282,0.0408,fuera
@@ -545,7 +545,7 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 661471,29334,2025/26,Real Madrid,Aurélien Tchouaméni,Jude Bellingham,25,80.6400,33.5200,24.3600,Open Play,Right Foot,0.0393,0.0438,fuera
 661486,29334,2025/26,Real Madrid,Aurélien Tchouaméni,Rodrygo,72,93.6600,35.0200,11.3900,Set Piece,,0.1781,0.0651,parado
 661465,29334,2025/26,Real Madrid,Eduardo Camavinga,nan,12,85.1500,33.9300,19.8500,Set Piece,Right Foot,0.0487,0.0579,fuera
-661470,29334,2025/26,Real Madrid,Eduardo Camavinga,Álvaro Fernández,25,87.5700,35.2900,17.4800,Open Play,Right Foot,0.0855,0.1084,bloqueado
+661470,29334,2025/26,Real Madrid,Eduardo Camavinga,Álvaro Carreras,25,87.5700,35.2900,17.4800,Open Play,Right Foot,0.0855,0.1084,bloqueado
 661478,29334,2025/26,Real Madrid,Eduardo Camavinga,nan,57,82.4200,17.8200,27.7800,Open Play,Left Foot,0.0224,0.0149,parado
 661462,29334,2025/26,Real Madrid,Federico Valverde,nan,2,77.1800,30.1200,28.0900,Open Play,Right Foot,0.0148,0.0244,fuera
 661464,29334,2025/26,Real Madrid,Federico Valverde,nan,11,74.4500,26.7900,31.3900,Direct Freekick,Right Foot,0.0433,0.0168,bloqueado
@@ -608,7 +608,7 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 665072,29367,2025/26,Real Madrid,Kylian Mbappé,Arda Güler,53,96.0800,20.2000,16.4400,Open Play,Right Foot,0.0585,0.0420,bloqueado
 665077,29367,2025/26,Real Madrid,Kylian Mbappé,Eduardo Camavinga,81,92.6100,37.5400,12.8800,Open Play,Right Foot,0.1365,0.1489,bloqueado
 665079,29367,2025/26,Real Madrid,Kylian Mbappé,nan,93,92.9200,34.0000,12.0800,Penalty,Right Foot,0.7433,0.7749,gol
-665065,29367,2025/26,Real Madrid,Vinícius Júnior,Álvaro Fernández,39,91.4500,43.7200,16.6700,Open Play,Right Foot,0.0787,0.0956,bloqueado
+665065,29367,2025/26,Real Madrid,Vinícius Júnior,Álvaro Carreras,39,91.4500,43.7200,16.6700,Open Play,Right Foot,0.0787,0.0956,bloqueado
 665066,29367,2025/26,Real Madrid,Vinícius Júnior,nan,39,88.1000,40.1900,18.0000,Open Play,Left Foot,0.0662,0.0990,fuera
 665075,29367,2025/26,Real Madrid,Vinícius Júnior,Jude Bellingham,68,83.9000,46.9900,24.7800,Open Play,Right Foot,0.0510,0.0320,bloqueado
 665063,29367,2025/26,Villarreal,Alberto Moleiro,Gerard Moreno,29,79.8000,36.1800,25.2900,Open Play,Right Foot,0.0264,0.0407,bloqueado
@@ -656,7 +656,7 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 668021,29387,2025/26,Real Madrid,Kylian Mbappé,Gonzalo García,23,84.5200,34.4800,20.4800,Open Play,Right Foot,0.0515,0.0775,parado
 668031,29387,2025/26,Real Madrid,Kylian Mbappé,nan,82,89.5700,43.6600,18.2100,Open Play,Left Foot,0.0688,0.0853,fuera
 668032,29387,2025/26,Real Madrid,Kylian Mbappé,Brahim Díaz,90,93.9800,35.2200,11.0900,Open Play,Right Foot,0.4680,0.1508,gol
-668029,29387,2025/26,Real Madrid,Álvaro Fernández,Dean Huijsen,64,94.7100,36.7200,10.6400,Open Play,Right Foot,0.1816,0.1759,gol
+668029,29387,2025/26,Real Madrid,Álvaro Carreras,Dean Huijsen,64,94.7100,36.7200,10.6400,Open Play,Right Foot,0.1816,0.1759,gol
 668023,29387,2025/26,Valencia,Arnaut Danjuma Groeneveld,nan,33,96.3900,45.5600,14.4100,Open Play,Left Foot,0.0612,0.0836,bloqueado
 668033,29387,2025/26,Valencia,Guido Rodríguez,Umar Sadiq,92,82.8500,24.5500,24.0900,Open Play,Right Foot,0.0257,0.0385,fuera
 668026,29387,2025/26,Valencia,Lucas Beltrán,Arnaut Danjuma Groeneveld,47,90.2000,36.1100,14.9500,Open Play,Right Foot,0.0616,0.1302,fuera
@@ -667,13 +667,13 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 668927,29391,2025/26,Real Madrid,Antonio Rüdiger,Trent Alexander-Arnold,58,93.2400,35.7700,11.8900,From Corner,,0.0524,0.0446,fuera
 668935,29391,2025/26,Real Madrid,Arda Güler,Gonzalo García,71,80.0100,35.5000,25.0300,Open Play,Left Foot,0.0850,0.0525,fuera
 668937,29391,2025/26,Real Madrid,Arda Güler,Vinícius Júnior,85,81.0600,33.2500,23.9500,Open Play,Left Foot,0.0780,0.0438,bloqueado
-668922,29391,2025/26,Real Madrid,Federico Valverde,Álvaro Fernández,30,87.2500,40.0500,18.7500,Open Play,Right Foot,0.0789,0.1070,gol
+668922,29391,2025/26,Real Madrid,Federico Valverde,Álvaro Carreras,30,87.2500,40.0500,18.7500,Open Play,Right Foot,0.0789,0.1070,gol
 668916,29391,2025/26,Real Madrid,Gonzalo García,Trent Alexander-Arnold,4,94.2900,29.9900,11.4400,Open Play,Right Foot,0.2921,0.1560,gol
 668919,29391,2025/26,Real Madrid,Gonzalo García,Eduardo Camavinga,16,92.6100,47.1900,18.1000,Open Play,Right Foot,0.0561,0.0379,bloqueado
 668924,29391,2025/26,Real Madrid,Gonzalo García,Federico Valverde,48,97.9700,31.9600,7.3200,Open Play,Left Foot,0.5803,0.3695,fuera
 668934,29391,2025/26,Real Madrid,Gonzalo García,Arda Güler,69,94.9200,22.9800,14.9300,Open Play,Right Foot,0.2614,0.1166,bloqueado
 668921,29391,2025/26,Real Madrid,Vinícius Júnior,nan,24,92.9200,34.0000,12.0800,Penalty,Right Foot,0.7433,0.7749,gol
-668923,29391,2025/26,Real Madrid,Vinícius Júnior,Álvaro Fernández,43,95.1300,47.1200,16.4200,Open Play,Right Foot,0.0884,0.0460,bloqueado
+668923,29391,2025/26,Real Madrid,Vinícius Júnior,Álvaro Carreras,43,95.1300,47.1200,16.4200,Open Play,Right Foot,0.0884,0.0460,bloqueado
 668925,29391,2025/26,Real Madrid,Vinícius Júnior,nan,47,92.9200,34.0000,12.0800,Penalty,Right Foot,0.7433,0.7749,gol
 668929,29391,2025/26,Real Sociedad,Aihen Muñoz,nan,62,96.0800,42.7000,12.4700,Open Play,Left Foot,0.2487,0.1483,parado
 668938,29391,2025/26,Real Sociedad,Aihen Muñoz,nan,90,96.9200,40.3200,10.2600,Open Play,Left Foot,0.0716,0.1576,fuera
@@ -710,12 +710,12 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 669932,29405,2025/26,Real Madrid,Kylian Mbappé,Gonzalo García,78,95.4500,36.4500,9.8600,Open Play,Left Foot,0.4903,0.2033,bloqueado
 669912,29405,2025/26,Real Madrid,Raúl,Arda Güler,20,97.2300,32.3000,7.9500,Set Piece,,0.3873,0.1672,parado
 669936,29405,2025/26,Real Madrid,Trent Alexander-Arnold,nan,88,78.3300,39.0300,27.1400,Direct Freekick,Right Foot,0.0663,0.0354,fuera
-669910,29405,2025/26,Real Madrid,Vinícius Júnior,Álvaro Fernández,16,85.3700,48.0100,24.1200,Open Play,Right Foot,0.0265,0.0382,parado
-669926,29405,2025/26,Real Madrid,Vinícius Júnior,Álvaro Fernández,44,79.7000,42.8400,26.8000,Open Play,Right Foot,0.0221,0.0253,fuera
+669910,29405,2025/26,Real Madrid,Vinícius Júnior,Álvaro Carreras,16,85.3700,48.0100,24.1200,Open Play,Right Foot,0.0265,0.0382,parado
+669926,29405,2025/26,Real Madrid,Vinícius Júnior,Álvaro Carreras,44,79.7000,42.8400,26.8000,Open Play,Right Foot,0.0221,0.0253,fuera
 669929,29405,2025/26,Real Madrid,Vinícius Júnior,Kylian Mbappé,55,95.9700,43.4500,13.0700,Open Play,Left Foot,0.0666,0.1477,bloqueado
 669930,29405,2025/26,Real Madrid,Vinícius Júnior,Trent Alexander-Arnold,64,90.2000,36.5800,15.0300,Open Play,Right Foot,0.0637,0.1311,bloqueado
 669931,29405,2025/26,Real Madrid,Vinícius Júnior,Federico Valverde,72,99.7500,34.0000,5.2500,Open Play,Right Foot,0.5597,0.3934,gol
-669922,29405,2025/26,Real Madrid,Álvaro Fernández,nan,32,84.1000,41.2800,22.1300,Set Piece,Left Foot,0.0277,0.0392,bloqueado
+669922,29405,2025/26,Real Madrid,Álvaro Carreras,nan,32,84.1000,41.2800,22.1300,Set Piece,Left Foot,0.0277,0.0392,bloqueado
 672052,29416,2025/26,Getafe,Diego Rico,Mauro Arambarri,9,92.5000,41.6800,14.6700,Open Play,Left Foot,0.0475,0.1321,bloqueado
 672065,29416,2025/26,Getafe,Diego Rico,nan,55,88.3000,47.3300,21.3600,Open Play,Left Foot,0.0518,0.0308,fuera
 672051,29416,2025/26,Getafe,Juan Iglesias,Martín Satriano,2,81.4800,18.1600,28.3600,Open Play,Right Foot,0.0191,0.0149,fuera
@@ -733,7 +733,7 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 672071,29416,2025/26,Real Madrid,Aurélien Tchouaméni,Vinícius Júnior,65,92.5000,38.8300,13.4000,From Corner,Left Foot,0.0646,0.0414,fuera
 672067,29416,2025/26,Real Madrid,Federico Valverde,Arda Güler,58,89.9800,45.7600,19.0700,From Corner,Right Foot,0.0396,0.0347,bloqueado
 672069,29416,2025/26,Real Madrid,Federico Valverde,Vinícius Júnior,59,86.2000,46.2400,22.4300,Open Play,Right Foot,0.0321,0.0516,fuera
-672074,29416,2025/26,Real Madrid,Franco Mastantuono,Álvaro Fernández,89,93.5500,24.0700,15.1500,Open Play,Right Foot,0.0594,0.1240,parado
+672074,29416,2025/26,Real Madrid,Franco Mastantuono,Álvaro Carreras,89,93.5500,24.0700,15.1500,Open Play,Right Foot,0.0594,0.1240,parado
 672055,29416,2025/26,Real Madrid,Gonzalo García,Federico Valverde,12,94.4000,42.0200,13.3000,Open Play,Left Foot,0.0893,0.1621,parado
 672066,29416,2025/26,Real Madrid,Rodrygo,nan,58,99.5400,31.4200,6.0400,Open Play,Right Foot,0.0896,0.3975,bloqueado
 672073,29416,2025/26,Real Madrid,Rodrygo,Franco Mastantuono,78,102.5800,39.7100,6.2000,Open Play,,0.2100,0.1353,parado
@@ -835,8 +835,8 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 676640,29452,2025/26,Real Madrid,Kylian Mbappé,Antonio Rüdiger,15,93.7700,43.9300,14.9900,Open Play,Right Foot,0.0655,0.1219,bloqueado
 676642,29452,2025/26,Real Madrid,Kylian Mbappé,Arda Güler,21,92.5000,39.1000,13.5000,Open Play,Right Foot,0.3643,0.1446,parado
 676644,29452,2025/26,Real Madrid,Kylian Mbappé,Eduardo Camavinga,24,93.9800,46.3100,16.5200,Open Play,Right Foot,0.3129,0.0475,parado
-676648,29452,2025/26,Real Madrid,Kylian Mbappé,Álvaro Fernández,38,96.8100,51.4800,19.3000,Open Play,Right Foot,0.0305,0.0246,bloqueado
-676651,29452,2025/26,Real Madrid,Kylian Mbappé,Álvaro Fernández,54,95.1300,45.7600,15.3600,Open Play,Left Foot,0.0514,0.0783,parado
+676648,29452,2025/26,Real Madrid,Kylian Mbappé,Álvaro Carreras,38,96.8100,51.4800,19.3000,Open Play,Right Foot,0.0305,0.0246,bloqueado
+676651,29452,2025/26,Real Madrid,Kylian Mbappé,Álvaro Carreras,54,95.1300,45.7600,15.3600,Open Play,Left Foot,0.0514,0.0783,parado
 676653,29452,2025/26,Real Madrid,Kylian Mbappé,Arda Güler,64,77.6000,46.2400,30.0100,Open Play,Right Foot,0.0167,0.0222,fuera
 676641,29452,2025/26,Real Madrid,Manuel Ángel,Kylian Mbappé,15,91.7700,25.3000,15.8400,Open Play,,0.0258,0.1215,parado
 676652,29452,2025/26,Real Madrid,Vinícius Júnior,nan,59,100.7000,46.1000,12.8500,Open Play,Right Foot,0.0531,0.0444,fuera
@@ -913,7 +913,7 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 680147,29483,2025/26,Real Madrid,Trent Alexander-Arnold,Éder Militão,31,80.2200,18.1600,29.4100,Open Play,Right Foot,0.0251,0.0122,fuera
 680148,29483,2025/26,Real Madrid,Vinícius Júnior,Arda Güler,33,84.9500,46.9200,23.8600,Open Play,Right Foot,0.0333,0.0379,parado
 680158,29483,2025/26,Real Madrid,Vinícius Júnior,Federico Valverde,49,74.5500,43.1100,31.7800,Open Play,Right Foot,0.0233,0.0178,gol
-680164,29483,2025/26,Real Madrid,Vinícius Júnior,Álvaro Fernández,66,86.3100,38.9600,19.3400,Open Play,Right Foot,0.1201,0.0966,bloqueado
+680164,29483,2025/26,Real Madrid,Vinícius Júnior,Álvaro Carreras,66,86.3100,38.9600,19.3400,Open Play,Right Foot,0.1201,0.0966,bloqueado
 680176,29483,2025/26,Real Madrid,Vinícius Júnior,Brahim Díaz,91,97.8600,47.8000,15.5400,Open Play,Left Foot,0.0704,0.0354,fuera
 680689,29474,2025/26,Real Betis,Abdessamad Ezzalzouli,Pablo Fornals,35,84.2100,56.0300,30.2900,Open Play,Right Foot,0.0164,0.0427,bloqueado
 680699,29474,2025/26,Real Betis,Abdessamad Ezzalzouli,nan,64,97.3300,46.3100,14.5000,Open Play,Left Foot,0.0536,0.0460,fuera
@@ -1003,7 +1003,7 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 685144,29517,2025/26,Real Madrid,Eduardo Camavinga,Gonzalo García,34,79.3800,23.9400,27.5300,Open Play,Left Foot,0.0181,0.0241,fuera
 685137,29517,2025/26,Real Madrid,Franco Mastantuono,Gonzalo García,5,96.2800,37.7400,9.4800,Open Play,Left Foot,0.1360,0.2002,parado
 685152,29517,2025/26,Real Madrid,Franco Mastantuono,Trent Alexander-Arnold,49,91.6700,19.4500,19.7400,Set Piece,Left Foot,0.0251,0.0331,fuera
-685142,29517,2025/26,Real Madrid,Gonzalo García,Álvaro Fernández,30,83.1600,48.5500,26.2400,Open Play,Right Foot,0.0233,0.0265,bloqueado
+685142,29517,2025/26,Real Madrid,Gonzalo García,Álvaro Carreras,30,83.1600,48.5500,26.2400,Open Play,Right Foot,0.0233,0.0265,bloqueado
 685149,29517,2025/26,Real Madrid,Gonzalo García,Brahim Díaz,43,90.5100,40.6000,15.9200,Open Play,Right Foot,0.3022,0.1175,gol
 685161,29517,2025/26,Real Madrid,Jude Bellingham,Kylian Mbappé,79,90.2000,30.8000,15.1500,Open Play,Left Foot,0.1235,0.1373,gol
 685158,29517,2025/26,Real Madrid,Kylian Mbappé,Franco Mastantuono,70,80.0100,25.1600,26.5100,Open Play,Left Foot,0.0268,0.0282,fuera
@@ -1014,7 +1014,7 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 685153,29517,2025/26,Real Madrid,Trent Alexander-Arnold,nan,53,83.1600,52.5000,28.6200,Direct Freekick,Right Foot,0.0514,0.0209,parado
 685147,29517,2025/26,Real Madrid,Vinícius Júnior,Aurélien Tchouaméni,41,90.3000,40.4600,16.0600,Open Play,Right Foot,0.0757,0.1138,bloqueado
 685148,29517,2025/26,Real Madrid,Vinícius Júnior,nan,41,101.8500,41.2100,7.8700,Open Play,Left Foot,0.1082,0.0997,fuera
-685155,29517,2025/26,Real Madrid,Álvaro Fernández,Brahim Díaz,57,100.4800,42.6400,9.7500,Open Play,Left Foot,0.3571,0.1454,parado
+685155,29517,2025/26,Real Madrid,Álvaro Carreras,Brahim Díaz,57,100.4800,42.6400,9.7500,Open Play,Left Foot,0.3571,0.1454,parado
 685138,29517,2025/26,Real Oviedo,Alberto Reina,Santiago Colombatto,7,96.3900,22.3000,14.5200,Open Play,Right Foot,0.0614,0.0640,bloqueado
 685154,29517,2025/26,Real Oviedo,Alberto Reina,Rahim Alhassane,56,101.0100,26.6600,8.3600,Open Play,Right Foot,0.0684,0.1213,fuera
 685145,29517,2025/26,Real Oviedo,Federico Viñas,Ilyas Chaira,37,91.4500,29.2400,14.3600,Open Play,Right Foot,0.0993,0.1269,fuera
@@ -1064,9 +1064,9 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 686818,29532,2025/26,Real Madrid,Gonzalo García,Daniel Carvajal,11,89.9800,33.3200,15.0300,Open Play,Right Foot,0.2973,0.1579,gol
 686822,29532,2025/26,Real Madrid,Jude Bellingham,Thiago Pitarch,40,90.4000,41.6800,16.4900,Open Play,Left Foot,0.0746,0.1112,gol
 686830,29532,2025/26,Real Madrid,Jude Bellingham,Gonzalo García,56,86.3100,32.3700,18.7600,Open Play,Right Foot,0.0932,0.1118,parado
-686823,29532,2025/26,Real Madrid,Kylian Mbappé,Álvaro Fernández,43,104.3700,43.2500,9.2700,Open Play,Right Foot,0.0832,0.0416,fuera
+686823,29532,2025/26,Real Madrid,Kylian Mbappé,Álvaro Carreras,43,104.3700,43.2500,9.2700,Open Play,Right Foot,0.0832,0.0416,fuera
 686827,29532,2025/26,Real Madrid,Kylian Mbappé,Daniel Carvajal,49,83.3700,26.0400,23.0500,Open Play,Right Foot,0.0432,0.0449,fuera
-686828,29532,2025/26,Real Madrid,Kylian Mbappé,Álvaro Fernández,50,84.4200,43.1100,22.5100,Open Play,Right Foot,0.0439,0.0702,gol
+686828,29532,2025/26,Real Madrid,Kylian Mbappé,Álvaro Carreras,50,84.4200,43.1100,22.5100,Open Play,Right Foot,0.0439,0.0702,gol
 686829,29532,2025/26,Real Madrid,Kylian Mbappé,nan,55,95.4500,46.3800,15.6400,Open Play,Right Foot,0.0656,0.0586,fuera
 686832,29532,2025/26,Real Madrid,Kylian Mbappé,nan,61,101.1200,40.6000,7.6600,Open Play,Left Foot,0.5217,0.1250,parado
 686819,29532,2025/26,Real Madrid,Thiago Pitarch,Franco Mastantuono,24,89.1500,34.6800,15.8700,Open Play,Right Foot,0.0968,0.1232,parado
@@ -1089,8 +1089,8 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 689139,30780,2026/27,Real Madrid,Ibrahima Konaté,Arda Güler,58,93.4500,35.7700,11.6800,From Corner,,0.0210,0.0446,parado
 689119,30780,2026/27,Real Madrid,Jude Bellingham,Arda Güler,8,94.5000,34.5400,10.5100,Set Piece,,0.1032,0.0839,gol
 689136,30780,2026/27,Real Madrid,Jude Bellingham,Arda Güler,52,97.0200,36.8600,8.4800,From Corner,,0.1070,0.1174,parado
-689120,30780,2026/27,Real Madrid,Kylian Mbappé,Álvaro Fernández,14,82.7400,48.6900,26.6700,Open Play,Right Foot,0.0292,0.0246,parado
-689127,30780,2026/27,Real Madrid,Kylian Mbappé,Álvaro Fernández,32,97.7500,47.1200,14.9900,Open Play,Right Foot,0.1600,0.0469,parado
+689120,30780,2026/27,Real Madrid,Kylian Mbappé,Álvaro Carreras,14,82.7400,48.6900,26.6700,Open Play,Right Foot,0.0292,0.0246,parado
+689127,30780,2026/27,Real Madrid,Kylian Mbappé,Álvaro Carreras,32,97.7500,47.1200,14.9900,Open Play,Right Foot,0.1600,0.0469,parado
 689129,30780,2026/27,Real Madrid,Kylian Mbappé,Bernardo Silva,37,91.7700,20.8800,18.6400,Open Play,Right Foot,0.0632,0.0478,parado
 689130,30780,2026/27,Real Madrid,Kylian Mbappé,Arda Güler,41,97.9700,30.9400,7.6700,Open Play,Right Foot,0.0971,0.2523,fuera
 689131,30780,2026/27,Real Madrid,Kylian Mbappé,Federico Valverde,43,78.8500,36.3800,26.2500,From Corner,Right Foot,0.0349,0.0230,bloqueado
@@ -1217,15 +1217,15 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 694295,30816,2026/27,Real Madrid,Bernardo Silva,Vinícius Júnior,38,94.7100,37.0600,10.7400,Open Play,Left Foot,0.1401,0.1766,bloqueado
 694311,30816,2026/27,Real Madrid,Denzel Dumfries,Arda Güler,76,95.6500,33.3200,9.3700,Set Piece,,0.3508,0.1016,parado
 694285,30816,2026/27,Real Madrid,Federico Valverde,Bernardo Silva,10,83.7900,38.6200,21.7100,From Corner,Left Foot,0.0416,0.0262,fuera
-694294,30816,2026/27,Real Madrid,Federico Valverde,Álvaro Fernández,36,78.8500,34.1400,26.1500,Open Play,Right Foot,0.0358,0.0333,fuera
+694294,30816,2026/27,Real Madrid,Federico Valverde,Álvaro Carreras,36,78.8500,34.1400,26.1500,Open Play,Right Foot,0.0358,0.0333,fuera
 694297,30816,2026/27,Real Madrid,Ibrahima Konaté,Yan Diomande,39,95.9700,34.5400,9.0500,From Corner,,0.0450,0.0782,fuera
 694314,30816,2026/27,Real Madrid,Ibrahima Konaté,Arda Güler,81,97.7500,33.6600,7.2500,Open Play,Right Foot,0.1430,0.3473,fuera
 694293,30816,2026/27,Real Madrid,Jude Bellingham,Vinícius Júnior,34,89.1500,35.7700,15.9500,Open Play,Right Foot,0.1155,0.1235,gol
-694296,30816,2026/27,Real Madrid,Jude Bellingham,Álvaro Fernández,39,84.8400,28.7600,20.8300,Open Play,Right Foot,0.0664,0.0779,bloqueado
+694296,30816,2026/27,Real Madrid,Jude Bellingham,Álvaro Carreras,39,84.8400,28.7600,20.8300,Open Play,Right Foot,0.0664,0.0779,bloqueado
 694315,30816,2026/27,Real Madrid,Jude Bellingham,Ibrahima Konaté,81,89.8800,36.3100,15.3000,Open Play,Left Foot,0.0830,0.1320,bloqueado
 694320,30816,2026/27,Real Madrid,Jude Bellingham,Aurélien Tchouaméni,87,103.3200,46.7800,12.8900,Open Play,Left Foot,0.0927,0.0298,parado
 694286,30816,2026/27,Real Madrid,Kylian Mbappé,nan,13,92.9200,34.0000,12.0800,Penalty,Right Foot,0.7433,0.7749,gol
-694299,30816,2026/27,Real Madrid,Kylian Mbappé,Álvaro Fernández,44,85.3700,34.8800,19.6500,Open Play,Right Foot,0.0781,0.1078,poste
+694299,30816,2026/27,Real Madrid,Kylian Mbappé,Álvaro Carreras,44,85.3700,34.8800,19.6500,Open Play,Right Foot,0.0781,0.1078,poste
 694303,30816,2026/27,Real Madrid,Kylian Mbappé,Yan Diomande,47,80.6400,27.4000,25.2400,Open Play,Right Foot,0.0408,0.0339,fuera
 694316,30816,2026/27,Real Madrid,Kylian Mbappé,Arda Güler,82,100.1700,43.3800,10.5500,From Corner,Right Foot,0.1681,0.0300,parado
 694322,30816,2026/27,Real Madrid,Kylian Mbappé,Arda Güler,90,91.2500,22.9200,17.6700,Open Play,Right Foot,0.1055,0.0794,gol
@@ -1234,7 +1234,7 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 694307,30816,2026/27,Real Madrid,Vinícius Júnior,Jude Bellingham,58,87.8800,48.0100,22.1200,Open Play,Right Foot,0.0516,0.0311,fuera
 694319,30816,2026/27,Real Madrid,Vinícius Júnior,Kylian Mbappé,87,94.2900,45.7600,15.9100,Open Play,Right Foot,0.0830,0.0709,parado
 694292,30816,2026/27,Real Madrid,Yan Diomande,Denzel Dumfries,30,86.0000,27.5400,20.0700,Open Play,Left Foot,0.0807,0.0833,fuera
-694287,30816,2026/27,Real Madrid,Álvaro Fernández,Kylian Mbappé,16,95.3400,38.5600,10.6800,Open Play,Left Foot,0.4673,0.1712,gol
+694287,30816,2026/27,Real Madrid,Álvaro Carreras,Kylian Mbappé,16,95.3400,38.5600,10.6800,Open Play,Left Foot,0.4673,0.1712,gol
 695103,30825,2026/27,Elche,Abiel Osorio,German Valera,16,90.2000,36.9200,15.0900,Open Play,Left Foot,0.0945,0.1336,fuera
 695110,30825,2026/27,Elche,Abiel Osorio,Roy Revivo,42,95.8700,41.2100,11.6400,Open Play,Left Foot,0.1038,0.1488,fuera
 695114,30825,2026/27,Elche,Abiel Osorio,Tete Morente,48,97.5500,36.4500,7.8500,Open Play,Left Foot,0.0852,0.2809,bloqueado
@@ -1297,7 +1297,7 @@ shot_id,game_id,temporada,equipo,jugador,asistente,minuto,x,y,distancia,situacio
 697854,30848,2026/27,Real Madrid,Ibrahima Konaté,Trent Alexander-Arnold,39,96.8100,42.5700,11.8500,From Corner,,0.0141,0.0381,fuera
 697852,30848,2026/27,Real Madrid,Jude Bellingham,Yan Diomande,27,90.4000,46.7200,19.3600,Open Play,Left Foot,0.0396,0.0370,bloqueado
 697865,30848,2026/27,Real Madrid,Jude Bellingham,Yan Diomande,67,72.6600,22.0300,34.4800,Open Play,Right Foot,0.0200,0.0155,bloqueado
-697849,30848,2026/27,Real Madrid,Kylian Mbappé,Álvaro Fernández,6,94.4000,38.1500,11.3900,Open Play,Left Foot,0.4477,0.1753,poste
+697849,30848,2026/27,Real Madrid,Kylian Mbappé,Álvaro Carreras,6,94.4000,38.1500,11.3900,Open Play,Left Foot,0.4477,0.1753,poste
 697850,30848,2026/27,Real Madrid,Kylian Mbappé,Trent Alexander-Arnold,20,93.2400,41.6200,14.0100,Open Play,Right Foot,0.1569,0.1332,parado
 697870,30848,2026/27,Real Madrid,Kylian Mbappé,Federico Valverde,77,92.4000,24.7500,15.6300,Open Play,Right Foot,0.2795,0.1261,parado
 697859,30848,2026/27,Real Madrid,Vinícius Júnior,nan,59,99.8500,52.7700,19.4600,From Corner,Right Foot,0.0238,0.0340,parado

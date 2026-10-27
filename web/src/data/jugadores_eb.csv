@@ -4,7 +4,7 @@ jugador_id,jugador,equipo,minutos,partidos,total,bruto_p90,eb_p90,eb_inf,eb_sup,
 6326,Ibrahima Konaté,Real Madrid,810,9,0.3137,0.0349,0.0491,0.0491,0.0491,1.0000,DEF,0.0491,0.4041,npxg,true
 7829,Éder Militão,Real Madrid,2,1,0.0000,0.0000,0.0491,0.0491,0.0491,1.0000,DEF,0.0491,0.4041,npxg,false
 9840,Denzel Dumfries,Real Madrid,454,8,0.6267,0.1242,0.0491,0.0491,0.0491,1.0000,DEF,0.0491,0.4041,npxg,true
-10576,Álvaro Fernández,Real Madrid,252,5,0.4673,0.1669,0.0491,0.0491,0.0491,1.0000,DEF,0.0491,0.4041,npxg,false
+10576,Álvaro Carreras,Real Madrid,252,5,0.4673,0.1669,0.0491,0.0491,0.0491,1.0000,DEF,0.0491,0.4041,npxg,false
 11943,Dean Huijsen,Real Madrid,684,8,0.5117,0.0673,0.0491,0.0491,0.0491,1.0000,DEF,0.0491,0.4041,npxg,true
 3423,Kylian Mbappé,Real Madrid,898,10,10.1010,1.0124,0.6618,0.4518,0.9047,0.5394,DEL,0.3626,0.6269,npxg,true
 6421,Brahim Díaz,Real Madrid,116,4,0.1396,0.1083,0.3373,0.1581,0.5710,0.9007,DEL,0.3626,0.6269,npxg,false
@@ -24,7 +24,7 @@ jugador_id,jugador,equipo,minutos,partidos,total,bruto_p90,eb_p90,eb_inf,eb_sup,
 6326,Ibrahima Konaté,Real Madrid,810,9,0.1898,0.0211,0.0421,0.0133,0.0838,0.6054,DEF,0.0557,0.2659,xa,true
 7829,Éder Militão,Real Madrid,2,1,0.0000,0.0000,0.0557,0.0147,0.1180,0.9984,DEF,0.0557,0.2659,xa,false
 9840,Denzel Dumfries,Real Madrid,454,8,0.2258,0.0448,0.0528,0.0172,0.1042,0.7324,DEF,0.0557,0.2659,xa,true
-10576,Álvaro Fernández,Real Madrid,252,5,0.8171,0.2918,0.0955,0.0415,0.1676,0.8314,DEF,0.0557,0.2659,xa,false
+10576,Álvaro Carreras,Real Madrid,252,5,0.8171,0.2918,0.0955,0.0415,0.1676,0.8314,DEF,0.0557,0.2659,xa,false
 11943,Dean Huijsen,Real Madrid,684,8,0.1874,0.0247,0.0447,0.0141,0.0892,0.6450,DEF,0.0557,0.2659,xa,true
 3423,Kylian Mbappé,Real Madrid,898,10,1.9887,0.1993,0.1907,0.1004,0.3044,0.3283,DEL,0.1731,0.3072,xa,true
 6421,Brahim Díaz,Real Madrid,116,4,0.2036,0.1579,0.1699,0.0516,0.3439,0.7910,DEL,0.1731,0.3072,xa,false

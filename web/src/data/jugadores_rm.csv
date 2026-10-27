@@ -14,7 +14,7 @@ game_id,equipo,jugador,jugador_id,minutos,goles,tiros,xg,xa,asistencias,pases_cl
 30780,Real Madrid,Trent Alexander-Arnold,1791,7,0,0,0.0000,0.0000,0,0,0.6285,0.6285,2026/27,DEF,0.0000
 30780,Real Madrid,Vinícius Júnior,7008,90,0,1,0.0634,0.0000,0,0,0.1351,0.0717,2026/27,DEL,0.0634
 30780,Real Madrid,Yan Diomande,13561,23,0,0,0.0000,0.0409,0,1,0.7328,0.7328,2026/27,DEL,0.0000
-30780,Real Madrid,Álvaro Fernández,10576,67,0,0,0.0000,0.1891,0,2,0.3579,0.3287,2026/27,DEF,0.0000
+30780,Real Madrid,Álvaro Carreras,10576,67,0,0,0.0000,0.1891,0,2,0.3579,0.3287,2026/27,DEF,0.0000
 30787,Real Madrid,Arda Güler,12190,80,0,2,0.0576,0.5323,0,5,1.1257,0.6016,2026/27,DEL,0.0576
 30787,Real Madrid,Bernardo Silva,3635,88,0,0,0.0000,0.0240,0,1,0.5282,0.5282,2026/27,MED,0.0000
 30787,Real Madrid,Brahim Díaz,6421,10,0,0,0.0000,0.0900,0,1,0.0900,0.0000,2026/27,DEL,0.0000
@@ -30,7 +30,7 @@ game_id,equipo,jugador,jugador_id,minutos,goles,tiros,xg,xa,asistencias,pases_cl
 30787,Real Madrid,Thibaut Courtois,680,90,0,0,0.0000,0.0000,0,0,0.0541,0.0541,2026/27,POR,0.0000
 30787,Real Madrid,Vinícius Júnior,7008,86,1,4,1.2521,0.5789,1,2,2.2151,0.3842,2026/27,DEL,1.2521
 30787,Real Madrid,Yan Diomande,13561,4,0,0,0.0000,0.0000,0,0,0.0000,0.0000,2026/27,DEL,0.0000
-30787,Real Madrid,Álvaro Fernández,10576,48,0,0,0.0000,0.0000,0,0,0.2430,0.2430,2026/27,DEF,0.0000
+30787,Real Madrid,Álvaro Carreras,10576,48,0,0,0.0000,0.0000,0,0,0.2430,0.2430,2026/27,DEF,0.0000
 30795,Real Madrid,Antonio Rüdiger,1822,90,0,1,0.0343,0.1396,0,1,0.6416,0.5020,2026/27,DEF,0.0343
 30795,Real Madrid,Arda Güler,12190,1,1,2,0.8570,0.0000,0,0,0.9060,0.0889,2026/27,DEL,0.8570
 30795,Real Madrid,Bernardo Silva,3635,10,0,0,0.0000,0.0000,0,0,0.0000,0.0000,2026/27,MED,0.0000
@@ -60,7 +60,7 @@ game_id,equipo,jugador,jugador_id,minutos,goles,tiros,xg,xa,asistencias,pases_cl
 30801,Real Madrid,Trent Alexander-Arnold,1791,20,0,0,0.0000,0.1027,0,1,0.0000,0.0000,2026/27,DEF,0.0000
 30801,Real Madrid,Vinícius Júnior,7008,90,0,4,0.9498,0.5739,0,4,1.5346,0.0214,2026/27,DEL,0.9498
 30801,Real Madrid,Yan Diomande,13561,20,0,0,0.0000,0.0000,0,0,0.0000,0.0000,2026/27,DEL,0.0000
-30801,Real Madrid,Álvaro Fernández,10576,1,0,0,0.0000,0.0000,0,0,0.0000,0.0000,2026/27,DEF,0.0000
+30801,Real Madrid,Álvaro Carreras,10576,1,0,0,0.0000,0.0000,0,0,0.0000,0.0000,2026/27,DEF,0.0000
 30816,Real Madrid,Antonio Rüdiger,1822,90,0,1,0.0525,0.0000,0,0,0.6629,0.6629,2026/27,DEF,0.0525
 30816,Real Madrid,Arda Güler,12190,15,0,1,0.0294,0.8198,1,5,0.3788,0.2439,2026/27,DEL,0.0294
 30816,Real Madrid,Aurélien Tchouaméni,6560,18,0,1,0.0180,0.0927,0,1,0.3661,0.2553,2026/27,MED,0.0180
@@ -75,7 +75,7 @@ game_id,equipo,jugador,jugador_id,minutos,goles,tiros,xg,xa,asistencias,pases_cl
 30816,Real Madrid,Thibaut Courtois,680,90,0,0,0.0000,0.0000,0,0,0.3514,0.3514,2026/27,POR,0.0000
 30816,Real Madrid,Vinícius Júnior,7008,90,0,4,0.2359,0.2556,1,2,1.0869,0.7109,2026/27,DEL,0.2359
 30816,Real Madrid,Yan Diomande,13561,75,0,1,0.0807,0.0857,0,2,0.3796,0.3388,2026/27,DEL,0.0807
-30816,Real Madrid,Álvaro Fernández,10576,90,1,1,0.4673,0.1804,0,3,1.0314,0.4500,2026/27,DEF,0.4673
+30816,Real Madrid,Álvaro Carreras,10576,90,1,1,0.4673,0.1804,0,3,1.0314,0.4500,2026/27,DEF,0.4673
 30825,Real Madrid,Arda Güler,12190,70,0,3,0.9300,0.7588,0,3,1.5796,0.0892,2026/27,DEL,0.9300
 30825,Real Madrid,Aurélien Tchouaméni,6560,88,0,0,0.0000,0.1584,0,2,0.9105,0.8413,2026/27,MED,0.0000
 30825,Real Madrid,Brahim Díaz,6421,20,0,0,0.0000,0.0157,0,1,0.1121,0.0965,2026/27,DEL,0.0000
@@ -121,7 +121,7 @@ game_id,equipo,jugador,jugador_id,minutos,goles,tiros,xg,xa,asistencias,pases_cl
 30848,Real Madrid,Trent Alexander-Arnold,1791,52,0,0,0.0000,0.1709,0,2,0.1569,0.0000,2026/27,DEF,0.0000
 30848,Real Madrid,Vinícius Júnior,7008,20,0,1,0.0238,0.0000,0,0,0.0000,0.0000,2026/27,DEL,0.0238
 30848,Real Madrid,Yan Diomande,13561,86,1,2,0.3334,0.0815,0,3,1.0194,0.6045,2026/27,DEL,0.3334
-30848,Real Madrid,Álvaro Fernández,10576,46,0,0,0.0000,0.4477,0,1,0.4477,0.0000,2026/27,DEF,0.0000
+30848,Real Madrid,Álvaro Carreras,10576,46,0,0,0.0000,0.4477,0,1,0.4477,0.0000,2026/27,DEF,0.0000
 30857,Real Madrid,Arda Güler,12190,81,1,1,0.0654,0.3290,0,3,0.4498,0.0555,2026/27,DEL,0.0654
 30857,Real Madrid,Aurélien Tchouaméni,6560,90,0,1,0.0229,0.0493,1,1,0.3349,0.3120,2026/27,MED,0.0229
 30857,Real Madrid,Bernardo Silva,3635,17,0,0,0.0000,0.0000,0,0,0.0000,0.0000,2026/27,MED,0.0000

@@ -16,7 +16,7 @@ import logging
 from datetime import date
 
 from rma import config, salidas, sample
-from rma.ingest import espn, historico_liga, understat, wikipedia
+from rma.ingest import espn, fotos, historico_liga, understat, wikipedia
 from rma.process import build
 
 
@@ -61,7 +61,8 @@ def main(argv: list[str] | None = None) -> None:
 def _espn(cfg) -> None:
     """ESPN y Wikipedia son extras: si fallan, se avisa y se sigue con lo de Understat."""
     for nombre, f in (("ESPN", espn.descargar), ("Wikipedia", wikipedia.descargar),
-                      ("Histórico de LaLiga", historico_liga.descargar)):
+                      ("Histórico de LaLiga", historico_liga.descargar),
+                      ("Fotos", lambda c: fotos.descargar(c, fotos.nombres_madrid(c)))):
         try:
             f(cfg)
         except Exception:  # noqa: BLE001

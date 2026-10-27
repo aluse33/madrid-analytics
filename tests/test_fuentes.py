@@ -57,3 +57,21 @@ def test_tabla_por_columnas_wikipedia():
     p = wikipedia.palmares([pd.DataFrame({"x": [1]}), t])
     assert p == [{"tipo": "Nacional", "competicion_en": "La Liga", "competicion": "LaLiga", "titulos": 36,
                   "compartido": False, "temporadas": ["1931–32", "2023–24"]}]
+
+
+def test_fotos_solo_futbolistas():
+    from rma.ingest import fotos
+
+    assert fotos._es_futbolista({"description": "French footballer (born 1998)"})
+    assert fotos._es_futbolista({"description": "Belgian association football goalkeeper"})
+    assert not fotos._es_futbolista({"description": "Spanish politician"})
+    assert not fotos._es_futbolista({})
+
+
+def test_fotos_coincide_apellido():
+    from rma.ingest.fotos import _coincide
+
+    assert _coincide("Raúl Asencio", "Raúl Asencio (footballer, born 2003)")
+    assert _coincide("Rodrygo", "Rodrygo")
+    assert not _coincide("Jorge Cestero", "Manuel Ángel")
+    assert not _coincide("Dean Huijsen", None)

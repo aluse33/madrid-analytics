@@ -1,37 +1,37 @@
-espn_id,nombre,dorsal,foto
-257237,Andriy Lunin,13,https://a.espncdn.com/i/headshots/soccer/players/full/257237.png
-356000,Dean Huijsen,4,https://a.espncdn.com/i/headshots/soccer/players/full/356000.png
-251634,Ibrahima Konaté,16,https://a.espncdn.com/i/headshots/soccer/players/full/251634.png
-259910,Marc Cucurella,17,https://a.espncdn.com/i/headshots/soccer/players/full/259910.png
-235818,Federico Valverde,8,https://a.espncdn.com/i/headshots/soccer/players/full/235818.png
-291281,Jude Bellingham,5,https://a.espncdn.com/i/headshots/soccer/players/full/291281.png
-265919,Aurélien Tchouaméni,14,https://a.espncdn.com/i/headshots/soccer/players/full/265919.png
-199833,Bernardo Silva,20,https://a.espncdn.com/i/headshots/soccer/players/full/199833.png
-231388,Kylian Mbappé,10,https://a.espncdn.com/i/headshots/soccer/players/full/231388.png
-402479,Yan Diomande,25,https://a.espncdn.com/i/headshots/soccer/players/full/402479.png
-310452,Arda Güler,15,https://a.espncdn.com/i/headshots/soccer/players/full/310452.png
-228402,Éder Militão,3,https://a.espncdn.com/i/headshots/soccer/players/full/228402.png
-310637,Álvaro Carreras,18,https://a.espncdn.com/i/headshots/soccer/players/full/310637.png
-350351,Sergio Mestre,26,https://a.espncdn.com/i/headshots/soccer/players/full/350351.png
-213248,Denzel Dumfries,24,https://a.espncdn.com/i/headshots/soccer/players/full/213248.png
-405490,Illia Voloshyn,39,https://a.espncdn.com/i/headshots/soccer/players/full/405490.png
-223532,Trent Alexander-Arnold,12,https://a.espncdn.com/i/headshots/soccer/players/full/223532.png
-409019,Thiago Pitarch,27,https://a.espncdn.com/i/headshots/soccer/players/full/409019.png
-169438,Antonio Rüdiger,22,https://a.espncdn.com/i/headshots/soccer/players/full/169438.png
-380286,Carlos Espí,19,https://a.espncdn.com/i/headshots/soccer/players/full/380286.png
-346612,Endrick,9,https://a.espncdn.com/i/headshots/soccer/players/full/346612.png
-285150,Eduardo Camavinga,6,https://a.espncdn.com/i/headshots/soccer/players/full/285150.png
-246532,Brahim Díaz,21,https://a.espncdn.com/i/headshots/soccer/players/full/246532.png
-134283,Thibaut Courtois,1,https://a.espncdn.com/i/headshots/soccer/players/full/134283.png
-84349,Javier Navarro,31,https://a.espncdn.com/i/headshots/soccer/players/full/84349.png
-252107,Vinícius Júnior,7,https://a.espncdn.com/i/headshots/soccer/players/full/252107.png
-388338,Raúl Asencio,2,https://a.espncdn.com/i/headshots/soccer/players/full/388338.png
-409318,Sergio Martínez,38,https://a.espncdn.com/i/headshots/soccer/players/full/409318.png
-415478,Jorge Cestero,29,https://a.espncdn.com/i/headshots/soccer/players/full/415478.png
-330352,Mario Rivas,33,https://a.espncdn.com/i/headshots/soccer/players/full/330352.png
-3117407,Alexis Ciria,36,https://a.espncdn.com/i/headshots/soccer/players/full/3117407.png
-217475,Ferland Mendy,23,https://a.espncdn.com/i/headshots/soccer/players/full/217475.png
-388339,Joan Martínez,30,https://a.espncdn.com/i/headshots/soccer/players/full/388339.png
-405544,Jesús Fortea,28,https://a.espncdn.com/i/headshots/soccer/players/full/405544.png
-267804,Rodrygo,11,https://a.espncdn.com/i/headshots/soccer/players/full/267804.png
-376422,Daniel Yañez,35,https://a.espncdn.com/i/headshots/soccer/players/full/376422.png
+nombre,foto,fuente,pagina,archivo,dorsal
+Alexis Ciria,,,,,36
+Andriy Lunin,https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Andriy_Lunin%2C_Real_Madrid%2C_2022.jpg/500px-Andriy_Lunin%2C_Real_Madrid%2C_2022.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail,wikipedia,Andriy Lunin,"Andriy_Lunin,_Real_Madrid,_2022.jpg",13
+Antonio Rüdiger,https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Antonio_Rudiger_Ecuador_v_Germany_25_June_2026-002.jpg/500px-Antonio_Rudiger_Ecuador_v_Germany_25_June_2026-002.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail,wikipedia,Antonio Rüdiger,Antonio_Rudiger_Ecuador_v_Germany_25_June_2026-002.jpg,22
+Arda Güler,https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Arda_G%C3%BCler_2025.jpg/500px-Arda_G%C3%BCler_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail,wikipedia,Arda Güler,Arda_Güler_2025.jpg,15
+Aurélien Tchouaméni,https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Aurelien_Tchouameni_France_v_Senegal_16_June_2026-447_%28cropped%29.jpg/500px-Aurelien_Tchouameni_France_v_Senegal_16_June_2026-447_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail,wikipedia,Aurélien Tchouaméni,Aurelien_Tchouameni_France_v_Senegal_16_June_2026-447_(cropped).jpg,14
+Bernardo Silva,https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Bernardo_Silva_Croatia_v_Portugal_2_July_2026-238.jpg/500px-Bernardo_Silva_Croatia_v_Portugal_2_July_2026-238.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail,wikipedia,Bernardo Silva,Bernardo_Silva_Croatia_v_Portugal_2_July_2026-238.jpg,20
+Brahim Díaz,https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Brahim_Diaz_Morocco_v_Norway_7_June_2026-36_%28cropped_3-4%29.jpg/500px-Brahim_Diaz_Morocco_v_Norway_7_June_2026-36_%28cropped_3-4%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail,wikipedia,Brahim Díaz,Brahim_Diaz_Morocco_v_Norway_7_June_2026-36_(cropped_3-4).jpg,21
+Carlos Espí,,,,,19
+Daniel Yañez,,,,,35
+Dean Huijsen,https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Dean_Huijsen_2024.jpg/500px-Dean_Huijsen_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail,wikipedia,Dean Huijsen,Dean_Huijsen_2024.jpg,4
+Denzel Dumfries,https://a.espncdn.com/i/headshots/soccer/players/full/213248.png,espn,,,24
+Eduardo Camavinga,https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Ofrenda_de_la_Liga_y_la_Champions-13-L.Mill%C3%A1n_%2852109790215%29_%28cropped%29.jpg/500px-Ofrenda_de_la_Liga_y_la_Champions-13-L.Mill%C3%A1n_%2852109790215%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail,wikipedia,Eduardo Camavinga,Ofrenda_de_la_Liga_y_la_Champions-13-L.Millán_(52109790215)_(cropped).jpg,6
+Endrick,https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Team_Brazil_at_2026_FIFA_World_Cup_by_YantsImages_%28Endrick%29.jpg/500px-Team_Brazil_at_2026_FIFA_World_Cup_by_YantsImages_%28Endrick%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail,wikipedia,Endrick,Team_Brazil_at_2026_FIFA_World_Cup_by_YantsImages_(Endrick).jpg,9
+Federico Valverde,https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Federico_Valverde_2021_%28cropped%29.jpg/500px-Federico_Valverde_2021_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail,wikipedia,Federico Valverde,Federico_Valverde_2021_(cropped).jpg,8
+Ferland Mendy,https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Ofrenda_de_la_Liga_y_la_Champions-49-L.Mill%C3%A1n_%2852109311048%29_%28Ferland_Mendy%29.jpg/500px-Ofrenda_de_la_Liga_y_la_Champions-49-L.Mill%C3%A1n_%2852109311048%29_%28Ferland_Mendy%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail,wikipedia,Ferland Mendy,Ofrenda_de_la_Liga_y_la_Champions-49-L.Millán_(52109311048)_(Ferland_Mendy).jpg,23
+Ibrahima Konaté,https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Ibrahima_Konate_France_v_Senegal_16_June_2026-516_%28cropped%29.jpg/500px-Ibrahima_Konate_France_v_Senegal_16_June_2026-516_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail,wikipedia,Ibrahima Konaté,Ibrahima_Konate_France_v_Senegal_16_June_2026-516_(cropped).jpg,16
+Illia Voloshyn,,,,,39
+Javier Navarro,,,,,31
+Jesús Fortea,,,,,28
+Joan Martínez,,,,,30
+Jorge Cestero,,,,,29
+Jude Bellingham,https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg/500px-Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail,wikipedia,Jude Bellingham,Jude_Bellingham_England_v_Ghana_23_June_2026-061_(cropped).jpg,5
+Kylian Mbappé,https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/500px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail,wikipedia,Kylian Mbappé,Kylian_Mbappe_France_v_Senegal_16_June_2026-391_(cropped).jpg,10
+Marc Cucurella,https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Marc_Cucurella_Argentina_v_Spain_19_July_2026-064_%28cropped%29.jpg/500px-Marc_Cucurella_Argentina_v_Spain_19_July_2026-064_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail,wikipedia,Marc Cucurella,Marc_Cucurella_Argentina_v_Spain_19_July_2026-064_(cropped).jpg,17
+Mario Rivas,,,,,33
+Raúl Asencio,https://upload.wikimedia.org/wikipedia/commons/5/56/Raul-Asencio-Real-Madrid-2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled,wikipedia,"Raúl Asencio (footballer, born 2003)",Raul-Asencio-Real-Madrid-2025.jpg,2
+Rodrygo,https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Rodrygo_2023_%28cropped%29.jpg/500px-Rodrygo_2023_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail,wikipedia,Rodrygo,Rodrygo_2023_(cropped).jpg,11
+Sergio Martínez,,,,,38
+Sergio Mestre,,,,,26
+Thiago Pitarch,,,,,27
+Thibaut Courtois,https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Thibaut_Courtois_Belgium_v_USA_6_July_2026-076_%28cropped%29.jpg/500px-Thibaut_Courtois_Belgium_v_USA_6_July_2026-076_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail,wikipedia,Thibaut Courtois,Thibaut_Courtois_Belgium_v_USA_6_July_2026-076_(cropped).jpg,1
+Trent Alexander-Arnold,https://upload.wikimedia.org/wikipedia/commons/5/5d/Trent_Alexander-Arnold_2018_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled,wikipedia,Trent Alexander-Arnold,Trent_Alexander-Arnold_2018_(cropped).jpg,12
+Vinícius Júnior,https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg/500px-Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail,wikipedia,Vinícius Júnior,Vinícius_Júnior_Brazil_V_Morocco_13_June_2026-207_(cropped).jpg,7
+Yan Diomande,https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Yan_Diomande_Cote_D%27Ivoire_v_Ecuador_14_June_2026-17_%28cropped%29.jpg/500px-Yan_Diomande_Cote_D%27Ivoire_v_Ecuador_14_June_2026-17_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail,wikipedia,Yan Diomande,Yan_Diomande_Cote_D'Ivoire_v_Ecuador_14_June_2026-17_(cropped).jpg,25
+Álvaro Carreras,https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/%C3%81lvaroCarreras.jpg/500px-%C3%81lvaroCarreras.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail,wikipedia,Álvaro Carreras,ÁlvaroCarreras.jpg,18
+Éder Militão,https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Eder_Militao_2021.jpg/500px-Eder_Militao_2021.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail,wikipedia,Éder Militão,Eder_Militao_2021.jpg,3

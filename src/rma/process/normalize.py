@@ -68,6 +68,7 @@ JUGADORES: dict[str, str] = {
     "Aurelien Tchouameni": "Aurélien Tchouaméni",
     "Eder Militão": "Éder Militão",
     "Vinicius Junior": "Vinícius Júnior",
+    "Álvaro Fernández": "Álvaro Carreras",  # Understat usa su primer apellido (Álvaro Fernández Carreras)
 }
 
 

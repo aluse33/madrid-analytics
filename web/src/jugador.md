@@ -41,11 +41,16 @@ const rotulo = (p) => `J${p.jornada} · ${p.condicion === "Local" ? "vs" : "@"} 
 ```
 
 ```js
-// foto de ESPN: mismo nombre sin tildes ni mayúsculas; si no, mismo apellido
+// foto (ESPN o Wikipedia): mismo nombre sin tildes ni mayúsculas; si no, mismo apellido
 const llano = (s) => String(s).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
-const fotoDe = (n) => fotos.find((f) => llano(f.nombre) === llano(n))
-  ?? fotos.find((f) => llano(f.nombre).split(" ").at(-1) === llano(n).split(" ").at(-1) && llano(n).split(" ").length > 1);
-const fila_foto = fotoDe(jugador);
+const exacta = (arr, n) => arr.find((f) => llano(f.nombre) === llano(n));
+const porApellido = (arr, n) => llano(n).split(" ").length > 1 ? arr.find((f) => llano(f.nombre).split(" ").at(-1) === llano(n).split(" ").at(-1)) : undefined;
+const conFoto = fotos.filter((f) => f.foto);
+const fila_foto = exacta(conFoto, jugador) ?? porApellido(conFoto, jugador);
+const dorsal = exacta(fotos, jugador)?.dorsal ?? fila_foto?.dorsal;
+const creditoFoto = fila_foto?.fuente === "wikipedia" && fila_foto.archivo
+  ? html`<a class="credito-foto" href="https://commons.wikimedia.org/wiki/File:${encodeURIComponent(fila_foto.archivo)}" target="_blank" rel="noopener">${t("Foto: Wikimedia Commons", "Photo: Wikimedia Commons")}</a>`
+  : "";
 const iniciales = jugador.split(" ").filter(Boolean).map((x) => x[0]).slice(0, 2).join("");
 function retrato() {
   const caja = html`<div class="retrato"><span>${iniciales}</span></div>`;
@@ -63,8 +68,9 @@ function retrato() {
   <div class="ficha-cab">
     ${retrato()}
     <div>
-      <div class="etiqueta">${puestoTxt(puesto)} · Real Madrid · LaLiga ${estado.temporada}${fila_foto?.dorsal ? ` · ${fila_foto.dorsal}` : ""}</div>
-      <h1 style="margin:0.2rem 0 0.8rem">${jugador}</h1>
+      <div class="etiqueta">${puestoTxt(puesto)} · Real Madrid · LaLiga ${estado.temporada}${dorsal ? ` · ${dorsal}` : ""}</div>
+      <h1 style="margin:0.2rem 0 0.3rem">${jugador}</h1>
+      ${creditoFoto}
     </div>
   </div>
   <div class="cifras-ficha">

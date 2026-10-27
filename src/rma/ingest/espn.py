@@ -217,33 +217,38 @@ def tabla_champions(js: dict) -> pd.DataFrame:
     return pd.DataFrame(filas).sort_values("puesto") if filas else pd.DataFrame()
 
 
-FOTO = "https://a.espncdn.com/i/headshots/soccer/players/full/{}.png"
-
-
 def fotos_madrid(cfg: Config, detalles: dict) -> pd.DataFrame:
-    """Jugadores del Madrid con su foto de ESPN: de la plantilla si la trae, si no por su identificador."""
-    filas = {}
+    """Foto y dorsal de cada jugador del Madrid.
+
+    ESPN da una dirección de foto para todos, pero la imagen casi nunca existe: solo se usa la que
+    su plantilla trae de verdad (campo headshot). El resto sale de Wikipedia (ingest/fotos.py).
+    """
+    from rma.ingest import fotos as wiki
+
+    dorsales = {}
     for det in detalles.values():
         for al in det["alineaciones"]:
-            if al["equipo"] != cfg.equipo:
-                continue
-            for j in al["jugadores"]:
-                if j.get("id"):
-                    filas[j["id"]] = {"espn_id": j["id"], "nombre": j["nombre"], "dorsal": j.get("dorsal"),
-                                      "foto": FOTO.format(j["id"])}
+            if al["equipo"] == cfg.equipo:
+                for j in al["jugadores"]:
+                    if j.get("dorsal"):
+                        dorsales[j["nombre"]] = j["dorsal"]
+    filas = {}
+    w = wiki.tabla(cfg)
+    for r in w.itertuples():
+        filas[r.nombre] = {"nombre": r.nombre, "foto": r.foto, "fuente": "wikipedia", "pagina": r.pagina, "archivo": r.archivo}
     ruta = cfg.raw / "espn" / "plantilla.json"
     if ruta.exists():
-        js = json.loads(ruta.read_text())
-        for a in js.get("athletes", []):
-            # según la versión de la API, lista plana o agrupada por posición
+        for a in json.loads(ruta.read_text()).get("athletes", []):
             for x in a.get("items", [a]):
-                if not x.get("id"):
-                    continue
-                f = filas.setdefault(x["id"], {"espn_id": x["id"], "nombre": x.get("displayName"),
-                                               "dorsal": x.get("jersey"), "foto": FOTO.format(x["id"])})
-                if (x.get("headshot") or {}).get("href"):
-                    f["foto"] = x["headshot"]["href"]
-    return pd.DataFrame(filas.values())
+                n = x.get("displayName")
+                if n and x.get("jersey"):
+                    dorsales.setdefault(n, x["jersey"])
+                if n and (x.get("headshot") or {}).get("href"):
+                    # la de ESPN es un retrato recortado: si existe, mejor que la de Wikipedia
+                    filas[n] = {"nombre": n, "foto": x["headshot"]["href"], "fuente": "espn", "pagina": None, "archivo": None}
+    nombres = set(filas) | set(dorsales)
+    return pd.DataFrame([{**filas.get(n, {"nombre": n, "foto": None, "fuente": None, "pagina": None, "archivo": None}),
+                          "dorsal": dorsales.get(n)} for n in sorted(nombres)])
 
 
 def salidas(cfg: Config, web: Path, escribir_csv, escribir_json) -> None:
