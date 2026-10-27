@@ -17,7 +17,7 @@ import pandas as pd
 
 from rma import escudos
 from rma.config import RAIZ, Config, codigo_temporada, etiqueta_temporada
-from rma.ingest import espn, wikipedia
+from rma.ingest import espn, historico_liga, wikipedia
 from rma.models import dixon_coles as dc
 from rma.models import inferencia, shrinkage, simulacion, xg_modelo
 
@@ -201,12 +201,20 @@ def generar(cfg: Config, reentrenar_xg: bool | None = None) -> None:
         log.warning("ESPN: no se pudieron generar sus salidas", exc_info=True)
 
     # ---------------- Wikipedia: histórico del club
+    h = None
     try:
         h = wikipedia.historia(cfg)
         if h:
             _json(h, WEB / "historia.json")
     except Exception:  # noqa: BLE001
         log.warning("Wikipedia: no se pudo generar el histórico", exc_info=True)
+    # curvas de puntos de todas las Ligas desde 1929
+    try:
+        cur = historico_liga.curvas(cfg, rm, historico_liga.temporadas_campeonas(h))
+        if len(cur):
+            _csv(cur, WEB / "liga_historica.csv")
+    except Exception:  # noqa: BLE001
+        log.warning("No se pudo generar el histórico de LaLiga", exc_info=True)
 
     # ---------------- estado
     _json({
