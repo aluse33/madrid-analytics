@@ -9,7 +9,26 @@ toc:
 
 ## Data
 
-Everything comes from **Understat** through the Python library [soccerdata](https://github.com/probberechts/soccerdata): result and xG of every LaLiga match, every shot (location, xG, situation, body part) and per-player match statistics. Understat only covers leagues, so the Champions League and the Copa del Rey are not included. Coordinates are converted to metres on a 105 × 68 m pitch.
+LaLiga data come from **Understat** through the Python library [soccerdata](https://github.com/probberechts/soccerdata): result and xG of every match, every shot (location, xG, situation, body part) and per-player match stats. Coordinates are converted to metres on a 105 × 68 m pitch. Since Understat only covers leagues, the Champions League and other competitions, line-ups, match timelines and player photos come from **ESPN**, and the club's history from **Wikipedia**.
+
+**Updates.** The site updates itself every morning: the process starts at 7:23 (Madrid time) in winter and 8:23 in summer, and takes between ten minutes and half an hour. GitHub, which runs it, sometimes starts it a little late.
+
+## What xG is
+
+**xG** (*expected goals*) measures the quality of a chance: it is the **probability that a shot ends up as a goal**, given where and how it is taken. A 0.30 xG shot goes in three times out of ten when a chance like that comes up. A penalty is worth about 0.76 xG, because roughly three in four are scored; a long-range shot from outside the box, usually under 0.05.
+
+**How it is calculated.** A statistical model is trained on hundreds of thousands of past shots whose outcome is known. For each shot, the model takes into account things like:
+
+- the distance and angle to goal;
+- the body part (foot or head);
+- the type of play: open play, counter-attack, corner, direct free kick or penalty;
+- in some models, the type of assist or the defensive pressure.
+
+From that it estimates ${tex`\text{xG}_k = P(\text{goal}_k \mid \text{distance}, \text{angle}, \dots)`}, and the xG of a team or a player in a match is the sum of the xG of their shots. Understat uses a neural network trained on more than 100,000 shots; this site also has its own model, explained below and compared in the [Model lab](./modelos).
+
+**How to read it.** xG says how many goals the chances *deserved*, not how many were scored. If a team creates 2.1 xG and concedes 0.8, it created far more danger even if it lost 0-1. Over many matches, goals tend to converge to xG, which is why it measures a team's true level better than the scoreline. It ignores who shoots and who is in goal: a 0.30 xG shot is the scoring probability for an *average* player in that situation. Consistently scoring above one's xG is precisely what sets a great finisher apart.
+
+**Variants used on this site:** **npxG**, xG without penalties (fairer for comparing players); **xA**, the xG of the shots a player sets up for a team-mate with his pass; **xGChain**, the xG of every possession he is involved in, and **xGBuildup**, the same leaving out the shot and the final pass.
 
 ## Dixon-Coles with an xG target
 

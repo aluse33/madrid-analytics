@@ -6,7 +6,26 @@ title: Metodología
 
 ## Datos
 
-Todo sale de **Understat** a través de la librería de Python [soccerdata](https://github.com/probberechts/soccerdata): resultado y xG de cada partido de LaLiga, todos los tiros (posición, xG, situación, parte del cuerpo) y estadísticas por jugador y partido. Understat solo cubre las ligas, así que la Champions y la Copa no aparecen. Las coordenadas se pasan a metros en un campo de 105 × 68 m.
+Los datos de LaLiga salen de **Understat** a través de la librería de Python [soccerdata](https://github.com/probberechts/soccerdata): resultado y xG de cada partido, todos los tiros (posición, xG, situación, parte del cuerpo) y estadísticas por jugador y partido. Las coordenadas se pasan a metros en un campo de 105 × 68 m. Como Understat solo cubre las ligas, la Champions y el resto de competiciones, las alineaciones, la cronología de cada partido y las fotos de los jugadores salen de **ESPN**, y el histórico del club, de **Wikipedia**.
+
+**Actualización.** La web se actualiza sola cada mañana: el proceso empieza a las 7:23 (hora de Madrid) en invierno y a las 8:23 en verano, y tarda entre diez minutos y media hora. GitHub, que es quien lo ejecuta, a veces lo retrasa un poco.
+
+## Qué es el xG
+
+El **xG** (*expected goals*, goles esperados) mide la calidad de una ocasión: es la **probabilidad de que un tiro acabe en gol**, teniendo en cuenta desde dónde y cómo se tira. Un tiro de 0,30 xG acaba en gol tres de cada diez veces que se da una ocasión así. Un penalti vale unos 0,76 xG, porque se marcan unos tres de cada cuatro; un disparo lejano desde fuera del área, normalmente menos de 0,05.
+
+**Cómo se calcula.** Se entrena un modelo estadístico con cientos de miles de tiros históricos de los que se sabe si acabaron en gol. Para cada tiro, el modelo tiene en cuenta cosas como:
+
+- la distancia y el ángulo respecto a la portería;
+- la parte del cuerpo (pie o cabeza);
+- el tipo de jugada: jugada elaborada, contraataque, córner, falta directa o penalti;
+- en algunos modelos, el tipo de pase previo o la presión del rival.
+
+Con eso estima ${tex`\text{xG}_k = P(\text{gol}_k \mid \text{distancia}, \text{ángulo}, \dots)`}, y el xG de un equipo o de un jugador en un partido es la suma de los xG de sus tiros. Understat usa una red neuronal entrenada con más de 100.000 tiros; en esta web hay además un modelo propio, explicado más abajo y comparado en el [Laboratorio de modelos](./modelos).
+
+**Cómo se lee.** El xG dice cuántos goles *merecían* las ocasiones, no cuántos se marcaron. Si un equipo genera 2,1 xG y concede 0,8, ha creado mucho más peligro aunque pierda 0-1. Con muchos partidos, los goles tienden a acercarse al xG, y por eso mide el nivel real de un equipo mejor que el marcador. No tiene en cuenta quién remata ni quién está en la portería: un tiro de 0,30 xG es la probabilidad de gol de un jugador *medio* en esa situación. Que alguien marque sistemáticamente por encima de su xG es justo lo que distingue a un gran rematador.
+
+**Variantes que salen en la web:** **npxG**, el xG sin penaltis (más justo para comparar jugadores); **xA**, el xG de los tiros que un jugador deja a un compañero con su pase; **xGChain**, el xG de todas las jugadas en las que participa, y **xGBuildup**, lo mismo sin contar el tiro ni el último pase.
 
 ## Dixon-Coles con objetivo en xG
 
