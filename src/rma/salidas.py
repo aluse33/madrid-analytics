@@ -17,6 +17,7 @@ import pandas as pd
 
 from rma import escudos
 from rma.config import RAIZ, Config, codigo_temporada, etiqueta_temporada
+from rma.ingest import espn, wikipedia
 from rma.models import dixon_coles as dc
 from rma.models import inferencia, shrinkage, simulacion, xg_modelo
 
@@ -172,6 +173,8 @@ def generar(cfg: Config, reentrenar_xg: bool | None = None) -> None:
     _csv(jt[jt.equipo == "Real Madrid"].drop(columns=["posicion"]), WEB / "jugadores_rm.csv")
 
     minimos = cfg.modelos["shrinkage"]["minutos_minimos_web"]
+    _csv(jugadores_liga(jt, minimos), WEB / "jugadores_liga.csv")
+    _csv(jugadores_historico(jp[jp.equipo == cfg.equipo]), WEB / "jugadores_historico.csv")
     eb = []
     campo = jt[jt.puesto != "POR"]
     for met in ("npxg", "xa"):
@@ -191,6 +194,20 @@ def generar(cfg: Config, reentrenar_xg: bool | None = None) -> None:
         fin.append({"jugador": jugador, "tiros": len(np_), **g})
     _csv(pd.DataFrame(fin).sort_values("xg", ascending=False), WEB / "finalizacion.csv")
 
+    # ---------------- ESPN: todas las competiciones, cronologías, alineaciones, Champions
+    try:
+        espn.salidas(cfg, WEB, _csv, _json)
+    except Exception:  # noqa: BLE001  (ESPN es un extra: nunca tumba la actualización)
+        log.warning("ESPN: no se pudieron generar sus salidas", exc_info=True)
+
+    # ---------------- Wikipedia: histórico del club
+    try:
+        h = wikipedia.historia(cfg)
+        if h:
+            _json(h, WEB / "historia.json")
+    except Exception:  # noqa: BLE001
+        log.warning("Wikipedia: no se pudo generar el histórico", exc_info=True)
+
     # ---------------- estado
     _json({
         "actualizado": datetime.now(UTC).isoformat(timespec="minutes"),
@@ -199,6 +216,35 @@ def generar(cfg: Config, reentrenar_xg: bool | None = None) -> None:
         "muestra": muestra,
         "fallos": (cfg.raw / "fallos.txt").read_text().splitlines() if (cfg.raw / "fallos.txt").exists() else [],
     }, WEB / "estado.json")
+
+
+METRICAS_P90 = ["goles", "asistencias", "npxg", "xa", "tiros", "pases_clave", "xg_chain", "xg_buildup"]
+
+
+def _agregar(jp: pd.DataFrame, claves: list[str]) -> pd.DataFrame:
+    """Suma por jugador (y lo que se pida) con el puesto más habitual."""
+    g = jp.groupby(claves)
+    out = g[["minutos", *METRICAS_P90]].sum()
+    out["partidos"] = g.size()
+    out["puesto"] = g.puesto.agg(lambda s: s.mode().iat[0])
+    return out.reset_index()
+
+
+def jugadores_liga(jt: pd.DataFrame, minimos: int) -> pd.DataFrame:
+    """Totales y por 90' de todos los jugadores de campo de LaLiga esta temporada.
+
+    Sirve para los percentiles de la ficha: cada jugador del Madrid frente a los de su puesto.
+    """
+    a = _agregar(jt, ["jugador_id", "jugador", "equipo"])
+    a = a[(a.minutos >= minimos) & (a.puesto != "POR")].copy()
+    for m in METRICAS_P90:
+        a[f"{m}_p90"] = 90 * a[m] / a.minutos
+    return a.drop(columns=["jugador_id"]).sort_values("minutos", ascending=False)
+
+
+def jugadores_historico(jp_rm: pd.DataFrame) -> pd.DataFrame:
+    """Temporada a temporada de cada jugador del Madrid (todas las temporadas descargadas)."""
+    return _agregar(jp_rm, ["jugador", "temporada"]).sort_values(["jugador", "temporada"])
 
 
 def salida_simulacion(modelo, temporada, proximos, deriva, var_desfase, n: int = 10_000) -> dict:

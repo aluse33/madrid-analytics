@@ -1,6 +1,6 @@
 """Línea de comandos.
 
-    rma ingesta            descarga Understat (todas las temporadas de config.yaml)
+    rma ingesta            descarga Understat (todas las temporadas de config.yaml) y ESPN
     rma ingesta --actual   solo la temporada en curso (lo que corre tras cada jornada)
     rma muestra            genera datos sintéticos (sin conexión)
     rma procesar           data/raw -> data/processed
@@ -16,12 +16,12 @@ import logging
 from datetime import date
 
 from rma import config, salidas, sample
-from rma.ingest import understat
+from rma.ingest import espn, understat, wikipedia
 from rma.process import build
 
 
 def main(argv: list[str] | None = None) -> None:
-    ap = argparse.ArgumentParser(prog="rma", description="Real Madrid Analytics")
+    ap = argparse.ArgumentParser(prog="rma", description="Madridismo Analítico")
     ap.add_argument("orden", choices=["ingesta", "muestra", "procesar", "salidas", "traducir", "todo"])
     ap.add_argument("--actual", action="store_true", help="ingesta: solo la temporada en curso")
     ap.add_argument("--muestra", action="store_true", help="todo: con datos sintéticos")
@@ -37,6 +37,7 @@ def main(argv: list[str] | None = None) -> None:
 
     if a.orden == "ingesta":
         understat.descargar(cfg, solo_actual=a.actual)
+        _espn(cfg)
     elif a.orden == "muestra":
         sample.generar(cfg, hoy=a.hoy)
     elif a.orden == "procesar":
@@ -51,9 +52,19 @@ def main(argv: list[str] | None = None) -> None:
             sample.generar(cfg, hoy=a.hoy)
         else:
             understat.descargar(cfg, solo_actual=False)
+            _espn(cfg)
         build.construir(cfg)
         salidas.generar(cfg, reentrenar_xg=reentrenar)
         _traducir()
+
+
+def _espn(cfg) -> None:
+    """ESPN y Wikipedia son extras: si fallan, se avisa y se sigue con lo de Understat."""
+    for nombre, f in (("ESPN", espn.descargar), ("Wikipedia", wikipedia.descargar)):
+        try:
+            f(cfg)
+        except Exception:  # noqa: BLE001
+            logging.getLogger("rma").warning("%s no disponible; la web usará lo último descargado", nombre, exc_info=True)
 
 
 def _traducir() -> None:

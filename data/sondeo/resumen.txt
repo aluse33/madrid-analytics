@@ -1,0 +1,54 @@
+
+== ESPN ==
+[200] espn_calendario_esp.1           98,184 bytes  https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/teams/86/schedule
+[200] espn_proximos_esp.1            253,006 bytes  https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/teams/86/schedule?fixture=true
+[200] espn_calendario_uefa.champions    28,609 bytes  https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/86/schedule
+[200] espn_proximos_uefa.champions    48,056 bytes  https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/86/schedule?fixture=true
+[200] espn_calendario_esp.copa_del_rey       482 bytes  https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/teams/86/schedule
+[200] espn_proximos_esp.copa_del_rey       482 bytes  https://site.api.espn.com/apis/site/v2/sports/soccer/esp.copa_del_rey/teams/86/schedule?fixture=true
+[200] espn_calendario_esp.super_cup       478 bytes  https://site.api.espn.com/apis/site/v2/sports/soccer/esp.super_cup/teams/86/schedule
+[200] espn_proximos_esp.super_cup      7,597 bytes  https://site.api.espn.com/apis/site/v2/sports/soccer/esp.super_cup/teams/86/schedule?fixture=true
+[200] espn_calendario_fifa.cwc        56,641 bytes  https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.cwc/teams/86/schedule
+[200] espn_proximos_fifa.cwc             473 bytes  https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.cwc/teams/86/schedule?fixture=true
+[200] espn_calendario_all            165,056 bytes  https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/86/schedule
+[200] espn_proximos_all              307,393 bytes  https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/86/schedule?fixture=true
+[200] espn_clasificacion_champions   143,500 bytes  https://site.api.espn.com/apis/v2/sports/soccer/uefa.champions/standings
+[200] espn_equipo                     20,651 bytes  https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/teams/86
+[200] espn_partido_champions         478,861 bytes  https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=401915451
+[200] espn_partido_liga              459,708 bytes  https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882912
+[200] espn_champions_2024            132,566 bytes  https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/86/schedule?season=2024
+[200] espn_champions_2015            117,758 bytes  https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/86/schedule?season=2015
+[200] espn_champions_2005             71,258 bytes  https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/86/schedule?season=2005
+
+== Wikipedia ==
+[200] wiki_club                    1,319,351 bytes  https://en.wikipedia.org/w/api.php?action=parse&page=Real+Madrid+CF&prop=text&format=json&formatversion=2&redirects=1
+[200] wiki_temporadas                280,691 bytes  https://en.wikipedia.org/w/api.php?action=parse&page=List+of+Real+Madrid+CF+seasons&prop=text&format=json&formatversion=2&redirects=1
+[200] wiki_entrenadores              263,395 bytes  https://en.wikipedia.org/w/api.php?action=parse&page=List+of+Real+Madrid+CF+managers&prop=text&format=json&formatversion=2&redirects=1
+[200] wiki_europa                    711,587 bytes  https://en.wikipedia.org/w/api.php?action=parse&page=Real+Madrid+CF+in+international+football&prop=text&format=json&formatversion=2&redirects=1
+[200] wiki_records                 1,375,208 bytes  https://en.wikipedia.org/w/api.php?action=parse&page=List+of+Real+Madrid+CF+records+and+statistics&prop=text&format=json&formatversion=2&redirects=1
+[200] wiki_clasico                   630,260 bytes  https://en.wikipedia.org/w/api.php?action=parse&page=El+Cl%C3%A1sico&prop=text&format=json&formatversion=2&redirects=1
+[200] wiki_derbi                     368,274 bytes  https://en.wikipedia.org/w/api.php?action=parse&page=Madrid+derby&prop=text&format=json&formatversion=2&redirects=1
+[200] wiki_finales_copa_europa       486,342 bytes  https://en.wikipedia.org/w/api.php?action=parse&page=List+of+European+Cup+and+UEFA+Champions+League+finals&prop=text&format=json&formatversion=2&redirects=1
+[200] wikies_palmares              1,152,715 bytes  https://es.wikipedia.org/w/api.php?action=parse&page=Palmar%C3%A9s+del+Real+Madrid+Club+de+F%C3%BAtbol&prop=text&format=json&formatversion=2&redirects=1
+
+== WhoScored (abre Chrome, paciencia) ==
+[FALLO en whoscored]
+Traceback (most recent call last):
+  File "/Users/alejandrolucasserrano/Desktop/madrid-analytics/scripts/sondeo.py", line 135, in <module>
+    paso()
+  File "/Users/alejandrolucasserrano/Desktop/madrid-analytics/scripts/sondeo.py", line 105, in whoscored
+    cal = ws.read_schedule()
+          ^^^^^^^^^^^^^^^^^^
+  File "/Users/alejandrolucasserrano/Desktop/madrid-analytics/.venv/lib/python3.12/site-packages/soccerdata/whoscored.py", line 341, in read_schedule
+    df_season_stages = self.read_season_stages(force_cache=force_cache)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alejandrolucasserrano/Desktop/madrid-analytics/.venv/lib/python3.12/site-packages/soccerdata/whoscored.py", line 271, in read_season_stages
+    df_seasons = self.read_seasons()
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/Users/alejandrolucasserrano/Desktop/madrid-analytics/.venv/lib/python3.12/site-packages/soccerdata/whoscored.py", line 222, in read_seasons
+    df_leagues = self.read_leagues()
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/Users/alejandrolucasserrano/Desktop/madrid-analytics/.venv/lib/python3.12/site-packages/soccerdata/whoscored.py", line 195, in read_leagues
+    for region in data:
+                  ^^^^
+TypeError: 'NoneType' object is not iterable

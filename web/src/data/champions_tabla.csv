@@ -1,0 +1,37 @@
+puesto,equipo,escudo,pj,v,e,d,gf,gc,dg,puntos
+1,Paris Saint-Germain,https://a.espncdn.com/i/teamlogos/soccer/500/160.png,3,3,0,0,14,5,9,9
+2,Aston Villa,https://a.espncdn.com/i/teamlogos/soccer/500/362.png,3,3,0,0,12,3,9,9
+3,Liverpool,https://a.espncdn.com/i/teamlogos/soccer/500/364.png,3,3,0,0,12,7,5,9
+4,Real Madrid,https://a.espncdn.com/i/teamlogos/soccer/500/86.png,3,3,0,0,10,5,5,9
+5,Real Betis,https://a.espncdn.com/i/teamlogos/soccer/500/244.png,3,3,0,0,7,4,3,9
+6,VfB Stuttgart,https://a.espncdn.com/i/teamlogos/soccer/500/134.png,3,2,1,0,7,2,5,7
+7,Arsenal,https://a.espncdn.com/i/teamlogos/soccer/500/359.png,3,2,1,0,6,2,4,7
+8,Barcelona,https://a.espncdn.com/i/teamlogos/soccer/500/83.png,3,2,0,1,11,6,5,6
+9,Como,https://a.espncdn.com/i/teamlogos/soccer/500/2572.png,3,2,0,1,10,5,5,6
+10,Manchester City,https://a.espncdn.com/i/teamlogos/soccer/500/382.png,3,2,0,1,9,5,4,6
+11,Club Brugge,https://a.espncdn.com/i/teamlogos/soccer/500/570.png,3,2,0,1,9,6,3,6
+12,Sporting CP,https://a.espncdn.com/i/teamlogos/soccer/500/2250.png,3,2,0,1,7,4,3,6
+13,Borussia Dortmund,https://a.espncdn.com/i/teamlogos/soccer/500/124.png,3,2,0,1,5,4,1,6
+14,Bayern Munich,https://a.espncdn.com/i/teamlogos/soccer/500/132.png,3,1,2,0,10,5,5,5
+15,AS Roma,https://a.espncdn.com/i/teamlogos/soccer/500/104.png,3,1,1,1,8,5,3,4
+16,Atletico Madrid,https://a.espncdn.com/i/teamlogos/soccer/500/1068.png,3,1,1,1,4,3,1,4
+17,Shakhtar Donetsk,https://a.espncdn.com/i/teamlogos/soccer/500/493.png,3,1,1,1,4,3,1,4
+18,PSV Eindhoven,https://a.espncdn.com/i/teamlogos/soccer/500/148.png,3,1,1,1,2,2,0,4
+19,Villarreal,https://a.espncdn.com/i/teamlogos/soccer/500/102.png,3,1,0,2,8,8,0,3
+20,Internazionale,https://a.espncdn.com/i/teamlogos/soccer/500/110.png,3,1,0,2,5,6,-1,3
+21,Manchester United,https://a.espncdn.com/i/teamlogos/soccer/500/360.png,3,1,0,2,5,6,-1,3
+22,Napoli,https://a.espncdn.com/i/teamlogos/soccer/500/114.png,3,1,0,2,5,7,-2,3
+23,Galatasaray,https://a.espncdn.com/i/teamlogos/soccer/500/432.png,3,1,0,2,6,9,-3,3
+24,LASK Linz,https://a.espncdn.com/i/teamlogos/soccer/500/4411.png,3,1,0,2,6,9,-3,3
+25,Sabah FK,https://a.espncdn.com/i/teamlogos/soccer/500/21922.png,3,1,0,2,3,6,-3,3
+26,Feyenoord Rotterdam,https://a.espncdn.com/i/teamlogos/soccer/500/142.png,3,1,0,2,4,8,-4,3
+27,Lens,https://a.espncdn.com/i/teamlogos/soccer/500/175.png,3,1,0,2,3,7,-4,3
+28,Bodo/Glimt,https://a.espncdn.com/i/teamlogos/soccer/500/2980.png,3,1,0,2,4,9,-5,3
+29,AEK Athens,https://a.espncdn.com/i/teamlogos/soccer/500/887.png,3,1,0,2,3,8,-5,3
+30,RB Leipzig,https://a.espncdn.com/i/teamlogos/soccer/500/11420.png,3,1,0,2,3,8,-5,3
+31,Fenerbahce,https://a.espncdn.com/i/teamlogos/soccer/500/436.png,3,0,2,1,3,9,-6,2
+32,Slavia Prague,https://a.espncdn.com/i/teamlogos/soccer/500/494.png,3,0,1,2,4,7,-3,1
+33,Viking FK,https://a.espncdn.com/i/teamlogos/soccer/500/510.png,3,0,1,2,5,9,-4,1
+34,FC Porto,https://a.espncdn.com/i/teamlogos/soccer/500/437.png,3,0,0,3,2,6,-4,0
+35,Lille,https://a.espncdn.com/i/teamlogos/soccer/500/166.png,3,0,0,3,4,10,-6,0
+36,Slovan Bratislava,https://a.espncdn.com/i/teamlogos/soccer/500/521.png,3,0,0,3,1,13,-12,0

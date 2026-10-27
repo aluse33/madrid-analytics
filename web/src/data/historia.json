@@ -1,0 +1,5598 @@
+{
+ "actualizado": "2026-10-27",
+ "palmares": [
+  {
+   "tipo": "Nacional",
+   "competicion_en": "La Liga",
+   "competicion": "LaLiga",
+   "titulos": 36,
+   "compartido": false,
+   "temporadas": [
+    "1931–32",
+    "1932–33",
+    "1953–54",
+    "1954–55",
+    "1956–57",
+    "1957–58",
+    "1960–61",
+    "1961–62",
+    "1962–63",
+    "1963–64",
+    "1964–65",
+    "1966–67",
+    "1967–68",
+    "1968–69",
+    "1971–72",
+    "1974–75",
+    "1975–76",
+    "1977–78",
+    "1978–79",
+    "1979–80",
+    "1985–86",
+    "1986–87",
+    "1987–88",
+    "1988–89",
+    "1989–90",
+    "1994–95",
+    "1996–97",
+    "2000–01",
+    "2002–03",
+    "2006–07",
+    "2007–08",
+    "2011–12",
+    "2016–17",
+    "2019–20",
+    "2021–22",
+    "2023–24"
+   ]
+  },
+  {
+   "tipo": "Nacional",
+   "competicion_en": "Copa del Rey",
+   "competicion": "Copa del Rey",
+   "titulos": 20,
+   "compartido": false,
+   "temporadas": [
+    "1905",
+    "1906",
+    "1907",
+    "1908",
+    "1917",
+    "1934",
+    "1936",
+    "1946",
+    "1947",
+    "1961–62",
+    "1969–70",
+    "1973–74",
+    "1974–75",
+    "1979–80",
+    "1981–82",
+    "1988–89",
+    "1992–93",
+    "2010–11",
+    "2013–14",
+    "2022–23"
+   ]
+  },
+  {
+   "tipo": "Nacional",
+   "competicion_en": "Copa de la Liga",
+   "competicion": "Copa de la Liga",
+   "titulos": 1,
+   "compartido": false,
+   "temporadas": [
+    "1985"
+   ]
+  },
+  {
+   "tipo": "Nacional",
+   "competicion_en": "Supercopa de España",
+   "competicion": "Supercopa de España",
+   "titulos": 13,
+   "compartido": false,
+   "temporadas": [
+    "1988",
+    "1989",
+    "1990",
+    "1993",
+    "1997",
+    "2001",
+    "2003",
+    "2008",
+    "2012",
+    "2017",
+    "2020",
+    "2022",
+    "2024"
+   ]
+  },
+  {
+   "tipo": "Nacional",
+   "competicion_en": "Copa Eva Duarte",
+   "competicion": "Copa Eva Duarte",
+   "titulos": 1,
+   "compartido": false,
+   "temporadas": [
+    "1947"
+   ]
+  },
+  {
+   "tipo": "Europeo",
+   "competicion_en": "European Cup/UEFA Champions League",
+   "competicion": "Copa de Europa / Champions League",
+   "titulos": 15,
+   "compartido": false,
+   "temporadas": [
+    "1955–56",
+    "1956–57",
+    "1957–58",
+    "1958–59",
+    "1959–60",
+    "1965–66",
+    "1997–98",
+    "1999–2000",
+    "2001–02",
+    "2013–14",
+    "2015–16",
+    "2016–17",
+    "2017–18",
+    "2021–22",
+    "2023–24"
+   ]
+  },
+  {
+   "tipo": "Europeo",
+   "competicion_en": "UEFA Cup/UEFA Europa League",
+   "competicion": "Copa de la UEFA",
+   "titulos": 2,
+   "compartido": false,
+   "temporadas": [
+    "1984–85",
+    "1985–86"
+   ]
+  },
+  {
+   "tipo": "Europeo",
+   "competicion_en": "UEFA Super Cup",
+   "competicion": "Supercopa de Europa",
+   "titulos": 6,
+   "compartido": false,
+   "temporadas": [
+    "2002",
+    "2014",
+    "2016",
+    "2017",
+    "2022",
+    "2024"
+   ]
+  },
+  {
+   "tipo": "Europeo",
+   "competicion_en": "Latin Cup",
+   "competicion": "Copa Latina",
+   "titulos": 2,
+   "compartido": true,
+   "temporadas": [
+    "1955",
+    "1957"
+   ]
+  },
+  {
+   "tipo": "Intercontinental",
+   "competicion_en": "Ibero-American Cup",
+   "competicion": "Copa Iberoamericana",
+   "titulos": 1,
+   "compartido": false,
+   "temporadas": [
+    "1994"
+   ]
+  },
+  {
+   "tipo": "Mundial",
+   "competicion_en": "FIFA Club World Cup",
+   "competicion": "Mundial de Clubes",
+   "titulos": 5,
+   "compartido": false,
+   "temporadas": [
+    "2014",
+    "2016",
+    "2017",
+    "2018",
+    "2022"
+   ]
+  },
+  {
+   "tipo": "Mundial",
+   "competicion_en": "Intercontinental Cup",
+   "competicion": "Copa Intercontinental",
+   "titulos": 3,
+   "compartido": true,
+   "temporadas": [
+    "1960",
+    "1998",
+    "2002"
+   ]
+  },
+  {
+   "tipo": "Mundial",
+   "competicion_en": "FIFA Intercontinental Cup",
+   "competicion": "Copa Intercontinental de la FIFA",
+   "titulos": 1,
+   "compartido": true,
+   "temporadas": [
+    "2024"
+   ]
+  },
+  {
+   "tipo": "Regional",
+   "competicion_en": "Campeonato de Madrid/Campeonato Regional Centro",
+   "competicion": "Campeonato Regional",
+   "titulos": 23,
+   "compartido": false,
+   "temporadas": [
+    "1903",
+    "1905",
+    "1906",
+    "1906–07",
+    "1907–08",
+    "1912–13",
+    "1915–16",
+    "1916–17",
+    "1917–18",
+    "1919–20",
+    "1921–22",
+    "1922–23",
+    "1923–24",
+    "1925–26",
+    "1926–27",
+    "1928–29",
+    "1929–30",
+    "1930–31",
+    "1931–32",
+    "1932–33",
+    "1933–34",
+    "1934–35",
+    "1935–36"
+   ]
+  },
+  {
+   "tipo": "Regional",
+   "competicion_en": "Copa Federación Centro",
+   "competicion": "Copa Federación Centro",
+   "titulos": 4,
+   "compartido": true,
+   "temporadas": [
+    "1922–23",
+    "1927–28",
+    "1943–44",
+    "1944–45"
+   ]
+  }
+ ],
+ "temporadas": [
+  {
+   "temporada": "1902",
+   "division": "—",
+   "pj": null,
+   "v": null,
+   "e": null,
+   "d": null,
+   "gf": null,
+   "gc": null,
+   "puntos": null,
+   "puesto": null,
+   "copa": "SF",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1902–03",
+   "division": "Camp. Reg.",
+   "pj": 2,
+   "v": 1,
+   "e": 0,
+   "d": 1,
+   "gf": 9,
+   "gc": 3,
+   "puntos": 2,
+   "puesto": 2,
+   "copa": "RU",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1903–04",
+   "division": "Camp. Reg.",
+   "pj": 1,
+   "v": 0,
+   "e": 1,
+   "d": 0,
+   "gf": 5,
+   "gc": 5,
+   "puntos": null,
+   "puesto": null,
+   "copa": "—",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1904–05",
+   "division": "Camp. Reg.",
+   "pj": 1,
+   "v": 1,
+   "e": 0,
+   "d": 0,
+   "gf": 2,
+   "gc": 0,
+   "puntos": null,
+   "puesto": null,
+   "copa": "W",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1905–06",
+   "division": "Camp. Reg.",
+   "pj": 1,
+   "v": 1,
+   "e": 0,
+   "d": 0,
+   "gf": 7,
+   "gc": 0,
+   "puntos": null,
+   "puesto": null,
+   "copa": "W",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1906–07",
+   "division": "Camp. Reg.",
+   "pj": 5,
+   "v": 4,
+   "e": 0,
+   "d": 1,
+   "gf": 15,
+   "gc": 7,
+   "puntos": null,
+   "puesto": null,
+   "copa": "W",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1907–08",
+   "division": "Camp. Reg.",
+   "pj": 6,
+   "v": 4,
+   "e": 1,
+   "d": 1,
+   "gf": 15,
+   "gc": 4,
+   "puntos": 9,
+   "puesto": null,
+   "copa": "W",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1908–09",
+   "division": "Camp. Reg.",
+   "pj": 3,
+   "v": 1,
+   "e": 0,
+   "d": 2,
+   "gf": 4,
+   "gc": 5,
+   "puntos": 2,
+   "puesto": 3,
+   "copa": "—",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1909–10",
+   "division": "Camp. Reg.",
+   "pj": 4,
+   "v": 1,
+   "e": 1,
+   "d": 2,
+   "gf": 4,
+   "gc": 7,
+   "puntos": 3,
+   "puesto": 3,
+   "copa": "3rd",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1910–11",
+   "division": "Camp. Reg.",
+   "pj": 3,
+   "v": 1,
+   "e": 0,
+   "d": 2,
+   "gf": 4,
+   "gc": 4,
+   "puntos": null,
+   "puesto": 2,
+   "copa": "—",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1911–12",
+   "division": "Camp. Reg.",
+   "pj": null,
+   "v": null,
+   "e": null,
+   "d": null,
+   "gf": null,
+   "gc": null,
+   "puntos": null,
+   "puesto": null,
+   "copa": "—",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1912–13",
+   "division": "Camp. Reg.",
+   "pj": 3,
+   "v": 2,
+   "e": 1,
+   "d": 0,
+   "gf": 9,
+   "gc": 3,
+   "puntos": 5,
+   "puesto": null,
+   "copa": "SF",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1913–14",
+   "division": "Camp. Reg.",
+   "pj": 4,
+   "v": 1,
+   "e": 1,
+   "d": 2,
+   "gf": 3,
+   "gc": 5,
+   "puntos": 3,
+   "puesto": 3,
+   "copa": "—",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1914–15",
+   "division": "Camp. Reg.",
+   "pj": 6,
+   "v": 1,
+   "e": 3,
+   "d": 2,
+   "gf": 10,
+   "gc": 12,
+   "puntos": 5,
+   "puesto": 3,
+   "copa": "—",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1915–16",
+   "division": "Camp. Reg.",
+   "pj": 6,
+   "v": 5,
+   "e": 0,
+   "d": 1,
+   "gf": 15,
+   "gc": 5,
+   "puntos": 10,
+   "puesto": null,
+   "copa": "RU",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1916–17",
+   "division": "Camp. Reg.",
+   "pj": 6,
+   "v": 6,
+   "e": 0,
+   "d": 0,
+   "gf": 28,
+   "gc": 8,
+   "puntos": 12,
+   "puesto": null,
+   "copa": "W",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1917–18",
+   "division": "Camp. Reg.",
+   "pj": 6,
+   "v": 5,
+   "e": 0,
+   "d": 1,
+   "gf": 13,
+   "gc": 8,
+   "puntos": 10,
+   "puesto": null,
+   "copa": "RU",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1918–19",
+   "division": "Camp. Reg.",
+   "pj": 8,
+   "v": 5,
+   "e": 1,
+   "d": 2,
+   "gf": 20,
+   "gc": 15,
+   "puntos": 11,
+   "puesto": 2,
+   "copa": "—",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1919–20",
+   "division": "Camp. Reg.",
+   "pj": 6,
+   "v": 4,
+   "e": 1,
+   "d": 1,
+   "gf": 17,
+   "gc": 7,
+   "puntos": 9,
+   "puesto": null,
+   "copa": "QF",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1920–21",
+   "division": "Camp. Reg.",
+   "pj": 6,
+   "v": 2,
+   "e": 1,
+   "d": 3,
+   "gf": 14,
+   "gc": 9,
+   "puntos": 5,
+   "puesto": 3,
+   "copa": "—",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1921–22",
+   "division": "Camp. Reg.",
+   "pj": 6,
+   "v": 5,
+   "e": 1,
+   "d": 0,
+   "gf": 28,
+   "gc": 5,
+   "puntos": 11,
+   "puesto": null,
+   "copa": "SF",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1922–23",
+   "division": "Camp. Reg.",
+   "pj": 6,
+   "v": 3,
+   "e": 2,
+   "d": 1,
+   "gf": 12,
+   "gc": 9,
+   "puntos": 8,
+   "puesto": null,
+   "copa": "QF",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1923–24",
+   "division": "Camp. Reg.",
+   "pj": 8,
+   "v": 6,
+   "e": 2,
+   "d": 0,
+   "gf": 21,
+   "gc": 7,
+   "puntos": 14,
+   "puesto": null,
+   "copa": "RU",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1924–25",
+   "division": "Camp. Reg.",
+   "pj": 8,
+   "v": 3,
+   "e": 3,
+   "d": 2,
+   "gf": 11,
+   "gc": 6,
+   "puntos": 9,
+   "puesto": 2,
+   "copa": "—",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1925–26",
+   "division": "Camp. Reg.",
+   "pj": 8,
+   "v": 6,
+   "e": 1,
+   "d": 1,
+   "gf": 17,
+   "gc": 5,
+   "puntos": 13,
+   "puesto": null,
+   "copa": "QF",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1926–27",
+   "division": "Camp. Reg.",
+   "pj": 16,
+   "v": 12,
+   "e": 1,
+   "d": 3,
+   "gf": 38,
+   "gc": 12,
+   "puntos": 25,
+   "puesto": null,
+   "copa": "SF",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1927–28",
+   "division": "Camp. Reg.",
+   "pj": 10,
+   "v": 8,
+   "e": 0,
+   "d": 2,
+   "gf": 38,
+   "gc": 10,
+   "puntos": 16,
+   "puesto": null,
+   "copa": "QF",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "—",
+   "goles_goleador": null
+  },
+  {
+   "temporada": "1928–29",
+   "division": "La Liga",
+   "pj": null,
+   "v": null,
+   "e": null,
+   "d": null,
+   "gf": null,
+   "gc": null,
+   "puntos": null,
+   "puesto": 2,
+   "copa": "RU",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "Rubio",
+   "goles_goleador": 12
+  },
+  {
+   "temporada": "1929–30",
+   "division": "La Liga",
+   "pj": null,
+   "v": null,
+   "e": null,
+   "d": null,
+   "gf": null,
+   "gc": null,
+   "puntos": null,
+   "puesto": 5,
+   "copa": "RU",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "Rubio",
+   "goles_goleador": 18
+  },
+  {
+   "temporada": "1930–31",
+   "division": "La Liga",
+   "pj": null,
+   "v": null,
+   "e": null,
+   "d": null,
+   "gf": null,
+   "gc": null,
+   "puntos": null,
+   "puesto": 6,
+   "copa": "QF",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "Lazcano",
+   "goles_goleador": 5
+  },
+  {
+   "temporada": "1931–32",
+   "division": "La Liga",
+   "pj": null,
+   "v": null,
+   "e": null,
+   "d": null,
+   "gf": null,
+   "gc": null,
+   "puntos": null,
+   "puesto": 1,
+   "copa": "R16",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "Olivares",
+   "goles_goleador": 11
+  },
+  {
+   "temporada": "1932–33",
+   "division": "La Liga",
+   "pj": null,
+   "v": null,
+   "e": null,
+   "d": null,
+   "gf": null,
+   "gc": null,
+   "puntos": null,
+   "puesto": 1,
+   "copa": "RU",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "Olivares",
+   "goles_goleador": 15
+  },
+  {
+   "temporada": "1933–34",
+   "division": "La Liga",
+   "pj": null,
+   "v": null,
+   "e": null,
+   "d": null,
+   "gf": null,
+   "gc": null,
+   "puntos": null,
+   "puesto": 2,
+   "copa": "W",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "Regueiro",
+   "goles_goleador": 12
+  },
+  {
+   "temporada": "1934–35",
+   "division": "La Liga",
+   "pj": null,
+   "v": null,
+   "e": null,
+   "d": null,
+   "gf": null,
+   "gc": null,
+   "puntos": null,
+   "puesto": 2,
+   "copa": "R16",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "Sañudo",
+   "goles_goleador": 20
+  },
+  {
+   "temporada": "1935–36",
+   "division": "La Liga",
+   "pj": null,
+   "v": null,
+   "e": null,
+   "d": null,
+   "gf": null,
+   "gc": null,
+   "puntos": null,
+   "puesto": 2,
+   "copa": "W",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "Sañudo",
+   "goles_goleador": 20
+  },
+  {
+   "temporada": "1939–40",
+   "division": "La Liga",
+   "pj": null,
+   "v": null,
+   "e": null,
+   "d": null,
+   "gf": null,
+   "gc": null,
+   "puntos": null,
+   "puesto": 4,
+   "copa": "RU",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "Alday",
+   "goles_goleador": 13
+  },
+  {
+   "temporada": "1940–41",
+   "division": "La Liga",
+   "pj": 22,
+   "v": 11,
+   "e": 2,
+   "d": 9,
+   "gf": 51,
+   "gc": 38,
+   "puntos": 24,
+   "puesto": 6,
+   "copa": "R16",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "Alday",
+   "goles_goleador": 14
+  },
+  {
+   "temporada": "1941–42",
+   "division": "La Liga",
+   "pj": 26,
+   "v": 14,
+   "e": 5,
+   "d": 7,
+   "gf": 65,
+   "gc": 43,
+   "puntos": 33,
+   "puesto": 2,
+   "copa": "QF",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "Alday",
+   "goles_goleador": 23
+  },
+  {
+   "temporada": "1942–43",
+   "division": "La Liga",
+   "pj": 26,
+   "v": 10,
+   "e": 5,
+   "d": 11,
+   "gf": 52,
+   "gc": 50,
+   "puntos": 25,
+   "puesto": 10,
+   "copa": "RU",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "Alday",
+   "goles_goleador": 16
+  },
+  {
+   "temporada": "1943–44",
+   "division": "La Liga",
+   "pj": 26,
+   "v": 11,
+   "e": 6,
+   "d": 9,
+   "gf": 48,
+   "gc": 38,
+   "puntos": 28,
+   "puesto": 7,
+   "copa": "R16",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "Barinaga",
+   "goles_goleador": 20
+  },
+  {
+   "temporada": "1944–45",
+   "division": "La Liga",
+   "pj": 26,
+   "v": 18,
+   "e": 2,
+   "d": 6,
+   "gf": 68,
+   "gc": 35,
+   "puntos": 38,
+   "puesto": 2,
+   "copa": "R16",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "Barinaga",
+   "goles_goleador": 18
+  },
+  {
+   "temporada": "1945–46",
+   "division": "La Liga",
+   "pj": 26,
+   "v": 11,
+   "e": 9,
+   "d": 6,
+   "gf": 46,
+   "gc": 30,
+   "puntos": 31,
+   "puesto": 4,
+   "copa": "W",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "Pruden",
+   "goles_goleador": 20
+  },
+  {
+   "temporada": "1946–47",
+   "division": "La Liga",
+   "pj": 26,
+   "v": 11,
+   "e": 5,
+   "d": 10,
+   "gf": 62,
+   "gc": 56,
+   "puntos": 27,
+   "puesto": 7,
+   "copa": "W",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "Pruden",
+   "goles_goleador": 22
+  },
+  {
+   "temporada": "1947–48",
+   "division": "La Liga",
+   "pj": 26,
+   "v": 7,
+   "e": 7,
+   "d": 12,
+   "gf": 41,
+   "gc": 56,
+   "puntos": 21,
+   "puesto": 11,
+   "copa": "R16",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "Molowny",
+   "goles_goleador": 9
+  },
+  {
+   "temporada": "1948–49",
+   "division": "La Liga",
+   "pj": 26,
+   "v": 15,
+   "e": 4,
+   "d": 7,
+   "gf": 67,
+   "gc": 42,
+   "puntos": 34,
+   "puesto": 3,
+   "copa": "R16",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "Pahiño",
+   "goles_goleador": 21
+  },
+  {
+   "temporada": "1949–50",
+   "division": "La Liga",
+   "pj": 26,
+   "v": 11,
+   "e": 9,
+   "d": 6,
+   "gf": 60,
+   "gc": 49,
+   "puntos": 31,
+   "puesto": 4,
+   "copa": "SF",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "Pahiño",
+   "goles_goleador": 19
+  },
+  {
+   "temporada": "1950–51",
+   "division": "La Liga",
+   "pj": 30,
+   "v": 13,
+   "e": 5,
+   "d": 12,
+   "gf": 80,
+   "gc": 71,
+   "puntos": 31,
+   "puesto": 9,
+   "copa": "SF",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "Pahiño",
+   "goles_goleador": 21
+  },
+  {
+   "temporada": "1951–52",
+   "division": "La Liga",
+   "pj": 30,
+   "v": 16,
+   "e": 6,
+   "d": 8,
+   "gf": 79,
+   "gc": 50,
+   "puntos": 38,
+   "puesto": 3,
+   "copa": "SF",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "Pahiño",
+   "goles_goleador": 28
+  },
+  {
+   "temporada": "1952–53",
+   "division": "La Liga",
+   "pj": 30,
+   "v": 18,
+   "e": 3,
+   "d": 9,
+   "gf": 67,
+   "gc": 49,
+   "puntos": 39,
+   "puesto": 3,
+   "copa": "SF",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "Pahiño",
+   "goles_goleador": 19
+  },
+  {
+   "temporada": "1953–54",
+   "division": "La Liga",
+   "pj": 30,
+   "v": 17,
+   "e": 6,
+   "d": 7,
+   "gf": 72,
+   "gc": 41,
+   "puntos": 40,
+   "puesto": 1,
+   "copa": "SF",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "Di Stéfano",
+   "goles_goleador": 27
+  },
+  {
+   "temporada": "1954–55",
+   "division": "La Liga",
+   "pj": 30,
+   "v": 20,
+   "e": 6,
+   "d": 4,
+   "gf": 80,
+   "gc": 31,
+   "puntos": 46,
+   "puesto": 1,
+   "copa": "SF",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "Di Stéfano",
+   "goles_goleador": 25
+  },
+  {
+   "temporada": "1955–56",
+   "division": "La Liga",
+   "pj": 30,
+   "v": 18,
+   "e": 2,
+   "d": 10,
+   "gf": 81,
+   "gc": 39,
+   "puntos": 38,
+   "puesto": 3,
+   "copa": "SF",
+   "europa": "European Cup",
+   "europa_ronda": "W",
+   "goleador": "Di Stéfano",
+   "goles_goleador": 24
+  },
+  {
+   "temporada": "1956–57",
+   "division": "La Liga",
+   "pj": 30,
+   "v": 20,
+   "e": 4,
+   "d": 6,
+   "gf": 74,
+   "gc": 35,
+   "puntos": 44,
+   "puesto": 1,
+   "copa": "QF",
+   "europa": "European Cup",
+   "europa_ronda": "W",
+   "goleador": "Di Stéfano",
+   "goles_goleador": 31
+  },
+  {
+   "temporada": "1957–58",
+   "division": "La Liga",
+   "pj": 30,
+   "v": 20,
+   "e": 5,
+   "d": 5,
+   "gf": 71,
+   "gc": 26,
+   "puntos": 45,
+   "puesto": 1,
+   "copa": "RU",
+   "europa": "European Cup",
+   "europa_ronda": "W",
+   "goleador": "Di Stéfano",
+   "goles_goleador": 19
+  },
+  {
+   "temporada": "1958–59",
+   "division": "La Liga",
+   "pj": 30,
+   "v": 21,
+   "e": 5,
+   "d": 4,
+   "gf": 89,
+   "gc": 29,
+   "puntos": 47,
+   "puesto": 2,
+   "copa": "SF",
+   "europa": "European Cup",
+   "europa_ronda": "W",
+   "goleador": "Di Stéfano",
+   "goles_goleador": 23
+  },
+  {
+   "temporada": "1959–60",
+   "division": "La Liga",
+   "pj": 30,
+   "v": 21,
+   "e": 4,
+   "d": 5,
+   "gf": 92,
+   "gc": 36,
+   "puntos": 46,
+   "puesto": 2,
+   "copa": "RU",
+   "europa": "European Cup",
+   "europa_ronda": "W",
+   "goleador": "Puskás",
+   "goles_goleador": 25
+  },
+  {
+   "temporada": "1960–61",
+   "division": "La Liga",
+   "pj": 30,
+   "v": 24,
+   "e": 4,
+   "d": 2,
+   "gf": 89,
+   "gc": 25,
+   "puntos": 52,
+   "puesto": 1,
+   "copa": "RU",
+   "europa": "European Cup",
+   "europa_ronda": "R16",
+   "goleador": "Puskás",
+   "goles_goleador": 28
+  },
+  {
+   "temporada": "1961–62",
+   "division": "La Liga",
+   "pj": 30,
+   "v": 19,
+   "e": 5,
+   "d": 6,
+   "gf": 58,
+   "gc": 24,
+   "puntos": 43,
+   "puesto": 1,
+   "copa": "W",
+   "europa": "European Cup",
+   "europa_ronda": "RU",
+   "goleador": "Puskás",
+   "goles_goleador": 20
+  },
+  {
+   "temporada": "1962–63",
+   "division": "La Liga",
+   "pj": 30,
+   "v": 23,
+   "e": 3,
+   "d": 4,
+   "gf": 83,
+   "gc": 33,
+   "puntos": 49,
+   "puesto": 1,
+   "copa": "SF",
+   "europa": "European Cup",
+   "europa_ronda": "R32",
+   "goleador": "Puskás",
+   "goles_goleador": 26
+  },
+  {
+   "temporada": "1963–64",
+   "division": "La Liga",
+   "pj": 30,
+   "v": 22,
+   "e": 2,
+   "d": 6,
+   "gf": 61,
+   "gc": 23,
+   "puntos": 46,
+   "puesto": 1,
+   "copa": "QF",
+   "europa": "European Cup",
+   "europa_ronda": "RU",
+   "goleador": "Puskás",
+   "goles_goleador": 21
+  },
+  {
+   "temporada": "1964–65",
+   "division": "La Liga",
+   "pj": 30,
+   "v": 21,
+   "e": 5,
+   "d": 4,
+   "gf": 64,
+   "gc": 18,
+   "puntos": 47,
+   "puesto": 1,
+   "copa": "R16",
+   "europa": "European Cup",
+   "europa_ronda": "QF",
+   "goleador": "Grosso",
+   "goles_goleador": 17
+  },
+  {
+   "temporada": "1965–66",
+   "division": "La Liga",
+   "pj": 30,
+   "v": 19,
+   "e": 5,
+   "d": 6,
+   "gf": 53,
+   "gc": 30,
+   "puntos": 43,
+   "puesto": 2,
+   "copa": "QF",
+   "europa": "European Cup",
+   "europa_ronda": "W",
+   "goleador": "Grosso",
+   "goles_goleador": 11
+  },
+  {
+   "temporada": "1966–67",
+   "division": "La Liga",
+   "pj": 30,
+   "v": 19,
+   "e": 9,
+   "d": 2,
+   "gf": 58,
+   "gc": 22,
+   "puntos": 47,
+   "puesto": 1,
+   "copa": "QF",
+   "europa": "European Cup",
+   "europa_ronda": "QF",
+   "goleador": "Gento",
+   "goles_goleador": 11
+  },
+  {
+   "temporada": "1967–68",
+   "division": "La Liga",
+   "pj": 30,
+   "v": 16,
+   "e": 10,
+   "d": 4,
+   "gf": 55,
+   "gc": 26,
+   "puntos": 42,
+   "puesto": 1,
+   "copa": "RU",
+   "europa": "European Cup",
+   "europa_ronda": "SF",
+   "goleador": "Amancio, Pirri, Velázquez",
+   "goles_goleador": 10
+  },
+  {
+   "temporada": "1968–69",
+   "division": "La Liga",
+   "pj": 30,
+   "v": 18,
+   "e": 11,
+   "d": 1,
+   "gf": 46,
+   "gc": 21,
+   "puntos": 47,
+   "puesto": 1,
+   "copa": "R16",
+   "europa": "European Cup",
+   "europa_ronda": "R16",
+   "goleador": "Amancio",
+   "goles_goleador": 14
+  },
+  {
+   "temporada": "1969–70",
+   "division": "La Liga",
+   "pj": 30,
+   "v": 13,
+   "e": 9,
+   "d": 8,
+   "gf": 50,
+   "gc": 42,
+   "puntos": 35,
+   "puesto": 5,
+   "copa": "W",
+   "europa": "European Cup",
+   "europa_ronda": "R16",
+   "goleador": "Amancio",
+   "goles_goleador": 16
+  },
+  {
+   "temporada": "1970–71",
+   "division": "La Liga",
+   "pj": 30,
+   "v": 17,
+   "e": 7,
+   "d": 6,
+   "gf": 46,
+   "gc": 24,
+   "puntos": 41,
+   "puesto": 4,
+   "copa": "R32",
+   "europa": "Cup Winners' Cup",
+   "europa_ronda": "RU",
+   "goleador": "Pirri",
+   "goles_goleador": 13
+  },
+  {
+   "temporada": "1971–72",
+   "division": "La Liga",
+   "pj": 34,
+   "v": 19,
+   "e": 9,
+   "d": 6,
+   "gf": 51,
+   "gc": 27,
+   "puntos": 47,
+   "puesto": 1,
+   "copa": "SF",
+   "europa": "UEFA Cup",
+   "europa_ronda": "R32",
+   "goleador": "Pirri",
+   "goles_goleador": 11
+  },
+  {
+   "temporada": "1972–73",
+   "division": "La Liga",
+   "pj": 34,
+   "v": 17,
+   "e": 9,
+   "d": 8,
+   "gf": 45,
+   "gc": 29,
+   "puntos": 43,
+   "puesto": 4,
+   "copa": "R16",
+   "europa": "European Cup",
+   "europa_ronda": "SF",
+   "goleador": "Santillana",
+   "goles_goleador": 10
+  },
+  {
+   "temporada": "1973–74",
+   "division": "La Liga",
+   "pj": 34,
+   "v": 13,
+   "e": 8,
+   "d": 13,
+   "gf": 48,
+   "gc": 38,
+   "puntos": 34,
+   "puesto": 8,
+   "copa": "W",
+   "europa": "UEFA Cup",
+   "europa_ronda": "R64",
+   "goleador": "Más",
+   "goles_goleador": 11
+  },
+  {
+   "temporada": "1974–75",
+   "division": "La Liga",
+   "pj": 34,
+   "v": 20,
+   "e": 10,
+   "d": 4,
+   "gf": 66,
+   "gc": 34,
+   "puntos": 50,
+   "puesto": 1,
+   "copa": "W",
+   "europa": "Cup Winners' Cup",
+   "europa_ronda": "QF",
+   "goleador": "Santillana",
+   "goles_goleador": 17
+  },
+  {
+   "temporada": "1975–76",
+   "division": "La Liga",
+   "pj": 34,
+   "v": 20,
+   "e": 8,
+   "d": 6,
+   "gf": 54,
+   "gc": 26,
+   "puntos": 48,
+   "puesto": 1,
+   "copa": "R16",
+   "europa": "European Cup",
+   "europa_ronda": "SF",
+   "goleador": "Pirri",
+   "goles_goleador": 13
+  },
+  {
+   "temporada": "1976–77",
+   "division": "La Liga",
+   "pj": 34,
+   "v": 12,
+   "e": 10,
+   "d": 12,
+   "gf": 57,
+   "gc": 53,
+   "puntos": 34,
+   "puesto": 9,
+   "copa": "R32",
+   "europa": "European Cup",
+   "europa_ronda": "R16",
+   "goleador": "Santillana",
+   "goles_goleador": 12
+  },
+  {
+   "temporada": "1977–78",
+   "division": "La Liga",
+   "pj": 34,
+   "v": 22,
+   "e": 3,
+   "d": 9,
+   "gf": 77,
+   "gc": 40,
+   "puntos": 47,
+   "puesto": 1,
+   "copa": "R16",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "Santillana",
+   "goles_goleador": 24
+  },
+  {
+   "temporada": "1978–79",
+   "division": "La Liga",
+   "pj": 34,
+   "v": 16,
+   "e": 15,
+   "d": 3,
+   "gf": 61,
+   "gc": 36,
+   "puntos": 47,
+   "puesto": 1,
+   "copa": "RU",
+   "europa": "European Cup",
+   "europa_ronda": "R16",
+   "goleador": "Santillana",
+   "goles_goleador": 18
+  },
+  {
+   "temporada": "1979–80",
+   "division": "La Liga",
+   "pj": 34,
+   "v": 22,
+   "e": 9,
+   "d": 3,
+   "gf": 70,
+   "gc": 33,
+   "puntos": 53,
+   "puesto": 1,
+   "copa": "W",
+   "europa": "European Cup",
+   "europa_ronda": "SF",
+   "goleador": "Santillana",
+   "goles_goleador": 23
+  },
+  {
+   "temporada": "1980–81",
+   "division": "La Liga",
+   "pj": 34,
+   "v": 20,
+   "e": 5,
+   "d": 9,
+   "gf": 66,
+   "gc": 37,
+   "puntos": 45,
+   "puesto": 2,
+   "copa": "QF",
+   "europa": "European Cup",
+   "europa_ronda": "RU",
+   "goleador": "Juanito",
+   "goles_goleador": 19
+  },
+  {
+   "temporada": "1981–82",
+   "division": "La Liga",
+   "pj": 34,
+   "v": 18,
+   "e": 8,
+   "d": 8,
+   "gf": 57,
+   "gc": 34,
+   "puntos": 44,
+   "puesto": 3,
+   "copa": "W",
+   "europa": "UEFA Cup",
+   "europa_ronda": "QF",
+   "goleador": "Juanito, Santillana, Stielike",
+   "goles_goleador": 9
+  },
+  {
+   "temporada": "1982–83",
+   "division": "La Liga",
+   "pj": 34,
+   "v": 20,
+   "e": 9,
+   "d": 5,
+   "gf": 57,
+   "gc": 25,
+   "puntos": 49,
+   "puesto": 2,
+   "copa": "RU",
+   "europa": "Cup Winners' Cup",
+   "europa_ronda": "RU",
+   "goleador": "Pineda",
+   "goles_goleador": 11
+  },
+  {
+   "temporada": "1983–84",
+   "division": "La Liga",
+   "pj": 34,
+   "v": 22,
+   "e": 5,
+   "d": 7,
+   "gf": 59,
+   "gc": 37,
+   "puntos": 49,
+   "puesto": 2,
+   "copa": "SF",
+   "europa": "UEFA Cup",
+   "europa_ronda": "R64",
+   "goleador": "Juanito",
+   "goles_goleador": 17
+  },
+  {
+   "temporada": "1984–85",
+   "division": "La Liga",
+   "pj": 34,
+   "v": 13,
+   "e": 10,
+   "d": 11,
+   "gf": 46,
+   "gc": 36,
+   "puntos": 36,
+   "puesto": 5,
+   "copa": "R16",
+   "europa": "UEFA Cup",
+   "europa_ronda": "W",
+   "goleador": "Valdano",
+   "goles_goleador": 17
+  },
+  {
+   "temporada": "1985–86",
+   "division": "La Liga",
+   "pj": 34,
+   "v": 26,
+   "e": 4,
+   "d": 4,
+   "gf": 83,
+   "gc": 33,
+   "puntos": 56,
+   "puesto": 1,
+   "copa": "SF",
+   "europa": "UEFA Cup",
+   "europa_ronda": "W",
+   "goleador": "Sánchez",
+   "goles_goleador": 22
+  },
+  {
+   "temporada": "1986–87",
+   "division": "La Liga",
+   "pj": 44,
+   "v": 27,
+   "e": 12,
+   "d": 5,
+   "gf": 84,
+   "gc": 37,
+   "puntos": 66,
+   "puesto": 1,
+   "copa": "SF",
+   "europa": "European Cup",
+   "europa_ronda": "SF",
+   "goleador": "Sánchez",
+   "goles_goleador": 34
+  },
+  {
+   "temporada": "1987–88",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 28,
+   "e": 6,
+   "d": 4,
+   "gf": 95,
+   "gc": 26,
+   "puntos": 62,
+   "puesto": 1,
+   "copa": "SF",
+   "europa": "European Cup",
+   "europa_ronda": "SF",
+   "goleador": "Sánchez",
+   "goles_goleador": 29
+  },
+  {
+   "temporada": "1988–89",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 25,
+   "e": 12,
+   "d": 1,
+   "gf": 91,
+   "gc": 37,
+   "puntos": 62,
+   "puesto": 1,
+   "copa": "W",
+   "europa": "European Cup",
+   "europa_ronda": "SF",
+   "goleador": "Sánchez",
+   "goles_goleador": 27
+  },
+  {
+   "temporada": "1989–90",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 26,
+   "e": 10,
+   "d": 2,
+   "gf": 107,
+   "gc": 38,
+   "puntos": 62,
+   "puesto": 1,
+   "copa": "RU",
+   "europa": "European Cup",
+   "europa_ronda": "R16",
+   "goleador": "Sánchez",
+   "goles_goleador": 38
+  },
+  {
+   "temporada": "1990–91",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 20,
+   "e": 6,
+   "d": 12,
+   "gf": 63,
+   "gc": 37,
+   "puntos": 46,
+   "puesto": 3,
+   "copa": "R16",
+   "europa": "European Cup",
+   "europa_ronda": "QF",
+   "goleador": "Butragueño",
+   "goles_goleador": 19
+  },
+  {
+   "temporada": "1991–92",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 23,
+   "e": 8,
+   "d": 7,
+   "gf": 78,
+   "gc": 32,
+   "puntos": 54,
+   "puesto": 2,
+   "copa": "RU",
+   "europa": "UEFA Cup",
+   "europa_ronda": "SF",
+   "goleador": "Hierro",
+   "goles_goleador": 21
+  },
+  {
+   "temporada": "1992–93",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 24,
+   "e": 9,
+   "d": 5,
+   "gf": 75,
+   "gc": 28,
+   "puntos": 57,
+   "puesto": 2,
+   "copa": "W",
+   "europa": "UEFA Cup",
+   "europa_ronda": "QF",
+   "goleador": "Zamorano",
+   "goles_goleador": 26
+  },
+  {
+   "temporada": "1993–94",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 19,
+   "e": 7,
+   "d": 12,
+   "gf": 61,
+   "gc": 50,
+   "puntos": 45,
+   "puesto": 4,
+   "copa": "QF",
+   "europa": "Cup Winners' Cup",
+   "europa_ronda": "QF",
+   "goleador": "Zamorano",
+   "goles_goleador": 26
+  },
+  {
+   "temporada": "1994–95",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 23,
+   "e": 9,
+   "d": 6,
+   "gf": 76,
+   "gc": 29,
+   "puntos": 55,
+   "puesto": 1,
+   "copa": "R16",
+   "europa": "UEFA Cup",
+   "europa_ronda": "R16",
+   "goleador": "Zamorano",
+   "goles_goleador": 28
+  },
+  {
+   "temporada": "1995–96",
+   "division": "La Liga",
+   "pj": 42,
+   "v": 20,
+   "e": 10,
+   "d": 12,
+   "gf": 75,
+   "gc": 51,
+   "puntos": 70,
+   "puesto": 6,
+   "copa": "R16",
+   "europa": "Champions League",
+   "europa_ronda": "QF",
+   "goleador": "Raúl",
+   "goles_goleador": 19
+  },
+  {
+   "temporada": "1996–97",
+   "division": "La Liga",
+   "pj": 42,
+   "v": 27,
+   "e": 11,
+   "d": 4,
+   "gf": 85,
+   "gc": 36,
+   "puntos": 92,
+   "puesto": 1,
+   "copa": "R16",
+   "europa": "—",
+   "europa_ronda": "—",
+   "goleador": "Suker",
+   "goles_goleador": 24
+  },
+  {
+   "temporada": "1997–98",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 17,
+   "e": 12,
+   "d": 9,
+   "gf": 63,
+   "gc": 45,
+   "puntos": 63,
+   "puesto": 4,
+   "copa": "R16",
+   "europa": "Champions League",
+   "europa_ronda": "W",
+   "goleador": "Morientes",
+   "goles_goleador": 12
+  },
+  {
+   "temporada": "1998–99",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 21,
+   "e": 5,
+   "d": 12,
+   "gf": 77,
+   "gc": 62,
+   "puntos": 68,
+   "puesto": 2,
+   "copa": "SF",
+   "europa": "Champions League",
+   "europa_ronda": "QF",
+   "goleador": "Raúl",
+   "goles_goleador": 25
+  },
+  {
+   "temporada": "1999–2000",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 16,
+   "e": 14,
+   "d": 8,
+   "gf": 58,
+   "gc": 48,
+   "puntos": 62,
+   "puesto": 5,
+   "copa": "SF",
+   "europa": "Champions League",
+   "europa_ronda": "W",
+   "goleador": "Raúl",
+   "goles_goleador": 17
+  },
+  {
+   "temporada": "2000–01",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 24,
+   "e": 8,
+   "d": 6,
+   "gf": 81,
+   "gc": 40,
+   "puntos": 80,
+   "puesto": 1,
+   "copa": "R64",
+   "europa": "Champions League",
+   "europa_ronda": "SF",
+   "goleador": "Raúl",
+   "goles_goleador": 24
+  },
+  {
+   "temporada": "2001–02",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 19,
+   "e": 9,
+   "d": 10,
+   "gf": 69,
+   "gc": 44,
+   "puntos": 66,
+   "puesto": 3,
+   "copa": "RU",
+   "europa": "Champions League",
+   "europa_ronda": "W",
+   "goleador": "Morientes",
+   "goles_goleador": 18
+  },
+  {
+   "temporada": "2002–03",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 22,
+   "e": 12,
+   "d": 4,
+   "gf": 86,
+   "gc": 42,
+   "puntos": 78,
+   "puesto": 1,
+   "copa": "QF",
+   "europa": "Champions League",
+   "europa_ronda": "SF",
+   "goleador": "Ronaldo",
+   "goles_goleador": 23
+  },
+  {
+   "temporada": "2003–04",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 21,
+   "e": 7,
+   "d": 10,
+   "gf": 72,
+   "gc": 54,
+   "puntos": 70,
+   "puesto": 4,
+   "copa": "RU",
+   "europa": "Champions League",
+   "europa_ronda": "QF",
+   "goleador": "Ronaldo",
+   "goles_goleador": 24
+  },
+  {
+   "temporada": "2004–05",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 25,
+   "e": 5,
+   "d": 8,
+   "gf": 71,
+   "gc": 32,
+   "puntos": 80,
+   "puesto": 2,
+   "copa": "R16",
+   "europa": "Champions League",
+   "europa_ronda": "R16",
+   "goleador": "Ronaldo",
+   "goles_goleador": 21
+  },
+  {
+   "temporada": "2005–06",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 20,
+   "e": 10,
+   "d": 8,
+   "gf": 70,
+   "gc": 40,
+   "puntos": 70,
+   "puesto": 2,
+   "copa": "SF",
+   "europa": "Champions League",
+   "europa_ronda": "R16",
+   "goleador": "Ronaldo",
+   "goles_goleador": 14
+  },
+  {
+   "temporada": "2006–07",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 23,
+   "e": 7,
+   "d": 8,
+   "gf": 66,
+   "gc": 40,
+   "puntos": 76,
+   "puesto": 1,
+   "copa": "R16",
+   "europa": "Champions League",
+   "europa_ronda": "R16",
+   "goleador": "Van Nistelrooy",
+   "goles_goleador": 25
+  },
+  {
+   "temporada": "2007–08",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 27,
+   "e": 4,
+   "d": 7,
+   "gf": 84,
+   "gc": 36,
+   "puntos": 85,
+   "puesto": 1,
+   "copa": "R16",
+   "europa": "Champions League",
+   "europa_ronda": "R16",
+   "goleador": "Raúl",
+   "goles_goleador": 18
+  },
+  {
+   "temporada": "2008–09",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 25,
+   "e": 3,
+   "d": 10,
+   "gf": 83,
+   "gc": 52,
+   "puntos": 78,
+   "puesto": 2,
+   "copa": "R32",
+   "europa": "Champions League",
+   "europa_ronda": "R16",
+   "goleador": "Higuaín",
+   "goles_goleador": 22
+  },
+  {
+   "temporada": "2009–10",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 31,
+   "e": 3,
+   "d": 4,
+   "gf": 102,
+   "gc": 35,
+   "puntos": 96,
+   "puesto": 2,
+   "copa": "R32",
+   "europa": "Champions League",
+   "europa_ronda": "R16",
+   "goleador": "Higuaín",
+   "goles_goleador": 27
+  },
+  {
+   "temporada": "2010–11",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 29,
+   "e": 5,
+   "d": 4,
+   "gf": 102,
+   "gc": 33,
+   "puntos": 92,
+   "puesto": 2,
+   "copa": "W",
+   "europa": "Champions League",
+   "europa_ronda": "SF",
+   "goleador": "Cristiano Ronaldo",
+   "goles_goleador": 40
+  },
+  {
+   "temporada": "2011–12",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 32,
+   "e": 4,
+   "d": 2,
+   "gf": 121,
+   "gc": 32,
+   "puntos": 100,
+   "puesto": 1,
+   "copa": "QF",
+   "europa": "Champions League",
+   "europa_ronda": "SF",
+   "goleador": "Cristiano Ronaldo",
+   "goles_goleador": 46
+  },
+  {
+   "temporada": "2012–13",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 26,
+   "e": 7,
+   "d": 5,
+   "gf": 103,
+   "gc": 42,
+   "puntos": 85,
+   "puesto": 2,
+   "copa": "RU",
+   "europa": "Champions League",
+   "europa_ronda": "SF",
+   "goleador": "Cristiano Ronaldo",
+   "goles_goleador": 34
+  },
+  {
+   "temporada": "2013–14",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 27,
+   "e": 6,
+   "d": 5,
+   "gf": 104,
+   "gc": 38,
+   "puntos": 87,
+   "puesto": 3,
+   "copa": "W",
+   "europa": "Champions League",
+   "europa_ronda": "W",
+   "goleador": "Cristiano Ronaldo",
+   "goles_goleador": 31
+  },
+  {
+   "temporada": "2014–15",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 30,
+   "e": 2,
+   "d": 6,
+   "gf": 118,
+   "gc": 38,
+   "puntos": 92,
+   "puesto": 2,
+   "copa": "R16",
+   "europa": "Champions League",
+   "europa_ronda": "SF",
+   "goleador": "Cristiano Ronaldo",
+   "goles_goleador": 48
+  },
+  {
+   "temporada": "2015–16",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 28,
+   "e": 6,
+   "d": 4,
+   "gf": 110,
+   "gc": 34,
+   "puntos": 90,
+   "puesto": 2,
+   "copa": "R32",
+   "europa": "Champions League",
+   "europa_ronda": "W",
+   "goleador": "Cristiano Ronaldo",
+   "goles_goleador": 35
+  },
+  {
+   "temporada": "2016–17",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 29,
+   "e": 6,
+   "d": 3,
+   "gf": 106,
+   "gc": 41,
+   "puntos": 93,
+   "puesto": 1,
+   "copa": "QF",
+   "europa": "Champions League",
+   "europa_ronda": "W",
+   "goleador": "Cristiano Ronaldo",
+   "goles_goleador": 25
+  },
+  {
+   "temporada": "2017–18",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 22,
+   "e": 10,
+   "d": 6,
+   "gf": 94,
+   "gc": 44,
+   "puntos": 76,
+   "puesto": 3,
+   "copa": "QF",
+   "europa": "Champions League",
+   "europa_ronda": "W",
+   "goleador": "Cristiano Ronaldo",
+   "goles_goleador": 26
+  },
+  {
+   "temporada": "2018–19",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 21,
+   "e": 5,
+   "d": 12,
+   "gf": 63,
+   "gc": 46,
+   "puntos": 68,
+   "puesto": 3,
+   "copa": "SF",
+   "europa": "Champions League",
+   "europa_ronda": "R16",
+   "goleador": "Benzema",
+   "goles_goleador": 21
+  },
+  {
+   "temporada": "2019–20",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 26,
+   "e": 9,
+   "d": 3,
+   "gf": 70,
+   "gc": 25,
+   "puntos": 87,
+   "puesto": 1,
+   "copa": "QF",
+   "europa": "Champions League",
+   "europa_ronda": "R16",
+   "goleador": "Benzema",
+   "goles_goleador": 21
+  },
+  {
+   "temporada": "2020–21",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 25,
+   "e": 9,
+   "d": 4,
+   "gf": 67,
+   "gc": 28,
+   "puntos": 84,
+   "puesto": 2,
+   "copa": "R32",
+   "europa": "Champions League",
+   "europa_ronda": "SF",
+   "goleador": "Benzema",
+   "goles_goleador": 23
+  },
+  {
+   "temporada": "2021–22",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 26,
+   "e": 8,
+   "d": 4,
+   "gf": 80,
+   "gc": 31,
+   "puntos": 86,
+   "puesto": 1,
+   "copa": "QF",
+   "europa": "Champions League",
+   "europa_ronda": "W",
+   "goleador": "Benzema",
+   "goles_goleador": 27
+  },
+  {
+   "temporada": "2022–23",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 24,
+   "e": 6,
+   "d": 8,
+   "gf": 75,
+   "gc": 36,
+   "puntos": 78,
+   "puesto": 2,
+   "copa": "W",
+   "europa": "Champions League",
+   "europa_ronda": "SF",
+   "goleador": "Benzema",
+   "goles_goleador": 19
+  },
+  {
+   "temporada": "2023–24",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 29,
+   "e": 8,
+   "d": 1,
+   "gf": 87,
+   "gc": 26,
+   "puntos": 95,
+   "puesto": 1,
+   "copa": "R16",
+   "europa": "Champions League",
+   "europa_ronda": "W",
+   "goleador": "Bellingham",
+   "goles_goleador": 19
+  },
+  {
+   "temporada": "2024–25",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 26,
+   "e": 6,
+   "d": 6,
+   "gf": 78,
+   "gc": 38,
+   "puntos": 84,
+   "puesto": 2,
+   "copa": "RU",
+   "europa": "Champions League",
+   "europa_ronda": "QF",
+   "goleador": "Mbappé",
+   "goles_goleador": 31
+  },
+  {
+   "temporada": "2025–26",
+   "division": "La Liga",
+   "pj": 38,
+   "v": 27,
+   "e": 5,
+   "d": 6,
+   "gf": 77,
+   "gc": 35,
+   "puntos": 86,
+   "puesto": 2,
+   "copa": "R16",
+   "europa": "Champions League",
+   "europa_ronda": "QF",
+   "goleador": "Mbappé",
+   "goles_goleador": 25
+  },
+  {
+   "temporada": "2026–27",
+   "division": "La Liga",
+   "pj": 0,
+   "v": 0,
+   "e": 0,
+   "d": 0,
+   "gf": 0,
+   "gc": 0,
+   "puntos": 0,
+   "puesto": null,
+   "copa": "TBD",
+   "europa": "Champions League",
+   "europa_ronda": "TBD",
+   "goleador": "TBD",
+   "goles_goleador": null
+  }
+ ],
+ "europa": [
+  {
+   "temporada": "1955–56",
+   "ronda": "First round",
+   "rival": "Servette",
+   "marcador": "2–0 (A), 5–0 (H)"
+  },
+  {
+   "temporada": "1955–56",
+   "ronda": "Quarter-final",
+   "rival": "Partizan",
+   "marcador": "4–0 (H), 0–3 (A)"
+  },
+  {
+   "temporada": "1955–56",
+   "ronda": "Semi-final",
+   "rival": "Milan",
+   "marcador": "4–2 (H), 1–2 (A)"
+  },
+  {
+   "temporada": "1955–56",
+   "ronda": "Final",
+   "rival": "Reims",
+   "marcador": "4–3 (N)"
+  },
+  {
+   "temporada": "1956–57",
+   "ronda": "First round",
+   "rival": "Rapid Wien",
+   "marcador": "4–2 (H), 1–3 (A), 2–0 (H)"
+  },
+  {
+   "temporada": "1956–57",
+   "ronda": "Quarter-final",
+   "rival": "Nice",
+   "marcador": "3–0 (H), 3–2 (A)"
+  },
+  {
+   "temporada": "1956–57",
+   "ronda": "Semi-final",
+   "rival": "Manchester United",
+   "marcador": "3–1 (H), 2–2 (A)"
+  },
+  {
+   "temporada": "1956–57",
+   "ronda": "Final",
+   "rival": "Fiorentina",
+   "marcador": "2–0 (H)"
+  },
+  {
+   "temporada": "1957–58",
+   "ronda": "First round",
+   "rival": "Antwerp",
+   "marcador": "2–1 (A), 6–0 (H)"
+  },
+  {
+   "temporada": "1957–58",
+   "ronda": "Quarter-final",
+   "rival": "Sevilla",
+   "marcador": "8–0 (H), 2–2 (A)"
+  },
+  {
+   "temporada": "1957–58",
+   "ronda": "Semi-final",
+   "rival": "Vasas",
+   "marcador": "4–0 (H), 0–2 (A)"
+  },
+  {
+   "temporada": "1957–58",
+   "ronda": "Final",
+   "rival": "Milan",
+   "marcador": "3–2 (N) (a.e.t.)"
+  },
+  {
+   "temporada": "1958–59",
+   "ronda": "First round",
+   "rival": "Beşiktaş",
+   "marcador": "2–0 (H), 1–1 (A)"
+  },
+  {
+   "temporada": "1958–59",
+   "ronda": "Quarter-final",
+   "rival": "Wiener Sportclub",
+   "marcador": "0–0 (A), 7–1 (H)"
+  },
+  {
+   "temporada": "1958–59",
+   "ronda": "Semi-final",
+   "rival": "Atlético Madrid",
+   "marcador": "2–1 (H), 0–1 (A), 2–1 (N)"
+  },
+  {
+   "temporada": "1958–59",
+   "ronda": "Final",
+   "rival": "Reims",
+   "marcador": "2–0 (N)"
+  },
+  {
+   "temporada": "1959–60",
+   "ronda": "First round",
+   "rival": "Jeunesse Esch",
+   "marcador": "7–0 (H), 5–2 (A)"
+  },
+  {
+   "temporada": "1959–60",
+   "ronda": "Quarter-final",
+   "rival": "Nice",
+   "marcador": "2–3 (A), 4–0 (H)"
+  },
+  {
+   "temporada": "1959–60",
+   "ronda": "Semi-final",
+   "rival": "Barcelona",
+   "marcador": "3–1 (H), 3–1 (A)"
+  },
+  {
+   "temporada": "1959–60",
+   "ronda": "Final",
+   "rival": "Eintracht Frankfurt",
+   "marcador": "7–3 (N)"
+  },
+  {
+   "temporada": "1960–61",
+   "ronda": "First round",
+   "rival": "Barcelona",
+   "marcador": "2–2 (H), 1–2 (A)"
+  },
+  {
+   "temporada": "1961–62",
+   "ronda": "Preliminary round",
+   "rival": "Vasas",
+   "marcador": "2–0 (A), 3–1 (H)"
+  },
+  {
+   "temporada": "1961–62",
+   "ronda": "First round",
+   "rival": "Boldklubben 1913",
+   "marcador": "3–0 (A), 9–0 (H)"
+  },
+  {
+   "temporada": "1961–62",
+   "ronda": "Quarter-final",
+   "rival": "Juventus",
+   "marcador": "1–0 (A), 0–1 (H), 3–1 (N)"
+  },
+  {
+   "temporada": "1961–62",
+   "ronda": "Semi-final",
+   "rival": "Standard Liège",
+   "marcador": "4–0 (H), 2–0 (A)"
+  },
+  {
+   "temporada": "1961–62",
+   "ronda": "Final",
+   "rival": "Benfica",
+   "marcador": "3–5 (N)"
+  },
+  {
+   "temporada": "1962–63",
+   "ronda": "Preliminary round",
+   "rival": "Anderlecht",
+   "marcador": "3–3 (H), 0–1 (A)"
+  },
+  {
+   "temporada": "1963–64",
+   "ronda": "Preliminary round",
+   "rival": "Rangers",
+   "marcador": "1–0 (A), 6–0 (H)"
+  },
+  {
+   "temporada": "1963–64",
+   "ronda": "First round",
+   "rival": "Dinamo București",
+   "marcador": "3–1 (A), 5–3 (H)"
+  },
+  {
+   "temporada": "1963–64",
+   "ronda": "Quarter-final",
+   "rival": "Milan",
+   "marcador": "4–1 (H), 0–2 (A)"
+  },
+  {
+   "temporada": "1963–64",
+   "ronda": "Semi-final",
+   "rival": "Zürich",
+   "marcador": "2–1 (A), 6–0 (H)"
+  },
+  {
+   "temporada": "1963–64",
+   "ronda": "Final",
+   "rival": "Internazionale",
+   "marcador": "1–3 (N)"
+  },
+  {
+   "temporada": "1964–65",
+   "ronda": "Preliminary round",
+   "rival": "Boldklubben 1909",
+   "marcador": "5–2 (A), 4–0 (H)"
+  },
+  {
+   "temporada": "1964–65",
+   "ronda": "First round",
+   "rival": "Dukla Prague",
+   "marcador": "4–0 (H), 2–2 (A)"
+  },
+  {
+   "temporada": "1964–65",
+   "ronda": "Quarter-final",
+   "rival": "Benfica",
+   "marcador": "1–5 (A), 2–1 (H)"
+  },
+  {
+   "temporada": "1965–66",
+   "ronda": "Preliminary round",
+   "rival": "Feyenoord",
+   "marcador": "1–2 (A), 5–0 (H)"
+  },
+  {
+   "temporada": "1965–66",
+   "ronda": "First round",
+   "rival": "Kilmarnock",
+   "marcador": "2–2 (A), 5–1 (H)"
+  },
+  {
+   "temporada": "1965–66",
+   "ronda": "Quarter-final",
+   "rival": "Anderlecht",
+   "marcador": "0–1 (A), 4–2 (H)"
+  },
+  {
+   "temporada": "1965–66",
+   "ronda": "Semi-final",
+   "rival": "Internazionale",
+   "marcador": "1–0 (H), 1–1 (A)"
+  },
+  {
+   "temporada": "1965–66",
+   "ronda": "Final",
+   "rival": "Partizan",
+   "marcador": "2–1 (N)"
+  },
+  {
+   "temporada": "1966–67",
+   "ronda": "Second round",
+   "rival": "1860 Munich",
+   "marcador": "0–1 (A), 3–1 (H)"
+  },
+  {
+   "temporada": "1966–67",
+   "ronda": "Quarter-final",
+   "rival": "Internazionale",
+   "marcador": "0–1 (A), 0–2 (H)"
+  },
+  {
+   "temporada": "1967–68",
+   "ronda": "First round",
+   "rival": "Ajax",
+   "marcador": "1–1 (A), 2–1 (H) (a.e.t.)"
+  },
+  {
+   "temporada": "1967–68",
+   "ronda": "Second round",
+   "rival": "Hvidovre",
+   "marcador": "2–2 (A), 4–1 (H)"
+  },
+  {
+   "temporada": "1967–68",
+   "ronda": "Quarter-final",
+   "rival": "Sparta Prague",
+   "marcador": "3–0 (H), 1–2 (A)"
+  },
+  {
+   "temporada": "1967–68",
+   "ronda": "Semi-final",
+   "rival": "Manchester United",
+   "marcador": "0–1 (A), 3–3 (H)"
+  },
+  {
+   "temporada": "1968–69",
+   "ronda": "First round",
+   "rival": "AEL",
+   "marcador": "6–0 (H), 6–0 (A)"
+  },
+  {
+   "temporada": "1968–69",
+   "ronda": "Second round",
+   "rival": "Rapid Wien",
+   "marcador": "0–1 (A), 2–1 (H) (a)"
+  },
+  {
+   "temporada": "1969–70",
+   "ronda": "First round",
+   "rival": "Olympiakos Nicosia",
+   "marcador": "8–0 (A), 6–1 (H)"
+  },
+  {
+   "temporada": "1969–70",
+   "ronda": "Second round",
+   "rival": "Standard Liège",
+   "marcador": "0–1 (A), 2–3 (H)"
+  },
+  {
+   "temporada": "1972–73",
+   "ronda": "First round",
+   "rival": "Keflavík",
+   "marcador": "3–0 (H), 1–0 (A)"
+  },
+  {
+   "temporada": "1972–73",
+   "ronda": "Second round",
+   "rival": "Argeş Piteşti",
+   "marcador": "1–2 (A), 3–1 (H)"
+  },
+  {
+   "temporada": "1972–73",
+   "ronda": "Quarter-final",
+   "rival": "Dynamo Kyiv",
+   "marcador": "0–0 (A), 3–0 (H)"
+  },
+  {
+   "temporada": "1972–73",
+   "ronda": "Semi-final",
+   "rival": "Ajax",
+   "marcador": "1–2 (A), 0–1 (H)"
+  },
+  {
+   "temporada": "1975–76",
+   "ronda": "First round",
+   "rival": "Dinamo București",
+   "marcador": "4–1 (H), 0–1 (A)"
+  },
+  {
+   "temporada": "1975–76",
+   "ronda": "Second round",
+   "rival": "Derby County",
+   "marcador": "1–4 (A), 5–1 (H) (a.e.t.)"
+  },
+  {
+   "temporada": "1975–76",
+   "ronda": "Quarter-final",
+   "rival": "Borussia Mönchengladbach",
+   "marcador": "2–2 (A), 1–1 (H) (a)"
+  },
+  {
+   "temporada": "1975–76",
+   "ronda": "Semi-final",
+   "rival": "Bayern Munich",
+   "marcador": "1–1 (H), 0–2 (A)"
+  },
+  {
+   "temporada": "1976–77",
+   "ronda": "First round",
+   "rival": "Stal Mielec",
+   "marcador": "2–1 (A), 1–0 (H)"
+  },
+  {
+   "temporada": "1976–77",
+   "ronda": "Second round",
+   "rival": "Club Brugge",
+   "marcador": "0–0 (H), 0–2 (A)"
+  },
+  {
+   "temporada": "1978–79",
+   "ronda": "First round",
+   "rival": "Progrès Niedercorn",
+   "marcador": "5–0 (H), 7–0 (A)"
+  },
+  {
+   "temporada": "1978–79",
+   "ronda": "Second round",
+   "rival": "Grasshopper",
+   "marcador": "3–1 (H), 0–2 (A) (a)"
+  },
+  {
+   "temporada": "1979–80",
+   "ronda": "First round",
+   "rival": "Levski Sofia",
+   "marcador": "1–0 (A), 2–0 (H)"
+  },
+  {
+   "temporada": "1979–80",
+   "ronda": "Second round",
+   "rival": "Porto",
+   "marcador": "1–2 (A), 1–0 (H) (a)"
+  },
+  {
+   "temporada": "1979–80",
+   "ronda": "Quarter-final",
+   "rival": "Celtic",
+   "marcador": "0–2 (A), 3–0 (H)"
+  },
+  {
+   "temporada": "1979–80",
+   "ronda": "Semi-final",
+   "rival": "Hamburger SV",
+   "marcador": "2–0 (H), 1–5 (A)"
+  },
+  {
+   "temporada": "1980–81",
+   "ronda": "First round",
+   "rival": "Limerick",
+   "marcador": "2–1 (A), 5–1 (H)"
+  },
+  {
+   "temporada": "1980–81",
+   "ronda": "Second round",
+   "rival": "Budapest Honvéd",
+   "marcador": "1–0 (H), 2–0 (A)"
+  },
+  {
+   "temporada": "1980–81",
+   "ronda": "Quarter-final",
+   "rival": "Spartak Moscow",
+   "marcador": "0–0 (A), 2–0 (H)"
+  },
+  {
+   "temporada": "1980–81",
+   "ronda": "Semi-final",
+   "rival": "Internazionale",
+   "marcador": "2–0 (H), 0–1 (A)"
+  },
+  {
+   "temporada": "1980–81",
+   "ronda": "Final",
+   "rival": "Liverpool",
+   "marcador": "0–1 (N)"
+  },
+  {
+   "temporada": "1986–87",
+   "ronda": "First round",
+   "rival": "Young Boys",
+   "marcador": "0–1 (A), 5–0 (H)"
+  },
+  {
+   "temporada": "1986–87",
+   "ronda": "Second round",
+   "rival": "Juventus",
+   "marcador": "1–0 (H), 0–1 (A), (3–1 p)"
+  },
+  {
+   "temporada": "1986–87",
+   "ronda": "Quarter-final",
+   "rival": "Red Star Belgrade",
+   "marcador": "2–4 (A), 2–0 (H) (a)"
+  },
+  {
+   "temporada": "1986–87",
+   "ronda": "Semi-final",
+   "rival": "Bayern Munich",
+   "marcador": "1–4 (A), 1–0 (H)"
+  },
+  {
+   "temporada": "1987–88",
+   "ronda": "First round",
+   "rival": "Napoli",
+   "marcador": "2–0 (H), 1–1 (A)"
+  },
+  {
+   "temporada": "1987–88",
+   "ronda": "Second round",
+   "rival": "Porto",
+   "marcador": "2–1 (H), 2–1 (A)"
+  },
+  {
+   "temporada": "1987–88",
+   "ronda": "Quarter-final",
+   "rival": "Bayern Munich",
+   "marcador": "2–3 (A), 2–0 (H)"
+  },
+  {
+   "temporada": "1987–88",
+   "ronda": "Semi-final",
+   "rival": "PSV Eindhoven",
+   "marcador": "1–1 (H), 0–0 (A) (a)"
+  },
+  {
+   "temporada": "1988–89",
+   "ronda": "First round",
+   "rival": "Moss",
+   "marcador": "3–0 (H), 1–0 (A)"
+  },
+  {
+   "temporada": "1988–89",
+   "ronda": "Second round",
+   "rival": "Górnik Zabrze",
+   "marcador": "1–0 (A), 3–2 (H)"
+  },
+  {
+   "temporada": "1988–89",
+   "ronda": "Quarter-final",
+   "rival": "PSV Eindhoven",
+   "marcador": "1–1 (A), 2–1 (H) (a.e.t.)"
+  },
+  {
+   "temporada": "1988–89",
+   "ronda": "Semi-final",
+   "rival": "Milan",
+   "marcador": "1–1 (H), 0–5 (A)"
+  },
+  {
+   "temporada": "1989–90",
+   "ronda": "First round",
+   "rival": "Spora Luxembourg",
+   "marcador": "3–0 (A), 6–0 (H)"
+  },
+  {
+   "temporada": "1989–90",
+   "ronda": "Second round",
+   "rival": "Milan",
+   "marcador": "0–2 (A), 1–0 (H)"
+  },
+  {
+   "temporada": "1990–91",
+   "ronda": "First round",
+   "rival": "Odense BK",
+   "marcador": "4–1 (A), 6–0 (H)"
+  },
+  {
+   "temporada": "1990–91",
+   "ronda": "Second round",
+   "rival": "Swarovski Tirol",
+   "marcador": "9–1 (H), 2–2 (A)"
+  },
+  {
+   "temporada": "1990–91",
+   "ronda": "Quarter-final",
+   "rival": "Spartak Moscow",
+   "marcador": "0–0 (A), 1–3 (H)"
+  },
+  {
+   "temporada": "1995–96",
+   "ronda": "Group D",
+   "rival": "Ajax",
+   "marcador": "0–1 (A), 0–2 (H)"
+  },
+  {
+   "temporada": "1995–96",
+   "ronda": "Group D",
+   "rival": "Ferencváros",
+   "marcador": "6–1 (H), 1–1 (A)"
+  },
+  {
+   "temporada": "1995–96",
+   "ronda": "Group D",
+   "rival": "Grasshopper",
+   "marcador": "2–0 (H), 2–0 (A)"
+  },
+  {
+   "temporada": "1995–96",
+   "ronda": "Quarter-final",
+   "rival": "Juventus",
+   "marcador": "1–0 (H), 0–2 (A)"
+  },
+  {
+   "temporada": "1997–98",
+   "ronda": "Group D",
+   "rival": "Rosenborg",
+   "marcador": "4–1 (H), 0–2 (A)"
+  },
+  {
+   "temporada": "1997–98",
+   "ronda": "Group D",
+   "rival": "Olympiacos",
+   "marcador": "5–1 (H), 0–0 (A)"
+  },
+  {
+   "temporada": "1997–98",
+   "ronda": "Group D",
+   "rival": "Porto",
+   "marcador": "2–0 (A), 4–0 (H)"
+  },
+  {
+   "temporada": "1997–98",
+   "ronda": "Quarter-final",
+   "rival": "Bayer Leverkusen",
+   "marcador": "1–1 (A), 3–0 (H)"
+  },
+  {
+   "temporada": "1997–98",
+   "ronda": "Semi-final",
+   "rival": "Borussia Dortmund",
+   "marcador": "2–0 (H), 0–0 (A)"
+  },
+  {
+   "temporada": "1997–98",
+   "ronda": "Final",
+   "rival": "Juventus",
+   "marcador": "1–0 (N)"
+  },
+  {
+   "temporada": "1998–99",
+   "ronda": "Group C",
+   "rival": "Internazionale",
+   "marcador": "2–0 (H), 1–3 (A)"
+  },
+  {
+   "temporada": "1998–99",
+   "ronda": "Group C",
+   "rival": "Spartak Moscow",
+   "marcador": "1–2 (A), 2–1 (H)"
+  },
+  {
+   "temporada": "1998–99",
+   "ronda": "Group C",
+   "rival": "Sturm Graz",
+   "marcador": "6–1 (H), 5–1 (A)"
+  },
+  {
+   "temporada": "1998–99",
+   "ronda": "Quarter-final",
+   "rival": "Dynamo Kyiv",
+   "marcador": "1–1 (H), 0–2 (A)"
+  },
+  {
+   "temporada": "1999–2000",
+   "ronda": "First group stage Group E",
+   "rival": "Molde",
+   "marcador": "4–1 (H), 1–0 (A)"
+  },
+  {
+   "temporada": "1999–2000",
+   "ronda": "First group stage Group E",
+   "rival": "Olympiacos",
+   "marcador": "3–3 (A), 3–0 (H)"
+  },
+  {
+   "temporada": "1999–2000",
+   "ronda": "First group stage Group E",
+   "rival": "Porto",
+   "marcador": "3–1 (H), 1–2 (A)"
+  },
+  {
+   "temporada": "1999–2000",
+   "ronda": "Second group stage Group C",
+   "rival": "Bayern Munich",
+   "marcador": "2–4 (H), 1–4 (A)"
+  },
+  {
+   "temporada": "1999–2000",
+   "ronda": "Second group stage Group C",
+   "rival": "Dynamo Kyiv",
+   "marcador": "2–1 (A), 2–2 (H)"
+  },
+  {
+   "temporada": "1999–2000",
+   "ronda": "Second group stage Group C",
+   "rival": "Rosenborg",
+   "marcador": "3–1 (H), 1–0 (A)"
+  },
+  {
+   "temporada": "1999–2000",
+   "ronda": "Quarter-final",
+   "rival": "Manchester United",
+   "marcador": "0–0 (H), 3–2 (A)"
+  },
+  {
+   "temporada": "1999–2000",
+   "ronda": "Semi-final",
+   "rival": "Bayern Munich",
+   "marcador": "2–0 (H), 1–2 (A)"
+  },
+  {
+   "temporada": "1999–2000",
+   "ronda": "Final",
+   "rival": "Valencia",
+   "marcador": "3–0 (N)"
+  },
+  {
+   "temporada": "2000–01",
+   "ronda": "First group stage Group A",
+   "rival": "Spartak Moscow",
+   "marcador": "1–0 (H), 0–1 (A)"
+  },
+  {
+   "temporada": "2000–01",
+   "ronda": "First group stage Group A",
+   "rival": "Bayer Leverkusen",
+   "marcador": "3–2 (A), 5–3 (H)"
+  },
+  {
+   "temporada": "2000–01",
+   "ronda": "First group stage Group A",
+   "rival": "Sporting CP",
+   "marcador": "2–2 (A), 4–0 (H)"
+  },
+  {
+   "temporada": "2000–01",
+   "ronda": "Second group stage Group D",
+   "rival": "Leeds United",
+   "marcador": "2–0 (A), 3–2 (H)"
+  },
+  {
+   "temporada": "2000–01",
+   "ronda": "Second group stage Group D",
+   "rival": "Anderlecht",
+   "marcador": "4–1 (H), 0–2 (A)"
+  },
+  {
+   "temporada": "2000–01",
+   "ronda": "Second group stage Group D",
+   "rival": "Lazio",
+   "marcador": "3–2 (H), 2–2 (A)"
+  },
+  {
+   "temporada": "2000–01",
+   "ronda": "Quarter-final",
+   "rival": "Galatasaray",
+   "marcador": "2–3 (A), 3–0 (H)"
+  },
+  {
+   "temporada": "2000–01",
+   "ronda": "Semi-final",
+   "rival": "Bayern Munich",
+   "marcador": "0–1 (H), 1–2 (A)"
+  },
+  {
+   "temporada": "2001–02",
+   "ronda": "First group stage Group A",
+   "rival": "Roma",
+   "marcador": "2–1 (A), 1–1 (H)"
+  },
+  {
+   "temporada": "2001–02",
+   "ronda": "First group stage Group A",
+   "rival": "Lokomotiv Moscow",
+   "marcador": "4–0 (H), 0–2 (A)"
+  },
+  {
+   "temporada": "2001–02",
+   "ronda": "First group stage Group A",
+   "rival": "Anderlecht",
+   "marcador": "4–1 (H), 2–0 (A)"
+  },
+  {
+   "temporada": "2001–02",
+   "ronda": "Second group stage Group C",
+   "rival": "Panathinaikos",
+   "marcador": "3–0 (H), 2–2 (A)"
+  },
+  {
+   "temporada": "2001–02",
+   "ronda": "Second group stage Group C",
+   "rival": "Sparta Prague",
+   "marcador": "3–2 (A), 3–0 (H)"
+  },
+  {
+   "temporada": "2001–02",
+   "ronda": "Second group stage Group C",
+   "rival": "Porto",
+   "marcador": "1–0 (H), 2–1 (A)"
+  },
+  {
+   "temporada": "2001–02",
+   "ronda": "Quarter-final",
+   "rival": "Bayern Munich",
+   "marcador": "1–2 (A), 2–0 (H)"
+  },
+  {
+   "temporada": "2001–02",
+   "ronda": "Semi-final",
+   "rival": "Barcelona",
+   "marcador": "2–0 (A), 1–1 (H)"
+  },
+  {
+   "temporada": "2001–02",
+   "ronda": "Final",
+   "rival": "Bayer Leverkusen",
+   "marcador": "2–1 (N)"
+  },
+  {
+   "temporada": "2002–03",
+   "ronda": "First group stage Group C",
+   "rival": "Roma",
+   "marcador": "3–0 (A), 0–1 (H)"
+  },
+  {
+   "temporada": "2002–03",
+   "ronda": "First group stage Group C",
+   "rival": "AEK Athens",
+   "marcador": "3–3 (A), 2–2 (H)"
+  },
+  {
+   "temporada": "2002–03",
+   "ronda": "First group stage Group C",
+   "rival": "Genk",
+   "marcador": "6–0 (H), 1–1 (A)"
+  },
+  {
+   "temporada": "2002–03",
+   "ronda": "Second group stage Group C",
+   "rival": "Milan",
+   "marcador": "0–1 (A), 3–1 (H)"
+  },
+  {
+   "temporada": "2002–03",
+   "ronda": "Second group stage Group C",
+   "rival": "Borussia Dortmund",
+   "marcador": "2–1 (H), 1–1 (A)"
+  },
+  {
+   "temporada": "2002–03",
+   "ronda": "Second group stage Group C",
+   "rival": "Lokomotiv Moscow",
+   "marcador": "2–2 (H), 1–0 (A)"
+  },
+  {
+   "temporada": "2002–03",
+   "ronda": "Quarter-final",
+   "rival": "Manchester United",
+   "marcador": "3–1 (H), 3–4 (A)"
+  },
+  {
+   "temporada": "2002–03",
+   "ronda": "Semi-final",
+   "rival": "Juventus",
+   "marcador": "2–1 (H), 1–3 (A)"
+  },
+  {
+   "temporada": "2003–04",
+   "ronda": "Group F",
+   "rival": "Porto",
+   "marcador": "3–1 (A), 1–1 (H)"
+  },
+  {
+   "temporada": "2003–04",
+   "ronda": "Group F",
+   "rival": "Marseille",
+   "marcador": "4–2 (H), 2–1 (A)"
+  },
+  {
+   "temporada": "2003–04",
+   "ronda": "Group F",
+   "rival": "Partizan",
+   "marcador": "1–0 (H), 0–0 (A)"
+  },
+  {
+   "temporada": "2003–04",
+   "ronda": "Round of 16",
+   "rival": "Bayern Munich",
+   "marcador": "1–1 (A), 1–0 (H)"
+  },
+  {
+   "temporada": "2003–04",
+   "ronda": "Quarter-final",
+   "rival": "Monaco",
+   "marcador": "4–2 (H), 1–3 (A) (a)"
+  },
+  {
+   "temporada": "2004–05",
+   "ronda": "Third qualifying round",
+   "rival": "Wisła Kraków",
+   "marcador": "2–0 (A), 3–1 (H)"
+  },
+  {
+   "temporada": "2004–05",
+   "ronda": "Group B",
+   "rival": "Bayer Leverkusen",
+   "marcador": "0–3 (A), 1–1 (H)"
+  },
+  {
+   "temporada": "2004–05",
+   "ronda": "Group B",
+   "rival": "Dynamo Kyiv",
+   "marcador": "1–0 (H), 2–2 (A)"
+  },
+  {
+   "temporada": "2004–05",
+   "ronda": "Group B",
+   "rival": "Roma",
+   "marcador": "4–2 (H), 3–0 (A)"
+  },
+  {
+   "temporada": "2004–05",
+   "ronda": "Round of 16",
+   "rival": "Juventus",
+   "marcador": "1–0 (H), 0–2 (A) (a.e.t.)"
+  },
+  {
+   "temporada": "2005–06",
+   "ronda": "Group F",
+   "rival": "Lyon",
+   "marcador": "0–3 (A), 1–1 (H)"
+  },
+  {
+   "temporada": "2005–06",
+   "ronda": "Group F",
+   "rival": "Rosenborg",
+   "marcador": "4–1 (H), 2–0 (A)"
+  },
+  {
+   "temporada": "2005–06",
+   "ronda": "Group F",
+   "rival": "Olympiacos",
+   "marcador": "2–1 (H), 1–2 (A)"
+  },
+  {
+   "temporada": "2005–06",
+   "ronda": "Round of 16",
+   "rival": "Arsenal",
+   "marcador": "0–1 (H), 0–0 (A)"
+  },
+  {
+   "temporada": "2006–07",
+   "ronda": "Group E",
+   "rival": "Lyon",
+   "marcador": "0–2 (A), 2–2 (H)"
+  },
+  {
+   "temporada": "2006–07",
+   "ronda": "Group E",
+   "rival": "Steaua București",
+   "marcador": "4–1 (A), 1–0 (H)"
+  },
+  {
+   "temporada": "2006–07",
+   "ronda": "Group E",
+   "rival": "Dynamo Kyiv",
+   "marcador": "5–1 (H), 2–2 (A)"
+  },
+  {
+   "temporada": "2006–07",
+   "ronda": "Round of 16",
+   "rival": "Bayern Munich",
+   "marcador": "3–2 (H), 1–2 (A) (a)"
+  },
+  {
+   "temporada": "2007–08",
+   "ronda": "Group C",
+   "rival": "Olympiacos",
+   "marcador": "4–2 (H), 0–0 (A)"
+  },
+  {
+   "temporada": "2007–08",
+   "ronda": "Group C",
+   "rival": "Werder Bremen",
+   "marcador": "2–1 (H), 2–3 (A)"
+  },
+  {
+   "temporada": "2007–08",
+   "ronda": "Group C",
+   "rival": "Lazio",
+   "marcador": "2–2 (A), 3–1 (H)"
+  },
+  {
+   "temporada": "2007–08",
+   "ronda": "Round of 16",
+   "rival": "Roma",
+   "marcador": "1–2 (A), 1–2 (H)"
+  },
+  {
+   "temporada": "2008–09",
+   "ronda": "Group H",
+   "rival": "BATE Borisov",
+   "marcador": "2–0 (H), 1–0 (A)"
+  },
+  {
+   "temporada": "2008–09",
+   "ronda": "Group H",
+   "rival": "Zenit Saint Petersburg",
+   "marcador": "2–1 (A), 3–0 (H)"
+  },
+  {
+   "temporada": "2008–09",
+   "ronda": "Group H",
+   "rival": "Juventus",
+   "marcador": "1–2 (A), 0–2 (H)"
+  },
+  {
+   "temporada": "2008–09",
+   "ronda": "Round of 16",
+   "rival": "Liverpool",
+   "marcador": "0–1 (H), 0–4 (A)"
+  },
+  {
+   "temporada": "2009–10",
+   "ronda": "Group C",
+   "rival": "Zürich",
+   "marcador": "5–2 (A), 1–0 (H)"
+  },
+  {
+   "temporada": "2009–10",
+   "ronda": "Group C",
+   "rival": "Marseille",
+   "marcador": "3–0 (H), 3–1 (A)"
+  },
+  {
+   "temporada": "2009–10",
+   "ronda": "Group C",
+   "rival": "Milan",
+   "marcador": "2–3 (H), 1–1 (A)"
+  },
+  {
+   "temporada": "2009–10",
+   "ronda": "Round of 16",
+   "rival": "Lyon",
+   "marcador": "0–1 (A), 1–1 (H)"
+  },
+  {
+   "temporada": "2010–11",
+   "ronda": "Group G",
+   "rival": "Milan",
+   "marcador": "2–0 (H), 2–2 (A)"
+  },
+  {
+   "temporada": "2010–11",
+   "ronda": "Group G",
+   "rival": "Ajax",
+   "marcador": "2–0 (H), 4–0 (A)"
+  },
+  {
+   "temporada": "2010–11",
+   "ronda": "Group G",
+   "rival": "Auxerre",
+   "marcador": "1–0 (A), 4–0 (H)"
+  },
+  {
+   "temporada": "2010–11",
+   "ronda": "Round of 16",
+   "rival": "Lyon",
+   "marcador": "1–1 (A), 3–0 (H)"
+  },
+  {
+   "temporada": "2010–11",
+   "ronda": "Quarter-final",
+   "rival": "Tottenham Hotspur",
+   "marcador": "4–0 (H), 1–0 (A)"
+  },
+  {
+   "temporada": "2010–11",
+   "ronda": "Semi-final",
+   "rival": "Barcelona",
+   "marcador": "0–2 (H), 1–1 (A)"
+  },
+  {
+   "temporada": "2011–12",
+   "ronda": "Group D",
+   "rival": "Dinamo Zagreb",
+   "marcador": "1–0 (A), 6–2 (H)"
+  },
+  {
+   "temporada": "2011–12",
+   "ronda": "Group D",
+   "rival": "Ajax",
+   "marcador": "3–0 (H), 3–0 (A)"
+  },
+  {
+   "temporada": "2011–12",
+   "ronda": "Group D",
+   "rival": "Lyon",
+   "marcador": "4–0 (H), 2–0 (A)"
+  },
+  {
+   "temporada": "2011–12",
+   "ronda": "Round of 16",
+   "rival": "CSKA Moscow",
+   "marcador": "1–1 (A), 4–1 (H)"
+  },
+  {
+   "temporada": "2011–12",
+   "ronda": "Quarter-final",
+   "rival": "APOEL",
+   "marcador": "3–0 (A), 5–2 (H)"
+  },
+  {
+   "temporada": "2011–12",
+   "ronda": "Semi-final",
+   "rival": "Bayern Munich",
+   "marcador": "1–2 (A), 2–1 (H), (1–3 p)"
+  },
+  {
+   "temporada": "2012–13",
+   "ronda": "Group D",
+   "rival": "Manchester City",
+   "marcador": "3–2 (H), 1–1 (A)"
+  },
+  {
+   "temporada": "2012–13",
+   "ronda": "Group D",
+   "rival": "Ajax",
+   "marcador": "4–1 (A), 4–1 (H)"
+  },
+  {
+   "temporada": "2012–13",
+   "ronda": "Group D",
+   "rival": "Borussia Dortmund",
+   "marcador": "1–2 (A), 2–2 (H)"
+  },
+  {
+   "temporada": "2012–13",
+   "ronda": "Round of 16",
+   "rival": "Manchester United",
+   "marcador": "1–1 (H), 2–1 (A)"
+  },
+  {
+   "temporada": "2012–13",
+   "ronda": "Quarter-final",
+   "rival": "Galatasaray",
+   "marcador": "3–0 (H), 2–3 (A)"
+  },
+  {
+   "temporada": "2012–13",
+   "ronda": "Semi-final",
+   "rival": "Borussia Dortmund",
+   "marcador": "1–4 (A), 2–0 (H)"
+  },
+  {
+   "temporada": "2013–14",
+   "ronda": "Group B",
+   "rival": "Galatasaray",
+   "marcador": "6–1 (A), 4–1 (H)"
+  },
+  {
+   "temporada": "2013–14",
+   "ronda": "Group B",
+   "rival": "Copenhagen",
+   "marcador": "4–0 (H), 2–0 (A)"
+  },
+  {
+   "temporada": "2013–14",
+   "ronda": "Group B",
+   "rival": "Juventus",
+   "marcador": "2–1 (H), 2–2 (A)"
+  },
+  {
+   "temporada": "2013–14",
+   "ronda": "Round of 16",
+   "rival": "Schalke 04",
+   "marcador": "6–1 (A), 3–1 (H)"
+  },
+  {
+   "temporada": "2013–14",
+   "ronda": "Quarter-final",
+   "rival": "Borussia Dortmund",
+   "marcador": "3–0 (H), 0–2 (A)"
+  },
+  {
+   "temporada": "2013–14",
+   "ronda": "Semi-final",
+   "rival": "Bayern Munich",
+   "marcador": "1–0 (H), 4–0 (A)"
+  },
+  {
+   "temporada": "2013–14",
+   "ronda": "Final",
+   "rival": "Atlético Madrid",
+   "marcador": "4–1 (N) (a.e.t.)"
+  },
+  {
+   "temporada": "2014–15",
+   "ronda": "Group B",
+   "rival": "Basel",
+   "marcador": "5–1 (H), 1–0 (A)"
+  },
+  {
+   "temporada": "2014–15",
+   "ronda": "Group B",
+   "rival": "Ludogorets Razgrad",
+   "marcador": "2–1 (A), 4–0 (H)"
+  },
+  {
+   "temporada": "2014–15",
+   "ronda": "Group B",
+   "rival": "Liverpool",
+   "marcador": "3–0 (A), 1–0 (H)"
+  },
+  {
+   "temporada": "2014–15",
+   "ronda": "Round of 16",
+   "rival": "Schalke 04",
+   "marcador": "2–0 (A), 3–4 (H)"
+  },
+  {
+   "temporada": "2014–15",
+   "ronda": "Quarter-final",
+   "rival": "Atlético Madrid",
+   "marcador": "0–0 (A), 1–0 (H)"
+  },
+  {
+   "temporada": "2014–15",
+   "ronda": "Semi-final",
+   "rival": "Juventus",
+   "marcador": "1–2 (A), 1–1 (H)"
+  },
+  {
+   "temporada": "2015–16",
+   "ronda": "Group A",
+   "rival": "Shakhtar Donetsk",
+   "marcador": "4–0 (H), 4–3 (A)"
+  },
+  {
+   "temporada": "2015–16",
+   "ronda": "Group A",
+   "rival": "Malmö FF",
+   "marcador": "2–0 (A), 8–0 (H)"
+  },
+  {
+   "temporada": "2015–16",
+   "ronda": "Group A",
+   "rival": "Paris Saint-Germain",
+   "marcador": "0–0 (A), 1–0 (H)"
+  },
+  {
+   "temporada": "2015–16",
+   "ronda": "Round of 16",
+   "rival": "Roma",
+   "marcador": "2–0 (A), 2–0 (H)"
+  },
+  {
+   "temporada": "2015–16",
+   "ronda": "Quarter-final",
+   "rival": "VfL Wolfsburg",
+   "marcador": "0–2 (A), 3–0 (H)"
+  },
+  {
+   "temporada": "2015–16",
+   "ronda": "Semi-final",
+   "rival": "Manchester City",
+   "marcador": "0–0 (A), 1–0 (H)"
+  },
+  {
+   "temporada": "2015–16",
+   "ronda": "Final",
+   "rival": "Atlético Madrid",
+   "marcador": "1–1 (N), (5–3 p)"
+  },
+  {
+   "temporada": "2016–17",
+   "ronda": "Group F",
+   "rival": "Sporting CP",
+   "marcador": "2–1 (H), 2–1 (A)"
+  },
+  {
+   "temporada": "2016–17",
+   "ronda": "Group F",
+   "rival": "Borussia Dortmund",
+   "marcador": "2–2 (A), 2–2 (H)"
+  },
+  {
+   "temporada": "2016–17",
+   "ronda": "Group F",
+   "rival": "Legia Warsaw",
+   "marcador": "5–1 (H), 3–3 (A)"
+  },
+  {
+   "temporada": "2016–17",
+   "ronda": "Round of 16",
+   "rival": "Napoli",
+   "marcador": "3–1 (H), 3–1 (A)"
+  },
+  {
+   "temporada": "2016–17",
+   "ronda": "Quarter-final",
+   "rival": "Bayern Munich",
+   "marcador": "2–1 (A), 4–2 (H) (a.e.t.)"
+  },
+  {
+   "temporada": "2016–17",
+   "ronda": "Semi-final",
+   "rival": "Atlético Madrid",
+   "marcador": "3–0 (H), 1–2 (A)"
+  },
+  {
+   "temporada": "2016–17",
+   "ronda": "Final",
+   "rival": "Juventus",
+   "marcador": "4–1 (N)"
+  },
+  {
+   "temporada": "2017–18",
+   "ronda": "Group H",
+   "rival": "APOEL",
+   "marcador": "3–0 (H), 6–0 (A)"
+  },
+  {
+   "temporada": "2017–18",
+   "ronda": "Group H",
+   "rival": "Borussia Dortmund",
+   "marcador": "3–1 (A), 3–2 (H)"
+  },
+  {
+   "temporada": "2017–18",
+   "ronda": "Group H",
+   "rival": "Tottenham Hotspur",
+   "marcador": "1–1 (H), 1–3 (A)"
+  },
+  {
+   "temporada": "2017–18",
+   "ronda": "Round of 16",
+   "rival": "Paris Saint-Germain",
+   "marcador": "3–1 (H), 2–1 (A)"
+  },
+  {
+   "temporada": "2017–18",
+   "ronda": "Quarter-final",
+   "rival": "Juventus",
+   "marcador": "3–0 (A), 1–3 (H)"
+  },
+  {
+   "temporada": "2017–18",
+   "ronda": "Semi-final",
+   "rival": "Bayern Munich",
+   "marcador": "2–1 (A), 2–2 (H)"
+  },
+  {
+   "temporada": "2017–18",
+   "ronda": "Final",
+   "rival": "Liverpool",
+   "marcador": "3–1 (N)"
+  },
+  {
+   "temporada": "2018–19",
+   "ronda": "Group G",
+   "rival": "Roma",
+   "marcador": "3–0 (H), 2–0 (A)"
+  },
+  {
+   "temporada": "2018–19",
+   "ronda": "Group G",
+   "rival": "CSKA Moscow",
+   "marcador": "0–1 (A), 0–3 (H)"
+  },
+  {
+   "temporada": "2018–19",
+   "ronda": "Group G",
+   "rival": "Viktoria Plzeň",
+   "marcador": "2–1 (H), 5–0 (A)"
+  },
+  {
+   "temporada": "2018–19",
+   "ronda": "Round of 16",
+   "rival": "Ajax",
+   "marcador": "2–1 (A), 1–4 (H)"
+  },
+  {
+   "temporada": "2019–20",
+   "ronda": "Group A",
+   "rival": "Paris Saint-Germain",
+   "marcador": "0–3 (A), 2–2 (H)"
+  },
+  {
+   "temporada": "2019–20",
+   "ronda": "Group A",
+   "rival": "Club Brugge",
+   "marcador": "2–2 (H), 3–1 (A)"
+  },
+  {
+   "temporada": "2019–20",
+   "ronda": "Group A",
+   "rival": "Galatasaray",
+   "marcador": "1–0 (A), 6–0 (H)"
+  },
+  {
+   "temporada": "2019–20",
+   "ronda": "Round of 16",
+   "rival": "Manchester City",
+   "marcador": "1–2 (H), 1–2 (A)"
+  },
+  {
+   "temporada": "2020–21",
+   "ronda": "Group B",
+   "rival": "Shakhtar Donetsk",
+   "marcador": "2–3 (H), 0–2 (A)"
+  },
+  {
+   "temporada": "2020–21",
+   "ronda": "Group B",
+   "rival": "Borussia Mönchengladbach",
+   "marcador": "2–2 (A), 2–0 (H)"
+  },
+  {
+   "temporada": "2020–21",
+   "ronda": "Group B",
+   "rival": "Internazionale",
+   "marcador": "3–2 (H), 2–0 (A)"
+  },
+  {
+   "temporada": "2020–21",
+   "ronda": "Round of 16",
+   "rival": "Atalanta",
+   "marcador": "1–0 (A), 3–1 (H)"
+  },
+  {
+   "temporada": "2020–21",
+   "ronda": "Quarter-final",
+   "rival": "Liverpool",
+   "marcador": "3–1 (H), 0–0 (A)"
+  },
+  {
+   "temporada": "2020–21",
+   "ronda": "Semi-final",
+   "rival": "Chelsea",
+   "marcador": "1–1 (H), 0–2 (A)"
+  },
+  {
+   "temporada": "2021–22",
+   "ronda": "Group D",
+   "rival": "Internazionale",
+   "marcador": "1–0 (A), 2–0 (H)"
+  },
+  {
+   "temporada": "2021–22",
+   "ronda": "Group D",
+   "rival": "Sheriff Tiraspol",
+   "marcador": "1–2 (H), 3–0 (A)"
+  },
+  {
+   "temporada": "2021–22",
+   "ronda": "Group D",
+   "rival": "Shakhtar Donetsk",
+   "marcador": "5–0 (A), 2–1 (H)"
+  },
+  {
+   "temporada": "2021–22",
+   "ronda": "Round of 16",
+   "rival": "Paris Saint-Germain",
+   "marcador": "0–1 (A), 3–1 (H)"
+  },
+  {
+   "temporada": "2021–22",
+   "ronda": "Quarter-final",
+   "rival": "Chelsea",
+   "marcador": "3–1 (A), 2–3 (H) (a.e.t.)"
+  },
+  {
+   "temporada": "2021–22",
+   "ronda": "Semi-final",
+   "rival": "Manchester City",
+   "marcador": "3–4 (A), 3–1 (H) (a.e.t.)"
+  },
+  {
+   "temporada": "2021–22",
+   "ronda": "Final",
+   "rival": "Liverpool",
+   "marcador": "1–0 (N)"
+  },
+  {
+   "temporada": "2022–23",
+   "ronda": "Group F",
+   "rival": "Celtic",
+   "marcador": "3–0 (A), 5–1 (H)"
+  },
+  {
+   "temporada": "2022–23",
+   "ronda": "Group F",
+   "rival": "RB Leipzig",
+   "marcador": "2–0 (H), 2–3 (A)"
+  },
+  {
+   "temporada": "2022–23",
+   "ronda": "Group F",
+   "rival": "Shakhtar Donetsk",
+   "marcador": "2–1 (H), 1–1 (A)"
+  },
+  {
+   "temporada": "2022–23",
+   "ronda": "Round of 16",
+   "rival": "Liverpool",
+   "marcador": "5–2 (A), 1–0 (H)"
+  },
+  {
+   "temporada": "2022–23",
+   "ronda": "Quarter-final",
+   "rival": "Chelsea",
+   "marcador": "2–0 (H), 2–0 (A)"
+  },
+  {
+   "temporada": "2022–23",
+   "ronda": "Semi-final",
+   "rival": "Manchester City",
+   "marcador": "1–1 (H), 0–4 (A)"
+  },
+  {
+   "temporada": "2023–24",
+   "ronda": "Group C",
+   "rival": "Union Berlin",
+   "marcador": "1–0 (H), 3–2 (A)"
+  },
+  {
+   "temporada": "2023–24",
+   "ronda": "Group C",
+   "rival": "Napoli",
+   "marcador": "3–2 (A), 4–2 (H)"
+  },
+  {
+   "temporada": "2023–24",
+   "ronda": "Group C",
+   "rival": "Braga",
+   "marcador": "2–1 (A), 3–0 (H)"
+  },
+  {
+   "temporada": "2023–24",
+   "ronda": "Round of 16",
+   "rival": "RB Leipzig",
+   "marcador": "1–0 (A), 1–1 (H)"
+  },
+  {
+   "temporada": "2023–24",
+   "ronda": "Quarter-final",
+   "rival": "Manchester City",
+   "marcador": "3–3 (H), 1–1 (A), (4–3 p)"
+  },
+  {
+   "temporada": "2023–24",
+   "ronda": "Semi-final",
+   "rival": "Bayern Munich",
+   "marcador": "2–2 (A), 2–1 (H)"
+  },
+  {
+   "temporada": "2023–24",
+   "ronda": "Final",
+   "rival": "Borussia Dortmund",
+   "marcador": "2–0 (N)"
+  },
+  {
+   "temporada": "2024–25",
+   "ronda": "League phase",
+   "rival": "VfB Stuttgart",
+   "marcador": "3–1 (H)"
+  },
+  {
+   "temporada": "2024–25",
+   "ronda": "League phase",
+   "rival": "Lille",
+   "marcador": "0–1 (A)"
+  },
+  {
+   "temporada": "2024–25",
+   "ronda": "League phase",
+   "rival": "Borussia Dortmund",
+   "marcador": "5–2 (H)"
+  },
+  {
+   "temporada": "2024–25",
+   "ronda": "League phase",
+   "rival": "Milan",
+   "marcador": "1–3 (H)"
+  },
+  {
+   "temporada": "2024–25",
+   "ronda": "League phase",
+   "rival": "Liverpool",
+   "marcador": "0–2 (A)"
+  },
+  {
+   "temporada": "2024–25",
+   "ronda": "League phase",
+   "rival": "Atalanta",
+   "marcador": "3–2 (A)"
+  },
+  {
+   "temporada": "2024–25",
+   "ronda": "League phase",
+   "rival": "Red Bull Salzburg",
+   "marcador": "5–1 (H)"
+  },
+  {
+   "temporada": "2024–25",
+   "ronda": "League phase",
+   "rival": "Brest",
+   "marcador": "3–0 (A)"
+  },
+  {
+   "temporada": "2024–25",
+   "ronda": "Knockout phase play-off",
+   "rival": "Manchester City",
+   "marcador": "3–2 (A), 3–1 (H)"
+  },
+  {
+   "temporada": "2024–25",
+   "ronda": "Round of 16",
+   "rival": "Atlético Madrid",
+   "marcador": "2–1 (H), 0–1 (A), (4–2 p)"
+  },
+  {
+   "temporada": "2024–25",
+   "ronda": "Quarter-final",
+   "rival": "Arsenal",
+   "marcador": "0–3 (A), 1–2 (H)"
+  },
+  {
+   "temporada": "2025–26",
+   "ronda": "League phase",
+   "rival": "Marseille",
+   "marcador": "2–1 (H)"
+  },
+  {
+   "temporada": "2025–26",
+   "ronda": "League phase",
+   "rival": "Kairat",
+   "marcador": "5–0 (A)"
+  },
+  {
+   "temporada": "2025–26",
+   "ronda": "League phase",
+   "rival": "Juventus",
+   "marcador": "1–0 (H)"
+  },
+  {
+   "temporada": "2025–26",
+   "ronda": "League phase",
+   "rival": "Liverpool",
+   "marcador": "0–1 (A)"
+  },
+  {
+   "temporada": "2025–26",
+   "ronda": "League phase",
+   "rival": "Olympiacos",
+   "marcador": "4–3 (A)"
+  },
+  {
+   "temporada": "2025–26",
+   "ronda": "League phase",
+   "rival": "Manchester City",
+   "marcador": "1–2 (H)"
+  },
+  {
+   "temporada": "2025–26",
+   "ronda": "League phase",
+   "rival": "Monaco",
+   "marcador": "6–1 (H)"
+  },
+  {
+   "temporada": "2025–26",
+   "ronda": "League phase",
+   "rival": "Benfica",
+   "marcador": "2–4 (A)"
+  },
+  {
+   "temporada": "2025–26",
+   "ronda": "Knockout phase play-off",
+   "rival": "Benfica",
+   "marcador": "1–0 (A), 2–1 (H)"
+  },
+  {
+   "temporada": "2025–26",
+   "ronda": "Round of 16",
+   "rival": "Manchester City",
+   "marcador": "3–0 (H), 2–1 (A)"
+  },
+  {
+   "temporada": "2025–26",
+   "ronda": "Quarter-final",
+   "rival": "Bayern Munich",
+   "marcador": "1–2 (H), 3–4 (A)"
+  },
+  {
+   "temporada": "2026–27",
+   "ronda": "League phase",
+   "rival": "Internazionale",
+   "marcador": "2–1 (H)"
+  },
+  {
+   "temporada": "2026–27",
+   "ronda": "League phase",
+   "rival": "Roma",
+   "marcador": "4–3 (A)"
+  },
+  {
+   "temporada": "2026–27",
+   "ronda": "League phase",
+   "rival": "RB Leipzig",
+   "marcador": "4–1 (H)"
+  }
+ ],
+ "europa_resumen": [
+  {
+   "competicion": "European Cup / Champions League",
+   "pj": 520,
+   "v": 314,
+   "e": 85,
+   "d": 121,
+   "gf": 1147,
+   "gc": 583
+  },
+  {
+   "competicion": "Cup Winners' Cup",
+   "pj": 31,
+   "v": 16,
+   "e": 9,
+   "d": 6,
+   "gf": 57,
+   "gc": 24
+  },
+  {
+   "competicion": "UEFA Cup/Europa League",
+   "pj": 64,
+   "v": 33,
+   "e": 10,
+   "d": 21,
+   "gf": 111,
+   "gc": 75
+  },
+  {
+   "competicion": "Latin Cup",
+   "pj": 4,
+   "v": 4,
+   "e": 0,
+   "d": 0,
+   "gf": 10,
+   "gc": 1
+  },
+  {
+   "competicion": "UEFA Super Cup",
+   "pj": 9,
+   "v": 6,
+   "e": 0,
+   "d": 3,
+   "gf": 17,
+   "gc": 11
+  },
+  {
+   "competicion": "Copa Iberoamericana",
+   "pj": 2,
+   "v": 1,
+   "e": 0,
+   "d": 1,
+   "gf": 4,
+   "gc": 3
+  },
+  {
+   "competicion": "Intercontinental Cup / Club World Cup",
+   "pj": 27,
+   "v": 19,
+   "e": 4,
+   "d": 4,
+   "gf": 61,
+   "gc": 31
+  },
+  {
+   "competicion": "FIFA Intercontinental Cup",
+   "pj": 1,
+   "v": 1,
+   "e": 0,
+   "d": 0,
+   "gf": 3,
+   "gc": 0
+  },
+  {
+   "competicion": "Total",
+   "pj": 658,
+   "v": 394,
+   "e": 108,
+   "d": 156,
+   "gf": 1410,
+   "gc": 728
+  }
+ ],
+ "finales": [
+  {
+   "temporada": "1955–56",
+   "gano": true,
+   "rival": "Reims",
+   "marcador": "4–3",
+   "estadio": "Parc des Princes",
+   "ciudad": "Paris",
+   "pais": "France",
+   "publico": 38239
+  },
+  {
+   "temporada": "1956–57",
+   "gano": true,
+   "rival": "Fiorentina",
+   "marcador": "2–0",
+   "estadio": "Santiago Bernabéu",
+   "ciudad": "Madrid",
+   "pais": "Spain",
+   "publico": 124000
+  },
+  {
+   "temporada": "1957–58",
+   "gano": true,
+   "rival": "Milan",
+   "marcador": "3–2",
+   "estadio": "Heysel Stadium",
+   "ciudad": "Brussels",
+   "pais": "Belgium",
+   "publico": 67000
+  },
+  {
+   "temporada": "1958–59",
+   "gano": true,
+   "rival": "Reims",
+   "marcador": "2–0",
+   "estadio": "Neckarstadion",
+   "ciudad": "Stuttgart",
+   "pais": "West Germany",
+   "publico": 72000
+  },
+  {
+   "temporada": "1959–60",
+   "gano": true,
+   "rival": "Eintracht Frankfurt",
+   "marcador": "7–3",
+   "estadio": "Hampden Park",
+   "ciudad": "Glasgow",
+   "pais": "Scotland",
+   "publico": 127621
+  },
+  {
+   "temporada": "1961–62",
+   "gano": false,
+   "rival": "Benfica",
+   "marcador": "5–3",
+   "estadio": "Olympisch Stadion",
+   "ciudad": "Amsterdam",
+   "pais": "Netherlands",
+   "publico": 61257
+  },
+  {
+   "temporada": "1963–64",
+   "gano": false,
+   "rival": "Inter Milan",
+   "marcador": "3–1",
+   "estadio": "Praterstadion",
+   "ciudad": "Vienna",
+   "pais": "Austria",
+   "publico": 71333
+  },
+  {
+   "temporada": "1965–66",
+   "gano": true,
+   "rival": "Partizan",
+   "marcador": "2–1",
+   "estadio": "Heysel Stadium",
+   "ciudad": "Brussels",
+   "pais": "Belgium",
+   "publico": 46745
+  },
+  {
+   "temporada": "1980–81",
+   "gano": false,
+   "rival": "Liverpool",
+   "marcador": "1–0",
+   "estadio": "Parc des Princes",
+   "ciudad": "Paris",
+   "pais": "France",
+   "publico": 48360
+  },
+  {
+   "temporada": "1997–98",
+   "gano": true,
+   "rival": "Juventus",
+   "marcador": "1–0",
+   "estadio": "Amsterdam Arena",
+   "ciudad": "Amsterdam",
+   "pais": "Netherlands",
+   "publico": 48500
+  },
+  {
+   "temporada": "1999–2000",
+   "gano": true,
+   "rival": "Valencia",
+   "marcador": "3–0",
+   "estadio": "Stade de France",
+   "ciudad": "Saint-Denis",
+   "pais": "France",
+   "publico": 80000
+  },
+  {
+   "temporada": "2001–02",
+   "gano": true,
+   "rival": "Bayer Leverkusen",
+   "marcador": "2–1",
+   "estadio": "Hampden Park",
+   "ciudad": "Glasgow",
+   "pais": "Scotland",
+   "publico": 50499
+  },
+  {
+   "temporada": "2013–14",
+   "gano": true,
+   "rival": "Atlético Madrid",
+   "marcador": "4–1",
+   "estadio": "Estádio da Luz",
+   "ciudad": "Lisbon",
+   "pais": "Portugal",
+   "publico": 60976
+  },
+  {
+   "temporada": "2015–16",
+   "gano": true,
+   "rival": "Atlético Madrid",
+   "marcador": "1–1",
+   "estadio": "San Siro",
+   "ciudad": "Milan",
+   "pais": "Italy",
+   "publico": 71942
+  },
+  {
+   "temporada": "2016–17",
+   "gano": true,
+   "rival": "Juventus",
+   "marcador": "4–1",
+   "estadio": "Millennium Stadium",
+   "ciudad": "Cardiff",
+   "pais": "Wales",
+   "publico": 65842
+  },
+  {
+   "temporada": "2017–18",
+   "gano": true,
+   "rival": "Liverpool",
+   "marcador": "3–1",
+   "estadio": "NSC Olimpiyskiy Stadium",
+   "ciudad": "Kyiv",
+   "pais": "Ukraine",
+   "publico": 61561
+  },
+  {
+   "temporada": "2021–22",
+   "gano": true,
+   "rival": "Liverpool",
+   "marcador": "1–0",
+   "estadio": "Stade de France",
+   "ciudad": "Saint-Denis",
+   "pais": "France",
+   "publico": 75000
+  },
+  {
+   "temporada": "2023–24",
+   "gano": true,
+   "rival": "Borussia Dortmund",
+   "marcador": "2–0",
+   "estadio": "Wembley Stadium",
+   "ciudad": "London",
+   "pais": "England",
+   "publico": 86212
+  }
+ ],
+ "entrenadores": [
+  {
+   "nombre": "Arthur Johnson",
+   "desde": "1910",
+   "hasta": "1920",
+   "pj": 23,
+   "v": 11,
+   "e": 3,
+   "d": 9,
+   "gf": 48,
+   "gc": 39,
+   "titulos": "1 Copa del Rey"
+  },
+  {
+   "nombre": "Juan de Cárcer",
+   "desde": "1920",
+   "hasta": "1926",
+   "pj": 22,
+   "v": 10,
+   "e": 2,
+   "d": 10,
+   "gf": 38,
+   "gc": 45,
+   "titulos": null
+  },
+  {
+   "nombre": "Pedro Llorente",
+   "desde": "1926",
+   "hasta": "1927",
+   "pj": 8,
+   "v": 5,
+   "e": 0,
+   "d": 3,
+   "gf": 31,
+   "gc": 15,
+   "titulos": null
+  },
+  {
+   "nombre": "Santiago Bernabéu",
+   "desde": "1926",
+   "hasta": "1927",
+   "pj": 8,
+   "v": 5,
+   "e": 0,
+   "d": 3,
+   "gf": 31,
+   "gc": 15,
+   "titulos": null
+  },
+  {
+   "nombre": "José Berraondo",
+   "desde": "1927",
+   "hasta": "1929",
+   "pj": 41,
+   "v": 27,
+   "e": 4,
+   "d": 10,
+   "gf": 115,
+   "gc": 58,
+   "titulos": null
+  },
+  {
+   "nombre": "José Quirante",
+   "desde": "1929",
+   "hasta": "1930",
+   "pj": 18,
+   "v": 7,
+   "e": 3,
+   "d": 8,
+   "gf": 45,
+   "gc": 42,
+   "titulos": null
+  },
+  {
+   "nombre": "Lippo Hertzka",
+   "desde": "1930",
+   "hasta": "1932",
+   "pj": 52,
+   "v": 26,
+   "e": 15,
+   "d": 11,
+   "gf": 95,
+   "gc": 58,
+   "titulos": "1 La Liga"
+  },
+  {
+   "nombre": "Robert Firth",
+   "desde": "1932",
+   "hasta": "1934",
+   "pj": 45,
+   "v": 30,
+   "e": 5,
+   "d": 10,
+   "gf": 126,
+   "gc": 52,
+   "titulos": "1 La Liga"
+  },
+  {
+   "nombre": "Francisco Bru",
+   "desde": "1934",
+   "hasta": "1941",
+   "pj": 118,
+   "v": 71,
+   "e": 13,
+   "d": 34,
+   "gf": 290,
+   "gc": 152,
+   "titulos": "2 Copa del Rey"
+  },
+  {
+   "nombre": "Juan Armet",
+   "desde": "1941",
+   "hasta": "September 1943",
+   "pj": 46,
+   "v": 23,
+   "e": 7,
+   "d": 16,
+   "gf": 96,
+   "gc": 72,
+   "titulos": null
+  },
+  {
+   "nombre": "Ramón Encinas",
+   "desde": "September 1943",
+   "hasta": "May 1945",
+   "pj": 84,
+   "v": 45,
+   "e": 15,
+   "d": 24,
+   "gf": 199,
+   "gc": 126,
+   "titulos": null
+  },
+  {
+   "nombre": "Jacinto Quincoces",
+   "desde": "May 1945",
+   "hasta": "March 1946",
+   "pj": 35,
+   "v": 18,
+   "e": 10,
+   "d": 7,
+   "gf": 70,
+   "gc": 37,
+   "titulos": "1 Copa del Rey"
+  },
+  {
+   "nombre": "Baltasar Albéniz",
+   "desde": "March 1946",
+   "hasta": "April 1947",
+   "pj": 35,
+   "v": 18,
+   "e": 5,
+   "d": 12,
+   "gf": 82,
+   "gc": 66,
+   "titulos": "1 Copa del Rey"
+  },
+  {
+   "nombre": "Jacinto Quincoces",
+   "desde": "April 1947",
+   "hasta": "January 1948",
+   "pj": 17,
+   "v": 5,
+   "e": 4,
+   "d": 8,
+   "gf": 32,
+   "gc": 41,
+   "titulos": null
+  },
+  {
+   "nombre": "Michael Keeping",
+   "desde": "January 1948",
+   "hasta": "October 1950",
+   "pj": 82,
+   "v": 37,
+   "e": 20,
+   "d": 25,
+   "gf": 192,
+   "gc": 153,
+   "titulos": "1 Copa Eva Duarte"
+  },
+  {
+   "nombre": "Baltasar Albéniz",
+   "desde": "October 1950",
+   "hasta": "March 1951",
+   "pj": 16,
+   "v": 7,
+   "e": 2,
+   "d": 7,
+   "gf": 41,
+   "gc": 37,
+   "titulos": null
+  },
+  {
+   "nombre": "Héctor Scarone",
+   "desde": "March 1951",
+   "hasta": "April 1952",
+   "pj": 48,
+   "v": 25,
+   "e": 10,
+   "d": 13,
+   "gf": 113,
+   "gc": 73,
+   "titulos": null
+  },
+  {
+   "nombre": "Juan Antonio Ipiña",
+   "desde": "April 1952",
+   "hasta": "May 1953",
+   "pj": 34,
+   "v": 21,
+   "e": 2,
+   "d": 11,
+   "gf": 82,
+   "gc": 57,
+   "titulos": null
+  },
+  {
+   "nombre": "Enrique Fernández",
+   "desde": "May 1953",
+   "hasta": "10 December 1954",
+   "pj": 50,
+   "v": 31,
+   "e": 8,
+   "d": 11,
+   "gf": 126,
+   "gc": 60,
+   "titulos": "1 La Liga"
+  },
+  {
+   "nombre": "José Villalonga",
+   "desde": "10 December 1954",
+   "hasta": "June 1957",
+   "pj": 105,
+   "v": 66,
+   "e": 14,
+   "d": 25,
+   "gf": 269,
+   "gc": 141,
+   "titulos": "2 La Liga 2 UEFA Champions League"
+  },
+  {
+   "nombre": "Luis Carniglia",
+   "desde": "June 1957",
+   "hasta": "19 February 1959",
+   "pj": 68,
+   "v": 48,
+   "e": 11,
+   "d": 9,
+   "gf": 178,
+   "gc": 58,
+   "titulos": "1 La Liga 1 UEFA Champions League"
+  },
+  {
+   "nombre": "Miguel Muñoz",
+   "desde": "21 February 1959",
+   "hasta": "13 April 1959",
+   "pj": 9,
+   "v": 5,
+   "e": 2,
+   "d": 2,
+   "gf": 31,
+   "gc": 9,
+   "titulos": null
+  },
+  {
+   "nombre": "Luis Carniglia",
+   "desde": "13 April 1959",
+   "hasta": "July 1959",
+   "pj": 13,
+   "v": 8,
+   "e": 1,
+   "d": 4,
+   "gf": 28,
+   "gc": 16,
+   "titulos": "1 UEFA Champions League"
+  },
+  {
+   "nombre": "Manuel Fleitas",
+   "desde": "July 1959",
+   "hasta": "12 April 1960",
+   "pj": 33,
+   "v": 23,
+   "e": 4,
+   "d": 6,
+   "gf": 109,
+   "gc": 42,
+   "titulos": null
+  },
+  {
+   "nombre": "Miguel Muñoz",
+   "desde": "13 April 1960",
+   "hasta": "15 January 1974",
+   "pj": 595,
+   "v": 352,
+   "e": 126,
+   "d": 117,
+   "gf": 1194,
+   "gc": 553,
+   "titulos": "9 La Liga 2 Copa del Rey 2 UEFA Champions League 1 Intercontinental Cup"
+  },
+  {
+   "nombre": "Luis Molowny",
+   "desde": "15 January 1974",
+   "hasta": "May 1974",
+   "pj": 23,
+   "v": 13,
+   "e": 2,
+   "d": 8,
+   "gf": 49,
+   "gc": 26,
+   "titulos": "1 Copa del Rey"
+  },
+  {
+   "nombre": "Miljan Miljanić",
+   "desde": "May 1974",
+   "hasta": "7 September 1977",
+   "pj": 134,
+   "v": 67,
+   "e": 36,
+   "d": 31,
+   "gf": 231,
+   "gc": 150,
+   "titulos": "2 La Liga 1 Copa del Rey"
+  },
+  {
+   "nombre": "Luis Molowny",
+   "desde": "7 September 1977",
+   "hasta": "June 1979",
+   "pj": 90,
+   "v": 51,
+   "e": 24,
+   "d": 15,
+   "gf": 196,
+   "gc": 94,
+   "titulos": "2 La Liga"
+  },
+  {
+   "nombre": "Vujadin Boškov",
+   "desde": "June 1979",
+   "hasta": "29 March 1982",
+   "pj": 139,
+   "v": 80,
+   "e": 31,
+   "d": 28,
+   "gf": 249,
+   "gc": 136,
+   "titulos": "1 La Liga 1 Copa del Rey"
+  },
+  {
+   "nombre": "Luis Molowny",
+   "desde": "29 March 1982",
+   "hasta": "30 June 1982",
+   "pj": 6,
+   "v": 4,
+   "e": 1,
+   "d": 1,
+   "gf": 11,
+   "gc": 7,
+   "titulos": "1 Copa del Rey"
+  },
+  {
+   "nombre": "Alfredo Di Stéfano",
+   "desde": "1 July 1982",
+   "hasta": "22 May 1984",
+   "pj": 108,
+   "v": 63,
+   "e": 23,
+   "d": 22,
+   "gf": 192,
+   "gc": 113,
+   "titulos": null
+  },
+  {
+   "nombre": "Amancio Amaro",
+   "desde": "22 May 1984",
+   "hasta": "16 April 1985",
+   "pj": 47,
+   "v": 19,
+   "e": 13,
+   "d": 15,
+   "gf": 69,
+   "gc": 52,
+   "titulos": null
+  },
+  {
+   "nombre": "Luis Molowny",
+   "desde": "16 April 1985",
+   "hasta": "30 June 1986",
+   "pj": 61,
+   "v": 39,
+   "e": 7,
+   "d": 15,
+   "gf": 137,
+   "gc": 67,
+   "titulos": "1 La Liga 1 Copa de la Liga 2 UEFA Europa League"
+  },
+  {
+   "nombre": "Leo Beenhakker",
+   "desde": "1 July 1986",
+   "hasta": "30 June 1989",
+   "pj": 169,
+   "v": 107,
+   "e": 40,
+   "d": 22,
+   "gf": 357,
+   "gc": 158,
+   "titulos": "3 La Liga 1 Copa del Rey 2 Supercopa de España"
+  },
+  {
+   "nombre": "John Toshack",
+   "desde": "1 July 1989",
+   "hasta": "19 November 1990",
+   "pj": 64,
+   "v": 41,
+   "e": 15,
+   "d": 8,
+   "gf": 161,
+   "gc": 56,
+   "titulos": "1 La Liga"
+  },
+  {
+   "nombre": "Alfredo Di Stéfano",
+   "desde": "21 November 1990",
+   "hasta": "22 March 1991",
+   "pj": 21,
+   "v": 9,
+   "e": 3,
+   "d": 9,
+   "gf": 32,
+   "gc": 22,
+   "titulos": "1 Supercopa de España"
+  },
+  {
+   "nombre": "Radomir Antić",
+   "desde": "22 March 1991",
+   "hasta": "27 January 1992",
+   "pj": 39,
+   "v": 27,
+   "e": 6,
+   "d": 6,
+   "gf": 84,
+   "gc": 32,
+   "titulos": null
+  },
+  {
+   "nombre": "Leo Beenhakker",
+   "desde": "27 January 1992",
+   "hasta": "29 June 1992",
+   "pj": 28,
+   "v": 14,
+   "e": 7,
+   "d": 7,
+   "gf": 47,
+   "gc": 27,
+   "titulos": null
+  },
+  {
+   "nombre": "Benito Floro",
+   "desde": "1 July 1992",
+   "hasta": "7 March 1994",
+   "pj": 92,
+   "v": 52,
+   "e": 21,
+   "d": 19,
+   "gf": 165,
+   "gc": 90,
+   "titulos": "1 Copa del Rey 1 Supercopa de España"
+  },
+  {
+   "nombre": "Vicente del Bosque",
+   "desde": "7 March 1994",
+   "hasta": "30 June 1994",
+   "pj": 12,
+   "v": 5,
+   "e": 2,
+   "d": 5,
+   "gf": 24,
+   "gc": 23,
+   "titulos": null
+  },
+  {
+   "nombre": "Jorge Valdano",
+   "desde": "1 July 1994",
+   "hasta": "21 January 1996",
+   "pj": 78,
+   "v": 39,
+   "e": 17,
+   "d": 22,
+   "gf": 142,
+   "gc": 87,
+   "titulos": "1 La Liga"
+  },
+  {
+   "nombre": "Vicente del Bosque",
+   "desde": "21 January 1996",
+   "hasta": "24 January 1996",
+   "pj": 1,
+   "v": 1,
+   "e": 0,
+   "d": 0,
+   "gf": 5,
+   "gc": 0,
+   "titulos": null
+  },
+  {
+   "nombre": "Arsenio Iglesias",
+   "desde": "24 January 1996",
+   "hasta": "29 May 1996",
+   "pj": 21,
+   "v": 11,
+   "e": 4,
+   "d": 6,
+   "gf": 33,
+   "gc": 22,
+   "titulos": null
+  },
+  {
+   "nombre": "Fabio Capello",
+   "desde": "1 July 1996",
+   "hasta": "24 June 1997",
+   "pj": 48,
+   "v": 31,
+   "e": 12,
+   "d": 5,
+   "gf": 96,
+   "gc": 41,
+   "titulos": "1 La Liga"
+  },
+  {
+   "nombre": "Jupp Heynckes",
+   "desde": "25 June 1997",
+   "hasta": "28 May 1998",
+   "pj": 53,
+   "v": 26,
+   "e": 15,
+   "d": 12,
+   "gf": 92,
+   "gc": 55,
+   "titulos": "1 Supercopa de España 1 UEFA Champions League"
+  },
+  {
+   "nombre": "José Antonio Camacho",
+   "desde": "17 June 1998",
+   "hasta": "9 July 1998",
+   "pj": 0,
+   "v": 0,
+   "e": 0,
+   "d": 0,
+   "gf": 0,
+   "gc": 0,
+   "titulos": null
+  },
+  {
+   "nombre": "Guus Hiddink",
+   "desde": "15 July 1998",
+   "hasta": "23 February 1999",
+   "pj": 34,
+   "v": 19,
+   "e": 4,
+   "d": 11,
+   "gf": 73,
+   "gc": 48,
+   "titulos": "1 Intercontinental Cup"
+  },
+  {
+   "nombre": "John Toshack",
+   "desde": "24 February 1999",
+   "hasta": "17 November 1999",
+   "pj": 37,
+   "v": 19,
+   "e": 9,
+   "d": 9,
+   "gf": 73,
+   "gc": 62,
+   "titulos": null
+  },
+  {
+   "nombre": "Vicente del Bosque",
+   "desde": "17 November 1999",
+   "hasta": "23 June 2003",
+   "pj": 233,
+   "v": 127,
+   "e": 56,
+   "d": 50,
+   "gf": 461,
+   "gc": 267,
+   "titulos": "2 La Liga 1 Supercopa de España 2 UEFA Champions League 1 UEFA Super Cup 1 Intercontinental Cup"
+  },
+  {
+   "nombre": "Carlos Queiroz",
+   "desde": "25 June 2003",
+   "hasta": "24 May 2004",
+   "pj": 59,
+   "v": 34,
+   "e": 11,
+   "d": 14,
+   "gf": 113,
+   "gc": 76,
+   "titulos": "1 Supercopa de España"
+  },
+  {
+   "nombre": "José Antonio Camacho",
+   "desde": "25 May 2004",
+   "hasta": "20 September 2004",
+   "pj": 6,
+   "v": 4,
+   "e": 0,
+   "d": 2,
+   "gf": 7,
+   "gc": 5,
+   "titulos": null
+  },
+  {
+   "nombre": "Mariano García Remón",
+   "desde": "20 September 2004",
+   "hasta": "30 December 2004",
+   "pj": 20,
+   "v": 12,
+   "e": 4,
+   "d": 4,
+   "gf": 37,
+   "gc": 18,
+   "titulos": null
+  },
+  {
+   "nombre": "Vanderlei Luxemburgo",
+   "desde": "30 December 2004",
+   "hasta": "4 December 2005",
+   "pj": 45,
+   "v": 28,
+   "e": 7,
+   "d": 10,
+   "gf": 83,
+   "gc": 45,
+   "titulos": null
+  },
+  {
+   "nombre": "Juan Ramón López Caro",
+   "desde": "4 December 2005",
+   "hasta": "1 June 2006",
+   "pj": 24,
+   "v": 12,
+   "e": 9,
+   "d": 3,
+   "gf": 41,
+   "gc": 25,
+   "titulos": null
+  },
+  {
+   "nombre": "Fabio Capello",
+   "desde": "5 July 2006",
+   "hasta": "28 June 2007",
+   "pj": 50,
+   "v": 28,
+   "e": 12,
+   "d": 10,
+   "gf": 91,
+   "gc": 55,
+   "titulos": "1 La Liga"
+  },
+  {
+   "nombre": "Bernd Schuster",
+   "desde": "9 July 2007",
+   "hasta": "9 December 2008",
+   "pj": 75,
+   "v": 44,
+   "e": 9,
+   "d": 22,
+   "gf": 156,
+   "gc": 100,
+   "titulos": "1 La Liga 1 Supercopa de España"
+  },
+  {
+   "nombre": "Juande Ramos",
+   "desde": "9 December 2008",
+   "hasta": "1 June 2009",
+   "pj": 27,
+   "v": 18,
+   "e": 1,
+   "d": 8,
+   "gf": 53,
+   "gc": 34,
+   "titulos": null
+  },
+  {
+   "nombre": "Manuel Pellegrini",
+   "desde": "2 June 2009",
+   "hasta": "26 May 2010",
+   "pj": 48,
+   "v": 36,
+   "e": 5,
+   "d": 7,
+   "gf": 119,
+   "gc": 48,
+   "titulos": null
+  },
+  {
+   "nombre": "José Mourinho",
+   "desde": "31 May 2010",
+   "hasta": "1 June 2013",
+   "pj": 178,
+   "v": 128,
+   "e": 28,
+   "d": 22,
+   "gf": 475,
+   "gc": 168,
+   "titulos": "1 La Liga 1 Copa del Rey 1 Supercopa de España"
+  },
+  {
+   "nombre": "Carlo Ancelotti",
+   "desde": "25 June 2013",
+   "hasta": "25 May 2015",
+   "pj": 119,
+   "v": 89,
+   "e": 14,
+   "d": 16,
+   "gf": 323,
+   "gc": 103,
+   "titulos": "1 Copa del Rey 1 UEFA Champions League 1 UEFA Super Cup 1 FIFA Club World Cup"
+  },
+  {
+   "nombre": "Rafael Benítez",
+   "desde": "3 June 2015",
+   "hasta": "4 January 2016",
+   "pj": 25,
+   "v": 17,
+   "e": 5,
+   "d": 3,
+   "gf": 69,
+   "gc": 22,
+   "titulos": null
+  },
+  {
+   "nombre": "Zinedine Zidane",
+   "desde": "4 January 2016",
+   "hasta": "31 May 2018",
+   "pj": 149,
+   "v": 104,
+   "e": 29,
+   "d": 16,
+   "gf": 393,
+   "gc": 160,
+   "titulos": "1 La Liga 1 Supercopa de España 3 UEFA Champions League 2 UEFA Super Cup 2 FIFA Club World Cup"
+  },
+  {
+   "nombre": "Julen Lopetegui",
+   "desde": "12 June 2018",
+   "hasta": "29 October 2018",
+   "pj": 14,
+   "v": 6,
+   "e": 2,
+   "d": 6,
+   "gf": 21,
+   "gc": 20,
+   "titulos": null
+  },
+  {
+   "nombre": "Santiago Solari",
+   "desde": "30 October 2018",
+   "hasta": "11 March 2019",
+   "pj": 32,
+   "v": 22,
+   "e": 2,
+   "d": 8,
+   "gf": 71,
+   "gc": 37,
+   "titulos": "1 FIFA Club World Cup"
+  },
+  {
+   "nombre": "Zinedine Zidane",
+   "desde": "11 March 2019",
+   "hasta": "27 May 2021",
+   "pj": 114,
+   "v": 69,
+   "e": 25,
+   "d": 20,
+   "gf": 207,
+   "gc": 104,
+   "titulos": "1 La Liga 1 Supercopa de España"
+  },
+  {
+   "nombre": "Carlo Ancelotti",
+   "desde": "1 June 2021",
+   "hasta": "31 May 2025",
+   "pj": 234,
+   "v": 161,
+   "e": 36,
+   "d": 37,
+   "gf": 512,
+   "gc": 238,
+   "titulos": "2 La Liga 1 Copa del Rey 2 Supercopa de España 2 UEFA Champions League 2 UEFA Super Cup 1 FIFA Club World Cup 1 FIFA Intercontinental Cup"
+  },
+  {
+   "nombre": "Xabi Alonso",
+   "desde": "1 June 2025",
+   "hasta": "12 January 2026",
+   "pj": 34,
+   "v": 24,
+   "e": 4,
+   "d": 6,
+   "gf": 72,
+   "gc": 38,
+   "titulos": null
+  },
+  {
+   "nombre": "Álvaro Arbeloa",
+   "desde": "12 January 2026",
+   "hasta": "9 June 2026",
+   "pj": 28,
+   "v": 18,
+   "e": 2,
+   "d": 8,
+   "gf": 58,
+   "gc": 34,
+   "titulos": null
+  },
+  {
+   "nombre": "José Mourinho",
+   "desde": "11 June 2026",
+   "hasta": "Present",
+   "pj": 7,
+   "v": 6,
+   "e": 0,
+   "d": 1,
+   "gf": 19,
+   "gc": 7,
+   "titulos": null
+  }
+ ],
+ "entrenadores_titulos": [
+  {
+   "nombre": "Carlo Ancelotti",
+   "liga": 2,
+   "copa": 2,
+   "champions": 3,
+   "total": 15
+  },
+  {
+   "nombre": "Miguel Muñoz",
+   "liga": 9,
+   "copa": 2,
+   "champions": 2,
+   "total": 14
+  },
+  {
+   "nombre": "Zinedine Zidane",
+   "liga": 2,
+   "copa": 0,
+   "champions": 3,
+   "total": 11
+  },
+  {
+   "nombre": "Luis Molowny",
+   "liga": 3,
+   "copa": 2,
+   "champions": 0,
+   "total": 8
+  },
+  {
+   "nombre": "Vicente del Bosque",
+   "liga": 2,
+   "copa": 0,
+   "champions": 2,
+   "total": 8
+  },
+  {
+   "nombre": "Leo Beenhakker",
+   "liga": 3,
+   "copa": 1,
+   "champions": 0,
+   "total": 6
+  },
+  {
+   "nombre": "José Villalonga",
+   "liga": 2,
+   "copa": 0,
+   "champions": 2,
+   "total": 6
+  },
+  {
+   "nombre": "Luis Carniglia",
+   "liga": 1,
+   "copa": 0,
+   "champions": 2,
+   "total": 3
+  },
+  {
+   "nombre": "Miljan Miljanić",
+   "liga": 2,
+   "copa": 1,
+   "champions": 0,
+   "total": 3
+  },
+  {
+   "nombre": "José Mourinho",
+   "liga": 1,
+   "copa": 1,
+   "champions": 0,
+   "total": 3
+  },
+  {
+   "nombre": "Francisco Bru",
+   "liga": 0,
+   "copa": 2,
+   "champions": 0,
+   "total": 2
+  },
+  {
+   "nombre": "Vujadin Boškov",
+   "liga": 1,
+   "copa": 1,
+   "champions": 0,
+   "total": 2
+  },
+  {
+   "nombre": "Benito Floro",
+   "liga": 0,
+   "copa": 1,
+   "champions": 0,
+   "total": 2
+  },
+  {
+   "nombre": "Fabio Capello",
+   "liga": 2,
+   "copa": 0,
+   "champions": 0,
+   "total": 2
+  },
+  {
+   "nombre": "Jupp Heynckes",
+   "liga": 0,
+   "copa": 0,
+   "champions": 1,
+   "total": 2
+  },
+  {
+   "nombre": "Bernd Schuster",
+   "liga": 1,
+   "copa": 0,
+   "champions": 0,
+   "total": 2
+  },
+  {
+   "nombre": "Arthur Johnson",
+   "liga": 0,
+   "copa": 1,
+   "champions": 0,
+   "total": 1
+  },
+  {
+   "nombre": "Lippo Hertzka",
+   "liga": 1,
+   "copa": 0,
+   "champions": 0,
+   "total": 1
+  },
+  {
+   "nombre": "Robert Firth",
+   "liga": 1,
+   "copa": 0,
+   "champions": 0,
+   "total": 1
+  },
+  {
+   "nombre": "Jacinto Quincoces",
+   "liga": 0,
+   "copa": 1,
+   "champions": 0,
+   "total": 1
+  },
+  {
+   "nombre": "Baltasar Albéniz",
+   "liga": 0,
+   "copa": 1,
+   "champions": 0,
+   "total": 1
+  },
+  {
+   "nombre": "Michael Keeping",
+   "liga": 0,
+   "copa": 0,
+   "champions": 0,
+   "total": 1
+  },
+  {
+   "nombre": "Enrique Fernández",
+   "liga": 1,
+   "copa": 0,
+   "champions": 0,
+   "total": 1
+  },
+  {
+   "nombre": "John Toshack",
+   "liga": 1,
+   "copa": 0,
+   "champions": 0,
+   "total": 1
+  },
+  {
+   "nombre": "Alfredo Di Stéfano",
+   "liga": 0,
+   "copa": 0,
+   "champions": 0,
+   "total": 1
+  },
+  {
+   "nombre": "Jorge Valdano",
+   "liga": 1,
+   "copa": 0,
+   "champions": 0,
+   "total": 1
+  },
+  {
+   "nombre": "Guus Hiddink",
+   "liga": 0,
+   "copa": 0,
+   "champions": 0,
+   "total": 1
+  },
+  {
+   "nombre": "Carlos Queiroz",
+   "liga": 0,
+   "copa": 0,
+   "champions": 0,
+   "total": 1
+  },
+  {
+   "nombre": "Santiago Solari",
+   "liga": 0,
+   "copa": 0,
+   "champions": 0,
+   "total": 1
+  }
+ ],
+ "records": {
+  "partidos": [
+   {
+    "jugador": "Raúl",
+    "anios": "1994–2010",
+    "total": 741
+   },
+   {
+    "jugador": "Iker Casillas",
+    "anios": "1999–2015",
+    "total": 725
+   },
+   {
+    "jugador": "Manolo Sanchís",
+    "anios": "1983–2001",
+    "total": 710
+   },
+   {
+    "jugador": "Sergio Ramos",
+    "anios": "2005–2021",
+    "total": 671
+   },
+   {
+    "jugador": "Karim Benzema",
+    "anios": "2009–2023",
+    "total": 648
+   },
+   {
+    "jugador": "Santillana",
+    "anios": "1971–1988",
+    "total": 645
+   },
+   {
+    "jugador": "Fernando Hierro",
+    "anios": "1989–2003",
+    "total": 602
+   },
+   {
+    "jugador": "Paco Gento",
+    "anios": "1953–1971",
+    "total": 600
+   },
+   {
+    "jugador": "Luka Modrić",
+    "anios": "2012–2025",
+    "total": 597
+   },
+   {
+    "jugador": "José Camacho",
+    "anios": "1973–1989",
+    "total": 577
+   }
+  ],
+  "goles": [
+   {
+    "jugador": "Cristiano Ronaldo",
+    "anios": "2009–2018",
+    "goles": 450,
+    "partidos": 438,
+    "ratio": 1.03
+   },
+   {
+    "jugador": "Karim Benzema",
+    "anios": "2009–2023",
+    "goles": 354,
+    "partidos": 648,
+    "ratio": 0.55
+   },
+   {
+    "jugador": "Raúl",
+    "anios": "1994–2010",
+    "goles": 323,
+    "partidos": 741,
+    "ratio": 0.44
+   },
+   {
+    "jugador": "Alfredo Di Stéfano",
+    "anios": "1953–1964",
+    "goles": 308,
+    "partidos": 396,
+    "ratio": 0.78
+   },
+   {
+    "jugador": "Santillana",
+    "anios": "1971–1988",
+    "goles": 290,
+    "partidos": 645,
+    "ratio": 0.45
+   },
+   {
+    "jugador": "Ferenc Puskás",
+    "anios": "1958–1966",
+    "goles": 242,
+    "partidos": 262,
+    "ratio": 0.92
+   },
+   {
+    "jugador": "Hugo Sánchez",
+    "anios": "1985–1992",
+    "goles": 208,
+    "partidos": 282,
+    "ratio": 0.74
+   },
+   {
+    "jugador": "Paco Gento",
+    "anios": "1952–1971",
+    "goles": 183,
+    "partidos": 600,
+    "ratio": 0.31
+   },
+   {
+    "jugador": "Pirri",
+    "anios": "1964–1980",
+    "goles": 171,
+    "partidos": 561,
+    "ratio": 0.3
+   },
+   {
+    "jugador": "Emilio Butragueño",
+    "anios": "1983–1995",
+    "goles": 170,
+    "partidos": 463,
+    "ratio": 0.37
+   }
+  ]
+ },
+ "cara_a_cara": [
+  {
+   "rival": "Barcelona",
+   "competicion": "La Liga",
+   "pj": 193,
+   "v": 81,
+   "e": 35,
+   "d": 77,
+   "gf": 311,
+   "gc": 313
+  },
+  {
+   "rival": "Barcelona",
+   "competicion": "Copa de la Coronación",
+   "pj": 1,
+   "v": 0,
+   "e": 0,
+   "d": 1,
+   "gf": 1,
+   "gc": 3
+  },
+  {
+   "rival": "Barcelona",
+   "competicion": "Copa del Rey",
+   "pj": 38,
+   "v": 13,
+   "e": 8,
+   "d": 17,
+   "gf": 71,
+   "gc": 71
+  },
+  {
+   "rival": "Barcelona",
+   "competicion": "Copa de la Liga",
+   "pj": 6,
+   "v": 0,
+   "e": 4,
+   "d": 2,
+   "gf": 8,
+   "gc": 13
+  },
+  {
+   "rival": "Barcelona",
+   "competicion": "Supercopa de España",
+   "pj": 19,
+   "v": 10,
+   "e": 2,
+   "d": 7,
+   "gf": 42,
+   "gc": 32
+  },
+  {
+   "rival": "Barcelona",
+   "competicion": "UEFA Champions League",
+   "pj": 8,
+   "v": 3,
+   "e": 3,
+   "d": 2,
+   "gf": 13,
+   "gc": 10
+  },
+  {
+   "rival": "Barcelona",
+   "competicion": "All competitions",
+   "pj": 265,
+   "v": 107,
+   "e": 52,
+   "d": 106,
+   "gf": 446,
+   "gc": 442
+  },
+  {
+   "rival": "Atletico Madrid",
+   "competicion": "League",
+   "pj": 179,
+   "v": 92,
+   "e": 44,
+   "d": 43,
+   "gf": 308,
+   "gc": 235
+  },
+  {
+   "rival": "Atletico Madrid",
+   "competicion": "Cup",
+   "pj": 44,
+   "v": 18,
+   "e": 14,
+   "d": 12,
+   "gf": 62,
+   "gc": 50
+  },
+  {
+   "rival": "Atletico Madrid",
+   "competicion": "League Cup",
+   "pj": 4,
+   "v": 1,
+   "e": 1,
+   "d": 2,
+   "gf": 7,
+   "gc": 7
+  },
+  {
+   "rival": "Atletico Madrid",
+   "competicion": "Spanish Super Cup",
+   "pj": 5,
+   "v": 2,
+   "e": 2,
+   "d": 1,
+   "gf": 8,
+   "gc": 6
+  },
+  {
+   "rival": "Atletico Madrid",
+   "competicion": "UEFA Champions League",
+   "pj": 11,
+   "v": 6,
+   "e": 2,
+   "d": 3,
+   "gf": 16,
+   "gc": 9
+  },
+  {
+   "rival": "Atletico Madrid",
+   "competicion": "UEFA Super Cup",
+   "pj": 1,
+   "v": 0,
+   "e": 0,
+   "d": 1,
+   "gf": 2,
+   "gc": 4
+  },
+  {
+   "rival": "Atletico Madrid",
+   "competicion": "Total matches",
+   "pj": 244,
+   "v": 119,
+   "e": 63,
+   "d": 62,
+   "gf": 403,
+   "gc": 311
+  }
+ ]
+}

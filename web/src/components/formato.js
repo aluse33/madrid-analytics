@@ -44,3 +44,6 @@ export const ordinal = (n) => {
 // para los ejes de Plot
 export const tickNum = (d) => (+d).toLocaleString(LOC);
 export const tickPct = (d) => `${Math.round(100 * d)}${EN ? "%" : " %"}`;
+
+// Texto en los dos idiomas, para las páginas nuevas: t("Minutos", "Minutes")
+export const t = (es, en) => (EN ? en : es);

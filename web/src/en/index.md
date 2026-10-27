@@ -5,7 +5,8 @@ toc: false
 <!-- GENERADO por `rma traducir` a partir de ../index.md: no editar a mano -->
 
 ```js
-import {num, pct, ent, fecha, fechaHora, hora as horaDe, diaLargo, letra, condicionTxt, tickNum, ordinal} from "../components/formato.js";
+import {num, pct, ent, fecha, fechaHora, hora as horaDe, diaLargo, letra, condicionTxt, tickNum, ordinal, t} from "../components/formato.js";
+import {escudoDe, conEscudoDe} from "../components/eventos.js";
 import {barraPartido, pildoras} from "../components/ui.js";
 import {escudo, escudoUrl, nombre, corto, conEscudo} from "../equipos/equipos.js";
 
@@ -15,6 +16,7 @@ const liga = FileAttachment("../data/liga_temporada.csv").csv({typed: true});
 const temporadas = FileAttachment("../data/temporadas.json").json();
 const prediccion = FileAttachment("../data/prediccion.json").json();
 const simulacion = FileAttachment("../data/simulacion.json").json();
+const todas = FileAttachment("../data/partidos_todas.csv").csv({typed: true});
 ```
 
 ```js
@@ -24,7 +26,12 @@ const V = jugados.filter((d) => d.resultado === "V").length;
 const E = jugados.filter((d) => d.resultado === "E").length;
 const D = jugados.filter((d) => d.resultado === "D").length;
 const sum = (k) => d3.sum(jugados, (d) => d[k]);
-const proximo = prediccion.partidos[0];
+const proximoModelo = prediccion.partidos[0];
+// ESPN suele llevar la hora oficial más al día que Understat: si tiene el partido, manda la suya
+const proximo = proximoModelo && (() => {
+  const e = todas.find((d) => d.liga === "esp.1" && d.rival === proximoModelo.rival && Math.abs(d.fecha - new Date(proximoModelo.fecha)) < 3 * 864e5);
+  return e ? {...proximoModelo, fecha: e.fecha} : proximoModelo;
+})();
 const rmSim = simulacion?.tabla.find((d) => d.equipo === "Real Madrid");
 
 // clasificación actual y forma de cualquier equipo, desde los partidos de la Liga
@@ -91,8 +98,31 @@ function fichaProximo(p) {
 }
 ```
 
+```js
+// el próximo partido de verdad, sea de la competición que sea
+const COMP = {"esp.1": "LaLiga", "uefa.champions": "Champions League", "esp.copa_del_rey": t("Copa del Rey", "Copa del Rey"),
+  "esp.super_cup": t("Supercopa de España", "Spanish Super Cup"), "uefa.super_cup": t("Supercopa de Europa", "UEFA Super Cup"),
+  "fifa.cwc": t("Mundial de Clubes", "Club World Cup"), "fifa.intercontinental_cup": t("Copa Intercontinental", "Intercontinental Cup")};
+const sigTodas = todas.find((d) => !d.jugado);
+const otraComp = sigTodas && sigTodas.liga !== "esp.1" && (!proximo || sigTodas.fecha < new Date(proximo.fecha)) ? sigTodas : null;
+function fichaOtra(d) {
+  const lado = (e, url) => html`<div class="lado"><div class="escudo-grande">${escudoDe(e, url, 48)}</div><div class="nombre">${nombre(e)}</div></div>`;
+  const previos = todas.filter((x) => x.jugado && x.liga === d.liga).slice(-5)
+    .map((x) => ({resultado: x.resultado, titulo: `${nombre(x.local)} ${x.goles_local}–${x.goles_visitante} ${nombre(x.visitante)}`}));
+  return html`<div class="card destacada grid-colspan-2 grid-rowspan-2">
+    <div class="etiqueta">${t("Próximo partido", "Next match")} · ${COMP[d.liga] ?? d.competicion}</div>
+    <div class="cuando">${cuando(d.fecha)}</div>
+    <div class="duelo">${lado(d.local, d.escudo_local)}<div class="centro">VS</div>${lado(d.visitante, d.escudo_visitante)}</div>
+    <div class="nota" style="text-align:center">${d.estadio ?? ""}</div>
+    ${previos.length ? html`<div class="fila-forma" style="margin-top:1rem"><span class="etiqueta">${t("Racha en esta competición", "Form in this competition")}</span>${pildoras(previos)}</div>` : ""}
+    ${proximo ? html`<div class="nota" style="margin-top:1rem">${t("Después, en Liga", "Then, in LaLiga")}: ${nombre(proximo.local)} – ${nombre(proximo.visitante)}, ${fecha(proximo.fecha)}. ${t("Madrid", "Madrid")} ${pct(proximo.p_victoria)} · ${t("empate", "draw")} ${pct(proximo.p_empate)} · ${nombre(proximo.rival)} ${pct(proximo.p_derrota)}. <a href="./prediccion">${t("Predicción", "Prediction")}</a></div>` : ""}
+    ${d.liga === "uefa.champions" ? html`<div class="nota"><a href="./champions">${t("Todo sobre la Champions", "All about the Champions League")}</a></div>` : ""}
+  </div>`;
+}
+```
+
 <div class="grid grid-cols-4">
-  ${proximo ? fichaProximo(proximo) : html`<div class="card grid-colspan-2 grid-rowspan-2"><p>No league matches left this season.</p></div>`}
+  ${otraComp ? fichaOtra(otraComp) : proximo ? fichaProximo(proximo) : html`<div class="card grid-colspan-2 grid-rowspan-2"><p>No league matches left this season.</p></div>`}
   <div class="card kpi">
     <div class="etiqueta">Points</div>
     <div class="cifra">${sum("puntos")}<small>in ${jugados.length} matches</small></div>
@@ -114,6 +144,23 @@ function fichaProximo(p) {
     <div class="nota">${rmSim ? html`Final points: ${ent(rmSim.puntos_media)} (90%: ${ent(rmSim.puntos_p05)}–${ent(rmSim.puntos_p95)})` : "Season over"}</div>
   </div>
 </div>
+
+## ${t("Calendario, todas las competiciones", "Fixtures, all competitions")}
+
+```js
+const proximos5 = todas.filter((d) => !d.jugado).slice(0, 6);
+const ultimos5 = todas.filter((d) => d.jugado).slice(-6).reverse();
+const filaCal = (d) => html`<tr>
+  <td class="nota">${fecha(d.fecha)}${d.jugado ? "" : ` · ${horaDe(d.fecha)}`}</td>
+  <td><span class="etiqueta">${COMP[d.liga] ?? d.competicion}</span></td>
+  <td>${conEscudoDe(d.local, d.escudo_local, 18)}</td>
+  <td style="text-align:center;white-space:nowrap">${d.jugado ? html`<b>${d.goles_local}–${d.goles_visitante}</b> <span class="res res-${d.resultado}">${letra(d.resultado)}</span>` : "–"}</td>
+  <td>${conEscudoDe(d.visitante, d.escudo_visitante, 18)}</td></tr>`;
+display(html`<div class="grid grid-cols-1">
+  <div class="card" style="overflow-x:auto"><h3>${t("Próximos", "Upcoming")}</h3><table class="tabla-ucl tabla-cal">${proximos5.map(filaCal)}</table></div>
+  <div class="card" style="overflow-x:auto"><h3>${t("Últimos resultados", "Latest results")}</h3><table class="tabla-ucl tabla-cal">${ultimos5.map(filaCal)}</table></div>
+</div>`);
+```
 
 ## xG for and against, match by match
 

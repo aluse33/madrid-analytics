@@ -9,7 +9,7 @@ const T = EN
 // y el rival hacia la izquierda: sus tiros se reflejan (x -> 105 - x, y -> 68 - y).
 const L = 105, A = 68;
 
-function lineas() {
+export function lineas() {
   const c = {stroke: "var(--campo-linea)", strokeWidth: 1.2};
   const area = (x0, w, h) => [[x0, (A - h) / 2], [x0 + w, (A - h) / 2], [x0 + w, (A + h) / 2], [x0, (A + h) / 2]];
   const circulo = (cx, cy, r, a0 = 0, a1 = 2 * Math.PI) =>
@@ -31,6 +31,46 @@ function lineas() {
     Plot.line(circulo(L - 11, A / 2, 9.15, Math.PI - arco, Math.PI + arco), c),
     Plot.dot([[11, A / 2], [L - 11, A / 2], [L / 2, A / 2]], {r: 1.5, fill: "var(--campo-linea)"})
   ];
+}
+
+// Medio campo en vertical, con la portería arriba. Coordenadas de dibujo: u = 68 − y (izquierda del
+// atacante a la izquierda de la pantalla) y v = x (de 52,5 a 105).
+function lineasMedio() {
+  const c = {stroke: "var(--campo-linea)", strokeWidth: 1.2};
+  const rect = (x0, x1, h) => [[(A - h) / 2, x0], [(A + h) / 2, x0], [(A + h) / 2, x1], [(A - h) / 2, x1], [(A - h) / 2, x0]];
+  const arco = Math.acos((16.5 - 11) / 9.15);
+  const circ = (cx, cy, r, a0, a1) => Array.from({length: 41}, (_, i) => {
+    const t = a0 + ((a1 - a0) * i) / 40;
+    return [cx + r * Math.sin(t), cy + r * Math.cos(t)];
+  });
+  return [
+    Plot.rect([{}], {x1: 0, x2: A, y1: L / 2, y2: L, fill: "var(--campo-fondo)", ...c}),
+    Plot.line(rect(L - 16.5, L, 40.3), c),
+    Plot.line(rect(L - 5.5, L, 18.32), c),
+    Plot.line([[(A - 7.32) / 2, L], [(A + 7.32) / 2, L]], {...c, strokeWidth: 4}),
+    // semicírculo del centro y arco del área (la parte fuera del área)
+    Plot.line(circ(A / 2, L / 2, 9.15, -Math.PI / 2, Math.PI / 2), c),
+    Plot.line(circ(A / 2, L - 11, 9.15, Math.PI - arco, Math.PI + arco), c),
+    Plot.dot([[A / 2, L - 11]], {r: 1.5, fill: "var(--campo-linea)"})
+  ];
+}
+
+// tiros de un jugador (siempre a favor): goles rellenos, el resto aros; tamaño = xG
+export function mapaTirosMedio(tiros, {width = 420} = {}) {
+  const datos = tiros.map((t) => ({...t, u: A - t.y, v: t.x, gol: t.resultado === "gol"}));
+  const w = Math.min(width, 560);
+  return Plot.plot({
+    width: w, height: Math.round((w * (L / 2 + 2.5)) / A), margin: 0, inset: 0,
+    x: {domain: [0, A], axis: null}, y: {domain: [L / 2, L + 2.5], axis: null},
+    r: {domain: [0, 0.8], range: [3, 16]},
+    marks: [
+      ...lineasMedio(),
+      Plot.dot(datos.filter((d) => !d.gol), {x: "u", y: "v", r: "xg_understat", fill: "var(--campo-fondo)", fillOpacity: 0.85, stroke: "var(--rm)", strokeWidth: 2}),
+      Plot.dot(datos.filter((d) => d.gol), {x: "u", y: "v", r: "xg_understat", fill: "var(--rm)", stroke: "var(--campo-fondo)", strokeWidth: 2}),
+      Plot.tip(datos, Plot.pointer({x: "u", y: "v",
+        title: (d) => `${d.partido ? d.partido + "\n" : ""}${T.min} ${d.minuto}\nxG ${(+d.xg_understat).toLocaleString(LOC, {maximumFractionDigits: 2})}\n${d.situacion} · ${d.parte_cuerpo}\n${T.res}: ${T[d.resultado] ?? d.resultado}`}))
+    ]
+  });
 }
 
 // tiros: filas de tiros_rm.csv de un partido

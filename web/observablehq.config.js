@@ -1,12 +1,15 @@
 // Configuración de Observable Framework: https://observablehq.com/framework/config
 export default {
-  title: "Real Madrid Analytics",
+  title: "Madridismo Analítico",
   root: "src",
   lang: "es",
   pages: [
     {name: "Resumen", path: "/"},
     {name: "Partido", path: "/partido"},
+    {name: "Champions League", path: "/champions"},
+    {name: "Histórico", path: "/historico"},
     {name: "Jugadores", path: "/jugadores"},
+    {name: "Ficha de jugador", path: "/jugador"},
     {name: "Predicción", path: "/prediccion"},
     {name: "Simulación Monte Carlo", path: "/montecarlo"},
     {name: "Laboratorio de modelos", path: "/modelos"},
@@ -31,7 +34,7 @@ export default {
     if (tema && window.RM_EN) tema.textContent = "🌓 Theme";
     if (!window.RM_EN) return;
     // en inglés: barra lateral, pie y enlaces apuntando a las páginas /en/
-    const T = {"Resumen": "Summary", "Partido": "Match", "Jugadores": "Players", "Predicción": "Prediction",
+    const T = {"Resumen": "Summary", "Partido": "Match", "Jugadores": "Players", "Ficha de jugador": "Player profile", "Histórico": "History", "Predicción": "Prediction",
       "Simulación Monte Carlo": "Monte Carlo simulation", "Laboratorio de modelos": "Model lab", "Metodología": "Methodology"};
     const aqui = location.href.split(/[?#]/)[0].replace(/\\/$/, "");
     for (const a of document.querySelectorAll("#observablehq-sidebar a[href]")) {
@@ -46,7 +49,7 @@ export default {
       }
     }
     const pie = document.querySelector("#observablehq-footer");
-    if (pie) pie.textContent = "Data: Understat (via soccerdata). Crests: luukhopman/football-logos; trademarks of each club. Personal project, not affiliated with Real Madrid C.F.";
+    if (pie) pie.textContent = "Data: Understat (via soccerdata), ESPN and Wikipedia (CC BY-SA). Crests: luukhopman/football-logos; trademarks of each club. Personal project, not affiliated with Real Madrid C.F.";
     const fuente = document.getElementById("fuente-datos");
     if (fuente) fuente.textContent = "Data: Understat";
   });
@@ -72,7 +75,7 @@ export default {
   try { localStorage.setItem('rm-tema', r.dataset.theme); } catch (e) {}
   b.textContent = window.RM_EN ? (oscuro ? '🌙 Dark mode' : '☀️ Light mode') : (oscuro ? '🌙 Modo oscuro' : '☀️ Modo claro');
 })(this)">🌓 Cambiar tema</button>`,
-  footer: "Datos: Understat (vía soccerdata). Escudos: luukhopman/football-logos; son marcas de cada club. Proyecto personal, sin relación con el Real Madrid C.F.",
+  footer: "Datos: Understat (vía soccerdata), ESPN y Wikipedia (CC BY-SA). Escudos: luukhopman/football-logos; son marcas de cada club. Proyecto personal, sin relación con el Real Madrid C.F.",
   toc: {label: "En esta página"},
   pager: false,
   search: true,

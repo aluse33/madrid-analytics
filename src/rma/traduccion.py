@@ -21,6 +21,7 @@ RUTAS = [
     ('from "./components/', 'from "../components/'),
     ('from "./equipos/', 'from "../equipos/'),
     ('FileAttachment("data/', 'FileAttachment("../data/'),
+    ('FileAttachment("mapas/', 'FileAttachment("../mapas/'),
 ]
 
 COMUN = [
@@ -142,6 +143,14 @@ PAGINAS: dict[str, list[tuple[str, str]]] = {
          "Right of zero: more goals than their shots were worth; left: fewer. The table says whether the gap is rare or normal."),
         ('header: {jugador: "Jugador", tiros: "Tiros", goles: "Goles", xg: "npxG", p_al_menos: "P(≥ goles)", p_como_mucho: "P(≤ goles)"},',
          'header: {jugador: "Player", tiros: "Shots", goles: "Goals", xg: "npxG", p_al_menos: "P(≥ goals)", p_como_mucho: "P(≤ goals)"},'),
+    ],
+    # las páginas nuevas llevan los dos idiomas dentro, con t("es", "en") de formato.js
+    "champions.md": [],
+    "historico.md": [
+        ("title: Histórico", "title: History"),
+    ],
+    "jugador.md": [
+        ("title: Ficha de jugador", "title: Player profile"),
     ],
     "prediccion.md": [
         ("title: Predicción", "title: Prediction"),
