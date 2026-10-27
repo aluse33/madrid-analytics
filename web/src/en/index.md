@@ -74,6 +74,7 @@ ${estado.muestra ? html`<div class="aviso"><b>Sample data.</b> Everything here i
 <div class="nota" style="margin:0.2rem 0 1.2rem">LaLiga · updated ${fechaHora(estado.actualizado)}</div>
 
 <div class="aviso aviso-obras">
+  <div style="margin-bottom:0.3rem">${t("Un proyecto de", "A project by")} <a href="https://aluse33.github.io/" target="_blank" rel="noopener"><b>Alejandro Lucas</b></a>.</div>
   <b>🚧 ${t("Proyecto en desarrollo.", "Work in progress.")}</b>
   ${t("Puede haber errores en los datos o en los gráficos. Los modelos de predicción y de machine learning están en una fase temprana y todavía necesitan mucho trabajo: tómalos como un experimento, no como un pronóstico fiable.",
     "There may be errors in the data or the charts. The prediction and machine learning models are at an early stage and still need a lot of work: treat them as an experiment, not as a reliable forecast.")}
