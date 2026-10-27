@@ -1,4 +1,4 @@
-# Madridismo Analítico
+# Minuto 90
 
 Web de análisis del Real Madrid en LaLiga con modelos estadísticos y de *machine learning*, que se actualiza sola tras cada jornada.
 

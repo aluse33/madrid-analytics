@@ -23,7 +23,7 @@ from rma.config import Config
 log = logging.getLogger(__name__)
 
 API = "https://{}.wikipedia.org/w/api.php"
-CABECERAS = {"User-Agent": "madridismo-analitico/1.0 (proyecto personal; https://github.com/aluse33/madrid-analytics)"}
+CABECERAS = {"User-Agent": "minuto-90/1.0 (proyecto personal; https://github.com/aluse33/madrid-analytics)"}
 PAGINAS = {
     "club": ("en", "Real Madrid CF"),
     "temporadas": ("en", "List of Real Madrid CF seasons"),

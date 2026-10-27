@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "rma"
 version = "0.1.0"
-description = "Madridismo Analítico: ingesta, procesado y modelos para la web"
+description = "Minuto 90: ingesta, procesado y modelos para la web"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [

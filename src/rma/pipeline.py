@@ -21,7 +21,7 @@ from rma.process import build
 
 
 def main(argv: list[str] | None = None) -> None:
-    ap = argparse.ArgumentParser(prog="rma", description="Madridismo Analítico")
+    ap = argparse.ArgumentParser(prog="rma", description="Minuto 90")
     ap.add_argument("orden", choices=["ingesta", "muestra", "procesar", "salidas", "traducir", "todo"])
     ap.add_argument("--actual", action="store_true", help="ingesta: solo la temporada en curso")
     ap.add_argument("--muestra", action="store_true", help="todo: con datos sintéticos")

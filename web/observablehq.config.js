@@ -1,6 +1,6 @@
 // Configuración de Observable Framework: https://observablehq.com/framework/config
 export default {
-  title: "Madridismo Analítico",
+  title: "Minuto 90",
   root: "src",
   lang: "es",
   pages: [

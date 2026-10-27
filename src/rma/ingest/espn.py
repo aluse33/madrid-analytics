@@ -26,7 +26,7 @@ log = logging.getLogger(__name__)
 API = "https://site.api.espn.com/apis/site/v2/sports/soccer"
 API_TABLAS = "https://site.api.espn.com/apis/v2/sports/soccer"
 ID_MADRID = 86
-CABECERAS = {"User-Agent": "Mozilla/5.0 (madridismo-analitico; proyecto personal)"}
+CABECERAS = {"User-Agent": "Mozilla/5.0 (minuto-90; proyecto personal)"}
 # competiciones oficiales que seguimos (los amistosos se descartan)
 COMPETICIONES = {
     "esp.1": "LaLiga",
