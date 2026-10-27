@@ -1,5 +1,5 @@
 ---
-title: Players
+title: Squad
 toc:
   label: "On this page"
 ---

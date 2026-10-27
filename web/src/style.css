@@ -4,6 +4,7 @@
    (data-theme en <html>) y se recuerda en este navegador. */
 @import url("observablehq:default.css");
 @import url("./equipos/marca.css");  /* generado: escudo del Madrid incrustado */
+@import url("./marca/escudo-blanco.css");  /* escudo blanco de la barra lateral */
 
 /* ================= Tokens: modo claro ================= */
 :root {
@@ -106,7 +107,7 @@ body { background: var(--fondo); }
   flex: 0 0 auto;
   width: 30px;
   height: 38px;
-  background: var(--escudo-rm) center / contain no-repeat;
+  background: var(--escudo-blanco, var(--escudo-rm)) center / contain no-repeat;
 }
 #observablehq-sidebar .observablehq-link a { border-radius: 8px; }
 #observablehq-sidebar .observablehq-link-active a,

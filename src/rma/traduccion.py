@@ -85,7 +85,7 @@ PAGINAS: dict[str, list[tuple[str, str]]] = {
         ("title: Partidos", "title: Matches"),
     ],
     "jugadores.md": [
-        ("title: Jugadores", "title: Players"),
+        ("title: Plantilla", "title: Squad"),
         ("# Jugadores: lo que dicen los datos y lo que hay de ruido", "# Players: signal and noise"),
         ("Con pocas jornadas, el xG por 90 minutos de quien ha jugado poco es casi todo ruido. Aquí cada jugador aparece con **dos estimaciones**: la bruta (sus números tal cual) y la **empírico-bayesiana**, que la acerca a la media de su puesto en toda LaLiga más cuanto menos haya jugado. Las barras son intervalos creíbles del 90 %. El modelo está explicado en [Metodología](./metodologia).",
          "Early in the season, the xG per 90 minutes of someone who has barely played is mostly noise. Each player shows **two estimates**: the raw one (their numbers as they are) and the **empirical Bayes** one, which pulls them towards the LaLiga average for their position, the more so the fewer minutes they have. Bars are 90% credible intervals. The model is explained in [Methodology](./metodologia)."),
