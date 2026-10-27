@@ -17,6 +17,7 @@ const jugRM = FileAttachment("../data/jugadores_rm.csv").csv({typed: true});
 const liga = FileAttachment("../data/jugadores_liga.csv").csv({typed: true});
 const historico = FileAttachment("../data/jugadores_historico.csv").csv({typed: true});
 const eb = FileAttachment("../data/jugadores_eb.csv").csv({typed: true});
+const fotos = FileAttachment("../data/jugadores_fotos.csv").csv({typed: true});
 ```
 
 ```js
@@ -42,9 +43,33 @@ const ebDe = (m) => eb.find((d) => d.jugador === jugador && d.metrica === m);
 const rotulo = (p) => `J${p.jornada} · ${p.condicion === "Local" ? "vs" : "@"} ${nombre(p.rival)}`;
 ```
 
+```js
+// foto de ESPN: mismo nombre sin tildes ni mayúsculas; si no, mismo apellido
+const llano = (s) => String(s).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+const fotoDe = (n) => fotos.find((f) => llano(f.nombre) === llano(n))
+  ?? fotos.find((f) => llano(f.nombre).split(" ").at(-1) === llano(n).split(" ").at(-1) && llano(n).split(" ").length > 1);
+const fila_foto = fotoDe(jugador);
+const iniciales = jugador.split(" ").filter(Boolean).map((x) => x[0]).slice(0, 2).join("");
+function retrato() {
+  const caja = html`<div class="retrato"><span>${iniciales}</span></div>`;
+  if (fila_foto?.foto) {
+    const img = html`<img src=${fila_foto.foto} alt="${jugador}" loading="lazy">`;
+    img.onload = () => caja.classList.add("con-foto");
+    img.onerror = () => img.remove();
+    caja.prepend(img);
+  }
+  return caja;
+}
+```
+
 <div class="card destacada ficha">
-  <div class="etiqueta">${puestoTxt(puesto)} · Real Madrid · LaLiga ${estado.temporada}</div>
-  <h1 style="margin:0.2rem 0 0.8rem">${jugador}</h1>
+  <div class="ficha-cab">
+    ${retrato()}
+    <div>
+      <div class="etiqueta">${puestoTxt(puesto)} · Real Madrid · LaLiga ${estado.temporada}${fila_foto?.dorsal ? ` · ${fila_foto.dorsal}` : ""}</div>
+      <h1 style="margin:0.2rem 0 0.8rem">${jugador}</h1>
+    </div>
+  </div>
   <div class="cifras-ficha">
     <div><b>${pj.length}</b><span>${t("partidos", "matches")}</span></div>
     <div><b>${ent(minutos)}</b><span>${t("minutos", "minutes")}</span></div>

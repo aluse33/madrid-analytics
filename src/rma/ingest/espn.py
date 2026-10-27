@@ -68,6 +68,10 @@ def descargar(cfg: Config) -> None:
         (d / "champions_tabla.json").write_text(json.dumps(_get(f"{API_TABLAS}/uefa.champions/standings")))
     except requests.RequestException:
         log.warning("ESPN: sin tabla de la Champions", exc_info=True)
+    try:  # plantilla: trae la foto de cada jugador
+        (d / "plantilla.json").write_text(json.dumps(_get(f"{API}/esp.1/teams/{ID_MADRID}/roster")))
+    except requests.RequestException:
+        log.warning("ESPN: sin plantilla", exc_info=True)
 
     nuevos = 0
     for e in _eventos(d / "calendario.json"):
@@ -174,6 +178,7 @@ def detalle(js: dict) -> dict:
         for p in r.get("roster", []):
             st = {s["name"]: s.get("value") for s in p.get("stats", [])}
             jug.append({
+                "id": p["athlete"].get("id"),
                 "nombre": p["athlete"]["displayName"], "corto": p["athlete"].get("shortName"),
                 "dorsal": p.get("jersey"), "pos": p.get("position", {}).get("abbreviation"),
                 "titular": bool(p.get("starter")), "entra": bool(p.get("subbedIn")),
@@ -212,6 +217,35 @@ def tabla_champions(js: dict) -> pd.DataFrame:
     return pd.DataFrame(filas).sort_values("puesto") if filas else pd.DataFrame()
 
 
+FOTO = "https://a.espncdn.com/i/headshots/soccer/players/full/{}.png"
+
+
+def fotos_madrid(cfg: Config, detalles: dict) -> pd.DataFrame:
+    """Jugadores del Madrid con su foto de ESPN: de la plantilla si la trae, si no por su identificador."""
+    filas = {}
+    for det in detalles.values():
+        for al in det["alineaciones"]:
+            if al["equipo"] != cfg.equipo:
+                continue
+            for j in al["jugadores"]:
+                if j.get("id"):
+                    filas[j["id"]] = {"espn_id": j["id"], "nombre": j["nombre"], "dorsal": j.get("dorsal"),
+                                      "foto": FOTO.format(j["id"])}
+    ruta = cfg.raw / "espn" / "plantilla.json"
+    if ruta.exists():
+        js = json.loads(ruta.read_text())
+        for a in js.get("athletes", []):
+            # según la versión de la API, lista plana o agrupada por posición
+            for x in a.get("items", [a]):
+                if not x.get("id"):
+                    continue
+                f = filas.setdefault(x["id"], {"espn_id": x["id"], "nombre": x.get("displayName"),
+                                               "dorsal": x.get("jersey"), "foto": FOTO.format(x["id"])})
+                if (x.get("headshot") or {}).get("href"):
+                    f["foto"] = x["headshot"]["href"]
+    return pd.DataFrame(filas.values())
+
+
 def salidas(cfg: Config, web: Path, escribir_csv, escribir_json) -> None:
     """Escribe los ficheros de la web. Si no hay datos de ESPN, no hace nada (la web lo tolera)."""
     d = cfg.raw / "espn"
@@ -244,6 +278,10 @@ def salidas(cfg: Config, web: Path, escribir_csv, escribir_json) -> None:
             except (KeyError, ValueError):
                 log.warning("ESPN: ficha ilegible %s", f.name, exc_info=True)
     escribir_json(detalles, web / "eventos.json")
+
+    fotos = fotos_madrid(cfg, detalles)
+    if not fotos.empty:
+        escribir_csv(fotos, web / "jugadores_fotos.csv")
 
     ruta = d / "champions_tabla.json"
     tabla = tabla_champions(json.loads(ruta.read_text())) if ruta.exists() else pd.DataFrame()

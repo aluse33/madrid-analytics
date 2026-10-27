@@ -179,6 +179,7 @@
     "formacion": "4-3-3",
     "jugadores": [
      {
+      "id": "297362",
       "nombre": "Joan García",
       "corto": "J. García",
       "dorsal": "1",
@@ -192,6 +193,7 @@
       "rojas": 0
      },
      {
+      "id": "312015",
       "nombre": "Gerard Martín",
       "corto": "G. Martín",
       "dorsal": "18",
@@ -205,6 +207,7 @@
       "rojas": 0
      },
      {
+      "id": "368992",
       "nombre": "Pau Cubarsí",
       "corto": "P. Cubarsí",
       "dorsal": "5",
@@ -218,6 +221,7 @@
       "rojas": 0
      },
      {
+      "id": "176399",
       "nombre": "João Cancelo",
       "corto": "J. Cancelo",
       "dorsal": "2",
@@ -231,6 +235,7 @@
       "rojas": 0
      },
      {
+      "id": "403582",
       "nombre": "Xavi Espart",
       "corto": "X. Espart",
       "dorsal": "12",
@@ -244,6 +249,7 @@
       "rojas": 0
      },
      {
+      "id": "231828",
       "nombre": "Rodri",
       "corto": "Rodri",
       "dorsal": "16",
@@ -257,6 +263,7 @@
       "rojas": 0
      },
      {
+      "id": "250465",
       "nombre": "Pedri",
       "corto": "Pedri",
       "dorsal": "8",
@@ -270,6 +277,7 @@
       "rojas": 0
      },
      {
+      "id": "354334",
       "nombre": "Fermín López",
       "corto": "F. López",
       "dorsal": "7",
@@ -283,6 +291,7 @@
       "rojas": 0
      },
      {
+      "id": "231050",
       "nombre": "Raphinha",
       "corto": "Raphinha",
       "dorsal": "11",
@@ -296,6 +305,7 @@
       "rojas": 0
      },
      {
+      "id": "268782",
       "nombre": "Anthony Gordon",
       "corto": "A. Gordon",
       "dorsal": "17",
@@ -309,6 +319,7 @@
       "rojas": 0
      },
      {
+      "id": "362150",
       "nombre": "Lamine Yamal",
       "corto": "L. Yamal",
       "dorsal": "10",
@@ -322,6 +333,7 @@
       "rojas": 0
      },
      {
+      "id": "131634",
       "nombre": "Wojciech Szczesny",
       "corto": "W. Szczesny",
       "dorsal": "13",
@@ -335,6 +347,7 @@
       "rojas": 0
      },
      {
+      "id": "323702",
       "nombre": "Gavi",
       "corto": "Gavi",
       "dorsal": "6",
@@ -348,6 +361,7 @@
       "rojas": 0
      },
      {
+      "id": "403575",
       "nombre": "Brian Fariñas",
       "corto": "B. Fariñas",
       "dorsal": "4",
@@ -361,6 +375,7 @@
       "rojas": 0
      },
      {
+      "id": "323703",
       "nombre": "Alejandro Balde",
       "corto": "A. Balde",
       "dorsal": "3",
@@ -374,6 +389,7 @@
       "rojas": 0
      },
      {
+      "id": "187946",
       "nombre": "Dominik Livakovic",
       "corto": "D. Livakovic",
       "dorsal": "25",
@@ -387,6 +403,7 @@
       "rojas": 0
      },
      {
+      "id": "217289",
       "nombre": "Gabriel Jesus",
       "corto": "G. Jesus",
       "dorsal": "9",
@@ -400,6 +417,7 @@
       "rojas": 0
      },
      {
+      "id": "94947",
       "nombre": "Álex Campos",
       "corto": "Á. Campos",
       "dorsal": "41",
@@ -413,6 +431,7 @@
       "rojas": 0
      },
      {
+      "id": "274913",
       "nombre": "Karim Adeyemi",
       "corto": "K. Adeyemi",
       "dorsal": "14",
@@ -426,6 +445,7 @@
       "rojas": 0
      },
      {
+      "id": "219022",
       "nombre": "Frenkie de Jong",
       "corto": "F. de Jong",
       "dorsal": "21",
@@ -439,6 +459,7 @@
       "rojas": 0
      },
      {
+      "id": "416496",
       "nombre": "Orian Goren",
       "corto": "O. Goren",
       "dorsal": "32",
@@ -452,6 +473,7 @@
       "rojas": 0
      },
      {
+      "id": "399200",
       "nombre": "Hamza Abdelkarim",
       "corto": "H. Abdelkarim",
       "dorsal": "29",
@@ -465,6 +487,7 @@
       "rojas": 0
      },
      {
+      "id": "376423",
       "nombre": "Marc Bernal",
       "corto": "M. Bernal",
       "dorsal": "22",
@@ -485,6 +508,7 @@
     "formacion": "4-2-3-1",
     "jugadores": [
      {
+      "id": "257237",
       "nombre": "Andriy Lunin",
       "corto": "A. Lunin",
       "dorsal": "13",
@@ -498,6 +522,7 @@
       "rojas": 0
      },
      {
+      "id": "356000",
       "nombre": "Dean Huijsen",
       "corto": "D. Huijsen",
       "dorsal": "4",
@@ -511,6 +536,7 @@
       "rojas": 0
      },
      {
+      "id": "251634",
       "nombre": "Ibrahima Konaté",
       "corto": "I. Konaté",
       "dorsal": "16",
@@ -524,6 +550,7 @@
       "rojas": 0
      },
      {
+      "id": "259910",
       "nombre": "Marc Cucurella",
       "corto": "M. Cucurella",
       "dorsal": "17",
@@ -537,6 +564,7 @@
       "rojas": 0
      },
      {
+      "id": "235818",
       "nombre": "Federico Valverde",
       "corto": "F. Valverde",
       "dorsal": "8",
@@ -550,6 +578,7 @@
       "rojas": 0
      },
      {
+      "id": "291281",
       "nombre": "Jude Bellingham",
       "corto": "J. Bellingham",
       "dorsal": "5",
@@ -563,6 +592,7 @@
       "rojas": 0
      },
      {
+      "id": "265919",
       "nombre": "Aurélien Tchouaméni",
       "corto": "A. Tchouaméni",
       "dorsal": "14",
@@ -576,6 +606,7 @@
       "rojas": 0
      },
      {
+      "id": "199833",
       "nombre": "Bernardo Silva",
       "corto": "B. Silva",
       "dorsal": "20",
@@ -589,6 +620,7 @@
       "rojas": 0
      },
      {
+      "id": "231388",
       "nombre": "Kylian Mbappé",
       "corto": "K. Mbappé",
       "dorsal": "10",
@@ -602,6 +634,7 @@
       "rojas": 0
      },
      {
+      "id": "402479",
       "nombre": "Yan Diomande",
       "corto": "Y. Diomande",
       "dorsal": "25",
@@ -615,6 +648,7 @@
       "rojas": 0
      },
      {
+      "id": "310452",
       "nombre": "Arda Güler",
       "corto": "A. Güler",
       "dorsal": "15",
@@ -628,6 +662,7 @@
       "rojas": 0
      },
      {
+      "id": "228402",
       "nombre": "Éder Militão",
       "corto": "É. Militão",
       "dorsal": "3",
@@ -641,6 +676,7 @@
       "rojas": 0
      },
      {
+      "id": "310637",
       "nombre": "Álvaro Carreras",
       "corto": "Á. Carreras",
       "dorsal": "18",
@@ -654,6 +690,7 @@
       "rojas": 0
      },
      {
+      "id": "350351",
       "nombre": "Sergio Mestre",
       "corto": "S. Mestre",
       "dorsal": "26",
@@ -667,6 +704,7 @@
       "rojas": 0
      },
      {
+      "id": "213248",
       "nombre": "Denzel Dumfries",
       "corto": "D. Dumfries",
       "dorsal": "24",
@@ -680,6 +718,7 @@
       "rojas": 0
      },
      {
+      "id": "405490",
       "nombre": "Illia Voloshyn",
       "corto": "I. Voloshyn",
       "dorsal": "39",
@@ -693,6 +732,7 @@
       "rojas": 0
      },
      {
+      "id": "223532",
       "nombre": "Trent Alexander-Arnold",
       "corto": "T. Alexander-Arnold",
       "dorsal": "12",
@@ -706,6 +746,7 @@
       "rojas": 0
      },
      {
+      "id": "409019",
       "nombre": "Thiago Pitarch",
       "corto": "T. Pitarch",
       "dorsal": "27",
@@ -719,6 +760,7 @@
       "rojas": 0
      },
      {
+      "id": "169438",
       "nombre": "Antonio Rüdiger",
       "corto": "A. Rüdiger",
       "dorsal": "22",
@@ -732,6 +774,7 @@
       "rojas": 0
      },
      {
+      "id": "380286",
       "nombre": "Carlos Espí",
       "corto": "C. Espí",
       "dorsal": "19",
@@ -745,6 +788,7 @@
       "rojas": 0
      },
      {
+      "id": "346612",
       "nombre": "Endrick",
       "corto": "Endrick",
       "dorsal": "9",
@@ -758,6 +802,7 @@
       "rojas": 0
      },
      {
+      "id": "285150",
       "nombre": "Eduardo Camavinga",
       "corto": "E. Camavinga",
       "dorsal": "6",
@@ -771,6 +816,7 @@
       "rojas": 0
      },
      {
+      "id": "246532",
       "nombre": "Brahim Díaz",
       "corto": "B. Díaz",
       "dorsal": "21",
@@ -1052,6 +1098,7 @@
     "formacion": "4-2-3-1",
     "jugadores": [
      {
+      "id": "134283",
       "nombre": "Thibaut Courtois",
       "corto": "T. Courtois",
       "dorsal": "1",
@@ -1065,6 +1112,7 @@
       "rojas": 0
      },
      {
+      "id": "356000",
       "nombre": "Dean Huijsen",
       "corto": "D. Huijsen",
       "dorsal": "4",
@@ -1078,6 +1126,7 @@
       "rojas": 0
      },
      {
+      "id": "251634",
       "nombre": "Ibrahima Konaté",
       "corto": "I. Konaté",
       "dorsal": "16",
@@ -1091,6 +1140,7 @@
       "rojas": 0
      },
      {
+      "id": "259910",
       "nombre": "Marc Cucurella",
       "corto": "M. Cucurella",
       "dorsal": "17",
@@ -1104,6 +1154,7 @@
       "rojas": 0
      },
      {
+      "id": "235818",
       "nombre": "Federico Valverde",
       "corto": "F. Valverde",
       "dorsal": "8",
@@ -1117,6 +1168,7 @@
       "rojas": 0
      },
      {
+      "id": "291281",
       "nombre": "Jude Bellingham",
       "corto": "J. Bellingham",
       "dorsal": "5",
@@ -1130,6 +1182,7 @@
       "rojas": 0
      },
      {
+      "id": "265919",
       "nombre": "Aurélien Tchouaméni",
       "corto": "A. Tchouaméni",
       "dorsal": "14",
@@ -1143,6 +1196,7 @@
       "rojas": 0
      },
      {
+      "id": "310452",
       "nombre": "Arda Güler",
       "corto": "A. Güler",
       "dorsal": "15",
@@ -1156,6 +1210,7 @@
       "rojas": 0
      },
      {
+      "id": "231388",
       "nombre": "Kylian Mbappé",
       "corto": "K. Mbappé",
       "dorsal": "10",
@@ -1169,6 +1224,7 @@
       "rojas": 0
      },
      {
+      "id": "402479",
       "nombre": "Yan Diomande",
       "corto": "Y. Diomande",
       "dorsal": "25",
@@ -1182,6 +1238,7 @@
       "rojas": 0
      },
      {
+      "id": "346612",
       "nombre": "Endrick",
       "corto": "Endrick",
       "dorsal": "9",
@@ -1195,6 +1252,7 @@
       "rojas": 0
      },
      {
+      "id": "246532",
       "nombre": "Brahim Díaz",
       "corto": "B. Díaz",
       "dorsal": "21",
@@ -1208,6 +1266,7 @@
       "rojas": 0
      },
      {
+      "id": "409019",
       "nombre": "Thiago Pitarch",
       "corto": "T. Pitarch",
       "dorsal": "27",
@@ -1221,6 +1280,7 @@
       "rojas": 0
      },
      {
+      "id": "380286",
       "nombre": "Carlos Espí",
       "corto": "C. Espí",
       "dorsal": "19",
@@ -1234,6 +1294,7 @@
       "rojas": 0
      },
      {
+      "id": "223532",
       "nombre": "Trent Alexander-Arnold",
       "corto": "T. Alexander-Arnold",
       "dorsal": "12",
@@ -1247,6 +1308,7 @@
       "rojas": 0
      },
      {
+      "id": "213248",
       "nombre": "Denzel Dumfries",
       "corto": "D. Dumfries",
       "dorsal": "24",
@@ -1260,6 +1322,7 @@
       "rojas": 0
      },
      {
+      "id": "257237",
       "nombre": "Andriy Lunin",
       "corto": "A. Lunin",
       "dorsal": "13",
@@ -1273,6 +1336,7 @@
       "rojas": 0
      },
      {
+      "id": "228402",
       "nombre": "Éder Militão",
       "corto": "É. Militão",
       "dorsal": "3",
@@ -1286,6 +1350,7 @@
       "rojas": 0
      },
      {
+      "id": "199833",
       "nombre": "Bernardo Silva",
       "corto": "B. Silva",
       "dorsal": "20",
@@ -1299,6 +1364,7 @@
       "rojas": 0
      },
      {
+      "id": "169438",
       "nombre": "Antonio Rüdiger",
       "corto": "A. Rüdiger",
       "dorsal": "22",
@@ -1312,6 +1378,7 @@
       "rojas": 0
      },
      {
+      "id": "310637",
       "nombre": "Álvaro Carreras",
       "corto": "Á. Carreras",
       "dorsal": "18",
@@ -1325,6 +1392,7 @@
       "rojas": 0
      },
      {
+      "id": "285150",
       "nombre": "Eduardo Camavinga",
       "corto": "E. Camavinga",
       "dorsal": "6",
@@ -1338,6 +1406,7 @@
       "rojas": 0
      },
      {
+      "id": "84349",
       "nombre": "Javier Navarro",
       "corto": "J. Navarro",
       "dorsal": "31",
@@ -1358,6 +1427,7 @@
     "formacion": "4-2-3-1",
     "jugadores": [
      {
+      "id": "159135",
       "nombre": "Odisseas Vlachodimos",
       "corto": "O. Vlachodimos",
       "dorsal": "1",
@@ -1371,6 +1441,7 @@
       "rojas": 0
      },
      {
+      "id": "334163",
       "nombre": "Enrique Salas",
       "corto": "E. Salas",
       "dorsal": "4",
@@ -1384,6 +1455,7 @@
       "rojas": 0
      },
      {
+      "id": "332246",
       "nombre": "Andrés Castrín",
       "corto": "A. Castrín",
       "dorsal": "5",
@@ -1397,6 +1469,7 @@
       "rojas": 0
      },
      {
+      "id": "222037",
       "nombre": "Gabriel Suazo",
       "corto": "G. Suazo",
       "dorsal": "17",
@@ -1410,6 +1483,7 @@
       "rojas": 0
      },
      {
+      "id": "279738",
       "nombre": "Juan Iglesias",
       "corto": "J. Iglesias",
       "dorsal": "2",
@@ -1423,6 +1497,7 @@
       "rojas": 0
      },
      {
+      "id": "347359",
       "nombre": "Peque",
       "corto": "Peque",
       "dorsal": "10",
@@ -1436,6 +1511,7 @@
       "rojas": 0
      },
      {
+      "id": "277307",
       "nombre": "Youssouf Fofana",
       "corto": "Y. Fofana",
       "dorsal": "24",
@@ -1449,6 +1525,7 @@
       "rojas": 0
      },
      {
+      "id": "282289",
       "nombre": "Lucien Agoumé",
       "corto": "L. Agoumé",
       "dorsal": "6",
@@ -1462,6 +1539,7 @@
       "rojas": 0
      },
      {
+      "id": "322993",
       "nombre": "Robbie Ure",
       "corto": "R. Ure",
       "dorsal": "9",
@@ -1475,6 +1553,7 @@
       "rojas": 0
      },
      {
+      "id": "288900",
       "nombre": "Felix Correia",
       "corto": "F. Correia",
       "dorsal": "20",
@@ -1488,6 +1567,7 @@
       "rojas": 0
      },
      {
+      "id": "259513",
       "nombre": "Rubén Vargas",
       "corto": "R. Vargas",
       "dorsal": "11",
@@ -1501,6 +1581,7 @@
       "rojas": 0
      },
      {
+      "id": "254270",
       "nombre": "Chidera Ejuke",
       "corto": "C. Ejuke",
       "dorsal": "21",
@@ -1514,6 +1595,7 @@
       "rojas": 0
      },
      {
+      "id": "250508",
       "nombre": "José Ángel Carmona",
       "corto": "J. Carmona",
       "dorsal": "22",
@@ -1527,6 +1609,7 @@
       "rojas": 0
      },
      {
+      "id": "387493",
       "nombre": "Julio Díaz",
       "corto": "J. Díaz",
       "dorsal": "3",
@@ -1540,6 +1623,7 @@
       "rojas": 0
      },
      {
+      "id": "362874",
       "nombre": "Fran González",
       "corto": "F. González",
       "dorsal": "13",
@@ -1553,6 +1637,7 @@
       "rojas": 0
      },
      {
+      "id": "304213",
       "nombre": "Arouna Sangante",
       "corto": "A. Sangante",
       "dorsal": "12",
@@ -1566,6 +1651,7 @@
       "rojas": 0
      },
      {
+      "id": "271635",
       "nombre": "Alfonso González",
       "corto": "A. González",
       "dorsal": "7",
@@ -1579,6 +1665,7 @@
       "rojas": 0
      },
      {
+      "id": "215386",
       "nombre": "Fábio Cardoso",
       "corto": "F. Cardoso",
       "dorsal": "15",
@@ -1592,6 +1679,7 @@
       "rojas": 0
      },
      {
+      "id": "5324162",
       "nombre": "Jesús Cruz Morales",
       "corto": "J. Cruz Morales",
       "dorsal": "29",
@@ -1605,6 +1693,7 @@
       "rojas": 0
      },
      {
+      "id": "323033",
       "nombre": "Lucas Stassin",
       "corto": "L. Stassin",
       "dorsal": "19",
@@ -1618,6 +1707,7 @@
       "rojas": 0
      },
      {
+      "id": "422137",
       "nombre": "Nico Guillén",
       "corto": "N. Guillén",
       "dorsal": "27",
@@ -1631,6 +1721,7 @@
       "rojas": 0
      },
      {
+      "id": "356228",
       "nombre": "Manu Bueno",
       "corto": "M. Bueno",
       "dorsal": "14",
@@ -1644,6 +1735,7 @@
       "rojas": 0
      },
      {
+      "id": "119332",
       "nombre": "Rafael Romero",
       "corto": "R. Romero",
       "dorsal": "33",
@@ -1915,6 +2007,7 @@
     "formacion": "4-2-3-1",
     "jugadores": [
      {
+      "id": "134283",
       "nombre": "Thibaut Courtois",
       "corto": "T. Courtois",
       "dorsal": "1",
@@ -1928,6 +2021,7 @@
       "rojas": 0
      },
      {
+      "id": "169438",
       "nombre": "Antonio Rüdiger",
       "corto": "A. Rüdiger",
       "dorsal": "22",
@@ -1941,6 +2035,7 @@
       "rojas": 0
      },
      {
+      "id": "251634",
       "nombre": "Ibrahima Konaté",
       "corto": "I. Konaté",
       "dorsal": "16",
@@ -1954,6 +2049,7 @@
       "rojas": 0
      },
      {
+      "id": "310637",
       "nombre": "Álvaro Carreras",
       "corto": "Á. Carreras",
       "dorsal": "18",
@@ -1967,6 +2063,7 @@
       "rojas": 0
      },
      {
+      "id": "223532",
       "nombre": "Trent Alexander-Arnold",
       "corto": "T. Alexander-Arnold",
       "dorsal": "12",
@@ -1980,6 +2077,7 @@
       "rojas": 0
      },
      {
+      "id": "291281",
       "nombre": "Jude Bellingham",
       "corto": "J. Bellingham",
       "dorsal": "5",
@@ -1993,6 +2091,7 @@
       "rojas": 0
      },
      {
+      "id": "265919",
       "nombre": "Aurélien Tchouaméni",
       "corto": "A. Tchouaméni",
       "dorsal": "14",
@@ -2006,6 +2105,7 @@
       "rojas": 0
      },
      {
+      "id": "235818",
       "nombre": "Federico Valverde",
       "corto": "F. Valverde",
       "dorsal": "8",
@@ -2019,6 +2119,7 @@
       "rojas": 0
      },
      {
+      "id": "231388",
       "nombre": "Kylian Mbappé",
       "corto": "K. Mbappé",
       "dorsal": "10",
@@ -2032,6 +2133,7 @@
       "rojas": 0
      },
      {
+      "id": "402479",
       "nombre": "Yan Diomande",
       "corto": "Y. Diomande",
       "dorsal": "25",
@@ -2045,6 +2147,7 @@
       "rojas": 0
      },
      {
+      "id": "310452",
       "nombre": "Arda Güler",
       "corto": "A. Güler",
       "dorsal": "15",
@@ -2058,6 +2161,7 @@
       "rojas": 0
      },
      {
+      "id": "213248",
       "nombre": "Denzel Dumfries",
       "corto": "D. Dumfries",
       "dorsal": "24",
@@ -2071,6 +2175,7 @@
       "rojas": 0
      },
      {
+      "id": "285150",
       "nombre": "Eduardo Camavinga",
       "corto": "E. Camavinga",
       "dorsal": "6",
@@ -2084,6 +2189,7 @@
       "rojas": 0
      },
      {
+      "id": "252107",
       "nombre": "Vinícius Júnior",
       "corto": "Vinícius Júnior",
       "dorsal": "7",
@@ -2097,6 +2203,7 @@
       "rojas": 1
      },
      {
+      "id": "350351",
       "nombre": "Sergio Mestre",
       "corto": "S. Mestre",
       "dorsal": "26",
@@ -2110,6 +2217,7 @@
       "rojas": 0
      },
      {
+      "id": "199833",
       "nombre": "Bernardo Silva",
       "corto": "B. Silva",
       "dorsal": "20",
@@ -2123,6 +2231,7 @@
       "rojas": 0
      },
      {
+      "id": "409019",
       "nombre": "Thiago Pitarch",
       "corto": "T. Pitarch",
       "dorsal": "27",
@@ -2136,6 +2245,7 @@
       "rojas": 0
      },
      {
+      "id": "259910",
       "nombre": "Marc Cucurella",
       "corto": "M. Cucurella",
       "dorsal": "17",
@@ -2149,6 +2259,7 @@
       "rojas": 0
      },
      {
+      "id": "257237",
       "nombre": "Andriy Lunin",
       "corto": "A. Lunin",
       "dorsal": "13",
@@ -2162,6 +2273,7 @@
       "rojas": 0
      },
      {
+      "id": "346612",
       "nombre": "Endrick",
       "corto": "Endrick",
       "dorsal": "9",
@@ -2175,6 +2287,7 @@
       "rojas": 0
      },
      {
+      "id": "380286",
       "nombre": "Carlos Espí",
       "corto": "C. Espí",
       "dorsal": "19",
@@ -2188,6 +2301,7 @@
       "rojas": 0
      },
      {
+      "id": "246532",
       "nombre": "Brahim Díaz",
       "corto": "B. Díaz",
       "dorsal": "21",
@@ -2208,6 +2322,7 @@
     "formacion": "4-3-3",
     "jugadores": [
      {
+      "id": "119620",
       "nombre": "Péter Gulácsi",
       "corto": "P. Gulácsi",
       "dorsal": "25",
@@ -2221,6 +2336,7 @@
       "rojas": 0
      },
      {
+      "id": "337011",
       "nombre": "Renato Veiga",
       "corto": "R. Veiga",
       "dorsal": "12",
@@ -2234,6 +2350,7 @@
       "rojas": 0
      },
      {
+      "id": "368878",
       "nombre": "Pau Navarro",
       "corto": "P. Navarro",
       "dorsal": "6",
@@ -2247,6 +2364,7 @@
       "rojas": 0
      },
      {
+      "id": "289072",
       "nombre": "Sergi Cardona",
       "corto": "S. Cardona",
       "dorsal": "23",
@@ -2260,6 +2378,7 @@
       "rojas": 0
      },
      {
+      "id": "248276",
       "nombre": "Alex Freeman",
       "corto": "A. Freeman",
       "dorsal": "3",
@@ -2273,6 +2392,7 @@
       "rojas": 0
      },
      {
+      "id": "242710",
       "nombre": "Juan Foyth",
       "corto": "J. Foyth",
       "dorsal": "8",
@@ -2286,6 +2406,7 @@
       "rojas": 0
      },
      {
+      "id": "255889",
       "nombre": "Pape Gueye",
       "corto": "P. Gueye",
       "dorsal": "18",
@@ -2299,6 +2420,7 @@
       "rojas": 0
      },
      {
+      "id": "240623",
       "nombre": "Santi Comesaña",
       "corto": "S. Comesaña",
       "dorsal": "14",
@@ -2312,6 +2434,7 @@
       "rojas": 0
      },
      {
+      "id": "192133",
       "nombre": "Ayoze Pérez",
       "corto": "A. Pérez",
       "dorsal": "22",
@@ -2325,6 +2448,7 @@
       "rojas": 0
      },
      {
+      "id": "307390",
       "nombre": "Alberto Moleiro",
       "corto": "A. Moleiro",
       "dorsal": "10",
@@ -2338,6 +2462,7 @@
       "rojas": 0
      },
      {
+      "id": "331047",
       "nombre": "Ilias Akhomach",
       "corto": "I. Akhomach",
       "dorsal": "11",
@@ -2351,6 +2476,7 @@
       "rojas": 0
      },
      {
+      "id": "156172",
       "nombre": "Gerard Moreno",
       "corto": "G. Moreno",
       "dorsal": "7",
@@ -2364,6 +2490,7 @@
       "rojas": 0
      },
      {
+      "id": "3101324",
       "nombre": "Nizar El Jmili Ben Hamou",
       "corto": "N. El Jmili Ben Hamou",
       "dorsal": "27",
@@ -2377,6 +2504,7 @@
       "rojas": 0
      },
      {
+      "id": "415438",
       "nombre": "Carlos Macià",
       "corto": "C. Macià",
       "dorsal": "16",
@@ -2390,6 +2518,7 @@
       "rojas": 0
      },
      {
+      "id": "371619",
       "nombre": "Joselillo",
       "corto": "Joselillo",
       "dorsal": "28",
@@ -2403,6 +2532,7 @@
       "rojas": 0
      },
      {
+      "id": "271904",
       "nombre": "Carlos Romero",
       "corto": "C. Romero",
       "dorsal": "20",
@@ -2416,6 +2546,7 @@
       "rojas": 0
      },
      {
+      "id": "294039",
       "nombre": "Tani Oluwaseyi",
       "corto": "T. Oluwaseyi",
       "dorsal": "21",
@@ -2429,6 +2560,7 @@
       "rojas": 0
      },
      {
+      "id": "300002",
       "nombre": "Georges Mikautadze",
       "corto": "G. Mikautadze",
       "dorsal": "9",
@@ -2442,6 +2574,7 @@
       "rojas": 0
      },
      {
+      "id": "396751",
       "nombre": "Alassane Diatta",
       "corto": "A. Diatta",
       "dorsal": "5",
@@ -2455,6 +2588,7 @@
       "rojas": 0
      },
      {
+      "id": "271129",
       "nombre": "Logan Costa",
       "corto": "L. Costa",
       "dorsal": "2",
@@ -2468,6 +2602,7 @@
       "rojas": 0
      },
      {
+      "id": "318098",
       "nombre": "Santiago Mouriño",
       "corto": "S. Mouriño",
       "dorsal": "15",
@@ -2481,6 +2616,7 @@
       "rojas": 0
      },
      {
+      "id": "311163",
       "nombre": "Nathan Saliba",
       "corto": "N. Saliba",
       "dorsal": "24",
@@ -2494,6 +2630,7 @@
       "rojas": 0
      },
      {
+      "id": "307648",
       "nombre": "Luiz Júnior",
       "corto": "L. Júnior",
       "dorsal": "1",
@@ -2755,6 +2892,7 @@
     "formacion": "4-4-2",
     "jugadores": [
      {
+      "id": "149622",
       "nombre": "Jan Oblak",
       "corto": "J. Oblak",
       "dorsal": "13",
@@ -2768,6 +2906,7 @@
       "rojas": 0
      },
      {
+      "id": "257786",
       "nombre": "Dávid Hancko",
       "corto": "D. Hancko",
       "dorsal": "17",
@@ -2781,6 +2920,7 @@
       "rojas": 0
      },
      {
+      "id": "96970",
       "nombre": "Cristian Romero",
       "corto": "C. Romero",
       "dorsal": "21",
@@ -2794,6 +2934,7 @@
       "rojas": 0
      },
      {
+      "id": "166396",
       "nombre": "Alejandro Grimaldo",
       "corto": "A. Grimaldo",
       "dorsal": "22",
@@ -2807,6 +2948,7 @@
       "rojas": 0
      },
      {
+      "id": "332613",
       "nombre": "Marc Pubill",
       "corto": "M. Pubill",
       "dorsal": "18",
@@ -2820,6 +2962,7 @@
       "rojas": 0
      },
      {
+      "id": "290802",
       "nombre": "Johnny Cardoso",
       "corto": "J. Cardoso",
       "dorsal": "5",
@@ -2833,6 +2976,7 @@
       "rojas": 0
      },
      {
+      "id": "206474",
       "nombre": "Marcos Llorente",
       "corto": "M. Llorente",
       "dorsal": "14",
@@ -2846,6 +2990,7 @@
       "rojas": 0
      },
      {
+      "id": "297373",
       "nombre": "Álex Baena",
       "corto": "Á. Baena",
       "dorsal": "10",
@@ -2859,6 +3004,7 @@
       "rojas": 0
      },
      {
+      "id": "323838",
       "nombre": "Giuliano Simeone",
       "corto": "G. Simeone",
       "dorsal": "20",
@@ -2872,6 +3018,7 @@
       "rojas": 0
      },
      {
+      "id": "273499",
       "nombre": "Jonathan David",
       "corto": "J. David",
       "dorsal": "15",
@@ -2885,6 +3032,7 @@
       "rojas": 0
      },
      {
+      "id": "274197",
       "nombre": "Lee Kang-In",
       "corto": "L. Kang-In",
       "dorsal": "7",
@@ -2898,6 +3046,7 @@
       "rojas": 0
      },
      {
+      "id": "184757",
       "nombre": "Jorge Castillo",
       "corto": "J. Castillo",
       "dorsal": "46",
@@ -2911,6 +3060,7 @@
       "rojas": 0
      },
      {
+      "id": "328289",
       "nombre": "Arnau Ortiz",
       "corto": "A. Ortiz",
       "dorsal": "16",
@@ -2924,6 +3074,7 @@
       "rojas": 0
      },
      {
+      "id": "274911",
       "nombre": "Morten Hjulmand",
       "corto": "M. Hjulmand",
       "dorsal": "23",
@@ -2937,6 +3088,7 @@
       "rojas": 0
      },
      {
+      "id": "140791",
       "nombre": "Koke",
       "corto": "Koke",
       "dorsal": "6",
@@ -2950,6 +3102,7 @@
       "rojas": 0
      },
      {
+      "id": "177927",
       "nombre": "Juan Musso",
       "corto": "J. Musso",
       "dorsal": "1",
@@ -2963,6 +3116,7 @@
       "rojas": 0
      },
      {
+      "id": "354378",
       "nombre": "Jorge Domínguez",
       "corto": "J. Domínguez",
       "dorsal": "27",
@@ -2976,6 +3130,7 @@
       "rojas": 0
      },
      {
+      "id": "368593",
       "nombre": "Daniel Martinez",
       "corto": "D. Martinez",
       "dorsal": "30",
@@ -2989,6 +3144,7 @@
       "rojas": 0
      },
      {
+      "id": "74630",
       "nombre": "Rodrigo Mendoza",
       "corto": "R. Mendoza",
       "dorsal": "4",
@@ -3002,6 +3158,7 @@
       "rojas": 0
      },
      {
+      "id": "318554",
       "nombre": "Obed Vargas",
       "corto": "O. Vargas",
       "dorsal": "3",
@@ -3015,6 +3172,7 @@
       "rojas": 0
      },
      {
+      "id": "214888",
       "nombre": "Robin Le Normand",
       "corto": "R. Le Normand",
       "dorsal": "24",
@@ -3028,6 +3186,7 @@
       "rojas": 0
      },
      {
+      "id": "229645",
       "nombre": "Ademola Lookman",
       "corto": "A. Lookman",
       "dorsal": "11",
@@ -3041,6 +3200,7 @@
       "rojas": 0
      },
      {
+      "id": "277206",
       "nombre": "Julián Álvarez",
       "corto": "J. Álvarez",
       "dorsal": "19",
@@ -3061,6 +3221,7 @@
     "formacion": "4-2-3-1",
     "jugadores": [
      {
+      "id": "134283",
       "nombre": "Thibaut Courtois",
       "corto": "T. Courtois",
       "dorsal": "1",
@@ -3074,6 +3235,7 @@
       "rojas": 0
      },
      {
+      "id": "356000",
       "nombre": "Dean Huijsen",
       "corto": "D. Huijsen",
       "dorsal": "4",
@@ -3087,6 +3249,7 @@
       "rojas": 1
      },
      {
+      "id": "251634",
       "nombre": "Ibrahima Konaté",
       "corto": "I. Konaté",
       "dorsal": "16",
@@ -3100,6 +3263,7 @@
       "rojas": 0
      },
      {
+      "id": "259910",
       "nombre": "Marc Cucurella",
       "corto": "M. Cucurella",
       "dorsal": "17",
@@ -3113,6 +3277,7 @@
       "rojas": 0
      },
      {
+      "id": "213248",
       "nombre": "Denzel Dumfries",
       "corto": "D. Dumfries",
       "dorsal": "24",
@@ -3126,6 +3291,7 @@
       "rojas": 0
      },
      {
+      "id": "291281",
       "nombre": "Jude Bellingham",
       "corto": "J. Bellingham",
       "dorsal": "5",
@@ -3139,6 +3305,7 @@
       "rojas": 0
      },
      {
+      "id": "265919",
       "nombre": "Aurélien Tchouaméni",
       "corto": "A. Tchouaméni",
       "dorsal": "14",
@@ -3152,6 +3319,7 @@
       "rojas": 0
      },
      {
+      "id": "235818",
       "nombre": "Federico Valverde",
       "corto": "F. Valverde",
       "dorsal": "8",
@@ -3165,6 +3333,7 @@
       "rojas": 0
      },
      {
+      "id": "231388",
       "nombre": "Kylian Mbappé",
       "corto": "K. Mbappé",
       "dorsal": "10",
@@ -3178,6 +3347,7 @@
       "rojas": 0
      },
      {
+      "id": "252107",
       "nombre": "Vinícius Júnior",
       "corto": "Vinícius Júnior",
       "dorsal": "7",
@@ -3191,6 +3361,7 @@
       "rojas": 0
      },
      {
+      "id": "310452",
       "nombre": "Arda Güler",
       "corto": "A. Güler",
       "dorsal": "15",
@@ -3204,6 +3375,7 @@
       "rojas": 0
      },
      {
+      "id": "169438",
       "nombre": "Antonio Rüdiger",
       "corto": "A. Rüdiger",
       "dorsal": "22",
@@ -3217,6 +3389,7 @@
       "rojas": 0
      },
      {
+      "id": "346612",
       "nombre": "Endrick",
       "corto": "Endrick",
       "dorsal": "9",
@@ -3230,6 +3403,7 @@
       "rojas": 0
      },
      {
+      "id": "246532",
       "nombre": "Brahim Díaz",
       "corto": "B. Díaz",
       "dorsal": "21",
@@ -3243,6 +3417,7 @@
       "rojas": 0
      },
      {
+      "id": "223532",
       "nombre": "Trent Alexander-Arnold",
       "corto": "T. Alexander-Arnold",
       "dorsal": "12",
@@ -3256,6 +3431,7 @@
       "rojas": 0
      },
      {
+      "id": "388338",
       "nombre": "Raúl Asencio",
       "corto": "R. Asencio",
       "dorsal": "2",
@@ -3269,6 +3445,7 @@
       "rojas": 0
      },
      {
+      "id": "285150",
       "nombre": "Eduardo Camavinga",
       "corto": "E. Camavinga",
       "dorsal": "6",
@@ -3282,6 +3459,7 @@
       "rojas": 0
      },
      {
+      "id": "199833",
       "nombre": "Bernardo Silva",
       "corto": "B. Silva",
       "dorsal": "20",
@@ -3295,6 +3473,7 @@
       "rojas": 0
      },
      {
+      "id": "409019",
       "nombre": "Thiago Pitarch",
       "corto": "T. Pitarch",
       "dorsal": "27",
@@ -3308,6 +3487,7 @@
       "rojas": 0
      },
      {
+      "id": "402479",
       "nombre": "Yan Diomande",
       "corto": "Y. Diomande",
       "dorsal": "25",
@@ -3321,6 +3501,7 @@
       "rojas": 0
      },
      {
+      "id": "380286",
       "nombre": "Carlos Espí",
       "corto": "C. Espí",
       "dorsal": "19",
@@ -3334,6 +3515,7 @@
       "rojas": 0
      },
      {
+      "id": "310637",
       "nombre": "Álvaro Carreras",
       "corto": "Á. Carreras",
       "dorsal": "18",
@@ -3347,6 +3529,7 @@
       "rojas": 0
      },
      {
+      "id": "257237",
       "nombre": "Andriy Lunin",
       "corto": "A. Lunin",
       "dorsal": "13",
@@ -3648,6 +3831,7 @@
     "formacion": "4-5-1",
     "jugadores": [
      {
+      "id": "173749",
       "nombre": "Matías Dituro",
       "corto": "M. Dituro",
       "dorsal": "1",
@@ -3661,6 +3845,7 @@
       "rojas": 0
      },
      {
+      "id": "265995",
       "nombre": "Víctor Chust",
       "corto": "V. Chust",
       "dorsal": "23",
@@ -3674,6 +3859,7 @@
       "rojas": 0
      },
      {
+      "id": "318181",
       "nombre": "Federico Redondo",
       "corto": "F. Redondo",
       "dorsal": "5",
@@ -3687,6 +3873,7 @@
       "rojas": 0
      },
      {
+      "id": "323286",
       "nombre": "Roy Revivo",
       "corto": "R. Revivo",
       "dorsal": "3",
@@ -3700,6 +3887,7 @@
       "rojas": 0
      },
      {
+      "id": "371608",
       "nombre": "Buba Sangaré",
       "corto": "B. Sangaré",
       "dorsal": "2",
@@ -3713,6 +3901,7 @@
       "rojas": 0
      },
      {
+      "id": "273424",
       "nombre": "Gonzalo Villar",
       "corto": "G. Villar",
       "dorsal": "12",
@@ -3726,6 +3915,7 @@
       "rojas": 0
      },
      {
+      "id": "340677",
       "nombre": "Martim Neto",
       "corto": "M. Neto",
       "dorsal": "16",
@@ -3739,6 +3929,7 @@
       "rojas": 0
      },
      {
+      "id": "301406",
       "nombre": "Marc Aguado",
       "corto": "M. Aguado",
       "dorsal": "8",
@@ -3752,6 +3943,7 @@
       "rojas": 0
      },
      {
+      "id": "259916",
       "nombre": "José Antonio Morente",
       "corto": "J. Morente",
       "dorsal": "20",
@@ -3765,6 +3957,7 @@
       "rojas": 0
      },
      {
+      "id": "297358",
       "nombre": "Germán Valera",
       "corto": "G. Valera",
       "dorsal": "11",
@@ -3778,6 +3971,7 @@
       "rojas": 0
      },
      {
+      "id": "336840",
       "nombre": "Abiel Osorio",
       "corto": "A. Osorio",
       "dorsal": "24",
@@ -3791,6 +3985,7 @@
       "rojas": 0
      },
      {
+      "id": "214330",
       "nombre": "Josan",
       "corto": "Josan",
       "dorsal": "17",
@@ -3804,6 +3999,7 @@
       "rojas": 0
      },
      {
+      "id": "190291",
       "nombre": "Thomas Lemar",
       "corto": "T. Lemar",
       "dorsal": "18",
@@ -3817,6 +4013,7 @@
       "rojas": 0
      },
      {
+      "id": "320648",
       "nombre": "Lucas Cepeda",
       "corto": "L. Cepeda",
       "dorsal": "21",
@@ -3830,6 +4027,7 @@
       "rojas": 0
      },
      {
+      "id": "301684",
       "nombre": "Fer Niño",
       "corto": "F. Niño",
       "dorsal": "14",
@@ -3843,6 +4041,7 @@
       "rojas": 0
      },
      {
+      "id": "389448",
       "nombre": "Matia Barzic",
       "corto": "M. Barzic",
       "dorsal": "26",
@@ -3856,6 +4055,7 @@
       "rojas": 0
      },
      {
+      "id": "330433",
       "nombre": "Alejandro Iturbe",
       "corto": "A. Iturbe",
       "dorsal": "13",
@@ -3869,6 +4069,7 @@
       "rojas": 0
      },
      {
+      "id": "318284",
       "nombre": "Facundo Buonanotte",
       "corto": "F. Buonanotte",
       "dorsal": "10",
@@ -3882,6 +4083,7 @@
       "rojas": 0
      },
      {
+      "id": "242739",
       "nombre": "Grady Diangana",
       "corto": "G. Diangana",
       "dorsal": "19",
@@ -3895,6 +4097,7 @@
       "rojas": 0
      },
      {
+      "id": "194553",
       "nombre": "Ezequiel Ponce",
       "corto": "E. Ponce",
       "dorsal": "9",
@@ -3908,6 +4111,7 @@
       "rojas": 0
      },
      {
+      "id": "421310",
       "nombre": "Javier Morcillo",
       "corto": "J. Morcillo",
       "dorsal": "47",
@@ -3921,6 +4125,7 @@
       "rojas": 0
      },
      {
+      "id": "167297",
       "nombre": "Pedro Bigas",
       "corto": "P. Bigas",
       "dorsal": "6",
@@ -3934,6 +4139,7 @@
       "rojas": 0
      },
      {
+      "id": "319781",
       "nombre": "Rubén Sánchez",
       "corto": "R. Sánchez",
       "dorsal": "22",
@@ -3954,6 +4160,7 @@
     "formacion": "4-2-3-1",
     "jugadores": [
      {
+      "id": "134283",
       "nombre": "Thibaut Courtois",
       "corto": "T. Courtois",
       "dorsal": "1",
@@ -3967,6 +4174,7 @@
       "rojas": 0
      },
      {
+      "id": "356000",
       "nombre": "Dean Huijsen",
       "corto": "D. Huijsen",
       "dorsal": "4",
@@ -3980,6 +4188,7 @@
       "rojas": 0
      },
      {
+      "id": "251634",
       "nombre": "Ibrahima Konaté",
       "corto": "I. Konaté",
       "dorsal": "16",
@@ -3993,6 +4202,7 @@
       "rojas": 0
      },
      {
+      "id": "259910",
       "nombre": "Marc Cucurella",
       "corto": "M. Cucurella",
       "dorsal": "17",
@@ -4006,6 +4216,7 @@
       "rojas": 0
      },
      {
+      "id": "223532",
       "nombre": "Trent Alexander-Arnold",
       "corto": "T. Alexander-Arnold",
       "dorsal": "12",
@@ -4019,6 +4230,7 @@
       "rojas": 0
      },
      {
+      "id": "310452",
       "nombre": "Arda Güler",
       "corto": "A. Güler",
       "dorsal": "15",
@@ -4032,6 +4244,7 @@
       "rojas": 0
      },
      {
+      "id": "265919",
       "nombre": "Aurélien Tchouaméni",
       "corto": "A. Tchouaméni",
       "dorsal": "14",
@@ -4045,6 +4258,7 @@
       "rojas": 0
      },
      {
+      "id": "235818",
       "nombre": "Federico Valverde",
       "corto": "F. Valverde",
       "dorsal": "8",
@@ -4058,6 +4272,7 @@
       "rojas": 0
      },
      {
+      "id": "231388",
       "nombre": "Kylian Mbappé",
       "corto": "K. Mbappé",
       "dorsal": "10",
@@ -4071,6 +4286,7 @@
       "rojas": 0
      },
      {
+      "id": "252107",
       "nombre": "Vinícius Júnior",
       "corto": "Vinícius Júnior",
       "dorsal": "7",
@@ -4084,6 +4300,7 @@
       "rojas": 0
      },
      {
+      "id": "402479",
       "nombre": "Yan Diomande",
       "corto": "Y. Diomande",
       "dorsal": "25",
@@ -4097,6 +4314,7 @@
       "rojas": 0
      },
      {
+      "id": "310637",
       "nombre": "Álvaro Carreras",
       "corto": "Á. Carreras",
       "dorsal": "18",
@@ -4110,6 +4328,7 @@
       "rojas": 0
      },
      {
+      "id": "246532",
       "nombre": "Brahim Díaz",
       "corto": "B. Díaz",
       "dorsal": "21",
@@ -4123,6 +4342,7 @@
       "rojas": 0
      },
      {
+      "id": "409019",
       "nombre": "Thiago Pitarch",
       "corto": "T. Pitarch",
       "dorsal": "27",
@@ -4136,6 +4356,7 @@
       "rojas": 0
      },
      {
+      "id": "169438",
       "nombre": "Antonio Rüdiger",
       "corto": "A. Rüdiger",
       "dorsal": "22",
@@ -4149,6 +4370,7 @@
       "rojas": 0
      },
      {
+      "id": "213248",
       "nombre": "Denzel Dumfries",
       "corto": "D. Dumfries",
       "dorsal": "24",
@@ -4162,6 +4384,7 @@
       "rojas": 0
      },
      {
+      "id": "388338",
       "nombre": "Raúl Asencio",
       "corto": "R. Asencio",
       "dorsal": "2",
@@ -4175,6 +4398,7 @@
       "rojas": 0
      },
      {
+      "id": "257237",
       "nombre": "Andriy Lunin",
       "corto": "A. Lunin",
       "dorsal": "13",
@@ -4188,6 +4412,7 @@
       "rojas": 0
      },
      {
+      "id": "380286",
       "nombre": "Carlos Espí",
       "corto": "C. Espí",
       "dorsal": "19",
@@ -4201,6 +4426,7 @@
       "rojas": 0
      },
      {
+      "id": "346612",
       "nombre": "Endrick",
       "corto": "Endrick",
       "dorsal": "9",
@@ -4214,6 +4440,7 @@
       "rojas": 0
      },
      {
+      "id": "199833",
       "nombre": "Bernardo Silva",
       "corto": "B. Silva",
       "dorsal": "20",
@@ -4227,6 +4454,7 @@
       "rojas": 0
      },
      {
+      "id": "291281",
       "nombre": "Jude Bellingham",
       "corto": "J. Bellingham",
       "dorsal": "5",
@@ -4240,6 +4468,7 @@
       "rojas": 0
      },
      {
+      "id": "285150",
       "nombre": "Eduardo Camavinga",
       "corto": "E. Camavinga",
       "dorsal": "6",
@@ -4481,6 +4710,7 @@
     "formacion": "4-2-3-1",
     "jugadores": [
      {
+      "id": "134283",
       "nombre": "Thibaut Courtois",
       "corto": "T. Courtois",
       "dorsal": "1",
@@ -4494,6 +4724,7 @@
       "rojas": 0
      },
      {
+      "id": "169438",
       "nombre": "Antonio Rüdiger",
       "corto": "A. Rüdiger",
       "dorsal": "22",
@@ -4507,6 +4738,7 @@
       "rojas": 0
      },
      {
+      "id": "251634",
       "nombre": "Ibrahima Konaté",
       "corto": "I. Konaté",
       "dorsal": "16",
@@ -4520,6 +4752,7 @@
       "rojas": 0
      },
      {
+      "id": "310637",
       "nombre": "Álvaro Carreras",
       "corto": "Á. Carreras",
       "dorsal": "18",
@@ -4533,6 +4766,7 @@
       "rojas": 0
      },
      {
+      "id": "213248",
       "nombre": "Denzel Dumfries",
       "corto": "D. Dumfries",
       "dorsal": "24",
@@ -4546,6 +4780,7 @@
       "rojas": 0
      },
      {
+      "id": "291281",
       "nombre": "Jude Bellingham",
       "corto": "J. Bellingham",
       "dorsal": "5",
@@ -4559,6 +4794,7 @@
       "rojas": 0
      },
      {
+      "id": "199833",
       "nombre": "Bernardo Silva",
       "corto": "B. Silva",
       "dorsal": "20",
@@ -4572,6 +4808,7 @@
       "rojas": 0
      },
      {
+      "id": "235818",
       "nombre": "Federico Valverde",
       "corto": "F. Valverde",
       "dorsal": "8",
@@ -4585,6 +4822,7 @@
       "rojas": 0
      },
      {
+      "id": "231388",
       "nombre": "Kylian Mbappé",
       "corto": "K. Mbappé",
       "dorsal": "10",
@@ -4598,6 +4836,7 @@
       "rojas": 0
      },
      {
+      "id": "252107",
       "nombre": "Vinícius Júnior",
       "corto": "Vinícius Júnior",
       "dorsal": "7",
@@ -4611,6 +4850,7 @@
       "rojas": 0
      },
      {
+      "id": "402479",
       "nombre": "Yan Diomande",
       "corto": "Y. Diomande",
       "dorsal": "25",
@@ -4624,6 +4864,7 @@
       "rojas": 0
      },
      {
+      "id": "356000",
       "nombre": "Dean Huijsen",
       "corto": "D. Huijsen",
       "dorsal": "4",
@@ -4637,6 +4878,7 @@
       "rojas": 0
      },
      {
+      "id": "346612",
       "nombre": "Endrick",
       "corto": "Endrick",
       "dorsal": "9",
@@ -4650,6 +4892,7 @@
       "rojas": 0
      },
      {
+      "id": "388338",
       "nombre": "Raúl Asencio",
       "corto": "R. Asencio",
       "dorsal": "2",
@@ -4663,6 +4906,7 @@
       "rojas": 0
      },
      {
+      "id": "223532",
       "nombre": "Trent Alexander-Arnold",
       "corto": "T. Alexander-Arnold",
       "dorsal": "12",
@@ -4676,6 +4920,7 @@
       "rojas": 0
      },
      {
+      "id": "285150",
       "nombre": "Eduardo Camavinga",
       "corto": "E. Camavinga",
       "dorsal": "6",
@@ -4689,6 +4934,7 @@
       "rojas": 0
      },
      {
+      "id": "380286",
       "nombre": "Carlos Espí",
       "corto": "C. Espí",
       "dorsal": "19",
@@ -4702,6 +4948,7 @@
       "rojas": 0
      },
      {
+      "id": "259910",
       "nombre": "Marc Cucurella",
       "corto": "M. Cucurella",
       "dorsal": "17",
@@ -4715,6 +4962,7 @@
       "rojas": 0
      },
      {
+      "id": "246532",
       "nombre": "Brahim Díaz",
       "corto": "B. Díaz",
       "dorsal": "21",
@@ -4728,6 +4976,7 @@
       "rojas": 0
      },
      {
+      "id": "409019",
       "nombre": "Thiago Pitarch",
       "corto": "T. Pitarch",
       "dorsal": "27",
@@ -4741,6 +4990,7 @@
       "rojas": 0
      },
      {
+      "id": "257237",
       "nombre": "Andriy Lunin",
       "corto": "A. Lunin",
       "dorsal": "13",
@@ -4754,6 +5004,7 @@
       "rojas": 0
      },
      {
+      "id": "310452",
       "nombre": "Arda Güler",
       "corto": "A. Güler",
       "dorsal": "15",
@@ -4767,6 +5018,7 @@
       "rojas": 0
      },
      {
+      "id": "265919",
       "nombre": "Aurélien Tchouaméni",
       "corto": "A. Tchouaméni",
       "dorsal": "14",
@@ -4787,6 +5039,7 @@
     "formacion": "4-2-3-1",
     "jugadores": [
      {
+      "id": "207834",
       "nombre": "Emil Audero",
       "corto": "E. Audero",
       "dorsal": "25",
@@ -4800,6 +5053,7 @@
       "rojas": 0
      },
      {
+      "id": "294228",
       "nombre": "Pathé Ciss",
       "corto": "P. Ciss",
       "dorsal": "6",
@@ -4813,6 +5067,7 @@
       "rojas": 0
      },
      {
+      "id": "140754",
       "nombre": "Florian Lejeune",
       "corto": "F. Lejeune",
       "dorsal": "24",
@@ -4826,6 +5081,7 @@
       "rojas": 0
      },
      {
+      "id": "277292",
       "nombre": "Adrià Pedrosa",
       "corto": "A. Pedrosa",
       "dorsal": "17",
@@ -4839,6 +5095,7 @@
       "rojas": 0
      },
      {
+      "id": "287224",
       "nombre": "Andrei Ratiu",
       "corto": "A. Ratiu",
       "dorsal": "2",
@@ -4852,6 +5109,7 @@
       "rojas": 0
      },
      {
+      "id": "264078",
       "nombre": "Pedro Díaz",
       "corto": "P. Díaz",
       "dorsal": "4",
@@ -4865,6 +5123,7 @@
       "rojas": 0
      },
      {
+      "id": "203711",
       "nombre": "Unai López",
       "corto": "U. López",
       "dorsal": "8",
@@ -4878,6 +5137,7 @@
       "rojas": 0
      },
      {
+      "id": "3115984",
       "nombre": "Gnangoro Bouare Samake",
       "corto": "G. Bouare Samake",
       "dorsal": "36",
@@ -4891,6 +5151,7 @@
       "rojas": 0
      },
      {
+      "id": "276652",
       "nombre": "Sergio Camello",
       "corto": "S. Camello",
       "dorsal": "10",
@@ -4904,6 +5165,7 @@
       "rojas": 0
      },
      {
+      "id": "125200",
       "nombre": "Álvaro García",
       "corto": "Á. García",
       "dorsal": "18",
@@ -4917,6 +5179,7 @@
       "rojas": 0
      },
      {
+      "id": "276067",
       "nombre": "Giorgi Tsitaishvili",
       "corto": "G. Tsitaishvili",
       "dorsal": "14",
@@ -4930,6 +5193,7 @@
       "rojas": 0
      },
      {
+      "id": "389447",
       "nombre": "Marco de las Sias",
       "corto": "M. de las Sias",
       "dorsal": "26",
@@ -4943,6 +5207,7 @@
       "rojas": 0
      },
      {
+      "id": "192893",
       "nombre": "Daniel Cárdenas",
       "corto": "D. Cárdenas",
       "dorsal": "1",
@@ -4956,6 +5221,7 @@
       "rojas": 0
      },
      {
+      "id": "409289",
       "nombre": "Samu Becerra",
       "corto": "S. Becerra",
       "dorsal": "28",
@@ -4969,6 +5235,7 @@
       "rojas": 0
      },
      {
+      "id": "313024",
       "nombre": "Alexandre Alemão",
       "corto": "Alexandre Alemão",
       "dorsal": "9",
@@ -4982,6 +5249,7 @@
       "rojas": 0
      },
      {
+      "id": "415410",
       "nombre": "Marco Román",
       "corto": "M. Román",
       "dorsal": "31",
@@ -4995,6 +5263,7 @@
       "rojas": 0
      },
      {
+      "id": "377843",
       "nombre": "Rayane Belaid",
       "corto": "R. Belaid",
       "dorsal": "37",
@@ -5008,6 +5277,7 @@
       "rojas": 0
      },
      {
+      "id": "265996",
       "nombre": "Mujaid Sadick",
       "corto": "M. Sadick",
       "dorsal": "15",
@@ -5021,6 +5291,7 @@
       "rojas": 0
      },
      {
+      "id": "158151",
       "nombre": "Iván Balliu",
       "corto": "I. Balliu",
       "dorsal": "20",
@@ -5034,6 +5305,7 @@
       "rojas": 0
      },
      {
+      "id": "264217",
       "nombre": "Óscar Valentín",
       "corto": "Óscar Valentín",
       "dorsal": "23",
@@ -5047,6 +5319,7 @@
       "rojas": 0
      },
      {
+      "id": "300878",
       "nombre": "Adrián Molina",
       "corto": "A. Molina",
       "dorsal": "30",
@@ -5060,6 +5333,7 @@
       "rojas": 0
      },
      {
+      "id": "386579",
       "nombre": "Pelayo Fernández",
       "corto": "P. Fernández",
       "dorsal": "22",
@@ -5073,6 +5347,7 @@
       "rojas": 0
      },
      {
+      "id": "261403",
       "nombre": "Marash Kumbulla",
       "corto": "M. Kumbulla",
       "dorsal": "3",
@@ -5354,6 +5629,7 @@
     "formacion": "4-2-3-1",
     "jugadores": [
      {
+      "id": "283892",
       "nombre": "Álvaro Valles",
       "corto": "Á. Valles",
       "dorsal": "1",
@@ -5367,6 +5643,7 @@
       "rojas": 0
      },
      {
+      "id": "301526",
       "nombre": "Natan",
       "corto": "Natan",
       "dorsal": "4",
@@ -5380,6 +5657,7 @@
       "rojas": 0
      },
      {
+      "id": "181530",
       "nombre": "Diego Llorente",
       "corto": "D. Llorente",
       "dorsal": "3",
@@ -5393,6 +5671,7 @@
       "rojas": 0
      },
      {
+      "id": "213050",
       "nombre": "Fran García",
       "corto": "F. García",
       "dorsal": "11",
@@ -5406,6 +5685,7 @@
       "rojas": 0
      },
      {
+      "id": "178978",
       "nombre": "Héctor Bellerín",
       "corto": "H. Bellerín",
       "dorsal": "2",
@@ -5419,6 +5699,7 @@
       "rojas": 0
      },
      {
+      "id": "143564",
       "nombre": "Isco",
       "corto": "Isco",
       "dorsal": "22",
@@ -5432,6 +5713,7 @@
       "rojas": 0
      },
      {
+      "id": "242008",
       "nombre": "Marc Roca",
       "corto": "M. Roca",
       "dorsal": "21",
@@ -5445,6 +5727,7 @@
       "rojas": 0
      },
      {
+      "id": "359912",
       "nombre": "Facundo Bernal",
       "corto": "F. Bernal",
       "dorsal": "6",
@@ -5458,6 +5741,7 @@
       "rojas": 0
      },
      {
+      "id": "336809",
       "nombre": "Cucho Hernández",
       "corto": "C. Hernández",
       "dorsal": "9",
@@ -5471,6 +5755,7 @@
       "rojas": 0
      },
      {
+      "id": "227714",
       "nombre": "Pablo Fornals",
       "corto": "P. Fornals",
       "dorsal": "8",
@@ -5484,6 +5769,7 @@
       "rojas": 0
      },
      {
+      "id": "281558",
       "nombre": "Antony",
       "corto": "Antony",
       "dorsal": "7",
@@ -5497,6 +5783,7 @@
       "rojas": 0
      },
      {
+      "id": "322908",
       "nombre": "Nelson Deossa",
       "corto": "N. Deossa",
       "dorsal": "18",
@@ -5510,6 +5797,7 @@
       "rojas": 0
      },
      {
+      "id": "279790",
       "nombre": "Troy Parrott",
       "corto": "T. Parrott",
       "dorsal": "19",
@@ -5523,6 +5811,7 @@
       "rojas": 0
      },
      {
+      "id": "411284",
       "nombre": "José Morante",
       "corto": "J. Morante",
       "dorsal": "27",
@@ -5536,6 +5825,7 @@
       "rojas": 0
      },
      {
+      "id": "292222",
       "nombre": "Iker Losada",
       "corto": "I. Losada",
       "dorsal": "14",
@@ -5549,6 +5839,7 @@
       "rojas": 0
      },
      {
+      "id": "145078",
       "nombre": "Marc Bartra",
       "corto": "M. Bartra",
       "dorsal": "5",
@@ -5562,6 +5853,7 @@
       "rojas": 0
      },
      {
+      "id": "395941",
       "nombre": "Ángel Ortiz",
       "corto": "Á. Ortiz",
       "dorsal": "12",
@@ -5575,6 +5867,7 @@
       "rojas": 0
      },
      {
+      "id": "394885",
       "nombre": "Álvaro De Pablo",
       "corto": "Á. De Pablo",
       "dorsal": "40",
@@ -5588,6 +5881,7 @@
       "rojas": 0
      },
      {
+      "id": "283827",
       "nombre": "Álvaro Fidalgo",
       "corto": "Á. Fidalgo",
       "dorsal": "15",
@@ -5601,6 +5895,7 @@
       "rojas": 0
      },
      {
+      "id": "390091",
       "nombre": "Manu González",
       "corto": "M. González",
       "dorsal": "31",
@@ -5614,6 +5909,7 @@
       "rojas": 0
      },
      {
+      "id": "336480",
       "nombre": "Valentín Gómez",
       "corto": "V. Gómez",
       "dorsal": "16",
@@ -5627,6 +5923,7 @@
       "rojas": 0
      },
      {
+      "id": "70224",
       "nombre": "Rodrigo Riquelme",
       "corto": "R. Riquelme",
       "dorsal": "17",
@@ -5640,6 +5937,7 @@
       "rojas": 0
      },
      {
+      "id": "269655",
       "nombre": "Junior Firpo",
       "corto": "J. Firpo",
       "dorsal": "23",
@@ -5660,6 +5958,7 @@
     "formacion": "4-2-3-1",
     "jugadores": [
      {
+      "id": "134283",
       "nombre": "Thibaut Courtois",
       "corto": "T. Courtois",
       "dorsal": "1",
@@ -5673,6 +5972,7 @@
       "rojas": 0
      },
      {
+      "id": "356000",
       "nombre": "Dean Huijsen",
       "corto": "D. Huijsen",
       "dorsal": "4",
@@ -5686,6 +5986,7 @@
       "rojas": 0
      },
      {
+      "id": "251634",
       "nombre": "Ibrahima Konaté",
       "corto": "I. Konaté",
       "dorsal": "16",
@@ -5699,6 +6000,7 @@
       "rojas": 0
      },
      {
+      "id": "259910",
       "nombre": "Marc Cucurella",
       "corto": "M. Cucurella",
       "dorsal": "17",
@@ -5712,6 +6014,7 @@
       "rojas": 0
      },
      {
+      "id": "213248",
       "nombre": "Denzel Dumfries",
       "corto": "D. Dumfries",
       "dorsal": "24",
@@ -5725,6 +6028,7 @@
       "rojas": 0
      },
      {
+      "id": "291281",
       "nombre": "Jude Bellingham",
       "corto": "J. Bellingham",
       "dorsal": "5",
@@ -5738,6 +6042,7 @@
       "rojas": 0
      },
      {
+      "id": "285150",
       "nombre": "Eduardo Camavinga",
       "corto": "E. Camavinga",
       "dorsal": "6",
@@ -5751,6 +6056,7 @@
       "rojas": 0
      },
      {
+      "id": "235818",
       "nombre": "Federico Valverde",
       "corto": "F. Valverde",
       "dorsal": "8",
@@ -5764,6 +6070,7 @@
       "rojas": 0
      },
      {
+      "id": "231388",
       "nombre": "Kylian Mbappé",
       "corto": "K. Mbappé",
       "dorsal": "10",
@@ -5777,6 +6084,7 @@
       "rojas": 0
      },
      {
+      "id": "252107",
       "nombre": "Vinícius Júnior",
       "corto": "Vinícius Júnior",
       "dorsal": "7",
@@ -5790,6 +6098,7 @@
       "rojas": 0
      },
      {
+      "id": "310452",
       "nombre": "Arda Güler",
       "corto": "A. Güler",
       "dorsal": "15",
@@ -5803,6 +6112,7 @@
       "rojas": 0
      },
      {
+      "id": "169438",
       "nombre": "Antonio Rüdiger",
       "corto": "A. Rüdiger",
       "dorsal": "22",
@@ -5816,6 +6126,7 @@
       "rojas": 0
      },
      {
+      "id": "409318",
       "nombre": "Sergio Martínez",
       "corto": "S. Martínez",
       "dorsal": "38",
@@ -5829,6 +6140,7 @@
       "rojas": 0
      },
      {
+      "id": "402479",
       "nombre": "Yan Diomande",
       "corto": "Y. Diomande",
       "dorsal": "25",
@@ -5842,6 +6154,7 @@
       "rojas": 0
      },
      {
+      "id": "84349",
       "nombre": "Javier Navarro",
       "corto": "J. Navarro",
       "dorsal": "31",
@@ -5855,6 +6168,7 @@
       "rojas": 0
      },
      {
+      "id": "310637",
       "nombre": "Álvaro Carreras",
       "corto": "Á. Carreras",
       "dorsal": "18",
@@ -5868,6 +6182,7 @@
       "rojas": 0
      },
      {
+      "id": "257237",
       "nombre": "Andriy Lunin",
       "corto": "A. Lunin",
       "dorsal": "13",
@@ -5881,6 +6196,7 @@
       "rojas": 0
      },
      {
+      "id": "415478",
       "nombre": "Jorge Cestero",
       "corto": "J. Cestero",
       "dorsal": "29",
@@ -5894,6 +6210,7 @@
       "rojas": 0
      },
      {
+      "id": "223532",
       "nombre": "Trent Alexander-Arnold",
       "corto": "T. Alexander-Arnold",
       "dorsal": "12",
@@ -5907,6 +6224,7 @@
       "rojas": 0
      },
      {
+      "id": "330352",
       "nombre": "Mario Rivas",
       "corto": "M. Rivas",
       "dorsal": "33",
@@ -5920,6 +6238,7 @@
       "rojas": 0
      },
      {
+      "id": "246532",
       "nombre": "Brahim Díaz",
       "corto": "B. Díaz",
       "dorsal": "21",
@@ -5933,6 +6252,7 @@
       "rojas": 0
      },
      {
+      "id": "199833",
       "nombre": "Bernardo Silva",
       "corto": "B. Silva",
       "dorsal": "20",
@@ -5946,6 +6266,7 @@
       "rojas": 0
      },
      {
+      "id": "380286",
       "nombre": "Carlos Espí",
       "corto": "C. Espí",
       "dorsal": "19",
@@ -6177,6 +6498,7 @@
     "formacion": "4-2-3-1",
     "jugadores": [
      {
+      "id": "134283",
       "nombre": "Thibaut Courtois",
       "corto": "T. Courtois",
       "dorsal": "1",
@@ -6190,6 +6512,7 @@
       "rojas": 0
      },
      {
+      "id": "356000",
       "nombre": "Dean Huijsen",
       "corto": "D. Huijsen",
       "dorsal": "4",
@@ -6203,6 +6526,7 @@
       "rojas": 0
      },
      {
+      "id": "169438",
       "nombre": "Antonio Rüdiger",
       "corto": "A. Rüdiger",
       "dorsal": "22",
@@ -6216,6 +6540,7 @@
       "rojas": 0
      },
      {
+      "id": "259910",
       "nombre": "Marc Cucurella",
       "corto": "M. Cucurella",
       "dorsal": "17",
@@ -6229,6 +6554,7 @@
       "rojas": 0
      },
      {
+      "id": "223532",
       "nombre": "Trent Alexander-Arnold",
       "corto": "T. Alexander-Arnold",
       "dorsal": "12",
@@ -6242,6 +6568,7 @@
       "rojas": 0
      },
      {
+      "id": "291281",
       "nombre": "Jude Bellingham",
       "corto": "J. Bellingham",
       "dorsal": "5",
@@ -6255,6 +6582,7 @@
       "rojas": 0
      },
      {
+      "id": "285150",
       "nombre": "Eduardo Camavinga",
       "corto": "E. Camavinga",
       "dorsal": "6",
@@ -6268,6 +6596,7 @@
       "rojas": 0
      },
      {
+      "id": "235818",
       "nombre": "Federico Valverde",
       "corto": "F. Valverde",
       "dorsal": "8",
@@ -6281,6 +6610,7 @@
       "rojas": 0
      },
      {
+      "id": "231388",
       "nombre": "Kylian Mbappé",
       "corto": "K. Mbappé",
       "dorsal": "10",
@@ -6294,6 +6624,7 @@
       "rojas": 0
      },
      {
+      "id": "252107",
       "nombre": "Vinícius Júnior",
       "corto": "Vinícius Júnior",
       "dorsal": "7",
@@ -6307,6 +6638,7 @@
       "rojas": 0
      },
      {
+      "id": "246532",
       "nombre": "Brahim Díaz",
       "corto": "B. Díaz",
       "dorsal": "21",
@@ -6320,6 +6652,7 @@
       "rojas": 0
      },
      {
+      "id": "257237",
       "nombre": "Andriy Lunin",
       "corto": "A. Lunin",
       "dorsal": "13",
@@ -6333,6 +6666,7 @@
       "rojas": 0
      },
      {
+      "id": "213248",
       "nombre": "Denzel Dumfries",
       "corto": "D. Dumfries",
       "dorsal": "24",
@@ -6346,6 +6680,7 @@
       "rojas": 0
      },
      {
+      "id": "402479",
       "nombre": "Yan Diomande",
       "corto": "Y. Diomande",
       "dorsal": "25",
@@ -6359,6 +6694,7 @@
       "rojas": 0
      },
      {
+      "id": "380286",
       "nombre": "Carlos Espí",
       "corto": "C. Espí",
       "dorsal": "19",
@@ -6372,6 +6708,7 @@
       "rojas": 0
      },
      {
+      "id": "310452",
       "nombre": "Arda Güler",
       "corto": "A. Güler",
       "dorsal": "15",
@@ -6385,6 +6722,7 @@
       "rojas": 0
      },
      {
+      "id": "251634",
       "nombre": "Ibrahima Konaté",
       "corto": "I. Konaté",
       "dorsal": "16",
@@ -6398,6 +6736,7 @@
       "rojas": 0
      },
      {
+      "id": "415478",
       "nombre": "Jorge Cestero",
       "corto": "J. Cestero",
       "dorsal": "29",
@@ -6411,6 +6750,7 @@
       "rojas": 0
      },
      {
+      "id": "310637",
       "nombre": "Álvaro Carreras",
       "corto": "Á. Carreras",
       "dorsal": "18",
@@ -6424,6 +6764,7 @@
       "rojas": 0
      },
      {
+      "id": "330352",
       "nombre": "Mario Rivas",
       "corto": "M. Rivas",
       "dorsal": "33",
@@ -6437,6 +6778,7 @@
       "rojas": 0
      },
      {
+      "id": "199833",
       "nombre": "Bernardo Silva",
       "corto": "B. Silva",
       "dorsal": "20",
@@ -6450,6 +6792,7 @@
       "rojas": 0
      },
      {
+      "id": "84349",
       "nombre": "Javier Navarro",
       "corto": "J. Navarro",
       "dorsal": "31",
@@ -6463,6 +6806,7 @@
       "rojas": 0
      },
      {
+      "id": "3117407",
       "nombre": "Alexis Ciria",
       "corto": "A. Ciria",
       "dorsal": "36",
@@ -6483,6 +6827,7 @@
     "formacion": "4-4-2",
     "jugadores": [
      {
+      "id": "240624",
       "nombre": "Alfonso Herrero",
       "corto": "A. Herrero",
       "dorsal": "1",
@@ -6496,6 +6841,7 @@
       "rojas": 0
      },
      {
+      "id": "192430",
       "nombre": "Einar Galilea",
       "corto": "E. Galilea",
       "dorsal": "4",
@@ -6509,6 +6855,7 @@
       "rojas": 0
      },
      {
+      "id": "319783",
       "nombre": "Ángel Recio",
       "corto": "Á. Recio",
       "dorsal": "15",
@@ -6522,6 +6869,7 @@
       "rojas": 0
      },
      {
+      "id": "376166",
       "nombre": "Rafa Garrido",
       "corto": "R. Garrido",
       "dorsal": "31",
@@ -6535,6 +6883,7 @@
       "rojas": 0
      },
      {
+      "id": "331785",
       "nombre": "Carlos Puga",
       "corto": "C. Puga",
       "dorsal": "3",
@@ -6548,6 +6897,7 @@
       "rojas": 0
      },
      {
+      "id": "371564",
       "nombre": "Izan Merino",
       "corto": "I. Merino",
       "dorsal": "23",
@@ -6561,6 +6911,7 @@
       "rojas": 0
      },
      {
+      "id": "357858",
       "nombre": "Rafa Rodríguez",
       "corto": "R. Rodríguez",
       "dorsal": "14",
@@ -6574,6 +6925,7 @@
       "rojas": 0
      },
      {
+      "id": "180444",
       "nombre": "Joaquín Muñoz",
       "corto": "J. Muñoz",
       "dorsal": "11",
@@ -6587,6 +6939,7 @@
       "rojas": 0
      },
      {
+      "id": "297828",
       "nombre": "David Larrubia",
       "corto": "D. Larrubia",
       "dorsal": "10",
@@ -6600,6 +6953,7 @@
       "rojas": 0
      },
      {
+      "id": "324098",
       "nombre": "Carlos Dotor",
       "corto": "C. Dotor",
       "dorsal": "8",
@@ -6613,6 +6967,7 @@
       "rojas": 0
      },
      {
+      "id": "388602",
       "nombre": "Chupete",
       "corto": "Chupete",
       "dorsal": "9",
@@ -6626,6 +6981,7 @@
       "rojas": 0
      },
      {
+      "id": "310869",
       "nombre": "Álex Pastor",
       "corto": "Á. Pastor",
       "dorsal": "5",
@@ -6639,6 +6995,7 @@
       "rojas": 0
      },
      {
+      "id": "145565",
       "nombre": "Juan Cruz",
       "corto": "J. Cruz",
       "dorsal": "19",
@@ -6652,6 +7009,7 @@
       "rojas": 0
      },
      {
+      "id": "355503",
       "nombre": "Carlos López",
       "corto": "C. López",
       "dorsal": "13",
@@ -6665,6 +7023,7 @@
       "rojas": 0
      },
      {
+      "id": "3110515",
       "nombre": "Otu Junior",
       "corto": "O. Junior",
       "dorsal": "28",
@@ -6678,6 +7037,7 @@
       "rojas": 0
      },
      {
+      "id": "312338",
       "nombre": "Haitam Abaida",
       "corto": "H. Abaida",
       "dorsal": "7",
@@ -6691,6 +7051,7 @@
       "rojas": 0
      },
      {
+      "id": "292225",
       "nombre": "Ramón Enríquez",
       "corto": "R. Enríquez",
       "dorsal": "6",
@@ -6704,6 +7065,7 @@
       "rojas": 0
      },
      {
+      "id": "184488",
       "nombre": "José Salinas",
       "corto": "J. Salinas",
       "dorsal": "12",
@@ -6717,6 +7079,7 @@
       "rojas": 0
      },
      {
+      "id": "301869",
       "nombre": "Julen Lobete",
       "corto": "J. Lobete",
       "dorsal": "24",
@@ -6730,6 +7093,7 @@
       "rojas": 0
      },
      {
+      "id": "3110513",
       "nombre": "Juani",
       "corto": "Juani",
       "dorsal": "32",
@@ -6743,6 +7107,7 @@
       "rojas": 0
      },
      {
+      "id": "271151",
       "nombre": "Pablo Martínez",
       "corto": "P. Martínez",
       "dorsal": "18",
@@ -6756,6 +7121,7 @@
       "rojas": 0
      },
      {
+      "id": "270610",
       "nombre": "Eneko Jauregui",
       "corto": "E. Jauregui",
       "dorsal": "17",
@@ -7037,6 +7403,7 @@
     "formacion": "4-4-2",
     "jugadores": [
      {
+      "id": "179211",
       "nombre": "Marko Dmitrovic",
       "corto": "M. Dmitrovic",
       "dorsal": "13",
@@ -7050,6 +7417,7 @@
       "rojas": 0
      },
      {
+      "id": "260902",
       "nombre": "Unai Núñez",
       "corto": "U. Núñez",
       "dorsal": "14",
@@ -7063,6 +7431,7 @@
       "rojas": 0
      },
      {
+      "id": "323737",
       "nombre": "Clemens Riedel",
       "corto": "C. Riedel",
       "dorsal": "5",
@@ -7076,6 +7445,7 @@
       "rojas": 0
      },
      {
+      "id": "401377",
       "nombre": "Roger Hinojo",
       "corto": "R. Hinojo",
       "dorsal": "21",
@@ -7089,6 +7459,7 @@
       "rojas": 0
      },
      {
+      "id": "310682",
       "nombre": "Omar El Hilali",
       "corto": "O. El Hilali",
       "dorsal": "23",
@@ -7102,6 +7473,7 @@
       "rojas": 0
      },
      {
+      "id": "255272",
       "nombre": "Edu Expósito",
       "corto": "E. Expósito",
       "dorsal": "8",
@@ -7115,6 +7487,7 @@
       "rojas": 0
      },
      {
+      "id": "307915",
       "nombre": "Urko Gonzalez",
       "corto": "U. Gonzalez",
       "dorsal": "4",
@@ -7128,6 +7501,7 @@
       "rojas": 0
      },
      {
+      "id": "306520",
       "nombre": "Tyrhys Dolan",
       "corto": "T. Dolan",
       "dorsal": "24",
@@ -7141,6 +7515,7 @@
       "rojas": 0
      },
      {
+      "id": "355902",
       "nombre": "Cala",
       "corto": "Cala",
       "dorsal": "22",
@@ -7154,6 +7529,7 @@
       "rojas": 0
      },
      {
+      "id": "367946",
       "nombre": "Javi Hernandez",
       "corto": "J. Hernandez",
       "dorsal": "28",
@@ -7167,6 +7543,7 @@
       "rojas": 0
      },
      {
+      "id": "318773",
       "nombre": "Roberto Fernández",
       "corto": "R. Fernández",
       "dorsal": "9",
@@ -7180,6 +7557,7 @@
       "rojas": 0
      },
      {
+      "id": "307270",
       "nombre": "Jofre Carreras",
       "corto": "J. Carreras",
       "dorsal": "17",
@@ -7193,6 +7571,7 @@
       "rojas": 0
      },
      {
+      "id": "383900",
       "nombre": "Rafael Bauza",
       "corto": "R. Bauza",
       "dorsal": "26",
@@ -7206,6 +7585,7 @@
       "rojas": 0
      },
      {
+      "id": "307419",
       "nombre": "Ángel Fortuño",
       "corto": "Á. Fortuño",
       "dorsal": "1",
@@ -7219,6 +7599,7 @@
       "rojas": 0
      },
      {
+      "id": "277314",
       "nombre": "Vanja Drkusic",
       "corto": "V. Drkusic",
       "dorsal": "16",
@@ -7232,6 +7613,7 @@
       "rojas": 0
      },
      {
+      "id": "196914",
       "nombre": "Pere Milla",
       "corto": "P. Milla",
       "dorsal": "11",
@@ -7245,6 +7627,7 @@
       "rojas": 0
      },
      {
+      "id": "354621",
       "nombre": "Marcos Fernández",
       "corto": "M. Fernández",
       "dorsal": "18",
@@ -7258,6 +7641,7 @@
       "rojas": 0
      },
      {
+      "id": "346210",
       "nombre": "Quilindschy Hartman",
       "corto": "Q. Hartman",
       "dorsal": "3",
@@ -7271,6 +7655,7 @@
       "rojas": 0
      },
      {
+      "id": "381681",
       "nombre": "Llorenç Serred",
       "corto": "L. Serred",
       "dorsal": "31",
@@ -7284,6 +7669,7 @@
       "rojas": 0
      },
      {
+      "id": "420443",
       "nombre": "Adama Timera",
       "corto": "A. Timera",
       "dorsal": "27",
@@ -7297,6 +7683,7 @@
       "rojas": 0
      },
      {
+      "id": "397289",
       "nombre": "José Ángel López",
       "corto": "J. López",
       "dorsal": "32",
@@ -7310,6 +7697,7 @@
       "rojas": 0
      },
      {
+      "id": "361468",
       "nombre": "Gabriel Moscardo",
       "corto": "Gabriel Moscardo",
       "dorsal": "20",
@@ -7323,6 +7711,7 @@
       "rojas": 0
      },
      {
+      "id": "260242",
       "nombre": "Pol Lozano",
       "corto": "P. Lozano",
       "dorsal": "10",
@@ -7343,6 +7732,7 @@
     "formacion": "4-2-3-1",
     "jugadores": [
      {
+      "id": "134283",
       "nombre": "Thibaut Courtois",
       "corto": "T. Courtois",
       "dorsal": "1",
@@ -7356,6 +7746,7 @@
       "rojas": 0
      },
      {
+      "id": "356000",
       "nombre": "Dean Huijsen",
       "corto": "D. Huijsen",
       "dorsal": "4",
@@ -7369,6 +7760,7 @@
       "rojas": 0
      },
      {
+      "id": "251634",
       "nombre": "Ibrahima Konaté",
       "corto": "I. Konaté",
       "dorsal": "16",
@@ -7382,6 +7774,7 @@
       "rojas": 0
      },
      {
+      "id": "310637",
       "nombre": "Álvaro Carreras",
       "corto": "Á. Carreras",
       "dorsal": "18",
@@ -7395,6 +7788,7 @@
       "rojas": 0
      },
      {
+      "id": "213248",
       "nombre": "Denzel Dumfries",
       "corto": "D. Dumfries",
       "dorsal": "24",
@@ -7408,6 +7802,7 @@
       "rojas": 0
      },
      {
+      "id": "291281",
       "nombre": "Jude Bellingham",
       "corto": "J. Bellingham",
       "dorsal": "5",
@@ -7421,6 +7816,7 @@
       "rojas": 0
      },
      {
+      "id": "235818",
       "nombre": "Federico Valverde",
       "corto": "F. Valverde",
       "dorsal": "8",
@@ -7434,6 +7830,7 @@
       "rojas": 0
      },
      {
+      "id": "199833",
       "nombre": "Bernardo Silva",
       "corto": "B. Silva",
       "dorsal": "20",
@@ -7447,6 +7844,7 @@
       "rojas": 0
      },
      {
+      "id": "231388",
       "nombre": "Kylian Mbappé",
       "corto": "K. Mbappé",
       "dorsal": "10",
@@ -7460,6 +7858,7 @@
       "rojas": 0
      },
      {
+      "id": "252107",
       "nombre": "Vinícius Júnior",
       "corto": "Vinícius Júnior",
       "dorsal": "7",
@@ -7473,6 +7872,7 @@
       "rojas": 0
      },
      {
+      "id": "310452",
       "nombre": "Arda Güler",
       "corto": "A. Güler",
       "dorsal": "15",
@@ -7486,6 +7886,7 @@
       "rojas": 0
      },
      {
+      "id": "330352",
       "nombre": "Mario Rivas",
       "corto": "M. Rivas",
       "dorsal": "33",
@@ -7499,6 +7900,7 @@
       "rojas": 0
      },
      {
+      "id": "285150",
       "nombre": "Eduardo Camavinga",
       "corto": "E. Camavinga",
       "dorsal": "6",
@@ -7512,6 +7914,7 @@
       "rojas": 0
      },
      {
+      "id": "3117407",
       "nombre": "Alexis Ciria",
       "corto": "A. Ciria",
       "dorsal": "36",
@@ -7525,6 +7928,7 @@
       "rojas": 0
      },
      {
+      "id": "246532",
       "nombre": "Brahim Díaz",
       "corto": "B. Díaz",
       "dorsal": "21",
@@ -7538,6 +7942,7 @@
       "rojas": 0
      },
      {
+      "id": "223532",
       "nombre": "Trent Alexander-Arnold",
       "corto": "T. Alexander-Arnold",
       "dorsal": "12",
@@ -7551,6 +7956,7 @@
       "rojas": 0
      },
      {
+      "id": "380286",
       "nombre": "Carlos Espí",
       "corto": "C. Espí",
       "dorsal": "19",
@@ -7564,6 +7970,7 @@
       "rojas": 0
      },
      {
+      "id": "415478",
       "nombre": "Jorge Cestero",
       "corto": "J. Cestero",
       "dorsal": "29",
@@ -7577,6 +7984,7 @@
       "rojas": 0
      },
      {
+      "id": "350351",
       "nombre": "Sergio Mestre",
       "corto": "S. Mestre",
       "dorsal": "26",
@@ -7590,6 +7998,7 @@
       "rojas": 0
      },
      {
+      "id": "257237",
       "nombre": "Andriy Lunin",
       "corto": "A. Lunin",
       "dorsal": "13",
@@ -7603,6 +8012,7 @@
       "rojas": 0
      },
      {
+      "id": "169438",
       "nombre": "Antonio Rüdiger",
       "corto": "A. Rüdiger",
       "dorsal": "22",
@@ -7616,6 +8026,7 @@
       "rojas": 0
      },
      {
+      "id": "402479",
       "nombre": "Yan Diomande",
       "corto": "Y. Diomande",
       "dorsal": "25",
@@ -7629,6 +8040,7 @@
       "rojas": 0
      },
      {
+      "id": "259910",
       "nombre": "Marc Cucurella",
       "corto": "M. Cucurella",
       "dorsal": "17",
@@ -7930,6 +8342,7 @@
     "formacion": "4-2-3-1",
     "jugadores": [
      {
+      "id": "134283",
       "nombre": "Thibaut Courtois",
       "corto": "T. Courtois",
       "dorsal": "1",
@@ -7943,6 +8356,7 @@
       "rojas": 0
      },
      {
+      "id": "356000",
       "nombre": "Dean Huijsen",
       "corto": "D. Huijsen",
       "dorsal": "4",
@@ -7956,6 +8370,7 @@
       "rojas": 0
      },
      {
+      "id": "251634",
       "nombre": "Ibrahima Konaté",
       "corto": "I. Konaté",
       "dorsal": "16",
@@ -7969,6 +8384,7 @@
       "rojas": 0
      },
      {
+      "id": "310637",
       "nombre": "Álvaro Carreras",
       "corto": "Á. Carreras",
       "dorsal": "18",
@@ -7982,6 +8398,7 @@
       "rojas": 0
      },
      {
+      "id": "213248",
       "nombre": "Denzel Dumfries",
       "corto": "D. Dumfries",
       "dorsal": "24",
@@ -7995,6 +8412,7 @@
       "rojas": 0
      },
      {
+      "id": "291281",
       "nombre": "Jude Bellingham",
       "corto": "J. Bellingham",
       "dorsal": "5",
@@ -8008,6 +8426,7 @@
       "rojas": 0
      },
      {
+      "id": "199833",
       "nombre": "Bernardo Silva",
       "corto": "B. Silva",
       "dorsal": "20",
@@ -8021,6 +8440,7 @@
       "rojas": 0
      },
      {
+      "id": "235818",
       "nombre": "Federico Valverde",
       "corto": "F. Valverde",
       "dorsal": "8",
@@ -8034,6 +8454,7 @@
       "rojas": 0
      },
      {
+      "id": "231388",
       "nombre": "Kylian Mbappé",
       "corto": "K. Mbappé",
       "dorsal": "10",
@@ -8047,6 +8468,7 @@
       "rojas": 0
      },
      {
+      "id": "252107",
       "nombre": "Vinícius Júnior",
       "corto": "Vinícius Júnior",
       "dorsal": "7",
@@ -8060,6 +8482,7 @@
       "rojas": 0
      },
      {
+      "id": "310452",
       "nombre": "Arda Güler",
       "corto": "A. Güler",
       "dorsal": "15",
@@ -8073,6 +8496,7 @@
       "rojas": 0
      },
      {
+      "id": "169438",
       "nombre": "Antonio Rüdiger",
       "corto": "A. Rüdiger",
       "dorsal": "22",
@@ -8086,6 +8510,7 @@
       "rojas": 0
      },
      {
+      "id": "3117407",
       "nombre": "Alexis Ciria",
       "corto": "A. Ciria",
       "dorsal": "36",
@@ -8099,6 +8524,7 @@
       "rojas": 0
      },
      {
+      "id": "330352",
       "nombre": "Mario Rivas",
       "corto": "M. Rivas",
       "dorsal": "33",
@@ -8112,6 +8538,7 @@
       "rojas": 0
      },
      {
+      "id": "415478",
       "nombre": "Jorge Cestero",
       "corto": "J. Cestero",
       "dorsal": "29",
@@ -8125,6 +8552,7 @@
       "rojas": 0
      },
      {
+      "id": "402479",
       "nombre": "Yan Diomande",
       "corto": "Y. Diomande",
       "dorsal": "25",
@@ -8138,6 +8566,7 @@
       "rojas": 0
      },
      {
+      "id": "259910",
       "nombre": "Marc Cucurella",
       "corto": "M. Cucurella",
       "dorsal": "17",
@@ -8151,6 +8580,7 @@
       "rojas": 0
      },
      {
+      "id": "257237",
       "nombre": "Andriy Lunin",
       "corto": "A. Lunin",
       "dorsal": "13",
@@ -8164,6 +8594,7 @@
       "rojas": 0
      },
      {
+      "id": "285150",
       "nombre": "Eduardo Camavinga",
       "corto": "E. Camavinga",
       "dorsal": "6",
@@ -8177,6 +8608,7 @@
       "rojas": 0
      },
      {
+      "id": "246532",
       "nombre": "Brahim Díaz",
       "corto": "B. Díaz",
       "dorsal": "21",
@@ -8190,6 +8622,7 @@
       "rojas": 0
      },
      {
+      "id": "380286",
       "nombre": "Carlos Espí",
       "corto": "C. Espí",
       "dorsal": "19",
@@ -8203,6 +8636,7 @@
       "rojas": 0
      },
      {
+      "id": "350351",
       "nombre": "Sergio Mestre",
       "corto": "S. Mestre",
       "dorsal": "26",
@@ -8216,6 +8650,7 @@
       "rojas": 0
      },
      {
+      "id": "223532",
       "nombre": "Trent Alexander-Arnold",
       "corto": "T. Alexander-Arnold",
       "dorsal": "12",
@@ -8236,6 +8671,7 @@
     "formacion": "4-2-3-1",
     "jugadores": [
      {
+      "id": "217319",
       "nombre": "Álex Remiro",
       "corto": "Á. Remiro",
       "dorsal": "1",
@@ -8249,6 +8685,7 @@
       "rojas": 0
      },
      {
+      "id": "366885",
       "nombre": "Jon Martín",
       "corto": "J. Martín",
       "dorsal": "31",
@@ -8262,6 +8699,7 @@
       "rojas": 0
      },
      {
+      "id": "396607",
       "nombre": "Luken Beitia",
       "corto": "L. Beitia",
       "dorsal": "34",
@@ -8275,6 +8713,7 @@
       "rojas": 0
      },
      {
+      "id": "265993",
       "nombre": "Sergio Gómez",
       "corto": "S. Gómez",
       "dorsal": "17",
@@ -8288,6 +8727,7 @@
       "rojas": 0
      },
      {
+      "id": "318063",
       "nombre": "Jon Aramburu",
       "corto": "J. Aramburu",
       "dorsal": "2",
@@ -8301,6 +8741,7 @@
       "rojas": 0
      },
      {
+      "id": "306263",
       "nombre": "Luka Sucic",
       "corto": "L. Sucic",
       "dorsal": "24",
@@ -8314,6 +8755,7 @@
       "rojas": 0
      },
      {
+      "id": "297371",
       "nombre": "Beñat Turrientes",
       "corto": "B. Turrientes",
       "dorsal": "8",
@@ -8327,6 +8769,7 @@
       "rojas": 0
      },
      {
+      "id": "236185",
       "nombre": "Yangel Herrera",
       "corto": "Y. Herrera",
       "dorsal": "21",
@@ -8340,6 +8783,7 @@
       "rojas": 0
      },
      {
+      "id": "229018",
       "nombre": "Mikel Oyarzabal",
       "corto": "M. Oyarzabal",
       "dorsal": "10",
@@ -8353,6 +8797,7 @@
       "rojas": 0
      },
      {
+      "id": "406379",
       "nombre": "Job Ochieng",
       "corto": "J. Ochieng",
       "dorsal": "12",
@@ -8366,6 +8811,7 @@
       "rojas": 0
      },
      {
+      "id": "256587",
       "nombre": "Takefusa Kubo",
       "corto": "T. Kubo",
       "dorsal": "14",
@@ -8379,6 +8825,7 @@
       "rojas": 0
      },
      {
+      "id": "410486",
       "nombre": "Ibai Aguirre",
       "corto": "I. Aguirre",
       "dorsal": "26",
@@ -8392,6 +8839,7 @@
       "rojas": 0
      },
      {
+      "id": "341367",
       "nombre": "Orri Óskarsson",
       "corto": "O. Óskarsson",
       "dorsal": "9",
@@ -8405,6 +8853,7 @@
       "rojas": 0
      },
      {
+      "id": "307487",
       "nombre": "Arsen Zakharyan",
       "corto": "A. Zakharyan",
       "dorsal": "23",
@@ -8418,6 +8867,7 @@
       "rojas": 0
      },
      {
+      "id": "283941",
       "nombre": "Ander Barrenetxea",
       "corto": "A. Barrenetxea",
       "dorsal": "7",
@@ -8431,6 +8881,7 @@
       "rojas": 0
      },
      {
+      "id": "283891",
       "nombre": "Aihen Muñoz",
       "corto": "A. Muñoz",
       "dorsal": "3",
@@ -8444,6 +8895,7 @@
       "rojas": 0
      },
      {
+      "id": "366886",
       "nombre": "Alex Lebarbier",
       "corto": "A. Lebarbier",
       "dorsal": "28",
@@ -8457,6 +8909,7 @@
       "rojas": 0
      },
      {
+      "id": "297359",
       "nombre": "Jon Pacheco",
       "corto": "J. Pacheco",
       "dorsal": "16",
@@ -8470,6 +8923,7 @@
       "rojas": 0
      },
      {
+      "id": "396613",
       "nombre": "Alex Marchal",
       "corto": "A. Marchal",
       "dorsal": "29",
@@ -8483,6 +8937,7 @@
       "rojas": 0
      },
      {
+      "id": "235693",
       "nombre": "Igor Zubeldia",
       "corto": "I. Zubeldia",
       "dorsal": "5",
@@ -8496,6 +8951,7 @@
       "rojas": 0
      },
      {
+      "id": "312011",
       "nombre": "Unai Marrero",
       "corto": "U. Marrero",
       "dorsal": "13",
@@ -8509,6 +8965,7 @@
       "rojas": 0
      },
      {
+      "id": "235072",
       "nombre": "Carlos Soler",
       "corto": "C. Soler",
       "dorsal": "18",
@@ -8522,6 +8979,7 @@
       "rojas": 0
      },
      {
+      "id": "213141",
       "nombre": "Gonçalo Guedes",
       "corto": "G. Guedes",
       "dorsal": "11",
@@ -8783,6 +9241,7 @@
     "formacion": "4-2-3-1",
     "jugadores": [
      {
+      "id": "134283",
       "nombre": "Thibaut Courtois",
       "corto": "T. Courtois",
       "dorsal": "1",
@@ -8796,6 +9255,7 @@
       "rojas": 0
      },
      {
+      "id": "356000",
       "nombre": "Dean Huijsen",
       "corto": "D. Huijsen",
       "dorsal": "4",
@@ -8809,6 +9269,7 @@
       "rojas": 0
      },
      {
+      "id": "169438",
       "nombre": "Antonio Rüdiger",
       "corto": "A. Rüdiger",
       "dorsal": "22",
@@ -8822,6 +9283,7 @@
       "rojas": 0
      },
      {
+      "id": "310637",
       "nombre": "Álvaro Carreras",
       "corto": "Á. Carreras",
       "dorsal": "18",
@@ -8835,6 +9297,7 @@
       "rojas": 0
      },
      {
+      "id": "235818",
       "nombre": "Federico Valverde",
       "corto": "F. Valverde",
       "dorsal": "8",
@@ -8848,6 +9311,7 @@
       "rojas": 0
      },
      {
+      "id": "291281",
       "nombre": "Jude Bellingham",
       "corto": "J. Bellingham",
       "dorsal": "5",
@@ -8861,6 +9325,7 @@
       "rojas": 0
      },
      {
+      "id": "285150",
       "nombre": "Eduardo Camavinga",
       "corto": "E. Camavinga",
       "dorsal": "6",
@@ -8874,6 +9339,7 @@
       "rojas": 0
      },
      {
+      "id": "199833",
       "nombre": "Bernardo Silva",
       "corto": "B. Silva",
       "dorsal": "20",
@@ -8887,6 +9353,7 @@
       "rojas": 0
      },
      {
+      "id": "231388",
       "nombre": "Kylian Mbappé",
       "corto": "K. Mbappé",
       "dorsal": "10",
@@ -8900,6 +9367,7 @@
       "rojas": 0
      },
      {
+      "id": "252107",
       "nombre": "Vinícius Júnior",
       "corto": "Vinícius Júnior",
       "dorsal": "7",
@@ -8913,6 +9381,7 @@
       "rojas": 0
      },
      {
+      "id": "310452",
       "nombre": "Arda Güler",
       "corto": "A. Güler",
       "dorsal": "15",
@@ -8926,6 +9395,7 @@
       "rojas": 0
      },
      {
+      "id": "251634",
       "nombre": "Ibrahima Konaté",
       "corto": "I. Konaté",
       "dorsal": "16",
@@ -8939,6 +9409,7 @@
       "rojas": 0
      },
      {
+      "id": "402479",
       "nombre": "Yan Diomande",
       "corto": "Y. Diomande",
       "dorsal": "25",
@@ -8952,6 +9423,7 @@
       "rojas": 0
      },
      {
+      "id": "380286",
       "nombre": "Carlos Espí",
       "corto": "C. Espí",
       "dorsal": "19",
@@ -8965,6 +9437,7 @@
       "rojas": 0
      },
      {
+      "id": "346612",
       "nombre": "Endrick",
       "corto": "Endrick",
       "dorsal": "9",
@@ -8978,6 +9451,7 @@
       "rojas": 0
      },
      {
+      "id": "228402",
       "nombre": "Éder Militão",
       "corto": "É. Militão",
       "dorsal": "3",
@@ -8991,6 +9465,7 @@
       "rojas": 0
      },
      {
+      "id": "409019",
       "nombre": "Thiago Pitarch",
       "corto": "T. Pitarch",
       "dorsal": "27",
@@ -9004,6 +9479,7 @@
       "rojas": 0
      },
      {
+      "id": "265919",
       "nombre": "Aurélien Tchouaméni",
       "corto": "A. Tchouaméni",
       "dorsal": "14",
@@ -9017,6 +9493,7 @@
       "rojas": 0
      },
      {
+      "id": "259910",
       "nombre": "Marc Cucurella",
       "corto": "M. Cucurella",
       "dorsal": "17",
@@ -9030,6 +9507,7 @@
       "rojas": 0
      },
      {
+      "id": "213248",
       "nombre": "Denzel Dumfries",
       "corto": "D. Dumfries",
       "dorsal": "24",
@@ -9043,6 +9521,7 @@
       "rojas": 0
      },
      {
+      "id": "223532",
       "nombre": "Trent Alexander-Arnold",
       "corto": "T. Alexander-Arnold",
       "dorsal": "12",
@@ -9056,6 +9535,7 @@
       "rojas": 0
      },
      {
+      "id": "257237",
       "nombre": "Andriy Lunin",
       "corto": "A. Lunin",
       "dorsal": "13",
@@ -9069,6 +9549,7 @@
       "rojas": 0
      },
      {
+      "id": "246532",
       "nombre": "Brahim Díaz",
       "corto": "B. Díaz",
       "dorsal": "21",
@@ -9089,6 +9570,7 @@
     "formacion": "4-2-3-1",
     "jugadores": [
      {
+      "id": "277377",
       "nombre": "Maarten Vandevoordt",
       "corto": "M. Vandevoordt",
       "dorsal": "26",
@@ -9102,6 +9584,7 @@
       "rojas": 0
      },
      {
+      "id": "319100",
       "nombre": "Castello Lukeba",
       "corto": "C. Lukeba",
       "dorsal": "23",
@@ -9115,6 +9598,7 @@
       "rojas": 0
      },
      {
+      "id": "162162",
       "nombre": "Willi Orbán",
       "corto": "W. Orbán",
       "dorsal": "4",
@@ -9128,6 +9612,7 @@
       "rojas": 0
      },
      {
+      "id": "249548",
       "nombre": "David Raum",
       "corto": "D. Raum",
       "dorsal": "22",
@@ -9141,6 +9626,7 @@
       "rojas": 0
      },
      {
+      "id": "258963",
       "nombre": "Ridle Baku",
       "corto": "R. Baku",
       "dorsal": "17",
@@ -9154,6 +9640,7 @@
       "rojas": 0
      },
      {
+      "id": "222176",
       "nombre": "Christopher Nkunku",
       "corto": "C. Nkunku",
       "dorsal": "28",
@@ -9167,6 +9654,7 @@
       "rojas": 0
      },
      {
+      "id": "323807",
       "nombre": "Neil El Aynaoui",
       "corto": "N. El Aynaoui",
       "dorsal": "21",
@@ -9180,6 +9668,7 @@
       "rojas": 0
      },
      {
+      "id": "305956",
       "nombre": "Nicolas Seiwald",
       "corto": "N. Seiwald",
       "dorsal": "13",
@@ -9193,6 +9682,7 @@
       "rojas": 0
      },
      {
+      "id": "324766",
       "nombre": "Rômulo",
       "corto": "Rômulo",
       "dorsal": "40",
@@ -9206,6 +9696,7 @@
       "rojas": 0
      },
      {
+      "id": "319368",
       "nombre": "Antonio Nusa",
       "corto": "A. Nusa",
       "dorsal": "7",
@@ -9219,6 +9710,7 @@
       "rojas": 0
      },
      {
+      "id": "357683",
       "nombre": "Brajan Gruda",
       "corto": "B. Gruda",
       "dorsal": "10",
@@ -9232,6 +9724,7 @@
       "rojas": 0
      },
      {
+      "id": "372232",
       "nombre": "Andrija Maksimovic",
       "corto": "A. Maksimovic",
       "dorsal": "30",
@@ -9245,6 +9738,7 @@
       "rojas": 0
      },
      {
+      "id": "274897",
       "nombre": "Christoph Baumgartner",
       "corto": "C. Baumgartner",
       "dorsal": "14",
@@ -9258,6 +9752,7 @@
       "rojas": 0
      },
      {
+      "id": "330233",
       "nombre": "Ezechiel Banzuzi",
       "corto": "E. Banzuzi",
       "dorsal": "6",
@@ -9271,6 +9766,7 @@
       "rojas": 0
      },
      {
+      "id": "318316",
       "nombre": "Maxime Estève",
       "corto": "M. Estève",
       "dorsal": "3",
@@ -9284,6 +9780,7 @@
       "rojas": 0
      },
      {
+      "id": "368003",
       "nombre": "Max Finkgrafe",
       "corto": "M. Finkgrafe",
       "dorsal": "35",
@@ -9297,6 +9794,7 @@
       "rojas": 0
      },
      {
+      "id": "366911",
       "nombre": "Tidiam Gomis",
       "corto": "T. Gomis",
       "dorsal": "27",
@@ -9310,6 +9808,7 @@
       "rojas": 0
      },
      {
+      "id": "220711",
       "nombre": "Benjamin Henrichs",
       "corto": "B. Henrichs",
       "dorsal": "39",
@@ -9323,6 +9822,7 @@
       "rojas": 0
      },
      {
+      "id": "384380",
       "nombre": "Abdoul Koné",
       "corto": "A. Koné",
       "dorsal": "2",
@@ -9336,6 +9836,7 @@
       "rojas": 0
      },
      {
+      "id": "310131",
       "nombre": "Johan Bakayoko",
       "corto": "J. Bakayoko",
       "dorsal": "11",
@@ -9349,6 +9850,7 @@
       "rojas": 0
      },
      {
+      "id": "201803",
       "nombre": "Lukas Klostermann",
       "corto": "L. Klostermann",
       "dorsal": "16",
@@ -9362,6 +9864,7 @@
       "rojas": 0
      },
      {
+      "id": "193610",
       "nombre": "Ørjan Nyland",
       "corto": "Ø. Nyland",
       "dorsal": "1",
@@ -9375,6 +9878,7 @@
       "rojas": 0
      },
      {
+      "id": "307364",
       "nombre": "Rocco Reitz",
       "corto": "R. Reitz",
       "dorsal": "20",
@@ -9676,6 +10180,7 @@
     "formacion": "3-4-2-1",
     "jugadores": [
      {
+      "id": "206587",
       "nombre": "Pierluigi Gollini",
       "corto": "P. Gollini",
       "dorsal": "95",
@@ -9689,6 +10194,7 @@
       "rojas": 0
      },
      {
+      "id": "242593",
       "nombre": "Evan Ndicka",
       "corto": "E. Ndicka",
       "dorsal": "5",
@@ -9702,6 +10208,7 @@
       "rojas": 0
      },
      {
+      "id": "222529",
       "nombre": "Mario Hermoso",
       "corto": "M. Hermoso",
       "dorsal": "22",
@@ -9715,6 +10222,7 @@
       "rojas": 0
      },
      {
+      "id": "212597",
       "nombre": "Gianluca Mancini",
       "corto": "G. Mancini",
       "dorsal": "23",
@@ -9728,6 +10236,7 @@
       "rojas": 0
      },
      {
+      "id": "285226",
       "nombre": "Manu Koné",
       "corto": "M. Koné",
       "dorsal": "17",
@@ -9741,6 +10250,7 @@
       "rojas": 0
      },
      {
+      "id": "146335",
       "nombre": "Marten de Roon",
       "corto": "M. de Roon",
       "dorsal": "15",
@@ -9754,6 +10264,7 @@
       "rojas": 0
      },
      {
+      "id": "164826",
       "nombre": "Nahuel Molina",
       "corto": "N. Molina",
       "dorsal": "20",
@@ -9767,6 +10278,7 @@
       "rojas": 0
      },
      {
+      "id": "332354",
       "nombre": "Wesley",
       "corto": "Wesley",
       "dorsal": "43",
@@ -9780,6 +10292,7 @@
       "rojas": 0
      },
      {
+      "id": "259481",
       "nombre": "Donyell Malen",
       "corto": "D. Malen",
       "dorsal": "14",
@@ -9793,6 +10306,7 @@
       "rojas": 0
      },
      {
+      "id": "164839",
       "nombre": "Paulo Dybala",
       "corto": "P. Dybala",
       "dorsal": "21",
@@ -9806,6 +10320,7 @@
       "rojas": 0
      },
      {
+      "id": "323974",
       "nombre": "Matìas Soulè",
       "corto": "M. Soulè",
       "dorsal": "18",
@@ -9819,6 +10334,7 @@
       "rojas": 0
      },
      {
+      "id": "398120",
       "nombre": "Giorgio De Marzi",
       "corto": "G. De Marzi",
       "dorsal": "70",
@@ -9832,6 +10348,7 @@
       "rojas": 0
      },
      {
+      "id": "360235",
       "nombre": "Niccolò Pisilli",
       "corto": "N. Pisilli",
       "dorsal": "61",
@@ -9845,6 +10362,7 @@
       "rojas": 0
      },
      {
+      "id": "234300",
       "nombre": "Devis Vásquez",
       "corto": "D. Vásquez",
       "dorsal": "32",
@@ -9858,6 +10376,7 @@
       "rojas": 0
      },
      {
+      "id": "409371",
       "nombre": "Emanuele Lulli",
       "corto": "E. Lulli",
       "dorsal": "77",
@@ -9871,6 +10390,7 @@
       "rojas": 0
      },
      {
+      "id": "387204",
       "nombre": "Rodrigo Mora",
       "corto": "R. Mora",
       "dorsal": "86",
@@ -9884,6 +10404,7 @@
       "rojas": 0
      },
      {
+      "id": "336104",
       "nombre": "Konstantinos Koulierakis",
       "corto": "K. Koulierakis",
       "dorsal": "3",
@@ -9897,6 +10418,7 @@
       "rojas": 0
      },
      {
+      "id": "297300",
       "nombre": "Devyne Rensch",
       "corto": "D. Rensch",
       "dorsal": "2",
@@ -9910,6 +10432,7 @@
       "rojas": 0
      },
      {
+      "id": "271555",
       "nombre": "Leonardo Balerdi",
       "corto": "L. Balerdi",
       "dorsal": "26",
@@ -9923,6 +10446,7 @@
       "rojas": 0
      },
      {
+      "id": "340705",
       "nombre": "Daniele Ghilardi",
       "corto": "D. Ghilardi",
       "dorsal": "87",
@@ -9936,6 +10460,7 @@
       "rojas": 0
      },
      {
+      "id": "204320",
       "nombre": "Lorenzo Pellegrini",
       "corto": "L. Pellegrini",
       "dorsal": "7",
@@ -9949,6 +10474,7 @@
       "rojas": 0
      },
      {
+      "id": "250284",
       "nombre": "Santiago Castro",
       "corto": "S. Castro",
       "dorsal": "9",
@@ -9969,6 +10495,7 @@
     "formacion": "4-2-3-1",
     "jugadores": [
      {
+      "id": "134283",
       "nombre": "Thibaut Courtois",
       "corto": "T. Courtois",
       "dorsal": "1",
@@ -9982,6 +10509,7 @@
       "rojas": 0
      },
      {
+      "id": "169438",
       "nombre": "Antonio Rüdiger",
       "corto": "A. Rüdiger",
       "dorsal": "22",
@@ -9995,6 +10523,7 @@
       "rojas": 0
      },
      {
+      "id": "251634",
       "nombre": "Ibrahima Konaté",
       "corto": "I. Konaté",
       "dorsal": "16",
@@ -10008,6 +10537,7 @@
       "rojas": 0
      },
      {
+      "id": "259910",
       "nombre": "Marc Cucurella",
       "corto": "M. Cucurella",
       "dorsal": "17",
@@ -10021,6 +10551,7 @@
       "rojas": 0
      },
      {
+      "id": "213248",
       "nombre": "Denzel Dumfries",
       "corto": "D. Dumfries",
       "dorsal": "24",
@@ -10034,6 +10565,7 @@
       "rojas": 0
      },
      {
+      "id": "291281",
       "nombre": "Jude Bellingham",
       "corto": "J. Bellingham",
       "dorsal": "5",
@@ -10047,6 +10579,7 @@
       "rojas": 0
      },
      {
+      "id": "265919",
       "nombre": "Aurélien Tchouaméni",
       "corto": "A. Tchouaméni",
       "dorsal": "14",
@@ -10060,6 +10593,7 @@
       "rojas": 0
      },
      {
+      "id": "235818",
       "nombre": "Federico Valverde",
       "corto": "F. Valverde",
       "dorsal": "8",
@@ -10073,6 +10607,7 @@
       "rojas": 0
      },
      {
+      "id": "231388",
       "nombre": "Kylian Mbappé",
       "corto": "K. Mbappé",
       "dorsal": "10",
@@ -10086,6 +10621,7 @@
       "rojas": 0
      },
      {
+      "id": "252107",
       "nombre": "Vinícius Júnior",
       "corto": "Vinícius Júnior",
       "dorsal": "7",
@@ -10099,6 +10635,7 @@
       "rojas": 0
      },
      {
+      "id": "402479",
       "nombre": "Yan Diomande",
       "corto": "Y. Diomande",
       "dorsal": "25",
@@ -10112,6 +10649,7 @@
       "rojas": 0
      },
      {
+      "id": "285150",
       "nombre": "Eduardo Camavinga",
       "corto": "E. Camavinga",
       "dorsal": "6",
@@ -10125,6 +10663,7 @@
       "rojas": 0
      },
      {
+      "id": "223532",
       "nombre": "Trent Alexander-Arnold",
       "corto": "T. Alexander-Arnold",
       "dorsal": "12",
@@ -10138,6 +10677,7 @@
       "rojas": 0
      },
      {
+      "id": "409019",
       "nombre": "Thiago Pitarch",
       "corto": "T. Pitarch",
       "dorsal": "27",
@@ -10151,6 +10691,7 @@
       "rojas": 0
      },
      {
+      "id": "356000",
       "nombre": "Dean Huijsen",
       "corto": "D. Huijsen",
       "dorsal": "4",
@@ -10164,6 +10705,7 @@
       "rojas": 0
      },
      {
+      "id": "246532",
       "nombre": "Brahim Díaz",
       "corto": "B. Díaz",
       "dorsal": "21",
@@ -10177,6 +10719,7 @@
       "rojas": 0
      },
      {
+      "id": "350351",
       "nombre": "Sergio Mestre",
       "corto": "S. Mestre",
       "dorsal": "26",
@@ -10190,6 +10733,7 @@
       "rojas": 0
      },
      {
+      "id": "199833",
       "nombre": "Bernardo Silva",
       "corto": "B. Silva",
       "dorsal": "20",
@@ -10203,6 +10747,7 @@
       "rojas": 0
      },
      {
+      "id": "310452",
       "nombre": "Arda Güler",
       "corto": "A. Güler",
       "dorsal": "15",
@@ -10216,6 +10761,7 @@
       "rojas": 0
      },
      {
+      "id": "257237",
       "nombre": "Andriy Lunin",
       "corto": "A. Lunin",
       "dorsal": "13",
@@ -10229,6 +10775,7 @@
       "rojas": 0
      },
      {
+      "id": "380286",
       "nombre": "Carlos Espí",
       "corto": "C. Espí",
       "dorsal": "19",
@@ -10242,6 +10789,7 @@
       "rojas": 0
      },
      {
+      "id": "346612",
       "nombre": "Endrick",
       "corto": "Endrick",
       "dorsal": "9",
@@ -10255,6 +10803,7 @@
       "rojas": 0
      },
      {
+      "id": "310637",
       "nombre": "Álvaro Carreras",
       "corto": "Á. Carreras",
       "dorsal": "18",
@@ -10506,6 +11055,7 @@
     "formacion": "4-2-3-1",
     "jugadores": [
      {
+      "id": "134283",
       "nombre": "Thibaut Courtois",
       "corto": "T. Courtois",
       "dorsal": "1",
@@ -10519,6 +11069,7 @@
       "rojas": 0
      },
      {
+      "id": "356000",
       "nombre": "Dean Huijsen",
       "corto": "D. Huijsen",
       "dorsal": "4",
@@ -10532,6 +11083,7 @@
       "rojas": 0
      },
      {
+      "id": "251634",
       "nombre": "Ibrahima Konaté",
       "corto": "I. Konaté",
       "dorsal": "16",
@@ -10545,6 +11097,7 @@
       "rojas": 0
      },
      {
+      "id": "259910",
       "nombre": "Marc Cucurella",
       "corto": "M. Cucurella",
       "dorsal": "17",
@@ -10558,6 +11111,7 @@
       "rojas": 0
      },
      {
+      "id": "213248",
       "nombre": "Denzel Dumfries",
       "corto": "D. Dumfries",
       "dorsal": "24",
@@ -10571,6 +11125,7 @@
       "rojas": 0
      },
      {
+      "id": "291281",
       "nombre": "Jude Bellingham",
       "corto": "J. Bellingham",
       "dorsal": "5",
@@ -10584,6 +11139,7 @@
       "rojas": 0
      },
      {
+      "id": "235818",
       "nombre": "Federico Valverde",
       "corto": "F. Valverde",
       "dorsal": "8",
@@ -10597,6 +11153,7 @@
       "rojas": 0
      },
      {
+      "id": "223532",
       "nombre": "Trent Alexander-Arnold",
       "corto": "T. Alexander-Arnold",
       "dorsal": "12",
@@ -10610,6 +11167,7 @@
       "rojas": 0
      },
      {
+      "id": "231388",
       "nombre": "Kylian Mbappé",
       "corto": "K. Mbappé",
       "dorsal": "10",
@@ -10623,6 +11181,7 @@
       "rojas": 0
      },
      {
+      "id": "252107",
       "nombre": "Vinícius Júnior",
       "corto": "Vinícius Júnior",
       "dorsal": "7",
@@ -10636,6 +11195,7 @@
       "rojas": 0
      },
      {
+      "id": "246532",
       "nombre": "Brahim Díaz",
       "corto": "B. Díaz",
       "dorsal": "21",
@@ -10649,6 +11209,7 @@
       "rojas": 0
      },
      {
+      "id": "415478",
       "nombre": "Jorge Cestero",
       "corto": "J. Cestero",
       "dorsal": "29",
@@ -10662,6 +11223,7 @@
       "rojas": 0
      },
      {
+      "id": "409019",
       "nombre": "Thiago Pitarch",
       "corto": "T. Pitarch",
       "dorsal": "27",
@@ -10675,6 +11237,7 @@
       "rojas": 0
      },
      {
+      "id": "330352",
       "nombre": "Mario Rivas",
       "corto": "M. Rivas",
       "dorsal": "33",
@@ -10688,6 +11251,7 @@
       "rojas": 0
      },
      {
+      "id": "346612",
       "nombre": "Endrick",
       "corto": "Endrick",
       "dorsal": "9",
@@ -10701,6 +11265,7 @@
       "rojas": 0
      },
      {
+      "id": "169438",
       "nombre": "Antonio Rüdiger",
       "corto": "A. Rüdiger",
       "dorsal": "22",
@@ -10714,6 +11279,7 @@
       "rojas": 0
      },
      {
+      "id": "380286",
       "nombre": "Carlos Espí",
       "corto": "C. Espí",
       "dorsal": "19",
@@ -10727,6 +11293,7 @@
       "rojas": 0
      },
      {
+      "id": "310637",
       "nombre": "Álvaro Carreras",
       "corto": "Á. Carreras",
       "dorsal": "18",
@@ -10740,6 +11307,7 @@
       "rojas": 0
      },
      {
+      "id": "257237",
       "nombre": "Andriy Lunin",
       "corto": "A. Lunin",
       "dorsal": "13",
@@ -10753,6 +11321,7 @@
       "rojas": 0
      },
      {
+      "id": "402479",
       "nombre": "Yan Diomande",
       "corto": "Y. Diomande",
       "dorsal": "25",
@@ -10766,6 +11335,7 @@
       "rojas": 0
      },
      {
+      "id": "350351",
       "nombre": "Sergio Mestre",
       "corto": "S. Mestre",
       "dorsal": "26",
@@ -10779,6 +11349,7 @@
       "rojas": 0
      },
      {
+      "id": "265919",
       "nombre": "Aurélien Tchouaméni",
       "corto": "A. Tchouaméni",
       "dorsal": "14",
@@ -10799,6 +11370,7 @@
     "formacion": "3-5-2",
     "jugadores": [
      {
+      "id": "240533",
       "nombre": "Josep Martínez",
       "corto": "J. Martínez",
       "dorsal": "1",
@@ -10812,6 +11384,7 @@
       "rojas": 0
      },
      {
+      "id": "266660",
       "nombre": "Yann Bisseck",
       "corto": "Y. Bisseck",
       "dorsal": "31",
@@ -10825,6 +11398,7 @@
       "rojas": 0
      },
      {
+      "id": "249280",
       "nombre": "Alessandro Bastoni",
       "corto": "A. Bastoni",
       "dorsal": "95",
@@ -10838,6 +11412,7 @@
       "rojas": 0
      },
      {
+      "id": "215378",
       "nombre": "Benjamin Pavard",
       "corto": "B. Pavard",
       "dorsal": "28",
@@ -10851,6 +11426,7 @@
       "rojas": 0
      },
      {
+      "id": "190257",
       "nombre": "Curtis Jones",
       "corto": "C. Jones",
       "dorsal": "21",
@@ -10864,6 +11440,7 @@
       "rojas": 0
      },
      {
+      "id": "204441",
       "nombre": "Nicolò Barella",
       "corto": "N. Barella",
       "dorsal": "23",
@@ -10877,6 +11454,7 @@
       "rojas": 0
      },
      {
+      "id": "170785",
       "nombre": "Hakan Çalhanoglu",
       "corto": "H. Çalhanoglu",
       "dorsal": "20",
@@ -10890,6 +11468,7 @@
       "rojas": 0
      },
      {
+      "id": "271769",
       "nombre": "Carlos Augusto",
       "corto": "C. Augusto",
       "dorsal": "30",
@@ -10903,6 +11482,7 @@
       "rojas": 0
      },
      {
+      "id": "319167",
       "nombre": "Andy Diouf",
       "corto": "A. Diouf",
       "dorsal": "17",
@@ -10916,6 +11496,7 @@
       "rojas": 0
      },
      {
+      "id": "217331",
       "nombre": "Marcus Thuram",
       "corto": "M. Thuram",
       "dorsal": "9",
@@ -10929,6 +11510,7 @@
       "rojas": 0
      },
      {
+      "id": "219713",
       "nombre": "Lautaro Martínez",
       "corto": "L. Martínez",
       "dorsal": "10",
@@ -10942,6 +11524,7 @@
       "rojas": 0
      },
      {
+      "id": "214562",
       "nombre": "Manuel Akanji",
       "corto": "M. Akanji",
       "dorsal": "25",
@@ -10955,6 +11538,7 @@
       "rojas": 0
      },
      {
+      "id": "177782",
       "nombre": "Piotr Zielinski",
       "corto": "P. Zielinski",
       "dorsal": "7",
@@ -10968,6 +11552,7 @@
       "rojas": 0
      },
      {
+      "id": "157974",
       "nombre": "John Stones",
       "corto": "J. Stones",
       "dorsal": "6",
@@ -10981,6 +11566,7 @@
       "rojas": 0
      },
      {
+      "id": "240109",
       "nombre": "Aleksandar Stankovic",
       "corto": "A. Stankovic",
       "dorsal": "5",
@@ -10994,6 +11580,7 @@
       "rojas": 0
      },
      {
+      "id": "147625",
       "nombre": "Henrikh Mkhitaryan",
       "corto": "H. Mkhitaryan",
       "dorsal": "22",
@@ -11007,6 +11594,7 @@
       "rojas": 0
      },
      {
+      "id": "181322",
       "nombre": "Raffaele Di Gennaro",
       "corto": "R. Di Gennaro",
       "dorsal": "12",
@@ -11020,6 +11608,7 @@
       "rojas": 0
      },
      {
+      "id": "181836",
       "nombre": "Ivan Provedel",
       "corto": "I. Provedel",
       "dorsal": "49",
@@ -11033,6 +11622,7 @@
       "rojas": 0
      },
      {
+      "id": "309185",
       "nombre": "Ange-Yoan Bonny",
       "corto": "A. Bonny",
       "dorsal": "14",
@@ -11046,6 +11636,7 @@
       "rojas": 0
      },
      {
+      "id": "362674",
       "nombre": "Pio Esposito",
       "corto": "P. Esposito",
       "dorsal": "94",
@@ -11059,6 +11650,7 @@
       "rojas": 0
      },
      {
+      "id": "341494",
       "nombre": "Petar Sucic",
       "corto": "P. Sucic",
       "dorsal": "8",
@@ -11072,6 +11664,7 @@
       "rojas": 0
      },
      {
+      "id": "286369",
       "nombre": "Luis Henrique",
       "corto": "Luis Henrique",
       "dorsal": "11",
