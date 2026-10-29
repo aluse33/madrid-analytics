@@ -1,11 +1,11 @@
 jugador_id,jugador,equipo,minutos,partidos,total,bruto_p90,eb_p90,eb_inf,eb_sup,peso_prior,puesto,prior_media_p90,dispersion,metrica,minimo_web
-1791,Trent Alexander-Arnold,Real Madrid,259,6,0.1819,0.0632,0.0491,0.0491,0.0492,1.0000,DEF,0.0491,0.4036,npxg,false
-1822,Antonio Rüdiger,Real Madrid,304,4,0.1455,0.0431,0.0491,0.0491,0.0492,1.0000,DEF,0.0491,0.4036,npxg,true
-6326,Ibrahima Konaté,Real Madrid,810,9,0.3137,0.0349,0.0491,0.0491,0.0492,1.0000,DEF,0.0491,0.4036,npxg,true
-7829,Éder Militão,Real Madrid,2,1,0.0000,0.0000,0.0491,0.0491,0.0492,1.0000,DEF,0.0491,0.4036,npxg,false
-9840,Denzel Dumfries,Real Madrid,454,8,0.6267,0.1242,0.0491,0.0491,0.0492,1.0000,DEF,0.0491,0.4036,npxg,true
-10576,Álvaro Carreras,Real Madrid,252,5,0.4673,0.1669,0.0491,0.0491,0.0492,1.0000,DEF,0.0491,0.4036,npxg,false
-11943,Dean Huijsen,Real Madrid,684,8,0.5117,0.0673,0.0491,0.0491,0.0492,1.0000,DEF,0.0491,0.4036,npxg,true
+1791,Trent Alexander-Arnold,Real Madrid,259,6,0.1819,0.0632,0.0491,0.0491,0.0491,1.0000,DEF,0.0491,0.4041,npxg,false
+1822,Antonio Rüdiger,Real Madrid,304,4,0.1455,0.0431,0.0491,0.0491,0.0491,1.0000,DEF,0.0491,0.4041,npxg,true
+6326,Ibrahima Konaté,Real Madrid,810,9,0.3137,0.0349,0.0491,0.0491,0.0491,1.0000,DEF,0.0491,0.4041,npxg,true
+7829,Éder Militão,Real Madrid,2,1,0.0000,0.0000,0.0491,0.0491,0.0491,1.0000,DEF,0.0491,0.4041,npxg,false
+9840,Denzel Dumfries,Real Madrid,454,8,0.6267,0.1242,0.0491,0.0491,0.0491,1.0000,DEF,0.0491,0.4041,npxg,true
+10576,Álvaro Carreras,Real Madrid,252,5,0.4673,0.1669,0.0491,0.0491,0.0491,1.0000,DEF,0.0491,0.4041,npxg,false
+11943,Dean Huijsen,Real Madrid,684,8,0.5117,0.0673,0.0491,0.0491,0.0491,1.0000,DEF,0.0491,0.4041,npxg,true
 3423,Kylian Mbappé,Real Madrid,898,10,10.1010,1.0124,0.6618,0.4518,0.9047,0.5394,DEL,0.3626,0.6269,npxg,true
 6421,Brahim Díaz,Real Madrid,116,4,0.1396,0.1083,0.3373,0.1581,0.5710,0.9007,DEL,0.3626,0.6269,npxg,false
 7008,Vinícius Júnior,Real Madrid,592,8,3.5891,0.5456,0.4285,0.2503,0.6455,0.6399,DEL,0.3626,0.6269,npxg,true
@@ -14,18 +14,18 @@ jugador_id,jugador,equipo,minutos,partidos,total,bruto_p90,eb_p90,eb_inf,eb_sup,
 12884,Endrick,Real Madrid,74,2,0.2281,0.2774,0.3570,0.1689,0.6016,0.9343,DEL,0.3626,0.6269,npxg,false
 13561,Yan Diomande,Real Madrid,534,10,1.2150,0.2048,0.3094,0.1593,0.4998,0.6633,DEL,0.3626,0.6269,npxg,true
 13769,Carlos Espí,Real Madrid,15,6,1.3819,8.2916,0.4741,0.2469,0.7609,0.9859,DEL,0.3626,0.6269,npxg,false
-3635,Bernardo Silva,Real Madrid,378,8,0.1401,0.0334,0.0581,0.0120,0.1324,0.3332,MED,0.1075,0.1610,npxg,true
-6241,Federico Valverde,Real Madrid,819,10,0.2958,0.0325,0.0466,0.0136,0.0956,0.1874,MED,0.1075,0.1610,npxg,true
-6560,Aurélien Tchouaméni,Real Madrid,449,6,0.1279,0.0256,0.0499,0.0099,0.1149,0.2961,MED,0.1075,0.1610,npxg,true
-7134,Marc Cucurella,Real Madrid,650,10,0.0000,0.0000,0.0242,0.0025,0.0645,0.2252,MED,0.1075,0.1610,npxg,true
-7359,Eduardo Camavinga,Real Madrid,265,9,0.0000,0.0000,0.0447,0.0047,0.1192,0.4162,MED,0.1075,0.1610,npxg,false
-1791,Trent Alexander-Arnold,Real Madrid,259,6,0.8699,0.3023,0.0982,0.0435,0.1708,0.8282,DEF,0.0559,0.2655,xa,false
-1822,Antonio Rüdiger,Real Madrid,304,4,0.1396,0.0413,0.0530,0.0162,0.1070,0.8042,DEF,0.0559,0.2655,xa,true
-6326,Ibrahima Konaté,Real Madrid,810,9,0.1898,0.0211,0.0422,0.0134,0.0839,0.6065,DEF,0.0559,0.2655,xa,true
-7829,Éder Militão,Real Madrid,2,1,0.0000,0.0000,0.0558,0.0148,0.1180,0.9984,DEF,0.0559,0.2655,xa,false
-9840,Denzel Dumfries,Real Madrid,454,8,0.2258,0.0448,0.0529,0.0173,0.1042,0.7333,DEF,0.0559,0.2655,xa,true
-10576,Álvaro Carreras,Real Madrid,252,5,0.8171,0.2918,0.0955,0.0416,0.1674,0.8320,DEF,0.0559,0.2655,xa,false
-11943,Dean Huijsen,Real Madrid,684,8,0.1874,0.0247,0.0448,0.0143,0.0892,0.6460,DEF,0.0559,0.2655,xa,true
+3635,Bernardo Silva,Real Madrid,378,8,0.1401,0.0334,0.0581,0.0121,0.1324,0.3342,MED,0.1075,0.1608,npxg,true
+6241,Federico Valverde,Real Madrid,819,10,0.2958,0.0325,0.0466,0.0136,0.0956,0.1881,MED,0.1075,0.1608,npxg,true
+6560,Aurélien Tchouaméni,Real Madrid,449,6,0.1279,0.0256,0.0500,0.0100,0.1149,0.2970,MED,0.1075,0.1608,npxg,true
+7134,Marc Cucurella,Real Madrid,650,10,0.0000,0.0000,0.0243,0.0026,0.0646,0.2259,MED,0.1075,0.1608,npxg,true
+7359,Eduardo Camavinga,Real Madrid,265,9,0.0000,0.0000,0.0449,0.0047,0.1193,0.4172,MED,0.1075,0.1608,npxg,false
+1791,Trent Alexander-Arnold,Real Madrid,259,6,0.8699,0.3023,0.0983,0.0434,0.1711,0.8275,DEF,0.0557,0.2659,xa,false
+1822,Antonio Rüdiger,Real Madrid,304,4,0.1396,0.0413,0.0529,0.0161,0.1070,0.8035,DEF,0.0557,0.2659,xa,true
+6326,Ibrahima Konaté,Real Madrid,810,9,0.1898,0.0211,0.0421,0.0133,0.0838,0.6054,DEF,0.0557,0.2659,xa,true
+7829,Éder Militão,Real Madrid,2,1,0.0000,0.0000,0.0557,0.0147,0.1180,0.9984,DEF,0.0557,0.2659,xa,false
+9840,Denzel Dumfries,Real Madrid,454,8,0.2258,0.0448,0.0528,0.0172,0.1042,0.7324,DEF,0.0557,0.2659,xa,true
+10576,Álvaro Carreras,Real Madrid,252,5,0.8171,0.2918,0.0955,0.0415,0.1676,0.8314,DEF,0.0557,0.2659,xa,false
+11943,Dean Huijsen,Real Madrid,684,8,0.1874,0.0247,0.0447,0.0141,0.0892,0.6450,DEF,0.0557,0.2659,xa,true
 3423,Kylian Mbappé,Real Madrid,898,10,1.9887,0.1993,0.1907,0.1004,0.3044,0.3283,DEL,0.1731,0.3072,xa,true
 6421,Brahim Díaz,Real Madrid,116,4,0.2036,0.1579,0.1699,0.0516,0.3439,0.7910,DEL,0.1731,0.3072,xa,false
 7008,Vinícius Júnior,Real Madrid,592,8,2.4926,0.3789,0.2913,0.1627,0.4503,0.4257,DEL,0.1731,0.3072,xa,true
@@ -34,8 +34,8 @@ jugador_id,jugador,equipo,minutos,partidos,total,bruto_p90,eb_p90,eb_inf,eb_sup,
 12884,Endrick,Real Madrid,74,2,0.0000,0.0000,0.1481,0.0373,0.3189,0.8557,DEL,0.1731,0.3072,xa,false
 13561,Yan Diomande,Real Madrid,534,10,0.8138,0.1372,0.1534,0.0631,0.2756,0.4511,DEL,0.1731,0.3072,xa,true
 13769,Carlos Espí,Real Madrid,15,6,0.0785,0.4710,0.1830,0.0499,0.3838,0.9670,DEL,0.1731,0.3072,xa,false
-3635,Bernardo Silva,Real Madrid,378,8,0.2288,0.0545,0.0985,0.0361,0.1857,0.7353,MED,0.1143,0.3515,xa,true
-6241,Federico Valverde,Real Madrid,819,10,0.9695,0.1065,0.1109,0.0505,0.1904,0.5618,MED,0.1143,0.3515,xa,true
-6560,Aurélien Tchouaméni,Real Madrid,449,6,0.3243,0.0650,0.0996,0.0379,0.1849,0.7005,MED,0.1143,0.3515,xa,true
-7134,Marc Cucurella,Real Madrid,650,10,0.2166,0.0300,0.0821,0.0299,0.1551,0.6177,MED,0.1143,0.3515,xa,true
-7359,Eduardo Camavinga,Real Madrid,265,9,0.6185,0.2101,0.1336,0.0559,0.2384,0.7985,MED,0.1143,0.3515,xa,false
+3635,Bernardo Silva,Real Madrid,378,8,0.2288,0.0545,0.0985,0.0362,0.1857,0.7358,MED,0.1144,0.3511,xa,true
+6241,Federico Valverde,Real Madrid,819,10,0.9695,0.1065,0.1109,0.0506,0.1904,0.5625,MED,0.1144,0.3511,xa,true
+6560,Aurélien Tchouaméni,Real Madrid,449,6,0.3243,0.0650,0.0996,0.0380,0.1849,0.7010,MED,0.1144,0.3511,xa,true
+7134,Marc Cucurella,Real Madrid,650,10,0.2166,0.0300,0.0822,0.0300,0.1551,0.6183,MED,0.1144,0.3511,xa,true
+7359,Eduardo Camavinga,Real Madrid,265,9,0.6185,0.2101,0.1336,0.0560,0.2382,0.7989,MED,0.1144,0.3511,xa,false
