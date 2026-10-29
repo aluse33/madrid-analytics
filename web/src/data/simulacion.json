@@ -227,13 +227,13 @@
  ],
  "deriva": {
   "ventanas": 14,
-  "tau2_ataque": 5.331207452731472e-05,
+  "tau2_ataque": 5.331207452718758e-05,
   "pares_ataque": 242,
-  "tau2_defensa": 3.073148414531808e-05,
+  "tau2_defensa": 3.073148414525232e-05,
   "pares_defensa": 242,
-  "var_desfase_dias": 131.12894389298546,
-  "sd_desfase_ataque": 0.0836107411132739,
-  "sd_200_dias_ataque": 0.10325897009685378
+  "var_desfase_dias": 131.1289438929855,
+  "sd_desfase_ataque": 0.08361074111317421,
+  "sd_200_dias_ataque": 0.10325897009673066
  },
  "comparacion": [
   {
