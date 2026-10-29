@@ -8,13 +8,17 @@ export default {
     {name: "Partidos", path: "/partido"},
     {name: "Champions League", path: "/champions"},
     {name: "Histórico", path: "/historico"},
-    {name: "Plantilla", path: "/jugadores"},
-    {name: "Ficha de jugador", path: "/jugador"},
-    {name: "Predicción", path: "/prediccion"},
-    {name: "Simulación Monte Carlo", path: "/montecarlo"},
-    {name: "Laboratorio de modelos", path: "/modelos"},
-    {name: "Econometría", path: "/econometria"},
-    {name: "Metodología", path: "/metodologia"}
+    {name: "Equipo", collapsible: true, open: false, pages: [
+      {name: "Plantilla", path: "/jugadores"},
+      {name: "Ficha de jugador", path: "/jugador"}
+    ]},
+    {name: "Modelos y predicción", collapsible: true, open: false, pages: [
+      {name: "Predicción", path: "/prediccion"},
+      {name: "Simulación Monte Carlo", path: "/montecarlo"},
+      {name: "Laboratorio de modelos", path: "/modelos"},
+      {name: "Econometría", path: "/econometria"},
+      {name: "Metodología", path: "/metodologia"}
+    ]}
   ],
   // Tema propio (style.css): claro/oscuro según el sistema, o el que elija el botón
   style: "style.css",
@@ -36,7 +40,8 @@ export default {
     if (!window.RM_EN) return;
     // en inglés: barra lateral, pie y enlaces apuntando a las páginas /en/
     const T = {"Resumen": "Summary", "Partidos": "Matches", "Plantilla": "Squad", "Ficha de jugador": "Player profile", "Histórico": "History", "Predicción": "Prediction",
-      "Simulación Monte Carlo": "Monte Carlo simulation", "Laboratorio de modelos": "Model lab", "Econometría": "Econometrics", "Metodología": "Methodology"};
+      "Simulación Monte Carlo": "Monte Carlo simulation", "Laboratorio de modelos": "Model lab", "Econometría": "Econometrics", "Metodología": "Methodology",
+      "Equipo": "Team", "Modelos y predicción": "Models & forecasts"};
     const aqui = location.href.split(/[?#]/)[0].replace(/\\/$/, "");
     for (const a of document.querySelectorAll("#observablehq-sidebar a[href]")) {
       const url = new URL(a.getAttribute("href"), location.href).href;
@@ -46,8 +51,15 @@ export default {
       if (T[a.textContent.trim()]) a.textContent = T[a.textContent.trim()];
       const li = a.closest("li");
       if (li && li.classList.contains("observablehq-link")) {
-        li.classList.toggle("observablehq-link-active", destino.replace(/\\/$/, "") === aqui);
+        const activa = destino.replace(/\\/$/, "") === aqui;
+        li.classList.toggle("observablehq-link-active", activa);
+        // el desplegable que contiene la página actual, abierto
+        if (activa) li.closest("details")?.setAttribute("open", "");
       }
+    }
+    for (const sec of document.querySelectorAll("#observablehq-sidebar summary")) {
+      const txt = sec.textContent.trim();
+      if (T[txt]) sec.textContent = T[txt];
     }
     const pie = document.querySelector("#observablehq-footer");
     if (pie) pie.innerHTML = "A project by <a href='https://aluse33.github.io/' target='_blank' rel='noopener'>Alejandro Lucas</a>. Data: Understat (via soccerdata), ESPN and Wikipedia (CC BY-SA). Crests: luukhopman/football-logos; trademarks of each club. Personal project, not affiliated with Real Madrid C.F.";
