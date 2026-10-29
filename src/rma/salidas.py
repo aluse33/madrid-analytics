@@ -18,8 +18,8 @@ import pandas as pd
 from rma import escudos
 from rma.config import RAIZ, Config, codigo_temporada, etiqueta_temporada
 from rma.ingest import espn, historico_liga, wikipedia
+from rma.models import causal, inferencia, shrinkage, simulacion, xg_modelo
 from rma.models import dixon_coles as dc
-from rma.models import inferencia, shrinkage, simulacion, xg_modelo
 
 log = logging.getLogger(__name__)
 WEB = RAIZ / "web" / "src" / "data"
@@ -215,6 +215,13 @@ def generar(cfg: Config, reentrenar_xg: bool | None = None) -> None:
             _csv(cur, WEB / "liga_historica.csv")
     except Exception:  # noqa: BLE001
         log.warning("No se pudo generar el histórico de LaLiga", exc_info=True)
+
+    # ---------------- econometría e inferencia causal
+    try:
+        eco = causal.analisis_completo(lp, rm, jp, espn.fechas_oficiales(cfg))
+        _json(eco, WEB / "econometria.json")
+    except Exception:  # noqa: BLE001
+        log.warning("No se pudo generar el análisis econométrico", exc_info=True)
 
     # ---------------- estado
     _json({

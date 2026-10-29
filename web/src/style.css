@@ -510,3 +510,11 @@ table.mini td:last-child { text-align: right; font-weight: 700; font-variant-num
 }
 .credito-foto { display: inline-block; font-size: 0.7rem; color: rgba(255, 255, 255, 0.6) !important; margin-bottom: 0.6rem; }
 .credito-foto:hover { color: var(--oro) !important; }
+
+/* ================= Econometría ================= */
+.sello { display: inline-block; font-size: 0.72rem; font-weight: 700; padding: 0.15rem 0.55rem; border-radius: 999px; margin-top: 0.35rem; }
+.sello-si { background: color-mix(in srgb, var(--victoria) 18%, transparent); color: var(--victoria); }
+.sello-no { background: color-mix(in srgb, var(--empate) 20%, transparent); color: var(--texto-suave); }
+.tabla-reg th { font-size: 0.75rem; color: var(--texto-suave); text-align: right; font-weight: 600; padding-bottom: 0.3rem; }
+.tabla-reg td:not(:first-child) { text-align: right; font-variant-numeric: tabular-nums; }
+.tabla-reg td:last-child { color: var(--victoria); font-weight: 700; }

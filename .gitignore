@@ -21,3 +21,6 @@ web/dist/
 web/src/.observablehq/cache/
 
 .DS_Store
+
+# restos de Selenium/seleniumbase (pruebas de WhoScored)
+downloaded_files/

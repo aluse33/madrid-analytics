@@ -1,0 +1,284 @@
+{
+ "metodo": {
+  "efectos": [
+   "rival",
+   "temporada"
+  ],
+  "cluster": "rival",
+  "nivel": 0.05
+ },
+ "localia": {
+  "regresion": {
+   "parametros": [
+    {
+     "param": "local",
+     "coef": 0.7287,
+     "se": 0.1264,
+     "t": 5.764,
+     "p": 0.0,
+     "ci95": [
+      0.4693,
+      0.9881
+     ]
+    }
+   ],
+   "n": 276,
+   "clusters": 28,
+   "r2": 0.3176,
+   "rmse": 1.0503,
+   "efectos": [
+    "rival",
+    "temporada"
+   ],
+   "cluster": "rival"
+  },
+  "local_xgf": 2.316,
+  "local_xgc": 0.957,
+  "visit_xgf": 1.832,
+  "visit_xgc": 1.207,
+  "local_dif": 1.359,
+  "visit_dif": 0.625,
+  "n_local": 138,
+  "n_visitante": 138
+ },
+ "descanso": {
+  "n_total": 268,
+  "calendario_completo": true,
+  "categorias": [
+   {
+    "categoria": "corto",
+    "n": 83,
+    "dias_medio": 3.0,
+    "xgf_medio": 2.058,
+    "xgc_medio": 1.014,
+    "dif_xg_medio": 1.044,
+    "ci95_dif": [
+     0.767,
+     1.305
+    ]
+   },
+   {
+    "categoria": "medio",
+    "n": 104,
+    "dias_medio": 4.2,
+    "xgf_medio": 2.066,
+    "xgc_medio": 1.077,
+    "dif_xg_medio": 0.989,
+    "ci95_dif": [
+     0.745,
+     1.25
+    ]
+   },
+   {
+    "categoria": "normal",
+    "n": 51,
+    "dias_medio": 6.7,
+    "xgf_medio": 2.055,
+    "xgc_medio": 1.166,
+    "dif_xg_medio": 0.889,
+    "ci95_dif": [
+     0.518,
+     1.259
+    ]
+   },
+   {
+    "categoria": "largo",
+    "n": 30,
+    "dias_medio": 13.8,
+    "xgf_medio": 2.263,
+    "xgc_medio": 1.217,
+    "dif_xg_medio": 1.046,
+    "ci95_dif": [
+     0.635,
+     1.473
+    ]
+   }
+  ],
+  "regresion": {
+   "parametros": [
+    {
+     "param": "corto",
+     "coef": 0.2146,
+     "se": 0.2881,
+     "t": 0.745,
+     "p": 0.4628,
+     "ci95": [
+      -0.3765,
+      0.8056
+     ]
+    },
+    {
+     "param": "medio",
+     "coef": 0.3183,
+     "se": 0.2527,
+     "t": 1.26,
+     "p": 0.2186,
+     "ci95": [
+      -0.2002,
+      0.8368
+     ]
+    },
+    {
+     "param": "largo",
+     "coef": 0.0694,
+     "se": 0.3022,
+     "t": 0.23,
+     "p": 0.82,
+     "ci95": [
+      -0.5506,
+      0.6894
+     ]
+    },
+    {
+     "param": "local",
+     "coef": 0.7541,
+     "se": 0.1308,
+     "t": 5.767,
+     "p": 0.0,
+     "ci95": [
+      0.4858,
+      1.0224
+     ]
+    }
+   ],
+   "n": 268,
+   "clusters": 28,
+   "r2": 0.3297,
+   "rmse": 1.0532,
+   "efectos": [
+    "rival",
+    "temporada"
+   ],
+   "cluster": "rival"
+  },
+  "champions": {
+   "parametros": [
+    {
+     "param": "tras_champions",
+     "coef": 0.1995,
+     "se": 0.2255,
+     "t": 0.885,
+     "p": 0.3841,
+     "ci95": [
+      -0.2631,
+      0.6622
+     ]
+    },
+    {
+     "param": "local",
+     "coef": 0.7431,
+     "se": 0.14,
+     "t": 5.309,
+     "p": 0.0,
+     "ci95": [
+      0.4559,
+      1.0303
+     ]
+    }
+   ],
+   "n": 268,
+   "clusters": 28,
+   "r2": 0.3261,
+   "rmse": 1.056,
+   "efectos": [
+    "rival",
+    "temporada"
+   ],
+   "cluster": "rival"
+  },
+  "n_tras_champions": 86
+ },
+ "ausencias": [
+  {
+   "jugador": "Karim Benzema",
+   "variable": "dif_xg",
+   "temporadas": [
+    "2019/20",
+    "2020/21",
+    "2021/22",
+    "2022/23"
+   ],
+   "n_titular": 122,
+   "n_no_titular": 30,
+   "media_titular": 1.084,
+   "media_no_titular": 0.25,
+   "diferencia_bruta": -0.834,
+   "efecto": {
+    "param": "no_titular",
+    "coef": -0.7821,
+    "se": 0.303,
+    "t": -2.581,
+    "p": 0.0164,
+    "ci95": [
+     -1.4075,
+     -0.1566
+    ]
+   },
+   "n": 152,
+   "clusters": 25
+  },
+  {
+   "jugador": "Vinícius Júnior",
+   "variable": "dif_xg",
+   "temporadas": [
+    "2019/20",
+    "2020/21",
+    "2021/22",
+    "2022/23",
+    "2023/24",
+    "2024/25",
+    "2025/26",
+    "2026/27"
+   ],
+   "n_titular": 177,
+   "n_no_titular": 99,
+   "media_titular": 1.0,
+   "media_no_titular": 0.977,
+   "diferencia_bruta": -0.023,
+   "efecto": {
+    "param": "no_titular",
+    "coef": 0.0025,
+    "se": 0.1504,
+    "t": 0.017,
+    "p": 0.9868,
+    "ci95": [
+     -0.3061,
+     0.3111
+    ]
+   },
+   "n": 276,
+   "clusters": 28
+  },
+  {
+   "jugador": "Thibaut Courtois",
+   "variable": "goles_evitados",
+   "temporadas": [
+    "2019/20",
+    "2020/21",
+    "2021/22",
+    "2022/23",
+    "2024/25",
+    "2025/26",
+    "2026/27"
+   ],
+   "n_titular": 210,
+   "n_no_titular": 28,
+   "media_titular": 0.252,
+   "media_no_titular": 0.126,
+   "diferencia_bruta": -0.126,
+   "efecto": {
+    "param": "no_titular",
+    "coef": -0.0254,
+    "se": 0.2003,
+    "t": -0.127,
+    "p": 0.8998,
+    "ci95": [
+     -0.4364,
+     0.3855
+    ]
+   },
+   "n": 238,
+   "clusters": 28
+  }
+ ]
+}

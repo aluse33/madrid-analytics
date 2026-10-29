@@ -86,6 +86,40 @@ def descargar(cfg: Config) -> None:
         except requests.RequestException:
             log.warning("ESPN: no se pudo bajar el partido %s", e["id"], exc_info=True)
     log.info("ESPN: %d partidos nuevos", nuevos)
+    try:
+        descargar_historico(cfg)
+    except requests.RequestException:
+        log.warning("ESPN: sin calendarios históricos", exc_info=True)
+
+
+def descargar_historico(cfg: Config) -> None:
+    """Calendario completo del Madrid (todas las competiciones) de cada temporada desde 2019/20.
+
+    Sirve para contar bien los días de descanso entre partidos: un partido de Liga después de
+    jugar Champions el miércoles no viene de "una semana de descanso". Las temporadas terminadas
+    se bajan una sola vez; la actual se renueva cada día.
+    """
+    d = cfg.raw / "espn" / "historico"
+    d.mkdir(parents=True, exist_ok=True)
+    actual = int(cfg.temporada_actual[:4])
+    for t in cfg.todas_las_temporadas:
+        anio = int(t[:4])  # ESPN numera las temporadas por su año de inicio: 2019 = 2019/20
+        for liga in COMPETICIONES:
+            f = d / f"{liga}_{anio}.json"
+            if f.exists() and anio < actual:
+                continue
+            f.write_text(json.dumps(_get(f"{API}/{liga}/teams/{ID_MADRID}/schedule", {"season": anio})))
+
+
+def fechas_oficiales(cfg: Config) -> pd.DataFrame:
+    """Fecha y competición de cada partido oficial jugado por el Madrid (todas las competiciones)."""
+    d = cfg.raw / "espn"
+    filas = {}
+    for f in [*sorted((d / "historico").glob("*.json")), d / "calendario.json"]:
+        for e in _eventos(f):
+            if e["estado"] == "post":
+                filas[e["id"]] = {"fecha": e["fecha"], "liga": e["liga"]}
+    return pd.DataFrame(filas.values(), columns=["fecha", "liga"]).sort_values("fecha").reset_index(drop=True)
 
 
 # ------------------------------------------------------------------ lectura

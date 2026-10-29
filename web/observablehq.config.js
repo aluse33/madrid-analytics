@@ -13,6 +13,7 @@ export default {
     {name: "Predicción", path: "/prediccion"},
     {name: "Simulación Monte Carlo", path: "/montecarlo"},
     {name: "Laboratorio de modelos", path: "/modelos"},
+    {name: "Econometría", path: "/econometria"},
     {name: "Metodología", path: "/metodologia"}
   ],
   // Tema propio (style.css): claro/oscuro según el sistema, o el que elija el botón
@@ -35,7 +36,7 @@ export default {
     if (!window.RM_EN) return;
     // en inglés: barra lateral, pie y enlaces apuntando a las páginas /en/
     const T = {"Resumen": "Summary", "Partidos": "Matches", "Plantilla": "Squad", "Ficha de jugador": "Player profile", "Histórico": "History", "Predicción": "Prediction",
-      "Simulación Monte Carlo": "Monte Carlo simulation", "Laboratorio de modelos": "Model lab", "Metodología": "Methodology"};
+      "Simulación Monte Carlo": "Monte Carlo simulation", "Laboratorio de modelos": "Model lab", "Econometría": "Econometrics", "Metodología": "Methodology"};
     const aqui = location.href.split(/[?#]/)[0].replace(/\\/$/, "");
     for (const a of document.querySelectorAll("#observablehq-sidebar a[href]")) {
       const url = new URL(a.getAttribute("href"), location.href).href;

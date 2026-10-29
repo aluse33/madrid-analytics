@@ -341,6 +341,10 @@ PAGINAS: dict[str, list[tuple[str, str]]] = {
          "- Drift is estimated across all teams at once: a single ${tex`\\tau^2`} for everyone, without separating the summer (transfers) from the season."),
         ("- Con pocas jornadas, todo es provisional. Por eso cada cifra lleva su intervalo.", "- Early in the season everything is provisional. That is why every figure comes with an interval."),
     ],
+    # lleva los dos idiomas dentro, con t("es", "en")
+    "econometria.md": [
+        ("title: Econometría", "title: Econometrics"),
+    ],
 }
 
 

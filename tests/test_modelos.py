@@ -5,8 +5,8 @@ import pandas as pd
 import pytest
 from scipy.stats import binom
 
+from rma.models import causal, inferencia, shrinkage
 from rma.models import dixon_coles as dc
-from rma.models import inferencia, shrinkage
 
 # ---------------------------------------------------------------- Dixon-Coles
 
@@ -178,3 +178,87 @@ def test_incertidumbre_ensancha_la_simulacion(liga_simulada):
     assert ancho(incierta) > ancho(fija)
     # y el favorito pierde algo de seguridad
     assert incierta["tabla"].p_campeon.max() <= fija["tabla"].p_campeon.max() + 0.02
+
+
+# ---------------------------------------------------------------- Inferencia causal
+
+def test_ols_cluster_recupera_parametros():
+    rng = np.random.default_rng(42)
+    N, G = 300, 10
+    clusters = np.repeat(np.arange(G), N // G)
+    x1 = rng.normal(0, 1, N)
+    x2 = rng.binomial(1, 0.5, N).astype(float)
+    X = np.column_stack([x1, x2])
+    beta_true = np.array([0.75, -1.20])
+    
+    # Error con heterocedasticidad y shock por cluster
+    cluster_shocks = rng.normal(0, 0.5, G)
+    e = rng.normal(0, 1.0, N) + cluster_shocks[clusters]
+    y = X @ beta_true + e
+    
+    res = causal.ols_cluster(y, X, clusters, nombres=["x1", "x2"])
+    params = {p["param"]: p for p in res["parametros"]}
+    
+    assert params["x1"]["coef"] == pytest.approx(0.75, abs=0.25)
+    assert params["x2"]["coef"] == pytest.approx(-1.20, abs=0.35)
+    # Los intervalos de confianza del 95 % deben cubrir el valor verdadero
+    assert params["x1"]["ci95"][0] <= 0.75 <= params["x1"]["ci95"][1]
+    assert params["x2"]["ci95"][0] <= -1.20 <= params["x2"]["ci95"][1]
+
+
+def test_efectos_fijos_en_panel_desequilibrado():
+    """Con rivales que aparecen un número distinto de veces y un tratamiento correlacionado con el
+    rival, restar medias de rival y de temporada sesga el coeficiente; las ficticias, no."""
+    rng = np.random.default_rng(7)
+    filas = []
+    for temporada in range(8):
+        for rival in range(30):
+            if rng.random() < 0.35:  # panel desequilibrado: no todos los rivales en todas las temporadas
+                continue
+            for _ in range(rng.integers(1, 3)):
+                fe_r = rival / 10
+                # el "tratamiento" se da más contra rivales flojos y en unas temporadas que en otras
+                d = float(rng.random() < 0.2 + 0.5 * (rival / 30) + 0.05 * temporada)
+                y = 1.0 * fe_r + 0.3 * temporada - 0.5 * d + rng.normal(0, 0.5)
+                filas.append({"rival": f"R{rival}", "temporada": f"T{temporada}", "d": d, "y": y})
+    df = pd.DataFrame(filas)
+    res = causal.regresion_fe(df, "y", ["d"])
+    (b,) = res["parametros"]
+    assert b["param"] == "d"
+    assert b["coef"] == pytest.approx(-0.5, abs=0.12)
+    assert b["ci95"][0] <= -0.5 <= b["ci95"][1]
+    assert res["cluster"] == "rival" and res["clusters"] == 30
+
+
+def test_descanso_cuenta_todas_las_competiciones():
+    rm = pd.DataFrame({
+        "game_id": [1, 2], "temporada": ["2025/26"] * 2, "jugado": [True, True],
+        "fecha": pd.to_datetime(["2025-09-13 19:00", "2025-09-20 19:00"]),
+        "condicion": ["Local", "Visitante"], "rival": ["A", "B"],
+        "xgf": [2.0, 1.5], "xgc": [1.0, 1.0], "gf": [2, 1], "gc": [1, 1],
+    })
+    # Champions el miércoles entre los dos partidos de Liga
+    oficiales = pd.DataFrame({"fecha": pd.to_datetime(["2025-09-17 19:00"]), "liga": ["uefa.champions"]})
+    d = causal.descansos(rm, oficiales)
+    assert np.isnan(d.descanso.iloc[0])                      # primer partido: sin anterior
+    assert d.descanso.iloc[1] == pytest.approx(3.0)           # no 7 días: hubo Champions
+    assert d.tras_champions.iloc[1] == 1.0
+    assert d.corto.iloc[1] == 1.0
+
+
+def test_analisis_causal_estructura(liga_simulada):
+    df, *_ = liga_simulada
+    rm_df = df[df["local"] == "E00"].copy()
+    rm_df["condicion"] = "Local"
+    rm_df["rival"] = rm_df["visitante"]
+    rm_df["gf"] = rm_df["goles_local"]
+    rm_df["gc"] = rm_df["goles_visitante"]
+    rm_df["xgf"] = rm_df["xg_local"]
+    rm_df["xgc"] = rm_df["xg_visitante"]
+    jp_sim = pd.DataFrame([
+        {"game_id": gid, "equipo": "Real Madrid", "jugador": "Karim Benzema", "minutos": 90}
+        for gid in rm_df["game_id"]
+    ])
+    res = causal.analisis_completo(df, rm_df, jp_sim)
+    assert {"metodo", "localia", "descanso", "ausencias"} <= set(res)
+    assert res["metodo"]["cluster"] == "rival"
