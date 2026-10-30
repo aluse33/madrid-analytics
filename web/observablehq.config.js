@@ -62,7 +62,7 @@ export default {
       if (T[txt]) sec.textContent = T[txt];
     }
     const pie = document.querySelector("#observablehq-footer");
-    if (pie) pie.innerHTML = "A project by <a href='https://aluse33.github.io/' target='_blank' rel='noopener'>Alejandro Lucas</a>. Data: Understat (via soccerdata), ESPN and Wikipedia (CC BY-SA). Crests: luukhopman/football-logos; trademarks of each club. Personal project, not affiliated with Real Madrid C.F.";
+    if (pie) pie.innerHTML = "A project by <a href='https://aluse33.github.io/' target='_blank' rel='noopener'>Alejandro Lucas</a>. Data: Understat (via soccerdata), ESPN, Sofascore and Wikipedia (CC BY-SA). Crests: luukhopman/football-logos; trademarks of each club. Personal project, not affiliated with Real Madrid C.F.";
     const fuente = document.getElementById("fuente-datos");
     if (fuente) fuente.textContent = "Data: Understat";
   });
@@ -89,7 +89,7 @@ export default {
   try { localStorage.setItem('rm-tema', r.dataset.theme); } catch (e) {}
   b.textContent = window.RM_EN ? (oscuro ? '🌙 Dark mode' : '☀️ Light mode') : (oscuro ? '🌙 Modo oscuro' : '☀️ Modo claro');
 })(this)">🌓 Cambiar tema</button>`,
-  footer: "Un proyecto de <a href=\"https://aluse33.github.io/\" target=\"_blank\" rel=\"noopener\">Alejandro Lucas</a>. Datos: Understat (vía soccerdata), ESPN y Wikipedia (CC BY-SA). Escudos: luukhopman/football-logos; son marcas de cada club. Proyecto personal, sin relación con el Real Madrid C.F.",
+  footer: "Un proyecto de <a href=\"https://aluse33.github.io/\" target=\"_blank\" rel=\"noopener\">Alejandro Lucas</a>. Datos: Understat (vía soccerdata), ESPN, Sofascore y Wikipedia (CC BY-SA). Escudos: luukhopman/football-logos; son marcas de cada club. Proyecto personal, sin relación con el Real Madrid C.F.",
   toc: {label: "En esta página"},
   pager: false,
   search: true,

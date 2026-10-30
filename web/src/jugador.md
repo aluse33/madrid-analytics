@@ -5,6 +5,7 @@ title: Ficha de jugador
 ```js
 import {num, pct, ent, fecha, tickNum, puestoTxt, t, LOC} from "./components/formato.js";
 import {mapaTirosMedio} from "./components/campo.js";
+import {mapaCalor} from "./components/sofa.js";
 import {nombre, escudoUrl} from "./equipos/equipos.js";
 
 const estado = FileAttachment("data/estado.json").json();
@@ -15,6 +16,7 @@ const liga = FileAttachment("data/jugadores_liga.csv").csv({typed: true});
 const historico = FileAttachment("data/jugadores_historico.csv").csv({typed: true});
 const eb = FileAttachment("data/jugadores_eb.csv").csv({typed: true});
 const fotos = FileAttachment("data/jugadores_fotos.csv").csv({typed: true});
+const sofascore = FileAttachment("data/sofascore.json").json();
 ```
 
 ```js
@@ -141,6 +143,39 @@ display(ebN && ebA ? html`<div class="grid grid-cols-2">
   ${tarjetaEB(ebN, t("npxG por 90′ · estimación empírico-bayesiana", "npxG per 90′ · empirical Bayes estimate"))}
   ${tarjetaEB(ebA, t("xA por 90′ · estimación empírico-bayesiana", "xA per 90′ · empirical Bayes estimate"))}
 </div>` : html`<span></span>`);
+```
+
+```js
+// Sofascore: mapa de calor y números de toda la temporada, en todas las competiciones
+const SJ = Object.values(sofascore.jugadores).find((d) => d.nombre_web === jugador) ?? null;
+const por90 = (k) => (SJ?.min ? (90 * (SJ[k] ?? 0)) / SJ.min : null);
+const filaS = (txt, v) => html`<tr><td>${txt}</td><td>${v}</td></tr>`;
+display(!SJ || !SJ.calor?.length ? html`<span></span>` : html`<div>
+<h2>${t("Dónde juega", "Where he plays")}</h2>
+<div class="grid grid-cols-2" style="grid-template-columns: minmax(0, 3fr) minmax(0, 2fr)">
+  <div class="card">
+    <div class="etiqueta">${t("Mapa de calor", "Heatmap")} · ${estado.temporada} · ${t("todas las competiciones", "all competitions")}</div>
+    ${resize((width) => mapaCalor(SJ.calor, {width, rejilla: sofascore.rejilla}))}
+    <div class="nota">${t("Suma de sus acciones en los", "All his actions across the")} ${SJ.partidos} ${t("partidos con datos. El Madrid ataca hacia la derecha.", "matches with data. Madrid attack to the right.")}</div>
+  </div>
+  <div class="card">
+    <div class="etiqueta">${t("Por 90 minutos", "Per 90 minutes")} · Sofascore</div>
+    <table class="mini">
+      ${filaS(t("Nota media", "Average rating"), SJ.nota_media == null ? "–" : num(SJ.nota_media, 2))}
+      ${filaS(t("Toques", "Touches"), num(por90("toques"), 1))}
+      ${filaS(t("Acierto en el pase", "Pass accuracy"), SJ.pases ? pct((SJ.pases_ok ?? 0) / SJ.pases) : "–")}
+      ${filaS(t("Pases clave", "Key passes"), num(por90("pases_clave")))}
+      ${filaS(t("Regates logrados", "Successful dribbles"), num(por90("regates_ok")))}
+      ${filaS(t("Recuperaciones", "Recoveries"), num(por90("recuperaciones")))}
+      ${filaS(t("Intercepciones", "Interceptions"), num(por90("intercepciones")))}
+      ${filaS(t("Entradas ganadas", "Tackles won"), num(por90("entradas_ganadas")))}
+      ${filaS(t("Duelos ganados", "Duels won"), SJ.duelos_ganados + SJ.duelos_perdidos ? pct(SJ.duelos_ganados / (SJ.duelos_ganados + (SJ.duelos_perdidos ?? 0))) : "–")}
+      ${SJ.km ? filaS(t("Km por partido completo", "Km per full match"), num(por90("km"), 1)) : ""}
+      ${SJ.vel_max ? filaS(t("Velocidad punta", "Top speed"), `${num(SJ.vel_max, 1)} km/h`) : ""}
+    </table>
+    <div class="nota">${t("Con", "From")} ${ent(SJ.min)} ${t("minutos en", "minutes in")} ${SJ.partidos} ${t("partidos.", "matches.")}</div>
+  </div>
+</div></div>`);
 ```
 
 ## ${t("Mapa de tiros", "Shot map")}

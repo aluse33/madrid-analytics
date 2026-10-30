@@ -17,7 +17,7 @@ import pandas as pd
 
 from rma import escudos
 from rma.config import RAIZ, Config, codigo_temporada, etiqueta_temporada
-from rma.ingest import espn, historico_liga, wikipedia
+from rma.ingest import espn, historico_liga, sofascore, wikipedia
 from rma.models import causal, inferencia, shrinkage, simulacion, xg_modelo
 from rma.models import dixon_coles as dc
 
@@ -200,6 +200,12 @@ def generar(cfg: Config, reentrenar_xg: bool | None = None) -> None:
     except Exception:  # noqa: BLE001  (ESPN es un extra: nunca tumba la actualización)
         log.warning("ESPN: no se pudieron generar sus salidas", exc_info=True)
 
+    # ---------------- Sofascore: mapas de calor, posiciones medias, tiros y estadísticas (todas las competiciones)
+    try:
+        escribir_sofascore(cfg, jp)
+    except Exception:  # noqa: BLE001
+        log.warning("Sofascore: no se pudieron generar sus salidas", exc_info=True)
+
     # ---------------- Wikipedia: histórico del club
     h = None
     try:
@@ -231,6 +237,16 @@ def generar(cfg: Config, reentrenar_xg: bool | None = None) -> None:
         "muestra": muestra,
         "fallos": (cfg.raw / "fallos.txt").read_text().splitlines() if (cfg.raw / "fallos.txt").exists() else [],
     }, WEB / "estado.json")
+
+
+def escribir_sofascore(cfg: Config, jp: pd.DataFrame | None = None) -> None:
+    """sofascore.json, cruzado con los ids de ESPN y los nombres de la web."""
+    if jp is None:
+        jp = pd.read_parquet(cfg.processed / "jugadores_partido.parquet")
+    nombres = jp.loc[jp.equipo == cfg.equipo, "jugador"].unique() if "equipo" in jp else jp.jugador.unique()
+    ruta = WEB / "partidos_todas.csv"
+    todas = pd.read_csv(ruta) if ruta.exists() else None
+    sofascore.salidas(cfg, WEB, _json, nombres, todas)
 
 
 METRICAS_P90 = ["goles", "asistencias", "npxg", "xa", "tiros", "pases_clave", "xg_chain", "xg_buildup"]

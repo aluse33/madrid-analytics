@@ -10,6 +10,7 @@ import {resultadoMerecido, probAlMenos} from "./components/probabilidad.js";
 import {barraPartido} from "./components/ui.js";
 import {cronologia, alineaciones, banquillo, estadisticas, escudoDe} from "./components/eventos.js";
 import {selectorPartidos, COMPETICION} from "./components/selector.js";
+import {mapaCalor, posicionesMedias, mapaTirosSofa, porteria, dominioSofa} from "./components/sofa.js";
 import {nombre, corto} from "./equipos/equipos.js";
 
 const estado = FileAttachment("data/estado.json").json();
@@ -18,6 +19,7 @@ const tiros = FileAttachment("data/tiros_rm.csv").csv({typed: true});
 const jugadores = FileAttachment("data/jugadores_rm.csv").csv({typed: true});
 const todas = FileAttachment("data/partidos_todas.csv").csv({typed: true});
 const eventos = FileAttachment("data/eventos.json").json();
+const sofascore = FileAttachment("data/sofascore.json").json();
 ```
 
 ```js
@@ -46,6 +48,7 @@ history.replaceState(null, "", `?p=${elegido.clave}`);
 const P = elegido;           // el partido (cualquier competición)
 const p = P.u;               // su fila de Understat, solo en Liga
 const det = P.det;           // su ficha de ESPN, si la hay
+const S = sofascore.partidos[String(P.id)] ?? null;   // sus datos de Sofascore, si los hay
 const local = P.local, visitante = P.visitante;
 const rival = local === "Real Madrid" ? visitante : local;
 const R = nombre(rival);
@@ -78,6 +81,7 @@ const lado = (e, url) => html`<div class="lado"><div class="escudo-grande">${esc
   </div>
   <div class="nota" style="text-align:center">${p
     ? `xG ${num(p.condicion === "Local" ? p.xgf : p.xgc)} – ${num(p.condicion === "Local" ? p.xgc : p.xgf)} · ${tr("tiros", "shots")} ${local === "Real Madrid" ? tRM.length : tRiv.length} – ${local === "Real Madrid" ? tRiv.length : tRM.length}`
+    : S?.equipo?.xg ? `xG ${num(S.rm_local ? S.equipo.xg[0] : S.equipo.xg[1])} – ${num(S.rm_local ? S.equipo.xg[1] : S.equipo.xg[0])} (Sofascore)${P.estadio ? ` · ${P.estadio}` : ""}`
     : P.estadio ?? ""}</div>
 </div>
 
@@ -92,8 +96,101 @@ display(html`<div>${det ? html`<h2>${tr("Lo que pasó", "What happened")}</h2>
 <div class="grid grid-cols-2">
   <div class="card"><h3>${tr("Cronología", "Timeline")}</h3>${cronologia(det, local, visitante, nombre)}</div>
   <div class="card"><h3>${tr("Estadísticas", "Stats")}</h3>${estadisticas(det, local, visitante)}</div>
-</div>` : ""}${p ? "" : html`<div class="aviso">${tr("Los mapas de tiros, el xG y los datos por jugador salen de Understat, que solo cubre LaLiga. Para este partido se ve lo que da ESPN: alineaciones, cronología y estadísticas.",
-  "Shot maps, xG and player data come from Understat, which only covers LaLiga. For this match you see what ESPN provides: line-ups, timeline and stats.")}</div>`}</div>`);
+</div>` : ""}${p || S ? "" : html`<div class="aviso">${tr("Los mapas de tiros, el xG y los datos por jugador salen de Understat, que solo cubre LaLiga, y de Sofascore, que aún no tiene este partido. Por ahora se ve lo que da ESPN: alineaciones, cronología y estadísticas.",
+  "Shot maps, xG and player data come from Understat, which only covers LaLiga, and Sofascore, which does not have this match yet. For now you see what ESPN provides: line-ups, timeline and stats.")}</div>`}</div>`);
+```
+
+```js
+// ------------------------------------------------------------ Sofascore (todas las competiciones)
+const REJ = sofascore.rejilla;
+const jugS = S ? S.jugadores.slice().sort((a, b) => b.titular - a.titular || b.min - a.min) : [];
+const golesS = S ? S.tiros.filter((d) => d.resultado === "goal").map((d) => ({minuto: d.minuto, equipo: d.equipo})) : [];
+
+// mapa de calor: el equipo entero o un jugador (estado guardado aquí para que sobreviva al cambiar el ancho)
+function tarjetaCalor() {
+  const opciones = [{id: "equipo", txt: tr("Todo el equipo", "Whole team")},
+    ...jugS.filter((j) => S.calor[String(j.id)]?.length).map((j) => ({id: String(j.id), txt: `${j.dorsal ?? ""} ${j.nombre}`.trim(), j}))];
+  let actual = "equipo";
+  const sel = html`<select class="selector-pastilla">${opciones.map((o) => html`<option value=${o.id}>${o.txt}</option>`)}</select>`;
+  const lienzo = html`<div></div>`, pie = html`<div class="nota"></div>`;
+  const pintar = () => {
+    const o = opciones.find((x) => x.id === actual);
+    const v = actual === "equipo" ? S.calor_equipo : S.calor[actual];
+    lienzo.replaceChildren(resize((width) => mapaCalor(v, {width, rejilla: REJ})));
+    pie.textContent = o.j ? `${o.j.min}′ · ${o.j.toques ?? "–"} ${tr("toques", "touches")} · ${tr("nota Sofascore", "Sofascore rating")} ${o.j.nota ?? "–"}` : "";
+  };
+  sel.onchange = () => { actual = sel.value; pintar(); };
+  pintar();
+  return html`<div class="grupo-pastillas" style="margin-bottom:0.6rem">${sel}</div>${lienzo}${pie}`;
+}
+
+function tarjetaPosiciones() {
+  let conRival = false;
+  const b1 = html`<button class="pastilla activa">${tr("Solo el Madrid", "Madrid only")}</button>`;
+  const b2 = html`<button class="pastilla">${tr("Con el rival", "With opponent")}</button>`;
+  const lienzo = html`<div></div>`;
+  const pintar = () => {
+    b1.classList.toggle("activa", !conRival); b2.classList.toggle("activa", conRival);
+    lienzo.replaceChildren(resize((width) => posicionesMedias(S.posiciones, {width, rival: R, conRival})));
+  };
+  b1.onclick = () => { conRival = false; pintar(); };
+  b2.onclick = () => { conRival = true; pintar(); };
+  pintar();
+  return html`<div class="segmentado" style="margin-bottom:0.6rem">${b1}${b2}</div>${lienzo}`;
+}
+
+const ESTS = [["xg", "xG", num], ["xgot", tr("xG a puerta (xGOT)", "xG on target (xGOT)"), num], ["ocasiones_claras", tr("Ocasiones claras", "Big chances")],
+  ["toques_area", tr("Toques en el área rival", "Touches in opp. box")], ["entradas_ultimo_tercio", tr("Llegadas al último tercio", "Final-third entries")],
+  ["recuperaciones", tr("Recuperaciones", "Recoveries")], ["intercepciones", tr("Intercepciones", "Interceptions")],
+  ["duelos_ganados_pct", tr("Duelos ganados (%)", "Duels won (%)")], ["km", tr("Kilómetros", "Distance (km)"), (v) => num(v, 1)], ["sprints", "Sprints"]];
+function masNumeros() {
+  const filas = ESTS.filter(([k]) => S.equipo[k]);
+  return html`<div class="stats-duelo">${filas.map(([k, nombre, fmt = (v) => (+v).toLocaleString()]) => {
+    const [x, y] = S.equipo[k].map(Number), tot = x + y || 1;
+    return html`<div class="stat"><div class="stat-cab"><b>${fmt(x)}</b><span>${nombre}</span><b>${fmt(y)}</b></div>
+      <div class="stat-barra"><div style="width:${(100 * x) / tot}%;background:var(--rm)"></div><div style="width:${(100 * y) / tot}%;background:var(--rival)"></div></div></div>`;
+  })}</div>`;
+}
+const pctPases = (d) => (d.pases ? `${d.pases_ok ?? 0}/${d.pases} (${Math.round((100 * (d.pases_ok ?? 0)) / d.pases)}%)` : "–");
+```
+
+```js
+display(!S ? html`<span></span>` : html`<div>
+<h2>${tr("Sobre el campo", "On the pitch")}</h2>
+<div class="grid grid-cols-2">
+  <div class="card"><h3>${tr("Mapa de calor", "Heatmap")}</h3>${tarjetaCalor()}
+    <div class="nota">${tr("Zonas en las que más acciones tuvo (pases, controles, duelos…). El Madrid ataca hacia la derecha.", "Areas where he (or the team) had the most actions (passes, touches, duels…). Madrid attack to the right.")}</div></div>
+  <div class="card"><h3>${tr("Posiciones medias", "Average positions")}${S.formacion?.rm ? ` · ${S.formacion.rm}` : ""}</h3>${tarjetaPosiciones()}
+    <div class="nota">${tr("Punto medio de las acciones de cada jugador; el tamaño es cuántas tuvo. Borde discontinuo = suplente.", "Average location of each player's actions; size = how many. Dashed = substitute.")}${S.formacion?.rival ? ` ${R}: ${S.formacion.rival}.` : ""}</div></div>
+</div>
+${p ? "" : html`<div class="card"><h3>${tr("Mapa de tiros", "Shot map")}</h3>
+  <div class="leyenda"><span class="rm">${tr("Real Madrid, atacando hacia la derecha", "Real Madrid, attacking to the right")}</span><span class="rival">${R}, ${tr("hacia la izquierda", "to the left")}</span><span class="sin">${tr("Relleno = gol · tamaño = xG (Sofascore)", "Filled = goal · size = xG (Sofascore)")}</span></div>
+  ${resize((width) => mapaTirosSofa(S.tiros, {width, rival: R}))}</div>`}
+<div class="grid grid-cols-2">
+  <div class="card"><h3>${tr("Dónde fueron los tiros del Madrid", "Where Madrid's shots went")}</h3>${resize((width) => porteria(S.tiros, {width, rival: R, equipo: "rm"}))}</div>
+  <div class="card"><h3>${tr("Dónde fueron los tiros de", "Where the shots went:")} ${R}</h3>${resize((width) => porteria(S.tiros, {width, rival: R, equipo: "rival"}))}</div>
+</div>
+<div class="nota" style="margin-top:-0.4rem">${tr("La portería vista de frente. Relleno = gol; tamaño = xG a puerta (xGOT), que mide lo difícil que se lo puso al portero según adónde fue el balón. Los tiros bloqueados no aparecen.", "The goal seen from the front. Filled = goal; size = xG on target (xGOT), how hard the shot was for the keeper given where it went. Blocked shots are left out.")}</div>
+<div class="grid grid-cols-2">
+  <div class="card"><h3>${tr("Presión ofensiva, minuto a minuto", "Attacking pressure, minute by minute")}</h3>${resize((width) => dominioSofa(S.dominio, {width, rival: R, goles: golesS}))}
+    <div class="nota">${tr("Índice de Sofascore: sube cuando un equipo acumula ataques, tiros y llegadas. Arriba, el Madrid.", "Sofascore's index: it rises when a team piles up attacks, shots and entries. Up = Madrid.")}</div></div>
+  <div class="card"><h3>${tr("Más números", "More numbers")}</h3>
+    <div class="leyenda"><span class="rm">Real Madrid</span><span class="rival">${R}</span></div>${masNumeros()}</div>
+</div>
+<h3>${tr("Los jugadores del Madrid, uno a uno", "Madrid players one by one")}</h3>
+${Inputs.table(jugS, {
+  columns: ["nombre", "min", "nota", "toques", "pases", "pases_clave", "xa", "recuperaciones", "intercepciones", "entradas_ganadas", "regates_ok", "duelos_ganados", "km", "vel_max"],
+  header: {nombre: tr("Jugador", "Player"), min: "Min", nota: tr("Nota", "Rating"), toques: tr("Toques", "Touches"), pases: tr("Pases (acierto)", "Passes (acc.)"),
+    pases_clave: tr("Pases clave", "Key passes"), xa: "xA", recuperaciones: tr("Recup.", "Recov."), intercepciones: tr("Intercep.", "Intercep."),
+    entradas_ganadas: tr("Entradas ganadas", "Tackles won"), regates_ok: tr("Regates", "Dribbles"), duelos_ganados: tr("Duelos ganados", "Duels won"),
+    km: "Km", vel_max: tr("Vel. máx.", "Top speed")},
+  format: {pases: (_, i) => pctPases(jugS[i]), regates_ok: (v, i) => (jugS[i].regates ? `${v ?? 0}/${jugS[i].regates}` : "–"),
+    xa: (v) => (v == null ? "–" : num(v)), km: (v) => (v == null ? "–" : num(v, 1)), vel_max: (v) => (v == null ? "–" : `${num(v, 1)} km/h`),
+    nota: (v) => (v == null ? "–" : num(v, 1))},
+  width: {nombre: 170}, layout: "auto", select: false, rows: 18
+})}
+<div class="nota">${tr("Datos de Sofascore. La nota es la suya (de 3 a 10). Las recuperaciones son balones sueltos que el jugador hace suyos.", "Data from Sofascore. Rating is theirs (3 to 10). Recoveries are loose balls the player wins.")}</div>
+</div>`);
 ```
 
 ```js

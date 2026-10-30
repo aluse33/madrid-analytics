@@ -75,3 +75,20 @@ def test_fotos_coincide_apellido():
     assert _coincide("Rodrygo", "Rodrygo")
     assert not _coincide("Jorge Cestero", "Manuel Ángel")
     assert not _coincide("Dean Huijsen", None)
+
+
+def test_sofascore_rejilla_y_nombres():
+    from rma.ingest import sofascore as so
+
+    # todos los puntos en el área rival, por la banda derecha (y baja) -> el máximo cae ahí
+    g = so.rejilla([[95, 10]] * 20 + [[90, 15]] * 10)
+    assert len(g) == so.NX * so.NY and max(g) == 100
+    fila, col = divmod(g.index(100), so.NX)
+    assert col >= so.NX - 3          # cerca de la portería rival (derecha)
+    assert fila >= so.NY - 3         # filas de abajo = banda derecha del Madrid
+    assert so.rejilla([]) == []
+    web = ["Vinícius Júnior", "Kylian Mbappé", "Trent Alexander-Arnold", "Éder Militão", "Arda Güler"]
+    assert so.emparejar("Vinícius Jr.", web) == "Vinícius Júnior"
+    assert so.emparejar("Eder Militao", web) == "Éder Militão"
+    assert so.emparejar("T. Alexander-Arnold", web) == "Trent Alexander-Arnold"
+    assert so.emparejar("Antonio Rüdiger", web) is None

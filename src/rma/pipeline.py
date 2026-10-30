@@ -5,6 +5,7 @@
     rma muestra            genera datos sintéticos (sin conexión)
     rma procesar           data/raw -> data/processed
     rma salidas            modelos -> web/src/data
+    rma sofascore          baja Sofascore y escribe solo sofascore.json (para lanzarlo desde tu Mac)
     rma traducir           genera las páginas en inglés (web/src/en) desde las españolas
     rma todo [--muestra]   todo seguido
 """
@@ -16,13 +17,13 @@ import logging
 from datetime import date
 
 from rma import config, salidas, sample
-from rma.ingest import espn, fotos, historico_liga, understat, wikipedia
+from rma.ingest import espn, fotos, historico_liga, sofascore, understat, wikipedia
 from rma.process import build
 
 
 def main(argv: list[str] | None = None) -> None:
     ap = argparse.ArgumentParser(prog="rma", description="Minuto 90")
-    ap.add_argument("orden", choices=["ingesta", "muestra", "procesar", "salidas", "traducir", "todo"])
+    ap.add_argument("orden", choices=["ingesta", "muestra", "procesar", "salidas", "sofascore", "traducir", "todo"])
     ap.add_argument("--actual", action="store_true", help="ingesta: solo la temporada en curso")
     ap.add_argument("--muestra", action="store_true", help="todo: con datos sintéticos")
     ap.add_argument("--reentrenar-xg", action="store_true", help="fuerza a reentrenar el modelo xG")
@@ -45,6 +46,9 @@ def main(argv: list[str] | None = None) -> None:
     elif a.orden == "salidas":
         salidas.generar(cfg, reentrenar_xg=reentrenar)
         _traducir()
+    elif a.orden == "sofascore":
+        sofascore.descargar(cfg)
+        salidas.escribir_sofascore(cfg)
     elif a.orden == "traducir":
         _traducir()
     elif a.orden == "todo":
@@ -61,7 +65,7 @@ def main(argv: list[str] | None = None) -> None:
 def _espn(cfg) -> None:
     """ESPN y Wikipedia son extras: si fallan, se avisa y se sigue con lo de Understat."""
     for nombre, f in (("ESPN", espn.descargar), ("Wikipedia", wikipedia.descargar),
-                      ("Histórico de LaLiga", historico_liga.descargar),
+                      ("Histórico de LaLiga", historico_liga.descargar), ("Sofascore", sofascore.descargar),
                       ("Fotos", lambda c: fotos.descargar(c, fotos.nombres_madrid(c)))):
         try:
             f(cfg)
