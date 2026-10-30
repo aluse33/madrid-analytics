@@ -24,3 +24,6 @@ web/src/.observablehq/cache/
 
 # restos de Selenium/seleniumbase (pruebas de WhoScored)
 downloaded_files/
+
+# Notas privadas para Claude Code
+CLAUDE.md
