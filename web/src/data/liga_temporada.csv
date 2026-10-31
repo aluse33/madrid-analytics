@@ -99,39 +99,39 @@ game_id,fecha,local,visitante,goles_local,goles_visitante,xg_local,xg_visitante,
 30867,2026-10-25T17:30Z,Real Sociedad,Levante,2,1,2.9236,0.7543,true
 30864,2026-10-25T20:00Z,Barcelona,Real Madrid,1,2,1.6410,1.9494,true
 30868,2026-10-26T20:00Z,Sevilla,Osasuna,2,0,0.8735,0.7575,true
-30879,2026-10-30T20:00Z,Villarreal,Espanyol,,,,,false
+30879,2026-10-30T20:00Z,Villarreal,Espanyol,0,1,0.6278,0.5199,true
 30876,2026-10-31T13:00Z,Levante,Atletico Madrid,,,,,false
 30878,2026-10-31T15:15Z,Rayo Vallecano,Celta Vigo,,,,,false
 30871,2026-10-31T17:30Z,Real Betis,Malaga,,,,,false
 30874,2026-10-31T20:00Z,Barcelona,Alaves,,,,,false
-30870,2026-11-01T16:00Z,Athletic Club,Real Sociedad,,,,,false
-30872,2026-11-01T16:00Z,Deportivo La Coruna,Osasuna,,,,,false
-30873,2026-11-01T16:00Z,Elche,Valencia,,,,,false
-30875,2026-11-01T16:00Z,Getafe,Sevilla,,,,,false
-30877,2026-11-01T16:00Z,Racing Santander,Real Madrid,,,,,false
-30885,2026-11-08T16:00Z,Real Sociedad,Rayo Vallecano,,,,,false
-30888,2026-11-08T16:00Z,Villarreal,Getafe,,,,,false
-30887,2026-11-08T16:00Z,Valencia,Real Madrid,,,,,false
-30886,2026-11-08T16:00Z,Sevilla,Alaves,,,,,false
-30884,2026-11-08T16:00Z,Osasuna,Athletic Club,,,,,false
-30883,2026-11-08T16:00Z,Malaga,Racing Santander,,,,,false
-30882,2026-11-08T16:00Z,Espanyol,Deportivo La Coruna,,,,,false
-30881,2026-11-08T16:00Z,Elche,Real Betis,,,,,false
-30889,2026-11-08T16:00Z,Celta Vigo,Levante,,,,,false
-30880,2026-11-08T16:00Z,Atletico Madrid,Barcelona,,,,,false
-30896,2026-11-22T16:00Z,Sevilla,Real Betis,,,,,false
-30897,2026-11-22T16:00Z,Real Madrid,Celta Vigo,,,,,false
-30899,2026-11-22T16:00Z,Rayo Vallecano,Valencia,,,,,false
-30898,2026-11-22T16:00Z,Racing Santander,Real Sociedad,,,,,false
-30895,2026-11-22T16:00Z,Osasuna,Malaga,,,,,false
-30894,2026-11-22T16:00Z,Levante,Elche,,,,,false
-30893,2026-11-22T16:00Z,Getafe,Atletico Madrid,,,,,false
-30892,2026-11-22T16:00Z,Barcelona,Villarreal,,,,,false
-30891,2026-11-22T16:00Z,Athletic Club,Espanyol,,,,,false
-30890,2026-11-22T16:00Z,Alaves,Deportivo La Coruna,,,,,false
+30875,2026-11-01T13:00Z,Getafe,Sevilla,,,,,false
+30877,2026-11-01T15:15Z,Racing Santander,Real Madrid,,,,,false
+30873,2026-11-01T17:30Z,Elche,Valencia,,,,,false
+30870,2026-11-01T20:00Z,Athletic Club,Real Sociedad,,,,,false
+30872,2026-11-02T20:00Z,Deportivo La Coruna,Osasuna,,,,,false
+30886,2026-11-06T20:00Z,Sevilla,Alaves,,,,,false
+30883,2026-11-07T13:00Z,Malaga,Racing Santander,,,,,false
+30882,2026-11-07T15:15Z,Espanyol,Deportivo La Coruna,,,,,false
+30884,2026-11-07T17:30Z,Osasuna,Athletic Club,,,,,false
+30887,2026-11-07T20:00Z,Valencia,Real Madrid,,,,,false
+30881,2026-11-08T13:00Z,Elche,Real Betis,,,,,false
+30885,2026-11-08T15:15Z,Real Sociedad,Rayo Vallecano,,,,,false
+30889,2026-11-08T17:30Z,Celta Vigo,Levante,,,,,false
+30888,2026-11-08T17:30Z,Villarreal,Getafe,,,,,false
+30880,2026-11-08T20:00Z,Atletico Madrid,Barcelona,,,,,false
+30891,2026-11-20T20:00Z,Athletic Club,Espanyol,,,,,false
+30890,2026-11-21T13:00Z,Alaves,Deportivo La Coruna,,,,,false
+30899,2026-11-21T15:15Z,Rayo Vallecano,Valencia,,,,,false
+30896,2026-11-21T17:30Z,Sevilla,Real Betis,,,,,false
+30897,2026-11-21T20:00Z,Real Madrid,Celta Vigo,,,,,false
+30892,2026-11-22T13:00Z,Barcelona,Villarreal,,,,,false
+30898,2026-11-22T15:15Z,Racing Santander,Real Sociedad,,,,,false
+30895,2026-11-22T17:30Z,Osasuna,Malaga,,,,,false
+30893,2026-11-22T20:00Z,Getafe,Atletico Madrid,,,,,false
+30894,2026-11-23T20:00Z,Levante,Elche,,,,,false
+30900,2026-11-29T16:00Z,Real Betis,Rayo Vallecano,,,,,false
 30905,2026-11-29T16:00Z,Real Sociedad,Sevilla,,,,,false
 30906,2026-11-29T16:00Z,Real Madrid,Alaves,,,,,false
-30900,2026-11-29T16:00Z,Real Betis,Rayo Vallecano,,,,,false
 30907,2026-11-29T16:00Z,Malaga,Athletic Club,,,,,false
 30909,2026-11-29T16:00Z,Valencia,Osasuna,,,,,false
 30901,2026-11-29T16:00Z,Espanyol,Getafe,,,,,false
