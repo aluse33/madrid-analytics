@@ -1,10 +1,10 @@
 {
- "actualizado": "2026-11-02T11:48+00:00",
+ "actualizado": "2026-11-02T12:54+00:00",
  "temporada": "2026/27",
  "partidos_jugados": 10,
  "ultimo_partido": "2026-10-25T20:00Z",
  "muestra": false,
  "fallos": [
-  "understat 2026-2027: 0 TLS Client Error: failed to do request: Get \"https://understat.com/getStatData\": dial tcp: lookup understat.com on 127.0.0.53:53: read udp 127.0.0.1:48037->127.0.0.53:53: i/o timeout for url: https://understat.com/getStatData"
+  "understat 2026-2027: 0 TLS Client Error: failed to do request: Get \"https://understat.com/getStatData\": dial tcp: lookup understat.com on 127.0.0.53:53: read udp 127.0.0.1:36030->127.0.0.53:53: i/o timeout for url: https://understat.com/getStatData"
  ]
 }
