@@ -12,6 +12,7 @@ descargar de nuevo para recoger los partidos recién jugados.
 from __future__ import annotations
 
 import logging
+import time
 from pathlib import Path
 
 import pandas as pd
@@ -85,11 +86,18 @@ def descargar(cfg: Config, solo_actual: bool = False, forzar: bool = False) -> N
         if cerrada and not forzar and all(ruta(cfg, tb, t).exists() for tb in TABLAS):
             log.info("Understat %s: ya en disco", t)
             continue
-        try:
-            descargar_temporada(cfg, t, forzar=forzar)
-        except Exception as e:  # una fuente caída no debe tumbar todo el pipeline
-            log.exception("Fallo descargando %s", t)
-            fallos.append(f"understat {t}: {e}")
+        # hasta 3 intentos: a veces la red del servidor de GitHub falla un momento (DNS, timeouts)
+        for intento in range(3):
+            try:
+                descargar_temporada(cfg, t, forzar=forzar)
+                break
+            except Exception as e:  # una fuente caída no debe tumbar todo el pipeline
+                if intento < 2:
+                    log.warning("Understat %s: fallo (%s); reintento en %d s", t, e, 60 * (intento + 1))
+                    time.sleep(60 * (intento + 1))
+                    continue
+                log.exception("Fallo descargando %s", t)
+                fallos.append(f"understat {t}: {e}")
     if fallos:
         (cfg.raw / "fallos.txt").write_text("\n".join(fallos), encoding="utf-8")
 

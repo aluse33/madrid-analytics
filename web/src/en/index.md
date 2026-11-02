@@ -28,10 +28,12 @@ const V = jugados.filter((d) => d.resultado === "V").length;
 const E = jugados.filter((d) => d.resultado === "E").length;
 const D = jugados.filter((d) => d.resultado === "D").length;
 const sum = (k) => d3.sum(jugados, (d) => d[k]);
-const proximoModelo = prediccion.partidos[0];
-// ESPN suele llevar la hora oficial más al día que Understat: si tiene el partido, manda la suya
+// ESPN suele ir más al día que Understat: si ya da por jugado un partido que el modelo cree pendiente
+// (porque Understat aún no lo tiene), se salta; y si tiene el partido, manda su hora oficial
+const enEspn = (m) => todas.find((d) => d.liga === "esp.1" && d.rival === m.rival && Math.abs(d.fecha - new Date(m.fecha)) < 3 * 864e5);
+const proximoModelo = prediccion.partidos.find((m) => !enEspn(m)?.jugado);
 const proximo = proximoModelo && (() => {
-  const e = todas.find((d) => d.liga === "esp.1" && d.rival === proximoModelo.rival && Math.abs(d.fecha - new Date(proximoModelo.fecha)) < 3 * 864e5);
+  const e = enEspn(proximoModelo);
   return e ? {...proximoModelo, fecha: e.fecha} : proximoModelo;
 })();
 const rmSim = simulacion?.tabla.find((d) => d.equipo === "Real Madrid");

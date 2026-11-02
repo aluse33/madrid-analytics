@@ -8,6 +8,7 @@ name: Actualizar y publicar
 on:
   schedule:
     - cron: "37 4 * * *"        # 04:37 UTC: 5:37 en Madrid en invierno, 6:37 en verano
+    - cron: "37 23 * * *"       # 23:37 UTC: después de los partidos de la noche
   workflow_dispatch:
     inputs:
       reentrenar_xg:
