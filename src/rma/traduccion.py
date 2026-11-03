@@ -342,6 +342,8 @@ PAGINAS: dict[str, list[tuple[str, str]]] = {
         ("- Con pocas jornadas, todo es provisional. Por eso cada cifra lleva su intervalo.", "- Early in the season everything is provisional. That is why every figure comes with an interval."),
     ],
     # lleva los dos idiomas dentro, con t("es", "en")
+    "rival.md": [("title: Próximo rival", "title: Next opponent")],
+    "aciertos.md": [("title: Registro de aciertos", "title: Track record")],
     "econometria.md": [
         ("title: Econometría", "title: Econometrics"),
     ],

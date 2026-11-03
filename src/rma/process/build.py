@@ -89,8 +89,9 @@ def tiros(shots: pd.DataFrame) -> pd.DataFrame:
         "minuto": s["minute"].astype(int),
         "x": x.round(2), "y": y.round(2),
         "distancia": dist.round(2), "angulo": ang.round(4),
-        "cabeza": (s["body_part"] == "Other").to_numpy(),
-        "parte_cuerpo": s["body_part"].astype(object),
+        # soccerdata deja vacío el remate de cabeza (Understat: "Head"); "Other" = otra parte del cuerpo
+        "cabeza": s["body_part"].isna().to_numpy(),
+        "parte_cuerpo": s["body_part"].astype(object).where(s["body_part"].notna(), "Head"),
         "situacion": situacion.to_numpy(),
         "xg_understat": pd.to_numeric(s["xg"]).to_numpy(),
         "resultado": s["result"].map(RESULTADO_TIRO).fillna("fuera").to_numpy(),

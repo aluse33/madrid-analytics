@@ -35,7 +35,7 @@ export function lineas() {
 
 // Medio campo en vertical, con la portería arriba. Coordenadas de dibujo: u = 68 − y (izquierda del
 // atacante a la izquierda de la pantalla) y v = x (de 52,5 a 105).
-function lineasMedio() {
+export function lineasMedio() {
   const c = {stroke: "var(--campo-linea)", strokeWidth: 1.2};
   const rect = (x0, x1, h) => [[(A - h) / 2, x0], [(A + h) / 2, x0], [(A + h) / 2, x1], [(A - h) / 2, x1], [(A - h) / 2, x0]];
   const arco = Math.acos((16.5 - 11) / 9.15);

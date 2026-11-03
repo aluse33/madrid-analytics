@@ -6,6 +6,7 @@ export default {
   pages: [
     {name: "Resumen", path: "/"},
     {name: "Partidos", path: "/partido"},
+    {name: "Próximo rival", path: "/rival"},
     {name: "Champions League", path: "/champions"},
     {name: "Histórico", path: "/historico"},
     {name: "Equipo", collapsible: true, open: false, pages: [
@@ -14,6 +15,7 @@ export default {
     ]},
     {name: "Modelos y predicción", collapsible: true, open: false, pages: [
       {name: "Predicción", path: "/prediccion"},
+      {name: "Registro de aciertos", path: "/aciertos"},
       {name: "Simulación Monte Carlo", path: "/montecarlo"},
       {name: "Laboratorio de modelos", path: "/modelos"},
       {name: "Econometría", path: "/econometria"},
@@ -41,7 +43,7 @@ export default {
     // en inglés: barra lateral, pie y enlaces apuntando a las páginas /en/
     const T = {"Resumen": "Summary", "Partidos": "Matches", "Plantilla": "Squad", "Ficha de jugador": "Player profile", "Histórico": "History", "Predicción": "Prediction",
       "Simulación Monte Carlo": "Monte Carlo simulation", "Laboratorio de modelos": "Model lab", "Econometría": "Econometrics", "Metodología": "Methodology",
-      "Equipo": "Team", "Modelos y predicción": "Models & forecasts"};
+      "Equipo": "Team", "Modelos y predicción": "Models & forecasts", "Próximo rival": "Next opponent", "Registro de aciertos": "Track record"};
     const aqui = location.href.split(/[?#]/)[0].replace(/\\/$/, "");
     for (const a of document.querySelectorAll("#observablehq-sidebar a[href]")) {
       const url = new URL(a.getAttribute("href"), location.href).href;

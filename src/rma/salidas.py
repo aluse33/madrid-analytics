@@ -15,10 +15,10 @@ import joblib
 import numpy as np
 import pandas as pd
 
-from rma import escudos
+from rma import escudos, rivales
 from rma.config import RAIZ, Config, codigo_temporada, etiqueta_temporada
-from rma.ingest import espn, historico_liga, sofascore, wikipedia
-from rma.models import causal, inferencia, shrinkage, simulacion, xg_modelo
+from rma.ingest import cuotas, espn, historico_liga, sofascore, wikipedia
+from rma.models import causal, inferencia, registro, shrinkage, simulacion, xg_modelo
 from rma.models import dixon_coles as dc
 
 log = logging.getLogger(__name__)
@@ -135,9 +135,19 @@ def generar(cfg: Config, reentrenar_xg: bool | None = None) -> None:
     _json({"modelo": modelo.info | {"campo": modelo.campo, "rho": modelo.rho},
            "partidos": preds}, WEB / "prediccion.json")
 
-    # backtest: temporada anterior completa + lo que va de esta
+    # registro en tiempo real: se guarda (y congela al empezar el partido) cada predicción del Madrid
+    if not muestra:
+        try:
+            registrar_predicciones(cfg, preds, lp)
+        except Exception:  # noqa: BLE001
+            log.warning("No se pudo actualizar el registro de predicciones", exc_info=True)
+
+    # backtest: tres temporadas anteriores completas + lo que va de esta
+    bt = pd.DataFrame()
     if temp_ant:
-        desde = lp[lp.temporada == temp_ant[-1]].fecha.min()
+        # hasta tres temporadas atrás, dejando siempre al menos una anterior para el primer ajuste
+        k = max(1, min(3, len(temp_ant) - 1))
+        desde = lp[lp.temporada == temp_ant[-k]].fecha.min()
         bt = dc.backtest(lp, desde=desde, **kw)
         resumen = (bt.groupby("temporada")[["rps_modelo", "rps_base", "logloss_modelo", "logloss_base"]]
                    .mean().reset_index().to_dict(orient="records"))
@@ -148,6 +158,11 @@ def generar(cfg: Config, reentrenar_xg: bool | None = None) -> None:
                     n=("resultado", "size")).reset_index(drop=True))
         _json({"por_temporada": resumen, "n": len(bt),
                "calibracion_local": cal.to_dict(orient="records")}, WEB / "backtest.json")
+    if len(bt) and not muestra:
+        try:
+            escribir_aciertos(cfg, bt, lp, rm)
+        except Exception:  # noqa: BLE001
+            log.warning("No se pudo generar el registro de aciertos", exc_info=True)
 
     temporada_lp = lp[lp.temporada == temp]
     if (~temporada_lp.jugado).any():
@@ -194,6 +209,12 @@ def generar(cfg: Config, reentrenar_xg: bool | None = None) -> None:
         fin.append({"jugador": jugador, "tiros": len(np_), **g})
     _csv(pd.DataFrame(fin).sort_values("xg", ascending=False), WEB / "finalizacion.csv")
 
+    # ---------------- informe de cada rival de LaLiga (página del próximo rival)
+    try:
+        _json(_limpio(rivales.informe(lp[lp.temporada == temp], ti[ti.temporada == temp])), WEB / "rivales.json")
+    except Exception:  # noqa: BLE001
+        log.warning("No se pudo generar el informe de rivales", exc_info=True)
+
     # ---------------- ESPN: todas las competiciones, cronologías, alineaciones, Champions
     try:
         espn.salidas(cfg, WEB, _csv, _json)
@@ -237,6 +258,91 @@ def generar(cfg: Config, reentrenar_xg: bool | None = None) -> None:
         "muestra": muestra,
         "fallos": (cfg.raw / "fallos.txt").read_text().splitlines() if (cfg.raw / "fallos.txt").exists() else [],
     }, WEB / "estado.json")
+
+
+def _ruta_registro() -> Path:
+    return WEB / "registro_predicciones.csv"
+
+
+def _hora_oficial(cfg: Config) -> pd.DataFrame:
+    """Partidos de Liga de ESPN (rival, fecha, estado): su hora suele ir más al día que la de Understat."""
+    d = cfg.raw / "espn"
+    evs = espn._eventos(d / "calendario.json") + espn._eventos(d / "proximos.json")
+    df = pd.DataFrame(evs)
+    if df.empty:
+        return df
+    df = df[df.liga == "esp.1"].copy()
+    df["fecha"] = pd.to_datetime(df.fecha, utc=True)
+    df["rival"] = df.visitante.where(df.local == cfg.equipo, df.local)
+    return df
+
+
+def registrar_predicciones(cfg: Config, preds: list[dict], lp: pd.DataFrame) -> None:
+    """Guarda las predicciones de los partidos que no han empezado. Si ESPN da otra hora (o ya lo
+    da por empezado), manda lo más prudente: la hora más temprana de las dos."""
+    oficial = _hora_oficial(cfg)
+    ahora = pd.Timestamp.now(tz="UTC")
+    ajustadas = []
+    for p in preds:
+        f = pd.Timestamp(p["fecha"])
+        f = f.tz_localize("UTC") if f.tzinfo is None else f
+        if len(oficial):
+            m = oficial[(oficial.rival == p["rival"]) & ((oficial.fecha - f).abs() < pd.Timedelta(days=4))]
+            if len(m):
+                if (m.estado != "pre").any():
+                    continue  # ESPN ya lo da por empezado o jugado
+                f = min(f, m.fecha.min())
+        ajustadas.append({**p, "fecha": f})
+    previo = pd.read_csv(_ruta_registro()) if _ruta_registro().exists() else None
+    reg = registro.actualizar(previo, ajustadas, ahora)
+    _csv(reg, _ruta_registro())
+
+
+def _limpio(o):
+    """NaN -> None en estructuras anidadas (json.dumps escribiría NaN, que no es JSON válido)."""
+    if isinstance(o, dict):
+        return {k: _limpio(v) for k, v in o.items()}
+    if isinstance(o, list):
+        return [_limpio(v) for v in o]
+    if isinstance(o, float) and not np.isfinite(o):
+        return None
+    return o
+
+
+def escribir_aciertos(cfg: Config, bt: pd.DataFrame, lp: pd.DataFrame, rm: pd.DataFrame) -> None:
+    """aciertos.json: backtest de toda LaLiga y del Madrid, frente al ingenuo y (si hay cuotas) al mercado,
+    y la evaluación de las predicciones guardadas en tiempo real."""
+    try:
+        mercado = cuotas.probabilidades(cfg)
+    except Exception:  # noqa: BLE001
+        log.warning("Cuotas no disponibles", exc_info=True)
+        mercado = pd.DataFrame()
+    bt = cuotas.cruzar(bt, mercado)
+
+    en_vivo = pd.DataFrame()
+    if _ruta_registro().exists():
+        reg = pd.read_csv(_ruta_registro())
+        jug = lp[lp.jugado]
+        hace3 = jug[jug.fecha >= jug.fecha.max() - pd.Timedelta(days=365 * 3)]
+        base = np.array([(hace3.goles_local > hace3.goles_visitante).mean(), (hace3.goles_local == hace3.goles_visitante).mean(),
+                         (hace3.goles_local < hace3.goles_visitante).mean()])
+        m_rm = None
+        if len(mercado) and len(reg):
+            r2 = reg.assign(local=np.where(reg.condicion == "Local", cfg.equipo, reg.rival),
+                            visitante=np.where(reg.condicion == "Local", reg.rival, cfg.equipo),
+                            fecha=pd.to_datetime(reg.fecha, utc=True))
+            r2 = cuotas.cruzar(r2, mercado)
+            M = registro.a_perspectiva_madrid(r2, "m", cfg.equipo)
+            m_rm = pd.DataFrame({"game_id": r2.game_id.astype(int), "m_victoria": M[:, 0], "m_empate": M[:, 1], "m_derrota": M[:, 2]})
+        en_vivo = registro.evaluar(reg, rm, base=base, mercado=m_rm)
+
+    out = registro.resumen(bt, en_vivo, cfg.equipo)
+    out["hay_mercado"] = bool({"m_local"} <= set(bt.columns) and bt.m_local.notna().any())
+    out["desde"] = pd.to_datetime(bt.fecha).min().strftime("%Y-%m-%d")
+    cols = ["fecha", "rival", "condicion", "p_victoria", "p_empate", "p_derrota", "goles_esperados_rm",
+            "goles_esperados_rival", "guardada", "jugado", "gf", "gc", "resultado", "rps", "rps_base", "rps_mercado", "acierto"]
+    out["en_vivo_partidos"] = (en_vivo[[c for c in cols if c in en_vivo]].to_dict(orient="records") if len(en_vivo) else [])
+    _json(_limpio(out), WEB / "aciertos.json")
 
 
 def escribir_sofascore(cfg: Config, jp: pd.DataFrame | None = None) -> None:
