@@ -1,10 +1,10 @@
 {
- "actualizado": "2026-11-03T18:06+00:00",
+ "actualizado": "2026-11-04T03:15+00:00",
  "temporada": "2026/27",
  "partidos_jugados": 10,
  "ultimo_partido": "2026-10-25T20:00Z",
  "muestra": false,
  "fallos": [
-  "understat 2026-2027: 0 TLS Client Error: failed to do request: Get \"https://understat.com/getStatData\": dial tcp 45.90.32.72:443: i/o timeout (Client.Timeout exceeded while awaiting headers) for url: https://understat.com/getStatData"
+  "understat 2026-2027: Expecting value: line 1 column 1 (char 0)"
  ]
 }
