@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19",
+ "actualizado": "2026-11-26",
  "palmares": [
   {
    "tipo": "Nacional",
@@ -4025,17 +4025,29 @@
    "ronda": "League phase",
    "rival": "RB Leipzig",
    "marcador": "4–1 (H)"
+  },
+  {
+   "temporada": "2026–27",
+   "ronda": "League phase",
+   "rival": "AEK Athens",
+   "marcador": "3–2 (A)"
+  },
+  {
+   "temporada": "2026–27",
+   "ronda": "League phase",
+   "rival": "PSV Eindhoven",
+   "marcador": "5–1 (H)"
   }
  ],
  "europa_resumen": [
   {
    "competicion": "European Cup / Champions League",
-   "pj": 520,
-   "v": 314,
+   "pj": 522,
+   "v": 316,
    "e": 85,
    "d": 121,
-   "gf": 1147,
-   "gc": 583
+   "gf": 1155,
+   "gc": 586
   },
   {
    "competicion": "Cup Winners' Cup",
@@ -4102,12 +4114,12 @@
   },
   {
    "competicion": "Total",
-   "pj": 658,
-   "v": 394,
+   "pj": 660,
+   "v": 396,
    "e": 108,
    "d": 156,
-   "gf": 1410,
-   "gc": 728
+   "gf": 1418,
+   "gc": 731
   }
  ],
  "finales": [
